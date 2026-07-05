@@ -1,0 +1,3982 @@
+[
+  {
+    "textPl": "Czy w tej sytuacji musisz powstrzymać się od wyprzedzania?",
+    "textUz": "Bu vaziyatda o'zib o'tishdan tiyilishingiz kerakmi?",
+    "category": "O'zib o'tish",
+    "isPremium": true,
+    "mediaFileName": "GM-W12_458.mp4",
+    "mediaType": "video",
+    "options": [
+      {
+        "textPl": "Tak",
+        "textUz": "Ha",
+        "isCorrect": true
+      },
+      {
+        "textPl": "Nie",
+        "textUz": "Yo'q",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "textPl": "Czy w tej sytuacji wolno Ci wyprzedzić rowerzystę?",
+    "textUz": "Bu vaziyatda velosipedchidan o'zib o'tish mumkinmi?",
+    "category": "O'zib o'tish",
+    "isPremium": true,
+    "mediaFileName": "GM_W12_(460)N.mp4",
+    "mediaType": "video",
+    "options": [
+      {
+        "textPl": "Tak",
+        "textUz": "Ha",
+        "isCorrect": false
+      },
+      {
+        "textPl": "Nie",
+        "textUz": "Yo'q",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "textPl": "Czy w przedstawionej sytuacji możesz wyprzedzić pojazd z prawej strony?",
+    "textUz": "Ko'rsatilgan vaziyatda transport vositasidan o'ng tomondan o'zib o'tish mumkinmi?",
+    "category": "O'zib o'tish",
+    "isPremium": true,
+    "mediaFileName": "TF19_2ujecie.mp4",
+    "mediaType": "video",
+    "options": [
+      {
+        "textPl": "Tak",
+        "textUz": "Ha",
+        "isCorrect": true
+      },
+      {
+        "textPl": "Nie",
+        "textUz": "Yo'q",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "textPl": "Czy w tej sytuacji możesz kontynuować jazdę?",
+    "textUz": "Bu vaziyatda haydashni davom ettirish mumkinmi?",
+    "category": "Umumiy qoidalar",
+    "isPremium": true,
+    "mediaFileName": "GM_W9-1.mp4",
+    "mediaType": "video",
+    "options": [
+      {
+        "textPl": "Tak",
+        "textUz": "Ha",
+        "isCorrect": false
+      },
+      {
+        "textPl": "Nie",
+        "textUz": "Yo'q",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "textPl": "Czy w tej sytuacji masz obowiązek powstrzymać się od ruchu?",
+    "textUz": "Bu vaziyatda harakatdan tiyilish majburiyati bormi?",
+    "category": "Umumiy qoidalar",
+    "isPremium": true,
+    "mediaFileName": "GM_W9-1.mp4",
+    "mediaType": "video",
+    "options": [
+      {
+        "textPl": "Tak",
+        "textUz": "Ha",
+        "isCorrect": true
+      },
+      {
+        "textPl": "Nie",
+        "textUz": "Yo'q",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "textPl": "Czy w tej sytuacji możesz kontynuować jazdę?",
+    "textUz": "Bu vaziyatda haydashni davom ettirish mumkinmi?",
+    "category": "Umumiy qoidalar",
+    "isPremium": true,
+    "mediaFileName": "GM_W9-2.mp4",
+    "mediaType": "video",
+    "options": [
+      {
+        "textPl": "Tak",
+        "textUz": "Ha",
+        "isCorrect": true
+      },
+      {
+        "textPl": "Nie",
+        "textUz": "Yo'q",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "textPl": "Czy w tej sytuacji, żeby kontynuować jazdę, musisz oczekiwać na zmianę sygnału czerwonego na zielony?",
+    "textUz": "Bu vaziyatda haydashni davom ettirish uchun qizil signal yashilga o'zgarishini kutishingiz kerakmi?",
+    "category": "Umumiy qoidalar",
+    "isPremium": true,
+    "mediaFileName": "GM_W9-2.mp4",
+    "mediaType": "video",
+    "options": [
+      {
+        "textPl": "Tak",
+        "textUz": "Ha",
+        "isCorrect": false
+      },
+      {
+        "textPl": "Nie",
+        "textUz": "Yo'q",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "textPl": "Czy wolno Ci wyprzedzić na przejściu dla pieszych pojazd jadący prawym pasem ruchu?",
+    "textUz": "Piyodalar o'tish joyida o'ng yo'lakdan ketayotgan transport vositasidan o'zib o'tish mumkinmi?",
+    "category": "O'zib o'tish",
+    "isPremium": true,
+    "mediaFileName": "F22_wyprzedzanie_przed_przejsciem.mp4",
+    "mediaType": "video",
+    "options": [
+      {
+        "textPl": "Tak",
+        "textUz": "Ha",
+        "isCorrect": false
+      },
+      {
+        "textPl": "Nie",
+        "textUz": "Yo'q",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "textPl": "Czy w tej sytuacji wolno Ci wykonać manewr wyprzedzania?",
+    "textUz": "Bu vaziyatda o'zib o'tish manevrini bajarish mumkinmi?",
+    "category": "O'zib o'tish",
+    "isPremium": true,
+    "mediaFileName": "F12_wyprzedzanie_przed_skrzyzowaniem.mp4",
+    "mediaType": "video",
+    "options": [
+      {
+        "textPl": "Tak",
+        "textUz": "Ha",
+        "isCorrect": false
+      },
+      {
+        "textPl": "Nie",
+        "textUz": "Yo'q",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "textPl": "Czy na tej jezdni zabronione jest wyprzedzanie z prawej strony?",
+    "textUz": "Bu yo'lda o'ng tomondan o'zib o'tish taqiqlanganmi?",
+    "category": "O'zib o'tish",
+    "isPremium": true,
+    "mediaFileName": "F25a_wyprzedzanie_z_prawej_i_lewej.mp4",
+    "mediaType": "video",
+    "options": [
+      {
+        "textPl": "Tak",
+        "textUz": "Ha",
+        "isCorrect": false
+      },
+      {
+        "textPl": "Nie",
+        "textUz": "Yo'q",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "textPl": "Czy w tej sytuacji wolno Ci wyprzedzić jadący przed Tobą pojazd z prawej strony?",
+    "textUz": "Bu vaziyatda oldingizda ketayotgan transport vositasidan o'ng tomondan o'zib o'tish mumkinmi?",
+    "category": "O'zib o'tish",
+    "isPremium": true,
+    "mediaFileName": "F25_wyprzedzanie_z_prawej_strony_przejscie.mp4",
+    "mediaType": "video",
+    "options": [
+      {
+        "textPl": "Tak",
+        "textUz": "Ha",
+        "isCorrect": false
+      },
+      {
+        "textPl": "Nie",
+        "textUz": "Yo'q",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "textPl": "Czy w tej sytuacji musisz oczekiwać na opuszczenie przejścia dla pieszych przez dzieci i osobę kierującą ruchem?",
+    "textUz": "Bu vaziyatda bolalar va harakatni boshqarayotgan shaxs piyodalar o'tish joyini tark etishini kutishingiz kerakmi?",
+    "category": "Umumiy qoidalar",
+    "isPremium": true,
+    "mediaFileName": "GM_W9 - 3.mp4",
+    "mediaType": "video",
+    "options": [
+      {
+        "textPl": "Tak",
+        "textUz": "Ha",
+        "isCorrect": true
+      },
+      {
+        "textPl": "Nie",
+        "textUz": "Yo'q",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "textPl": "Czy wyprzedzając rowerzystę masz obowiązek zachować odstęp nie mniejszy niż jeden metr?",
+    "textUz": "Velosipedchidan o'zib o'tayotganda kamida bir metr masofa saqlash majburiyati bormi?",
+    "category": "O'zib o'tish",
+    "isPremium": true,
+    "mediaFileName": "GM_W12_(467)N.mp4",
+    "mediaType": "video",
+    "options": [
+      {
+        "textPl": "Tak",
+        "textUz": "Ha",
+        "isCorrect": true
+      },
+      {
+        "textPl": "Nie",
+        "textUz": "Yo'q",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "textPl": "Czy w tej sytuacji możesz rozpocząć wyprzedzanie?",
+    "textUz": "Bu vaziyatda o'zib o'tishni boshlash mumkinmi?",
+    "category": "O'zib o'tish",
+    "isPremium": true,
+    "mediaFileName": "Klip7 00_00_05-00_00_13~1.mp4",
+    "mediaType": "video",
+    "options": [
+      {
+        "textPl": "Tak",
+        "textUz": "Ha",
+        "isCorrect": false
+      },
+      {
+        "textPl": "Nie",
+        "textUz": "Yo'q",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "textPl": "Czy w tej sytuacji powstrzymasz się od wyprzedzania?",
+    "textUz": "Bu vaziyatda o'zib o'tishdan tiyilasizmi?",
+    "category": "O'zib o'tish",
+    "isPremium": true,
+    "mediaFileName": "GM_W12_(470) N.mp4",
+    "mediaType": "video",
+    "options": [
+      {
+        "textPl": "Tak",
+        "textUz": "Ha",
+        "isCorrect": true
+      },
+      {
+        "textPl": "Nie",
+        "textUz": "Yo'q",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "textPl": "Czy wyprzedzając hulajnogę elektryczną masz obowiązek utrzymać odstęp nie mniejszy niż 1 m?",
+    "textUz": "Elektr samokatdan o'zib o'tayotganda kamida 1 metr masofa saqlash majburiyati bormi?",
+    "category": "O'zib o'tish",
+    "isPremium": true,
+    "mediaFileName": "GM-W12_457.mp4",
+    "mediaType": "video",
+    "options": [
+      {
+        "textPl": "Tak",
+        "textUz": "Ha",
+        "isCorrect": true
+      },
+      {
+        "textPl": "Nie",
+        "textUz": "Yo'q",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "textPl": "Czy masz obowiązek ustąpić pierwszeństwa pieszemu wchodzącemu na przejście?",
+    "textUz": "O'tish joyiga kirayotgan piyodaga yo'l berish majburiyati bormi?",
+    "category": "Ustuvorlik qoidalari",
+    "isPremium": true,
+    "mediaFileName": "GM_W16_(340)N.mp4",
+    "mediaType": "video",
+    "options": [
+      {
+        "textPl": "Tak",
+        "textUz": "Ha",
+        "isCorrect": true
+      },
+      {
+        "textPl": "Nie",
+        "textUz": "Yo'q",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "textPl": "Czy postój pojazdu bezpośrednio za widocznym słupkiem wskaźnikowym jest dozwolony?",
+    "textUz": "Ko'rinib turgan ko'rsatkich ustuni ortida to'xtatib qo'yish ruxsat etilganmi?",
+    "category": "To'xtash va parking",
+    "isPremium": true,
+    "mediaFileName": "3001pic-zt.jpg",
+    "mediaType": "photo",
+    "options": [
+      {
+        "textPl": "Tak",
+        "textUz": "Ha",
+        "isCorrect": true
+      },
+      {
+        "textPl": "Nie",
+        "textUz": "Yo'q",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "textPl": "Czy za tym znakiem możesz spodziewać się przejazdu kolejowego bez sygnalizacji świetlnej?",
+    "textUz": "Bu belgidan keyin svetoforsiz temir yo'l o'tishini kutish mumkinmi?",
+    "category": "Yo'l belgilari",
+    "isPremium": true,
+    "mediaFileName": "3007pic-zt.jpg",
+    "mediaType": "photo",
+    "options": [
+      {
+        "textPl": "Tak",
+        "textUz": "Ha",
+        "isCorrect": true
+      },
+      {
+        "textPl": "Nie",
+        "textUz": "Yo'q",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "textPl": "Czy w razie unieruchomienia pojazdu na przejeździe kolejowym należy niezwłocznie usunąć go z przejazdu?",
+    "textUz": "Transport vositasi temir yo'l o'tishida to'xtab qolsa, uni darhol olib chiqish kerakmi?",
+    "category": "Umumiy qoidalar",
+    "isPremium": true,
+    "mediaFileName": "3008pic-zt.jpg",
+    "mediaType": "photo",
+    "options": [
+      {
+        "textPl": "Tak",
+        "textUz": "Ha",
+        "isCorrect": true
+      },
+      {
+        "textPl": "Nie",
+        "textUz": "Yo'q",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "textPl": "Czy zbliżając się do skrzyżowania drogą z pierwszeństwem przejazdu musisz zachować szczególną ostrożność?",
+    "textUz": "Ustuvor yo'l bilan chorrahaga yaqinlashganda alohida ehtiyotkorlik ko'rsatishingiz kerakmi?",
+    "category": "Ustuvorlik qoidalari",
+    "isPremium": true,
+    "mediaFileName": "3009pic-zt.jpg",
+    "mediaType": "photo",
+    "options": [
+      {
+        "textPl": "Tak",
+        "textUz": "Ha",
+        "isCorrect": true
+      },
+      {
+        "textPl": "Nie",
+        "textUz": "Yo'q",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "textPl": "Czy ten znak oznacza początek lub kontynuację drogi z pierwszeństwem?",
+    "textUz": "Bu belgi ustuvor yo'lning boshlanishi yoki davomini bildiradimi?",
+    "category": "Ustuvorlik qoidalari",
+    "isPremium": true,
+    "mediaFileName": "3011pic-zt.jpg",
+    "mediaType": "photo",
+    "options": [
+      {
+        "textPl": "Tak",
+        "textUz": "Ha",
+        "isCorrect": true
+      },
+      {
+        "textPl": "Nie",
+        "textUz": "Yo'q",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "textPl": "Czy za tym znakiem masz obowiązek włączyć światła awaryjne, aby sygnalizować postój uszkodzonego pojazdu?",
+    "textUz": "Bu belgidan keyin shikastlangan transport vositasining to'xtab turganini bildirish uchun avariya chiroqlarini yoqish majburiyati bormi?",
+    "category": "To'xtash va parking",
+    "isPremium": true,
+    "mediaFileName": "3013pic-zt.jpg",
+    "mediaType": "photo",
+    "options": [
+      {
+        "textPl": "Tak",
+        "textUz": "Ha",
+        "isCorrect": true
+      },
+      {
+        "textPl": "Nie",
+        "textUz": "Yo'q",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "textPl": "Czy w strefie zamieszkania dozwolone jest zatrzymanie pojazdu?",
+    "textUz": "Turar-joy zonasida transport vositasini to'xtatish ruxsat etilganmi?",
+    "category": "To'xtash va parking",
+    "isPremium": true,
+    "mediaFileName": "3014pic-zt.jpg",
+    "mediaType": "photo",
+    "options": [
+      {
+        "textPl": "Tak",
+        "textUz": "Ha",
+        "isCorrect": true
+      },
+      {
+        "textPl": "Nie",
+        "textUz": "Yo'q",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "textPl": "Czy w tej sytuacji wolno Ci kontynuować jazdę przez przejście dla pieszych bez zatrzymania?",
+    "textUz": "Bu vaziyatda piyodalar o'tish joyidan to'xtamasdan o'tishni davom ettirish mumkinmi?",
+    "category": "To'xtash va parking",
+    "isPremium": true,
+    "mediaFileName": "3015pic-zt.jpg",
+    "mediaType": "photo",
+    "options": [
+      {
+        "textPl": "Tak",
+        "textUz": "Ha",
+        "isCorrect": true
+      },
+      {
+        "textPl": "Nie",
+        "textUz": "Yo'q",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "textPl": "Czy w tej sytuacji zbliżasz się do przejazdu dla rowerzystów?",
+    "textUz": "Bu vaziyatda velosipedchilar o'tish joyiga yaqinlashyapsizmi?",
+    "category": "Umumiy qoidalar",
+    "isPremium": true,
+    "mediaFileName": "3016pic-zt.jpg",
+    "mediaType": "photo",
+    "options": [
+      {
+        "textPl": "Tak",
+        "textUz": "Ha",
+        "isCorrect": false
+      },
+      {
+        "textPl": "Nie",
+        "textUz": "Yo'q",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "textPl": "Czy w tych warunkach atmosferycznych masz prawo jechać z włączonymi światłami do jazdy dziennej?",
+    "textUz": "Shu ob-havo sharoitida kunduzgi yurish chiroqlari yoqilgan holda yurish huquqingiz bormi?",
+    "category": "Svetofor va yorug'lik",
+    "isPremium": true,
+    "mediaFileName": "3018pic-zt.jpg",
+    "mediaType": "photo",
+    "options": [
+      {
+        "textPl": "Tak",
+        "textUz": "Ha",
+        "isCorrect": true
+      },
+      {
+        "textPl": "Nie",
+        "textUz": "Yo'q",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "textPl": "Czy zatrzymanie pojazdu na wiadukcie w celu wysadzenia pasażera jest zabronione?",
+    "textUz": "Yo'lovchini tushirish uchun estakadada to'xtash taqiqlanganmi?",
+    "category": "To'xtash va parking",
+    "isPremium": true,
+    "mediaFileName": "3022pic-zt.jpg",
+    "mediaType": "photo",
+    "options": [
+      {
+        "textPl": "Tak",
+        "textUz": "Ha",
+        "isCorrect": true
+      },
+      {
+        "textPl": "Nie",
+        "textUz": "Yo'q",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "textPl": "Czy ten znak oznacza wyjazd z miejscowości?",
+    "textUz": "Bu belgi aholi punktidan chiqishni bildiradimi?",
+    "category": "Yo'l belgilari",
+    "isPremium": true,
+    "mediaFileName": "3023pic-zt.jpg",
+    "mediaType": "photo",
+    "options": [
+      {
+        "textPl": "Tak",
+        "textUz": "Ha",
+        "isCorrect": true
+      },
+      {
+        "textPl": "Nie",
+        "textUz": "Yo'q",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "textPl": "Czy ten znak oznacza wjazd do miejscowości?",
+    "textUz": "Bu belgi aholi punktiga kirishni bildiradimi?",
+    "category": "Yo'l belgilari",
+    "isPremium": true,
+    "mediaFileName": "3025pic-zt.jpg",
+    "mediaType": "photo",
+    "options": [
+      {
+        "textPl": "Tak",
+        "textUz": "Ha",
+        "isCorrect": true
+      },
+      {
+        "textPl": "Nie",
+        "textUz": "Yo'q",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "textPl": "Czy w tej sytuacji wjeżdżasz do obszaru zabudowanego?",
+    "textUz": "Bu vaziyatda aholi punktiga kiryapsizmi?",
+    "category": "Umumiy qoidalar",
+    "isPremium": true,
+    "mediaFileName": "3026pic-zt.jpg",
+    "mediaType": "photo",
+    "options": [
+      {
+        "textPl": "Tak",
+        "textUz": "Ha",
+        "isCorrect": true
+      },
+      {
+        "textPl": "Nie",
+        "textUz": "Yo'q",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "textPl": "Czy wolno Ci się zatrzymać w tym miejscu na jezdni?",
+    "textUz": "Shu joyda yo'lda to'xtash mumkinmi?",
+    "category": "To'xtash va parking",
+    "isPremium": true,
+    "mediaFileName": "3036pic-zt.jpg",
+    "mediaType": "photo",
+    "options": [
+      {
+        "textPl": "Tak",
+        "textUz": "Ha",
+        "isCorrect": false
+      },
+      {
+        "textPl": "Nie",
+        "textUz": "Yo'q",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "textPl": "Czy ten znak ostrzega o skrzyżowaniu z drogą podporządkowaną, występującą po prawej stronie?",
+    "textUz": "Bu belgi o'ng tomondagi tobe yo'l bilan kesishish haqida ogohlantiradimi?",
+    "category": "Yo'l belgilari",
+    "isPremium": true,
+    "mediaFileName": "3041pic-zt.jpg",
+    "mediaType": "photo",
+    "options": [
+      {
+        "textPl": "Tak",
+        "textUz": "Ha",
+        "isCorrect": true
+      },
+      {
+        "textPl": "Nie",
+        "textUz": "Yo'q",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "textPl": "Czy w tym miejscu wolno Ci się zatrzymać przy lewej krawędzi jezdni?",
+    "textUz": "Shu joyda yo'lning chap chetida to'xtash mumkinmi?",
+    "category": "To'xtash va parking",
+    "isPremium": true,
+    "mediaFileName": "3052pic-zt.jpg",
+    "mediaType": "photo",
+    "options": [
+      {
+        "textPl": "Tak",
+        "textUz": "Ha",
+        "isCorrect": false
+      },
+      {
+        "textPl": "Nie",
+        "textUz": "Yo'q",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "textPl": "Czy w tym miejscu masz prawo zatrzymać samochód osobowy na drodze w celu wysadzenia pasażera?",
+    "textUz": "Shu joyda yo'lovchini tushirish uchun yengil avtomobilni yo'lga to'xtatish huquqingiz bormi?",
+    "category": "To'xtash va parking",
+    "isPremium": true,
+    "mediaFileName": "3055pic-zt.jpg",
+    "mediaType": "photo",
+    "options": [
+      {
+        "textPl": "Tak",
+        "textUz": "Ha",
+        "isCorrect": false
+      },
+      {
+        "textPl": "Nie",
+        "textUz": "Yo'q",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "textPl": "Czy w tej sytuacji podczas wymijania masz obowiązek zachować szczególną ostrożność?",
+    "textUz": "Bu vaziyatda ayrilib o'tayotganda alohida ehtiyotkorlik ko'rsatish majburiyati bormi?",
+    "category": "Umumiy qoidalar",
+    "isPremium": true,
+    "mediaFileName": "3096pic-zt.jpg",
+    "mediaType": "photo",
+    "options": [
+      {
+        "textPl": "Tak",
+        "textUz": "Ha",
+        "isCorrect": true
+      },
+      {
+        "textPl": "Nie",
+        "textUz": "Yo'q",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "textPl": "Czy ten znak ostrzega o zbliżaniu się do skrzyżowania z drogą podporządkowaną znajdującą się po lewej stronie?",
+    "textUz": "Bu belgi chap tomondagi tobe yo'l bilan kesishishga yaqinlashish haqida ogohlantiradimi?",
+    "category": "Yo'l belgilari",
+    "isPremium": true,
+    "mediaFileName": "1A1125.mp4",
+    "mediaType": "video",
+    "options": [
+      {
+        "textPl": "Tak",
+        "textUz": "Ha",
+        "isCorrect": true
+      },
+      {
+        "textPl": "Nie",
+        "textUz": "Yo'q",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "textPl": "Masz zamiar kontynuować jazdę w lewo na najbliższym skrzyżowaniu. Czy w tej sytuacji masz obowiązek ustąpić pierwszeństwa pojazdom, które zbliżają się z przeciwka?",
+    "textUz": "Eng yaqin chorrahada chapga yurishni davom ettirmoqchisiz. Bu vaziyatda qarshi tomondan yaqinlashayotgan transport vositalariga yo'l berish majburiyati bormi?",
+    "category": "Ustuvorlik qoidalari",
+    "isPremium": true,
+    "mediaFileName": "216_1024x576.jpg",
+    "mediaType": "photo",
+    "options": [
+      {
+        "textPl": "Tak",
+        "textUz": "Ha",
+        "isCorrect": false
+      },
+      {
+        "textPl": "Nie",
+        "textUz": "Yo'q",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "textPl": "Czy znak \"Nakaz jazdy prosto\" obowiązuje na najbliższym skrzyżowaniu lub w miejscu, gdzie występuje możliwość zmiany kierunku jazdy?",
+    "textUz": "\"To'g'riga yurish buyrug'i\" belgisi eng yaqin chorrahada yoki yo'nalishni o'zgartirish imkoni bo'lgan joyda amal qiladimi?",
+    "category": "Yo'l belgilari",
+    "isPremium": true,
+    "mediaFileName": "1670ztV_2.mp4",
+    "mediaType": "video",
+    "options": [
+      {
+        "textPl": "Tak",
+        "textUz": "Ha",
+        "isCorrect": true
+      },
+      {
+        "textPl": "Nie",
+        "textUz": "Yo'q",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "textPl": "Czy w tej sytuacji masz prawo zatrzymać pojazd na chodniku w odległości 3 metrów od wiaty widocznego przystanku?",
+    "textUz": "Bu vaziyatda ko'rinib turgan bekat inshootidan 3 metr masofada trotuarga transport vositasini to'xtatish huquqingiz bormi?",
+    "category": "To'xtash va parking",
+    "isPremium": true,
+    "mediaFileName": "4086D15orgbm.jpg",
+    "mediaType": "photo",
+    "options": [
+      {
+        "textPl": "Tak",
+        "textUz": "Ha",
+        "isCorrect": false
+      },
+      {
+        "textPl": "Nie",
+        "textUz": "Yo'q",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "textPl": "Czy  podczas omijania pojazdu  oznaczonego z przodu i z tyłu widoczną tablicą barwy niebieskiej oraz z włączonymi światłami awaryjnymi, masz obowiązek zachować szczególną ostrożność w czasie wsiadania lub wysiadania osoby niepełnosprawnej?",
+    "textUz": "Old va orqa tomonida ko'k rangli taxtacha va yoqilgan avariya chiroqlari bilan belgilangan transport vositasini aylanib o'tayotganda, nogiron shaxs chiqayotgan yoki kirayotganda alohida ehtiyotkorlik ko'rsatish majburiyati bormi?",
+    "category": "Svetofor va yorug'lik",
+    "isPremium": true,
+    "mediaFileName": "image 002GN.jpg",
+    "mediaType": "photo",
+    "options": [
+      {
+        "textPl": "Tak",
+        "textUz": "Ha",
+        "isCorrect": true
+      },
+      {
+        "textPl": "Nie",
+        "textUz": "Yo'q",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "textPl": "Czy omijając pojazd  oznaczony z przodu i z tyłu widoczną tablicą barwy niebieskiej i  z włączonymi światłami awaryjnymi, masz zawsze obowiązek zatrzymać się podczas wsiadania lub wysiadania osoby niepełnosprawnej ?",
+    "textUz": "Old va orqa tomonida ko'k rangli taxtacha va yoqilgan avariya chiroqlari bilan belgilangan transport vositasini aylanib o'tayotganda, nogiron shaxs chiqayotgan yoki kirayotganda har doim to'xtash majburiyati bormi?",
+    "category": "To'xtash va parking",
+    "isPremium": true,
+    "mediaFileName": "image 002GN.jpg",
+    "mediaType": "photo",
+    "options": [
+      {
+        "textPl": "Tak",
+        "textUz": "Ha",
+        "isCorrect": false
+      },
+      {
+        "textPl": "Nie",
+        "textUz": "Yo'q",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "textPl": "Czy na tak oznaczonym miejscu możesz dokonać postoju pojazdu, jeżeli przewozisz osobę niepełnosprawną legitymującą się kartą parkingową?",
+    "textUz": "Agar to'xtash kartasiga ega nogiron shaxsni tashiyotgan bo'lsangiz, shunday belgilangan joyda transport vositasini to'xtatib qo'yish mumkinmi?",
+    "category": "To'xtash va parking",
+    "isPremium": true,
+    "mediaFileName": "image 003GN.jpg",
+    "mediaType": "photo",
+    "options": [
+      {
+        "textPl": "Tak",
+        "textUz": "Ha",
+        "isCorrect": true
+      },
+      {
+        "textPl": "Nie",
+        "textUz": "Yo'q",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "textPl": "Czy podczas omijania pojazdu oznaczonego taką tablicą i z włączonymi światłami awaryjnymi, z którego wysiada osoba niepełnosprawna należy zachować szczególną ostrożność i w razie potrzeby zatrzymać się?",
+    "textUz": "Shunday taxtacha bilan belgilangan va avariya chiroqlari yoqilgan, undan nogiron shaxs tushayotgan transport vositasini aylanib o'tayotganda alohida ehtiyotkorlik ko'rsatish va zarur bo'lsa to'xtash kerakmi?",
+    "category": "To'xtash va parking",
+    "isPremium": true,
+    "mediaFileName": "image 002GN.jpg",
+    "mediaType": "photo",
+    "options": [
+      {
+        "textPl": "Tak",
+        "textUz": "Ha",
+        "isCorrect": true
+      },
+      {
+        "textPl": "Nie",
+        "textUz": "Yo'q",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "textPl": "Czy w tej sytuacji masz prawo kontynuować jazdę bez zwracania uwagi na zachowanie pieszych?",
+    "textUz": "Bu vaziyatda piyodalarning xatti-harakatiga e'tibor bermasdan haydashni davom ettirish huquqingiz bormi?",
+    "category": "Umumiy qoidalar",
+    "isPremium": true,
+    "mediaFileName": "GM_W16(325).jpg",
+    "mediaType": "photo",
+    "options": [
+      {
+        "textPl": "Tak",
+        "textUz": "Ha",
+        "isCorrect": false
+      },
+      {
+        "textPl": "Nie",
+        "textUz": "Yo'q",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "textPl": "Czy w tej sytuacji, zbliżając się do przejazdu kolejowego, masz obowiązek zatrzymać pojazd przed znakiem STOP?",
+    "textUz": "Bu vaziyatda temir yo'l o'tishiga yaqinlashganda, STOP belgisi oldida to'xtash majburiyati bormi?",
+    "category": "To'xtash va parking",
+    "isPremium": true,
+    "mediaFileName": "3004pic-zt.jpg",
+    "mediaType": "photo",
+    "options": [
+      {
+        "textPl": "Tak",
+        "textUz": "Ha",
+        "isCorrect": false
+      },
+      {
+        "textPl": "Nie",
+        "textUz": "Yo'q",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "textPl": "Czy kierując pojazdem w strefie zamieszkania masz obowiązek stale zachowywać szczególną ostrożność?",
+    "textUz": "Turar-joy zonasida transport vositasini boshqarganda doimiy alohida ehtiyotkorlik ko'rsatish majburiyati bormi?",
+    "category": "Umumiy qoidalar",
+    "isPremium": true,
+    "mediaFileName": "3014pic-zt.jpg",
+    "mediaType": "photo",
+    "options": [
+      {
+        "textPl": "Tak",
+        "textUz": "Ha",
+        "isCorrect": false
+      },
+      {
+        "textPl": "Nie",
+        "textUz": "Yo'q",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "textPl": "Czy na tej drodze poza obszarem zabudowanym dopuszcza się wyprzedzanie pojazdu silnikowego z prawej strony?",
+    "textUz": "Bu yo'lda, aholi punktidan tashqarida, motorli transport vositasidan o'ng tomondan o'zib o'tishga yo'l qo'yiladimi?",
+    "category": "O'zib o'tish",
+    "isPremium": true,
+    "mediaFileName": "Slajd549_cen_1024x576.jpg",
+    "mediaType": "photo",
+    "options": [
+      {
+        "textPl": "Tak",
+        "textUz": "Ha",
+        "isCorrect": false
+      },
+      {
+        "textPl": "Nie",
+        "textUz": "Yo'q",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "textPl": "Czy ten znak ostrzega, że zbliżasz się do skrzyżowania z wlotem drogi jednokierunkowej występującej z lewej strony?",
+    "textUz": "Bu belgi chap tomondan bir tomonlama yo'l kirishi bo'lgan chorrahaga yaqinlashayotganingiz haqida ogohlantiradimi?",
+    "category": "Yo'l belgilari",
+    "isPremium": true,
+    "mediaFileName": "1_1454ztV.mp4",
+    "mediaType": "video",
+    "options": [
+      {
+        "textPl": "Tak",
+        "textUz": "Ha",
+        "isCorrect": false
+      },
+      {
+        "textPl": "Nie",
+        "textUz": "Yo'q",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "textPl": "Czy w tej sytuacji, zachowanie hulajnogisty zbliżającego się do skrzyżowania może stanowić zagrożenie?",
+    "textUz": "Bu vaziyatda chorrahaga yaqinlashayotgan samokatchining xatti-harakati xavf tug'dirishi mumkinmi?",
+    "category": "Umumiy qoidalar",
+    "isPremium": true,
+    "mediaFileName": "Scena 02_v4 - 06 03 2025.mp4",
+    "mediaType": "video",
+    "options": [
+      {
+        "textPl": "Tak",
+        "textUz": "Ha",
+        "isCorrect": true
+      },
+      {
+        "textPl": "Nie",
+        "textUz": "Yo'q",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "textPl": "Czy w tej sytuacji, pieszy biegnący chodnikiem może stanowić zagrożenie?",
+    "textUz": "Bu vaziyatda trotuar bo'ylab yugurayotgan piyoda xavf tug'dirishi mumkinmi?",
+    "category": "Umumiy qoidalar",
+    "isPremium": true,
+    "mediaFileName": "Scena 04.mp4",
+    "mediaType": "video",
+    "options": [
+      {
+        "textPl": "Tak",
+        "textUz": "Ha",
+        "isCorrect": true
+      },
+      {
+        "textPl": "Nie",
+        "textUz": "Yo'q",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "textPl": "Czy w tej sytuacji, koparko-ładowarka wjeżdżająca na skrzyżowanie stanowi zagrożenie?",
+    "textUz": "Bu vaziyatda chorrahaga kirayotgan ekskavator-yuklagich xavf tug'diryaptimi?",
+    "category": "Umumiy qoidalar",
+    "isPremium": true,
+    "mediaFileName": "Scena 05 v2 - 23 01 2025.mp4",
+    "mediaType": "video",
+    "options": [
+      {
+        "textPl": "Tak",
+        "textUz": "Ha",
+        "isCorrect": true
+      },
+      {
+        "textPl": "Nie",
+        "textUz": "Yo'q",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "textPl": "Czy w tej sytuacji, nagłe pojawienie się hulajnogisty z drogi wewnętrznej jest zagrożeniem?",
+    "textUz": "Bu vaziyatda ichki yo'ldan samokatchining to'satdan paydo bo'lishi xavfmi?",
+    "category": "Umumiy qoidalar",
+    "isPremium": true,
+    "mediaFileName": "Scena 07_v3 - 07 11 2024.mp4",
+    "mediaType": "video",
+    "options": [
+      {
+        "textPl": "Tak",
+        "textUz": "Ha",
+        "isCorrect": true
+      },
+      {
+        "textPl": "Nie",
+        "textUz": "Yo'q",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "textPl": "Czy w tej sytuacji, pojazd zaparkowany na chodniku stanowi zagrożenie?",
+    "textUz": "Bu vaziyatda trotuarga qo'yilgan transport vositasi xavf tug'diryaptimi?",
+    "category": "To'xtash va parking",
+    "isPremium": true,
+    "mediaFileName": "Scena 19_v3 - 08 11 2024.mp4",
+    "mediaType": "video",
+    "options": [
+      {
+        "textPl": "Tak",
+        "textUz": "Ha",
+        "isCorrect": false
+      },
+      {
+        "textPl": "Nie",
+        "textUz": "Yo'q",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "textPl": "Czy w tej sytuacji, silny wiatr boczny stwarza zagrożenie dla motocyklisty i innych uczestników ruchu znajdujących się w pobliżu?",
+    "textUz": "Bu vaziyatda kuchli yon shamol mototsiklchi va yaqin atrofdagi boshqa yo'l harakati ishtirokchilari uchun xavf tug'diradimi?",
+    "category": "Umumiy qoidalar",
+    "isPremium": true,
+    "mediaFileName": "Scena 36.mp4",
+    "mediaType": "video",
+    "options": [
+      {
+        "textPl": "Tak",
+        "textUz": "Ha",
+        "isCorrect": true
+      },
+      {
+        "textPl": "Nie",
+        "textUz": "Yo'q",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "textPl": "Czy w tej sytuacji ciężarówka jadąca przed tobą tym samym pasem ruchu stanowi zagrożenie?",
+    "textUz": "Bu vaziyatda oldingizda xuddi shu yo'lakdan ketayotgan yuk mashinasi xavf tug'diryaptimi?",
+    "category": "Umumiy qoidalar",
+    "isPremium": true,
+    "mediaFileName": "Scena 08.mp4",
+    "mediaType": "video",
+    "options": [
+      {
+        "textPl": "Tak",
+        "textUz": "Ha",
+        "isCorrect": false
+      },
+      {
+        "textPl": "Nie",
+        "textUz": "Yo'q",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "textPl": "Czy w tej sytuacji pojazd członowy wyjeżdżający z drogi podporządkowanej i jadący w lewo może stanowić zagrożenie?",
+    "textUz": "Bu vaziyatda tobe yo'ldan chiqib chapga ketayotgan bo'g'inli transport vositasi xavf tug'dirishi mumkinmi?",
+    "category": "Umumiy qoidalar",
+    "isPremium": true,
+    "mediaFileName": "Scena 08.mp4",
+    "mediaType": "video",
+    "options": [
+      {
+        "textPl": "Tak",
+        "textUz": "Ha",
+        "isCorrect": true
+      },
+      {
+        "textPl": "Nie",
+        "textUz": "Yo'q",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "textPl": "Czy w tej sytuacji pojazd poruszający się poboczem może stanowić zagrożenie?",
+    "textUz": "Bu vaziyatda yo'l chekkasidan harakatlanayotgan transport vositasi xavf tug'dirishi mumkinmi?",
+    "category": "Umumiy qoidalar",
+    "isPremium": true,
+    "mediaFileName": "Scena 18.mp4",
+    "mediaType": "video",
+    "options": [
+      {
+        "textPl": "Tak",
+        "textUz": "Ha",
+        "isCorrect": true
+      },
+      {
+        "textPl": "Nie",
+        "textUz": "Yo'q",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "textPl": "Czy w tej sytuacji pojazd poruszający się lewym pasem ruchu stanowi zagrożenie?",
+    "textUz": "Bu vaziyatda chap yo'lakdan harakatlanayotgan transport vositasi xavf tug'diryaptimi?",
+    "category": "Umumiy qoidalar",
+    "isPremium": true,
+    "mediaFileName": "Scena 18.mp4",
+    "mediaType": "video",
+    "options": [
+      {
+        "textPl": "Tak",
+        "textUz": "Ha",
+        "isCorrect": false
+      },
+      {
+        "textPl": "Nie",
+        "textUz": "Yo'q",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "textPl": "Czy w tej sytuacji koparko-ładowarka stanowi zagrożenie?",
+    "textUz": "Bu vaziyatda ekskavator-yuklagich xavf tug'diryaptimi?",
+    "category": "Umumiy qoidalar",
+    "isPremium": true,
+    "mediaFileName": "Scena 43_v3 - 06 03 2025.mp4",
+    "mediaType": "video",
+    "options": [
+      {
+        "textPl": "Tak",
+        "textUz": "Ha",
+        "isCorrect": false
+      },
+      {
+        "textPl": "Nie",
+        "textUz": "Yo'q",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "textPl": "Czy w tej sytuacji pieszy na przejściu stwarza zagrożenie?",
+    "textUz": "Bu vaziyatda o'tish joyidagi piyoda xavf tug'diryaptimi?",
+    "category": "Umumiy qoidalar",
+    "isPremium": true,
+    "mediaFileName": "Scena 47_v4 - 06 03 2025.mp4",
+    "mediaType": "video",
+    "options": [
+      {
+        "textPl": "Tak",
+        "textUz": "Ha",
+        "isCorrect": false
+      },
+      {
+        "textPl": "Nie",
+        "textUz": "Yo'q",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "textPl": "Czy sygnalizacja świetlna na przejściu dla pieszych zwalnia Cię z obowiązku zachowania szczególnej ostrożności?",
+    "textUz": "Piyodalar o'tish joyidagi svetofor sizni alohida ehtiyotkorlik ko'rsatish majburiyatidan ozod qiladimi?",
+    "category": "Umumiy qoidalar",
+    "isPremium": true,
+    "mediaFileName": "003D13_a_org.jpg",
+    "mediaType": "photo",
+    "options": [
+      {
+        "textPl": "Tak",
+        "textUz": "Ha",
+        "isCorrect": false
+      },
+      {
+        "textPl": "Nie",
+        "textUz": "Yo'q",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "textPl": "Czy w przedstawionej sytuacji jesteś ostrzegany o możliwości napotkania na drodze zwierząt gospodarskich?",
+    "textUz": "Ko'rsatilgan vaziyatda yo'lda qishloq xo'jaligi hayvonlariga duch kelish ehtimoli haqida ogohlantirilyapsizmi?",
+    "category": "Yo'l belgilari",
+    "isPremium": true,
+    "mediaFileName": "IMG_1101d8org.jpg",
+    "mediaType": "photo",
+    "options": [
+      {
+        "textPl": "Tak",
+        "textUz": "Ha",
+        "isCorrect": true
+      },
+      {
+        "textPl": "Nie",
+        "textUz": "Yo'q",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "textPl": "Czy w przedstawionej sytuacji zbliżasz się do skrzyżowania drogą podporządkowaną?",
+    "textUz": "Ko'rsatilgan vaziyatda tobe yo'l bilan chorrahaga yaqinlashyapsizmi?",
+    "category": "Umumiy qoidalar",
+    "isPremium": true,
+    "mediaFileName": "1226ztV.mp4",
+    "mediaType": "video",
+    "options": [
+      {
+        "textPl": "Tak",
+        "textUz": "Ha",
+        "isCorrect": true
+      },
+      {
+        "textPl": "Nie",
+        "textUz": "Yo'q",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "textPl": "Czy w przedstawionej sytuacji zbliżasz się do skrzyżowania drogą podporządkowaną?",
+    "textUz": "Ko'rsatilgan vaziyatda tobe yo'l bilan chorrahaga yaqinlashyapsizmi?",
+    "category": "Umumiy qoidalar",
+    "isPremium": true,
+    "mediaFileName": "1292ztV.mp4",
+    "mediaType": "video",
+    "options": [
+      {
+        "textPl": "Tak",
+        "textUz": "Ha",
+        "isCorrect": true
+      },
+      {
+        "textPl": "Nie",
+        "textUz": "Yo'q",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "textPl": "Czy w tej sytuacji kierujący pojazdem nr 1 ma obowiązek zjechać jak najbliżej lewej krawędzi pasa ruchu?",
+    "textUz": "Bu vaziyatda 1-raqamli transport vositasi haydovchisi yo'lakning chap chetiga imkon qadar yaqinroq chetlanish majburiyatiga egami?",
+    "category": "Yo'lak va manevrlar",
+    "isPremium": true,
+    "mediaFileName": "W11-korytarz-004.mp4",
+    "mediaType": "video",
+    "options": [
+      {
+        "textPl": "Tak",
+        "textUz": "Ha",
+        "isCorrect": true
+      },
+      {
+        "textPl": "Nie",
+        "textUz": "Yo'q",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "textPl": "Czy za tym znakiem, znajdujące się na jezdni urządzenia wymuszające powolną jazdę, mogą nie być oznakowane znakami ostrzegawczymi?",
+    "textUz": "Bu belgidan keyin yo'ldagi sekin haydashga majbur qiluvchi qurilmalar ogohlantiruvchi belgilar bilan belgilanmasligi mumkinmi?",
+    "category": "Yo'l belgilari",
+    "isPremium": true,
+    "mediaFileName": "4562D15_n.jpg",
+    "mediaType": "photo",
+    "options": [
+      {
+        "textPl": "Tak",
+        "textUz": "Ha",
+        "isCorrect": true
+      },
+      {
+        "textPl": "Nie",
+        "textUz": "Yo'q",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "textPl": "Czy w przedstawionej sytuacji kierujący pojazdami są obowiązani umożliwić zmianę pasa ruchu pojazdom znajdującym się na pasie zanikającym?",
+    "textUz": "Ko'rsatilgan vaziyatda haydovchilar tugayotgan yo'lakdagi transport vositalariga yo'lak almashtirish imkonini berish majburiyatiga egami?",
+    "category": "Umumiy qoidalar",
+    "isPremium": true,
+    "mediaFileName": "W11_suwak_309-5.mp4",
+    "mediaType": "video",
+    "options": [
+      {
+        "textPl": "Tak",
+        "textUz": "Ha",
+        "isCorrect": false
+      },
+      {
+        "textPl": "Nie",
+        "textUz": "Yo'q",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "textPl": "Czy dojeżdżając do tak oznakowanego przejazdu możesz spodziewać się ograniczonej widoczności?",
+    "textUz": "Shunday belgilangan o'tishga yetib borganda cheklangan ko'rinishni kutish mumkinmi?",
+    "category": "Yo'l belgilari",
+    "isPremium": true,
+    "mediaFileName": "MW 18(151,154).jpg",
+    "mediaType": "photo",
+    "options": [
+      {
+        "textPl": "Tak",
+        "textUz": "Ha",
+        "isCorrect": true
+      },
+      {
+        "textPl": "Nie",
+        "textUz": "Yo'q",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "textPl": "Czy zbliżając się do przejazdu kolejowego z siecią trakcyjną powinieneś mieć świadomość dodatkowego zagrożenia?",
+    "textUz": "Elektr tarmog'i bo'lgan temir yo'l o'tishiga yaqinlashganda qo'shimcha xavf haqida bilishingiz kerakmi?",
+    "category": "Umumiy qoidalar",
+    "isPremium": true,
+    "mediaFileName": "MW 18(152).jpg.jpg",
+    "mediaType": "photo",
+    "options": [
+      {
+        "textPl": "Tak",
+        "textUz": "Ha",
+        "isCorrect": true
+      },
+      {
+        "textPl": "Nie",
+        "textUz": "Yo'q",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "textPl": "Czy w tym miejscu, przejeżdżając przez torowisko bez zatrzymania możesz narazić  wiele osób na utratę życia lub zdrowia?",
+    "textUz": "Shu joyda relsdan to'xtamasdan o'tsangiz, ko'plab odamlarni hayoti yoki sog'lig'ini yo'qotish xavfiga qo'yishingiz mumkinmi?",
+    "category": "To'xtash va parking",
+    "isPremium": true,
+    "mediaFileName": "MW 18(151,154).jpg",
+    "mediaType": "photo",
+    "options": [
+      {
+        "textPl": "Tak",
+        "textUz": "Ha",
+        "isCorrect": true
+      },
+      {
+        "textPl": "Nie",
+        "textUz": "Yo'q",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "textPl": "Czy zbliżając się do przejazdu kolejowego masz obowiązek dostosować prędkość do zmieniających się warunków?",
+    "textUz": "Temir yo'l o'tishiga yaqinlashganda tezlikni o'zgaruvchan sharoitlarga moslashtirish majburiyati bormi?",
+    "category": "Umumiy qoidalar",
+    "isPremium": true,
+    "mediaFileName": "MW 18(155).mp4",
+    "mediaType": "video",
+    "options": [
+      {
+        "textPl": "Tak",
+        "textUz": "Ha",
+        "isCorrect": true
+      },
+      {
+        "textPl": "Nie",
+        "textUz": "Yo'q",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "textPl": "Czy jazda z prędkością mogącą utrudnić zatrzymanie pojazdu we właściwym miejscu w chwili rozpoczęcia wyświetlania sygnału czerwonego jest dopuszczalna?",
+    "textUz": "Qizil signal yona boshlagan paytda transport vositasini to'g'ri joyda to'xtatishga xalaqit berishi mumkin bo'lgan tezlikda yurish ruxsat etilganmi?",
+    "category": "To'xtash va parking",
+    "isPremium": true,
+    "mediaFileName": "MW 18 (156).mp4",
+    "mediaType": "video",
+    "options": [
+      {
+        "textPl": "Tak",
+        "textUz": "Ha",
+        "isCorrect": false
+      },
+      {
+        "textPl": "Nie",
+        "textUz": "Yo'q",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "textPl": "Czy podanie numeru przejazdu kolejowego operatorowi telefonu 112 wskaże dokładnie położenie przejazdu kolejowego, na którym pojazd uległ awarii?",
+    "textUz": "112 telefon operatoriga temir yo'l o'tishi raqamini aytish, transport vositasi avariyaga uchragan o'tishning aniq joylashuvini ko'rsatadimi?",
+    "category": "Umumiy qoidalar",
+    "isPremium": true,
+    "mediaFileName": "MW 18(159).jpg",
+    "mediaType": "photo",
+    "options": [
+      {
+        "textPl": "Tak",
+        "textUz": "Ha",
+        "isCorrect": true
+      },
+      {
+        "textPl": "Nie",
+        "textUz": "Yo'q",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "textPl": "Czy po otwarciu ruchu na przejeździe wielotorowym , powinieneś przed wjazdem na torowisko upewnić się, czy po drugim torze nie zbliża się inny pociąg ?",
+    "textUz": "Ko'p yo'lli o'tishda harakat ochilgandan keyin, relsga kirishdan oldin ikkinchi yo'ldan boshqa poyezd kelmasligiga ishonch hosil qilishingiz kerakmi?",
+    "category": "Umumiy qoidalar",
+    "isPremium": true,
+    "mediaFileName": "GN.PK.01.jpg.jpeg",
+    "mediaType": "photo",
+    "options": [
+      {
+        "textPl": "Tak",
+        "textUz": "Ha",
+        "isCorrect": true
+      },
+      {
+        "textPl": "Nie",
+        "textUz": "Yo'q",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "textPl": "Czy w tej sytuacji po upewnieniu się, że nie nadjeżdża pociąg , masz prawo objechać półzapory i przejechać przez przejazd kolejowy ?",
+    "textUz": "Bu vaziyatda, poyezd kelmasligiga ishonch hosil qilgandan keyin, yarim to'siqlarni aylanib o'tib temir yo'l o'tishidan o'tish huquqingiz bormi?",
+    "category": "Umumiy qoidalar",
+    "isPremium": true,
+    "mediaFileName": "GN.PK.02.jpg.jpg",
+    "mediaType": "photo",
+    "options": [
+      {
+        "textPl": "Tak",
+        "textUz": "Ha",
+        "isCorrect": false
+      },
+      {
+        "textPl": "Nie",
+        "textUz": "Yo'q",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "textPl": "Czy w tej sytuacji masz zawsze obowiązek zatrzymać pojazd przed widocznym znakiem zakazu ?",
+    "textUz": "Bu vaziyatda ko'rinib turgan taqiq belgisi oldida har doim to'xtash majburiyati bormi?",
+    "category": "To'xtash va parking",
+    "isPremium": true,
+    "mediaFileName": "GN.PK.03.jpg.jpg",
+    "mediaType": "photo",
+    "options": [
+      {
+        "textPl": "Tak",
+        "textUz": "Ha",
+        "isCorrect": true
+      },
+      {
+        "textPl": "Nie",
+        "textUz": "Yo'q",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "textPl": "Czy w tej sytuacji, po zatrzymaniu i upewnieniu się, że nie zbliża się pociąg, masz prawo rozpocząć jazdę nie czekając na zgodę uprawnionej osoby ?",
+    "textUz": "Bu vaziyatda, to'xtab, poyezd kelmasligiga ishonch hosil qilgandan keyin, vakolatli shaxsning roziligini kutmasdan harakatni boshlash huquqingiz bormi?",
+    "category": "To'xtash va parking",
+    "isPremium": true,
+    "mediaFileName": "GN.PK.03.jpg.jpg",
+    "mediaType": "photo",
+    "options": [
+      {
+        "textPl": "Tak",
+        "textUz": "Ha",
+        "isCorrect": false
+      },
+      {
+        "textPl": "Nie",
+        "textUz": "Yo'q",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "textPl": "Czy w tej sytuacji masz prawo wyprzedzić poprzedzający pojazd, aby jak najszybciej przejechać przez przejazd kolejowy ?",
+    "textUz": "Bu vaziyatda temir yo'l o'tishidan imkon qadar tezroq o'tish uchun oldingi transport vositasidan o'zib o'tish huquqingiz bormi?",
+    "category": "O'zib o'tish",
+    "isPremium": true,
+    "mediaFileName": "GN.PK.04.jpg.jpg",
+    "mediaType": "photo",
+    "options": [
+      {
+        "textPl": "Tak",
+        "textUz": "Ha",
+        "isCorrect": false
+      },
+      {
+        "textPl": "Nie",
+        "textUz": "Yo'q",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "textPl": "Czy w tej sytuacji  masz prawo ominąć poprzedzający pojazd wjeżdżając na część jezdni przeznaczoną dla przeciwnego kierunku ruchu, jeśli zdołasz zatrzymać się przed przejazdem kolejowym ?",
+    "textUz": "Bu vaziyatda, agar temir yo'l o'tishi oldida to'xtay olsangiz, qarshi yo'nalish uchun mo'ljallangan yo'l qismiga chiqib, oldingi transport vositasini aylanib o'tish huquqingiz bormi?",
+    "category": "To'xtash va parking",
+    "isPremium": true,
+    "mediaFileName": "GN.PK.05.jpg.jpg",
+    "mediaType": "photo",
+    "options": [
+      {
+        "textPl": "Tak",
+        "textUz": "Ha",
+        "isCorrect": false
+      },
+      {
+        "textPl": "Nie",
+        "textUz": "Yo'q",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "textPl": "Czy zbliżając się do przejazdu kolejowego o niewielkim ruchu pociągów, masz zawsze obowiązek upewnienia się, czy nie zbliża się pojazd szynowy ?",
+    "textUz": "Poyezd harakati kam bo'lgan temir yo'l o'tishiga yaqinlashganda, har doim relsli transport vositasi kelmasligiga ishonch hosil qilish majburiyati bormi?",
+    "category": "Umumiy qoidalar",
+    "isPremium": true,
+    "mediaFileName": "GN.PK.06.jpg.jpg",
+    "mediaType": "photo",
+    "options": [
+      {
+        "textPl": "Tak",
+        "textUz": "Ha",
+        "isCorrect": true
+      },
+      {
+        "textPl": "Nie",
+        "textUz": "Yo'q",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "textPl": "Czy w tej sytuacji  masz prawo wjechać na torowisko nie mając pewności, czy po drugiej stronie przejazdu kolejowego jest miejsce do kontynuowania jazdy ?",
+    "textUz": "Bu vaziyatda, temir yo'l o'tishining narigi tomonida harakatni davom ettirish uchun joy borligiga ishonchingiz komil bo'lmasa ham, relsga kirish huquqingiz bormi?",
+    "category": "Umumiy qoidalar",
+    "isPremium": true,
+    "mediaFileName": "236_1024x576.jpg",
+    "mediaType": "photo",
+    "options": [
+      {
+        "textPl": "Tak",
+        "textUz": "Ha",
+        "isCorrect": false
+      },
+      {
+        "textPl": "Nie",
+        "textUz": "Yo'q",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "textPl": "Czy zbliżając się do przejazdu kolejowego z zaporami powinieneś uwzględniać, że wskutek różnych przyczyn  urządzenia zabezpieczające mogą na czas nie zamknąć przejazdu ?",
+    "textUz": "To'siqli temir yo'l o'tishiga yaqinlashganda, turli sabablarga ko'ra himoya qurilmalari o'tishni vaqtida yopmasligi mumkinligini hisobga olishingiz kerakmi?",
+    "category": "Umumiy qoidalar",
+    "isPremium": true,
+    "mediaFileName": "GN.PK.07.jpg.jpg",
+    "mediaType": "photo",
+    "options": [
+      {
+        "textPl": "Tak",
+        "textUz": "Ha",
+        "isCorrect": true
+      },
+      {
+        "textPl": "Nie",
+        "textUz": "Yo'q",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "textPl": "Czy widząc ten znak drogowy jesteś zawsze obowiązany zatrzymać pojazd widząc rowerzystę zbliżającego się do przejazdu?",
+    "textUz": "Bu yo'l belgisini ko'rib, o'tishga yaqinlashayotgan velosipedchini ko'rganingizda har doim transport vositasini to'xtatishga majbursizmi?",
+    "category": "To'xtash va parking",
+    "isPremium": true,
+    "mediaFileName": "D-6a.jpg",
+    "mediaType": "photo",
+    "options": [
+      {
+        "textPl": "Tak",
+        "textUz": "Ha",
+        "isCorrect": false
+      },
+      {
+        "textPl": "Nie",
+        "textUz": "Yo'q",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "textPl": "Czy w miejscu, o którym informuje widoczny znak jesteś obowiązany ustąpić pierwszeństwa osobie poruszającej się przy użyciu urządzenia wspomagającego ruch, która znajdzie się na przejeździe dla rowerów?",
+    "textUz": "Ko'rinib turgan belgi xabar bergan joyda, velosipedchilar o'tish joyida bo'lgan harakatni qo'llab-quvvatlovchi qurilmadan foydalanayotgan shaxsga yo'l berishga majbursizmi?",
+    "category": "Ustuvorlik qoidalari",
+    "isPremium": true,
+    "mediaFileName": "D-6b.jpg",
+    "mediaType": "photo",
+    "options": [
+      {
+        "textPl": "Tak",
+        "textUz": "Ha",
+        "isCorrect": true
+      },
+      {
+        "textPl": "Nie",
+        "textUz": "Yo'q",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "textPl": "Czy na przejściu dla pieszych, przy zachowaniu szczególnej ostrożności wolno Ci wyprzedzać rowerzystę ?",
+    "textUz": "Piyodalar o'tish joyida, alohida ehtiyotkorlik ko'rsatgan holda velosipedchidan o'zib o'tish mumkinmi?",
+    "category": "O'zib o'tish",
+    "isPremium": true,
+    "mediaFileName": "GNW 01.jpg.jpg",
+    "mediaType": "photo",
+    "options": [
+      {
+        "textPl": "Tak",
+        "textUz": "Ha",
+        "isCorrect": false
+      },
+      {
+        "textPl": "Nie",
+        "textUz": "Yo'q",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "textPl": "Czy w przedstawionej sytuacji jesteś obowiązany powstrzymać się od wyprzedzania rowerzysty ?",
+    "textUz": "Ko'rsatilgan vaziyatda velosipedchidan o'zib o'tishdan tiyilishga majbursizmi?",
+    "category": "O'zib o'tish",
+    "isPremium": true,
+    "mediaFileName": "GNW 01.jpg.jpg",
+    "mediaType": "photo",
+    "options": [
+      {
+        "textPl": "Tak",
+        "textUz": "Ha",
+        "isCorrect": true
+      },
+      {
+        "textPl": "Nie",
+        "textUz": "Yo'q",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "textPl": "Czy w przedstawionej sytuacji, pomimo zachowania szczególnej ostrożności,  obowiązuje Cię zakaz wyprzedzania poprzedzającego pojazdu ?",
+    "textUz": "Ko'rsatilgan vaziyatda, alohida ehtiyotkorlik ko'rsatsangiz ham, oldingi transport vositasidan o'zib o'tish taqig'i sizga tegishlimi?",
+    "category": "O'zib o'tish",
+    "isPremium": true,
+    "mediaFileName": "GNW 02.jpg.jpg",
+    "mediaType": "photo",
+    "options": [
+      {
+        "textPl": "Tak",
+        "textUz": "Ha",
+        "isCorrect": true
+      },
+      {
+        "textPl": "Nie",
+        "textUz": "Yo'q",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "textPl": "Czy w przedstawionej sytuacji, przy zachowaniu szczególnej ostrożności wolno Ci wyprzedzić poprzedzający samochód ?",
+    "textUz": "Ko'rsatilgan vaziyatda, alohida ehtiyotkorlik ko'rsatgan holda, oldingi avtomobildan o'zib o'tish mumkinmi?",
+    "category": "O'zib o'tish",
+    "isPremium": true,
+    "mediaFileName": "GNW 02.jpg.jpg",
+    "mediaType": "photo",
+    "options": [
+      {
+        "textPl": "Tak",
+        "textUz": "Ha",
+        "isCorrect": false
+      },
+      {
+        "textPl": "Nie",
+        "textUz": "Yo'q",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "textPl": "Czy w przedstawionej sytuacji, przy zachowaniu zwiększonej uwagi, wolno Ci wyprzedzić poprzedzający pojazd z jego prawej strony ?",
+    "textUz": "Ko'rsatilgan vaziyatda, oshirilgan diqqat bilan, oldingi transport vositasidan uning o'ng tomonidan o'zib o'tish mumkinmi?",
+    "category": "O'zib o'tish",
+    "isPremium": true,
+    "mediaFileName": "GNW 03.jpg.jpg",
+    "mediaType": "photo",
+    "options": [
+      {
+        "textPl": "Tak",
+        "textUz": "Ha",
+        "isCorrect": false
+      },
+      {
+        "textPl": "Nie",
+        "textUz": "Yo'q",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "textPl": "Czy w przedstawionej sytuacji, pomimo zachowania szczególnej ostrożności,  obowiązuje Cię zakaz wyprzedzania ?",
+    "textUz": "Ko'rsatilgan vaziyatda, alohida ehtiyotkorlik ko'rsatsangiz ham, o'zib o'tish taqig'i sizga tegishlimi?",
+    "category": "O'zib o'tish",
+    "isPremium": true,
+    "mediaFileName": "GNW 03.jpg.jpg",
+    "mediaType": "photo",
+    "options": [
+      {
+        "textPl": "Tak",
+        "textUz": "Ha",
+        "isCorrect": true
+      },
+      {
+        "textPl": "Nie",
+        "textUz": "Yo'q",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "textPl": "Czy w tej sytuacji, dojeżdżając jezdnią dwukierunkową do wierzchołka wzniesienia, wolno Ci wyprzedzić ten motocykl ?",
+    "textUz": "Bu vaziyatda ikki tomonlama yo'l bo'ylab ko'tarilish cho'qqisiga yetganingizda, bu mototsikldan o'zib o'tish mumkinmi?",
+    "category": "O'zib o'tish",
+    "isPremium": true,
+    "mediaFileName": "IMG_9303Bd8org.jpg",
+    "mediaType": "photo",
+    "options": [
+      {
+        "textPl": "Tak",
+        "textUz": "Ha",
+        "isCorrect": false
+      },
+      {
+        "textPl": "Nie",
+        "textUz": "Yo'q",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "textPl": "Czy przed wyprzedzaniem masz obowiązek upewnić się, czy kierujący jadący za Tobą nie rozpoczął wyprzedzania ?",
+    "textUz": "O'zib o'tishdan oldin, orqangizdan kelayotgan haydovchi o'zib o'tishni boshlamaganiga ishonch hosil qilish majburiyati bormi?",
+    "category": "O'zib o'tish",
+    "isPremium": true,
+    "mediaFileName": "GNW 05.jpg.jpg",
+    "mediaType": "photo",
+    "options": [
+      {
+        "textPl": "Tak",
+        "textUz": "Ha",
+        "isCorrect": true
+      },
+      {
+        "textPl": "Nie",
+        "textUz": "Yo'q",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "textPl": "Czy w tej sytuacji, poruszając się jezdnią jednokierunkową poza obszarem zabudowanym, obowiązuje Cię zakaz wyprzedzania poprzedzającego pojazdu z jego prawej strony?",
+    "textUz": "Bu vaziyatda, aholi punktidan tashqarida bir tomonlama yo'ldan harakatlanganingizda, oldingi transport vositasidan uning o'ng tomonidan o'zib o'tish taqig'i sizga tegishlimi?",
+    "category": "O'zib o'tish",
+    "isPremium": true,
+    "mediaFileName": "D26_122org.jpg",
+    "mediaType": "photo",
+    "options": [
+      {
+        "textPl": "Tak",
+        "textUz": "Ha",
+        "isCorrect": false
+      },
+      {
+        "textPl": "Nie",
+        "textUz": "Yo'q",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "textPl": "Czy w tej sytuacji, przy zachowaniu szczególnej ostrożności wolno Ci rozpocząć  wyprzedzanie poprzedzającego pojazdu ?",
+    "textUz": "Bu vaziyatda, alohida ehtiyotkorlik ko'rsatgan holda, oldingi transport vositasidan o'zib o'tishni boshlash mumkinmi?",
+    "category": "O'zib o'tish",
+    "isPremium": true,
+    "mediaFileName": "GNW 06.jpg.jpg",
+    "mediaType": "photo",
+    "options": [
+      {
+        "textPl": "Tak",
+        "textUz": "Ha",
+        "isCorrect": false
+      },
+      {
+        "textPl": "Nie",
+        "textUz": "Yo'q",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "textPl": "Czy w tej sytuacji, poza obszarem zabudowanym, obowiązuje Cię zakaz wyprzedzania z prawej strony jadącego przed Tobą pojazdu?",
+    "textUz": "Bu vaziyatda, aholi punktidan tashqarida, oldingizda ketayotgan transport vositasidan o'ng tomondan o'zib o'tish taqig'i sizga tegishlimi?",
+    "category": "O'zib o'tish",
+    "isPremium": true,
+    "mediaFileName": "D26_144org.jpg",
+    "mediaType": "photo",
+    "options": [
+      {
+        "textPl": "Tak",
+        "textUz": "Ha",
+        "isCorrect": false
+      },
+      {
+        "textPl": "Nie",
+        "textUz": "Yo'q",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "textPl": "Kierujesz pojazdem wyprzedzanym. Czy w czasie wyprzedzania lub bezpośrednio po nim wolno Ci nieznacznie zwiększyć prędkość ?",
+    "textUz": "O'zib o'tilayotgan transport vositasini boshqarayapsiz. O'zib o'tish vaqtida yoki undan bevosita keyin tezlikni biroz oshirish mumkinmi?",
+    "category": "O'zib o'tish",
+    "isPremium": true,
+    "mediaFileName": "GNW 11.jpg.jpeg",
+    "mediaType": "photo",
+    "options": [
+      {
+        "textPl": "Tak",
+        "textUz": "Ha",
+        "isCorrect": false
+      },
+      {
+        "textPl": "Nie",
+        "textUz": "Yo'q",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "textPl": "Czy w tej sytuacji, mimo że zakaz wyprzedzania rowerzysty nie obowiązuje na skrzyżowaniu, powinieneś powstrzymać się od wyprzedzania rowerzysty, gdyż ze względu na ograniczoną widoczność mogłoby ono doprowadzić do stworzenia zagrożenia bezpieczeństwa ?",
+    "textUz": "Bu vaziyatda, chorrahada velosipedchidan o'zib o'tish taqig'i amal qilmasa ham, cheklangan ko'rinish sababli xavfsizlikka tahdid tug'dirishi mumkinligi uchun velosipedchidan o'zib o'tishdan tiyilishingiz kerakmi?",
+    "category": "O'zib o'tish",
+    "isPremium": true,
+    "mediaFileName": "GNW 07.jpg.jpg",
+    "mediaType": "photo",
+    "options": [
+      {
+        "textPl": "Tak",
+        "textUz": "Ha",
+        "isCorrect": true
+      },
+      {
+        "textPl": "Nie",
+        "textUz": "Yo'q",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "textPl": "Czy pomimo zachowania szczególnej ostrożności, jesteś obowiązany powstrzymać się od  wyprzedzania  pojazdu silnikowego na najbliższym skrzyżowaniu ?",
+    "textUz": "Alohida ehtiyotkorlik ko'rsatsangiz ham, eng yaqin chorrahada motorli transport vositasidan o'zib o'tishdan tiyilishga majbursizmi?",
+    "category": "O'zib o'tish",
+    "isPremium": true,
+    "mediaFileName": "GNW 08.jpg.jpg",
+    "mediaType": "photo",
+    "options": [
+      {
+        "textPl": "Tak",
+        "textUz": "Ha",
+        "isCorrect": true
+      },
+      {
+        "textPl": "Nie",
+        "textUz": "Yo'q",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "textPl": "Czy zachowując szczególną ostrożność wolno Ci wyprzedzić poprzedzający pojazd na najbliższym skrzyżowaniu ?",
+    "textUz": "Alohida ehtiyotkorlik ko'rsatgan holda, eng yaqin chorrahada oldingi transport vositasidan o'zib o'tish mumkinmi?",
+    "category": "O'zib o'tish",
+    "isPremium": true,
+    "mediaFileName": "GNW 08.jpg.jpg",
+    "mediaType": "photo",
+    "options": [
+      {
+        "textPl": "Tak",
+        "textUz": "Ha",
+        "isCorrect": false
+      },
+      {
+        "textPl": "Nie",
+        "textUz": "Yo'q",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "textPl": "Czy wolno Ci rozpocząć manewr wyprzedzania bez uprzedniego upewnienia się, czy kierujący jadący za Tobą nie rozpoczął wyprzedzania ?",
+    "textUz": "Orqangizdan kelayotgan haydovchi o'zib o'tishni boshlamaganiga oldindan ishonch hosil qilmasdan, o'zib o'tish manevrini boshlash mumkinmi?",
+    "category": "O'zib o'tish",
+    "isPremium": true,
+    "mediaFileName": "GNW 05.jpg.jpg",
+    "mediaType": "photo",
+    "options": [
+      {
+        "textPl": "Tak",
+        "textUz": "Ha",
+        "isCorrect": false
+      },
+      {
+        "textPl": "Nie",
+        "textUz": "Yo'q",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "textPl": "Czy obowiązuje Cię zakaz wyprzedzania pojazdu silnikowego jadącego jezdnią na skrzyżowaniu ?",
+    "textUz": "Chorrahada yo'ldan ketayotgan motorli transport vositasidan o'zib o'tish taqig'i sizga tegishlimi?",
+    "category": "O'zib o'tish",
+    "isPremium": true,
+    "mediaFileName": "GNW 09.jpg.jpg",
+    "mediaType": "photo",
+    "options": [
+      {
+        "textPl": "Tak",
+        "textUz": "Ha",
+        "isCorrect": true
+      },
+      {
+        "textPl": "Nie",
+        "textUz": "Yo'q",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "textPl": "Czy w tej sytuacji obowiązuje zakaz wyprzedzania pojazdu członowego ?",
+    "textUz": "Bu vaziyatda bo'g'inli transport vositasidan o'zib o'tish taqig'i amal qiladimi?",
+    "category": "O'zib o'tish",
+    "isPremium": true,
+    "mediaFileName": "048D15_a_org.jpg",
+    "mediaType": "photo",
+    "options": [
+      {
+        "textPl": "Tak",
+        "textUz": "Ha",
+        "isCorrect": false
+      },
+      {
+        "textPl": "Nie",
+        "textUz": "Yo'q",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "textPl": "Czy w tej sytuacji, przy zachowaniu szczególnej ostrożności, wolno Ci wyprzedzić poprzedzający pojazd na najbliższym skrzyżowaniu ?",
+    "textUz": "Bu vaziyatda, alohida ehtiyotkorlik ko'rsatgan holda, eng yaqin chorrahada oldingi transport vositasidan o'zib o'tish mumkinmi?",
+    "category": "O'zib o'tish",
+    "isPremium": true,
+    "mediaFileName": "GNW 10.jpg.jpg",
+    "mediaType": "photo",
+    "options": [
+      {
+        "textPl": "Tak",
+        "textUz": "Ha",
+        "isCorrect": true
+      },
+      {
+        "textPl": "Nie",
+        "textUz": "Yo'q",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "textPl": "Czy w tej sytuacji masz obowiązek powstrzymać się od wyprzedzania poprzedzającego pojazdu na najbliższym skrzyżowaniu ?",
+    "textUz": "Bu vaziyatda eng yaqin chorrahada oldingi transport vositasidan o'zib o'tishdan tiyilish majburiyati bormi?",
+    "category": "O'zib o'tish",
+    "isPremium": true,
+    "mediaFileName": "GNW 10.jpg.jpg",
+    "mediaType": "photo",
+    "options": [
+      {
+        "textPl": "Tak",
+        "textUz": "Ha",
+        "isCorrect": false
+      },
+      {
+        "textPl": "Nie",
+        "textUz": "Yo'q",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "textPl": "Czy w tej sytuacji obowiązuje Cię zakaz wyprzedzania poprzedzającego pojazdu z jego lewej strony ?",
+    "textUz": "Bu vaziyatda oldingi transport vositasidan uning chap tomonidan o'zib o'tish taqig'i sizga tegishlimi?",
+    "category": "O'zib o'tish",
+    "isPremium": true,
+    "mediaFileName": "1A5306.jpg",
+    "mediaType": "photo",
+    "options": [
+      {
+        "textPl": "Tak",
+        "textUz": "Ha",
+        "isCorrect": false
+      },
+      {
+        "textPl": "Nie",
+        "textUz": "Yo'q",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "textPl": "Czy w tej sytuacji na obszarze zabudowanym, jesteś obowiązany powstrzymać się od wyprzedzania poprzedzającego pojazdu z jego prawej strony ?",
+    "textUz": "Bu vaziyatda aholi punktida oldingi transport vositasidan uning o'ng tomonidan o'zib o'tishdan tiyilishga majbursizmi?",
+    "category": "O'zib o'tish",
+    "isPremium": true,
+    "mediaFileName": "D26_015org.jpg",
+    "mediaType": "photo",
+    "options": [
+      {
+        "textPl": "Tak",
+        "textUz": "Ha",
+        "isCorrect": false
+      },
+      {
+        "textPl": "Nie",
+        "textUz": "Yo'q",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "textPl": "Czy w tej sytuacji, dojeżdżając drogą dwukierunkową do wierzchołka wzniesienia, jesteś obowiązany powstrzymać się od wyprzedzania motocykla ?",
+    "textUz": "Bu vaziyatda ikki tomonlama yo'l bo'ylab ko'tarilish cho'qqisiga yetganingizda, mototsikldan o'zib o'tishdan tiyilishga majbursizmi?",
+    "category": "O'zib o'tish",
+    "isPremium": true,
+    "mediaFileName": "IMG_9303Bd8org.jpg",
+    "mediaType": "photo",
+    "options": [
+      {
+        "textPl": "Tak",
+        "textUz": "Ha",
+        "isCorrect": true
+      },
+      {
+        "textPl": "Nie",
+        "textUz": "Yo'q",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "textPl": "Kierujesz pojazdem wyprzedzanym. Czy w tej sytuacji obowiązuje Cię zakaz zwiększania prędkości ?",
+    "textUz": "O'zib o'tilayotgan transport vositasini boshqarayapsiz. Bu vaziyatda tezlikni oshirish taqig'i sizga tegishlimi?",
+    "category": "O'zib o'tish",
+    "isPremium": true,
+    "mediaFileName": "GNW 11.jpg.jpeg",
+    "mediaType": "photo",
+    "options": [
+      {
+        "textPl": "Tak",
+        "textUz": "Ha",
+        "isCorrect": true
+      },
+      {
+        "textPl": "Nie",
+        "textUz": "Yo'q",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "textPl": "Czy podczas przechodzenia przez jezdnię, poza przejściem dla pieszych, przez  osobę niepełnosprawną używającą specjalnego znaku w postaci  białej laski,  jesteś obowiązany zatrzymać się, aby umożliwić jej przejście ?",
+    "textUz": "Oq hassa maxsus belgisidan foydalanadigan nogiron shaxs piyodalar o'tish joyidan tashqarida yo'ldan o'tayotganda, unga o'tish imkonini berish uchun to'xtashga majbursizmi?",
+    "category": "To'xtash va parking",
+    "isPremium": true,
+    "mediaFileName": "GNI03.jpg.jpg",
+    "mediaType": "photo",
+    "options": [
+      {
+        "textPl": "Tak",
+        "textUz": "Ha",
+        "isCorrect": true
+      },
+      {
+        "textPl": "Nie",
+        "textUz": "Yo'q",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "textPl": "Czy skręcając pojazdem w drogę poprzeczną, jesteś obowiązany ustąpić pierwszeństwa osobie poruszającej się w wózku inwalidzkim przejeżdżającej na skrzyżowaniu jezdnię drogi, na którą wjeżdżasz ?",
+    "textUz": "Ko'ndalang yo'lga burilganingizda, kirayotgan yo'lingizni chorrahada kesib o'tayotgan nogironlar aravachasida harakatlanayotgan shaxsga yo'l berishga majbursizmi?",
+    "category": "Ustuvorlik qoidalari",
+    "isPremium": true,
+    "mediaFileName": "GNI08.jpg.jpg",
+    "mediaType": "photo",
+    "options": [
+      {
+        "textPl": "Tak",
+        "textUz": "Ha",
+        "isCorrect": true
+      },
+      {
+        "textPl": "Nie",
+        "textUz": "Yo'q",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "textPl": "Czy zachowując szczególną ostrożność, wolno Ci powoli przejechać przed osobą poruszającą się w wózku inwalidzkim wjeżdżającą na przejście dla pieszych ?",
+    "textUz": "Alohida ehtiyotkorlik ko'rsatgan holda, piyodalar o'tish joyiga kirayotgan nogironlar aravachasidagi shaxsdan oldin sekin o'tish mumkinmi?",
+    "category": "Umumiy qoidalar",
+    "isPremium": true,
+    "mediaFileName": "GNI09.jpg.jpg",
+    "mediaType": "photo",
+    "options": [
+      {
+        "textPl": "Tak",
+        "textUz": "Ha",
+        "isCorrect": false
+      },
+      {
+        "textPl": "Nie",
+        "textUz": "Yo'q",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "textPl": "Czy wolno Ci jadąc jezdnią kierować hulajnogą elektryczną z prędkością 30 km/h ?",
+    "textUz": "Yo'lda elektr samokatni 30 km/soat tezlikda boshqarish mumkinmi?",
+    "category": "Umumiy qoidalar",
+    "isPremium": true,
+    "mediaFileName": "GNH01.jpg.jpg",
+    "mediaType": "photo",
+    "options": [
+      {
+        "textPl": "Tak",
+        "textUz": "Ha",
+        "isCorrect": false
+      },
+      {
+        "textPl": "Nie",
+        "textUz": "Yo'q",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "textPl": "Czy na drogach położonych w strefie oznaczonej widocznym znakiem,  wolno Ci przewozić hulajnogą elektryczną dziecko w wieku do 10 lat ?",
+    "textUz": "Ko'rinib turgan belgi bilan belgilangan zonadagi yo'llarda, elektr samokatda 10 yoshgacha bo'lgan bolani tashish mumkinmi?",
+    "category": "Yo'l belgilari",
+    "isPremium": true,
+    "mediaFileName": "GNH02.jpg.jpg",
+    "mediaType": "photo",
+    "options": [
+      {
+        "textPl": "Tak",
+        "textUz": "Ha",
+        "isCorrect": false
+      },
+      {
+        "textPl": "Nie",
+        "textUz": "Yo'q",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "textPl": "Czy podczas kierowania hulajnogą elektryczną, wolno Ci korzystać z telefonu wymagającego trzymania słuchawki lub mikrofonu w ręku?",
+    "textUz": "Elektr samokatni boshqarayotganda, trubka yoki mikrofonni qo'lda ushlashni talab qiladigan telefondan foydalanish mumkinmi?",
+    "category": "Umumiy qoidalar",
+    "isPremium": true,
+    "mediaFileName": "GNPH06.jpg",
+    "mediaType": "photo",
+    "options": [
+      {
+        "textPl": "Tak",
+        "textUz": "Ha",
+        "isCorrect": false
+      },
+      {
+        "textPl": "Nie",
+        "textUz": "Yo'q",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "textPl": "Czy kierujący pojazdem zbliżając się do przejścia sugerowanego jest o tym informowany odpowiednimi znakami drogowymi?",
+    "textUz": "Tavsiya etilgan o'tish joyiga yaqinlashayotgan haydovchi bu haqda tegishli yo'l belgilari orqali xabardor qilinadimi?",
+    "category": "Yo'l belgilari",
+    "isPremium": true,
+    "mediaFileName": "Przejście sugerowane.jpg",
+    "mediaType": "photo",
+    "options": [
+      {
+        "textPl": "Tak",
+        "textUz": "Ha",
+        "isCorrect": false
+      },
+      {
+        "textPl": "Nie",
+        "textUz": "Yo'q",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "textPl": "Czy pieszy przechodzący przez jezdnię wykorzystując przejście sugerowane ma pierwszeństwo przed nadjeżdżającym pojazdem?",
+    "textUz": "Tavsiya etilgan o'tish joyidan foydalanib yo'ldan o'tayotgan piyoda kelayotgan transport vositasidan oldin ustuvorlikka egami?",
+    "category": "Ustuvorlik qoidalari",
+    "isPremium": true,
+    "mediaFileName": "Przejście sugerowane.jpg",
+    "mediaType": "photo",
+    "options": [
+      {
+        "textPl": "Tak",
+        "textUz": "Ha",
+        "isCorrect": false
+      },
+      {
+        "textPl": "Nie",
+        "textUz": "Yo'q",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "textPl": "Czy  kierujący pojazdem podczas jazdy po placu, na którym ze względu na brak wyodrębnienia jezdni i dróg dla pieszych, ruch pieszych i pojazdów odbywa się po tej samej powierzchni, ma pierwszeństwo przed pieszymi poruszającymi się po tym placu?",
+    "textUz": "Yo'l va piyodalar yo'lagi ajratilmagani sababli piyodalar va transport harakati bir xil maydonda amalga oshiriladigan maydonda haydovchi shu maydonda yurayotgan piyodalardan oldin ustuvorlikka egami?",
+    "category": "Ustuvorlik qoidalari",
+    "isPremium": true,
+    "mediaFileName": "30066.jpg",
+    "mediaType": "photo",
+    "options": [
+      {
+        "textPl": "Tak",
+        "textUz": "Ha",
+        "isCorrect": false
+      },
+      {
+        "textPl": "Nie",
+        "textUz": "Yo'q",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "textPl": "Czy kierujący pojazdem podczas jazdy po placu, na którym ze względu na brak wyodrębnienia jezdni i dróg dla pieszych, ruch pieszych i pojazdów odbywa się po tej samej powierzchni, ma obowiązek ustąpić pierwszeństwa pieszym poruszającym się po placu?",
+    "textUz": "Shunday maydonda haydovchi shu maydonda yurayotgan piyodalarga yo'l berish majburiyatiga egami?",
+    "category": "Ustuvorlik qoidalari",
+    "isPremium": true,
+    "mediaFileName": "30066.jpg",
+    "mediaType": "photo",
+    "options": [
+      {
+        "textPl": "Tak",
+        "textUz": "Ha",
+        "isCorrect": true
+      },
+      {
+        "textPl": "Nie",
+        "textUz": "Yo'q",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "textPl": "Czy kierujący pojazdem za tym znakiem powinien spodziewać się pieszych idących wzdłuż jezdni ?",
+    "textUz": "Bu belgidan keyin haydovchi yo'l bo'ylab yurayotgan piyodalarni kutishi kerakmi?",
+    "category": "Yo'l belgilari",
+    "isPremium": true,
+    "mediaFileName": "1A5120.jpg",
+    "mediaType": "photo",
+    "options": [
+      {
+        "textPl": "Tak",
+        "textUz": "Ha",
+        "isCorrect": true
+      },
+      {
+        "textPl": "Nie",
+        "textUz": "Yo'q",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "textPl": "Czy kierujący pojazdem poruszający się w strefie oznaczonej tym znakiem widząc pieszego przechodzącego przez jezdnię poza przejściem dla pieszych ma obowiązek ustąpienia mu pierwszeństwa?",
+    "textUz": "Bu belgi bilan belgilangan zonada harakatlanayotgan haydovchi, piyodalar o'tish joyidan tashqarida yo'ldan o'tayotgan piyodani ko'rganda, unga yo'l berish majburiyatiga egami?",
+    "category": "Ustuvorlik qoidalari",
+    "isPremium": true,
+    "mediaFileName": "1A5120.jpg",
+    "mediaType": "photo",
+    "options": [
+      {
+        "textPl": "Tak",
+        "textUz": "Ha",
+        "isCorrect": true
+      },
+      {
+        "textPl": "Nie",
+        "textUz": "Yo'q",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "textPl": "Zamierzasz jechać na wprost przez skrzyżowanie. Czy masz na tym skrzyżowaniu obowiązek ustąpienia pierwszeństwa pojazdowi, który nadjeżdżałby z prawej strony ?",
+    "textUz": "Chorrahadan to'g'riga o'tmoqchisiz. Bu chorrahada o'ng tomondan kelishi mumkin bo'lgan transport vositasiga yo'l berish majburiyati bormi?",
+    "category": "Ustuvorlik qoidalari",
+    "isPremium": true,
+    "mediaFileName": "Znak D1+T6.mp4",
+    "mediaType": "video",
+    "options": [
+      {
+        "textPl": "Tak",
+        "textUz": "Ha",
+        "isCorrect": true
+      },
+      {
+        "textPl": "Nie",
+        "textUz": "Yo'q",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "textPl": "Zamierzasz jechać na wprost przez to skrzyżowanie. Czy masz pierwszeństwo przed pojazdem, który może nadjechać z prawej strony ?",
+    "textUz": "Bu chorrahadan to'g'riga o'tmoqchisiz. O'ng tomondan kelishi mumkin bo'lgan transport vositasidan oldin ustuvorligingiz bormi?",
+    "category": "Ustuvorlik qoidalari",
+    "isPremium": true,
+    "mediaFileName": "Znak D1+T6.mp4",
+    "mediaType": "video",
+    "options": [
+      {
+        "textPl": "Tak",
+        "textUz": "Ha",
+        "isCorrect": false
+      },
+      {
+        "textPl": "Nie",
+        "textUz": "Yo'q",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "textPl": "Czy za tym znakiem musisz się liczyć z obowiązkiem ustąpienia pierwszeństwa pojazdowi nadjeżdżającemu z prawej strony na skrzyżowaniu ?",
+    "textUz": "Bu belgidan keyin chorrahada o'ng tomondan kelayotgan transport vositasiga yo'l berish majburiyatini hisobga olishingiz kerakmi?",
+    "category": "Ustuvorlik qoidalari",
+    "isPremium": true,
+    "mediaFileName": "Znak D48.jpg",
+    "mediaType": "photo",
+    "options": [
+      {
+        "textPl": "Tak",
+        "textUz": "Ha",
+        "isCorrect": true
+      },
+      {
+        "textPl": "Nie",
+        "textUz": "Yo'q",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "textPl": "Czy ten znak może decydować o obowiązku ustąpienia pierwszeństwa pojazdowi nadjeżdżającemu z lewej strony na skrzyżowaniu?",
+    "textUz": "Bu belgi chorrahada chap tomondan kelayotgan transport vositasiga yo'l berish majburiyatini belgilashi mumkinmi?",
+    "category": "Ustuvorlik qoidalari",
+    "isPremium": true,
+    "mediaFileName": "Znak D48.jpg",
+    "mediaType": "photo",
+    "options": [
+      {
+        "textPl": "Tak",
+        "textUz": "Ha",
+        "isCorrect": false
+      },
+      {
+        "textPl": "Nie",
+        "textUz": "Yo'q",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "textPl": "Czy ten znak oznacza, że masz pierwszeństwo przed pojazdem nadjeżdżającym z przeciwnej strony?",
+    "textUz": "Bu belgi qarshi tomondan kelayotgan transport vositasidan oldin ustuvorligingiz borligini bildiradimi?",
+    "category": "Ustuvorlik qoidalari",
+    "isPremium": true,
+    "mediaFileName": "1000003284.jpg",
+    "mediaType": "photo",
+    "options": [
+      {
+        "textPl": "Tak",
+        "textUz": "Ha",
+        "isCorrect": false
+      },
+      {
+        "textPl": "Nie",
+        "textUz": "Yo'q",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "textPl": "Czy podczas wjazdu na to skrzyżowanie masz pierwszeństwo przed pojazdem nadjeżdżającym z lewej strony?",
+    "textUz": "Bu chorrahaga kirganingizda chap tomondan kelayotgan transport vositasidan oldin ustuvorligingiz bormi?",
+    "category": "Ustuvorlik qoidalari",
+    "isPremium": true,
+    "mediaFileName": "Znak C12 bez A7.mp4",
+    "mediaType": "video",
+    "options": [
+      {
+        "textPl": "Tak",
+        "textUz": "Ha",
+        "isCorrect": true
+      },
+      {
+        "textPl": "Nie",
+        "textUz": "Yo'q",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "textPl": "Czy podczas wjazdu na to skrzyżowanie masz obowiązek ustąpić pierwszeństwa pojazdowi nadjeżdżającemu z lewej strony?",
+    "textUz": "Bu chorrahaga kirganingizda chap tomondan kelayotgan transport vositasiga yo'l berish majburiyati bormi?",
+    "category": "Ustuvorlik qoidalari",
+    "isPremium": true,
+    "mediaFileName": "Znak C12 bez A7.mp4",
+    "mediaType": "video",
+    "options": [
+      {
+        "textPl": "Tak",
+        "textUz": "Ha",
+        "isCorrect": false
+      },
+      {
+        "textPl": "Nie",
+        "textUz": "Yo'q",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "textPl": "Zamierzasz jechać na wprost przez skrzyżowanie. Czy masz obowiązek ustąpienia pierwszeństwa pojazdowi, który może nadjechać z prawej strony?",
+    "textUz": "Chorrahadan to'g'riga o'tmoqchisiz. O'ng tomondan kelishi mumkin bo'lgan transport vositasiga yo'l berish majburiyati bormi?",
+    "category": "Ustuvorlik qoidalari",
+    "isPremium": true,
+    "mediaFileName": "Znak D1+T6 w prawo.jpg",
+    "mediaType": "photo",
+    "options": [
+      {
+        "textPl": "Tak",
+        "textUz": "Ha",
+        "isCorrect": true
+      },
+      {
+        "textPl": "Nie",
+        "textUz": "Yo'q",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "textPl": "Czy na tym skrzyżowaniu zamierzając skręcić w lewo masz pierwszeństwo przed wszystkimi pojazdami, które mogą się pojawić ?",
+    "textUz": "Bu chorrahada chapga burilmoqchi bo'lganingizda, paydo bo'lishi mumkin bo'lgan barcha transport vositalaridan oldin ustuvorligingiz bormi?",
+    "category": "Ustuvorlik qoidalari",
+    "isPremium": true,
+    "mediaFileName": "Znak D1+T6!.mp4",
+    "mediaType": "video",
+    "options": [
+      {
+        "textPl": "Tak",
+        "textUz": "Ha",
+        "isCorrect": false
+      },
+      {
+        "textPl": "Nie",
+        "textUz": "Yo'q",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "textPl": "Jeżeli podczas wyprzedzania różnica prędkości między pojazdem wyprzedzającym a wyprzedzanym jest mała, to czy czas wyprzedzania będzie krótszy?",
+    "textUz": "Agar o'zib o'tishda o'zib o'tayotgan va o'zib o'tilayotgan transport vositalari orasidagi tezlik farqi kichik bo'lsa, o'zib o'tish vaqti qisqaroq bo'ladimi?",
+    "category": "O'zib o'tish",
+    "isPremium": true,
+    "mediaFileName": "W12 516-519.jpg",
+    "mediaType": "photo",
+    "options": [
+      {
+        "textPl": "Tak",
+        "textUz": "Ha",
+        "isCorrect": false
+      },
+      {
+        "textPl": "Nie",
+        "textUz": "Yo'q",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "textPl": "Jeżeli podczas wyprzedzania różnica prędkości między pojazdem wyprzedzającym a wyprzedzanym jest mała, to czy droga wyprzedzania będzie krótsza?",
+    "textUz": "Agar o'zib o'tishda tezlik farqi kichik bo'lsa, o'zib o'tish masofasi qisqaroq bo'ladimi?",
+    "category": "O'zib o'tish",
+    "isPremium": true,
+    "mediaFileName": "W12 516-519.jpg",
+    "mediaType": "photo",
+    "options": [
+      {
+        "textPl": "Tak",
+        "textUz": "Ha",
+        "isCorrect": false
+      },
+      {
+        "textPl": "Nie",
+        "textUz": "Yo'q",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "textPl": "Czy w tej sytuacji masz prawo wyprzedzić hulajnogę elektryczną na przejeździe kolejowym ?",
+    "textUz": "Bu vaziyatda temir yo'l o'tishida elektr samokatdan o'zib o'tish huquqingiz bormi?",
+    "category": "O'zib o'tish",
+    "isPremium": true,
+    "mediaFileName": "PW12-2025-21.mp4",
+    "mediaType": "video",
+    "options": [
+      {
+        "textPl": "Tak",
+        "textUz": "Ha",
+        "isCorrect": false
+      },
+      {
+        "textPl": "Nie",
+        "textUz": "Yo'q",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "textPl": "Czy ten znak zawsze zobowiązuje kierującego pojazdem do zwiększenia uwagi ?",
+    "textUz": "Bu belgi haydovchini har doim diqqatni oshirishga majbur qiladimi?",
+    "category": "Yo'l belgilari",
+    "isPremium": true,
+    "mediaFileName": "PW12-2025-41.jpg",
+    "mediaType": "photo",
+    "options": [
+      {
+        "textPl": "Tak",
+        "textUz": "Ha",
+        "isCorrect": true
+      },
+      {
+        "textPl": "Nie",
+        "textUz": "Yo'q",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "textPl": "Czy w tej sytuacji wolno Ci wjechać na przejazd kolejowy ?",
+    "textUz": "Bu vaziyatda temir yo'l o'tishiga kirish mumkinmi?",
+    "category": "Umumiy qoidalar",
+    "isPremium": true,
+    "mediaFileName": "PW12-2025-16a.mp4",
+    "mediaType": "video",
+    "options": [
+      {
+        "textPl": "Tak",
+        "textUz": "Ha",
+        "isCorrect": false
+      },
+      {
+        "textPl": "Nie",
+        "textUz": "Yo'q",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "textPl": "Czy w tej sytuacji wolno Ci jeszcze wjechać na przejazd kolejowy ?",
+    "textUz": "Bu vaziyatda hali ham temir yo'l o'tishiga kirish mumkinmi?",
+    "category": "Umumiy qoidalar",
+    "isPremium": true,
+    "mediaFileName": "PW12-2025-15a.jpg",
+    "mediaType": "photo",
+    "options": [
+      {
+        "textPl": "Tak",
+        "textUz": "Ha",
+        "isCorrect": false
+      },
+      {
+        "textPl": "Nie",
+        "textUz": "Yo'q",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "textPl": "Czy w tej sytuacji możesz wjechać na przejazd kolejowy jeżeli widzisz, że po drugiej stronie przejazdu nie ma miejsca do kontynuowania jazdy ?",
+    "textUz": "Bu vaziyatda, o'tishning narigi tomonida harakatni davom ettirish uchun joy yo'qligini ko'rsangiz ham, temir yo'l o'tishiga kirish mumkinmi?",
+    "category": "Umumiy qoidalar",
+    "isPremium": true,
+    "mediaFileName": "PW12-2025-40.jpg",
+    "mediaType": "photo",
+    "options": [
+      {
+        "textPl": "Tak",
+        "textUz": "Ha",
+        "isCorrect": false
+      },
+      {
+        "textPl": "Nie",
+        "textUz": "Yo'q",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "textPl": "Czy w tej sytuacji możesz wjechać na przejazd kolejowy bez upewnienia się czy nie nadjeżdża pojazd szynowy ?",
+    "textUz": "Bu vaziyatda relsli transport vositasi kelmasligiga ishonch hosil qilmasdan temir yo'l o'tishiga kirish mumkinmi?",
+    "category": "Umumiy qoidalar",
+    "isPremium": true,
+    "mediaFileName": "PW12-2025-34.mp4",
+    "mediaType": "video",
+    "options": [
+      {
+        "textPl": "Tak",
+        "textUz": "Ha",
+        "isCorrect": false
+      },
+      {
+        "textPl": "Nie",
+        "textUz": "Yo'q",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "textPl": "Czy w tej sytuacji jadąc na wprost masz pierwszeństwo przed rowerzystą?",
+    "textUz": "Bu vaziyatda to'g'riga yurganingizda velosipedchidan oldin ustuvorligingiz bormi?",
+    "category": "Ustuvorlik qoidalari",
+    "isPremium": true,
+    "mediaFileName": "PW12-2025-17.jpg",
+    "mediaType": "photo",
+    "options": [
+      {
+        "textPl": "Tak",
+        "textUz": "Ha",
+        "isCorrect": false
+      },
+      {
+        "textPl": "Nie",
+        "textUz": "Yo'q",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "textPl": "Czy w tej sytuacji masz pierwszeństwo przed pojazdem z lewej strony jadącym prosto przez skrzyżowanie?",
+    "textUz": "Bu vaziyatda chorrahadan to'g'riga o'tayotgan chap tomondagi transport vositasidan oldin ustuvorligingiz bormi?",
+    "category": "Ustuvorlik qoidalari",
+    "isPremium": true,
+    "mediaFileName": "PW12-2025-7.mp4",
+    "mediaType": "video",
+    "options": [
+      {
+        "textPl": "Tak",
+        "textUz": "Ha",
+        "isCorrect": true
+      },
+      {
+        "textPl": "Nie",
+        "textUz": "Yo'q",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "textPl": "Czy w tej sytuacji masz pierwszeństwo przed pojazdem jadącym z przeciwnego kierunku w lewo ?",
+    "textUz": "Bu vaziyatda qarshi tomondan chapga ketayotgan transport vositasidan oldin ustuvorligingiz bormi?",
+    "category": "Ustuvorlik qoidalari",
+    "isPremium": true,
+    "mediaFileName": "PW12-2025-30p.mp4",
+    "mediaType": "video",
+    "options": [
+      {
+        "textPl": "Tak",
+        "textUz": "Ha",
+        "isCorrect": false
+      },
+      {
+        "textPl": "Nie",
+        "textUz": "Yo'q",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "textPl": "Czy w tej sytuacji masz pierwszeństwo przed pojazdem jadącym z przeciwnego kierunku w prawo ?",
+    "textUz": "Bu vaziyatda qarshi tomondan o'ngga ketayotgan transport vositasidan oldin ustuvorligingiz bormi?",
+    "category": "Ustuvorlik qoidalari",
+    "isPremium": true,
+    "mediaFileName": "PW12-2025-3.mp4",
+    "mediaType": "video",
+    "options": [
+      {
+        "textPl": "Tak",
+        "textUz": "Ha",
+        "isCorrect": false
+      },
+      {
+        "textPl": "Nie",
+        "textUz": "Yo'q",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "textPl": "Czy w tej sytuacji masz pierwszeństwo przed pojazdem jadącym z prawej strony ?",
+    "textUz": "Bu vaziyatda o'ng tomondan ketayotgan transport vositasidan oldin ustuvorligingiz bormi?",
+    "category": "Ustuvorlik qoidalari",
+    "isPremium": true,
+    "mediaFileName": "PW12-2025-19.mp4",
+    "mediaType": "video",
+    "options": [
+      {
+        "textPl": "Tak",
+        "textUz": "Ha",
+        "isCorrect": false
+      },
+      {
+        "textPl": "Nie",
+        "textUz": "Yo'q",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "textPl": "Czy w tej sytuacji masz pierwszeństwo przed pojazdem szynowym ?",
+    "textUz": "Bu vaziyatda relsli transport vositasidan oldin ustuvorligingiz bormi?",
+    "category": "Ustuvorlik qoidalari",
+    "isPremium": true,
+    "mediaFileName": "PW12-2025-8p.mp4",
+    "mediaType": "video",
+    "options": [
+      {
+        "textPl": "Tak",
+        "textUz": "Ha",
+        "isCorrect": false
+      },
+      {
+        "textPl": "Nie",
+        "textUz": "Yo'q",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "textPl": "Czy w tej sytuacji masz pierwszeństwo przed hulajnogą elektryczną jadącą z lewej strony ?",
+    "textUz": "Bu vaziyatda chap tomondan kelayotgan elektr samokatdan oldin ustuvorligingiz bormi?",
+    "category": "Ustuvorlik qoidalari",
+    "isPremium": true,
+    "mediaFileName": "PW12-2025-13.mp4",
+    "mediaType": "video",
+    "options": [
+      {
+        "textPl": "Tak",
+        "textUz": "Ha",
+        "isCorrect": false
+      },
+      {
+        "textPl": "Nie",
+        "textUz": "Yo'q",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "textPl": "Czy w tej sytuacji masz pierwszeństwo przed pojazdem szynowym wyjeżdżającym z pętli na jezdnię ?",
+    "textUz": "Bu vaziyatda halqadan yo'lga chiqayotgan relsli transport vositasidan oldin ustuvorligingiz bormi?",
+    "category": "Ustuvorlik qoidalari",
+    "isPremium": true,
+    "mediaFileName": "PW12-2025-14a.mp4",
+    "mediaType": "video",
+    "options": [
+      {
+        "textPl": "Tak",
+        "textUz": "Ha",
+        "isCorrect": true
+      },
+      {
+        "textPl": "Nie",
+        "textUz": "Yo'q",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "textPl": "Czy w przedstawionej sytuacji, przyjeżdżając przez skrzyżowanie równorzędne masz pierwszeństwo przed pojazdem szynowym jadącym z przeciwnego kierunku w lewo  ?",
+    "textUz": "Ko'rsatilgan vaziyatda, teng huquqli chorrahadan o'tayotganingizda, qarshi tomondan chapga ketayotgan relsli transport vositasidan oldin ustuvorligingiz bormi?",
+    "category": "Ustuvorlik qoidalari",
+    "isPremium": true,
+    "mediaFileName": "PW12-2025-12.mp4",
+    "mediaType": "video",
+    "options": [
+      {
+        "textPl": "Tak",
+        "textUz": "Ha",
+        "isCorrect": false
+      },
+      {
+        "textPl": "Nie",
+        "textUz": "Yo'q",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "textPl": "Czy w tej sytuacji, w związku z obowiązkiem ustąpienia pierwszeństwa pojazdowi z prawej strony, masz obowiązek zatrzymać się przed znakiem STOP a następnie przed linią zatrzymania ?",
+    "textUz": "Bu vaziyatda, o'ng tomondagi transport vositasiga yo'l berish majburiyati munosabati bilan, avval STOP belgisi oldida, so'ngra to'xtash chizig'i oldida to'xtash majburiyati bormi?",
+    "category": "Ustuvorlik qoidalari",
+    "isPremium": true,
+    "mediaFileName": "PW12-2025-39.jpg",
+    "mediaType": "photo",
+    "options": [
+      {
+        "textPl": "Tak",
+        "textUz": "Ha",
+        "isCorrect": false
+      },
+      {
+        "textPl": "Nie",
+        "textUz": "Yo'q",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "textPl": "Czy w tej sytuacji masz prawo wyprzedzić pojazd z prawej strony ?",
+    "textUz": "Bu vaziyatda transport vositasidan o'ng tomondan o'zib o'tish huquqingiz bormi?",
+    "category": "O'zib o'tish",
+    "isPremium": true,
+    "mediaFileName": "PW12-2025-9.1p.mp4",
+    "mediaType": "video",
+    "options": [
+      {
+        "textPl": "Tak",
+        "textUz": "Ha",
+        "isCorrect": false
+      },
+      {
+        "textPl": "Nie",
+        "textUz": "Yo'q",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "textPl": "Czy w tej sytuacji wolno Ci wyprzedzić pojazd szynowy z prawej strony ?",
+    "textUz": "Bu vaziyatda relsli transport vositasidan o'ng tomondan o'zib o'tish mumkinmi?",
+    "category": "O'zib o'tish",
+    "isPremium": true,
+    "mediaFileName": "PW12-2025-11p.mp4",
+    "mediaType": "video",
+    "options": [
+      {
+        "textPl": "Tak",
+        "textUz": "Ha",
+        "isCorrect": true
+      },
+      {
+        "textPl": "Nie",
+        "textUz": "Yo'q",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "textPl": "Czy w tej sytuacji przed rozpoczęciem manewru wyprzedzania musisz upewnić się, czy kierujący jadący za Tobą nie rozpoczął manewru wyprzedzania ?",
+    "textUz": "Bu vaziyatda o'zib o'tish manevrini boshlashdan oldin, orqangizdan kelayotgan haydovchi bu manevrni boshlamaganiga ishonch hosil qilishingiz kerakmi?",
+    "category": "O'zib o'tish",
+    "isPremium": true,
+    "mediaFileName": "PW12-2025-29.mp4",
+    "mediaType": "video",
+    "options": [
+      {
+        "textPl": "Tak",
+        "textUz": "Ha",
+        "isCorrect": true
+      },
+      {
+        "textPl": "Nie",
+        "textUz": "Yo'q",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "textPl": "Czy w tej sytuacji, po wyminięciu jadącego z przeciwnego kierunku samochodu ciężarowego, możesz podjąć decyzję o wyprzedzaniu pojazdu jadącego przed Tobą ?",
+    "textUz": "Bu vaziyatda, qarshi tomondan kelayotgan yuk mashinasidan ayrilib o'tgandan keyin, oldingizda ketayotgan transport vositasidan o'zib o'tish qarorini qabul qilish mumkinmi?",
+    "category": "O'zib o'tish",
+    "isPremium": true,
+    "mediaFileName": "PW12-2025-26p.mp4",
+    "mediaType": "video",
+    "options": [
+      {
+        "textPl": "Tak",
+        "textUz": "Ha",
+        "isCorrect": false
+      },
+      {
+        "textPl": "Nie",
+        "textUz": "Yo'q",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "textPl": "Czy przy wyprzedzaniu hulajnogi elektrycznej wystarczające jest zachowanie 0,5m odstępu bocznego ?",
+    "textUz": "Elektr samokatdan o'zib o'tishda 0,5 metr yon masofa saqlash yetarlimi?",
+    "category": "O'zib o'tish",
+    "isPremium": true,
+    "mediaFileName": "PW12-2025-23.jpg",
+    "mediaType": "photo",
+    "options": [
+      {
+        "textPl": "Tak",
+        "textUz": "Ha",
+        "isCorrect": false
+      },
+      {
+        "textPl": "Nie",
+        "textUz": "Yo'q",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "textPl": "Czy wyprzedzając rower jadący pasem ruchu dla rowerów musisz zachować od niego odstęp boczny o wielkości co najmniej 1m ?",
+    "textUz": "Velosiped yo'lagidan ketayotgan velosipeddan o'zib o'tayotganda undan kamida 1 metr yon masofa saqlashingiz kerakmi?",
+    "category": "O'zib o'tish",
+    "isPremium": true,
+    "mediaFileName": "PW12-2025-41p.jpg",
+    "mediaType": "photo",
+    "options": [
+      {
+        "textPl": "Tak",
+        "textUz": "Ha",
+        "isCorrect": true
+      },
+      {
+        "textPl": "Nie",
+        "textUz": "Yo'q",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "textPl": "Czy w tej sytuacji mogłeś podjąć się wyprzedzania widocznego pojazdu z jego lewej strony ?",
+    "textUz": "Bu vaziyatda ko'rinib turgan transport vositasidan uning chap tomonidan o'zib o'tishga kirisha oldingizmi?",
+    "category": "O'zib o'tish",
+    "isPremium": true,
+    "mediaFileName": "PW12-2025-27p.mp4",
+    "mediaType": "video",
+    "options": [
+      {
+        "textPl": "Tak",
+        "textUz": "Ha",
+        "isCorrect": false
+      },
+      {
+        "textPl": "Nie",
+        "textUz": "Yo'q",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "textPl": "Czy w tej sytuacji bezpośrednio po wyprzedzeniu Twojego pojazdu możesz zwiększyć prędkość?",
+    "textUz": "Bu vaziyatda transport vositangiz o'zib o'tilgandan bevosita keyin tezlikni oshirish mumkinmi?",
+    "category": "O'zib o'tish",
+    "isPremium": true,
+    "mediaFileName": "PW12-2025-28p.mp4",
+    "mediaType": "video",
+    "options": [
+      {
+        "textPl": "Tak",
+        "textUz": "Ha",
+        "isCorrect": false
+      },
+      {
+        "textPl": "Nie",
+        "textUz": "Yo'q",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "textPl": "Czy w tej sytuacji możesz wyprzedzić hulajnogę elektryczną ?",
+    "textUz": "Bu vaziyatda elektr samokatdan o'zib o'tish mumkinmi?",
+    "category": "O'zib o'tish",
+    "isPremium": true,
+    "mediaFileName": "PW12-2025-1p.mp4",
+    "mediaType": "video",
+    "options": [
+      {
+        "textPl": "Tak",
+        "textUz": "Ha",
+        "isCorrect": false
+      },
+      {
+        "textPl": "Nie",
+        "textUz": "Yo'q",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "textPl": "Czy w tej sytuacji zabronione jest wyprzedzanie na skrzyżowaniu z sygnalizacją świetlną ?",
+    "textUz": "Bu vaziyatda svetoforli chorrahada o'zib o'tish taqiqlanganmi?",
+    "category": "O'zib o'tish",
+    "isPremium": true,
+    "mediaFileName": "PW12-2025-2.mp4",
+    "mediaType": "video",
+    "options": [
+      {
+        "textPl": "Tak",
+        "textUz": "Ha",
+        "isCorrect": false
+      },
+      {
+        "textPl": "Nie",
+        "textUz": "Yo'q",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "textPl": "Czy w tej sytuacji wolno Ci wyprzedzić pojazd jadący przed Tobą ?",
+    "textUz": "Bu vaziyatda oldingizda ketayotgan transport vositasidan o'zib o'tish mumkinmi?",
+    "category": "O'zib o'tish",
+    "isPremium": true,
+    "mediaFileName": "PW12-2025-25p.mp4",
+    "mediaType": "video",
+    "options": [
+      {
+        "textPl": "Tak",
+        "textUz": "Ha",
+        "isCorrect": false
+      },
+      {
+        "textPl": "Nie",
+        "textUz": "Yo'q",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "textPl": "Czy w tej sytuacji wolno Ci wyprzedzić rower?",
+    "textUz": "Bu vaziyatda velosipeddan o'zib o'tish mumkinmi?",
+    "category": "O'zib o'tish",
+    "isPremium": true,
+    "mediaFileName": "PW12-2025-4.mp4",
+    "mediaType": "video",
+    "options": [
+      {
+        "textPl": "Tak",
+        "textUz": "Ha",
+        "isCorrect": true
+      },
+      {
+        "textPl": "Nie",
+        "textUz": "Yo'q",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "textPl": "Czy w tej sytuacji wolno Ci wyprzedzić hulajnogę elektryczną ?",
+    "textUz": "Bu vaziyatda elektr samokatdan o'zib o'tish mumkinmi?",
+    "category": "O'zib o'tish",
+    "isPremium": true,
+    "mediaFileName": "PW12-2025-6.jpg",
+    "mediaType": "photo",
+    "options": [
+      {
+        "textPl": "Tak",
+        "textUz": "Ha",
+        "isCorrect": true
+      },
+      {
+        "textPl": "Nie",
+        "textUz": "Yo'q",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "textPl": "Czy w tej sytuacji wolno Ci wyprzedzić pojazd jadący pasem ruchu z Twojej lewej strony?",
+    "textUz": "Bu vaziyatda chap tomoningizdagi yo'lakdan ketayotgan transport vositasidan o'zib o'tish mumkinmi?",
+    "category": "O'zib o'tish",
+    "isPremium": true,
+    "mediaFileName": "PW12-2025-18p.mp4",
+    "mediaType": "video",
+    "options": [
+      {
+        "textPl": "Tak",
+        "textUz": "Ha",
+        "isCorrect": true
+      },
+      {
+        "textPl": "Nie",
+        "textUz": "Yo'q",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "textPl": "Czy w tej sytuacji na drodze ekspresowej wolno Ci wyprzedzić z prawej strony?",
+    "textUz": "Bu vaziyatda tezyurar yo'lda o'ng tomondan o'zib o'tish mumkinmi?",
+    "category": "O'zib o'tish",
+    "isPremium": true,
+    "mediaFileName": "PW12-2025-31p.mp4",
+    "mediaType": "video",
+    "options": [
+      {
+        "textPl": "Tak",
+        "textUz": "Ha",
+        "isCorrect": true
+      },
+      {
+        "textPl": "Nie",
+        "textUz": "Yo'q",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "textPl": "Czy w przedstawionej sytuacji wolno Ci wyprzedzić ten pojazd ?",
+    "textUz": "Ko'rsatilgan vaziyatda bu transport vositasidan o'zib o'tish mumkinmi?",
+    "category": "O'zib o'tish",
+    "isPremium": true,
+    "mediaFileName": "PW12-2025-32.mp4",
+    "mediaType": "video",
+    "options": [
+      {
+        "textPl": "Tak",
+        "textUz": "Ha",
+        "isCorrect": false
+      },
+      {
+        "textPl": "Nie",
+        "textUz": "Yo'q",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "textPl": "Czy w tej sytuacji przed podjęciem decyzji o wyprzedzaniu, niezbędne jest upewnienie się o możliwości wykonania manewru między innymi poprzez spojrzenie w lewe zewnętrzne lusterko pojazdu ?",
+    "textUz": "Bu vaziyatda o'zib o'tish haqida qaror qabul qilishdan oldin, jumladan chap tashqi oynaga qarab, manevrni bajarish imkoniyatiga ishonch hosil qilish zarurmi?",
+    "category": "O'zib o'tish",
+    "isPremium": true,
+    "mediaFileName": "PW12-2025-36.mp4",
+    "mediaType": "video",
+    "options": [
+      {
+        "textPl": "Tak",
+        "textUz": "Ha",
+        "isCorrect": true
+      },
+      {
+        "textPl": "Nie",
+        "textUz": "Yo'q",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "textPl": "Czy przy wyprzedzaniu powinieneś zwiększyć uwagę i dostosować swoje zachowanie do warunków i sytuacji zmieniających się na drodze tak abyś mógł odpowiednio szybko zareagować?",
+    "textUz": "O'zib o'tishda tez reaksiya qila olishingiz uchun diqqatni oshirish va xatti-harakatingizni yo'ldagi o'zgaruvchan sharoit va vaziyatlarga moslashtirish kerakmi?",
+    "category": "O'zib o'tish",
+    "isPremium": true,
+    "mediaFileName": "PW12-2025-38.mp4",
+    "mediaType": "video",
+    "options": [
+      {
+        "textPl": "Tak",
+        "textUz": "Ha",
+        "isCorrect": true
+      },
+      {
+        "textPl": "Nie",
+        "textUz": "Yo'q",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "textPl": "Czy w przedstawionej sytuacji wolno Ci wyprzedzić pojazd w czasie przejeżdżania przez tory tramwajowe?",
+    "textUz": "Ko'rsatilgan vaziyatda tramvay relslaridan o'tayotganda transport vositasidan o'zib o'tish mumkinmi?",
+    "category": "O'zib o'tish",
+    "isPremium": true,
+    "mediaFileName": "PW12-2025-2.1p.mp4",
+    "mediaType": "video",
+    "options": [
+      {
+        "textPl": "Tak",
+        "textUz": "Ha",
+        "isCorrect": true
+      },
+      {
+        "textPl": "Nie",
+        "textUz": "Yo'q",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "textPl": "Czy podczas wyprzedzania na autostradzie samochodem osobowym z przyczepą lekką możesz przekroczyć prędkość 80 km/h?",
+    "textUz": "Avtomagistralda yengil tirkama bilan yengil avtomobilda o'zib o'tayotganda tezlikni 80 km/soatdan oshirish mumkinmi?",
+    "category": "O'zib o'tish",
+    "isPremium": true,
+    "mediaFileName": "W12 543.jpg",
+    "mediaType": "photo",
+    "options": [
+      {
+        "textPl": "Tak",
+        "textUz": "Ha",
+        "isCorrect": false
+      },
+      {
+        "textPl": "Nie",
+        "textUz": "Yo'q",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "textPl": "Czy w miejscu, którego dotyczy widoczny znak wolno Ci wyprzedzać?",
+    "textUz": "Ko'rinib turgan belgi tegishli bo'lgan joyda o'zib o'tish mumkinmi?",
+    "category": "O'zib o'tish",
+    "isPremium": true,
+    "mediaFileName": "W 12 544 (1).jpg",
+    "mediaType": "photo",
+    "options": [
+      {
+        "textPl": "Tak",
+        "textUz": "Ha",
+        "isCorrect": false
+      },
+      {
+        "textPl": "Nie",
+        "textUz": "Yo'q",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "textPl": "Czy kierując motocyklem wolno Ci za tym znakiem wyprzedzić samochód osobowy?",
+    "textUz": "Mototsiklni boshqarganda bu belgidan keyin yengil avtomobildan o'zib o'tish mumkinmi?",
+    "category": "O'zib o'tish",
+    "isPremium": true,
+    "mediaFileName": "Wyprzedzanie18.jpg",
+    "mediaType": "photo",
+    "options": [
+      {
+        "textPl": "Tak",
+        "textUz": "Ha",
+        "isCorrect": false
+      },
+      {
+        "textPl": "Nie",
+        "textUz": "Yo'q",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "textPl": "Czy kierując samochodem osobowym wolno Ci za tym znakiem wyprzedzić autobus?",
+    "textUz": "Yengil avtomobilni boshqarganda bu belgidan keyin avtobusdan o'zib o'tish mumkinmi?",
+    "category": "O'zib o'tish",
+    "isPremium": true,
+    "mediaFileName": "Wyprzedzanie18.jpg",
+    "mediaType": "photo",
+    "options": [
+      {
+        "textPl": "Tak",
+        "textUz": "Ha",
+        "isCorrect": false
+      },
+      {
+        "textPl": "Nie",
+        "textUz": "Yo'q",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "textPl": "Czy w przedstawionej sytuacji jesteś zwolniony z obowiązku zachowania odstępu co najmniej 1 m podczas wyprzedzania rowerzysty ?",
+    "textUz": "Ko'rsatilgan vaziyatda velosipedchidan o'zib o'tishda kamida 1 metr masofa saqlash majburiyatidan ozod qilinganmisiz?",
+    "category": "O'zib o'tish",
+    "isPremium": true,
+    "mediaFileName": "Wyprzedzanie9.jpg",
+    "mediaType": "photo",
+    "options": [
+      {
+        "textPl": "Tak",
+        "textUz": "Ha",
+        "isCorrect": false
+      },
+      {
+        "textPl": "Nie",
+        "textUz": "Yo'q",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "textPl": "Czy w przedstawionej sytuacji, bezpośrednio przed przejściem dla pieszych, wolno Ci wyprzedzić pojazd jadący sąsiednim pasem ruchu?",
+    "textUz": "Ko'rsatilgan vaziyatda, piyodalar o'tish joyidan bevosita oldin, qo'shni yo'lakdan ketayotgan transport vositasidan o'zib o'tish mumkinmi?",
+    "category": "O'zib o'tish",
+    "isPremium": true,
+    "mediaFileName": "Wyprzedzanie14.jpg",
+    "mediaType": "photo",
+    "options": [
+      {
+        "textPl": "Tak",
+        "textUz": "Ha",
+        "isCorrect": false
+      },
+      {
+        "textPl": "Nie",
+        "textUz": "Yo'q",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "textPl": "Czy kierujący pojazdem, zbliżając się do tak oznaczonego przejścia dla pieszych może spodziewać się dziecka, w wieku do lat 10 jadącego rowerem pod opieką osoby dorosłej, przekraczających jezdnię w tym miejscu?",
+    "textUz": "Shunday belgilangan piyodalar o'tish joyiga yaqinlashayotgan haydovchi, shu joyda kattalar nazorati ostida velosipedda yo'ldan o'tayotgan 10 yoshgacha bo'lgan bolani kutishi mumkinmi?",
+    "category": "Umumiy qoidalar",
+    "isPremium": true,
+    "mediaFileName": "Przejście-wyspa.jpg",
+    "mediaType": "photo",
+    "options": [
+      {
+        "textPl": "Tak",
+        "textUz": "Ha",
+        "isCorrect": true
+      },
+      {
+        "textPl": "Nie",
+        "textUz": "Yo'q",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "textPl": "Czy w tej sytuacji możesz kontynuować jazdę dopiero kiedy pieszy opuści przejście dla pieszych ?",
+    "textUz": "Bu vaziyatda faqat piyoda o'tish joyini tark etgandan keyin haydashni davom ettirish mumkinmi?",
+    "category": "Umumiy qoidalar",
+    "isPremium": true,
+    "mediaFileName": "PW12b-2025-2.mp4",
+    "mediaType": "video",
+    "options": [
+      {
+        "textPl": "Tak",
+        "textUz": "Ha",
+        "isCorrect": false
+      },
+      {
+        "textPl": "Nie",
+        "textUz": "Yo'q",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "textPl": "Czy w tej sytuacji masz obowiązek ustąpić pierwszeństwa pieszemu wchodzącemu na przejście dla pieszych ?",
+    "textUz": "Bu vaziyatda piyodalar o'tish joyiga kirayotgan piyodaga yo'l berish majburiyati bormi?",
+    "category": "Ustuvorlik qoidalari",
+    "isPremium": true,
+    "mediaFileName": "PW12b-2025-3.mp4",
+    "mediaType": "video",
+    "options": [
+      {
+        "textPl": "Tak",
+        "textUz": "Ha",
+        "isCorrect": true
+      },
+      {
+        "textPl": "Nie",
+        "textUz": "Yo'q",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "textPl": "Chcesz przejechać przez chodnik. Czy w tej sytuacji masz obowiązek powstrzymać się od jazdy jeżeli mogłaby ona zmusić pieszego do zatrzymania się, zwolnienia lub przyspieszenia kroku?",
+    "textUz": "Trotuardan o'tmoqchisiz. Bu vaziyatda, agar bu piyodani to'xtashga, sekinlashishga yoki qadamni tezlashtirishga majbur qilsa, harakatdan tiyilish majburiyati bormi?",
+    "category": "To'xtash va parking",
+    "isPremium": true,
+    "mediaFileName": "PW12b-2025-4.mp4",
+    "mediaType": "video",
+    "options": [
+      {
+        "textPl": "Tak",
+        "textUz": "Ha",
+        "isCorrect": true
+      },
+      {
+        "textPl": "Nie",
+        "textUz": "Yo'q",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "textPl": "Czy w tej sytuacji widząc zataczającego się mężczyznę idącego po jezdni masz prawo użyć sygnału dźwiękowego ?",
+    "textUz": "Bu vaziyatda yo'lda tebranib yurayotgan erkakni ko'rib, tovush signalidan foydalanish huquqingiz bormi?",
+    "category": "Umumiy qoidalar",
+    "isPremium": true,
+    "mediaFileName": "PW12b-2025-6.mp4",
+    "mediaType": "video",
+    "options": [
+      {
+        "textPl": "Tak",
+        "textUz": "Ha",
+        "isCorrect": true
+      },
+      {
+        "textPl": "Nie",
+        "textUz": "Yo'q",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "textPl": "Czy w tej sytuacji widząc pieszych idących po jezdni możesz użyć sygnału dźwiękowego ?",
+    "textUz": "Bu vaziyatda yo'lda yurayotgan piyodalarni ko'rib, tovush signalidan foydalanish mumkinmi?",
+    "category": "Umumiy qoidalar",
+    "isPremium": true,
+    "mediaFileName": "PW12b-2025-7.jpg",
+    "mediaType": "photo",
+    "options": [
+      {
+        "textPl": "Tak",
+        "textUz": "Ha",
+        "isCorrect": false
+      },
+      {
+        "textPl": "Nie",
+        "textUz": "Yo'q",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "textPl": "Czy w tej sytuacji widząc wchodzącego z lewej strony na jezdnię pieszego  powinieneś mieć świadomość, że to on ma pierwszeństwo?",
+    "textUz": "Bu vaziyatda chap tomondan yo'lga chiqayotgan piyodani ko'rib, uning ustuvorlikka ega ekanligini bilishingiz kerakmi?",
+    "category": "Ustuvorlik qoidalari",
+    "isPremium": true,
+    "mediaFileName": "PW12b-2025-8.jpg",
+    "mediaType": "photo",
+    "options": [
+      {
+        "textPl": "Tak",
+        "textUz": "Ha",
+        "isCorrect": true
+      },
+      {
+        "textPl": "Nie",
+        "textUz": "Yo'q",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "textPl": "Czy w tej sytuacji masz obowiązek zatrzymać się i przepuścić pieszych wchodzących na przejście znajdujące się po lewej stronie ?",
+    "textUz": "Bu vaziyatda to'xtash va chap tomondagi o'tish joyiga kirayotgan piyodalarni o'tkazib yuborish majburiyati bormi?",
+    "category": "To'xtash va parking",
+    "isPremium": true,
+    "mediaFileName": "PW12b-2025-11.mp4",
+    "mediaType": "video",
+    "options": [
+      {
+        "textPl": "Tak",
+        "textUz": "Ha",
+        "isCorrect": false
+      },
+      {
+        "textPl": "Nie",
+        "textUz": "Yo'q",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "textPl": "Czy w tej sytuacji masz obowiązek ustąpić pierwszeństwa pieszemu ?",
+    "textUz": "Bu vaziyatda piyodaga yo'l berish majburiyati bormi?",
+    "category": "Ustuvorlik qoidalari",
+    "isPremium": true,
+    "mediaFileName": "PW12b-2025-12.mp4",
+    "mediaType": "video",
+    "options": [
+      {
+        "textPl": "Tak",
+        "textUz": "Ha",
+        "isCorrect": true
+      },
+      {
+        "textPl": "Nie",
+        "textUz": "Yo'q",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "textPl": "Czy w tej sytuacji omijając pieszego powinieneś zwiększyć odstęp ?",
+    "textUz": "Bu vaziyatda piyodani aylanib o'tayotganda masofani oshirishingiz kerakmi?",
+    "category": "Umumiy qoidalar",
+    "isPremium": true,
+    "mediaFileName": "PW12b-2025-14.mp4",
+    "mediaType": "video",
+    "options": [
+      {
+        "textPl": "Tak",
+        "textUz": "Ha",
+        "isCorrect": true
+      },
+      {
+        "textPl": "Nie",
+        "textUz": "Yo'q",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "textPl": "Czy w tej sytuacji wyprzedzając pieszego masz obowiązek zachować szczególną ostrożność ?",
+    "textUz": "Bu vaziyatda piyodadan o'zib o'tayotganda alohida ehtiyotkorlik ko'rsatish majburiyati bormi?",
+    "category": "O'zib o'tish",
+    "isPremium": true,
+    "mediaFileName": "PW12b-2025-15.mp4",
+    "mediaType": "video",
+    "options": [
+      {
+        "textPl": "Tak",
+        "textUz": "Ha",
+        "isCorrect": true
+      },
+      {
+        "textPl": "Nie",
+        "textUz": "Yo'q",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "textPl": "Czy w tej sytuacji chcąc zaparkować pojazd najlepiej dla zachowania bezpieczeństwa będzie odczekanie na oddalenie się pieszego prowadzącego hulajnogę ?",
+    "textUz": "Bu vaziyatda transport vositasini qo'ymoqchi bo'lsangiz, xavfsizlik uchun eng yaxshisi samokat yetaklab ketayotgan piyoda uzoqlashishini kutishmi?",
+    "category": "To'xtash va parking",
+    "isPremium": true,
+    "mediaFileName": "PW12b-2025-16.mp4",
+    "mediaType": "video",
+    "options": [
+      {
+        "textPl": "Tak",
+        "textUz": "Ha",
+        "isCorrect": true
+      },
+      {
+        "textPl": "Nie",
+        "textUz": "Yo'q",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "textPl": "Czy w tej sytuacji wykonując manewr cofania masz obowiązek powstrzymać się od ruchu jeśli ruch mógłby zmusić pieszego do zatrzymania się ?",
+    "textUz": "Bu vaziyatda orqaga yurish manevrini bajarayotganda, agar harakat piyodani to'xtashga majbur qilsa, harakatdan tiyilish majburiyati bormi?",
+    "category": "To'xtash va parking",
+    "isPremium": true,
+    "mediaFileName": "PW12b-2025-17.mp4",
+    "mediaType": "video",
+    "options": [
+      {
+        "textPl": "Tak",
+        "textUz": "Ha",
+        "isCorrect": true
+      },
+      {
+        "textPl": "Nie",
+        "textUz": "Yo'q",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "textPl": "Czy w tej sytuacji masz obowiązek nie utrudnienia ruchu widocznemu po lewej stronie pieszemu?",
+    "textUz": "Bu vaziyatda chap tomonda ko'rinib turgan piyodaning harakatiga xalaqit bermaslik majburiyati bormi?",
+    "category": "Umumiy qoidalar",
+    "isPremium": true,
+    "mediaFileName": "PW12b-2025-18.mp4",
+    "mediaType": "video",
+    "options": [
+      {
+        "textPl": "Tak",
+        "textUz": "Ha",
+        "isCorrect": true
+      },
+      {
+        "textPl": "Nie",
+        "textUz": "Yo'q",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "textPl": "Czy w tej sytuacji powinieneś być przygotowany na wejście pieszego na przejście dla pieszych?",
+    "textUz": "Bu vaziyatda piyodaning o'tish joyiga chiqishiga tayyor bo'lishingiz kerakmi?",
+    "category": "Umumiy qoidalar",
+    "isPremium": true,
+    "mediaFileName": "PW12b-2025-19.mp4",
+    "mediaType": "video",
+    "options": [
+      {
+        "textPl": "Tak",
+        "textUz": "Ha",
+        "isCorrect": true
+      },
+      {
+        "textPl": "Nie",
+        "textUz": "Yo'q",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "textPl": "Czy w tej sytuacji powinieneś przewidywać, że pieszy wejdzie na jezdnię bezpośrednio przed Twój pojazd?",
+    "textUz": "Bu vaziyatda piyoda transport vositangiz oldiga bevosita yo'lga chiqishini kutishingiz kerakmi?",
+    "category": "Umumiy qoidalar",
+    "isPremium": true,
+    "mediaFileName": "PW12b-2025-5a.mp4",
+    "mediaType": "video",
+    "options": [
+      {
+        "textPl": "Tak",
+        "textUz": "Ha",
+        "isCorrect": true
+      },
+      {
+        "textPl": "Nie",
+        "textUz": "Yo'q",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "textPl": "Czy w tej sytuacji masz obowiązek zatrzymać się i zaczekać aż pieszy opuści przejście dla pieszych na drugiej połowie jezdni ?",
+    "textUz": "Bu vaziyatda to'xtash va piyoda yo'lning ikkinchi yarmidagi o'tish joyini tark etishini kutish majburiyati bormi?",
+    "category": "To'xtash va parking",
+    "isPremium": true,
+    "mediaFileName": "PW12b-2025-10a.mp4",
+    "mediaType": "video",
+    "options": [
+      {
+        "textPl": "Tak",
+        "textUz": "Ha",
+        "isCorrect": false
+      },
+      {
+        "textPl": "Nie",
+        "textUz": "Yo'q",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "textPl": "Czy w tej sytuacji powinieneś przewidywać, że zza autobusu może wyjść pieszy i być przygotowanym do hamowania?\"",
+    "textUz": "Bu vaziyatda avtobus ortidan piyoda chiqishi mumkinligini kutish va tormozlashga tayyor bo'lishingiz kerakmi?",
+    "category": "Umumiy qoidalar",
+    "isPremium": true,
+    "mediaFileName": "PW12b-2025-20a.mp4",
+    "mediaType": "video",
+    "options": [
+      {
+        "textPl": "Tak",
+        "textUz": "Ha",
+        "isCorrect": true
+      },
+      {
+        "textPl": "Nie",
+        "textUz": "Yo'q",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "textPl": "Czy na tak oznaczonej drodze wymagane jest zachowanie minimalnego odstępu od poprzedzającego pojazdu co najmniej 100m?",
+    "textUz": "Shunday belgilangan yo'lda oldingi transport vositasidan kamida 100 metr minimal masofa saqlash talab qilinadimi?",
+    "category": "Umumiy qoidalar",
+    "isPremium": true,
+    "mediaFileName": "D-7.jpg",
+    "mediaType": "photo",
+    "options": [
+      {
+        "textPl": "Tak",
+        "textUz": "Ha",
+        "isCorrect": false
+      },
+      {
+        "textPl": "Nie",
+        "textUz": "Yo'q",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "textPl": "Czy na tak oznaczonej drodze wymagane jest zachowanie minimalnego odstępu od poprzedzającego pojazdu co najmniej 100m?",
+    "textUz": "Shunday belgilangan yo'lda oldingi transport vositasidan kamida 100 metr minimal masofa saqlash talab qilinadimi?",
+    "category": "Umumiy qoidalar",
+    "isPremium": true,
+    "mediaFileName": "D-9.jpg",
+    "mediaType": "photo",
+    "options": [
+      {
+        "textPl": "Tak",
+        "textUz": "Ha",
+        "isCorrect": false
+      },
+      {
+        "textPl": "Nie",
+        "textUz": "Yo'q",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "textPl": "Czy na drodze tak oznakowanej, jadąc za pojazdem , który porusza się z prędkością 80 km/h, wymagane jest zachowanie minimalnego odstępu od niego co najmniej 40 m ?.",
+    "textUz": "Shunday belgilangan yo'lda, 80 km/soat tezlikda harakatlanayotgan transport vositasi ortidan yurganingizda, undan kamida 40 metr minimal masofa saqlash talab qilinadimi?",
+    "category": "Yo'l belgilari",
+    "isPremium": true,
+    "mediaFileName": "D-9.jpg",
+    "mediaType": "photo",
+    "options": [
+      {
+        "textPl": "Tak",
+        "textUz": "Ha",
+        "isCorrect": true
+      },
+      {
+        "textPl": "Nie",
+        "textUz": "Yo'q",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "textPl": "Czy na drodze tak oznakowanej osoba poruszająca się przy użyciu urządzenia wspomagającego ruch ma pierwszeństwo przed pojazdem?",
+    "textUz": "Shunday belgilangan yo'lda harakatni qo'llab-quvvatlovchi qurilmadan foydalanayotgan shaxs transport vositasidan oldin ustuvorlikka egami?",
+    "category": "Ustuvorlik qoidalari",
+    "isPremium": true,
+    "mediaFileName": "D-40.jpg",
+    "mediaType": "photo",
+    "options": [
+      {
+        "textPl": "Tak",
+        "textUz": "Ha",
+        "isCorrect": true
+      },
+      {
+        "textPl": "Nie",
+        "textUz": "Yo'q",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "textPl": "Czy kierując pojazdem na drodze tak oznakowanej masz pierwszeństwo przed osobą poruszającą się przy użyciu urządzenia wspomagającego ruch?",
+    "textUz": "Shunday belgilangan yo'lda transport vositasini boshqarganda, harakatni qo'llab-quvvatlovchi qurilmadan foydalanayotgan shaxsdan oldin ustuvorligingiz bormi?",
+    "category": "Ustuvorlik qoidalari",
+    "isPremium": true,
+    "mediaFileName": "D-40.jpg",
+    "mediaType": "photo",
+    "options": [
+      {
+        "textPl": "Tak",
+        "textUz": "Ha",
+        "isCorrect": false
+      },
+      {
+        "textPl": "Nie",
+        "textUz": "Yo'q",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "textPl": "Czy w miejscu tak oznaczonym kierujący hulajnogą elektryczną ma prawo korzystać z całej szerokości drogi?",
+    "textUz": "Shunday belgilangan joyda elektr samokat haydovchisi yo'lning butun kengligidan foydalanish huquqiga egami?",
+    "category": "Umumiy qoidalar",
+    "isPremium": true,
+    "mediaFileName": "D-40.jpg",
+    "mediaType": "photo",
+    "options": [
+      {
+        "textPl": "Tak",
+        "textUz": "Ha",
+        "isCorrect": false
+      },
+      {
+        "textPl": "Nie",
+        "textUz": "Yo'q",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "textPl": "Czy na drodze tak oznakowanej osoba poruszająca się przy użyciu urządzenia wspomagającego ruch może korzystać z całej szerokości drogi i ma pierwszeństwo przed pojazdem?",
+    "textUz": "Shunday belgilangan yo'lda harakatni qo'llab-quvvatlovchi qurilmadan foydalanayotgan shaxs yo'lning butun kengligidan foydalanishi mumkinmi va transport vositasidan oldin ustuvorlikka egami?",
+    "category": "Ustuvorlik qoidalari",
+    "isPremium": true,
+    "mediaFileName": "D-40.jpg",
+    "mediaType": "photo",
+    "options": [
+      {
+        "textPl": "Tak",
+        "textUz": "Ha",
+        "isCorrect": true
+      },
+      {
+        "textPl": "Nie",
+        "textUz": "Yo'q",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "textPl": "Czy w przedstawionej sytuacji podczas przecinania się kierunków ruchu, kierujący obowiązany jest ustąpić pierwszeństwa pojazdowi jadącemu z prawej strony?",
+    "textUz": "Ko'rsatilgan vaziyatda harakat yo'nalishlari kesishganda, haydovchi o'ng tomondan kelayotgan transport vositasiga yo'l berishga majburmi?",
+    "category": "Ustuvorlik qoidalari",
+    "isPremium": true,
+    "mediaFileName": "AKADEMIA_5.jpg",
+    "mediaType": "photo",
+    "options": [
+      {
+        "textPl": "Tak",
+        "textUz": "Ha",
+        "isCorrect": true
+      },
+      {
+        "textPl": "Nie",
+        "textUz": "Yo'q",
+        "isCorrect": false
+      }
+    ]
+  }
+]

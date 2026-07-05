@@ -1,0 +1,58 @@
+[
+  {
+    "textPl": "Czy w tej sytuacji masz obowiązek zatrzymać pojazd na taki czas, aby zapewnić pieszym swobodne dojście do chodnika?",
+    "a": "",
+    "b": "",
+    "c": "",
+    "correct": "T",
+    "textEn": "In this situation, are you required to stop the vehicle for the time needed by the pedestrian to freely reach the pavement?",
+    "aEn": "",
+    "bEn": "",
+    "cEn": "",
+    "media": "i7055_1.wmv",
+    "zakres": "PODSTAWOWY",
+    "translationIndex": 42
+  },
+  {
+    "textPl": "Czy masz prawo ruszyć, gdy piesi wejdą na chodnik?",
+    "a": "",
+    "b": "",
+    "c": "",
+    "correct": "T",
+    "textEn": "Are you allowed to start driving once the pedestrians have walked onto the pavement?",
+    "aEn": "",
+    "bEn": "",
+    "cEn": "",
+    "media": "i7056_1.wmv",
+    "zakres": "PODSTAWOWY",
+    "translationIndex": 43
+  },
+  {
+    "textPl": "Czy w tej sytuacji masz prawo zaparkować pojazd na chodniku po prawej stronie, w odległości 11 metrów od znaku oznaczającego przystanek?",
+    "a": "",
+    "b": "",
+    "c": "",
+    "correct": "N",
+    "textEn": "In this situation, are you allowed to park the vehicle on the pavement on the right side at the distance of 11 meters from the sign indicating a bus stop?",
+    "aEn": "",
+    "bEn": "",
+    "cEn": "",
+    "media": "i3997_1.wmv",
+    "zakres": "PODSTAWOWY",
+    "translationIndex": 44
+  },
+  {
+    "textPl": "Czy widoczne oznakowanie ostrzega o przejeździe kolejowym z zaporami?",
+    "a": "",
+    "b": "",
+    "c": "",
+    "correct": "T",
+    "textEn": "Does the visible sign warn you of a level-crossing with barriers?",
+    "aEn": "",
+    "bEn": "",
+    "cEn": "",
+    "media": "ZO-10-14_0003_Censored_1024x576.wmv",
+    "zakres": "PODSTAWOWY",
+    "translationIndex": 131
+  }
+]

@@ -1,0 +1,527 @@
+[
+  { "id": "cmr6b9zbq00tmubt4n08voca4", "textRu": "Вы управляете легковым автомобилем с прицепом, двигаясь по автомагистрали. Какую скорость вам нельзя превышать?", "textEn": "You are driving a passenger car with a trailer on the motorway. What speed must you not exceed?", "options": [
+    { "id": "cmr6b9zbq00tnubt42xvp3nw1", "textRu": "80 км/ч.", "textEn": "80 km/h." },
+    { "id": "cmr6b9zbq00toubt40bua67lm", "textRu": "100 км/ч.", "textEn": "100 km/h." },
+    { "id": "cmr6b9zbq00tpubt41m8otwle", "textRu": "90 км/ч.", "textEn": "90 km/h." }
+  ]},
+  { "id": "cmr6b9zbx00tqubt41lvb7oi1", "textRu": "С какой допустимой скоростью разрешается двигаться, управляя легковым автомобилем, буксирующим лёгкий прицеп, по автомагистрали?", "textEn": "At what permitted speed are you allowed to travel when driving a passenger car towing a light trailer on the motorway?", "options": [
+    { "id": "cmr6b9zbx00trubt4aphzj7gt", "textRu": "80 км/ч.", "textEn": "80 km/h." },
+    { "id": "cmr6b9zbx00tsubt4puzg77zw", "textRu": "100 км/ч.", "textEn": "100 km/h." },
+    { "id": "cmr6b9zbx00ttubt4irggns4e", "textRu": "140 км/ч.", "textEn": "140 km/h." }
+  ]},
+  { "id": "cmr6b9zc500tuubt4c1jrynto", "textRu": "Какие из перечисленных повреждений ремней безопасности означают безусловную необходимость замены ремней на новые?", "textEn": "Which of the following seat belt damages mean the belts absolutely must be replaced with new ones?", "options": [
+    { "id": "cmr6b9zc500tvubt4v3iorj3b", "textRu": "Скручивание или сворачивание ремней.", "textEn": "Twisting or curling of the belts." },
+    { "id": "cmr6b9zc500twubt4bj44rp5b", "textRu": "Потёртости, сужения и надрывы ленты ремней.", "textEn": "Frayed areas, narrowing, and tears in the belt webbing." },
+    { "id": "cmr6b9zc500txubt4d6wt6cu5", "textRu": "Стойкие загрязнения и пятна на ленте ремней.", "textEn": "Permanent dirt and stains on the belt webbing." }
+  ]},
+  { "id": "cmr6bf4zz0000ubcwdcx7yjo4", "textRu": "Какую из перечисленных частей тела должен защищать подголовник сиденья транспортного средства?", "textEn": "Which of the following body parts should the vehicle seat headrest protect?", "options": [
+    { "id": "cmr6bf5030001ubcwrmot0vcj", "textRu": "Шейный отдел позвоночника.", "textEn": "The cervical spine." },
+    { "id": "cmr6bf5040002ubcwu28t9wjl", "textRu": "Лобную кость.", "textEn": "The frontal bone." },
+    { "id": "cmr6bf5040003ubcw73puf89q", "textRu": "Затылочную кость.", "textEn": "The occipital bone." }
+  ]},
+  { "id": "cmr6bf52z0004ubcww33blo8p", "textRu": "Какой из перечисленных факторов непосредственно влияет на тормозной путь?", "textEn": "Which of the following factors directly affects the braking distance?", "options": [
+    { "id": "cmr6bf5300005ubcwynjj8hlw", "textRu": "Скорость движения.", "textEn": "Driving speed." },
+    { "id": "cmr6bf5300006ubcw4baayhmz", "textRu": "Горизонтальная разметка.", "textEn": "Horizontal markings." },
+    { "id": "cmr6bf5300007ubcwqcq7h6ci", "textRu": "Видимость на дороге.", "textEn": "Visibility on the road." }
+  ]},
+  { "id": "cmr6bf53a0008ubcwyr9sgrhb", "textRu": "Какой из перечисленных факторов непосредственно влияет на тормозной путь?", "textEn": "Which of the following factors directly affects the braking distance?", "options": [
+    { "id": "cmr6bf53a0009ubcwyhyi6m5n", "textRu": "Горизонтальная разметка.", "textEn": "Horizontal markings." },
+    { "id": "cmr6bf53a000aubcw91tr47j8", "textRu": "Состояние тормозов.", "textEn": "The condition of the brakes." },
+    { "id": "cmr6bf53a000bubcwx60i9psg", "textRu": "Вертикальные знаки.", "textEn": "Vertical signs." }
+  ]},
+  { "id": "cmr6bf53i000cubcw93fi2pfu", "textRu": "Какие факторы влияют на суммарное время восприятия и реакции водителя?", "textEn": "What factors affect the combined perception and reaction time of the driver?", "options": [
+    { "id": "cmr6bf53j000eubcwfw621hki", "textRu": "Видимость на дороге, сложность дорожной ситуации.", "textEn": "Visibility on the road, complexity of the road situation." },
+    { "id": "cmr6bf53i000dubcwtpj0xvhl", "textRu": "Состояние шин.", "textEn": "Tyre condition." },
+    { "id": "cmr6bf53j000fubcwetuyomi1", "textRu": "Дополнительная масса транспортного средства.", "textEn": "Additional vehicle mass." }
+  ]},
+  { "id": "cmr6bf53w000gubcwgr083x28", "textRu": "Какую дистанцию вы должны соблюдать, обгоняя велосипед или мопед?", "textEn": "What distance must you maintain when overtaking a bicycle or moped?", "options": [
+    { "id": "cmr6bf53w000hubcwhr75pa8x", "textRu": "Не менее 1 метра.", "textEn": "Not less than 1 metre." },
+    { "id": "cmr6bf53w000iubcwlfo048vd", "textRu": "Не менее 0,5 метра.", "textEn": "Not less than 0.5 metre." },
+    { "id": "cmr6bf53w000jubcwctakotyy", "textRu": "Любую, но безопасную.", "textEn": "Any, but safe." }
+  ]},
+  { "id": "cmr6bf546000kubcw1zvt5dku", "textRu": "Какую дистанцию от движущегося впереди транспортного средства вы должны соблюдать, стоя перед перекрёстком и ожидая зелёного сигнала?", "textEn": "What distance from the vehicle ahead must you maintain while stopped before an intersection waiting for the green signal?", "options": [
+    { "id": "cmr6bf546000lubcwn7qt2d1d", "textRu": "Минимум 0,5 м.", "textEn": "At least 0.5 m." },
+    { "id": "cmr6bf546000mubcwkyahx72a", "textRu": "Безопасную дистанцию.", "textEn": "A safe distance." },
+    { "id": "cmr6bf546000nubcw2z3o9xd3", "textRu": "Максимум 3 м, минимум 1 м.", "textEn": "At most 3 m, at least 1 m." }
+  ]},
+  { "id": "cmr6bf55r000oubcw4z48x7sl", "textRu": "Какую дистанцию от движущегося впереди транспортного средства вы должны соблюдать, стоя перед перекрёстком и ожидая зелёного сигнала?", "textEn": "What distance from the vehicle ahead must you maintain while stopped before an intersection waiting for the green signal?", "options": [
+    { "id": "cmr6bf55s000pubcw0h0e78sz", "textRu": "Минимум 1 м.", "textEn": "At least 1 m." },
+    { "id": "cmr6bf55s000qubcwjw86sqda", "textRu": "Максимум 10 м, минимум 1 м.", "textEn": "At most 10 m, at least 1 m." },
+    { "id": "cmr6bf55s000rubcws6eiav1e", "textRu": "Безопасную дистанцию.", "textEn": "A safe distance." }
+  ]},
+  { "id": "cmr6bf563000subcwhgnrw7od", "textRu": "Какую дистанцию вы должны соблюдать от объезжаемого препятствия?", "textEn": "What distance must you keep from an obstacle you are driving around?", "options": [
+    { "id": "cmr6bf563000tubcw8pqq9qo2", "textRu": "1 м.", "textEn": "1 m." },
+    { "id": "cmr6bf563000uubcw89873pdg", "textRu": "Безопасную.", "textEn": "A safe one." },
+    { "id": "cmr6bf563000vubcw2uiu8dfr", "textRu": "1,5 м.", "textEn": "1.5 m." }
+  ]},
+  { "id": "cmr6bf56c000wubcwca7rb53q", "textRu": "Какую дистанцию следует соблюдать при разъезде со встречным транспортом?", "textEn": "What distance should be kept when passing an oncoming vehicle?", "options": [
+    { "id": "cmr6bf56c000xubcw0c5wswfp", "textRu": "Не менее 1 метра.", "textEn": "At least 1 metre." },
+    { "id": "cmr6bf56c000yubcw3216wd4b", "textRu": "Не менее 2 метров.", "textEn": "At least 2 metres." },
+    { "id": "cmr6bf56c000zubcwfiosx2cr", "textRu": "Безопасную.", "textEn": "A safe one." }
+  ]},
+  { "id": "cmr6bf56s0010ubcwh0ht4kud", "textRu": "Какой из перечисленных элементов оснащения или конструкции транспортного средства существенно влияет на безопасность при торможении?", "textEn": "Which of the following equipment or design elements of a vehicle significantly affects braking safety?", "options": [
+    { "id": "cmr6bf56s0011ubcwivn4vj58", "textRu": "Система AWS.", "textEn": "The AWS system." },
+    { "id": "cmr6bf56s0012ubcwaeu5ckn0", "textRu": "Круиз-контроль.", "textEn": "Cruise control." },
+    { "id": "cmr6bf56s0013ubcw2llqp0uv", "textRu": "Система АБС.", "textEn": "The ABS system." }
+  ]},
+  { "id": "cmr6bf5740014ubcwc6m42aia", "textRu": "Как изменяется тормозной путь транспортного средства в зависимости от увеличения скорости?", "textEn": "How does a vehicle's braking distance change as speed increases?", "options": [
+    { "id": "cmr6bf5740015ubcw1yquhbh5", "textRu": "Тормозной путь увеличивается по мере роста скорости.", "textEn": "The braking distance increases as speed increases." },
+    { "id": "cmr6bf5740016ubcwt6ibv60d", "textRu": "Тормозной путь сокращается по мере роста скорости.", "textEn": "The braking distance decreases as speed increases." },
+    { "id": "cmr6bf5740017ubcwm3um3tlx", "textRu": "Скорость движения не влияет на тормозной путь.", "textEn": "Driving speed has no effect on the braking distance." }
+  ]},
+  { "id": "cmr6bf57e0018ubcwxbw24b38", "textRu": "На какие факторы и обстоятельства следует обращать внимание, выбирая безопасную скорость движения в соответствии с существующими дорожными условиями?", "textEn": "What factors and circumstances should you pay attention to when selecting a safe driving speed for the prevailing road conditions?", "options": [
+    { "id": "cmr6bf57e0019ubcw0cdc5yyu", "textRu": "Только на запрещающие знаки.", "textEn": "Only prohibition signs." },
+    { "id": "cmr6bf57e001aubcwzsgzi55k", "textRu": "Тип покрытия и условия на дороге.", "textEn": "The type of surface and the conditions on the road." },
+    { "id": "cmr6bf57e001bubcw6q86t0r1", "textRu": "Только на скорость движения других участников движения.", "textEn": "Only the speed of other road users." }
+  ]},
+  { "id": "cmr6bf57q001cubcw8r0ickvl", "textRu": "Что следует сделать при обнаружении неправильного давления моторного масла?", "textEn": "What should be done upon discovering incorrect engine oil pressure?", "options": [
+    { "id": "cmr6bf57q001dubcwoigca2hn", "textRu": "Долить недостающее количество любым маслом.", "textEn": "Top up the shortfall with any oil." },
+    { "id": "cmr6bf57q001eubcwm09yisfk", "textRu": "Проверить уровень масла и при необходимости долить.", "textEn": "Check the oil level and top it up if necessary." },
+    { "id": "cmr6bf57q001fubcwpasi3kra", "textRu": "Всегда включать аварийную сигнализацию.", "textEn": "Always turn on the hazard lights." }
+  ]},
+  { "id": "cmr6bf580001gubcw2hr4arlv", "textRu": "Какая из контрольных ламп, видимых на иллюстрации, сообщает о включённом ближнем свете?", "textEn": "Which of the warning lights shown in the illustration indicates that the low-beam headlights are on?", "options": [
+    { "id": "cmr6bf580001hubcwn12ip3wd", "textRu": "A.", "textEn": "A." },
+    { "id": "cmr6bf580001iubcw3iopryvm", "textRu": "B.", "textEn": "B." },
+    { "id": "cmr6bf580001jubcw0zltitw5", "textRu": "C.", "textEn": "C." }
+  ]},
+  { "id": "cmr6bf58a001kubcwuaru52md", "textRu": "Какая из контрольных ламп, видимых на иллюстрации, сообщает о включённых указателях поворота?", "textEn": "Which of the warning lights shown in the illustration indicates that the turn signals are on?", "options": [
+    { "id": "cmr6bf58b001lubcwocknp55m", "textRu": "A.", "textEn": "A." },
+    { "id": "cmr6bf58b001mubcwz0hcyjns", "textRu": "B.", "textEn": "B." },
+    { "id": "cmr6bf58b001nubcwio0oiiey", "textRu": "C.", "textEn": "C." }
+  ]},
+  { "id": "cmr6bf58p001oubcwmv92a8wt", "textRu": "Какая из контрольных ламп, видимых на иллюстрации, сообщает о включённых габаритных огнях?", "textEn": "Which of the warning lights shown in the illustration indicates that the position (side) lights are on?", "options": [
+    { "id": "cmr6bf58p001pubcwnt4vho8v", "textRu": "A.", "textEn": "A." },
+    { "id": "cmr6bf58p001qubcw7v61f42l", "textRu": "B.", "textEn": "B." },
+    { "id": "cmr6bf58p001rubcwuljexq37", "textRu": "C.", "textEn": "C." }
+  ]},
+  { "id": "cmr6bf591001subcwfvninxkg", "textRu": "Какая из контрольных ламп, видимых на иллюстрации, относится к передним противотуманным фарам?", "textEn": "Which of the warning lights shown in the illustration relates to the front fog lights?", "options": [
+    { "id": "cmr6bf591001tubcwhlo2xx2t", "textRu": "A.", "textEn": "A." },
+    { "id": "cmr6bf591001uubcwrpzg9862", "textRu": "B.", "textEn": "B." },
+    { "id": "cmr6bf591001vubcwsz8e0pay", "textRu": "C.", "textEn": "C." }
+  ]},
+  { "id": "cmr6bf59c001wubcwajyul8rz", "textRu": "Какая из контрольных ламп, видимых на иллюстрации, сообщает о включённых указателях поворота?", "textEn": "Which of the warning lights shown in the illustration indicates that the turn signals are on?", "options": [
+    { "id": "cmr6bf59c001xubcw32wkqdqy", "textRu": "A.", "textEn": "A." },
+    { "id": "cmr6bf59c001yubcwi1hj5n2c", "textRu": "B.", "textEn": "B." },
+    { "id": "cmr6bf59c001zubcwjcdk6zxb", "textRu": "C.", "textEn": "C." }
+  ]},
+  { "id": "cmr6bf59s0020ubcwm1e6539r", "textRu": "Какая из контрольных ламп, видимых на иллюстрации, сообщает о включённых задних противотуманных фарах?", "textEn": "Which of the warning lights shown in the illustration indicates that the rear fog lights are on?", "options": [
+    { "id": "cmr6bf59s0021ubcw7z7g9ple", "textRu": "A.", "textEn": "A." },
+    { "id": "cmr6bf59s0022ubcwukd9zwox", "textRu": "B.", "textEn": "B." },
+    { "id": "cmr6bf59s0023ubcwcpctmyms", "textRu": "C.", "textEn": "C." }
+  ]},
+  { "id": "cmr6bf5a70024ubcw946cvzyu", "textRu": "Какая из контрольных ламп, видимых на иллюстрации, сообщает о включённом дальнем свете?", "textEn": "Which of the warning lights shown in the illustration indicates that the main-beam headlights are on?", "options": [
+    { "id": "cmr6bf5a70025ubcwaiep86wv", "textRu": "A.", "textEn": "A." },
+    { "id": "cmr6bf5a70026ubcw1ees50jz", "textRu": "B.", "textEn": "B." },
+    { "id": "cmr6bf5a70027ubcwet3jg92v", "textRu": "C.", "textEn": "C." }
+  ]},
+  { "id": "cmr6bf5ai0028ubcwjllo8mwf", "textRu": "Какая из контрольных ламп, видимых на иллюстрации, сигнализирует о непристёгнутом ремне безопасности?", "textEn": "Which of the warning lights shown in the illustration signals unfastened seat belts?", "options": [
+    { "id": "cmr6bf5ai0029ubcwi7ohowor", "textRu": "A.", "textEn": "A." },
+    { "id": "cmr6bf5ai002aubcw0tnjq5hm", "textRu": "B.", "textEn": "B." },
+    { "id": "cmr6bf5ai002bubcwqu2ura54", "textRu": "C.", "textEn": "C." }
+  ]},
+  { "id": "cmr6bf5av002cubcwd3rypmnj", "textRu": "При загорании какой из видимых на иллюстрации контрольных ламп следует немедленно остановиться и устранить неисправность?", "textEn": "When which of the warning lights shown in the illustration comes on should you stop immediately and fix the fault?", "options": [
+    { "id": "cmr6bf5aw002dubcwusy8wsks", "textRu": "A.", "textEn": "A." },
+    { "id": "cmr6bf5aw002eubcwgoo103qf", "textRu": "B.", "textEn": "B." },
+    { "id": "cmr6bf5aw002fubcwcl6vy5ug", "textRu": "C.", "textEn": "C." }
+  ]},
+  { "id": "cmr6bf5b8002gubcwiltie8dq", "textRu": "Какая из контрольных ламп, видимых на иллюстрации, сообщает о включённом обогреве заднего стекла?", "textEn": "Which of the warning lights shown in the illustration indicates that the rear window heater is on?", "options": [
+    { "id": "cmr6bf5b8002hubcwx1d49lw4", "textRu": "A.", "textEn": "A." },
+    { "id": "cmr6bf5b8002iubcwxhwdgkyd", "textRu": "B.", "textEn": "B." },
+    { "id": "cmr6bf5b8002jubcwp5d4j98f", "textRu": "C.", "textEn": "C." }
+  ]},
+  { "id": "cmr6bf5bk002kubcwrgbsic5q", "textRu": "Какую из указанных величин следует учитывать при определении дистанции от движущегося впереди транспортного средства?", "textEn": "Which of the given quantities should be taken into account when determining the distance from the vehicle ahead?", "options": [
+    { "id": "cmr6bf5bk002lubcwncbnlw8p", "textRu": "Скорость транспортных средств.", "textEn": "The speed of the vehicles." },
+    { "id": "cmr6bf5bk002mubcwwy4uec4l", "textRu": "Длину транспортных средств.", "textEn": "The length of the vehicles." },
+    { "id": "cmr6bf5bk002nubcw1oln2atp", "textRu": "Ширину транспортных средств.", "textEn": "The width of the vehicles." }
+  ]},
+  { "id": "cmr6bf5bv002oubcwu43yj0v9", "textRu": "Можете ли вы как водитель отойти от транспортного средства с работающим двигателем?", "textEn": "As the driver, are you allowed to walk away from a vehicle with the engine running?", "options": [
+    { "id": "cmr6bf5bv002pubcwmxhmip1n", "textRu": "Да.", "textEn": "Yes." },
+    { "id": "cmr6bf5bv002qubcwhhetwtpf", "textRu": "Да, только на срок до 1 минуты.", "textEn": "Yes, only for up to 1 minute." },
+    { "id": "cmr6bf5bv002rubcw26t7yihd", "textRu": "Нет.", "textEn": "No." }
+  ]},
+  { "id": "cmr6bf5c6002subcwianev6ab", "textRu": "Установлена ли на этой дороге максимальная скорость, с которой может ехать легковой автомобиль?", "textEn": "Is there a maximum speed set on this road at which a passenger car can travel?", "options": [
+    { "id": "cmr6bf5c6002tubcwd1x6s13v", "textRu": "Нет.", "textEn": "No." },
+    { "id": "cmr6bf5c6002uubcw4gcnj3de", "textRu": "Да, 130 км/ч.", "textEn": "Yes, 130 km/h." },
+    { "id": "cmr6bf5c6002vubcwqc859e02", "textRu": "Да, 140 км/ч.", "textEn": "Yes, 140 km/h." }
+  ]},
+  { "id": "cmr6bf5ci002wubcwdjxmuk3e", "textRu": "Допускают ли положения закона о дорожном движении возможность отойти от транспортного средства, двигатель которого работает?", "textEn": "Do the provisions of the Road Traffic Act permit walking away from a vehicle whose engine is running?", "options": [
+    { "id": "cmr6bf5ci002xubcwbd9pi7j6", "textRu": "Да, но только на расстояние до 15 метров от транспортного средства.", "textEn": "Yes, but only up to 15 metres from the vehicle." },
+    { "id": "cmr6bf5ci002yubcwzgqan041", "textRu": "Нет.", "textEn": "No." },
+    { "id": "cmr6bf5ci002zubcw6qdny2cy", "textRu": "Да, но только на расстояние до 5 метров от транспортного средства.", "textEn": "Yes, but only up to 5 metres from the vehicle." }
+  ]},
+  { "id": "cmr6bf5cs0030ubcwtodxpd2d", "textRu": "Является ли техническое состояние транспортного средства фактором, который следует учитывать при выборе скорости движения на дороге?", "textEn": "Is the technical condition of the vehicle a factor you should take into account when choosing your driving speed on the road?", "options": [
+    { "id": "cmr6bf5cs0031ubcwdqxqi7tr", "textRu": "Да.", "textEn": "Yes." },
+    { "id": "cmr6bf5cs0032ubcwfcft50x6", "textRu": "Да, но только при движении в населённом пункте.", "textEn": "Yes, but only when driving in a built-up area." },
+    { "id": "cmr6bf5ct0033ubcwknafrmh7", "textRu": "Да, но только за пределами населённого пункта.", "textEn": "Yes, but only outside a built-up area." }
+  ]},
+  { "id": "cmr6bf5d30034ubcwxwksffu0", "textRu": "Что вам нельзя делать, будучи участником аварии, в которой есть погибшие?", "textEn": "What are you not allowed to do when involved in an accident with fatalities?", "options": [
+    { "id": "cmr6bf5d30035ubcwufexttde", "textRu": "Звонить в пожарную службу.", "textEn": "Call the fire brigade." },
+    { "id": "cmr6bf5d30036ubcwrfr2p3ai", "textRu": "Оказывать первую помощь.", "textEn": "Give first aid." },
+    { "id": "cmr6bf5d30037ubcwqtkd2g2v", "textRu": "Переставлять транспортное средство на обочину дороги.", "textEn": "Move the vehicle onto the shoulder of the road." }
+  ]},
+  { "id": "cmr6bf5df0038ubcwdvo48oat", "textRu": "Каково назначение треугольника, входящего в обязательное оснащение легкового автомобиля?", "textEn": "What is the purpose of the triangle that is part of the mandatory equipment of a passenger car?", "options": [
+    { "id": "cmr6bf5df0039ubcwkfxnzb9g", "textRu": "Обозначение груза на багажнике на крыше транспортного средства.", "textEn": "Marking a load on the vehicle's roof rack." },
+    { "id": "cmr6bf5df003aubcwqz4zswtz", "textRu": "Предупреждение об остановке транспортного средства на дороге из-за поломки.", "textEn": "Warning of a vehicle stopped on the road due to a breakdown." },
+    { "id": "cmr6bf5df003bubcw6ns1sqjm", "textRu": "Обозначение неисправных задних габаритных огней движущегося транспортного средства.", "textEn": "Marking faulty rear position lights of a moving vehicle." }
+  ]},
+  { "id": "cmr6bf5do003cubcwdjhyakyc", "textRu": "С какой системой легкового автомобиля взаимодействует антиблокировочная система «АБС»?", "textEn": "Which system of a passenger car does the anti-lock braking system \"ABS\" work with?", "options": [
+    { "id": "cmr6bf5do003dubcwncsfpa4d", "textRu": "Подвески.", "textEn": "The suspension." },
+    { "id": "cmr6bf5do003eubcwl7ji5pv0", "textRu": "Тормозной.", "textEn": "The braking system." },
+    { "id": "cmr6bf5do003fubcwln4j85ds", "textRu": "Рулевого управления.", "textEn": "The steering system." }
+  ]},
+  { "id": "cmr6bf5dy003gubcwb6v8k26o", "textRu": "Какую дистанцию следует соблюдать, обгоняя мотоциклиста?", "textEn": "What distance should be kept when overtaking a motorcyclist?", "options": [
+    { "id": "cmr6bf5dz003hubcwkbjmjvri", "textRu": "Безопасную, менее 1 метра.", "textEn": "A safe distance, less than 1 metre." },
+    { "id": "cmr6bf5dz003iubcw4w6aa49x", "textRu": "Любую дистанцию, но безопасную.", "textEn": "Any distance, but safe." },
+    { "id": "cmr6bf5dz003jubcwc4cgrcmk", "textRu": "Не менее 1 метра.", "textEn": "Not less than 1 metre." }
+  ]},
+  { "id": "cmr6bf5e8003kubcw6j90of3t", "textRu": "Какой метод торможения вы используете в случае отказа АБС на скользком покрытии?", "textEn": "Which braking method will you use if the ABS fails on a slippery surface?", "options": [
+    { "id": "cmr6bf5e8003lubcw3s8wl8u2", "textRu": "Импульсное торможение.", "textEn": "Pulsating braking." },
+    { "id": "cmr6bf5e8003mubcwn8fuly53", "textRu": "Нажатие педали тормоза до упора.", "textEn": "Pressing the brake pedal all the way down." },
+    { "id": "cmr6bf5e8003nubcwxwtubj1q", "textRu": "Затягивание ручного тормоза.", "textEn": "Applying the handbrake." }
+  ]},
+  { "id": "cmr6bf5ei003oubcwh2ojiema", "textRu": "Когда вы обязаны сменить полосу на правую после завершения манёвра обгона?", "textEn": "When are you required to change to the right lane after completing an overtaking manoeuvre?", "options": [
+    { "id": "cmr6bf5ei003pubcwybdx839j", "textRu": "Когда вижу заднюю часть обгоняемого транспортного средства в правом зеркале заднего вида.", "textEn": "When I see the rear of the overtaken vehicle in the right rear-view mirror." },
+    { "id": "cmr6bf5ei003qubcwoj0umvd4", "textRu": "Когда обгоняемое транспортное средство находится в 100 метрах позади меня.", "textEn": "When the overtaken vehicle is 100 metres behind me." },
+    { "id": "cmr6bf5ei003rubcwx9mz72ul", "textRu": "Когда убеждаюсь, что нет риска «подрезать» обгоняемое транспортное средство.", "textEn": "When I make sure there is no risk of cutting off the overtaken vehicle." }
+  ]},
+  { "id": "cmr6bf5es003subcwn2oic526", "textRu": "Какой из перечисленных факторов непосредственно влияет на длину общего остановочного пути легкового автомобиля?", "textEn": "Which of the following factors directly affects the total stopping distance of a passenger car?", "options": [
+    { "id": "cmr6bf5es003tubcwcwv2r5i3", "textRu": "Количество топлива в баке.", "textEn": "The amount of fuel in the tank." },
+    { "id": "cmr6bf5es003uubcwtsnwvh0w", "textRu": "Состояние рулевого управления транспортного средства.", "textEn": "The condition of the vehicle's steering system." },
+    { "id": "cmr6bf5es003vubcwn3tse6c8", "textRu": "Время реакции водителя.", "textEn": "The driver's reaction time." }
+  ]},
+  { "id": "cmr6bf5f2003wubcwjj3e28ey", "textRu": "Какой из перечисленных факторов имеет решающее значение при определении расстояния до транспортного средства, едущего перед нами?", "textEn": "Which of the following factors has a decisive influence on determining the distance from the vehicle ahead of us?", "options": [
+    { "id": "cmr6bf5f2003xubcwxn5ulgxk", "textRu": "Длина транспортного средства.", "textEn": "The vehicle's length." },
+    { "id": "cmr6bf5f2003yubcwspposlnf", "textRu": "Ширина транспортного средства.", "textEn": "The vehicle's width." },
+    { "id": "cmr6bf5f2003zubcwg0gj285j", "textRu": "Скорость транспортного средства.", "textEn": "The vehicle's speed." }
+  ]},
+  { "id": "cmr6bf5fc0040ubcw7wzy52bk", "textRu": "На какой из перечисленных факторов следует обратить внимание при выполнении манёвра обгона?", "textEn": "Which of the following factors should be paid attention to when performing an overtaking manoeuvre?", "options": [
+    { "id": "cmr6bf5fc0041ubcwqtwqene8", "textRu": "На подходящую температуру в салоне транспортного средства.", "textEn": "The appropriate temperature inside the vehicle." },
+    { "id": "cmr6bf5fc0042ubcw5wp1c2lv", "textRu": "На соблюдение безопасной дистанции.", "textEn": "Maintaining a safe distance." },
+    { "id": "cmr6bf5fc0043ubcwxnaz2mcy", "textRu": "На дистанцию от транспортных средств, едущих сзади.", "textEn": "The distance from vehicles behind." }
+  ]},
+  { "id": "cmr6bf5fk0044ubcw8pjlstny", "textRu": "Насколько увеличится тормозной путь, если вы увеличите скорость в 2 раза?", "textEn": "By how much will the braking distance increase if you double the speed?", "options": [
+    { "id": "cmr6bf5fl0045ubcw3c71a2n5", "textRu": "В 2 раза.", "textEn": "Twofold." },
+    { "id": "cmr6bf5fl0046ubcwdtulouce", "textRu": "В 3 раза.", "textEn": "Threefold." },
+    { "id": "cmr6bf5fl0047ubcwhbul4fnv", "textRu": "В 4 раза.", "textEn": "Fourfold." }
+  ]},
+  { "id": "cmr6bf5fu0048ubcwv2mmlfej", "textRu": "Вы движетесь по автомагистрали и собираетесь её покинуть. В каком месте вы начнёте торможение перед съездом с автомагистрали?", "textEn": "You are driving on the motorway and intend to leave it. Where will you start braking before the motorway exit?", "options": [
+    { "id": "cmr6bf5fv0049ubcwuv86zvit", "textRu": "Перед въездом на полосу выезда (съезда).", "textEn": "Before entering the deceleration (exit) lane." },
+    { "id": "cmr6bf5fv004aubcwjkz4bfa1", "textRu": "После въезда на начало полосы выезда (съезда).", "textEn": "After entering the beginning of the deceleration (exit) lane." },
+    { "id": "cmr6bf5fv004bubcwzkyq7keo", "textRu": "В любом месте на автомагистрали.", "textEn": "At any point on the motorway." }
+  ]},
+  { "id": "cmr6bf5g3004cubcwvnvqmdjr", "textRu": "Является ли рельеф местности фактором, который следует учитывать при выборе скорости движения на дороге?", "textEn": "Is the terrain relief a factor you should take into account when choosing your driving speed on the road?", "options": [
+    { "id": "cmr6bf5g3004dubcwfgrrxkvu", "textRu": "Нет, если вы едете со скоростью до 60 км/ч.", "textEn": "No, if you are driving at up to 60 km/h." },
+    { "id": "cmr6bf5g3004eubcwqtzmoj2g", "textRu": "Нет.", "textEn": "No." },
+    { "id": "cmr6bf5g3004fubcw99u207mr", "textRu": "Да.", "textEn": "Yes." }
+  ]},
+  { "id": "cmr6bllp6004gubcw2pnsvg19", "textRu": "Каковы могут быть последствия использования изношенных щёток стеклоочистителя в легковом автомобиле?", "textEn": "What could be the effect of using worn wiper blades in a passenger car?", "options": [
+    { "id": "cmr6bllp7004hubcwwyuo9708", "textRu": "Больший расход заряда аккумулятора.", "textEn": "Greater battery consumption." },
+    { "id": "cmr6bllp7004iubcwo1lie4al", "textRu": "Худшая видимость дороги во время дождя.", "textEn": "Worse visibility of the road during rain." },
+    { "id": "cmr6bllp7004jubcwx4cwwk3q", "textRu": "Меньший расход жидкости для омывателей.", "textEn": "Lower consumption of washer fluid." }
+  ]},
+  { "id": "cmr6bllss004kubcw3bcp29tc", "textRu": "О какой опасности предупреждает изображённый вертикальный знак?", "textEn": "What danger does the vertical sign shown warn of?", "options": [
+    { "id": "cmr6bllss004lubcwzrt7odq9", "textRu": "О сильных боковых порывах ветра.", "textEn": "Strong crosswind gusts." },
+    { "id": "cmr6bllss004mubcwhca4ekab", "textRu": "О сильных порывах ветра, возникающих только с правой стороны.", "textEn": "Strong wind gusts occurring only from the right side." },
+    { "id": "cmr6bllss004nubcw33x9nkdp", "textRu": "О сильных встречных порывах ветра.", "textEn": "Strong headwind gusts." }
+  ]},
+  { "id": "cmr6bllt3004oubcwu2l0shit", "textRu": "На какой фазе сильного дождя асфальтовое покрытие наиболее скользкое?", "textEn": "At which phase of heavy rain is asphalt road surface most slippery?", "options": [
+    { "id": "cmr6bllt3004pubcwn026t1he", "textRu": "На начальной.", "textEn": "The initial phase." },
+    { "id": "cmr6bllt3004qubcwoumqim68", "textRu": "На средней.", "textEn": "The middle phase." },
+    { "id": "cmr6bllt3004rubcwv8ozeo7f", "textRu": "На конечной.", "textEn": "The final phase." }
+  ]},
+  { "id": "cmr6blltb004subcw6s1lyu1f", "textRu": "В каком из перечисленных случаев вы обязаны переключить дальний свет на ближний?", "textEn": "In which of the following cases are you required to switch from main-beam to low-beam headlights?", "options": [
+    { "id": "cmr6blltb004tubcw3e387oif", "textRu": "Когда приближаетесь к пешеходу, идущему в том же направлении.", "textEn": "When approaching a pedestrian walking in the same direction." },
+    { "id": "cmr6blltb004uubcw5b5wuyt2", "textRu": "Когда приближаетесь к транспортному средству, движущемуся по поперечной дороге.", "textEn": "When approaching a vehicle coming from a crossing road." },
+    { "id": "cmr6blltb004vubcws38sfls4", "textRu": "Когда приближаетесь к транспортному средству, едущему перед вами, и существует возможность ослепления водителя.", "textEn": "When approaching the vehicle ahead of you and there is a possibility of dazzling its driver." }
+  ]},
+  { "id": "cmr6blltp004wubcwfopgzmdv", "textRu": "Что вам следует сделать в этой ситуации?", "textEn": "What should you do in this situation?", "options": [
+    { "id": "cmr6blltp004xubcwuc1cxc8k", "textRu": "Вы имеете право сменить полосу движения на левую.", "textEn": "You have the right to change to the left lane." },
+    { "id": "cmr6blltp004yubcwlvtlovgr", "textRu": "Вам следует оставаться на занимаемой полосе.", "textEn": "You should remain in your current lane." },
+    { "id": "cmr6blltp004zubcw129ebw1h", "textRu": "При смене полосы движения вам не нужно соблюдать особую осторожность.", "textEn": "When changing lanes, you do not need to exercise special caution." }
+  ]},
+  { "id": "cmr6blltx0050ubcwcq6ctaur", "textRu": "Влияет ли буксируемое транспортное средство на поле зрения водителя?", "textEn": "Does a towed vehicle affect the driver's field of view?", "options": [
+    { "id": "cmr6blltx0051ubcwycjdwnzr", "textRu": "Никак не влияет на ограничение поля зрения.", "textEn": "It has no effect on limiting the field of view." },
+    { "id": "cmr6blltx0052ubcwmhi1p9ez", "textRu": "Только при выполнении манёвра разворота на перекрёстке.", "textEn": "Only when performing a U-turn manoeuvre at an intersection." },
+    { "id": "cmr6blltx0053ubcwr9tji7z8", "textRu": "Влияет на ограничение поля зрения.", "textEn": "It affects the limitation of the field of view." }
+  ]},
+  { "id": "cmr6bllu50054ubcwzvt8k27o", "textRu": "Влияет ли прозрачность стёкол на поле зрения водителя?", "textEn": "Does the transparency of the windows affect the driver's field of view?", "options": [
+    { "id": "cmr6bllu60055ubcwqwb3zcnz", "textRu": "Влияет на ограничение поля зрения.", "textEn": "It affects the limitation of the field of view." },
+    { "id": "cmr6bllu60056ubcwyy9qvx1y", "textRu": "Только в условиях сниженной прозрачности воздуха.", "textEn": "Only in conditions of reduced air transparency." },
+    { "id": "cmr6bllu60057ubcwlfuixkdd", "textRu": "Никак не влияет на ограничение поля зрения.", "textEn": "It has no effect on limiting the field of view." }
+  ]},
+  { "id": "cmr6bllue0058ubcwfqvc5x94", "textRu": "Какой фактор вызывает уменьшение поля зрения водителя?", "textEn": "What factor causes a reduction in the driver's field of view?", "options": [
+    { "id": "cmr6bllue0059ubcwaw3ekbn3", "textRu": "Высокая скорость движения.", "textEn": "High driving speed." },
+    { "id": "cmr6bllue005aubcwq5aiaxlp", "textRu": "Хорошая прозрачность воздуха.", "textEn": "Good air transparency." },
+    { "id": "cmr6bllue005bubcw2zfcjm9d", "textRu": "Слишком низкая скорость.", "textEn": "Too low a speed." }
+  ]},
+  { "id": "cmr6bllun005cubcw2vp8v3fg", "textRu": "Какие факторы способствуют улучшению поля зрения?", "textEn": "What factors improve the field of view?", "options": [
+    { "id": "cmr6bllun005dubcw48rlascm", "textRu": "Увеличение скорости транспортного средства.", "textEn": "Increasing the vehicle's speed." },
+    { "id": "cmr6bllun005eubcwxxs6ph7q", "textRu": "Снижение скорости транспортного средства.", "textEn": "Reducing the vehicle's speed." },
+    { "id": "cmr6bllun005fubcw1xsarg1h", "textRu": "Стресс водителя.", "textEn": "The driver's stress." }
+  ]},
+  { "id": "cmr6blluz005gubcwb32r6u43", "textRu": "За какими из перечисленных элементов дороги следует наблюдать при движении по автомагистрали?", "textEn": "Which of the following road elements should you observe while driving on the motorway?", "options": [
+    { "id": "cmr6blluz005hubcw4pamclp7", "textRu": "Только свою полосу движения перед транспортным средством.", "textEn": "Only your own lane in front of the vehicle." },
+    { "id": "cmr6blluz005iubcwdhkul1dj", "textRu": "Всю проезжую часть и обочину впереди и позади транспортного средства.", "textEn": "The whole carriageway and shoulder ahead of and behind the vehicle." },
+    { "id": "cmr6blluz005jubcwep7ww987", "textRu": "Только свою полосу движения и правую обочину впереди транспортного средства.", "textEn": "Only your own lane and the right shoulder ahead of the vehicle." }
+  ]},
+  { "id": "cmr6bllv9005kubcw4yqputrx", "textRu": "Каким образом должно быть отрегулировано внешнее зеркало легкового автомобиля?", "textEn": "How should the external mirror of a passenger car be adjusted?", "options": [
+    { "id": "cmr6bllv9005lubcwrka16174", "textRu": "Так, чтобы в середине зеркала было видно боковое стекло передних дверей.", "textEn": "So that the side window of the front doors is visible in the middle of the mirror." },
+    { "id": "cmr6bllv9005mubcwewbqiu2a", "textRu": "Так, чтобы в зеркале не был виден борт транспортного средства.", "textEn": "So that the side of the vehicle is not visible in the mirror." },
+    { "id": "cmr6bllv9005nubcwrcpbxxf0", "textRu": "Так, чтобы в зеркале были видны фрагмент борта транспортного средства и дорога позади него.", "textEn": "So that a fragment of the side of the vehicle and the road behind it are visible in the mirror." }
+  ]},
+  { "id": "cmr6bllvg005oubcw749jldt0", "textRu": "Каким образом скорость транспортного средства влияет на поле зрения водителя?", "textEn": "How does a vehicle's speed affect the driver's field of view?", "options": [
+    { "id": "cmr6bllvg005pubcwfj5dq28z", "textRu": "С ростом скорости поле зрения уменьшается.", "textEn": "As speed increases, the field of view narrows." },
+    { "id": "cmr6bllvg005qubcw7zvlay10", "textRu": "С ростом скорости поле зрения увеличивается.", "textEn": "As speed increases, the field of view widens." },
+    { "id": "cmr6bllvg005rubcw1rbq4e37", "textRu": "Не влияет.", "textEn": "It has no effect." }
+  ]},
+  { "id": "cmr6bllvo005subcw069wd548", "textRu": "Как следует себя вести, въезжая на участок дороги, покрытый лужами?", "textEn": "How should you behave when entering a section of road covered with puddles?", "options": [
+    { "id": "cmr6bllvp005tubcwyk2h5lah", "textRu": "Снизить скорость движения.", "textEn": "Reduce driving speed." },
+    { "id": "cmr6bllvp005uubcwtr3qqx68", "textRu": "Увеличить скорость движения.", "textEn": "Increase driving speed." },
+    { "id": "cmr6bllvp005vubcw2r6nh3up", "textRu": "Съехать на полосу встречного движения.", "textEn": "Move onto the lane for the opposite direction." }
+  ]},
+  { "id": "cmr6bllvz005wubcwvz6rio73", "textRu": "Какую траекторию движения следует выбрать на начальной фазе прохождения показанного левого поворота?", "textEn": "What driving line should you choose in the initial phase of negotiating the left bend shown?", "options": [
+    { "id": "cmr6bllvz005xubcwugogxdxd", "textRu": "Максимально смещаясь к середине проезжей части, заезжая на двойную сплошную линию.", "textEn": "Moving as far as possible towards the middle of the carriageway, crossing onto the double solid line." },
+    { "id": "cmr6bllvz005yubcw6fito0mb", "textRu": "Смещаясь к середине проезжей части, но не пересекая двойную сплошную линию.", "textEn": "Moving towards the middle of the carriageway, but not crossing the double solid line." },
+    { "id": "cmr6bllvz005zubcwdj79r1w8", "textRu": "Приблизиться к правому краю проезжей части.", "textEn": "Move closer to the right edge of the carriageway." }
+  ]},
+  { "id": "cmr6bllw80060ubcw0cry5tpf", "textRu": "Какая из перечисленных техник вождения соответствует понятию «экономичное вождение автомобиля»?", "textEn": "Which of the following driving techniques matches the term \"economical driving\"?", "options": [
+    { "id": "cmr6bllw80061ubcw1mjwk3h8", "textRu": "Использование только рабочего тормоза для снижения скорости движения.", "textEn": "Using only the service brake to reduce driving speed." },
+    { "id": "cmr6bllw80062ubcw2krnblm5", "textRu": "Использование двигателя для снижения скорости движения.", "textEn": "Using the engine to reduce driving speed." },
+    { "id": "cmr6bllw80063ubcwb609pmx2", "textRu": "Частая смена передач для поддержания высоких оборотов двигателя.", "textEn": "Frequently changing gears to maintain high engine revs." }
+  ]},
+  { "id": "cmr6bllwg0064ubcwwngrqtcb", "textRu": "Какая из перечисленных техник вождения соответствует понятию «экономичное вождение автомобиля»?", "textEn": "Which of the following driving techniques matches the term \"economical driving\"?", "options": [
+    { "id": "cmr6bllwg0065ubcwlk40v2cz", "textRu": "Частое использование рабочего тормоза.", "textEn": "Frequent use of the service brake." },
+    { "id": "cmr6bllwg0066ubcwd6oww64t", "textRu": "Избегание резких торможений и разгонов.", "textEn": "Avoiding sudden braking and acceleration." },
+    { "id": "cmr6bllwg0067ubcwjxqzx3gz", "textRu": "Частая смена передач.", "textEn": "Frequently changing gears." }
+  ]},
+  { "id": "cmr6bllwo0068ubcwsf0iff4q", "textRu": "В чём должна заключаться правильная техника вождения в этой дорожной ситуации?", "textEn": "What should the correct driving technique consist of in this road situation?", "options": [
+    { "id": "cmr6bllwo0069ubcwjp75gsud", "textRu": "В выборе подходящей скорости движения.", "textEn": "Choosing an appropriate driving speed." },
+    { "id": "cmr6bllwo006aubcw5v4nmkzp", "textRu": "В занятии середины проезжей части.", "textEn": "Occupying the middle of the carriageway." },
+    { "id": "cmr6bllwo006bubcwy56n8rn8", "textRu": "В движении на максимально низкой передаче.", "textEn": "Driving in the lowest gear possible." }
+  ]},
+  { "id": "cmr6bllwy006cubcww3fceum5", "textRu": "Каким образом можно облегчить себе выезд на легковом автомобиле из вязкого снега?", "textEn": "How can you make it easier to drive a passenger car out of deep/soft snow?", "options": [
+    { "id": "cmr6bllwy006dubcwv7jhmakz", "textRu": "Несколько раз сдавая назад и трогаясь вперёд.", "textEn": "By reversing and moving forward several times." },
+    { "id": "cmr6bllwy006eubcwq1vmbuq7", "textRu": "Трогаясь на высоких оборотах двигателя.", "textEn": "By pulling away at high engine revs." },
+    { "id": "cmr6bllwy006fubcwprsptkmi", "textRu": "Резко отпуская педаль сцепления.", "textEn": "By suddenly releasing the clutch pedal." }
+  ]},
+  { "id": "cmr6bllx8006gubcwn9kr1o9e", "textRu": "Допускается ли буксировка легкового автомобиля на автомагистрали до ближайшего выезда или места отдыха для путешественников?", "textEn": "Is it permissible to tow a passenger car on the motorway to the nearest exit or rest area?", "options": [
+    { "id": "cmr6bllx8006hubcwi1eha8k5", "textRu": "Нет.", "textEn": "No." },
+    { "id": "cmr6bllx8006iubcw46z7x72c", "textRu": "Да.", "textEn": "Yes." },
+    { "id": "cmr6bllx8006jubcw071eg32d", "textRu": "Да, но двигаясь с максимальной скоростью 20 км/ч.", "textEn": "Yes, but travelling at a maximum speed of 20 km/h." }
+  ]},
+  { "id": "cmr6bllxh006kubcwznf4s6mb", "textRu": "Имеете ли вы право двигаться со скоростью 50 км/ч, перевозя на мопеде пассажира в возрасте 6 лет?", "textEn": "Do you have the right to travel at 50 km/h on a moped while carrying a 6-year-old passenger?", "options": [
+    { "id": "cmr6bllxh006lubcw9vyk6seo", "textRu": "Да, но только с 5:00 до 23:00.", "textEn": "Yes, but only between 5:00 and 23:00." },
+    { "id": "cmr6bllxh006mubcwemd68qo4", "textRu": "Да.", "textEn": "Yes." },
+    { "id": "cmr6bllxh006nubcw1mlnyept", "textRu": "Нет.", "textEn": "No." }
+  ]},
+  { "id": "cmr6bllxr006oubcwuv06rd8v", "textRu": "Какова максимально допустимая длина состава транспортных средств, состоящего из грузового автомобиля с разрешённой максимальной массой до 3,5 тонны и кемпингового прицепа?", "textEn": "What is the maximum permitted length of a vehicle combination consisting of a truck with a permissible total mass of up to 3.5 tonnes and a caravan trailer?", "options": [
+    { "id": "cmr6bllxr006pubcw8pyinkeu", "textRu": "19,85 м.", "textEn": "19.85 m." },
+    { "id": "cmr6bllxr006qubcw758gn1zg", "textRu": "18,75 м.", "textEn": "18.75 m." },
+    { "id": "cmr6bllxr006rubcwx6m12jnn", "textRu": "14,95 м.", "textEn": "14.95 m." }
+  ]},
+  { "id": "cmr6blly0006subcw5qzbqf7j", "textRu": "Какой из перечисленных случаев является правильным способом перевозки груза на прицепе, буксируемом легковым автомобилем?", "textEn": "Which of the following cases is the correct way to carry a load on a trailer towed by a passenger car?", "options": [
+    { "id": "cmr6blly0006tubcwzc6jmq6g", "textRu": "Груз защищён от смещения.", "textEn": "The load is secured against shifting." },
+    { "id": "cmr6blly0006uubcw16xyeuyf", "textRu": "Груз не защищён от изменения положения.", "textEn": "The load is not secured against changing position." },
+    { "id": "cmr6blly0006vubcwfou5fnyo", "textRu": "Груз не защищён от изменения положения, если скорость движения не превышает 30 км/ч.", "textEn": "The load is not secured against changing position, provided the driving speed does not exceed 30 km/h." }
+  ]},
+  { "id": "cmr6blly9006wubcwk0kkwpcc", "textRu": "Каким образом следует перевозить груз в прицепе, буксируемом легковым автомобилем?", "textEn": "How should you carry a load in a trailer towed by a passenger car?", "options": [
+    { "id": "cmr6blly9006xubcwjnw26a5z", "textRu": "Груз не должен быть защищён от изменения положения.", "textEn": "The load should not be secured against changing position." },
+    { "id": "cmr6blly9006yubcwxk2528td", "textRu": "Груз может закрывать некоторые фонари прицепа.", "textEn": "The load may cover some of the trailer's lights." },
+    { "id": "cmr6blly9006zubcwy5d2byds", "textRu": "Груз не должен нарушать устойчивость транспортного средства.", "textEn": "The load must not compromise the vehicle's stability." }
+  ]},
+  { "id": "cmr6bllyj0070ubcwot77tvbm", "textRu": "Может ли международное водительское удостоверение быть выдано на срок более 3 лет?", "textEn": "Can an international driving licence be issued for a period longer than 3 years?", "options": [
+    { "id": "cmr6bllyj0071ubcwnlbkvvm3", "textRu": "Да, если это следует из медицинского заключения.", "textEn": "Yes, if this follows from a medical certificate." },
+    { "id": "cmr6bllyj0072ubcw8pf74soo", "textRu": "Да, в любом случае.", "textEn": "Yes, in every case." },
+    { "id": "cmr6bllyj0073ubcwxbpkrbh7", "textRu": "Нет.", "textEn": "No." }
+  ]},
+  { "id": "cmr6bllys0074ubcwnnhca61f", "textRu": "Имеете ли вы право управлять транспортным средством, если ваше водительское удостоверение недействительно?", "textEn": "Do you have the right to drive a vehicle if your driving licence is invalid?", "options": [
+    { "id": "cmr6bllys0075ubcw0x26ii78", "textRu": "Да, если прошла всего неделя.", "textEn": "Yes, if only a week has passed." },
+    { "id": "cmr6bllys0076ubcwzhcvtt9e", "textRu": "Да, поскольку у вас есть 30 дней на обновление данных.", "textEn": "Yes, because you have 30 days to update your details." },
+    { "id": "cmr6bllys0077ubcwe9hibywk", "textRu": "Нет.", "textEn": "No." }
+  ]},
+  { "id": "cmr6bllz70078ubcwfri0zfvd", "textRu": "Имея водительское удостоверение категории B, имеете ли вы право управлять сельскохозяйственным трактором за пределами страны?", "textEn": "With a category B driving licence, are you entitled to drive an agricultural tractor outside the country?", "options": [
+    { "id": "cmr6bllz70079ubcw5and1nxa", "textRu": "Да.", "textEn": "Yes." },
+    { "id": "cmr6bllz7007aubcw0av9041s", "textRu": "Да, но только в населённом пункте.", "textEn": "Yes, but only in a built-up area." },
+    { "id": "cmr6bllz7007bubcwdgyj9tks", "textRu": "Нет.", "textEn": "No." }
+  ]},
+  { "id": "cmr6bllzi007cubcwq2twiwyy", "textRu": "Имея водительское удостоверение категории B не менее 3 лет, имеете ли вы право управлять мотоциклом с рабочим объёмом двигателя не более 125 см³?", "textEn": "If you have held a category B driving licence for at least 3 years, do you have the right to ride a motorcycle with an engine displacement not exceeding 125 cm³?", "options": [
+    { "id": "cmr6bllzi007dubcwujv5zhcy", "textRu": "Да.", "textEn": "Yes." },
+    { "id": "cmr6bllzi007eubcw974pay19", "textRu": "Нет.", "textEn": "No." },
+    { "id": "cmr6bllzi007fubcwk3f1jyy6", "textRu": "Да, при условии езды с максимальной скоростью 30 км/ч.", "textEn": "Yes, provided you ride at a maximum speed of 30 km/h." }
+  ]},
+  { "id": "cmr6bllzt007gubcw80g2u90i", "textRu": "Даёт ли водительское удостоверение категории B право управлять составом транспортных средств, состоящим из легкового автомобиля и прицепа, чья суммарная разрешённая максимальная масса не превышает 3,5 тонны?", "textEn": "Does a category B driving licence entitle you to drive a vehicle combination consisting of a passenger car and a trailer whose combined permissible total mass does not exceed 3.5 tonnes?", "options": [
+    { "id": "cmr6bllzt007hubcwg9911dgw", "textRu": "Нет.", "textEn": "No." },
+    { "id": "cmr6bllzt007iubcwjykrz2ng", "textRu": "Только при условии непревышения скорости 30 км/ч.", "textEn": "Only provided the speed does not exceed 30 km/h." },
+    { "id": "cmr6bllzt007jubcwg68j1u2i", "textRu": "Да.", "textEn": "Yes." }
+  ]},
+  { "id": "cmr6blm03007kubcw581dk2gw", "textRu": "Следует ли вам обратиться к воеводе для получения международного водительского удостоверения?", "textEn": "Should you apply to the voivode to obtain an international driving licence?", "options": [
+    { "id": "cmr6blm04007lubcwsrn0bkal", "textRu": "Нет, такое удостоверение выдаёт староста.", "textEn": "No, such a licence is issued by the starosta (district head)." },
+    { "id": "cmr6blm04007mubcwuj38saot", "textRu": "Да, но нужно уплатить регистрационный сбор.", "textEn": "Yes, but a registration fee must be paid." },
+    { "id": "cmr6blm04007nubcw84kau9qp", "textRu": "Да, в любом случае.", "textEn": "Yes, in every case." }
+  ]},
+  { "id": "cmr6blm0e007oubcw1jap5ziq", "textRu": "Где можно найти информацию о допустимом количестве людей, перевозимых в легковом автомобиле?", "textEn": "Where can you find information on the permitted number of people carried in a passenger car?", "options": [
+    { "id": "cmr6blm0e007pubcwcw7ur1ic", "textRu": "В свидетельстве о регистрации.", "textEn": "In the registration certificate." },
+    { "id": "cmr6blm0e007qubcwjnhk3r1u", "textRu": "В водительском удостоверении.", "textEn": "In the driving licence." },
+    { "id": "cmr6blm0e007rubcwl8f39ssj", "textRu": "В договоре ОСАГО.", "textEn": "In the OC (civil liability) insurance contract." }
+  ]},
+  { "id": "cmr6blm0n007subcw7qwdmqcb", "textRu": "О какой неисправности сигнализирует быстро мигающий указатель поворота?", "textEn": "What fault does a rapidly flashing turn signal indicate?", "options": [
+    { "id": "cmr6blm0n007tubcw5uj2ekbf", "textRu": "Слабый аккумулятор.", "textEn": "A weak battery." },
+    { "id": "cmr6blm0n007uubcwi5qa33ly", "textRu": "Короткое замыкание в проводах высокого напряжения.", "textEn": "A short circuit in the high-voltage wires." },
+    { "id": "cmr6blm0n007vubcwxut2beu3", "textRu": "Перегоревшую лампу указателя поворота.", "textEn": "A burnt-out turn signal bulb." }
+  ]},
+  { "id": "cmr6blm11007wubcwkmp71kkm", "textRu": "Какой может быть признак разрыва тормозной трубки в легковом автомобиле?", "textEn": "What could be a symptom of a burst brake line in a passenger car?", "options": [
+    { "id": "cmr6blm11007xubcwhoi9cy5g", "textRu": "Увеличение тормозной силы при равномерном нажатии на педаль тормоза.", "textEn": "An increase in braking force with steady pressure on the brake pedal." },
+    { "id": "cmr6blm11007yubcwyledsqqh", "textRu": "Небольшое сопротивление или его отсутствие при нажатии педали тормоза.", "textEn": "Little or no resistance from the brake pedal when pressed." },
+    { "id": "cmr6blm11007zubcwv0sem8ev", "textRu": "Очень большое сопротивление педали тормоза при нажатии.", "textEn": "Very high resistance from the brake pedal when pressed." }
+  ]},
+  { "id": "cmr6blm1d0080ubcwwhoww3s4", "textRu": "Какая из перечисленных причин приведёт к недостижению двигателем с самовоспламенением пусковых оборотов?", "textEn": "Which of the following causes will prevent a compression-ignition (diesel) engine from reaching starting revs?", "options": [
+    { "id": "cmr6blm1d0081ubcw6snu4ilj", "textRu": "Неисправный стартер.", "textEn": "A faulty starter." },
+    { "id": "cmr6blm1d0082ubcwrkldu8l0", "textRu": "Заряженный аккумулятор.", "textEn": "A charged battery." },
+    { "id": "cmr6blm1d0083ubcwvximwt9o", "textRu": "Слишком слабо натянутый приводной ремень генератора.", "textEn": "An excessively loose alternator drive belt." }
+  ]},
+  { "id": "cmr6blm1m0084ubcwwsf4hf87", "textRu": "Какой из перечисленных факторов может быть причиной увода автомобиля влево?", "textEn": "Which of the following factors could cause a car to pull to the left?", "options": [
+    { "id": "cmr6blm1m0085ubcwa90r3iqx", "textRu": "Неправильное схождение передних колёс.", "textEn": "Incorrect front wheel toe-in." },
+    { "id": "cmr6blm1m0086ubcw09dcfws9", "textRu": "Одинаковое давление воздуха в колёсах транспортного средства.", "textEn": "Equal air pressure in the vehicle's wheels." },
+    { "id": "cmr6blm1m0087ubcw0d6kooni", "textRu": "Неисправность электронного модуля ручного тормоза.", "textEn": "A fault in the electronic handbrake module." }
+  ]},
+  { "id": "cmr6blm1x0088ubcwpl70mrub", "textRu": "Какой из перечисленных факторов может вызвать более быстрый износ шин на передних колёсах легкового автомобиля?", "textEn": "Which of the following factors could cause faster tyre wear on the front wheels of a passenger car?", "options": [
+    { "id": "cmr6blm1x0089ubcwv0l1k7li", "textRu": "Небольшая нагрузка на переднюю ось транспортного средства.", "textEn": "Low load on the vehicle's front axle." },
+    { "id": "cmr6blm1x008aubcw3fngw74c", "textRu": "Неправильное схождение колёс.", "textEn": "Incorrect toe-in." },
+    { "id": "cmr6blm1x008bubcwmsto7nf0", "textRu": "Неровное дорожное покрытие.", "textEn": "An uneven road surface." }
+  ]},
+  { "id": "cmr6blm28008cubcwezyg0op1", "textRu": "Каким образом фары ближнего света освещают дорогу перед легковым автомобилем?", "textEn": "How do the low-beam headlights illuminate the road ahead of a passenger car?", "options": [
+    { "id": "cmr6blm28008dubcw8pnfsgl7", "textRu": "Перпендикулярно.", "textEn": "Perpendicularly." },
+    { "id": "cmr6blm28008eubcw21nl94l0", "textRu": "Симметрично.", "textEn": "Symmetrically." },
+    { "id": "cmr6blm28008fubcwg6de5qu6", "textRu": "Асимметрично.", "textEn": "Asymmetrically." }
+  ]},
+  { "id": "cmr6blm2i008gubcwjz66lvhd", "textRu": "В каком из перечисленных случаев вы обязаны заменить шину на новую в легковом автомобиле?", "textEn": "In which of the following cases are you required to replace a tyre with a new one on a passenger car?", "options": [
+    { "id": "cmr6blm2i008hubcw6u7b02xr", "textRu": "Когда повреждён воздушный клапан (вентиль).", "textEn": "When the air valve is damaged." },
+    { "id": "cmr6blm2i008iubcw2c7hab6l", "textRu": "Когда в протекторе шины застрял тонкий гвоздь.", "textEn": "When there is a thin nail in the tread of the tyre." },
+    { "id": "cmr6blm2i008jubcwjn2pmh0u", "textRu": "Когда на боковине шины видны деформации.", "textEn": "When deformations are visible on the sidewall of the tyre." }
+  ]},
+  { "id": "cmr6blm2t008kubcw8garulma", "textRu": "Даёт ли водительское удостоверение категории B право управлять мопедом или лёгким квадрициклом?", "textEn": "Does a category B driving licence entitle you to ride a moped or a light quad (quadricycle)?", "options": [
+    { "id": "cmr6blm2t008lubcwlvbibknp", "textRu": "Да, но только за пределами населённого пункта.", "textEn": "Yes, but only outside a built-up area." },
+    { "id": "cmr6blm2t008mubcw1gbruaew", "textRu": "Да.", "textEn": "Yes." },
+    { "id": "cmr6blm2t008nubcwzxtbwzzv", "textRu": "Нет.", "textEn": "No." }
+  ]},
+  { "id": "cmr6blm33008oubcw9so23uf1", "textRu": "Разрешена ли стоянка на местах, отведённых для инвалидов, если парковочная карта, имеющаяся у водителя, утратила силу?", "textEn": "Is parking allowed in spaces designated for disabled persons if the driver's parking card has expired?", "options": [
+    { "id": "cmr6blm33008pubcwmsex64ov", "textRu": "Да, если с того момента прошло не более 7 дней.", "textEn": "Yes, if no more than 7 days have passed since then." },
+    { "id": "cmr6blm33008qubcwb8a6fcc4", "textRu": "Да, если с того момента прошло не более 14 дней.", "textEn": "Yes, if no more than 14 days have passed since then." },
+    { "id": "cmr6blm33008rubcwb0ba7eqw", "textRu": "Нет.", "textEn": "No." }
+  ]},
+  { "id": "cmr6blm3f008subcwmzqvwjm2", "textRu": "Как можно минимизировать опасность при управлении транспортным средством в густом тумане?", "textEn": "How can you minimise the danger when driving a vehicle in dense fog?", "options": [
+    { "id": "cmr6blm3f008tubcwyzvgaq52", "textRu": "Увеличить скорость.", "textEn": "Increase speed." },
+    { "id": "cmr6blm3f008uubcwgtvitu18", "textRu": "Увеличить дистанцию от движущегося впереди транспортного средства.", "textEn": "Increase the distance from the vehicle ahead." },
+    { "id": "cmr6blm3f008vubcwwgxkja4k", "textRu": "Уменьшить дистанцию от движущегося впереди транспортного средства.", "textEn": "Decrease the distance from the vehicle ahead." }
+  ]},
+  { "id": "cmr6bp123008wubcwoyb10y3j", "textRu": "Какие негативные последствия для водителя может вызвать заснеженность или обледенение проезжей части?", "textEn": "What negative consequences for the driver could snow-covered or icy roads cause?", "options": [
+    { "id": "cmr6bp123008xubcwhv7saaio", "textRu": "Повышение сцепления шин с дорогой.", "textEn": "Increased tyre grip on the road." },
+    { "id": "cmr6bp123008yubcwtqr0p645", "textRu": "Снижение сцепления шин с дорогой.", "textEn": "Reduced tyre grip on the road." },
+    { "id": "cmr6bp123008zubcwgjl8imlk", "textRu": "Сокращение тормозного пути.", "textEn": "A shorter braking distance." }
+  ]},
+  { "id": "cmr6bp12c0090ubcwe4u0ha85", "textRu": "Какие негативные последствия для водителя может вызвать заснеженность или обледенение проезжей части?", "textEn": "What negative consequences for the driver could snow-covered or icy roads cause?", "options": [
+    { "id": "cmr6bp12c0091ubcwgcbmksn3", "textRu": "Повышенный риск заноса.", "textEn": "Increased risk of skidding." },
+    { "id": "cmr6bp12c0092ubcw8kc0dor7", "textRu": "Повышение сцепления шин с дорогой.", "textEn": "Increased tyre grip on the road." },
+    { "id": "cmr6bp12c0093ubcwvv6clqjq", "textRu": "Сокращение тормозного пути.", "textEn": "A shorter braking distance." }
+  ]},
+  { "id": "cmr6bp12i0094ubcw8q0gd0xy", "textRu": "Какое поведение увеличивает риск заноса на обледеневшем дорожном покрытии?", "textEn": "What behaviour increases the risk of skidding on an icy road surface?", "options": [
+    { "id": "cmr6bp12j0095ubcw6aktrkgh", "textRu": "Резкое интенсивное торможение.", "textEn": "Sudden intense braking." },
+    { "id": "cmr6bp12j0096ubcwb8ia7wcg", "textRu": "Торможение двигателем.", "textEn": "Engine braking." },
+    { "id": "cmr6bp12j0097ubcw28w96ehd", "textRu": "Движение с постоянной скоростью.", "textEn": "Driving at a constant speed." }
+  ]},
+  { "id": "cmr6bp12s0098ubcwazma2dw5", "textRu": "Какое поведение увеличивает риск заноса на обледеневшем дорожном покрытии?", "textEn": "What behaviour increases the risk of skidding on an icy road surface?", "options": [
+    { "id": "cmr6bp12s0099ubcwur0918yu", "textRu": "Движение на третьей передаче.", "textEn": "Driving in third gear." },
+    { "id": "cmr6bp12s009aubcwwi1msrsi", "textRu": "Резкое увеличение скорости.", "textEn": "Suddenly increasing speed." },
+    { "id": "cmr6bp12s009bubcw75gy4bo7", "textRu": "Переключение на пониженную передачу.", "textEn": "Shifting to a lower gear." }
+  ]},
+  { "id": "cmr6bp132009cubcwbiz9o3ub", "textRu": "Какое поведение увеличивает риск заноса на обледеневшем дорожном покрытии?", "textEn": "What behaviour increases the risk of skidding on an icy road surface?", "options": [
+    { "id": "cmr6bp133009dubcw1htyenfl", "textRu": "Движение с постоянной скоростью.", "textEn": "Driving at a constant speed." },
+    { "id": "cmr6bp133009eubcw0lvbp3bl", "textRu": "Торможение двигателем.", "textEn": "Engine braking." },
+    { "id": "cmr6bp133009fubcwd6f5mohh", "textRu": "Резкий поворот руля.", "textEn": "A sudden turn of the steering wheel." }
+  ]},
+  { "id": "cmr6bp13a009gubcw6uwveppo", "textRu": "Какое поведение увеличивает риск заноса на обледеневшем дорожном покрытии?", "textEn": "What behaviour increases the risk of skidding on an icy road surface?", "options": [
+    { "id": "cmr6bp13a009hubcwpd1adtoa", "textRu": "Поддержание слишком высокой скорости, особенно на повороте.", "textEn": "Maintaining too high a speed, especially on a bend." },
+    { "id": "cmr6bp13a009iubcwxmfb8gns", "textRu": "Движение с постоянной скоростью.", "textEn": "Driving at a constant speed." },
+    { "id": "cmr6bp13a009jubcwc8vgqgjn", "textRu": "Движение на второй передаче.", "textEn": "Driving in second gear." }
+  ]},
+  { "id": "cmr6bp13j009kubcwtm985f7k", "textRu": "Следует ли скорость движения и дистанцию от других участников дорожного движения приспосабливать к состоянию покрытия?", "textEn": "Should driving speed and the distance from other road users be adapted to the condition of the road surface?", "options": [
+    { "id": "cmr6bp13j009lubcwzekca4dm", "textRu": "Да, но только в населённом пункте.", "textEn": "Yes, but only in a built-up area." },
+    { "id": "cmr6bp13j009mubcwclxdafi9", "textRu": "Да, поскольку состояние покрытия существенно влияет на тормозной путь.", "textEn": "Yes, because the condition of the surface significantly affects the braking distance." },
+    { "id": "cmr6bp13j009nubcwx4vzgj2m", "textRu": "Да, но только во время снегопада.", "textEn": "Yes, but only during snowfall." }
+  ]},
+  { "id": "cmr6bp13q009oubcwmnotqevb", "textRu": "Действует ли допустимая скорость 50 км/ч в населённом пункте круглосуточно?", "textEn": "Does the permitted speed of 50 km/h apply in built-up areas around the clock?", "options": [
+    { "id": "cmr6bp13q009pubcw3uzhakkb", "textRu": "Да.", "textEn": "Yes." },
+    { "id": "cmr6bp13q009qubcwhsl8clqy", "textRu": "Нет, только с 5:00 до 23:00.", "textEn": "No, only from 5:00 to 23:00." },
+    { "id": "cmr6bp13q009rubcwdvz0t2xh", "textRu": "Нет, только от заката до рассвета.", "textEn": "No, only from dusk to dawn." }
+  ]},
+  { "id": "cmr6bp13x009subcwmlh6mfjv", "textRu": "Имеете ли вы право двигаться со скоростью 30 км/ч, управляя моторным транспортным средством с прицепом в жилой зоне?", "textEn": "Do you have the right to travel at 30 km/h when driving a motor vehicle with a trailer in a residential zone?", "options": [
+    { "id": "cmr6bp13x009tubcwsycvngm0", "textRu": "Да, но только после наступления темноты.", "textEn": "Yes, but only after dark." },
+    { "id": "cmr6bp13x009uubcw8cffaded", "textRu": "Да.", "textEn": "Yes." },
+    { "id": "cmr6bp13x009vubcw8bl66ccb", "textRu": "Нет.", "textEn": "No." }
+  ]},
+  { "id": "cmr6bp143009wubcwqo2o99ef", "textRu": "С какой скоростью, управляя легковым автомобилем, следует двигаться за этим транспортным средством, если тоннель находится за пределами населённого пункта, а его длина составляет 600 м?", "textEn": "At what speed, when driving a passenger car, should you follow this vehicle if the tunnel is outside a built-up area and its length is 600 m?", "options": [
+    { "id": "cmr6bp143009xubcwzq534wff", "textRu": "С такой, чтобы поддерживать дистанцию не менее 50 м.", "textEn": "At a speed that maintains a distance of at least 50 m." },
+    { "id": "cmr6bp143009yubcwo64gi2n2", "textRu": "С такой, чтобы поддерживать дистанцию не менее 80 м.", "textEn": "At a speed that maintains a distance of at least 80 m." },
+    { "id": "cmr6bp143009zubcwsgofwppt", "textRu": "С такой, чтобы поддерживать дистанцию не менее 5 м.", "textEn": "At a speed that maintains a distance of at least 5 m." }
+  ]},
+  { "id": "cmr6bp14b00a0ubcw34c1f4ed", "textRu": "Какую минимальную дистанцию вы обязаны соблюдать от едущего перед вами транспортного средства, если двигаетесь по этой дороге на легковом автомобиле с максимально разрешённой скоростью?", "textEn": "What minimum distance are you required to keep from the vehicle ahead of you if you are travelling on this road in a passenger car at the maximum permitted speed?", "options": [
+    { "id": "cmr6bp14b00a1ubcw805hd949", "textRu": "60 м.", "textEn": "60 m." },
+    { "id": "cmr6bp14b00a2ubcwq44hu0jx", "textRu": "70 м.", "textEn": "70 m." },
+    { "id": "cmr6bp14b00a3ubcw3vpbltky", "textRu": "80 м.", "textEn": "80 m." }
+  ]},
+  { "id": "cmr6bp14h00a4ubcwoweh6yck", "textRu": "Какую дистанцию от движущегося впереди транспортного средства следует соблюдать, управляя легковым автомобилем на этой дороге?", "textEn": "What distance from the vehicle ahead should be kept when driving a passenger car on this road?", "options": [
+    { "id": "cmr6bp14h00a5ubcw1lw9sku9", "textRu": "Не менее 30 м, если я двигаюсь со скоростью 60 км/ч.", "textEn": "At least 30 m, if I am travelling at 60 km/h." },
+    { "id": "cmr6bp14h00a6ubcw7s4d0wm9", "textRu": "Необходимую для избежания столкновения в случае торможения или остановки движущегося впереди транспортного средства.", "textEn": "The distance necessary to avoid a collision if the vehicle ahead brakes or stops." },
+    { "id": "cmr6bp14h00a7ubcwnsl3r4do", "textRu": "Любую, если движущееся впереди по той же полосе транспортное средство движется с постоянной скоростью.", "textEn": "Any distance, if the vehicle ahead in the same lane is travelling at a constant speed." }
+  ]},
+  { "id": "cmr6bp14o00a8ubcwshs1048s", "textRu": "С какой скоростью разрешается двигаться по так обозначенной однопроезжей дороге, управляя легковым автомобилем?", "textEn": "At what speed is it allowed to travel on this single-carriageway road, marked like this, when driving a passenger car?", "options": [
+    { "id": "cmr6bp14p00a9ubcwnn8c3nvy", "textRu": "140 км/ч.", "textEn": "140 km/h." },
+    { "id": "cmr6bp14p00aaubcwtnkibvps", "textRu": "100 км/ч.", "textEn": "100 km/h." },
+    { "id": "cmr6bp14p00abubcwrxay4pt3", "textRu": "120 км/ч.", "textEn": "120 km/h." }
+  ]},
+  { "id": "cmr6bp14x00acubcw933xh2og", "textRu": "Какова допустимая скорость легкового автомобиля с прицепом на так обозначенной дороге?", "textEn": "What is the permitted speed for a passenger car with a trailer on this road, marked like this?", "options": [
+    { "id": "cmr6bp14y00adubcwi4jifq76", "textRu": "70 км/ч за запрещающим знаком.", "textEn": "70 km/h beyond the prohibition sign." },
+    { "id": "cmr6bp14y00aeubcwm1i9hjh1", "textRu": "50 км/ч.", "textEn": "50 km/h." },
+    { "id": "cmr6bp14y00afubcwk95z7sqm", "textRu": "40 км/ч.", "textEn": "40 km/h." }
+  ]},
+  { "id": "cmr6bp15400agubcwheum0rto", "textRu": "С какой максимальной скоростью разрешается ехать водителю легкового автомобиля с прицепом по этой дороге за пределами населённого пункта?", "textEn": "At what maximum speed is the driver of a passenger car with a trailer allowed to travel on this road outside a built-up area?", "options": [
+    { "id": "cmr6bp15400ahubcwzhdxy7cf", "textRu": "80 км/ч.", "textEn": "80 km/h." },
+    { "id": "cmr6bp15400aiubcwzspxuvbj", "textRu": "100 км/ч.", "textEn": "100 km/h." },
+    { "id": "cmr6bp15400ajubcwt928msdd", "textRu": "90 км/ч.", "textEn": "90 km/h." }
+  ]},
+  { "id": "cmr6bp15b00akubcwjd60c3y9", "textRu": "С какой скоростью разрешается продолжать движение на легковом автомобиле за этими знаками?", "textEn": "At what speed is it allowed to continue driving a passenger car beyond these signs?", "options": [
+    { "id": "cmr6bp15b00alubcwgruwjul3", "textRu": "30 км/ч до ближайшего перекрёстка, а затем 50 км/ч.", "textEn": "30 km/h to the nearest intersection, then 50 km/h." },
+    { "id": "cmr6bp15b00amubcw67kjz7l4", "textRu": "30 км/ч до таблички с названием начала населённого пункта, а затем 90 км/ч.", "textEn": "30 km/h to the sign with the name marking the start of the locality, then 90 km/h." },
+    { "id": "cmr6bp15c00anubcwkfxq1b4z", "textRu": "30 км/ч на всём участке дороги, проходящем через населённый пункт.", "textEn": "30 km/h along the whole section of road running through the built-up area." }
+  ]},
+  { "id": "cmr6bp15k00aoubcwcjf1ovae", "textRu": "Являются ли состояние и груз транспортного средства факторами, которые следует учитывать при выборе скорости движения?", "textEn": "Are the condition and load of the vehicle factors that should be taken into account when choosing driving speed?", "options": [
+    { "id": "cmr6bp15k00apubcwkqw7j1jn", "textRu": "Да.", "textEn": "Yes." },
+    { "id": "cmr6bp15k00aqubcwpu87ww1b", "textRu": "Да, но только если вы управляете грузовым автомобилем.", "textEn": "Yes, but only if you are driving a truck." },
+    { "id": "cmr6bp15k00arubcwxndui72h", "textRu": "Да, но только в случае обледенелого дорожного покрытия.", "textEn": "Yes, but only in the case of an icy road surface." }
+  ]},
+  { "id": "cmr6bp15r00asubcwnldgcm6q", "textRu": "Являются ли атмосферные условия фактором, который следует учитывать при выборе скорости движения?", "textEn": "Are weather conditions a factor that should be taken into account when choosing driving speed?", "options": [
+    { "id": "cmr6bp15s00atubcwcbadpsh5", "textRu": "Нет.", "textEn": "No." },
+    { "id": "cmr6bp15s00auubcwpt0qb1xx", "textRu": "Да, но только при высокой интенсивности движения на дороге.", "textEn": "Yes, but only in heavy traffic." },
+    { "id": "cmr6bp15s00avubcwkmhi2576", "textRu": "Да.", "textEn": "Yes." }
+  ]},
+  { "id": "cmr6bp15z00awubcwsyuhy4mi", "textRu": "Какую дистанцию следует поддерживать от движущегося впереди транспортного средства в этой ситуации?", "textEn": "What distance should be maintained from the vehicle ahead in this situation?", "options": [
+    { "id": "cmr6bp15z00axubcwoz39ab9v", "textRu": "Дистанцию, необходимую для избежания столкновения в случае торможения или остановки движущегося впереди транспортного средства.", "textEn": "The distance necessary to avoid a collision if the vehicle ahead brakes or stops." },
+    { "id": "cmr6bp15z00ayubcw05btpcmy", "textRu": "Не менее 10 метров.", "textEn": "Not less than 10 metres." },
+    { "id": "cmr6bp15z00azubcwcb7fup53", "textRu": "Не более 10 метров.", "textEn": "Not more than 10 metres." }
+  ]},
+  { "id": "cmr6bp16800b0ubcwvi8zw8cx", "textRu": "Управляя легковым автомобилем при перевозке инвалида, имеющего парковочную карту, вам следует:", "textEn": "When driving a passenger car while transporting a disabled person holding a parking card, you should:", "options": [
+    { "id": "cmr6bp16800b1ubcwi7ckb87f", "textRu": "всегда использовать ближний свет,", "textEn": "always use low-beam headlights," },
+    { "id": "cmr6bp16800b2ubcw7exk99l1", "textRu": "постоянно соблюдать особую осторожность,", "textEn": "constantly exercise special caution," },
+    { "id": "cmr6bp16800b3ubcwj5te6vm1", "textRu": "наблюдать за дорогой и её окружением, в том числе в зеркалах транспортного средства.", "textEn": "observe the road and its surroundings, including in the vehicle's mirrors." }
+  ]},
+  { "id": "cmr6bp16k00b4ubcwnfdvd94n", "textRu": "При каких условиях вы имеете право включить задние противотуманные фары?", "textEn": "Under what conditions do you have the right to turn on the rear fog lights?", "options": [
+    { "id": "cmr6bp16k00b5ubcwuodulapf", "textRu": "Когда видимость при сильном дожде ограничена 60 м.", "textEn": "When visibility in heavy rain is limited to 60 m." },
+    { "id": "cmr6bp16k00b6ubcw5ur0svt2", "textRu": "Когда видимость в густом тумане ограничена 100 м.", "textEn": "When visibility in dense fog is limited to 100 m." },
+    { "id": "cmr6bp16k00b7ubcw2vlv1ku9", "textRu": "Когда видимость при снегопаде менее 50 м.", "textEn": "When visibility during snowfall is less than 50 m." }
+  ]},
+  { "id": "cmr6bp16s00b8ubcwrwe4376r", "textRu": "Разрешается ли за видимыми знаками увеличить скорость до 90 км/ч?", "textEn": "Is it allowed to increase speed to 90 km/h beyond the visible signs?", "options": [
+    { "id": "cmr6bp16s00b9ubcw8fnesh6y", "textRu": "Да, поскольку вы въезжаете на скоростную дорогу.", "textEn": "Yes, because you are entering the expressway." },
+    { "id": "cmr6bp16s00baubcwxx07zhnw", "textRu": "Да, поскольку вы покидаете населённый пункт.", "textEn": "Yes, because you are leaving the built-up area." },
+    { "id": "cmr6bp16s00bbubcwa3j1vubj", "textRu": "Нет, поскольку табличка указывает, что на скоростную дорогу вы въедете только через 450 метров.", "textEn": "No, because the plate indicates that you will enter the expressway only in 450 metres." }
+  ]}
+]

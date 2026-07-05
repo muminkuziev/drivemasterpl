@@ -1,0 +1,24 @@
+# Dependencies
+node_modules/
+
+# Build output
+dist/
+*.tsbuildinfo
+
+# Env files (secrets)
+.env
+.env.*
+!.env.example
+
+# Media (9GB+, uploaded separately to production disk, not committed)
+apps/api/media/
+
+# Webapp build copied into api/public during deploy — keep admin.html tracked
+apps/api/public/assets/
+apps/api/public/index.html
+apps/api/public/favicon.svg
+
+# Logs / OS junk
+*.log
+.DS_Store
+Thumbs.db

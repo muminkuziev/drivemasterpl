@@ -1,0 +1,156 @@
+[
+  {
+    "code": "C-1",
+    "category": "mandatory",
+    "namePl": "Nakaz jazdy w prawo przed znakiem",
+    "nameUz": "Belgidan oldin o'ngga burilish",
+    "imageFileName": "mandatory-C-1.png"
+  },
+  {
+    "code": "C-2",
+    "category": "mandatory",
+    "namePl": "Nakaz jazdy w prawo za znakiem",
+    "nameUz": "Belgidan keyin o'ngga burilish",
+    "imageFileName": "mandatory-C-2.png"
+  },
+  {
+    "code": "C-3",
+    "category": "mandatory",
+    "namePl": "Nakaz jazdy w lewo przed znakiem",
+    "nameUz": "Belgidan oldin chapga burilish",
+    "imageFileName": "mandatory-C-3.png"
+  },
+  {
+    "code": "C-4",
+    "category": "mandatory",
+    "namePl": "Nakaz jazdy w lewo za znakiem",
+    "nameUz": "Belgidan keyin chapga burilish",
+    "imageFileName": "mandatory-C-4.png"
+  },
+  {
+    "code": "C-5",
+    "category": "mandatory",
+    "namePl": "Nakaz jazdy prosto",
+    "nameUz": "To'g'riga yurish",
+    "imageFileName": "mandatory-C-5.png"
+  },
+  {
+    "code": "C-6",
+    "category": "mandatory",
+    "namePl": "Nakaz jazdy prosto lub w prawo",
+    "nameUz": "To'g'riga yoki o'ngga yurish",
+    "imageFileName": "mandatory-C-6.png"
+  },
+  {
+    "code": "C-7",
+    "category": "mandatory",
+    "namePl": "Nakaz jazdy prosto lub w lewo",
+    "nameUz": "To'g'riga yoki chapga yurish",
+    "imageFileName": "mandatory-C-7.png"
+  },
+  {
+    "code": "C-8",
+    "category": "mandatory",
+    "namePl": "Nakaz jazdy w lewo lub w prawo",
+    "nameUz": "Chapga yoki o'ngga burilish",
+    "imageFileName": "mandatory-C-8.png"
+  },
+  {
+    "code": "C-9",
+    "category": "mandatory",
+    "namePl": "Nakaz jazdy z prawej strony znaku",
+    "nameUz": "O'ng tomondan yuring",
+    "imageFileName": "mandatory-C-9.png"
+  },
+  {
+    "code": "C-10",
+    "category": "mandatory",
+    "namePl": "Nakaz jazdy z lewej strony znaku",
+    "nameUz": "Chap tomondan yuring",
+    "imageFileName": "mandatory-C-10.png"
+  },
+  {
+    "code": "C-11",
+    "category": "mandatory",
+    "namePl": "Nakaz jazdy z prawej lub lewej strony znaku",
+    "nameUz": "O'ng yoki chap tomondan yuring",
+    "imageFileName": "mandatory-C-11.png"
+  },
+  {
+    "code": "C-12",
+    "category": "mandatory",
+    "namePl": "Ruch okrężny",
+    "nameUz": "Aylanma harakat (majburiy)",
+    "imageFileName": "mandatory-C-12.png"
+  },
+  {
+    "code": "C-13",
+    "category": "mandatory",
+    "namePl": "Droga dla rowerów",
+    "nameUz": "Faqat velosipedlar uchun yo'lak",
+    "imageFileName": "mandatory-C-13.png"
+  },
+  {
+    "code": "C-13a",
+    "category": "mandatory",
+    "namePl": "Koniec drogi dla rowerów",
+    "nameUz": "Velosiped yo'lagining tugashi",
+    "imageFileName": "mandatory-C-13a.png"
+  },
+  {
+    "code": "C-13-16",
+    "category": "mandatory",
+    "namePl": "Droga dla pieszych i rowerów",
+    "nameUz": "Piyodalar va velosipedchilar uchun majburiy yo'lak",
+    "imageFileName": "mandatory-C-13-16.png"
+  },
+  {
+    "code": "C-14",
+    "category": "mandatory",
+    "namePl": "Minimalna prędkość",
+    "nameUz": "Minimal tezlik",
+    "imageFileName": "mandatory-C-14.png"
+  },
+  {
+    "code": "C-15",
+    "category": "mandatory",
+    "namePl": "Koniec minimalnej prędkości",
+    "nameUz": "Minimal tezlik talabining tugashi",
+    "imageFileName": "mandatory-C-15.png"
+  },
+  {
+    "code": "C-16",
+    "category": "mandatory",
+    "namePl": "Droga dla pieszych",
+    "nameUz": "Faqat piyodalar uchun yo'lak",
+    "imageFileName": "mandatory-C-16.png"
+  },
+  {
+    "code": "C-16a",
+    "category": "mandatory",
+    "namePl": "Koniec drogi dla pieszych",
+    "nameUz": "Piyodalar yo'lagining tugashi",
+    "imageFileName": "mandatory-C-16a.png"
+  },
+  {
+    "code": "C-17",
+    "category": "mandatory",
+    "namePl": "Nakazany kierunek dla pojazdów z materiałami niebezpiecznymi",
+    "nameUz": "Xavfli yuk tashuvchi transport vositalari uchun belgilangan yo'nalish",
+    "imageFileName": "mandatory-C-17.png"
+  },
+  {
+    "code": "C-18",
+    "category": "mandatory",
+    "namePl": "Nakaz używania łańcuchów przeciwślizgowych",
+    "nameUz": "Qor zanjiridan foydalanish majburiy",
+    "imageFileName": "mandatory-C-18.png"
+  },
+  {
+    "code": "C-19",
+    "category": "mandatory",
+    "namePl": "Koniec nakazu używania łańcuchów przeciwślizgowych",
+    "nameUz": "Qor zanjiridan foydalanish talabining tugashi",
+    "imageFileName": "mandatory-C-19.png"
+  }
+]

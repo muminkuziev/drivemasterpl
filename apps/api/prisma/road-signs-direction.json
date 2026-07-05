@@ -1,0 +1,261 @@
+[
+  {
+    "code": "E-1",
+    "category": "direction",
+    "namePl": "Tablica przeddrogowskazowa",
+    "nameUz": "Oldindan yo'nalish taxtasi (sxematik)",
+    "imageFileName": "direction-E-1.png"
+  },
+  {
+    "code": "E-1a",
+    "category": "direction",
+    "namePl": "Tablica przeddrogowskazowa na autostradzie",
+    "nameUz": "Avtomagistraldagi oldindan yo'nalish taxtasi",
+    "imageFileName": "direction-E-1a.png"
+  },
+  {
+    "code": "E-1b",
+    "category": "direction",
+    "namePl": "Tablica przeddrogowskazowa przed wjazdem na autostradę",
+    "nameUz": "Avtomagistralga kirishdan oldingi yo'nalish taxtasi",
+    "imageFileName": "direction-E-1b.png"
+  },
+  {
+    "code": "E-2a",
+    "category": "direction",
+    "namePl": "Drogowskaz tablicowy przy jezdni",
+    "nameUz": "Yo'l yonidagi yo'nalish taxtasi",
+    "imageFileName": "direction-E-2a.png"
+  },
+  {
+    "code": "E-2b",
+    "category": "direction",
+    "namePl": "Drogowskaz tablicowy nad jezdnią",
+    "nameUz": "Yo'l ustidagi yo'nalish taxtasi",
+    "imageFileName": "direction-E-2b.png"
+  },
+  {
+    "code": "E-2c",
+    "category": "direction",
+    "namePl": "Drogowskaz tablicowy przy autostradzie",
+    "nameUz": "Avtomagistral yo'l yonidagi yo'nalish taxtasi",
+    "imageFileName": "direction-E-2c.png"
+  },
+  {
+    "code": "E-2d",
+    "category": "direction",
+    "namePl": "Drogowskaz tablicowy nad autostradą",
+    "nameUz": "Avtomagistral yo'l ustidagi yo'nalish taxtasi",
+    "imageFileName": "direction-E-2d.png"
+  },
+  {
+    "code": "E-2e",
+    "category": "direction",
+    "namePl": "Drogowskaz przed wjazdem na autostradę (przy jezdni)",
+    "nameUz": "Avtomagistralga kirishdan oldin (yon tomonda)",
+    "imageFileName": "direction-E-2e.png"
+  },
+  {
+    "code": "E-2f",
+    "category": "direction",
+    "namePl": "Drogowskaz przed wjazdem na autostradę (nad jezdnią)",
+    "nameUz": "Avtomagistralga kirishdan oldin (tepada)",
+    "imageFileName": "direction-E-2f.png"
+  },
+  {
+    "code": "E-3",
+    "category": "direction",
+    "namePl": "Drogowskaz strzałkowy z numerem drogi",
+    "nameUz": "Yo'l raqami bilan strelka shaklidagi ko'rsatkich",
+    "imageFileName": "direction-E-3.png"
+  },
+  {
+    "code": "E-3a",
+    "category": "direction",
+    "namePl": "Drogowskaz strzałkowy (odmiana)",
+    "nameUz": "Strelka shaklidagi ko'rsatkich (variant)",
+    "imageFileName": "direction-E-3a.png"
+  },
+  {
+    "code": "E-4",
+    "category": "direction",
+    "namePl": "Drogowskaz strzałkowy z odległością",
+    "nameUz": "Masofa bilan strelka shaklidagi ko'rsatkich",
+    "imageFileName": "direction-E-4.png"
+  },
+  {
+    "code": "E-5",
+    "category": "direction",
+    "namePl": "Drogowskaz do dzielnicy miasta",
+    "nameUz": "Shahar chekkasiga yo'nalish",
+    "imageFileName": "direction-E-5.png"
+  },
+  {
+    "code": "E-5a",
+    "category": "direction",
+    "namePl": "Drogowskaz do centrum miasta",
+    "nameUz": "Shahar markaziga yo'nalish",
+    "imageFileName": "direction-E-5a.png"
+  },
+  {
+    "code": "E-6",
+    "category": "direction",
+    "namePl": "Drogowskaz do lotniska",
+    "nameUz": "Aeroportga yo'nalish",
+    "imageFileName": "direction-E-6.png"
+  },
+  {
+    "code": "E-6a",
+    "category": "direction",
+    "namePl": "Drogowskaz do stacji kolejowej",
+    "nameUz": "Temir yo'l vokzaliga yo'nalish",
+    "imageFileName": "direction-E-6a.png"
+  },
+  {
+    "code": "E-6b",
+    "category": "direction",
+    "namePl": "Drogowskaz do dworca autobusowego",
+    "nameUz": "Avtovokzalga yo'nalish",
+    "imageFileName": "direction-E-6b.png"
+  },
+  {
+    "code": "E-6c",
+    "category": "direction",
+    "namePl": "Drogowskaz do przeprawy promowej",
+    "nameUz": "Avtomobil paromiga yo'nalish",
+    "imageFileName": "direction-E-6c.png"
+  },
+  {
+    "code": "E-7",
+    "category": "direction",
+    "namePl": "Drogowskaz do przystani",
+    "nameUz": "Kema qo'nish/suzish joyiga yo'nalish",
+    "imageFileName": "direction-E-7.png"
+  },
+  {
+    "code": "E-8",
+    "category": "direction",
+    "namePl": "Drogowskaz do kąpieliska",
+    "nameUz": "Plyaj/suzish ko'liga yo'nalish",
+    "imageFileName": "direction-E-8.png"
+  },
+  {
+    "code": "E-9",
+    "category": "direction",
+    "namePl": "Drogowskaz do muzeum",
+    "nameUz": "Muzeyga yo'nalish",
+    "imageFileName": "direction-E-9.png"
+  },
+  {
+    "code": "E-10",
+    "category": "direction",
+    "namePl": "Drogowskaz do zabytku historycznego",
+    "nameUz": "Tarixiy yodgorlikka yo'nalish",
+    "imageFileName": "direction-E-10.png"
+  },
+  {
+    "code": "E-11",
+    "category": "direction",
+    "namePl": "Drogowskaz do pomnika przyrody",
+    "nameUz": "Tabiiy yodgorlikka yo'nalish",
+    "imageFileName": "direction-E-11.png"
+  },
+  {
+    "code": "E-12",
+    "category": "direction",
+    "namePl": "Drogowskaz do punktu widokowego",
+    "nameUz": "Ko'rinish maydonchasiga yo'nalish",
+    "imageFileName": "direction-E-12.png"
+  },
+  {
+    "code": "E-12a",
+    "category": "direction",
+    "namePl": "Drogowskaz do punktu widokowego (odmiana)",
+    "nameUz": "Ko'rinish maydonchasiga yo'nalish (variant)",
+    "imageFileName": "direction-E-12a.png"
+  },
+  {
+    "code": "E-13",
+    "category": "direction",
+    "namePl": "Tablica kierunkowa",
+    "nameUz": "Yo'nalish taxtasi (shaharlargacha masofa)",
+    "imageFileName": "direction-E-13.png"
+  },
+  {
+    "code": "E-14",
+    "category": "direction",
+    "namePl": "Tablica szlaku drogowego",
+    "nameUz": "Yo'l marshruti taxtasi",
+    "imageFileName": "direction-E-14.png"
+  },
+  {
+    "code": "E-14a",
+    "category": "direction",
+    "namePl": "Tablica szlaku drogowego (odmiana)",
+    "nameUz": "Yo'l marshruti taxtasi (variant)",
+    "imageFileName": "direction-E-14a.png"
+  },
+  {
+    "code": "E-17a",
+    "category": "direction",
+    "namePl": "Miejscowość",
+    "nameUz": "Aholi punktiga kirish",
+    "imageFileName": "direction-E-17a.png"
+  },
+  {
+    "code": "E-18a",
+    "category": "direction",
+    "namePl": "Koniec miejscowości",
+    "nameUz": "Aholi punktidan chiqish",
+    "imageFileName": "direction-E-18a.png"
+  },
+  {
+    "code": "E-19a",
+    "category": "direction",
+    "namePl": "Obwodnica",
+    "nameUz": "Aylanma yo'l (obwodnica) yo'nalishi",
+    "imageFileName": "direction-E-19a.png"
+  },
+  {
+    "code": "E-20",
+    "category": "direction",
+    "namePl": "Tablica węzła drogowego na autostradzie",
+    "nameUz": "Avtomagistral tugunidan chiqish belgisi",
+    "imageFileName": "direction-E-20.png"
+  },
+  {
+    "code": "E-20a",
+    "category": "direction",
+    "namePl": "Tablica węzła drogowego (odmiana)",
+    "nameUz": "Avtomagistral tugunidan chiqish belgisi (variant)",
+    "imageFileName": "direction-E-20a.png"
+  },
+  {
+    "code": "E-21",
+    "category": "direction",
+    "namePl": "Dzielnica (osiedle)",
+    "nameUz": "Tuman/mahallaga kirish",
+    "imageFileName": "direction-E-21.png"
+  },
+  {
+    "code": "E-22a",
+    "category": "direction",
+    "namePl": "Samochodowy szlak turystyczny (początek)",
+    "nameUz": "Avtomobil turistik yo'nalishi (boshlanishi)",
+    "imageFileName": "direction-E-22a.png"
+  },
+  {
+    "code": "E-22b",
+    "category": "direction",
+    "namePl": "Samochodowy szlak turystyczny (kontynuacja)",
+    "nameUz": "Avtomobil turistik yo'nalishi (davomi)",
+    "imageFileName": "direction-E-22b.png"
+  },
+  {
+    "code": "E-22c",
+    "category": "direction",
+    "namePl": "Samochodowy szlak turystyczny (koniec)",
+    "nameUz": "Avtomobil turistik yo'nalishi (tugashi)",
+    "imageFileName": "direction-E-22c.png"
+  }
+]

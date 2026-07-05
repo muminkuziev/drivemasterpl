@@ -1,0 +1,582 @@
+[
+  {
+    "textPl": "Zamierzasz zawrócić na tym skrzyżowaniu. Czy zajmujesz właściwy pas ruchu?",
+    "textUz": "Bu chorrahada orqaga qaytmoqchisiz. To'g'ri yo'lakni egallayapsizmi?",
+    "category": "Yo'lak va manevrlar",
+    "isPremium": true,
+    "mediaFileName": "MM_D14_15_org.mp4",
+    "mediaType": "video",
+    "options": [
+      {
+        "textPl": "Tak",
+        "textUz": "Ha",
+        "isCorrect": true
+      },
+      {
+        "textPl": "Nie",
+        "textUz": "Yo'q",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "textPl": "Skręcasz w lewo na skrzyżowaniu. Czy po wjechaniu na jezdnię poprzeczną znaki poziome pozwalają Ci zająć pas ruchu przy prawej krawędzi jezdni?",
+    "textUz": "Chorrahada chapga burilyapsiz. Ko'ndalang yo'lga chiqqach, gorizontal belgilar sizga yo'lning o'ng chetidagi yo'lakni egallashga ruxsat beradimi?",
+    "category": "Yo'lak va manevrlar",
+    "isPremium": true,
+    "mediaFileName": "MM_D14_17_org.mp4",
+    "mediaType": "video",
+    "options": [
+      {
+        "textPl": "Tak",
+        "textUz": "Ha",
+        "isCorrect": true
+      },
+      {
+        "textPl": "Nie",
+        "textUz": "Yo'q",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "textPl": "Czy w tym miejscu wolno Ci skręcić w lewo i wjechać na stację paliw?",
+    "textUz": "Shu joyda chapga burilib, yoqilg'i quyish shahobchasiga kirish mumkinmi?",
+    "category": "Yo'lak va manevrlar",
+    "isPremium": true,
+    "mediaFileName": "MM_D14_24_org.mp4",
+    "mediaType": "video",
+    "options": [
+      {
+        "textPl": "Tak",
+        "textUz": "Ha",
+        "isCorrect": false
+      },
+      {
+        "textPl": "Nie",
+        "textUz": "Yo'q",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "textPl": "Czy widoczna linia złożona z trójkątów wskazuje Ci miejsce zatrzymania pojazdu w celu ustąpienia pierwszeństwa?",
+    "textUz": "Uchburchaklardan tashkil topgan ko'rinib turgan chiziq ustuvorlikni berish uchun to'xtash joyini bildiradimi?",
+    "category": "Ustuvorlik qoidalari",
+    "isPremium": true,
+    "mediaFileName": "MM_D14_29_org.mp4",
+    "mediaType": "video",
+    "options": [
+      {
+        "textPl": "Tak",
+        "textUz": "Ha",
+        "isCorrect": true
+      },
+      {
+        "textPl": "Nie",
+        "textUz": "Yo'q",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "textPl": "Czy w tym miejscu możesz skręcić w lewo, na parking?",
+    "textUz": "Shu joyda chapga, avtoturargohga burilish mumkinmi?",
+    "category": "To'xtash va parking",
+    "isPremium": true,
+    "mediaFileName": "MM_D14_34_org.mp4",
+    "mediaType": "video",
+    "options": [
+      {
+        "textPl": "Tak",
+        "textUz": "Ha",
+        "isCorrect": false
+      },
+      {
+        "textPl": "Nie",
+        "textUz": "Yo'q",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "textPl": "Zamierzasz odpocząć. Czy w tym miejscu możesz skręcić w lewo, na parking?",
+    "textUz": "Dam olmoqchisiz. Shu joyda chapga, avtoturargohga burilish mumkinmi?",
+    "category": "To'xtash va parking",
+    "isPremium": true,
+    "mediaFileName": "MM_D14_38_org.mp4",
+    "mediaType": "video",
+    "options": [
+      {
+        "textPl": "Tak",
+        "textUz": "Ha",
+        "isCorrect": false
+      },
+      {
+        "textPl": "Nie",
+        "textUz": "Yo'q",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "textPl": "Czy w tej sytuacji wolno Ci skręcić w lewo z zajmowanego przez Ciebie pasa ruchu?",
+    "textUz": "Bu vaziyatda egallagan yo'lagingizdan chapga burilish mumkinmi?",
+    "category": "Yo'lak va manevrlar",
+    "isPremium": true,
+    "mediaFileName": "MM_D14_42_org.mp4",
+    "mediaType": "video",
+    "options": [
+      {
+        "textPl": "Tak",
+        "textUz": "Ha",
+        "isCorrect": false
+      },
+      {
+        "textPl": "Nie",
+        "textUz": "Yo'q",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "textPl": "Planujesz skręcić w lewo, a kierujący pojazdem z przeciwka ma zamiar jechać na wprost. Czy masz przed nim pierwszeństwo?",
+    "textUz": "Chapga burilishni rejalashtiryapsiz, qarshi tomondan kelayotgan haydovchi esa to'g'riga yurmoqchi. Sizda undan oldin ustuvorlik bormi?",
+    "category": "Ustuvorlik qoidalari",
+    "isPremium": true,
+    "mediaFileName": "KW_D22_417_org.mp4",
+    "mediaType": "video",
+    "options": [
+      {
+        "textPl": "Tak",
+        "textUz": "Ha",
+        "isCorrect": false
+      },
+      {
+        "textPl": "Nie",
+        "textUz": "Yo'q",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "textPl": "Zamierzasz skręcić w lewo. Czy masz obowiązek ustąpić pierwszeństwa wszystkim pojazdom znajdującym się na skrzyżowaniu?",
+    "textUz": "Chapga burilmoqchisiz. Chorrahadagi barcha transport vositalariga yo'l berish majburiyati bormi?",
+    "category": "Ustuvorlik qoidalari",
+    "isPremium": true,
+    "mediaFileName": "KW_D22_418_org.mp4",
+    "mediaType": "video",
+    "options": [
+      {
+        "textPl": "Tak",
+        "textUz": "Ha",
+        "isCorrect": true
+      },
+      {
+        "textPl": "Nie",
+        "textUz": "Yo'q",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "textPl": "Zamierzasz jechać na wprost, a motocyklista chce skręcić w lewo. Czy masz obowiązek ustąpić mu pierwszeństwa?",
+    "textUz": "To'g'riga yurmoqchisiz, mototsiklchi esa chapga burilmoqchi. Unga yo'l berish majburiyati bormi?",
+    "category": "Ustuvorlik qoidalari",
+    "isPremium": true,
+    "mediaFileName": "KW_D22_419_org.mp4",
+    "mediaType": "video",
+    "options": [
+      {
+        "textPl": "Tak",
+        "textUz": "Ha",
+        "isCorrect": true
+      },
+      {
+        "textPl": "Nie",
+        "textUz": "Yo'q",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "textPl": "Zamierzasz jechać na wprost, a kierujący pojazdem, jadącym z naprzeciwka, chce skręcić w lewo. Czy masz przed nim pierwszeństwo?",
+    "textUz": "To'g'riga yurmoqchisiz, qarshi tomondan kelayotgan haydovchi esa chapga burilmoqchi. Sizda undan oldin ustuvorlik bormi?",
+    "category": "Ustuvorlik qoidalari",
+    "isPremium": true,
+    "mediaFileName": "KW_D22_419_org.mp4",
+    "mediaType": "video",
+    "options": [
+      {
+        "textPl": "Tak",
+        "textUz": "Ha",
+        "isCorrect": false
+      },
+      {
+        "textPl": "Nie",
+        "textUz": "Yo'q",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "textPl": "Czy w tej sytuacji wolno Ci wjechać na pas ruchu przy prawej krawędzi jezdni?",
+    "textUz": "Bu vaziyatda yo'lning o'ng chetidagi yo'lakka o'tish mumkinmi?",
+    "category": "Yo'lak va manevrlar",
+    "isPremium": true,
+    "mediaFileName": "MM_D14_09_org.mp4",
+    "mediaType": "video",
+    "options": [
+      {
+        "textPl": "Tak",
+        "textUz": "Ha",
+        "isCorrect": true
+      },
+      {
+        "textPl": "Nie",
+        "textUz": "Yo'q",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "textPl": "Czy gdy prowadzisz w stanie pobudzenia emocjonalnego, to maleje Twoja zdolność koncentracji uwagi?",
+    "textUz": "Hissiy qo'zg'algan holatda haydaganingizda, diqqatni jamlash qobiliyatingiz pasayadimi?",
+    "category": "Umumiy qoidalar",
+    "isPremium": true,
+    "mediaFileName": "GND30__4_org.mp4",
+    "mediaType": "video",
+    "options": [
+      {
+        "textPl": "Tak",
+        "textUz": "Ha",
+        "isCorrect": true
+      },
+      {
+        "textPl": "Nie",
+        "textUz": "Yo'q",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "textPl": "Zamierzasz jechać na wprost. Czy masz pierwszeństwo przed motocyklistą?",
+    "textUz": "To'g'riga yurmoqchisiz. Mototsiklchidan oldin ustuvorligingiz bormi?",
+    "category": "Ustuvorlik qoidalari",
+    "isPremium": true,
+    "mediaFileName": "KW_D22_419_org.mp4",
+    "mediaType": "video",
+    "options": [
+      {
+        "textPl": "Tak",
+        "textUz": "Ha",
+        "isCorrect": false
+      },
+      {
+        "textPl": "Nie",
+        "textUz": "Yo'q",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "textPl": "Czy w przedstawionej sytuacji jesteś ostrzegany o możliwości napotkania na drodze dzikich zwierząt?",
+    "textUz": "Ko'rsatilgan vaziyatda yo'lda yovvoyi hayvonlarga duch kelish ehtimoli haqida ogohlantirilyapsizmi?",
+    "category": "Yo'l belgilari",
+    "isPremium": true,
+    "mediaFileName": "JAZDA NOCĄorg.mp4",
+    "mediaType": "video",
+    "options": [
+      {
+        "textPl": "Tak",
+        "textUz": "Ha",
+        "isCorrect": true
+      },
+      {
+        "textPl": "Nie",
+        "textUz": "Yo'q",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "textPl": "Czy w tej sytuacji masz obowiązek ustąpić pierwszeństwa pojazdowi, który nadjeżdża z lewej strony?",
+    "textUz": "Bu vaziyatda chap tomondan kelayotgan transport vositasiga yo'l berish majburiyati bormi?",
+    "category": "Ustuvorlik qoidalari",
+    "isPremium": true,
+    "mediaFileName": "KW_D16_354org.mp4",
+    "mediaType": "video",
+    "options": [
+      {
+        "textPl": "Tak",
+        "textUz": "Ha",
+        "isCorrect": true
+      },
+      {
+        "textPl": "Nie",
+        "textUz": "Yo'q",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "textPl": "Czy w tej sytuacji masz pierwszeństwo przed pojazdem wjeżdżającym z lewej strony na pas ruchu?",
+    "textUz": "Bu vaziyatda chap tomondan yo'lakka kirayotgan transport vositasidan oldin ustuvorligingiz bormi?",
+    "category": "Ustuvorlik qoidalari",
+    "isPremium": true,
+    "mediaFileName": "KW_D16_355org.mp4",
+    "mediaType": "video",
+    "options": [
+      {
+        "textPl": "Tak",
+        "textUz": "Ha",
+        "isCorrect": false
+      },
+      {
+        "textPl": "Nie",
+        "textUz": "Yo'q",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "textPl": "Zamierzasz skręcić w prawo. Czy masz obowiązek ustąpienia pierwszeństwa pojazdowi, który nadjeżdża z lewej strony?",
+    "textUz": "O'ngga burilmoqchisiz. Chap tomondan kelayotgan transport vositasiga yo'l berish majburiyati bormi?",
+    "category": "Ustuvorlik qoidalari",
+    "isPremium": true,
+    "mediaFileName": "KW_D16_352org.mp4",
+    "mediaType": "video",
+    "options": [
+      {
+        "textPl": "Tak",
+        "textUz": "Ha",
+        "isCorrect": false
+      },
+      {
+        "textPl": "Nie",
+        "textUz": "Yo'q",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "textPl": "Zamierzasz skręcić w lewo. Czy masz obowiązek ustąpić pierwszeństwa rowerzyście?",
+    "textUz": "Chapga burilmoqchisiz. Velosipedchiga yo'l berish majburiyati bormi?",
+    "category": "Ustuvorlik qoidalari",
+    "isPremium": true,
+    "mediaFileName": "KW_D16_253org.mp4",
+    "mediaType": "video",
+    "options": [
+      {
+        "textPl": "Tak",
+        "textUz": "Ha",
+        "isCorrect": true
+      },
+      {
+        "textPl": "Nie",
+        "textUz": "Yo'q",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "textPl": "Czy w tej sytuacji, jadąc na wprost, masz pierwszeństwo przed pojazdem nadjeżdżającym z prawej strony?",
+    "textUz": "Bu vaziyatda to'g'riga yurayotganingizda, o'ng tomondan kelayotgan transport vositasidan oldin ustuvorligingiz bormi?",
+    "category": "Ustuvorlik qoidalari",
+    "isPremium": true,
+    "mediaFileName": "KW_D16_357org.mp4",
+    "mediaType": "video",
+    "options": [
+      {
+        "textPl": "Tak",
+        "textUz": "Ha",
+        "isCorrect": true
+      },
+      {
+        "textPl": "Nie",
+        "textUz": "Yo'q",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "textPl": "Czy w tej sytuacji masz prawo kontynuować manewr wyprzedzania?",
+    "textUz": "Bu vaziyatda o'zib o'tish manevrini davom ettirish huquqingiz bormi?",
+    "category": "O'zib o'tish",
+    "isPremium": true,
+    "mediaFileName": "WC_D17_25org.mp4",
+    "mediaType": "video",
+    "options": [
+      {
+        "textPl": "Tak",
+        "textUz": "Ha",
+        "isCorrect": true
+      },
+      {
+        "textPl": "Nie",
+        "textUz": "Yo'q",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "textPl": "Czy w tej sytuacji wolno Ci wyprzedzić pojazd z prawej strony?",
+    "textUz": "Bu vaziyatda transport vositasidan o'ng tomondan o'zib o'tish mumkinmi?",
+    "category": "O'zib o'tish",
+    "isPremium": true,
+    "mediaFileName": "WC_D17_30_org_2.mp4",
+    "mediaType": "video",
+    "options": [
+      {
+        "textPl": "Tak",
+        "textUz": "Ha",
+        "isCorrect": false
+      },
+      {
+        "textPl": "Nie",
+        "textUz": "Yo'q",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "textPl": "Czy w tej sytuacji masz prawo wyprzedzić pojazd?",
+    "textUz": "Bu vaziyatda transport vositasidan o'zib o'tish huquqingiz bormi?",
+    "category": "O'zib o'tish",
+    "isPremium": true,
+    "mediaFileName": "WC_D17_33org.mp4",
+    "mediaType": "video",
+    "options": [
+      {
+        "textPl": "Tak",
+        "textUz": "Ha",
+        "isCorrect": false
+      },
+      {
+        "textPl": "Nie",
+        "textUz": "Yo'q",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "textPl": "Czy w tej sytuacji, na obszarze zabudowanym, wolno Ci wyprzedzić pojazd z prawej strony?",
+    "textUz": "Bu vaziyatda, aholi punktida, transport vositasidan o'ng tomondan o'zib o'tish mumkinmi?",
+    "category": "O'zib o'tish",
+    "isPremium": true,
+    "mediaFileName": "WC_D17_36org.mp4",
+    "mediaType": "video",
+    "options": [
+      {
+        "textPl": "Tak",
+        "textUz": "Ha",
+        "isCorrect": true
+      },
+      {
+        "textPl": "Nie",
+        "textUz": "Yo'q",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "textPl": "Czy w tej sytuacji wolno Ci wyprzedzić pojazd?",
+    "textUz": "Bu vaziyatda transport vositasidan o'zib o'tish mumkinmi?",
+    "category": "O'zib o'tish",
+    "isPremium": true,
+    "mediaFileName": "WC_D17_38org.mp4",
+    "mediaType": "video",
+    "options": [
+      {
+        "textPl": "Tak",
+        "textUz": "Ha",
+        "isCorrect": true
+      },
+      {
+        "textPl": "Nie",
+        "textUz": "Yo'q",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "textPl": "Czy w tej sytuacji należy powstrzymać się od wyprzedzenia pojazdu?",
+    "textUz": "Bu vaziyatda transport vositasidan o'zib o'tishdan tiyilish kerakmi?",
+    "category": "O'zib o'tish",
+    "isPremium": true,
+    "mediaFileName": "WC_D17_09org.mp4",
+    "mediaType": "video",
+    "options": [
+      {
+        "textPl": "Tak",
+        "textUz": "Ha",
+        "isCorrect": true
+      },
+      {
+        "textPl": "Nie",
+        "textUz": "Yo'q",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "textPl": "Czy w tej sytuacji masz prawo kontynuować manewr wyprzedzania?",
+    "textUz": "Bu vaziyatda o'zib o'tish manevrini davom ettirish huquqingiz bormi?",
+    "category": "O'zib o'tish",
+    "isPremium": true,
+    "mediaFileName": "WC_D17_15_org_2.mp4",
+    "mediaType": "video",
+    "options": [
+      {
+        "textPl": "Tak",
+        "textUz": "Ha",
+        "isCorrect": true
+      },
+      {
+        "textPl": "Nie",
+        "textUz": "Yo'q",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "textPl": "Czy w tej sytuacji masz prawo wyprzedzić pojazd?",
+    "textUz": "Bu vaziyatda transport vositasidan o'zib o'tish huquqingiz bormi?",
+    "category": "O'zib o'tish",
+    "isPremium": true,
+    "mediaFileName": "WC_D17_23_org_2.mp4",
+    "mediaType": "video",
+    "options": [
+      {
+        "textPl": "Tak",
+        "textUz": "Ha",
+        "isCorrect": false
+      },
+      {
+        "textPl": "Nie",
+        "textUz": "Yo'q",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "textPl": "Czy w tej sytuacji zajmujesz właściwy pas ruchu?",
+    "textUz": "Bu vaziyatda to'g'ri yo'lakni egallayapsizmi?",
+    "category": "Yo'lak va manevrlar",
+    "isPremium": true,
+    "mediaFileName": "MD_D6_03_org.mp4",
+    "mediaType": "video",
+    "options": [
+      {
+        "textPl": "Tak",
+        "textUz": "Ha",
+        "isCorrect": false
+      },
+      {
+        "textPl": "Nie",
+        "textUz": "Yo'q",
+        "isCorrect": true
+      }
+    ]
+  }
+]

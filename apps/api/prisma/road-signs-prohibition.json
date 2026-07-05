@@ -1,0 +1,387 @@
+[
+  {
+    "code": "B-1",
+    "category": "prohibition",
+    "namePl": "Zakaz ruchu w obu kierunkach",
+    "nameUz": "Ikkala yo'nalishda ham harakat taqiqlanadi",
+    "imageFileName": "prohibition-B-1.png"
+  },
+  {
+    "code": "B-2",
+    "category": "prohibition",
+    "namePl": "Zakaz wjazdu",
+    "nameUz": "Kirish taqiqlanadi",
+    "imageFileName": "prohibition-B-2.png"
+  },
+  {
+    "code": "B-3",
+    "category": "prohibition",
+    "namePl": "Zakaz wjazdu pojazdów silnikowych, z wyjątkiem motocykli jednośladowych",
+    "nameUz": "Bir izli mototsikllardan boshqa motorli transport vositalariga kirish taqiqlanadi",
+    "imageFileName": "prohibition-B-3.png"
+  },
+  {
+    "code": "B-3a",
+    "category": "prohibition",
+    "namePl": "Zakaz wjazdu autobusów",
+    "nameUz": "Avtobuslarga kirish taqiqlanadi",
+    "imageFileName": "prohibition-B-3a.png"
+  },
+  {
+    "code": "B-4",
+    "category": "prohibition",
+    "namePl": "Zakaz wjazdu motocykli",
+    "nameUz": "Mototsikllarga kirish taqiqlanadi",
+    "imageFileName": "prohibition-B-4.png"
+  },
+  {
+    "code": "B-5",
+    "category": "prohibition",
+    "namePl": "Zakaz wjazdu samochodów ciężarowych",
+    "nameUz": "Yuk mashinalariga kirish taqiqlanadi",
+    "imageFileName": "prohibition-B-5.png"
+  },
+  {
+    "code": "B-6",
+    "category": "prohibition",
+    "namePl": "Zakaz wjazdu ciągników rolniczych",
+    "nameUz": "Traktor va sekin yuruvchi transport vositalariga kirish taqiqlanadi",
+    "imageFileName": "prohibition-B-6.png"
+  },
+  {
+    "code": "B-7",
+    "category": "prohibition",
+    "namePl": "Zakaz wjazdu pojazdów silnikowych z przyczepą",
+    "nameUz": "Tirkamali motorli transport vositalariga kirish taqiqlanadi",
+    "imageFileName": "prohibition-B-7.png"
+  },
+  {
+    "code": "B-8",
+    "category": "prohibition",
+    "namePl": "Zakaz wjazdu pojazdów zaprzęgowych",
+    "nameUz": "Ot-arava transportiga kirish taqiqlanadi",
+    "imageFileName": "prohibition-B-8.png"
+  },
+  {
+    "code": "B-9",
+    "category": "prohibition",
+    "namePl": "Zakaz wjazdu rowerów",
+    "nameUz": "Velosipedlarga kirish taqiqlanadi",
+    "imageFileName": "prohibition-B-9.png"
+  },
+  {
+    "code": "B-10",
+    "category": "prohibition",
+    "namePl": "Zakaz wjazdu motorowerów",
+    "nameUz": "Mopedlarga kirish taqiqlanadi",
+    "imageFileName": "prohibition-B-10.png"
+  },
+  {
+    "code": "B-11",
+    "category": "prohibition",
+    "namePl": "Zakaz wjazdu wózków rowerowych",
+    "nameUz": "Velosiped-aravachalarga kirish taqiqlanadi",
+    "imageFileName": "prohibition-B-11.png"
+  },
+  {
+    "code": "B-12",
+    "category": "prohibition",
+    "namePl": "Zakaz wjazdu wózków ręcznych",
+    "nameUz": "Qo'l aravachalariga kirish taqiqlanadi",
+    "imageFileName": "prohibition-B-12.png"
+  },
+  {
+    "code": "B-13",
+    "category": "prohibition",
+    "namePl": "Zakaz wjazdu pojazdów z materiałami wybuchowymi lub łatwo zapalnymi",
+    "nameUz": "Portlovchi yoki yonuvchi yuk tashuvchi transport vositalariga kirish taqiqlanadi",
+    "imageFileName": "prohibition-B-13.png"
+  },
+  {
+    "code": "B-13a",
+    "category": "prohibition",
+    "namePl": "Zakaz wjazdu pojazdów z materiałami niebezpiecznymi",
+    "nameUz": "Xavfli yuk tashuvchi transport vositalariga kirish taqiqlanadi",
+    "imageFileName": "prohibition-B-13a.png"
+  },
+  {
+    "code": "B-14",
+    "category": "prohibition",
+    "namePl": "Zakaz wjazdu pojazdów z materiałami zanieczyszczającymi wodę",
+    "nameUz": "Suvni ifloslantiruvchi yuk tashuvchi transport vositalariga kirish taqiqlanadi",
+    "imageFileName": "prohibition-B-14.png"
+  },
+  {
+    "code": "B-15",
+    "category": "prohibition",
+    "namePl": "Zakaz wjazdu pojazdów o szerokości ponad ... m",
+    "nameUz": "Belgilangan kenglikdan oshiq transport vositalariga kirish taqiqlanadi",
+    "imageFileName": "prohibition-B-15.png"
+  },
+  {
+    "code": "B-16",
+    "category": "prohibition",
+    "namePl": "Zakaz wjazdu pojazdów o wysokości ponad ... m",
+    "nameUz": "Belgilangan balandlikdan oshiq transport vositalariga kirish taqiqlanadi",
+    "imageFileName": "prohibition-B-16.png"
+  },
+  {
+    "code": "B-17",
+    "category": "prohibition",
+    "namePl": "Zakaz wjazdu pojazdów o długości ponad ... m",
+    "nameUz": "Belgilangan uzunlikdan oshiq transport vositalariga kirish taqiqlanadi",
+    "imageFileName": "prohibition-B-17.png"
+  },
+  {
+    "code": "B-18",
+    "category": "prohibition",
+    "namePl": "Zakaz wjazdu pojazdów o masie ponad ... t",
+    "nameUz": "Belgilangan umumiy massadan oshiq transport vositalariga kirish taqiqlanadi",
+    "imageFileName": "prohibition-B-18.png"
+  },
+  {
+    "code": "B-19",
+    "category": "prohibition",
+    "namePl": "Zakaz wjazdu pojazdów o nacisku osi ponad ... t",
+    "nameUz": "Bitta o'qiga tushadigan yuklamasi belgilangandan oshiq transport vositalariga kirish taqiqlanadi",
+    "imageFileName": "prohibition-B-19.png"
+  },
+  {
+    "code": "B-20",
+    "category": "prohibition",
+    "namePl": "STOP",
+    "nameUz": "STOP — to'xtash va yo'l berish",
+    "imageFileName": "prohibition-B-20.png"
+  },
+  {
+    "code": "B-21",
+    "category": "prohibition",
+    "namePl": "Zakaz skręcania w lewo",
+    "nameUz": "Chapga burilish taqiqlanadi",
+    "imageFileName": "prohibition-B-21.png"
+  },
+  {
+    "code": "B-22",
+    "category": "prohibition",
+    "namePl": "Zakaz skręcania w prawo",
+    "nameUz": "O'ngga burilish taqiqlanadi",
+    "imageFileName": "prohibition-B-22.png"
+  },
+  {
+    "code": "B-23",
+    "category": "prohibition",
+    "namePl": "Zakaz zawracania",
+    "nameUz": "Orqaga qaytish (U-burilish) taqiqlanadi",
+    "imageFileName": "prohibition-B-23.png"
+  },
+  {
+    "code": "B-24",
+    "category": "prohibition",
+    "namePl": "Koniec zakazu zawracania",
+    "nameUz": "Orqaga qaytish taqig'ining tugashi",
+    "imageFileName": "prohibition-B-24.png"
+  },
+  {
+    "code": "B-25",
+    "category": "prohibition",
+    "namePl": "Zakaz wyprzedzania",
+    "nameUz": "O'zib o'tish taqiqlanadi",
+    "imageFileName": "prohibition-B-25.png"
+  },
+  {
+    "code": "B-26",
+    "category": "prohibition",
+    "namePl": "Zakaz wyprzedzania przez samochody ciężarowe",
+    "nameUz": "Yuk mashinalari uchun o'zib o'tish taqiqlanadi",
+    "imageFileName": "prohibition-B-26.png"
+  },
+  {
+    "code": "B-27",
+    "category": "prohibition",
+    "namePl": "Koniec zakazu wyprzedzania",
+    "nameUz": "O'zib o'tish taqig'ining tugashi",
+    "imageFileName": "prohibition-B-27.png"
+  },
+  {
+    "code": "B-28",
+    "category": "prohibition",
+    "namePl": "Koniec zakazu wyprzedzania przez samochody ciężarowe",
+    "nameUz": "Yuk mashinalari uchun o'zib o'tish taqig'ining tugashi",
+    "imageFileName": "prohibition-B-28.png"
+  },
+  {
+    "code": "B-29",
+    "category": "prohibition",
+    "namePl": "Zakaz używania sygnałów dźwiękowych",
+    "nameUz": "Tovush signalini berish taqiqlanadi",
+    "imageFileName": "prohibition-B-29.png"
+  },
+  {
+    "code": "B-30",
+    "category": "prohibition",
+    "namePl": "Koniec zakazu używania sygnałów dźwiękowych",
+    "nameUz": "Tovush signali taqig'ining tugashi",
+    "imageFileName": "prohibition-B-30.png"
+  },
+  {
+    "code": "B-31",
+    "category": "prohibition",
+    "namePl": "Pierwszeństwo dla nadjeżdżających z przeciwka",
+    "nameUz": "Qarshi tomondan keluvchilarga ustuvorlik",
+    "imageFileName": "prohibition-B-31.png"
+  },
+  {
+    "code": "B-32",
+    "category": "prohibition",
+    "namePl": "STOP — kontrola celna",
+    "nameUz": "STOP — bojxona nazorati",
+    "imageFileName": "prohibition-B-32.png"
+  },
+  {
+    "code": "B-32a",
+    "category": "prohibition",
+    "namePl": "Kontrola graniczna",
+    "nameUz": "Chegara nazorati",
+    "imageFileName": "prohibition-B-32a.png"
+  },
+  {
+    "code": "B-32b",
+    "category": "prohibition",
+    "namePl": "Awaria zapory",
+    "nameUz": "Shlagbaum nosozligi",
+    "imageFileName": "prohibition-B-32b.png"
+  },
+  {
+    "code": "B-32c",
+    "category": "prohibition",
+    "namePl": "Wadliwa sygnalizacja",
+    "nameUz": "Signalizatsiya nosozligi",
+    "imageFileName": "prohibition-B-32c.png"
+  },
+  {
+    "code": "B-32d",
+    "category": "prohibition",
+    "namePl": "Wjazd na prom",
+    "nameUz": "Parom kirish joyi",
+    "imageFileName": "prohibition-B-32d.png"
+  },
+  {
+    "code": "B-32e",
+    "category": "prohibition",
+    "namePl": "Kontrola policyjna",
+    "nameUz": "Politsiya nazorati",
+    "imageFileName": "prohibition-B-32e.png"
+  },
+  {
+    "code": "B-32f",
+    "category": "prohibition",
+    "namePl": "Pobór opłat",
+    "nameUz": "Yo'l haqi yig'ish",
+    "imageFileName": "prohibition-B-32f.png"
+  },
+  {
+    "code": "B-33",
+    "category": "prohibition",
+    "namePl": "Ograniczenie prędkości",
+    "nameUz": "Tezlik cheklovi",
+    "imageFileName": "prohibition-B-33.png"
+  },
+  {
+    "code": "B-34",
+    "category": "prohibition",
+    "namePl": "Koniec ograniczenia prędkości",
+    "nameUz": "Tezlik cheklovining tugashi",
+    "imageFileName": "prohibition-B-34.png"
+  },
+  {
+    "code": "B-35",
+    "category": "prohibition",
+    "namePl": "Zakaz postoju",
+    "nameUz": "To'xtab turish taqiqlanadi",
+    "imageFileName": "prohibition-B-35.png"
+  },
+  {
+    "code": "B-35a",
+    "category": "prohibition",
+    "namePl": "Zakaz postoju w określonych godzinach",
+    "nameUz": "Belgilangan soatlarda to'xtab turish taqiqlanadi",
+    "imageFileName": "prohibition-B-35a.png"
+  },
+  {
+    "code": "B-35b",
+    "category": "prohibition",
+    "namePl": "Zakaz postoju dłużej niż określona liczba minut",
+    "nameUz": "Belgilangan daqiqadan ortiq to'xtab turish taqiqlanadi",
+    "imageFileName": "prohibition-B-35b.png"
+  },
+  {
+    "code": "B-35c",
+    "category": "prohibition",
+    "namePl": "Ograniczenie czasu postoju w określonych godzinach",
+    "nameUz": "Belgilangan soatlarda to'xtab turish muddati cheklangan",
+    "imageFileName": "prohibition-B-35c.png"
+  },
+  {
+    "code": "B-36",
+    "category": "prohibition",
+    "namePl": "Zakaz zatrzymywania się",
+    "nameUz": "To'xtash taqiqlanadi",
+    "imageFileName": "prohibition-B-36.png"
+  },
+  {
+    "code": "B-37",
+    "category": "prohibition",
+    "namePl": "Zakaz postoju w dni nieparzyste",
+    "nameUz": "Toq kunlarda to'xtab turish taqiqlanadi",
+    "imageFileName": "prohibition-B-37.png"
+  },
+  {
+    "code": "B-38",
+    "category": "prohibition",
+    "namePl": "Zakaz postoju w dni parzyste",
+    "nameUz": "Juft kunlarda to'xtab turish taqiqlanadi",
+    "imageFileName": "prohibition-B-38.png"
+  },
+  {
+    "code": "B-39",
+    "category": "prohibition",
+    "namePl": "Strefa ograniczonego postoju",
+    "nameUz": "Cheklangan to'xtab turish zonasi",
+    "imageFileName": "prohibition-B-39.png"
+  },
+  {
+    "code": "B-40",
+    "category": "prohibition",
+    "namePl": "Koniec strefy ograniczonego postoju",
+    "nameUz": "Cheklangan to'xtab turish zonasining tugashi",
+    "imageFileName": "prohibition-B-40.png"
+  },
+  {
+    "code": "B-41",
+    "category": "prohibition",
+    "namePl": "Zakaz wjazdu pieszych",
+    "nameUz": "Piyodalarga kirish taqiqlanadi",
+    "imageFileName": "prohibition-B-41.png"
+  },
+  {
+    "code": "B-42",
+    "category": "prohibition",
+    "namePl": "Koniec zakazów",
+    "nameUz": "Barcha cheklovlarning tugashi",
+    "imageFileName": "prohibition-B-42.png"
+  },
+  {
+    "code": "B-43",
+    "category": "prohibition",
+    "namePl": "Strefa ograniczonej prędkości",
+    "nameUz": "Cheklangan tezlik zonasi",
+    "imageFileName": "prohibition-B-43.png"
+  },
+  {
+    "code": "B-44",
+    "category": "prohibition",
+    "namePl": "Koniec strefy ograniczonej prędkości",
+    "nameUz": "Cheklangan tezlik zonasining tugashi",
+    "imageFileName": "prohibition-B-44.png"
+  }
+]

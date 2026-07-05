@@ -1,0 +1,58 @@
+[
+  {
+    "textPl": "Czy ze względów bezpieczeństwa wskazane jest, aby używając gaśnicy samochodowej, unikać pełnego otwarcia pokrywy komory silnika?",
+    "a": "",
+    "b": "",
+    "c": "",
+    "correct": "T",
+    "textEn": "When using the car extinguisher, is it proper to avoid full opening of the bonnet?",
+    "aEn": "",
+    "bEn": "",
+    "cEn": "",
+    "media": "R_2org.wmv",
+    "zakres": "PODSTAWOWY",
+    "translationIndex": 60
+  },
+  {
+    "textPl": "Czy w tej sytuacji uzasadnione jest sprawdzenie, czy sprawca wypadku zaciągnął hamulec awaryjny i wyłączył silnik?",
+    "a": "",
+    "b": "",
+    "c": "",
+    "correct": "T",
+    "textEn": "Is it fully justifiable in the presented situation to check if the accident perpetrator had applied emergency brake and turned off the engine?",
+    "aEn": "",
+    "bEn": "",
+    "cEn": "",
+    "media": "R_1org.wmv",
+    "zakres": "PODSTAWOWY",
+    "translationIndex": 61
+  },
+  {
+    "textPl": "Czy kierując pojazdem w stanie pobudzenia emocjonalnego, zwiększasz precyzję i trafność swoich reakcji w sytuacji niebezpiecznej?",
+    "a": "",
+    "b": "",
+    "c": "",
+    "correct": "N",
+    "textEn": "When driving in a state of emotional arousal, does the precision and accuracy of your reactions in dangerous situation improve?",
+    "aEn": "",
+    "bEn": "",
+    "cEn": "",
+    "media": "W20(31).wmv",
+    "zakres": "PODSTAWOWY",
+    "translationIndex": 94
+  },
+  {
+    "textPl": "Czy w tej sytuacji masz prawo wyprzedzić tramwaj?",
+    "a": "",
+    "b": "",
+    "c": "",
+    "correct": "T",
+    "textEn": "Are you allowed in this situation to overtake the tram?",
+    "aEn": "",
+    "bEn": "",
+    "cEn": "",
+    "media": "W12(174).wmv",
+    "zakres": "PODSTAWOWY",
+    "translationIndex": 95
+  }
+]

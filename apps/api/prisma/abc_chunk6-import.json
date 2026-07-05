@@ -1,0 +1,552 @@
+[
+  {
+    "textPl": "Jakie negatywne skutki dla kierującego pojazdem może powodować zaśnieżenie lub oblodzenie jezdni?",
+    "textUz": "Yo'lning qorlashi yoki muzlashi haydovchi uchun qanday salbiy oqibatlarga olib kelishi mumkin?",
+    "category": "Umumiy qoidalar",
+    "isPremium": true,
+    "mediaFileName": "sniegidroga1-ztPIC.jpg",
+    "mediaType": "photo",
+    "options": [
+      {
+        "textPl": "Zwiększenie przyczepności opon do jezdni.",
+        "textUz": "Shinalarning yo'lga ilashishi oshishi.",
+        "isCorrect": false
+      },
+      {
+        "textPl": "Zmniejszenie  przyczepności opon do jezdni.",
+        "textUz": "Shinalarning yo'lga ilashishi kamayishi.",
+        "isCorrect": true
+      },
+      {
+        "textPl": "Skrócenie drogi hamowania.",
+        "textUz": "Tormozlash masofasining qisqarishi.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "textPl": "Jakie negatywne skutki dla kierującego pojazdem może powodować zaśnieżenie lub oblodzenie jezdni?",
+    "textUz": "Yo'lning qorlashi yoki muzlashi haydovchi uchun qanday salbiy oqibatlarga olib kelishi mumkin?",
+    "category": "Umumiy qoidalar",
+    "isPremium": true,
+    "mediaFileName": "sniegidroga2-ztPIC.jpg",
+    "mediaType": "photo",
+    "options": [
+      {
+        "textPl": "Zwiększone ryzyko poślizgu.",
+        "textUz": "Sirpanish xavfining oshishi.",
+        "isCorrect": true
+      },
+      {
+        "textPl": "Zwiększenie przyczepności opon do jezdni.",
+        "textUz": "Shinalarning yo'lga ilashishi oshishi.",
+        "isCorrect": false
+      },
+      {
+        "textPl": "Skrócenie drogi hamowania.",
+        "textUz": "Tormozlash masofasining qisqarishi.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "textPl": "Jakie zachowanie zwiększa ryzyko wpadnięcia w poślizg na oblodzonej nawierzchni jezdni?",
+    "textUz": "Qanday xatti-harakat muzlagan yo'l yuzasida sirpanish xavfini oshiradi?",
+    "category": "Umumiy qoidalar",
+    "isPremium": true,
+    "mediaFileName": "sniegidroga1-ztPIC.jpg",
+    "mediaType": "photo",
+    "options": [
+      {
+        "textPl": "Nagłe intensywne hamowanie.",
+        "textUz": "To'satdan kuchli tormozlash.",
+        "isCorrect": true
+      },
+      {
+        "textPl": "Hamowanie silnikiem.",
+        "textUz": "Dvigatel bilan tormozlash.",
+        "isCorrect": false
+      },
+      {
+        "textPl": "Jazda ze stałą prędkością.",
+        "textUz": "Doimiy tezlikda yurish.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "textPl": "Jakie zachowanie zwiększa ryzyko wpadnięcia w poślizg na oblodzonej nawierzchni jezdni?",
+    "textUz": "Qanday xatti-harakat muzlagan yo'l yuzasida sirpanish xavfini oshiradi?",
+    "category": "Umumiy qoidalar",
+    "isPremium": true,
+    "mediaFileName": "sniegidroga2-ztPIC.jpg",
+    "mediaType": "photo",
+    "options": [
+      {
+        "textPl": "Jazda na trzecim biegu.",
+        "textUz": "Uchinchi uzatmada yurish.",
+        "isCorrect": false
+      },
+      {
+        "textPl": "Nagłe zwiększenie prędkości.",
+        "textUz": "Tezlikni to'satdan oshirish.",
+        "isCorrect": true
+      },
+      {
+        "textPl": "Zmiana biegu na niższy.",
+        "textUz": "Uzatmani pastroqqa almashtirish.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "textPl": "Jakie zachowanie zwiększa ryzyko wpadnięcia w poślizg na oblodzonej nawierzchni jezdni?",
+    "textUz": "Qanday xatti-harakat muzlagan yo'l yuzasida sirpanish xavfini oshiradi?",
+    "category": "Umumiy qoidalar",
+    "isPremium": true,
+    "mediaFileName": "sniegidroga3-ztPIC.jpg",
+    "mediaType": "photo",
+    "options": [
+      {
+        "textPl": "Jazda ze stałą prędkością.",
+        "textUz": "Doimiy tezlikda yurish.",
+        "isCorrect": false
+      },
+      {
+        "textPl": "Hamowanie silnikiem.",
+        "textUz": "Dvigatel bilan tormozlash.",
+        "isCorrect": false
+      },
+      {
+        "textPl": "Gwałtowne skręcenie kierownicy.",
+        "textUz": "Rulni keskin burish.",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "textPl": "Jakie zachowanie zwiększa ryzyko wpadnięcia w poślizg na oblodzonej nawierzchni jezdni?",
+    "textUz": "Qanday xatti-harakat muzlagan yo'l yuzasida sirpanish xavfini oshiradi?",
+    "category": "Umumiy qoidalar",
+    "isPremium": true,
+    "mediaFileName": "sniegidroga2-ztPIC.jpg",
+    "mediaType": "photo",
+    "options": [
+      {
+        "textPl": "Utrzymanie zbyt wysokiej prędkości, zwłaszcza na zakręcie.",
+        "textUz": "Ayniqsa burilishda haddan tashqari yuqori tezlikni saqlash.",
+        "isCorrect": true
+      },
+      {
+        "textPl": "Jazda ze stałą prędkością.",
+        "textUz": "Doimiy tezlikda yurish.",
+        "isCorrect": false
+      },
+      {
+        "textPl": "Jazda na drugim biegu.",
+        "textUz": "Ikkinchi uzatmada yurish.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "textPl": "Czy prędkość jazdy i odstęp od innych uczestników ruchu drogowego należy dostosować do stanu nawierzchni?",
+    "textUz": "Harakat tezligi va boshqa yo'l harakati ishtirokchilaridan masofa yo'l yuzasi holatiga moslashtirilishi kerakmi?",
+    "category": "Umumiy qoidalar",
+    "isPremium": true,
+    "mediaFileName": "Bb1_5005pic-zt.jpg",
+    "mediaType": "photo",
+    "options": [
+      {
+        "textPl": "Tak, ale tylko w obszarze zabudowanym.",
+        "textUz": "Ha, ammo faqat aholi punktida.",
+        "isCorrect": false
+      },
+      {
+        "textPl": "Tak, ponieważ stan nawierzchni ma istotny wpływ na drogę hamowania.",
+        "textUz": "Ha, chunki yo'l yuzasi holati tormozlash masofasiga muhim ta'sir qiladi.",
+        "isCorrect": true
+      },
+      {
+        "textPl": "Tak, ale tylko podczas opadów śniegu.",
+        "textUz": "Ha, ammo faqat qor yog'ganda.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "textPl": "Czy prędkość dopuszczalna 50 km/h obowiązuje na obszarze zabudowanym przez całą dobę?",
+    "textUz": "50 km/soat ruxsat etilgan tezlik aholi punktida kecha-kunduz amal qiladimi?",
+    "category": "Umumiy qoidalar",
+    "isPremium": true,
+    "mediaFileName": "Ba1_6011ztVpic.jpg",
+    "mediaType": "photo",
+    "options": [
+      {
+        "textPl": "Tak.",
+        "textUz": "Ha.",
+        "isCorrect": true
+      },
+      {
+        "textPl": "Nie, tylko od godziny 5:00 do 23:00.",
+        "textUz": "Yo'q, faqat soat 5:00 dan 23:00 gacha.",
+        "isCorrect": false
+      },
+      {
+        "textPl": "Nie, tylko od zmierzchu do świtu.",
+        "textUz": "Yo'q, faqat qorong'u tushishidan tonggacha.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "textPl": "Czy prowadząc pojazd silnikowy z przyczepą w strefie zamieszkania masz prawo jechać z prędkością 30 km/h?",
+    "textUz": "Turar-joy zonasida tirkamali motorli transport vositasini haydaganingizda 30 km/soat tezlikda yurish huquqingiz bormi?",
+    "category": "Umumiy qoidalar",
+    "isPremium": true,
+    "mediaFileName": "Slajd_001500_1024x576.jpg",
+    "mediaType": "photo",
+    "options": [
+      {
+        "textPl": "Tak, ale tylko po zmroku.",
+        "textUz": "Ha, ammo faqat qorong'u tushgandan keyin.",
+        "isCorrect": false
+      },
+      {
+        "textPl": "Tak.",
+        "textUz": "Ha.",
+        "isCorrect": false
+      },
+      {
+        "textPl": "Nie.",
+        "textUz": "Yo'q.",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "textPl": "Z jaką prędkością, kierując samochodem osobowym, należy poruszać się za tym pojazdem, jeżeli tunel znajduje się poza obszarem zabudowanym, a jego długość wynosi 600 m?",
+    "textUz": "Agar tunnel aholi punktidan tashqarida joylashgan bo'lsa va uning uzunligi 600 metr bo'lsa, yengil avtomobilni haydaganingizda bu transport vositasi ortidan qanday tezlikda yurish kerak?",
+    "category": "Umumiy qoidalar",
+    "isPremium": true,
+    "mediaFileName": "mw12nn.jpg",
+    "mediaType": "photo",
+    "options": [
+      {
+        "textPl": "Z taką, aby utrzymywać, co najmniej 50 m odstępu.",
+        "textUz": "Kamida 50 metr masofani saqlaydigan tezlikda.",
+        "isCorrect": true
+      },
+      {
+        "textPl": "Z taką, aby utrzymywć, co najmniej 80 m odstępu.",
+        "textUz": "Kamida 80 metr masofani saqlaydigan tezlikda.",
+        "isCorrect": false
+      },
+      {
+        "textPl": "Z taką, aby utrzymywć, co najmniej 5 m odstępu.",
+        "textUz": "Kamida 5 metr masofani saqlaydigan tezlikda.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "textPl": "Jaki minimalny odstęp masz obowiązek zachować od jadącego przed Tobą pojazdu, jeżeli poruszasz się samochodem osobowym tą drogą z maksymalną dozwoloną prędkością?",
+    "textUz": "Agar bu yo'lda yengil avtomobilda maksimal ruxsat etilgan tezlikda harakatlansangiz, oldingizda ketayotgan transport vositasidan qanday minimal masofa saqlash majburiyati bor?",
+    "category": "Umumiy qoidalar",
+    "isPremium": true,
+    "mediaFileName": "mw18.JPG",
+    "mediaType": "photo",
+    "options": [
+      {
+        "textPl": "60 m.",
+        "textUz": "60 metr.",
+        "isCorrect": false
+      },
+      {
+        "textPl": "70 m.",
+        "textUz": "70 metr.",
+        "isCorrect": true
+      },
+      {
+        "textPl": "80 m.",
+        "textUz": "80 metr.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "textPl": "Jaki odstęp od poprzedzającego pojazdu należy zachować kierując samochodem osobowym tą drogą?",
+    "textUz": "Bu yo'lda yengil avtomobilni haydaganingizda oldingi transport vositasidan qanday masofa saqlash kerak?",
+    "category": "Umumiy qoidalar",
+    "isPremium": true,
+    "mediaFileName": "mw19.jpg",
+    "mediaType": "photo",
+    "options": [
+      {
+        "textPl": "Co najmniej 30 m, jeżeli poruszam się z prędkością 60 km/h.",
+        "textUz": "60 km/soat tezlikda harakatlansam, kamida 30 metr.",
+        "isCorrect": false
+      },
+      {
+        "textPl": "Niezbędny do uniknięcia zderzenia w razie hamowania lub zatrzymania się poprzedzającego pojazdu.",
+        "textUz": "Oldingi transport vositasi tormozlagan yoki to'xtagan taqdirda to'qnashuvning oldini olish uchun zarur masofa.",
+        "isCorrect": true
+      },
+      {
+        "textPl": "Dowolny, jeżeli pojazd poprzedzający jadący tym samym pasem ruchu porusza się ze stałą prędkością.",
+        "textUz": "Agar bir xil yo'lakdan ketayotgan oldingi transport vositasi doimiy tezlikda harakatlansa, ixtiyoriy.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "textPl": "Z jaką prędkością wolno poruszać się tak oznakowaną drogą jednojezdniową kierując samochodem osobowym?",
+    "textUz": "Shunday belgilangan bir yo'lakli yo'lda yengil avtomobilni qanday tezlikda haydash mumkin?",
+    "category": "Yo'l belgilari",
+    "isPremium": true,
+    "mediaFileName": "mw10.jpg",
+    "mediaType": "photo",
+    "options": [
+      {
+        "textPl": "140 km/h.",
+        "textUz": "140 km/soat.",
+        "isCorrect": false
+      },
+      {
+        "textPl": "100 km/h.",
+        "textUz": "100 km/soat.",
+        "isCorrect": true
+      },
+      {
+        "textPl": "120 km/h.",
+        "textUz": "120 km/soat.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "textPl": "Jaka jest dopuszczalna prędkość samochodu osobowego z przyczepą na tak oznakowanej drodze?",
+    "textUz": "Shunday belgilangan yo'lda tirkamali yengil avtomobilning ruxsat etilgan tezligi qancha?",
+    "category": "Yo'l belgilari",
+    "isPremium": true,
+    "mediaFileName": "mw16n.jpg",
+    "mediaType": "photo",
+    "options": [
+      {
+        "textPl": "70 km/h za znakiem zakazu.",
+        "textUz": "Taqiq belgisidan keyin 70 km/soat.",
+        "isCorrect": false
+      },
+      {
+        "textPl": "50 km/h.",
+        "textUz": "50 km/soat.",
+        "isCorrect": true
+      },
+      {
+        "textPl": "40 km/h.",
+        "textUz": "40 km/soat.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "textPl": "Z jaką maksymalną prędkością kierującemu samochodem osobowym z przyczepą wolno jechać po tej drodze poza obszarem zabudowanym?",
+    "textUz": "Aholi punktidan tashqarida bu yo'lda tirkamali yengil avtomobil haydovchisi qanday maksimal tezlikda yurishi mumkin?",
+    "category": "Umumiy qoidalar",
+    "isPremium": true,
+    "mediaFileName": "mw11n.jpg",
+    "mediaType": "photo",
+    "options": [
+      {
+        "textPl": "80 km/h.",
+        "textUz": "80 km/soat.",
+        "isCorrect": true
+      },
+      {
+        "textPl": "100 km/h.",
+        "textUz": "100 km/soat.",
+        "isCorrect": false
+      },
+      {
+        "textPl": "90 km/h.",
+        "textUz": "90 km/soat.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "textPl": "Z jaką prędkością wolno kontynuować jazdę samochodem osobowym za tymi znakami?",
+    "textUz": "Bu belgilardan keyin yengil avtomobilda haydashni qanday tezlikda davom ettirish mumkin?",
+    "category": "Yo'l belgilari",
+    "isPremium": true,
+    "mediaFileName": "mw22.jpg",
+    "mediaType": "photo",
+    "options": [
+      {
+        "textPl": "30 km/h do najbliższego skrzyżowania a następnie 50 km/h.",
+        "textUz": "Eng yaqin chorrahagacha 30 km/soat, so'ngra 50 km/soat.",
+        "isCorrect": false
+      },
+      {
+        "textPl": "30 km/h do tablicy z nazwą początku miejscowości a następnie 90 km/h.",
+        "textUz": "Aholi punkti boshlanishi nomi yozilgan taxtachagacha 30 km/soat, so'ngra 90 km/soat.",
+        "isCorrect": false
+      },
+      {
+        "textPl": "30 km/h na całym odcinku drogi biegnącej na obszarze zabudowanym.",
+        "textUz": "Aholi punkti orqali o'tuvchi yo'lning butun qismida 30 km/soat.",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "textPl": "Czy stan i ładunek pojazdu są czynnikami które należy uwzględniać podczas dobierania prędkości jazdy?",
+    "textUz": "Transport vositasining holati va yuki haydash tezligini tanlashda hisobga olinishi kerak bo'lgan omillarmi?",
+    "category": "Umumiy qoidalar",
+    "isPremium": true,
+    "mediaFileName": "3057pic-zt.jpg",
+    "mediaType": "photo",
+    "options": [
+      {
+        "textPl": "Tak",
+        "textUz": "Ha.",
+        "isCorrect": true
+      },
+      {
+        "textPl": "Tak, ale tylko jeżeli kierujesz samochodem ciężarowym.",
+        "textUz": "Ha, ammo faqat yuk mashinasini haydasangiz.",
+        "isCorrect": false
+      },
+      {
+        "textPl": "Tak, ale tylko w przypadku oblodzonej nawierzchni jezdni.",
+        "textUz": "Ha, ammo faqat yo'l yuzasi muzlagan bo'lsa.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "textPl": "Czy warunki atmosferyczne to czynnik, który należy uwzględniać podczas dobierania prędkości jazdy?",
+    "textUz": "Ob-havo sharoiti haydash tezligini tanlashda hisobga olinishi kerak bo'lgan omilmi?",
+    "category": "Umumiy qoidalar",
+    "isPremium": true,
+    "mediaFileName": "3058pic-zt.jpg",
+    "mediaType": "photo",
+    "options": [
+      {
+        "textPl": "Nie",
+        "textUz": "Yo'q.",
+        "isCorrect": false
+      },
+      {
+        "textPl": "Tak, ale tylko przy dużym natężeniu ruchu na drodze.",
+        "textUz": "Ha, ammo faqat yo'lda harakat zichligi katta bo'lganda.",
+        "isCorrect": false
+      },
+      {
+        "textPl": "Tak",
+        "textUz": "Ha.",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "textPl": "Jaki odstęp należy utrzymać od poprzedzającego pojazdu w tej sytuacji?",
+    "textUz": "Bu vaziyatda oldingi transport vositasidan qanday masofa saqlash kerak?",
+    "category": "Umumiy qoidalar",
+    "isPremium": true,
+    "mediaFileName": "3091pic-zt.jpg",
+    "mediaType": "photo",
+    "options": [
+      {
+        "textPl": "Odstęp niezbędny do uniknięcia zderzenia w razie hamowania lub zatrzymania się poprzedzającego pojazdu.",
+        "textUz": "Oldingi transport vositasi tormozlagan yoki to'xtagan taqdirda to'qnashuvning oldini olish uchun zarur masofa.",
+        "isCorrect": true
+      },
+      {
+        "textPl": "Nie mniejszy niż 10 metrów.",
+        "textUz": "Kamida 10 metr.",
+        "isCorrect": false
+      },
+      {
+        "textPl": "Nie większy niż 10 metrów.",
+        "textUz": "Ko'pi bilan 10 metr.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "textPl": "Kierując samochodem osobowym podczas przewożenia osoby niepełnosprawnej legitymującej się kartą parkingową powinieneś:",
+    "textUz": "To'xtash kartasiga ega nogiron shaxsni tashiyotganingizda yengil avtomobilni haydaganda quyidagilarni bajarishingiz kerak:",
+    "category": "To'xtash va parking",
+    "isPremium": true,
+    "mediaFileName": "image 005GN.jpg",
+    "mediaType": "photo",
+    "options": [
+      {
+        "textPl": "zawsze używać świateł mijania,",
+        "textUz": "har doim yaqin nur chiroqlaridan foydalanish,",
+        "isCorrect": false
+      },
+      {
+        "textPl": "stale zachowywać szczególną ostrożność,",
+        "textUz": "doimiy alohida ehtiyotkorlik ko'rsatish,",
+        "isCorrect": false
+      },
+      {
+        "textPl": "obserwować drogę i jej otoczenie, również w lusterkach pojazdu.",
+        "textUz": "yo'lni va uning atrofini, shu jumladan transport vositasi oynalarida ham kuzatish.",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "textPl": "W jakich warunkach masz prawo włączyć tylne światła przeciwmgłowe?",
+    "textUz": "Qanday sharoitda orqa tumanga qarshi chiroqlarni yoqish huquqingiz bor?",
+    "category": "Svetofor va yorug'lik",
+    "isPremium": true,
+    "mediaFileName": "2B217.jpg",
+    "mediaType": "photo",
+    "options": [
+      {
+        "textPl": "Gdy widoczność w obfitym deszczu jest ograniczona do 60 m.",
+        "textUz": "Kuchli yomg'irda ko'rinish 60 metrgacha cheklanganda.",
+        "isCorrect": false
+      },
+      {
+        "textPl": "Gdy widoczność w gęstej mgle jest ograniczona do 100 m.",
+        "textUz": "Qalin tumanda ko'rinish 100 metrgacha cheklanganda.",
+        "isCorrect": false
+      },
+      {
+        "textPl": "Gdy widoczność podczas opadów śniegu jest mniejsza niż 50 m.",
+        "textUz": "Qor yog'ganda ko'rinish 50 metrdan kam bo'lganda.",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "textPl": "Czy za widocznymi znakami wolno zwiększyć prędkość do 90 km/h?",
+    "textUz": "Ko'rinib turgan belgilardan keyin tezlikni 90 km/soatgacha oshirish mumkinmi?",
+    "category": "Yo'l belgilari",
+    "isPremium": true,
+    "mediaFileName": "Ba1_6010ztVpic.jpg",
+    "mediaType": "photo",
+    "options": [
+      {
+        "textPl": "Tak, ponieważ wjeżdżasz na drogę ekspresową.",
+        "textUz": "Ha, chunki tezyurar yo'lga kiryapsiz.",
+        "isCorrect": false
+      },
+      {
+        "textPl": "Tak, ponieważ opuszczasz obszar zabudowany.",
+        "textUz": "Ha, chunki aholi punktidan chiqyapsiz.",
+        "isCorrect": true
+      },
+      {
+        "textPl": "Nie, ponieważ tabliczka wskazuje, że na drogę ekspresową wjeżdżasz dopiero za 450 metrów.",
+        "textUz": "Yo'q, chunki taxtacha tezyurar yo'lga faqat 450 metrdan keyin kirishingizni ko'rsatadi.",
+        "isCorrect": false
+      }
+    ]
+  }
+]

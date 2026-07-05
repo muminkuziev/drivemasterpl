@@ -1,0 +1,82 @@
+[
+  {
+    "textPl": "Czy w tej sytuacji masz obowiązek zatrzymać pojazd na taki czas, aby zapewnić pieszym swobodne dojście do chodnika?",
+    "textUz": "Bu vaziyatda piyodalarga trotuarga erkin yetib borish imkonini berish uchun yetarli vaqt to'xtash majburiyati bormi?",
+    "category": "To'xtash va parking",
+    "isPremium": true,
+    "mediaFileName": "i7055_1.mp4",
+    "mediaType": "video",
+    "options": [
+      {
+        "textPl": "Tak",
+        "textUz": "Ha",
+        "isCorrect": true
+      },
+      {
+        "textPl": "Nie",
+        "textUz": "Yo'q",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "textPl": "Czy masz prawo ruszyć, gdy piesi wejdą na chodnik?",
+    "textUz": "Piyodalar trotuarga chiqqanda qo'zg'alish huquqingiz bormi?",
+    "category": "Umumiy qoidalar",
+    "isPremium": true,
+    "mediaFileName": "i7056_1.mp4",
+    "mediaType": "video",
+    "options": [
+      {
+        "textPl": "Tak",
+        "textUz": "Ha",
+        "isCorrect": true
+      },
+      {
+        "textPl": "Nie",
+        "textUz": "Yo'q",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "textPl": "Czy w tej sytuacji masz prawo zaparkować pojazd na chodniku po prawej stronie, w odległości 11 metrów od znaku oznaczającego przystanek?",
+    "textUz": "Bu vaziyatda bekat belgisidan 11 metr masofada, o'ng tomondagi trotuarga transport vositasini qo'yish huquqingiz bormi?",
+    "category": "To'xtash va parking",
+    "isPremium": true,
+    "mediaFileName": "i3997_1.mp4",
+    "mediaType": "video",
+    "options": [
+      {
+        "textPl": "Tak",
+        "textUz": "Ha",
+        "isCorrect": false
+      },
+      {
+        "textPl": "Nie",
+        "textUz": "Yo'q",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "textPl": "Czy widoczne oznakowanie ostrzega o przejeździe kolejowym z zaporami?",
+    "textUz": "Ko'rinib turgan belgilanish to'siqli temir yo'l o'tishi haqida ogohlantiradimi?",
+    "category": "Yo'l belgilari",
+    "isPremium": true,
+    "mediaFileName": "ZO-10-14_0003_Censored_1024x576.mp4",
+    "mediaType": "video",
+    "options": [
+      {
+        "textPl": "Tak",
+        "textUz": "Ha",
+        "isCorrect": true
+      },
+      {
+        "textPl": "Nie",
+        "textUz": "Yo'q",
+        "isCorrect": false
+      }
+    ]
+  }
+]

@@ -1,0 +1,30 @@
+[
+  {
+    "code": "TC-1",
+    "category": "traffic_controller",
+    "namePl": "Ręka podniesiona do góry",
+    "nameUz": "Yuqoriga ko'tarilgan qo'l",
+    "descriptionUz": "Signal tez orada o'zgarishini bildiradi (svetofordagi sariq rangga teng). Barcha yo'nalishlar uchun to'xtashga tayyorlanish kerak, agar allaqachon chorrahaga juda yaqin bo'lmasa."
+  },
+  {
+    "code": "TC-2",
+    "category": "traffic_controller",
+    "namePl": "Postawa bokiem do nadjeżdżających pojazdów",
+    "nameUz": "Yon tomoni bilan turgan holat",
+    "descriptionUz": "Harakatni boshqaruvchi shaxs kelayotgan transport vositalariga yon tomoni bilan turgan bo'lsa — bu chorrahaga yoki yo'l qismiga kirishga ruxsat beradi (svetofordagi yashil rangga teng). Piyodalar uchun ham yo'lga chiqishga ruxsat beriladi."
+  },
+  {
+    "code": "TC-3",
+    "category": "traffic_controller",
+    "namePl": "Postawa przodem lub tyłem do nadjeżdżających pojazdów",
+    "nameUz": "Old yoki orqa tomoni bilan turgan holat",
+    "descriptionUz": "Harakatni boshqaruvchi shaxs kelayotgan transport vositalariga old yoki orqa tomoni bilan turgan bo'lsa — chorrahaga kirish taqiqlanadi (svetofordagi qizil rangga teng)."
+  },
+  {
+    "code": "TC-4",
+    "category": "traffic_controller",
+    "namePl": "Ręka wyciągnięta poziomo",
+    "nameUz": "Gorizontal cho'zilgan qo'l",
+    "descriptionUz": "Qo'l harakat yo'nalishiga ko'ndalang holda gorizontal cho'zilgan bo'lsa — bu tomondan kirish taqiqlanganini bildiradi (qizil rangga teng)."
+  }
+]

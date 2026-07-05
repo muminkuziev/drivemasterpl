@@ -1,0 +1,9 @@
+[
+  { "code": "S-1", "actionUz": "Qizil — to'xtang, sariq — tayyorlaning va harakatlanmang, yashil — harakatlaning; sariq yonib turganda chorrahaga kirmang." },
+  { "code": "S-2", "actionUz": "Qizil fonda yashil strelka faqat strelka ko'rsatgan yo'nalishda harakatlanishga ruxsat beradi — avval to'xtab, keyin ehtiyotkorlik bilan strelka tomon o'ting." },
+  { "code": "S-3", "actionUz": "Faqat yonib turgan strelka yo'nalishida harakatlanish mumkin — boshqa yo'nalishlar shu vaqtda qizil bo'ladi." },
+  { "code": "S-4", "actionUz": "Svetofor har bir yo'lakka alohida tegishli — faqat o'zingiz turgan yo'lak ustidagi signalga rioya qiling." },
+  { "code": "S-5", "actionUz": "Piyodalar uchun: qizil odam — to'xtang, yashil odam — o'ting; yashil miltillasa, o'tishni boshlamang." },
+  { "code": "S-6", "actionUz": "Velosipedchilar uchun alohida svetofor — qizil velosiped belgisida to'xtang, yashilda o'ting." },
+  { "code": "S-7", "actionUz": "Bu svetofor maxsus yo'lak (avtobus/tramvay)dan chiqish uchun ruxsatni bildiradi — signalga qarab yo'lakdan chiqing." }
+]

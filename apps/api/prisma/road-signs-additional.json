@@ -1,0 +1,254 @@
+[
+  {
+    "code": "T-1",
+    "category": "additional",
+    "namePl": "Rzeczywista odległość znaku od miejsca niebezpiecznego",
+    "nameUz": "Belgining xavfli joydan haqiqiy masofasi",
+    "imageFileName": "additional-T-1.png"
+  },
+  {
+    "code": "T-1a",
+    "category": "additional",
+    "namePl": "Odległość znaku informacyjnego od początku (końca) drogi lub pasa ruchu",
+    "nameUz": "Axborot belgisining yo'l/yo'lak boshi yoki oxiridan masofasi",
+    "imageFileName": "additional-T-1a.png"
+  },
+  {
+    "code": "T-1b",
+    "category": "additional",
+    "namePl": "Długość tunelu lub odcinek drogi do końca tunelu",
+    "nameUz": "Tunnel uzunligi",
+    "imageFileName": "additional-T-1b.png"
+  },
+  {
+    "code": "T-2",
+    "category": "additional",
+    "namePl": "Długość odcinka drogi, na którym występuje niebezpieczeństwo",
+    "nameUz": "Xavf takrorlanadigan yo'l qismining uzunligi",
+    "imageFileName": "additional-T-2.png"
+  },
+  {
+    "code": "T-3",
+    "category": "additional",
+    "namePl": "Koniec zakresu obowiązywania znaku ostrzegawczego",
+    "nameUz": "Ogohlantiruvchi belgi amal qilish doirasining tugashi",
+    "imageFileName": "additional-T-3.png"
+  },
+  {
+    "code": "T-4",
+    "category": "additional",
+    "namePl": "Kierunek i odległość do miejsca niebezpiecznego",
+    "nameUz": "Xavfli joygacha yo'nalish va masofa",
+    "imageFileName": "additional-T-4.png"
+  },
+  {
+    "code": "T-5",
+    "category": "additional",
+    "namePl": "Rzeczywisty kształt skrzyżowania",
+    "nameUz": "Chorrahaning haqiqiy shakli",
+    "imageFileName": "additional-T-5.png"
+  },
+  {
+    "code": "T-6a",
+    "category": "additional",
+    "namePl": "Rzeczywisty przebieg drogi z pierwszeństwem przez skrzyżowanie",
+    "nameUz": "Ustuvor yo'lning chorraha orqali haqiqiy yo'nalishi",
+    "imageFileName": "additional-T-6a.png"
+  },
+  {
+    "code": "T-7",
+    "category": "additional",
+    "namePl": "Liczba niebezpiecznych zakrętów",
+    "nameUz": "Xavfli burilishlar soni",
+    "imageFileName": "additional-T-7.png"
+  },
+  {
+    "code": "T-8",
+    "category": "additional",
+    "namePl": "Odległość do zwężenia jezdni",
+    "nameUz": "Yo'l torayishigacha masofa",
+    "imageFileName": "additional-T-8.png"
+  },
+  {
+    "code": "T-9",
+    "category": "additional",
+    "namePl": "Wjazd na drogę z pierwszeństwem",
+    "nameUz": "Ustuvor yo'lga kirish",
+    "imageFileName": "additional-T-9.png"
+  },
+  {
+    "code": "T-10",
+    "category": "additional",
+    "namePl": "Rzeczywisty przebieg skrzyżowania o ruchu okrężnym",
+    "nameUz": "Aylanma harakatli chorrahaning haqiqiy shakli",
+    "imageFileName": "additional-T-10.png"
+  },
+  {
+    "code": "T-11",
+    "category": "additional",
+    "namePl": "Kierunek do miejscowości",
+    "nameUz": "Aholi punktigacha yo'nalish",
+    "imageFileName": "additional-T-11.png"
+  },
+  {
+    "code": "T-12",
+    "category": "additional",
+    "namePl": "Wskazanie liczby (np. dzieci na drodze)",
+    "nameUz": "Miqdor ko'rsatkichi (masalan, bolalar soni)",
+    "imageFileName": "additional-T-12.png"
+  },
+  {
+    "code": "T-13",
+    "category": "additional",
+    "namePl": "Zakres obowiązywania znaku zakazu (strefa)",
+    "nameUz": "Taqiq belgisi amal qilish zonasi",
+    "imageFileName": "additional-T-13.png"
+  },
+  {
+    "code": "T-14",
+    "category": "additional",
+    "namePl": "Szczególnie niebezpieczne miejsce na drodze",
+    "nameUz": "Alohida xavfli joy",
+    "imageFileName": "additional-T-14.png"
+  },
+  {
+    "code": "T-15",
+    "category": "additional",
+    "namePl": "Sposób działania sygnalizacji świetlnej",
+    "nameUz": "Svetofor ishlash tartibi",
+    "imageFileName": "additional-T-15.png"
+  },
+  {
+    "code": "T-16",
+    "category": "additional",
+    "namePl": "Miejsce postoju pojazdów uprzywilejowanych",
+    "nameUz": "Imtiyozli transport vositalari to'xtash joyi",
+    "imageFileName": "additional-T-16.png"
+  },
+  {
+    "code": "T-17",
+    "category": "additional",
+    "namePl": "Zakres obowiązywania znaku (odległość)",
+    "nameUz": "Belgi amal qilish masofasi",
+    "imageFileName": "additional-T-17.png"
+  },
+  {
+    "code": "T-18",
+    "category": "additional",
+    "namePl": "Nagła zmiana kierunku ruchu",
+    "nameUz": "Harakat yo'nalishining kutilmagan o'zgarishi",
+    "imageFileName": "additional-T-18.png"
+  },
+  {
+    "code": "T-19",
+    "category": "additional",
+    "namePl": "Rodzaj pojazdu, którego dotyczy znak",
+    "nameUz": "Belgi tegishli bo'lgan transport turi",
+    "imageFileName": "additional-T-19.png"
+  },
+  {
+    "code": "T-20",
+    "category": "additional",
+    "namePl": "Sposób obowiązywania znaku (np. dni robocze)",
+    "nameUz": "Belgi amal qilish tartibi (masalan, ish kunlari)",
+    "imageFileName": "additional-T-20.png"
+  },
+  {
+    "code": "T-21",
+    "category": "additional",
+    "namePl": "Odległość znaku od miejsca obowiązywania zakazu",
+    "nameUz": "Taqiq amal qiladigan joydan belgigacha masofa",
+    "imageFileName": "additional-T-21.png"
+  },
+  {
+    "code": "T-22",
+    "category": "additional",
+    "namePl": "Znak nie dotyczy rowerów jednośladowych",
+    "nameUz": "Belgi bir izli velosipedlarga tegishli emas",
+    "imageFileName": "additional-T-22.png"
+  },
+  {
+    "code": "T-23a",
+    "category": "additional",
+    "namePl": "Czas obowiązywania znaku (godziny/dni)",
+    "nameUz": "Belgi amal qilish vaqti (soat/kun)",
+    "imageFileName": "additional-T-23a.png"
+  },
+  {
+    "code": "T-24",
+    "category": "additional",
+    "namePl": "Rodzaj pojazdu (np. z przyczepą)",
+    "nameUz": "Belgi tegishli transport turi (masalan, tirkamali)",
+    "imageFileName": "additional-T-24.png"
+  },
+  {
+    "code": "T-25b",
+    "category": "additional",
+    "namePl": "Rodzaj pojazdu (odmiana)",
+    "nameUz": "Transport turi (variant)",
+    "imageFileName": "additional-T-25b.png"
+  },
+  {
+    "code": "T-26",
+    "category": "additional",
+    "namePl": "Liczba miejsc postojowych",
+    "nameUz": "To'xtash joylari soni",
+    "imageFileName": "additional-T-26.png"
+  },
+  {
+    "code": "T-27",
+    "category": "additional",
+    "namePl": "Kierunek dojazdu do miejsca postojowego",
+    "nameUz": "To'xtash joyiga yo'nalish",
+    "imageFileName": "additional-T-27.png"
+  },
+  {
+    "code": "T-28",
+    "category": "additional",
+    "namePl": "Pobierana jest opłata",
+    "nameUz": "Yo'l haqi olinadi",
+    "imageFileName": "additional-T-28.png"
+  },
+  {
+    "code": "T-29",
+    "category": "additional",
+    "namePl": "Miejsce przeznaczone dla pojazdu osoby niepełnosprawnej",
+    "nameUz": "Nogiron shaxs transport vositasi uchun joy",
+    "imageFileName": "additional-T-29.png"
+  },
+  {
+    "code": "T-30a",
+    "category": "additional",
+    "namePl": "Sposób ustawienia pojazdu względem krawędzi jezdni",
+    "nameUz": "Transport vositasini yo'l chetiga nisbatan qo'yish usuli",
+    "imageFileName": "additional-T-30a.png"
+  },
+  {
+    "code": "T-31a",
+    "category": "additional",
+    "namePl": "Sposób parkowania pojazdu",
+    "nameUz": "To'xtash usuli",
+    "imageFileName": "additional-T-31a.png"
+  },
+  {
+    "code": "T-32",
+    "category": "additional",
+    "namePl": "Zakres obowiązywania znaku informacyjnego",
+    "nameUz": "Axborot belgisi amal qilish doirasi",
+    "imageFileName": "additional-T-32.png"
+  },
+  {
+    "code": "T-33",
+    "category": "additional",
+    "namePl": "Rodzaj pojazdu wyłączonego spod zakazu",
+    "nameUz": "Taqiqdan ozod qilingan transport turi",
+    "imageFileName": "additional-T-33.png"
+  },
+  {
+    "code": "T-34",
+    "category": "additional",
+    "namePl": "Dodatkowa informacja o zakazie/nakazie",
+    "nameUz": "Taqiq/buyruq haqida qo'shimcha ma'lumot",
+    "imageFileName": "additional-T-34.png"
+  }
+]

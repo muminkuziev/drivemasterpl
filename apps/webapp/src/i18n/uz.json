@@ -1,0 +1,252 @@
+{
+  "common": {
+    "loading": "Yuklanmoqda...",
+    "start": "Boshlash",
+    "tryAgain": "Yana urinish",
+    "retry": "Qayta urinish",
+    "prev": "Oldingi",
+    "next": "Keyingi",
+    "waiting": "Kuting...",
+    "points": "ball",
+    "pointsShort": "b."
+  },
+  "splash": {
+    "tagline": "Intelligence in Motion",
+    "chooseLanguage": "Tilni tanlang"
+  },
+  "mainMenu": {
+    "tagline": "Prawo jazdy — o'zbek tilida",
+    "item": {
+      "theory": { "title": "Teoriya", "subtitle": "Matnli, rasmli, video darslik" },
+      "psych": { "title": "Psixologiya", "subtitle": "Ko'rik va mashq-testlar" },
+      "signs": { "title": "Yo'l belgilari", "subtitle": "323 ta rasmiy belgi" },
+      "roadmap": { "title": "Yo'l xaritasi", "subtitle": "Roadmap" },
+      "driver": { "title": "Haydovchi bo'limi", "subtitle": "Birinchi yordam, majburiy jihozlar" },
+      "violations": { "title": "Xatolar va jarimalar", "subtitle": "Rasmiy taryfikator" }
+    }
+  },
+  "signs": {
+    "title": "Yo'l belgilari",
+    "empty": "Bu toifada hozircha belgilar yo'q. Tez orada qo'shiladi.",
+    "category": {
+      "warning": "Ogohlantiruvchi belgilar",
+      "prohibition": "Ta'qiqlovchi belgilar",
+      "mandatory": "Buyruq beruvchi belgilar",
+      "information": "Axborot belgilar",
+      "additional": "Qo'shimcha belgilar",
+      "direction": "Yo'nalish va shahar belgilari",
+      "traffic_light": "Svetofor signallari",
+      "road_markings": "Yo'l chiziqlari",
+      "traffic_controller": "Harakatni boshqaruvchi shaxs",
+      "dashboard": "Mashina paneli indikatorlari"
+    }
+  },
+  "signDetail": {
+    "title": "Belgi tafsiloti",
+    "notFound": "Belgi topilmadi.",
+    "whatToDo": "Nima qilish kerak?"
+  },
+  "theoryMenu": {
+    "title": "Teoriya",
+    "type": {
+      "text": "Matnli darslik",
+      "photo": "Rasmli darslik",
+      "video": "Video darslik"
+    }
+  },
+  "categoryPicker": {
+    "mixed": "Aralash (barcha toifalar)"
+  },
+  "theoryQuiz": {
+    "empty": "Bu turdagi savollar hozircha yo'q."
+  },
+  "theoryCategory": {
+    "Umumiy qoidalar": "Umumiy qoidalar",
+    "Ustuvorlik qoidalari": "Ustuvorlik qoidalari",
+    "Yo'l belgilari": "Yo'l belgilari",
+    "Yo'lak va manevrlar": "Yo'lak va manevrlar",
+    "To'xtash va parking": "To'xtash va parking",
+    "O'zib o'tish": "O'zib o'tish",
+    "Svetofor va yorug'lik": "Svetofor va yorug'lik",
+    "Svetofor": "Svetofor",
+    "Yo'l harakati holatlari": "Yo'l harakati holatlari",
+    "To'xtash joylari": "To'xtash joylari",
+    "Tirkama va tortish": "Tirkama va tortish",
+    "Yoritish tizimi": "Yoritish tizimi",
+    "Ekologik qoidalar": "Ekologik qoidalar",
+    "Bolalarni tashish": "Bolalarni tashish",
+    "Texnik holat va nosozliklar": "Texnik holat va nosozliklar",
+    "Yuk va bagaj tashish": "Yuk va bagaj tashish",
+    "Hujjatlar va huquqiy javobgarlik": "Hujjatlar va huquqiy javobgarlik",
+    "Hujjatlar va texnik ko'rik": "Hujjatlar va texnik ko'rik",
+    "Ob-havo sharoitida haydash": "Ob-havo sharoitida haydash",
+    "Birinchi yordam": "Birinchi yordam",
+    "Tormoz va xavfsizlik tizimlari": "Tormoz va xavfsizlik tizimlari",
+    "Tezlik chegaralari": "Tezlik chegaralari",
+    "Xavfsiz masofa va manevrlar": "Xavfsiz masofa va manevrlar"
+  },
+  "psychMenu": {
+    "title": "Psixologiya",
+    "disclaimer": "⚠️ Oddiy <b>B toifa</b> guvohnomasi uchun psixologik ko'rik odatda shart emas — faqat professional haydovchilar (C/D), taksi, favqulodda transport va guvohnomasi bekor qilinganlar uchun majburiy. Quyidagi mashqlar — haqiqiy imtihon savollari emas, original psixomotor mashqlar.",
+    "exercise": {
+      "attention": "Diqqat mashqi",
+      "reaction": "Reaksiya tezligi",
+      "coordination": "Koordinatsiya mashqi",
+      "piorkowski": "Test Piórkowskiego",
+      "krzyzowy": "Test Krzyżowy",
+      "signal": "Test Sygnałów"
+    }
+  },
+  "reaction": {
+    "title": "Reaksiya tezligi",
+    "instructions": "Signal chiqqanda tezroq bosing. Erta bossangiz — qayta boshlash kerak bo'ladi.",
+    "pressNow": "BOSING!",
+    "tooEarly": "⏳ Juda erta bosdingiz! Signalni kuting.",
+    "resultLabel": "ball (reaksiya: {{ms}} ms)"
+  },
+  "attention": {
+    "title": "Diqqat mashqi",
+    "instructions": "Faqat {{color}} rangdagi doiralarni bosing ({{remaining}} ta qoldi)",
+    "resultLabel": "aniqlik ({{mistakes}} ta xato)",
+    "color": {
+      "red": "Qizil",
+      "green": "Yashil",
+      "blue": "Ko'k",
+      "yellow": "Sariq",
+      "purple": "Binafsha"
+    }
+  },
+  "coordination": {
+    "title": "Koordinatsiya mashqi",
+    "instructions": "Nuqtani chiziq bo'ylab suring, chiziqdan chiqmaslikka harakat qiling.",
+    "dragging": "Suring...",
+    "dragHint": "Boshlash uchun doirani ushlab suring",
+    "resultLabel": "ball ({{seconds}}s chiziqdan tashqarida)"
+  },
+  "piorkowski": {
+    "title": "Test Piórkowskiego",
+    "instructions": "Yonib turgan rangdagi zonaga tezroq bosing. {{rounds}} tur bo'ladi.",
+    "round": "Tur: {{round}}/{{total}}",
+    "avg": "O'rtacha: {{ms}} ms",
+    "errors": "Xato: {{count}}",
+    "resultLabel": "ball · o'rtacha {{ms}} ms · {{errors}} ta xato"
+  },
+  "krzyzowy": {
+    "title": "Test Krzyżowy",
+    "instructions": "Chap tomondagi rangga mos shaklni o'ng tomondan toping. Shaklga emas, rangga qarang!",
+    "round": "Tur: {{round}}/{{total}}",
+    "correct": "To'g'ri: {{count}}",
+    "findColor": "Bu rangni toping:",
+    "resultLabel": "ball · {{correct}}/{{total}} to'g'ri"
+  },
+  "signal": {
+    "title": "Test Sygnałów",
+    "instructions": "Rang yoki tovush signaliga mos tugmani bosing. Har turda vaqt kamayadi — bu stress testi.",
+    "round": "Tur: {{round}}/{{total}}",
+    "time": "Vaqt: {{ms}} ms",
+    "errors": "Xato: {{count}}",
+    "color": {
+      "red": "Qizil",
+      "yellow": "Sariq",
+      "green": "Yashil",
+      "sound": "🔊 Tovush"
+    },
+    "resultLabel": "ball · {{errors}} ta xato"
+  },
+  "roadmap": {
+    "title": "Yo'l xaritasi",
+    "step1": { "title": "Psixologik ko'rik", "note": "B toifa uchun odatda SHART EMAS", "desc": "Faqat professional (C/D), taksi, favqulodda transport haydovchilari yoki guvohnoma tiklanayotganlar uchun majburiy. Original mashq-testlar bilan tanishib chiqing." },
+    "step2": { "title": "Teoriya kursi", "desc": "WORD imtihoni uchun nazariy bilim. Ilovada 2000 dan ortiq savol — matnli, rasmli, video darslik va toifalar bo'yicha mashq." },
+    "step3": { "title": "Teoriya imtihoni", "desc": "Rasmiy WORD markazida kompyuterda topshiriladi. Tayyorgarlikni ilovadagi Teoriya bo'limida davom ettiring." },
+    "step4": { "title": "Praktika kursi", "desc": "Instruktor bilan mashina haydashni o'rganish bosqichi — bu ilova hozircha bu qismni qamrab olmaydi, instruktoringiz bilan kelishing." },
+    "step5": { "title": "Praktika imtihoni", "desc": "WORD markazida real yo'lda topshiriladi. Yo'l belgilari va harakat qoidalarini ilovada takrorlab boring." }
+  },
+  "profile": {
+    "title": "Profil",
+    "guest": "Mehmon",
+    "premium": "⭐ Premium",
+    "free": "Bepul foydalanuvchi",
+    "buyPremiumTitle": "Premium sotib olish",
+    "buyPremiumSubtitle": "77 zl — BLIK orqali",
+    "buyPremiumPhonePlaceholder": "Telefon raqamingiz",
+    "buyPremiumInstructions": "{{amount}} zlotni BLIK orqali {{phone}} raqamiga o'tkazing, so'ng shu yerga telefon raqamingizni kiritib yuboring. Admin tekshirib, premiumni yoqadi.",
+    "buyPremiumSubmit": "Yubordim",
+    "buyPremiumPending": "Ko'rib chiqilmoqda",
+    "buyPremiumPendingSubtitle": "To'lovingiz tasdiqlangach, premium avtomatik yoqiladi. Odatda tez orada ko'rib chiqiladi.",
+    "registeredOn": "Ro'yxatdan o'tgan sana: {{date}}",
+    "feedback": "Fikr va takliflar",
+    "language": "Til",
+    "terms": "Foydalanish shartlari",
+    "privacy": "Maxfiylik siyosati"
+  },
+  "driverMenu": {
+    "title": "Haydovchi bo'limi",
+    "item": {
+      "firstAid": "Avariya holatida birinchi yordam",
+      "equipment": "Majburiy jihozlar"
+    }
+  },
+  "firstAid": {
+    "title": "Avariya holatida birinchi yordam",
+    "numbersTitle": "Favqulodda raqamlar",
+    "number112": "Yagona qutqaruv xizmati (Yevropa bo'ylab)",
+    "number999": "Tez tibbiy yordam (Pogotowie ratunkowe)",
+    "number998": "O't o'chirish xizmati (Straż pożarna)",
+    "number997": "Politsiya (Policja)",
+    "step1": { "title": "1. O'zingiz va boshqalarni xavfsiz qiling", "text": "Avariya chiroqlarini yoqing. Mashinani iloji bo'lsa yo'l chetiga chiqaring. Ogohlantiruvchi uchburchakni qo'ying — aholi punktida kamida 50 metr, undan tashqarida kamida 100 metr masofada. Qorong'ida mashinadan tushsangiz, aks ranglar jilet kiying." },
+    "step2": { "title": "2. Qutqaruv xizmatiga qo'ng'iroq qiling", "text": "112 raqamiga qo'ng'iroq qiling (bepul, butun mamlakat bo'ylab ishlaydi). Jarohatlanish og'ir bo'lsa 999 (tez yordam) ga ham qo'ng'iroq qilishingiz mumkin." },
+    "step3": { "title": "3. Qo'ng'iroqda nima deyish kerak", "text": "Aniq manzil yoki yo'l raqami/kilometri, necha kishi jarohatlanganini, jarohat holatini (hushida/hushsiz, nafas olyaptimi) va o'z telefon raqamingizni ayting. Operator ruxsat berguncha liniyani uzmang." },
+    "step4": { "title": "4. Jarohatlanganga birinchi yordam", "text": "Hushsiz, lekin nafas olayotgan odamni orqa/bo'yin jarohati shubha qilinmasa yon (stabil) holatga o'tkazing. Qattiq qon ketishini toza mato bilan bosib to'xtating. Mashinadan tashqariga faqat yong'in yoki portlash xavfi bo'lsa chiqaring." },
+    "step5": { "title": "5. Politsiyani qachon albatta chaqirish kerak", "text": "Jarohatlanish yoki halok bo'lish holatida, katta moddiy zarar bo'lsa, tomonlar o'zaro kelisha olmasa yoki ishtirokchilardan birida alkogol/narkotik shubhasi bo'lsa — politsiya chaqirilishi shart." }
+  },
+  "equipment": {
+    "title": "Majburiy jihozlar",
+    "status": { "mandatory": "MAJBURIY", "conditional": "SHARTLI MAJBURIY", "recommended": "FAQAT TAVSIYA" },
+    "item1": { "title": "O't o'chirgich (gaśnica)", "text": "Har doim mashinada bo'lishi shart. Ishlatishga yaroqli, homologatsiyadan o'tgan va muddati o'tmagan bo'lishi, tez yetib boradigan joyda saqlanishi kerak.", "law": "Rozporządzenie Ministra Infrastruktury — pojazdlarning texnik shartlari to'g'risida" },
+    "item2": { "title": "Ogohlantiruvchi uchburchak (trójkąt ostrzegawczy)", "text": "Har doim mashinada bo'lishi shart. Homologatsiyadan o'tgan, to'liq (barcha qismlari bilan) bo'lishi kerak — avariya holatida yo'lga qo'yish uchun ishlatiladi.", "law": "Rozporządzenie Ministra Infrastruktury — pojazdlarning texnik shartlari to'g'risida" },
+    "item3": { "title": "Aks rangli jilet (kamizelka odblaskowa)", "text": "Mashinada saqlash shart emas. Lekin qorong'ida, aholi punktidan tashqarida mashinadan tushib yo'lda yoki yo'l chetida yursangiz — qonun bo'yicha siz \"piyoda\" hisoblanasiz va aks rangli element kiyish MAJBURIY bo'ladi.", "law": "Prawo o ruchu drogowym — piyodalarning aks rangli belgi taqishi to'g'risidagi qoida" },
+    "item4": { "title": "Aptechka (apteczka)", "text": "Hozircha (2026-yil holatiga ko'ra) yengil avtomobillar uchun qonunan majburiy emas — faqat tavsiya etiladi. Infrastruktura vazirligi buni kelajakda majburiy qilishni muhokama qilmoqda, shuning uchun qoida o'zgarishi mumkin.", "law": "Hozirgi holat — majburiylik kiritilmagan (o'zgarishi kuzatilmoqda)" },
+    "fineNote": "⚠️ Yo'l nazorati vaqtida majburiy jihoz yetishmasa — 20 dan 500 zlotygacha jarima qo'llanilishi mumkin."
+  },
+  "violations": {
+    "title": "Xatolar va jarimalar",
+    "intro": "Eng ko'p uchraydigan qoidabuzarliklar va rasmiy taryfikator (2026-yil holatiga ko'ra).",
+    "redLight": { "title": "Qizil svetoforda o'tish", "note": "Agar shu sabab avariya bo'lsa, jarima 1500 zł dan boshlanadi (500 + 1000 zł)." },
+    "phone": { "title": "Rulda telefon ushlab gaplashish", "note": "Svetoforda yoki tirbandlikda vaqtincha to'xtab turgan bo'lsangiz ham, haydovchi hisoblanasiz — jarima qo'llaniladi." },
+    "speed": { "title": "Tezlikni oshirish", "fine": "Jadvalga qarang", "note": "Pastdagi to'liq jadvalni ko'ring. 2026-yil 3-martdan aholi punktidan tashqarida ikki tomonlama yo'lda 50 km/soatdan ortiq oshirilsa, guvohnoma 3 oyga avtomatik to'xtatiladi." },
+    "pedestrian": { "title": "Piyodaga (o'tish joyida) yo'l bermaslik", "note": "Taryfikordagi eng yuqori ball — 15. 2 yil ichida qayta takrorlansa, jarima 3000 zł ga ko'tariladi." },
+    "speedTableTitle": "Tezlik oshirish — to'liq jadval",
+    "speedRow0": "10 km/soatgacha",
+    "speedRow1": "11–15 km/soat",
+    "speedRow2": "16–20 km/soat",
+    "speedRow3": "21–25 km/soat",
+    "speedRow4": "26–30 km/soat",
+    "speedRow5": "31–40 km/soat",
+    "speedRow6": "41–50 km/soat",
+    "speedRow7": "51–60 km/soat",
+    "speedRow8": "61–70 km/soat",
+    "speedRow9": "71 km/soat va undan ko'p",
+    "drunkDriving": {
+      "title": "🍺 Ichib haydash — bu oddiy mandat emas",
+      "intro": "Spirtli ichimlik ta'sirida haydash uchun politsiya joyida oddiy mandat bermaydi — ish har doim sudga boriladi, va daraja ikkiga bo'linadi:",
+      "tier1Title": "0.2‰ – 0.5‰ (\"ichimlik iste'mol qilingan holat\") — huquqbuzarlik",
+      "tier1Text": "2500–30 000 zł jarima, 6 oydan 3 yilgacha guvohnomadan mahrum qilish, 15 ball.",
+      "tier2Title": "0.5‰ dan yuqori (\"mastlik holati\") — jinoyat",
+      "tier2Text": "3 yilgacha ozodlikdan mahrum qilish, kamida 3 yil guvohnomadan mahrum qilish, 5000–60 000 zł pul jazosi. 1.5‰ dan yuqori bo'lsa yoki avariyaga sabab bo'lsa — mashina musodara qilinishi majburiy.",
+      "note": "2026-yil 3-martdan sinov muddatidagi (guvohnoma 1 yildan kam) haydovchilar uchun spirtli ichimlikka nol-tolerantlik joriy qilindi."
+    },
+    "pointsSystem": {
+      "title": "📊 Ball tizimi qanday ishlaydi",
+      "text": "Guvohnoma 1 yildan kam bo'lgan haydovchilar uchun limit — <b>20 ball</b>, tajribali haydovchilar uchun — <b>24 ball</b>. Limitdan oshsa, guvohnoma bekor qilinishi mumkin. Har bir ball jarima to'langan kundan boshlab <b>1 yil</b> o'tgach avtomatik o'chadi. 2026-yil iyun oyidan boshlab qizil svetofor va telefon kabi jiddiy buzilishlar uchun ballarni pullik kurs orqali kamaytirish endi mumkin emas."
+    },
+    "courtRights": {
+      "title": "⚖️ Mandatga rozi bo'lmasangiz — huquqingiz",
+      "text": "Politsiya taklif qilgan mandatni (jarimani) qabul qilish shart emas — rozi bo'lmasangiz, ishni sudga berish huquqingiz bor. Lekin sudda jarima yuqori bo'lishi mumkin (qonunda yuqori chegara yo'q, og'ir holatlarda 30 000 zł gacha) va sud xarajatlari ham sizga yuklanadi. Shuning uchun bu qarorni yaxshilab o'ylab qabul qiling."
+    }
+  },
+  "feedback": {
+    "title": "Fikr va takliflar",
+    "text": "Ilovada xato topsangiz, taklif yoki shikoyatingiz bo'lsa — to'g'ridan-to'g'ri asoschiga yozishingiz mumkin. Har bir xabar shaxsan ko'rib chiqiladi.",
+    "contactFounder": "Asoschi bilan bog'lanish"
+  }
+}

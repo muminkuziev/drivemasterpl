@@ -1,0 +1,2417 @@
+[
+  {
+    "id": "cmr6b9zbq00tmubt4n08voca4",
+    "textPl": "Kierujesz pojazdem osobowym z przyczepą, jadąc autostradą. Jakiej prędkości nie wolno Ci przekroczyć?",
+    "textUz": "Avtomagistralda tirkamali yengil transport vositasini haydayapsiz. Qanday tezlikni oshirib bo'lmaydi?",
+    "category": "Umumiy qoidalar",
+    "options": [
+      {
+        "id": "cmr6b9zbq00tnubt42xvp3nw1",
+        "textPl": "80 km/h.",
+        "textUz": "80 km/soat."
+      },
+      {
+        "id": "cmr6b9zbq00toubt40bua67lm",
+        "textPl": "100 km/h.",
+        "textUz": "100 km/soat."
+      },
+      {
+        "id": "cmr6b9zbq00tpubt41m8otwle",
+        "textPl": "90 km/h.",
+        "textUz": "90 km/soat."
+      }
+    ]
+  },
+  {
+    "id": "cmr6b9zbx00tqubt41lvb7oi1",
+    "textPl": "Z jaką dopuszczalną prędkością wolno Ci się poruszać kierując samochodem osobowym ciągnącym przyczepę lekką na autostradzie?",
+    "textUz": "Avtomagistralda yengil tirkamani tortayotgan yengil avtomobilni haydaganingizda qanday ruxsat etilgan tezlikda harakatlanish mumkin?",
+    "category": "Umumiy qoidalar",
+    "options": [
+      {
+        "id": "cmr6b9zbx00trubt4aphzj7gt",
+        "textPl": "80 km/h.",
+        "textUz": "80 km/soat."
+      },
+      {
+        "id": "cmr6b9zbx00tsubt4puzg77zw",
+        "textPl": "100 km/h.",
+        "textUz": "100 km/soat."
+      },
+      {
+        "id": "cmr6b9zbx00ttubt4irggns4e",
+        "textPl": "140 km/h.",
+        "textUz": "140 km/soat."
+      }
+    ]
+  },
+  {
+    "id": "cmr6b9zc500tuubt4c1jrynto",
+    "textPl": "Które z wymienionych uszkodzeń pasów bezpieczeństwa oznaczają bezwzględną konieczność wymiany pasów na nowe?",
+    "textUz": "Xavfsizlik kamarlarining quyidagi shikastlanishlaridan qaysi biri kamarlarni yangisiga almashtirish zaruriyatini bildiradi?",
+    "category": "Umumiy qoidalar",
+    "options": [
+      {
+        "id": "cmr6b9zc500tvubt4v3iorj3b",
+        "textPl": "Skręcenie lub zwinięcie pasów.",
+        "textUz": "Kamarlarning burama yoki o'ralib qolishi."
+      },
+      {
+        "id": "cmr6b9zc500twubt4bj44rp5b",
+        "textPl": "Przetarcia, przewężenia i naderwania taśmy pasów.",
+        "textUz": "Kamar tasmasining ishqalanishi, torayishi va yirtilishi."
+      },
+      {
+        "id": "cmr6b9zc500txubt4d6wt6cu5",
+        "textPl": "Trwałe zabrudzenia i plamy na taśmie pasów.",
+        "textUz": "Kamar tasmasidagi doimiy iflosliklar va dog'lar."
+      }
+    ]
+  },
+  {
+    "id": "cmr6bf4zz0000ubcwdcx7yjo4",
+    "textPl": "Którą z wymienionych części ciała ma chronić zagłówek fotela pojazdu?",
+    "textUz": "Transport vositasi o'rindig'ining bosh suyanchig'i tananing qaysi qismini himoya qilishi kerak?",
+    "category": "Umumiy qoidalar",
+    "options": [
+      {
+        "id": "cmr6bf5030001ubcwrmot0vcj",
+        "textPl": "Kręgosłup szyjny.",
+        "textUz": "Bo'yin umurtqasi."
+      },
+      {
+        "id": "cmr6bf5040002ubcwu28t9wjl",
+        "textPl": "Kość czołową.",
+        "textUz": "Peshona suyagi."
+      },
+      {
+        "id": "cmr6bf5040003ubcw73puf89q",
+        "textPl": "Kość potyliczną.",
+        "textUz": "Ensa suyagi."
+      }
+    ]
+  },
+  {
+    "id": "cmr6bf52z0004ubcww33blo8p",
+    "textPl": "Który z wymienionych czynników ma bezpośredni wpływ na drogę hamowania?",
+    "textUz": "Quyidagi omillardan qaysi biri tormozlash masofasiga bevosita ta'sir qiladi?",
+    "category": "Umumiy qoidalar",
+    "options": [
+      {
+        "id": "cmr6bf5300005ubcwynjj8hlw",
+        "textPl": "Prędkość jazdy.",
+        "textUz": "Harakat tezligi."
+      },
+      {
+        "id": "cmr6bf5300006ubcw4baayhmz",
+        "textPl": "Oznakowanie poziome.",
+        "textUz": "Gorizontal belgilash."
+      },
+      {
+        "id": "cmr6bf5300007ubcwqcq7h6ci",
+        "textPl": "Widoczność na drodze.",
+        "textUz": "Yo'ldagi ko'rinish."
+      }
+    ]
+  },
+  {
+    "id": "cmr6bf53a0008ubcwyr9sgrhb",
+    "textPl": "Który z wymienionych czynników ma bezpośredni wpływ na drogę hamowania?",
+    "textUz": "Quyidagi omillardan qaysi biri tormozlash masofasiga bevosita ta'sir qiladi?",
+    "category": "Umumiy qoidalar",
+    "options": [
+      {
+        "id": "cmr6bf53a0009ubcwyhyi6m5n",
+        "textPl": "Oznakowanie poziome.",
+        "textUz": "Gorizontal belgilash."
+      },
+      {
+        "id": "cmr6bf53a000aubcw91tr47j8",
+        "textPl": "Stan hamulców.",
+        "textUz": "Tormozlar holati."
+      },
+      {
+        "id": "cmr6bf53a000bubcwx60i9psg",
+        "textPl": "Oznakowanie pionowe.",
+        "textUz": "Vertikal belgilash."
+      }
+    ]
+  },
+  {
+    "id": "cmr6bf53i000cubcw93fi2pfu",
+    "textPl": "Jakie czynniki mają wpływ na łączny czas postrzegania i reakcji kierującego pojazdem?",
+    "textUz": "Haydovchining umumiy idrok etish va reaksiya vaqtiga qanday omillar ta'sir qiladi?",
+    "category": "Umumiy qoidalar",
+    "options": [
+      {
+        "id": "cmr6bf53j000eubcwfw621hki",
+        "textPl": "Widoczność na drodze, złożoność sytuacji drogowej.",
+        "textUz": "Yo'ldagi ko'rinish, yo'l vaziyatining murakkabligi."
+      },
+      {
+        "id": "cmr6bf53i000dubcwtpj0xvhl",
+        "textPl": "Stan opon.",
+        "textUz": "Shinalar holati."
+      },
+      {
+        "id": "cmr6bf53j000fubcwetuyomi1",
+        "textPl": "Dodatkowa masa pojazdu.",
+        "textUz": "Transport vositasining qo'shimcha massasi."
+      }
+    ]
+  },
+  {
+    "id": "cmr6bf53w000gubcwgr083x28",
+    "textPl": "Jaki odstęp musisz zachować wyprzedzając rower lub motorower?",
+    "textUz": "Velosiped yoki mopeddan o'zib o'tayotganda qanday masofa saqlashingiz kerak?",
+    "category": "O'zib o'tish",
+    "options": [
+      {
+        "id": "cmr6bf53w000hubcwhr75pa8x",
+        "textPl": "Nie mniejszy niż 1 metr.",
+        "textUz": "Kamida 1 metr."
+      },
+      {
+        "id": "cmr6bf53w000iubcwlfo048vd",
+        "textPl": "Nie mniejszy niż 0.5 metra.",
+        "textUz": "Kamida 0,5 metr."
+      },
+      {
+        "id": "cmr6bf53w000jubcwctakotyy",
+        "textPl": "Dowolny, ale bezpieczny.",
+        "textUz": "Ixtiyoriy, ammo xavfsiz."
+      }
+    ]
+  },
+  {
+    "id": "cmr6bf546000kubcw1zvt5dku",
+    "textPl": "Jaki odstęp od poprzedzającego pojazdu musisz utrzymać stojąc przed skrzyżowaniem i czekając na sygnał zielony?",
+    "textUz": "Chorraha oldida to'xtab yashil signalni kutayotganda oldingi transport vositasidan qanday masofa saqlashingiz kerak?",
+    "category": "Umumiy qoidalar",
+    "options": [
+      {
+        "id": "cmr6bf546000lubcwn7qt2d1d",
+        "textPl": "Minimalnie 0.5 m.",
+        "textUz": "Kamida 0,5 metr."
+      },
+      {
+        "id": "cmr6bf546000mubcwkyahx72a",
+        "textPl": "Bezpieczny odstęp.",
+        "textUz": "Xavfsiz masofa."
+      },
+      {
+        "id": "cmr6bf546000nubcw2z3o9xd3",
+        "textPl": "Maksymalnie 3 m, minimalnie 1m.",
+        "textUz": "Maksimal 3 metr, minimal 1 metr."
+      }
+    ]
+  },
+  {
+    "id": "cmr6bf55r000oubcw4z48x7sl",
+    "textPl": "Jaki odstęp od poprzedzającego pojazdu musisz utrzymać stojąc przed skrzyżowaniem i czekając na sygnał zielony?",
+    "textUz": "Chorraha oldida to'xtab yashil signalni kutayotganda oldingi transport vositasidan qanday masofa saqlashingiz kerak?",
+    "category": "Umumiy qoidalar",
+    "options": [
+      {
+        "id": "cmr6bf55s000pubcw0h0e78sz",
+        "textPl": "Minimalnie 1 m.",
+        "textUz": "Kamida 1 metr."
+      },
+      {
+        "id": "cmr6bf55s000qubcwjw86sqda",
+        "textPl": "Maksymalnie 10 m, minimalnie 1m.",
+        "textUz": "Maksimal 10 metr, minimal 1 metr."
+      },
+      {
+        "id": "cmr6bf55s000rubcws6eiav1e",
+        "textPl": "Bezpieczny odstęp.",
+        "textUz": "Xavfsiz masofa."
+      }
+    ]
+  },
+  {
+    "id": "cmr6bf563000subcwhgnrw7od",
+    "textPl": "Jaki odstęp musisz zachować od omijanej przeszkody?",
+    "textUz": "Aylanib o'tilayotgan to'siqdan qanday masofa saqlashingiz kerak?",
+    "category": "Umumiy qoidalar",
+    "options": [
+      {
+        "id": "cmr6bf563000tubcw8pqq9qo2",
+        "textPl": "1 m.",
+        "textUz": "1 metr."
+      },
+      {
+        "id": "cmr6bf563000uubcw89873pdg",
+        "textPl": "Bezpieczny.",
+        "textUz": "Xavfsiz."
+      },
+      {
+        "id": "cmr6bf563000vubcw2uiu8dfr",
+        "textPl": "1.5 m.",
+        "textUz": "1,5 metr."
+      }
+    ]
+  },
+  {
+    "id": "cmr6bf56c000wubcwca7rb53q",
+    "textPl": "Jaki odstęp należy zachować podczas wymijania?",
+    "textUz": "Ayrilib o'tishda qanday masofa saqlash kerak?",
+    "category": "Umumiy qoidalar",
+    "options": [
+      {
+        "id": "cmr6bf56c000xubcw0c5wswfp",
+        "textPl": "Co najmniej 1 metr.",
+        "textUz": "Kamida 1 metr."
+      },
+      {
+        "id": "cmr6bf56c000yubcw3216wd4b",
+        "textPl": "Co najmniej 2 metry.",
+        "textUz": "Kamida 2 metr."
+      },
+      {
+        "id": "cmr6bf56c000zubcwfiosx2cr",
+        "textPl": "Bezpieczny.",
+        "textUz": "Xavfsiz."
+      }
+    ]
+  },
+  {
+    "id": "cmr6bf56s0010ubcwh0ht4kud",
+    "textPl": "Który z wymienionych elementów wyposażenia lub budowy pojazdu ma istotny wpływ na bezpieczeństwo podczas hamowania?",
+    "textUz": "Quyidagi jihozlash yoki qurilma elementlaridan qaysi biri tormozlash xavfsizligiga muhim ta'sir qiladi?",
+    "category": "Umumiy qoidalar",
+    "options": [
+      {
+        "id": "cmr6bf56s0011ubcwivn4vj58",
+        "textPl": "System AWS.",
+        "textUz": "AWS tizimi."
+      },
+      {
+        "id": "cmr6bf56s0012ubcwaeu5ckn0",
+        "textPl": "Tempomat.",
+        "textUz": "Kruiz nazorati."
+      },
+      {
+        "id": "cmr6bf56s0013ubcw2llqp0uv",
+        "textPl": "Układ ABS.",
+        "textUz": "ABS tizimi."
+      }
+    ]
+  },
+  {
+    "id": "cmr6bf5740014ubcwc6m42aia",
+    "textPl": "Jak zmienia się droga hamowania pojazdu zależnie od wzrostu prędkości?",
+    "textUz": "Transport vositasining tormozlash masofasi tezlik oshishiga qarab qanday o'zgaradi?",
+    "category": "Umumiy qoidalar",
+    "options": [
+      {
+        "id": "cmr6bf5740015ubcw1yquhbh5",
+        "textPl": "Droga hamowania wydłuża się wraz ze wzrostem prędkości.",
+        "textUz": "Tezlik oshgani sari tormozlash masofasi uzayadi."
+      },
+      {
+        "id": "cmr6bf5740016ubcwt6ibv60d",
+        "textPl": "Droga hamowania ulega skróceniu wraz ze wzrostem prędkości.",
+        "textUz": "Tezlik oshgani sari tormozlash masofasi qisqaradi."
+      },
+      {
+        "id": "cmr6bf5740017ubcwm3um3tlx",
+        "textPl": "Prędkość jazdy nie ma wpływu na drogę hamowania.",
+        "textUz": "Harakat tezligi tormozlash masofasiga ta'sir qilmaydi."
+      }
+    ]
+  },
+  {
+    "id": "cmr6bf57e0018ubcwxbw24b38",
+    "textPl": "Na jakie czynniki i okoliczności musisz zwrócić uwagę dobierając bezpieczną prędkość jazdy do panujących warunków drogowych?",
+    "textUz": "Mavjud yo'l sharoitiga mos xavfsiz haydash tezligini tanlashda qanday omillar va holatlarga e'tibor berish kerak?",
+    "category": "Umumiy qoidalar",
+    "options": [
+      {
+        "id": "cmr6bf57e0019ubcw0cdc5yyu",
+        "textPl": "Tylko na znaki zakazu.",
+        "textUz": "Faqat taqiq belgilariga."
+      },
+      {
+        "id": "cmr6bf57e001aubcwzsgzi55k",
+        "textPl": "Rodzaj nawierzchni oraz warunki panujące na drodze.",
+        "textUz": "Yo'l qoplamasi turi va yo'ldagi mavjud sharoitlarga."
+      },
+      {
+        "id": "cmr6bf57e001bubcw6q86t0r1",
+        "textPl": "Tylko na prędkość jazdy innych uczestników ruchu.",
+        "textUz": "Faqat boshqa yo'l harakati ishtirokchilarining tezligiga."
+      }
+    ]
+  },
+  {
+    "id": "cmr6bf57q001cubcw8r0ickvl",
+    "textPl": "Co należy zrobić po stwierdzeniu niewłaściwego ciśnienia oleju silnikowego?",
+    "textUz": "Dvigatel moyi bosimi noto'g'ri ekanligi aniqlanganda nima qilish kerak?",
+    "category": "Umumiy qoidalar",
+    "options": [
+      {
+        "id": "cmr6bf57q001dubcwoigca2hn",
+        "textPl": "Uzupełnić braki dowolnym olejem.",
+        "textUz": "Yetishmovchilikni ixtiyoriy moy bilan to'ldirish."
+      },
+      {
+        "id": "cmr6bf57q001eubcwm09yisfk",
+        "textPl": "Sprawdzić poziom oleju i ewentualnie uzupełnić braki.",
+        "textUz": "Moy darajasini tekshirish va zarur bo'lsa to'ldirish."
+      },
+      {
+        "id": "cmr6bf57q001fubcwpasi3kra",
+        "textPl": "Zawsze włączyć światła awaryjne.",
+        "textUz": "Har doim avariya chiroqlarini yoqish."
+      }
+    ]
+  },
+  {
+    "id": "cmr6bf580001gubcw2hr4arlv",
+    "textPl": "Która z widocznych na ilustracji lampek kontrolnych informuje o włączonych światłach mijania?",
+    "textUz": "Rasmda ko'rinib turgan nazorat chiroqlaridan qaysi biri yaqin nur chiroqlari yoqilganligi haqida xabar beradi?",
+    "category": "Svetofor va yorug'lik",
+    "options": [
+      {
+        "id": "cmr6bf580001hubcwn12ip3wd",
+        "textPl": "A.",
+        "textUz": "A."
+      },
+      {
+        "id": "cmr6bf580001iubcw3iopryvm",
+        "textPl": "B.",
+        "textUz": "B."
+      },
+      {
+        "id": "cmr6bf580001jubcw0zltitw5",
+        "textPl": "C.",
+        "textUz": "C."
+      }
+    ]
+  },
+  {
+    "id": "cmr6bf58a001kubcwuaru52md",
+    "textPl": "Która z widocznych na ilustracji lampek kontrolnych informuje o włączonych kierunkowskazach?",
+    "textUz": "Rasmda ko'rinib turgan nazorat chiroqlaridan qaysi biri burilish chiroqlari yoqilganligi haqida xabar beradi?",
+    "category": "Umumiy qoidalar",
+    "options": [
+      {
+        "id": "cmr6bf58b001lubcwocknp55m",
+        "textPl": "A.",
+        "textUz": "A."
+      },
+      {
+        "id": "cmr6bf58b001mubcwz0hcyjns",
+        "textPl": "B.",
+        "textUz": "B."
+      },
+      {
+        "id": "cmr6bf58b001nubcwio0oiiey",
+        "textPl": "C.",
+        "textUz": "C."
+      }
+    ]
+  },
+  {
+    "id": "cmr6bf58p001oubcwmv92a8wt",
+    "textPl": "Która z widocznych na ilustracji lampek kontrolnych informuje o włączonych światłach pozycyjnych?",
+    "textUz": "Rasmda ko'rinib turgan nazorat chiroqlaridan qaysi biri gabarit chiroqlari yoqilganligi haqida xabar beradi?",
+    "category": "Svetofor va yorug'lik",
+    "options": [
+      {
+        "id": "cmr6bf58p001pubcwnt4vho8v",
+        "textPl": "A.",
+        "textUz": "A."
+      },
+      {
+        "id": "cmr6bf58p001qubcw7v61f42l",
+        "textPl": "B.",
+        "textUz": "B."
+      },
+      {
+        "id": "cmr6bf58p001rubcwuljexq37",
+        "textPl": "C.",
+        "textUz": "C."
+      }
+    ]
+  },
+  {
+    "id": "cmr6bf591001subcwfvninxkg",
+    "textPl": "Która z widocznych na ilustracji lampek kontrolnych dotyczy przednich świateł przeciwmgłowych?",
+    "textUz": "Rasmda ko'rinib turgan nazorat chiroqlaridan qaysi biri old tumanga qarshi chiroqlarga tegishli?",
+    "category": "Umumiy qoidalar",
+    "options": [
+      {
+        "id": "cmr6bf591001tubcwhlo2xx2t",
+        "textPl": "A.",
+        "textUz": "A."
+      },
+      {
+        "id": "cmr6bf591001uubcwrpzg9862",
+        "textPl": "B.",
+        "textUz": "B."
+      },
+      {
+        "id": "cmr6bf591001vubcwsz8e0pay",
+        "textPl": "C.",
+        "textUz": "C."
+      }
+    ]
+  },
+  {
+    "id": "cmr6bf59c001wubcwajyul8rz",
+    "textPl": "Która z widocznych na ilustracji lampek kontrolnych informuje o włączonych kierunkowskazach?",
+    "textUz": "Rasmda ko'rinib turgan nazorat chiroqlaridan qaysi biri burilish chiroqlari yoqilganligi haqida xabar beradi?",
+    "category": "Umumiy qoidalar",
+    "options": [
+      {
+        "id": "cmr6bf59c001xubcw32wkqdqy",
+        "textPl": "A.",
+        "textUz": "A."
+      },
+      {
+        "id": "cmr6bf59c001yubcwi1hj5n2c",
+        "textPl": "B.",
+        "textUz": "B."
+      },
+      {
+        "id": "cmr6bf59c001zubcwjcdk6zxb",
+        "textPl": "C.",
+        "textUz": "C."
+      }
+    ]
+  },
+  {
+    "id": "cmr6bf59s0020ubcwm1e6539r",
+    "textPl": "Która z widocznych na ilustracji lampek kontrolnych informuje o włączonych tylnych światłach przeciwmgłowych?",
+    "textUz": "Rasmda ko'rinib turgan nazorat chiroqlaridan qaysi biri orqa tumanga qarshi chiroqlari yoqilganligi haqida xabar beradi?",
+    "category": "Svetofor va yorug'lik",
+    "options": [
+      {
+        "id": "cmr6bf59s0021ubcw7z7g9ple",
+        "textPl": "A.",
+        "textUz": "A."
+      },
+      {
+        "id": "cmr6bf59s0022ubcwukd9zwox",
+        "textPl": "B.",
+        "textUz": "B."
+      },
+      {
+        "id": "cmr6bf59s0023ubcwcpctmyms",
+        "textPl": "C.",
+        "textUz": "C."
+      }
+    ]
+  },
+  {
+    "id": "cmr6bf5a70024ubcw946cvzyu",
+    "textPl": "Która z widocznych na ilustracji lampek kontrolnych informuje o włączonych światłach drogowych?",
+    "textUz": "Rasmda ko'rinib turgan nazorat chiroqlaridan qaysi biri uzoq nur chiroqlari yoqilganligi haqida xabar beradi?",
+    "category": "Svetofor va yorug'lik",
+    "options": [
+      {
+        "id": "cmr6bf5a70025ubcwaiep86wv",
+        "textPl": "A.",
+        "textUz": "A."
+      },
+      {
+        "id": "cmr6bf5a70026ubcw1ees50jz",
+        "textPl": "B.",
+        "textUz": "B."
+      },
+      {
+        "id": "cmr6bf5a70027ubcwet3jg92v",
+        "textPl": "C.",
+        "textUz": "C."
+      }
+    ]
+  },
+  {
+    "id": "cmr6bf5ai0028ubcwjllo8mwf",
+    "textPl": "Która z widocznych na ilustracji lampek kontrolnych sygnalizuje niezapięte pasy bezpieczeństwa?",
+    "textUz": "Rasmda ko'rinib turgan nazorat chiroqlaridan qaysi biri xavfsizlik kamari taqilmaganligini bildiradi?",
+    "category": "Umumiy qoidalar",
+    "options": [
+      {
+        "id": "cmr6bf5ai0029ubcwi7ohowor",
+        "textPl": "A.",
+        "textUz": "A."
+      },
+      {
+        "id": "cmr6bf5ai002aubcw0tnjq5hm",
+        "textPl": "B.",
+        "textUz": "B."
+      },
+      {
+        "id": "cmr6bf5ai002bubcwqu2ura54",
+        "textPl": "C.",
+        "textUz": "C."
+      }
+    ]
+  },
+  {
+    "id": "cmr6bf5av002cubcwd3rypmnj",
+    "textPl": "Po zapaleniu się której z widocznych na ilustracji lampek kontrolnych należy się niezwłocznie zatrzymać i usunąć usterkę?",
+    "textUz": "Rasmda ko'rinib turgan nazorat chiroqlaridan qaysi biri yonganda darhol to'xtab, nosozlikni bartaraf etish kerak?",
+    "category": "To'xtash va parking",
+    "options": [
+      {
+        "id": "cmr6bf5aw002dubcwusy8wsks",
+        "textPl": "A.",
+        "textUz": "A."
+      },
+      {
+        "id": "cmr6bf5aw002eubcwgoo103qf",
+        "textPl": "B.",
+        "textUz": "B."
+      },
+      {
+        "id": "cmr6bf5aw002fubcwcl6vy5ug",
+        "textPl": "C.",
+        "textUz": "C."
+      }
+    ]
+  },
+  {
+    "id": "cmr6bf5b8002gubcwiltie8dq",
+    "textPl": "Która z widocznych na ilustracji lampek kontrolnych informuje o włączonym ogrzewaniu tylnej szyby?",
+    "textUz": "Rasmda ko'rinib turgan nazorat chiroqlaridan qaysi biri orqa oyna isitgichi yoqilganligi haqida xabar beradi?",
+    "category": "Umumiy qoidalar",
+    "options": [
+      {
+        "id": "cmr6bf5b8002hubcwx1d49lw4",
+        "textPl": "A.",
+        "textUz": "A."
+      },
+      {
+        "id": "cmr6bf5b8002iubcwxhwdgkyd",
+        "textPl": "B.",
+        "textUz": "B."
+      },
+      {
+        "id": "cmr6bf5b8002jubcwp5d4j98f",
+        "textPl": "C.",
+        "textUz": "C."
+      }
+    ]
+  },
+  {
+    "id": "cmr6bf5bk002kubcwrgbsic5q",
+    "textPl": "Którą z podanych wielkości należy uwzględnić, ustalając odstęp od poprzedzającego pojazdu?",
+    "textUz": "Oldingi transport vositasidan masofani belgilashda quyidagi kattaliklardan qaysi birini hisobga olish kerak?",
+    "category": "Umumiy qoidalar",
+    "options": [
+      {
+        "id": "cmr6bf5bk002lubcwncbnlw8p",
+        "textPl": "Prędkość pojazdów.",
+        "textUz": "Transport vositalari tezligi."
+      },
+      {
+        "id": "cmr6bf5bk002mubcwwy4uec4l",
+        "textPl": "Długość pojazdów.",
+        "textUz": "Transport vositalari uzunligi."
+      },
+      {
+        "id": "cmr6bf5bk002nubcw1oln2atp",
+        "textPl": "Szerokość pojazdów.",
+        "textUz": "Transport vositalari kengligi."
+      }
+    ]
+  },
+  {
+    "id": "cmr6bf5bv002oubcwu43yj0v9",
+    "textPl": "Czy jako kierujący, możesz oddalić się od pojazdu z pracującym silnikiem?",
+    "textUz": "Haydovchi sifatida dvigateli ishlab turgan transport vositasidan uzoqlashishingiz mumkinmi?",
+    "category": "Umumiy qoidalar",
+    "options": [
+      {
+        "id": "cmr6bf5bv002pubcwmxhmip1n",
+        "textPl": "Tak.",
+        "textUz": "Ha."
+      },
+      {
+        "id": "cmr6bf5bv002qubcwhhetwtpf",
+        "textPl": "Tak, tylko do 1 minuty.",
+        "textUz": "Ha, faqat 1 daqiqagacha."
+      },
+      {
+        "id": "cmr6bf5bv002rubcw26t7yihd",
+        "textPl": "Nie.",
+        "textUz": "Yo'q."
+      }
+    ]
+  },
+  {
+    "id": "cmr6bf5c6002subcwianev6ab",
+    "textPl": "Czy na tej drodze jest ustalona maksymalna prędkość, z jaką może jechać samochód osobowy?",
+    "textUz": "Bu yo'lda yengil avtomobil yura oladigan maksimal tezlik belgilanganmi?",
+    "category": "Umumiy qoidalar",
+    "options": [
+      {
+        "id": "cmr6bf5c6002tubcwd1x6s13v",
+        "textPl": "Nie.",
+        "textUz": "Yo'q."
+      },
+      {
+        "id": "cmr6bf5c6002uubcw4gcnj3de",
+        "textPl": "Tak, 130 km/h.",
+        "textUz": "Ha, 130 km/soat."
+      },
+      {
+        "id": "cmr6bf5c6002vubcwqc859e02",
+        "textPl": "Tak, 140 km/h.",
+        "textUz": "Ha, 140 km/soat."
+      }
+    ]
+  },
+  {
+    "id": "cmr6bf5ci002wubcwdjxmuk3e",
+    "textPl": "Czy przepisy ustawy Prawo o ruchu drogowym dopuszczają możliwość oddalenia się od pojazdu, którego silnik jest w ruchu?",
+    "textUz": "Yo'l harakati to'g'risidagi qonun qoidalari dvigateli ishlab turgan transport vositasidan uzoqlashishga ruxsat beradimi?",
+    "category": "Umumiy qoidalar",
+    "options": [
+      {
+        "id": "cmr6bf5ci002xubcwbd9pi7j6",
+        "textPl": "Tak, ale tylko do 15 metrów od pojazdu.",
+        "textUz": "Ha, ammo faqat transport vositasidan 15 metrgacha."
+      },
+      {
+        "id": "cmr6bf5ci002yubcwzgqan041",
+        "textPl": "Nie.",
+        "textUz": "Yo'q."
+      },
+      {
+        "id": "cmr6bf5ci002zubcw6qdny2cy",
+        "textPl": "Tak, ale tylko do 5 metrów od pojazdu.",
+        "textUz": "Ha, ammo faqat transport vositasidan 5 metrgacha."
+      }
+    ]
+  },
+  {
+    "id": "cmr6bf5cs0030ubcwtodxpd2d",
+    "textPl": "Czy stan techniczny pojazdu jest czynnikiem, który powinieneś uwzględniać podczas dobierania prędkości jazdy na drodze?",
+    "textUz": "Transport vositasining texnik holati yo'lda haydash tezligini tanlashda hisobga olishingiz kerak bo'lgan omilmi?",
+    "category": "Umumiy qoidalar",
+    "options": [
+      {
+        "id": "cmr6bf5cs0031ubcwdqxqi7tr",
+        "textPl": "Tak.",
+        "textUz": "Ha."
+      },
+      {
+        "id": "cmr6bf5cs0032ubcwfcft50x6",
+        "textPl": "Tak, ale tylko podczas jazdy w terenie zabudowanym.",
+        "textUz": "Ha, ammo faqat aholi punktida yurganda."
+      },
+      {
+        "id": "cmr6bf5ct0033ubcwknafrmh7",
+        "textPl": "Tak, ale tylko poza terenem zabudowanym.",
+        "textUz": "Ha, ammo faqat aholi punktidan tashqarida."
+      }
+    ]
+  },
+  {
+    "id": "cmr6bf5d30034ubcwxwksffu0",
+    "textPl": "Czego nie możesz robić uczestnicząc w wypadku, w którym są zabici?",
+    "textUz": "O'lganlar bo'lgan hodisada ishtirok etganingizda nima qila olmaysiz?",
+    "category": "Umumiy qoidalar",
+    "options": [
+      {
+        "id": "cmr6bf5d30035ubcwufexttde",
+        "textPl": "Dzwonić po straż pożarną.",
+        "textUz": "O't o'chirish xizmatiga qo'ng'iroq qilish."
+      },
+      {
+        "id": "cmr6bf5d30036ubcwrfr2p3ai",
+        "textPl": "Udzielać pierwszej pomocy.",
+        "textUz": "Birinchi tibbiy yordam ko'rsatish."
+      },
+      {
+        "id": "cmr6bf5d30037ubcwqtkd2g2v",
+        "textPl": "Przestawiać pojazdu na pobocze drogi.",
+        "textUz": "Transport vositasini yo'l chetiga surish."
+      }
+    ]
+  },
+  {
+    "id": "cmr6bf5df0038ubcwdvo48oat",
+    "textPl": "Jakie jest przeznaczenie trójkąta, który stanowi obowiązkowe wyposażenie samochodu osobowego?",
+    "textUz": "Yengil avtomobilning majburiy jihozi bo'lgan uchburchakning vazifasi nima?",
+    "category": "Umumiy qoidalar",
+    "options": [
+      {
+        "id": "cmr6bf5df0039ubcwkfxnzb9g",
+        "textPl": "Oznaczanie ładunku na bagażniku dachowym pojazdu.",
+        "textUz": "Transport vositasining tom bagajidagi yukni belgilash."
+      },
+      {
+        "id": "cmr6bf5df003aubcwqz4zswtz",
+        "textPl": "Ostrzeganie o unieruchomieniu pojazdu na drodze z powodu awarii.",
+        "textUz": "Avariya sababli transport vositasining yo'lda to'xtab qolganligi haqida ogohlantirish."
+      },
+      {
+        "id": "cmr6bf5df003bubcw6ns1sqjm",
+        "textPl": "Oznaczanie niesprawnych tylnych świateł pozycyjnych poruszającego się pojazdu.",
+        "textUz": "Harakatlanayotgan transport vositasining ishlamayotgan orqa gabarit chiroqlarini belgilash."
+      }
+    ]
+  },
+  {
+    "id": "cmr6bf5do003cubcwdjhyakyc",
+    "textPl": "Z jakim układem samochodu osobowego współpracuje system przeciwblokujący \"ABS\"?",
+    "textUz": "Bloklanishga qarshi \"ABS\" tizimi yengil avtomobilning qaysi tizimi bilan hamkorlikda ishlaydi?",
+    "category": "Umumiy qoidalar",
+    "options": [
+      {
+        "id": "cmr6bf5do003dubcwncsfpa4d",
+        "textPl": "Zawieszenia.",
+        "textUz": "Osma tizimi."
+      },
+      {
+        "id": "cmr6bf5do003eubcwl7ji5pv0",
+        "textPl": "Hamulcowym.",
+        "textUz": "Tormoz tizimi."
+      },
+      {
+        "id": "cmr6bf5do003fubcwln4j85ds",
+        "textPl": "Kierowniczym.",
+        "textUz": "Rul boshqaruvi tizimi."
+      }
+    ]
+  },
+  {
+    "id": "cmr6bf5dy003gubcwb6v8k26o",
+    "textPl": "Jaki odstęp należy zachować wyprzedzając motocyklistę?",
+    "textUz": "Mototsiklchidan o'zib o'tayotganda qanday masofa saqlash kerak?",
+    "category": "O'zib o'tish",
+    "options": [
+      {
+        "id": "cmr6bf5dz003hubcwkbjmjvri",
+        "textPl": "Bezpieczny, mniejszy niż 1 metr.",
+        "textUz": "Xavfsiz, 1 metrdan kam."
+      },
+      {
+        "id": "cmr6bf5dz003iubcw4w6aa49x",
+        "textPl": "Każdy odstęp, ale bezpieczny.",
+        "textUz": "Har qanday masofa, ammo xavfsiz."
+      },
+      {
+        "id": "cmr6bf5dz003jubcwc4cgrcmk",
+        "textPl": "Nie mniejszy niż 1 metr.",
+        "textUz": "Kamida 1 metr."
+      }
+    ]
+  },
+  {
+    "id": "cmr6bf5e8003kubcw6j90of3t",
+    "textPl": "Jakiej metody hamowania użyjesz, w przypadku awarii ABS-u na śliskiej nawierzchni?",
+    "textUz": "Silliq yo'l yuzasida ABS ishdan chiqqan taqdirda qanday tormozlash usulidan foydalanasiz?",
+    "category": "Umumiy qoidalar",
+    "options": [
+      {
+        "id": "cmr6bf5e8003lubcw3s8wl8u2",
+        "textPl": "Hamowania pulsacyjnego.",
+        "textUz": "Impulsli tormozlash."
+      },
+      {
+        "id": "cmr6bf5e8003mubcwn8fuly53",
+        "textPl": "Wciśnięcia pedału hamulca do oporu.",
+        "textUz": "Tormoz pedalini oxirigacha bosish."
+      },
+      {
+        "id": "cmr6bf5e8003nubcwxwtubj1q",
+        "textPl": "Zaciągnięcia hamulca ręcznego.",
+        "textUz": "Qo'l tormozini tortish."
+      }
+    ]
+  },
+  {
+    "id": "cmr6bf5ei003oubcwh2ojiema",
+    "textPl": "Kiedy masz obowiązek zmienić pas na prawy po zakończeniu manewru wyprzedzania?",
+    "textUz": "O'zib o'tish manevrini tugatgandan keyin o'ng yo'lakka o'tish majburiyati qachon bo'ladi?",
+    "category": "O'zib o'tish",
+    "options": [
+      {
+        "id": "cmr6bf5ei003pubcwybdx839j",
+        "textPl": "Gdy widzę tył pojazdu wyprzedzanego w prawym lusterku wstecznym.",
+        "textUz": "O'zib o'tilgan transport vositasining orqa qismini o'ng orqa ko'rish oynasida ko'rganimda."
+      },
+      {
+        "id": "cmr6bf5ei003qubcwoj0umvd4",
+        "textPl": "Gdy wyprzedzany pojazd jest 100 metrów za mną.",
+        "textUz": "O'zib o'tilgan transport vositasi mendan 100 metr orqada bo'lganda."
+      },
+      {
+        "id": "cmr6bf5ei003rubcwx9mz72ul",
+        "textPl": "Gdy upewnię się, że nie ma ryzyka \"zajechania drogi\" wyprzedzanemu pojazdowi.",
+        "textUz": "O'zib o'tilgan transport vositasi yo'lini \"kesib o'tish\" xavfi yo'qligiga ishonch hosil qilganimda."
+      }
+    ]
+  },
+  {
+    "id": "cmr6bf5es003subcwn2oic526",
+    "textPl": "Który z wymienionych czynników ma bezpośredni wpływ na długość całkowitej drogi zatrzymania samochodu osobowego?",
+    "textUz": "Quyidagi omillardan qaysi biri yengil avtomobilning umumiy to'xtash masofasi uzunligiga bevosita ta'sir qiladi?",
+    "category": "To'xtash va parking",
+    "options": [
+      {
+        "id": "cmr6bf5es003tubcwcwv2r5i3",
+        "textPl": "Ilość paliwa w zbiorniku.",
+        "textUz": "Bakdagi yoqilg'i miqdori."
+      },
+      {
+        "id": "cmr6bf5es003uubcwtsnwvh0w",
+        "textPl": "Stan układu kierowniczego pojazdu.",
+        "textUz": "Transport vositasi rul boshqaruvi tizimining holati."
+      },
+      {
+        "id": "cmr6bf5es003vubcwn3tse6c8",
+        "textPl": "Czas reakcji kierującego pojazdem.",
+        "textUz": "Haydovchining reaksiya vaqti."
+      }
+    ]
+  },
+  {
+    "id": "cmr6bf5f2003wubcwjj3e28ey",
+    "textPl": "Który z wymienionych czynników ma decydujący wpływ na określanie odległości od pojazdu jadącego przed nami?",
+    "textUz": "Quyidagi omillardan qaysi biri oldimizda ketayotgan transport vositasidan masofani belgilashda hal qiluvchi ta'sirga ega?",
+    "category": "Umumiy qoidalar",
+    "options": [
+      {
+        "id": "cmr6bf5f2003xubcwxn5ulgxk",
+        "textPl": "Długość pojazdu.",
+        "textUz": "Transport vositasining uzunligi."
+      },
+      {
+        "id": "cmr6bf5f2003yubcwspposlnf",
+        "textPl": "Szerokość pojazdu.",
+        "textUz": "Transport vositasining kengligi."
+      },
+      {
+        "id": "cmr6bf5f2003zubcwg0gj285j",
+        "textPl": "Prędkość pojazdu.",
+        "textUz": "Transport vositasining tezligi."
+      }
+    ]
+  },
+  {
+    "id": "cmr6bf5fc0040ubcw7wzy52bk",
+    "textPl": "Na który z wymienionych czynników należy zwrócić uwagę podczas wykonywania manewru wyprzedzania?",
+    "textUz": "O'zib o'tish manevrini bajarishda quyidagi omillardan qaysi biriga e'tibor berish kerak?",
+    "category": "O'zib o'tish",
+    "options": [
+      {
+        "id": "cmr6bf5fc0041ubcwqtwqene8",
+        "textPl": "Na właściwą temperaturę we wnętrzu pojazdu.",
+        "textUz": "Transport vositasi ichidagi mos haroratga."
+      },
+      {
+        "id": "cmr6bf5fc0042ubcw5wp1c2lv",
+        "textPl": "Na zachowanie bezpiecznego odstępu.",
+        "textUz": "Xavfsiz masofani saqlashga."
+      },
+      {
+        "id": "cmr6bf5fc0043ubcwxnaz2mcy",
+        "textPl": "Na odstęp od jadących z tyłu pojazdów.",
+        "textUz": "Orqadan kelayotgan transport vositalaridan masofaga."
+      }
+    ]
+  },
+  {
+    "id": "cmr6bf5fk0044ubcw8pjlstny",
+    "textPl": "O ile wzrośnie droga hamowania, jeżeli zwiększysz prędkość 2-krotnie?",
+    "textUz": "Tezlikni 2 baravar oshirsangiz, tormozlash masofasi qancha oshadi?",
+    "category": "Umumiy qoidalar",
+    "options": [
+      {
+        "id": "cmr6bf5fl0045ubcw3c71a2n5",
+        "textPl": "2-krotnie.",
+        "textUz": "2 baravar."
+      },
+      {
+        "id": "cmr6bf5fl0046ubcwdtulouce",
+        "textPl": "3-krotnie.",
+        "textUz": "3 baravar."
+      },
+      {
+        "id": "cmr6bf5fl0047ubcwhbul4fnv",
+        "textPl": "4-krotnie.",
+        "textUz": "4 baravar."
+      }
+    ]
+  },
+  {
+    "id": "cmr6bf5fu0048ubcwv2mmlfej",
+    "textPl": "Poruszasz się autostradą i zamierzasz ją opuścić. W którym miejscu rozpoczniesz hamowanie przed zjazdem z autostrady?",
+    "textUz": "Avtomagistralda harakatlanyapsiz va undan chiqmoqchisiz. Avtomagistraldan chiqishdan oldin qaysi joyda tormozlashni boshlaysiz?",
+    "category": "Umumiy qoidalar",
+    "options": [
+      {
+        "id": "cmr6bf5fv0049ubcwuv86zvit",
+        "textPl": "Przed wjazdem na pas wyłączenia (zjazdu).",
+        "textUz": "Chiqish (ajratish) yo'lagiga kirishdan oldin."
+      },
+      {
+        "id": "cmr6bf5fv004aubcwjkz4bfa1",
+        "textPl": "Po wjeździe na początek pasa wyłączenia (zjazdu).",
+        "textUz": "Chiqish (ajratish) yo'lagining boshiga kirgandan keyin."
+      },
+      {
+        "id": "cmr6bf5fv004bubcwzkyq7keo",
+        "textPl": "W dowolnym miejscu na autostradzie.",
+        "textUz": "Avtomagistralning ixtiyoriy joyida."
+      }
+    ]
+  },
+  {
+    "id": "cmr6bf5g3004cubcwvnvqmdjr",
+    "textPl": "Czy rzeźba terenu jest czynnikiem, który powinieneś brać pod uwagę dobierając prędkość jazdy na drodze?",
+    "textUz": "Yer relyefi yo'lda haydash tezligini tanlashda hisobga olishingiz kerak bo'lgan omilmi?",
+    "category": "Umumiy qoidalar",
+    "options": [
+      {
+        "id": "cmr6bf5g3004dubcwfgrrxkvu",
+        "textPl": "Nie, jeśli jedziesz z prędkością do 60 km/h.",
+        "textUz": "Yo'q, agar 60 km/soatgacha tezlikda yursangiz."
+      },
+      {
+        "id": "cmr6bf5g3004eubcwqtzmoj2g",
+        "textPl": "Nie.",
+        "textUz": "Yo'q."
+      },
+      {
+        "id": "cmr6bf5g3004fubcw99u207mr",
+        "textPl": "Tak.",
+        "textUz": "Ha."
+      }
+    ]
+  },
+  {
+    "id": "cmr6bllp6004gubcw2pnsvg19",
+    "textPl": "Jaki może być skutek używania zużytych piór wycieraczek w samochodzie osobowym?",
+    "textUz": "Yengil avtomobilda yeyilgan tozalagich patlaridan foydalanish qanday oqibatga olib kelishi mumkin?",
+    "category": "Umumiy qoidalar",
+    "options": [
+      {
+        "id": "cmr6bllp7004hubcwwyuo9708",
+        "textPl": "Większe zużycie akumulatora.",
+        "textUz": "Akkumulyator sarfining ko'proq bo'lishi."
+      },
+      {
+        "id": "cmr6bllp7004iubcwo1lie4al",
+        "textPl": "Mniejsza widoczność drogi w czasie deszczu.",
+        "textUz": "Yomg'ir paytida yo'l ko'rinishining kamayishi."
+      },
+      {
+        "id": "cmr6bllp7004jubcwx4cwwk3q",
+        "textPl": "Mniejsze zużycie płynu do spryskiwaczy.",
+        "textUz": "Purkagich suyuqligi sarfining kamroq bo'lishi."
+      }
+    ]
+  },
+  {
+    "id": "cmr6bllss004kubcw3bcp29tc",
+    "textPl": "O jakim niebezpieczeństwie ostrzega przedstawiony znak pionowy?",
+    "textUz": "Ko'rsatilgan vertikal belgi qanday xavf haqida ogohlantiradi?",
+    "category": "Yo'l belgilari",
+    "options": [
+      {
+        "id": "cmr6bllss004lubcwzrt7odq9",
+        "textPl": "O silnych bocznych podmuchach wiatru.",
+        "textUz": "Kuchli yon shamol zarbalari haqida."
+      },
+      {
+        "id": "cmr6bllss004mubcwhca4ekab",
+        "textPl": "O silnych podmuchach wiatru występujących tylko z prawej strony.",
+        "textUz": "Faqat o'ng tomondan bo'ladigan kuchli shamol zarbalari haqida."
+      },
+      {
+        "id": "cmr6bllss004nubcw33x9nkdp",
+        "textPl": "O silnych czołowych podmuchach wiatru.",
+        "textUz": "Kuchli frontal shamol zarbalari haqida."
+      }
+    ]
+  },
+  {
+    "id": "cmr6bllt3004oubcwu2l0shit",
+    "textPl": "W której fazie intensywnego deszczu jezdnia asfaltowa jest najbardziej śliska?",
+    "textUz": "Kuchli yomg'irning qaysi bosqichida asfalt yo'l eng sirpanchiq bo'ladi?",
+    "category": "Umumiy qoidalar",
+    "options": [
+      {
+        "id": "cmr6bllt3004pubcwn026t1he",
+        "textPl": "Początkowej.",
+        "textUz": "Boshlang'ich bosqichida."
+      },
+      {
+        "id": "cmr6bllt3004qubcwoumqim68",
+        "textPl": "Środkowej.",
+        "textUz": "O'rta bosqichida."
+      },
+      {
+        "id": "cmr6bllt3004rubcwv8ozeo7f",
+        "textPl": "Końcowej.",
+        "textUz": "Yakuniy bosqichida."
+      }
+    ]
+  },
+  {
+    "id": "cmr6blltb004subcw6s1lyu1f",
+    "textPl": "W którym z wymienionych przypadków masz obowiązek zmienić światła drogowe na mijania?",
+    "textUz": "Quyidagi holatlardan qaysi birida uzoq nur chiroqlarini yaqin nurga o'zgartirish majburiyati bor?",
+    "category": "Svetofor va yorug'lik",
+    "options": [
+      {
+        "id": "cmr6blltb004tubcw3e387oif",
+        "textPl": "Gdy zbliżasz się do pieszego idącego w tym samym kierunku.",
+        "textUz": "Bir xil yo'nalishda ketayotgan piyodaga yaqinlashganda."
+      },
+      {
+        "id": "cmr6blltb004uubcw5b5wuyt2",
+        "textPl": "Gdy zbliżasz się do nadjeżdżającego poprzeczną drogą pojazdu.",
+        "textUz": "Ko'ndalang yo'ldan kelayotgan transport vositasiga yaqinlashganda."
+      },
+      {
+        "id": "cmr6blltb004vubcws38sfls4",
+        "textPl": "Gdy zbliżasz się do jadącego przed tobą pojazdu i istnieje możliwość oślepienia kierującego.",
+        "textUz": "Oldingizda ketayotgan transport vositasiga yaqinlashganingizda va haydovchini ko'zini qamashtirish ehtimoli bo'lganda."
+      }
+    ]
+  },
+  {
+    "id": "cmr6blltp004wubcwfopgzmdv",
+    "textPl": "Co powinieneś zrobić w tej sytuacji?",
+    "textUz": "Bu vaziyatda nima qilishingiz kerak?",
+    "category": "Umumiy qoidalar",
+    "options": [
+      {
+        "id": "cmr6blltp004xubcwuc1cxc8k",
+        "textPl": "Masz prawo zmienić pas ruchu na lewy.",
+        "textUz": "Chap yo'lakka o'tish huquqingiz bor."
+      },
+      {
+        "id": "cmr6blltp004yubcwlvtlovgr",
+        "textPl": "Powinieneś pozostać na zajmowanym pasie.",
+        "textUz": "Egallagan yo'lakda qolishingiz kerak."
+      },
+      {
+        "id": "cmr6blltp004zubcw129ebw1h",
+        "textPl": "Podczas zmiany pasa ruchu nie musisz zachować szczególnej ostrożności.",
+        "textUz": "Yo'lakni almashtirishda alohida ehtiyotkorlik ko'rsatishingiz shart emas."
+      }
+    ]
+  },
+  {
+    "id": "cmr6blltx0050ubcwcq6ctaur",
+    "textPl": "Czy holowany pojazd ma wpływ na pole widzenia kierowcy?",
+    "textUz": "Tortilayotgan transport vositasi haydovchining ko'rish maydoniga ta'sir qiladimi?",
+    "category": "Umumiy qoidalar",
+    "options": [
+      {
+        "id": "cmr6blltx0051ubcwycjdwnzr",
+        "textPl": "Nie ma żadnego wpływu na ograniczenie pola widzenia.",
+        "textUz": "Ko'rish maydonini cheklashga hech qanday ta'sir qilmaydi."
+      },
+      {
+        "id": "cmr6blltx0052ubcwmhi1p9ez",
+        "textPl": "Tylko podczas wykonywania manewru zawracania na skrzyżowaniu.",
+        "textUz": "Faqat chorrahada orqaga qaytish manevrini bajarishda."
+      },
+      {
+        "id": "cmr6blltx0053ubcwr9tji7z8",
+        "textPl": "Ma wpływ na ograniczenie pola widzenia.",
+        "textUz": "Ko'rish maydonini cheklashga ta'sir qiladi."
+      }
+    ]
+  },
+  {
+    "id": "cmr6bllu50054ubcwzvt8k27o",
+    "textPl": "Czy przejrzystość szyb ma wpływ na pole widzenia kierowcy?",
+    "textUz": "Oynalarning tiniqligi haydovchining ko'rish maydoniga ta'sir qiladimi?",
+    "category": "Umumiy qoidalar",
+    "options": [
+      {
+        "id": "cmr6bllu60055ubcwqwb3zcnz",
+        "textPl": "Ma wpływ na ograniczenie pola widzenia.",
+        "textUz": "Ko'rish maydonini cheklashga ta'sir qiladi."
+      },
+      {
+        "id": "cmr6bllu60056ubcwyy9qvx1y",
+        "textPl": "Tylko w warunkach zmniejszonej przejrzystości powietrza.",
+        "textUz": "Faqat havo tiniqligi kamaygan sharoitda."
+      },
+      {
+        "id": "cmr6bllu60057ubcwlfuixkdd",
+        "textPl": "Nie ma żadnego wpływu na ograniczenie pola widzenia.",
+        "textUz": "Ko'rish maydonini cheklashga hech qanday ta'sir qilmaydi."
+      }
+    ]
+  },
+  {
+    "id": "cmr6bllue0058ubcwfqvc5x94",
+    "textPl": "Jaki czynnik powoduje zmniejszenie pola widzenia kierującego pojazdem?",
+    "textUz": "Qanday omil transport vositasi haydovchisining ko'rish maydonini kamaytiradi?",
+    "category": "Umumiy qoidalar",
+    "options": [
+      {
+        "id": "cmr6bllue0059ubcwaw3ekbn3",
+        "textPl": "Duża prędkość jazdy.",
+        "textUz": "Katta harakat tezligi."
+      },
+      {
+        "id": "cmr6bllue005aubcwq5aiaxlp",
+        "textPl": "Dobra przejrzystość powietrza.",
+        "textUz": "Havoning yaxshi tiniqligi."
+      },
+      {
+        "id": "cmr6bllue005bubcw2zfcjm9d",
+        "textPl": "Zbyt mała prędkość.",
+        "textUz": "Juda kichik tezlik."
+      }
+    ]
+  },
+  {
+    "id": "cmr6bllun005cubcw2vp8v3fg",
+    "textPl": "Jakie czynniki wpływają na poprawę pola widzenia?",
+    "textUz": "Qanday omillar ko'rish maydonini yaxshilashga ta'sir qiladi?",
+    "category": "Umumiy qoidalar",
+    "options": [
+      {
+        "id": "cmr6bllun005dubcw48rlascm",
+        "textPl": "Zwiększanie prędkości pojazdu.",
+        "textUz": "Transport vositasi tezligini oshirish."
+      },
+      {
+        "id": "cmr6bllun005eubcwxxs6ph7q",
+        "textPl": "Zmniejszanie prędkości pojazdu.",
+        "textUz": "Transport vositasi tezligini kamaytirish."
+      },
+      {
+        "id": "cmr6bllun005fubcw1xsarg1h",
+        "textPl": "Stres kierowcy.",
+        "textUz": "Haydovchining stressi."
+      }
+    ]
+  },
+  {
+    "id": "cmr6blluz005gubcwb32r6u43",
+    "textPl": "Które w wymienionych elementów drogi powinieneś obserwować podczas jazdy autostradą?",
+    "textUz": "Avtomagistralda haydashda yo'lning quyidagi elementlaridan qaysi birini kuzatishingiz kerak?",
+    "category": "Umumiy qoidalar",
+    "options": [
+      {
+        "id": "cmr6blluz005hubcw4pamclp7",
+        "textPl": "Tylko swój pas ruchu przed pojazdem.",
+        "textUz": "Faqat transport vositasi oldidagi o'z yo'lagini."
+      },
+      {
+        "id": "cmr6blluz005iubcwdhkul1dj",
+        "textPl": "Całą jezdnię i pobocze przed i za pojazdem.",
+        "textUz": "Transport vositasi oldi va ortidagi butun yo'l va yo'l chekkasini."
+      },
+      {
+        "id": "cmr6blluz005jubcwep7ww987",
+        "textPl": "Tylko swój pas ruchu i prawe pobocze przed pojazdem.",
+        "textUz": "Faqat o'z yo'lagi va transport vositasi oldidagi o'ng yo'l chekkasini."
+      }
+    ]
+  },
+  {
+    "id": "cmr6bllv9005kubcw4yqputrx",
+    "textPl": "W jaki sposób powinno być ustawione lusterko zewnętrzne w samochodzie osobowym?",
+    "textUz": "Yengil avtomobilda tashqi oyna qanday sozlanishi kerak?",
+    "category": "Umumiy qoidalar",
+    "options": [
+      {
+        "id": "cmr6bllv9005lubcwrka16174",
+        "textPl": "Tak, aby w połowie lusterka była widoczna boczna szyba przednich drzwi.",
+        "textUz": "Oynaning yarmida old eshiklarning yon oynasi ko'rinadigan qilib."
+      },
+      {
+        "id": "cmr6bllv9005mubcwewbqiu2a",
+        "textPl": "Tak, aby w lusterku nie był widoczny bok pojazdu.",
+        "textUz": "Oynada transport vositasining yon qismi ko'rinmaydigan qilib."
+      },
+      {
+        "id": "cmr6bllv9005nubcwrcpbxxf0",
+        "textPl": "Tak, aby w lusterku był widoczny fragment boku pojazdu oraz droga za pojazdem.",
+        "textUz": "Oynada transport vositasining yon qismi va uning ortidagi yo'l ko'rinadigan qilib."
+      }
+    ]
+  },
+  {
+    "id": "cmr6bllvg005oubcw749jldt0",
+    "textPl": "W jaki sposób prędkość pojazdu wpływa na pole widzenia kierowcy?",
+    "textUz": "Transport vositasining tezligi haydovchining ko'rish maydoniga qanday ta'sir qiladi?",
+    "category": "Umumiy qoidalar",
+    "options": [
+      {
+        "id": "cmr6bllvg005pubcwfj5dq28z",
+        "textPl": "Wraz ze wzrostem prędkości pole widzenia zmniejsza się.",
+        "textUz": "Tezlik oshgani sari ko'rish maydoni kamayadi."
+      },
+      {
+        "id": "cmr6bllvg005qubcw7zvlay10",
+        "textPl": "Wraz ze wzrostem prędkości pole widzenia zwiększa się.",
+        "textUz": "Tezlik oshgani sari ko'rish maydoni kengayadi."
+      },
+      {
+        "id": "cmr6bllvg005rubcw1rbq4e37",
+        "textPl": "Nie ma wpływu.",
+        "textUz": "Ta'sir qilmaydi."
+      }
+    ]
+  },
+  {
+    "id": "cmr6bllvo005subcw069wd548",
+    "textPl": "Jak powinieneś zachować się wjeżdżając na odcinek drogi pokryty kałużami?",
+    "textUz": "Ko'lmaklar bilan qoplangan yo'l qismiga kirganingizda qanday harakat qilishingiz kerak?",
+    "category": "Umumiy qoidalar",
+    "options": [
+      {
+        "id": "cmr6bllvp005tubcwyk2h5lah",
+        "textPl": "Ograniczyć prędkość jazdy.",
+        "textUz": "Harakat tezligini kamaytirish."
+      },
+      {
+        "id": "cmr6bllvp005uubcwtr3qqx68",
+        "textPl": "Zwiększać prędkość jazdy.",
+        "textUz": "Harakat tezligini oshirish."
+      },
+      {
+        "id": "cmr6bllvp005vubcw2r6nh3up",
+        "textPl": "Zjechać na pas ruchu dla kierunku przeciwnego.",
+        "textUz": "Qarshi yo'nalish uchun yo'lakka chiqib olish."
+      }
+    ]
+  },
+  {
+    "id": "cmr6bllvz005wubcwvz6rio73",
+    "textPl": "Jaki tor jazdy powinieneś obrać w początkowej fazie pokonywania pokazanego zakrętu w lewo?",
+    "textUz": "Ko'rsatilgan chapga burilishni bosib o'tishning boshlang'ich bosqichida qanday harakat yo'nalishini tanlashingiz kerak?",
+    "category": "Umumiy qoidalar",
+    "options": [
+      {
+        "id": "cmr6bllvz005xubcwugogxdxd",
+        "textPl": "Maksymalnie zjeżdżając do środka jezdni, najeżdżając na podwójną ciągłą linię.",
+        "textUz": "Yo'lning o'rtasiga imkon qadar yaqinlashib, qo'sh uzluksiz chiziqqa chiqib."
+      },
+      {
+        "id": "cmr6bllvz005yubcw6fito0mb",
+        "textPl": "Zjeżdżając do środka jezdni, ale nie przekraczając podwójnej ciągłej linii.",
+        "textUz": "Yo'lning o'rtasiga yaqinlashib, ammo qo'sh uzluksiz chiziqni kesib o'tmasdan."
+      },
+      {
+        "id": "cmr6bllvz005zubcwdj79r1w8",
+        "textPl": "Zbliżyć się do prawej krawędzi jezdni.",
+        "textUz": "Yo'lning o'ng chetiga yaqinlashish."
+      }
+    ]
+  },
+  {
+    "id": "cmr6bllw80060ubcw0cry5tpf",
+    "textPl": "Która z wymienionych technik jazdy pasuje do określenia „ekonomiczna jazda samochodem”?",
+    "textUz": "Quyidagi haydash usullaridan qaysi biri \"iqtisodiy haydash\" tushunchasiga mos keladi?",
+    "category": "Umumiy qoidalar",
+    "options": [
+      {
+        "id": "cmr6bllw80061ubcw1mjwk3h8",
+        "textPl": "Używanie tylko hamulca roboczego do zmniejszania prędkości jazdy.",
+        "textUz": "Tezlikni kamaytirish uchun faqat ishchi tormozdan foydalanish."
+      },
+      {
+        "id": "cmr6bllw80062ubcw2krnblm5",
+        "textPl": "Używanie silnika do zmniejszania prędkości jazdy.",
+        "textUz": "Tezlikni kamaytirish uchun dvigateldan foydalanish."
+      },
+      {
+        "id": "cmr6bllw80063ubcwb609pmx2",
+        "textPl": "Częsta zmiana biegów, w celu utrzymania wysokich obrotów silnika.",
+        "textUz": "Dvigatelning yuqori aylanishlarini saqlash uchun tez-tez uzatmalarni almashtirish."
+      }
+    ]
+  },
+  {
+    "id": "cmr6bllwg0064ubcwwngrqtcb",
+    "textPl": "Która z wymienionych technik jazdy pasuje do określenia „ekonomiczna jazda samochodem”?",
+    "textUz": "Quyidagi haydash usullaridan qaysi biri \"iqtisodiy haydash\" tushunchasiga mos keladi?",
+    "category": "Umumiy qoidalar",
+    "options": [
+      {
+        "id": "cmr6bllwg0065ubcwlk40v2cz",
+        "textPl": "Częste używanie hamulca roboczego.",
+        "textUz": "Ishchi tormozdan tez-tez foydalanish."
+      },
+      {
+        "id": "cmr6bllwg0066ubcwd6oww64t",
+        "textPl": "Unikanie gwałtownych hamowań i przyspieszeń.",
+        "textUz": "Keskin tormozlash va tezlashishdan qochish."
+      },
+      {
+        "id": "cmr6bllwg0067ubcwjxqzx3gz",
+        "textPl": "Częsta zmiana biegów.",
+        "textUz": "Tez-tez uzatmalarni almashtirish."
+      }
+    ]
+  },
+  {
+    "id": "cmr6bllwo0068ubcwsf0iff4q",
+    "textPl": "Na czym powinna polegać prawidłowa technika jazdy w tej sytuacji drogowej?",
+    "textUz": "Bu yo'l vaziyatida to'g'ri haydash texnikasi nimadan iborat bo'lishi kerak?",
+    "category": "Umumiy qoidalar",
+    "options": [
+      {
+        "id": "cmr6bllwo0069ubcwjp75gsud",
+        "textPl": "Na dobraniu odpowiedniej prędkości jazdy.",
+        "textUz": "Mos harakat tezligini tanlashdan."
+      },
+      {
+        "id": "cmr6bllwo006aubcw5v4nmkzp",
+        "textPl": "Na zajmowaniu środka jezdni.",
+        "textUz": "Yo'lning o'rtasini egallashdan."
+      },
+      {
+        "id": "cmr6bllwo006bubcwy56n8rn8",
+        "textPl": "Na jeździe z możliwie najniższym biegiem.",
+        "textUz": "Iloji boricha eng past uzatmada yurishdan."
+      }
+    ]
+  },
+  {
+    "id": "cmr6bllwy006cubcww3fceum5",
+    "textPl": "W jaki sposób można ułatwić sobie wyjazd samochodem osobowym z grząskiego śniegu?",
+    "textUz": "Yumshoq qordan yengil avtomobil bilan chiqishni qanday osonlashtirish mumkin?",
+    "category": "Umumiy qoidalar",
+    "options": [
+      {
+        "id": "cmr6bllwy006dubcwv7jhmakz",
+        "textPl": "Kilkakrotne cofając i ruszając do przodu.",
+        "textUz": "Bir necha marta orqaga va oldinga yurish orqali."
+      },
+      {
+        "id": "cmr6bllwy006eubcwq1vmbuq7",
+        "textPl": "Ruszając na dużych obrotach silnika.",
+        "textUz": "Dvigatelning yuqori aylanishlarida qo'zg'alish orqali."
+      },
+      {
+        "id": "cmr6bllwy006fubcwprsptkmi",
+        "textPl": "Puszczając gwałtownie pedał sprzęgła.",
+        "textUz": "Murvat pedalini keskin qo'yib yuborish orqali."
+      }
+    ]
+  },
+  {
+    "id": "cmr6bllx8006gubcwn9kr1o9e",
+    "textPl": "Czy dopuszczalne jest holowanie samochodem osobowym na autostradzie do najbliższego wyjazdu lub miejsca obsługi podróżnych?",
+    "textUz": "Avtomagistralda eng yaqin chiqish yoki dam olish maskaniga qadar yengil avtomobilni tortish mumkinmi?",
+    "category": "Umumiy qoidalar",
+    "options": [
+      {
+        "id": "cmr6bllx8006hubcwi1eha8k5",
+        "textPl": "Nie.",
+        "textUz": "Yo'q."
+      },
+      {
+        "id": "cmr6bllx8006iubcw46z7x72c",
+        "textPl": "Tak.",
+        "textUz": "Ha."
+      },
+      {
+        "id": "cmr6bllx8006jubcw071eg32d",
+        "textPl": "Tak, ale jadąc z maksymalną prędkością 20 km/h.",
+        "textUz": "Ha, ammo maksimal 20 km/soat tezlikda yurib."
+      }
+    ]
+  },
+  {
+    "id": "cmr6bllxh006kubcwznf4s6mb",
+    "textPl": "Czy przewożąc pasażera w wieku 6 lat motorowerem masz prawo poruszać się z prędkością 50 km/h?",
+    "textUz": "6 yoshli yo'lovchini mopedda tashiyotganingizda 50 km/soat tezlikda harakatlanish huquqingiz bormi?",
+    "category": "Umumiy qoidalar",
+    "options": [
+      {
+        "id": "cmr6bllxh006lubcw9vyk6seo",
+        "textPl": "Tak, ale tylko w godz. 5.00-23.00.",
+        "textUz": "Ha, ammo faqat soat 5:00-23:00 oralig'ida."
+      },
+      {
+        "id": "cmr6bllxh006mubcwemd68qo4",
+        "textPl": "Tak.",
+        "textUz": "Ha."
+      },
+      {
+        "id": "cmr6bllxh006nubcw1mlnyept",
+        "textPl": "Nie.",
+        "textUz": "Yo'q."
+      }
+    ]
+  },
+  {
+    "id": "cmr6bllxr006oubcwuv06rd8v",
+    "textPl": "Ile wynosi maksymalnie dopuszczalna długość zespołu pojazdów składającego się z samochodu ciężarowego o dopuszczalnej masie całkowitej do 3,5 tony i przyczepy kempingowej?",
+    "textUz": "Ruxsat etilgan umumiy massasi 3,5 tonnagacha bo'lgan yuk mashinasi va kemping-tirkamadan iborat transport vositalari majmuining maksimal ruxsat etilgan uzunligi qancha?",
+    "category": "Umumiy qoidalar",
+    "options": [
+      {
+        "id": "cmr6bllxr006pubcw8pyinkeu",
+        "textPl": "19,85 metra.",
+        "textUz": "19,85 metr."
+      },
+      {
+        "id": "cmr6bllxr006qubcw758gn1zg",
+        "textPl": "18,75 metra.",
+        "textUz": "18,75 metr."
+      },
+      {
+        "id": "cmr6bllxr006rubcwx6m12jnn",
+        "textPl": "14,95 metra.",
+        "textUz": "14,95 metr."
+      }
+    ]
+  },
+  {
+    "id": "cmr6blly0006subcw5qzbqf7j",
+    "textPl": "Który z wymienionych przypadków jest prawidłowym sposobem przewożenia ładunku na przyczepie ciągniętej przez samochód osobowy?",
+    "textUz": "Quyidagi holatlardan qaysi biri yengil avtomobil tortadigan tirkamada yukni to'g'ri tashish usuli hisoblanadi?",
+    "category": "Umumiy qoidalar",
+    "options": [
+      {
+        "id": "cmr6blly0006tubcwzc6jmq6g",
+        "textPl": "Ładunek jest zabezpieczony przed przesuwaniem się.",
+        "textUz": "Yuk siljishdan himoyalangan."
+      },
+      {
+        "id": "cmr6blly0006uubcw16xyeuyf",
+        "textPl": "Ładunek nie jest zabezpieczony przed zmianą położenia.",
+        "textUz": "Yuk holatining o'zgarishidan himoyalanmagan."
+      },
+      {
+        "id": "cmr6blly0006vubcwfou5fnyo",
+        "textPl": "Ładunek nie jest zabezpieczony przed zmianą położenia, jeżeli prędkość jazdy nie będzie większa niż 30 km/h.",
+        "textUz": "Agar harakat tezligi 30 km/soatdan oshmasa, yuk holatining o'zgarishidan himoyalanmagan."
+      }
+    ]
+  },
+  {
+    "id": "cmr6blly9006wubcwk0kkwpcc",
+    "textPl": "W jaki sposób powinieneś przewozić ładunek w przyczepie ciągniętej przez samochód osobowy?",
+    "textUz": "Yengil avtomobil tortadigan tirkamada yukni qanday tashishingiz kerak?",
+    "category": "Umumiy qoidalar",
+    "options": [
+      {
+        "id": "cmr6blly9006xubcwjnw26a5z",
+        "textPl": "Ładunek nie powinien być zabezpieczony przed zmianą położenia.",
+        "textUz": "Yuk holatining o'zgarishidan himoyalanmasligi kerak."
+      },
+      {
+        "id": "cmr6blly9006yubcwxk2528td",
+        "textPl": "Ładunek może zasłaniać niektóre światła przyczepy.",
+        "textUz": "Yuk tirkamaning ba'zi chiroqlarini yopishi mumkin."
+      },
+      {
+        "id": "cmr6blly9006zubcwy5d2byds",
+        "textPl": "Ładunek nie może naruszać stateczności pojazdu.",
+        "textUz": "Yuk transport vositasining barqarorligini buzmasligi kerak."
+      }
+    ]
+  },
+  {
+    "id": "cmr6bllyj0070ubcwot77tvbm",
+    "textPl": "Czy międzynarodowe prawo jazdy może być wydane na okres dłuższy niż 3 lata?",
+    "textUz": "Xalqaro haydovchilik guvohnomasi 3 yildan uzoq muddatga berilishi mumkinmi?",
+    "category": "Umumiy qoidalar",
+    "options": [
+      {
+        "id": "cmr6bllyj0071ubcwnlbkvvm3",
+        "textPl": "Tak, jeżeli wynika to z orzeczenia lekarskiego.",
+        "textUz": "Ha, agar bu tibbiy xulosadan kelib chiqsa."
+      },
+      {
+        "id": "cmr6bllyj0072ubcw8pf74soo",
+        "textPl": "Tak, w każdym przypadku.",
+        "textUz": "Ha, har qanday holatda."
+      },
+      {
+        "id": "cmr6bllyj0073ubcwxbpkrbh7",
+        "textPl": "Nie.",
+        "textUz": "Yo'q."
+      }
+    ]
+  },
+  {
+    "id": "cmr6bllys0074ubcwnnhca61f",
+    "textPl": "Czy masz prawo kierować pojazdem, jeśli Twoje prawo jazdy jest nieważne?",
+    "textUz": "Agar haydovchilik guvohnomangiz amal qilmasa, transport vositasini boshqarish huquqingiz bormi?",
+    "category": "Umumiy qoidalar",
+    "options": [
+      {
+        "id": "cmr6bllys0075ubcw0x26ii78",
+        "textPl": "Tak, jeśli minął dopiero tydzień.",
+        "textUz": "Ha, agar faqat bir hafta o'tgan bo'lsa."
+      },
+      {
+        "id": "cmr6bllys0076ubcwzhcvtt9e",
+        "textPl": "Tak, ponieważ masz 30 dni na aktualizację danych.",
+        "textUz": "Ha, chunki ma'lumotlarni yangilash uchun 30 kun vaqtingiz bor."
+      },
+      {
+        "id": "cmr6bllys0077ubcwe9hibywk",
+        "textPl": "Nie.",
+        "textUz": "Yo'q."
+      }
+    ]
+  },
+  {
+    "id": "cmr6bllz70078ubcwfri0zfvd",
+    "textPl": "Czy posiadając prawo jazdy kat. B jesteś uprawniony do kierowania ciągnikiem rolniczym za granicami Państwa?",
+    "textUz": "B toifali haydovchilik guvohnomasiga ega bo'lsangiz, davlat chegarasidan tashqarida qishloq xo'jaligi traktorini boshqarish huquqingiz bormi?",
+    "category": "Umumiy qoidalar",
+    "options": [
+      {
+        "id": "cmr6bllz70079ubcw5and1nxa",
+        "textPl": "Tak.",
+        "textUz": "Ha."
+      },
+      {
+        "id": "cmr6bllz7007aubcw0av9041s",
+        "textPl": "Tak, ale tylko w terenie zabudowanym.",
+        "textUz": "Ha, ammo faqat aholi punktida."
+      },
+      {
+        "id": "cmr6bllz7007bubcwdgyj9tks",
+        "textPl": "Nie.",
+        "textUz": "Yo'q."
+      }
+    ]
+  },
+  {
+    "id": "cmr6bllzi007cubcwq2twiwyy",
+    "textPl": "Czy posiadając prawo jazdy kat. B od co najmniej 3 lat, masz prawo kierować motocyklem o pojemności skokowej silnika nie większej niż 125 cm3?",
+    "textUz": "Kamida 3 yildan beri B toifali haydovchilik guvohnomasiga ega bo'lsangiz, dvigatel hajmi 125 sm3 dan oshmagan mototsiklni boshqarish huquqingiz bormi?",
+    "category": "Umumiy qoidalar",
+    "options": [
+      {
+        "id": "cmr6bllzi007dubcwujv5zhcy",
+        "textPl": "Tak.",
+        "textUz": "Ha."
+      },
+      {
+        "id": "cmr6bllzi007eubcw974pay19",
+        "textPl": "Nie.",
+        "textUz": "Yo'q."
+      },
+      {
+        "id": "cmr6bllzi007fubcwk3f1jyy6",
+        "textPl": "Tak, pod warunkiem jazdy z maksymalną prędkością 30 km/h.",
+        "textUz": "Ha, maksimal 30 km/soat tezlikda yurish sharti bilan."
+      }
+    ]
+  },
+  {
+    "id": "cmr6bllzt007gubcw80g2u90i",
+    "textPl": "Czy prawo jazdy kat. B uprawnia do kierowania zespołem pojazdów składającym się z samochodu osobowego i przyczepy, których łączna dopuszczalna masa całkowita nie przekracza 3,5 tony?",
+    "textUz": "B toifali haydovchilik guvohnomasi umumiy ruxsat etilgan massasi 3,5 tonnadan oshmaydigan yengil avtomobil va tirkamadan iborat transport vositalari majmuini boshqarish huquqini beradimi?",
+    "category": "Umumiy qoidalar",
+    "options": [
+      {
+        "id": "cmr6bllzt007hubcwg9911dgw",
+        "textPl": "Nie.",
+        "textUz": "Yo'q."
+      },
+      {
+        "id": "cmr6bllzt007iubcwjykrz2ng",
+        "textPl": "Tylko pod warunkiem nie przekraczania prędkości 30 km/h.",
+        "textUz": "Faqat 30 km/soat tezlikdan oshmaslik sharti bilan."
+      },
+      {
+        "id": "cmr6bllzt007jubcwg68j1u2i",
+        "textPl": "Tak.",
+        "textUz": "Ha."
+      }
+    ]
+  },
+  {
+    "id": "cmr6blm03007kubcw581dk2gw",
+    "textPl": "Czy w celu wydania międzynarodowego prawa jazdy powinieneś zgłosić się do wojewody?",
+    "textUz": "Xalqaro haydovchilik guvohnomasini olish uchun voyevodaga murojaat qilishingiz kerakmi?",
+    "category": "Umumiy qoidalar",
+    "options": [
+      {
+        "id": "cmr6blm04007lubcwsrn0bkal",
+        "textPl": "Nie, takie prawo jazdy wydaje starosta.",
+        "textUz": "Yo'q, bunday haydovchilik guvohnomasini starosta beradi."
+      },
+      {
+        "id": "cmr6blm04007mubcwuj38saot",
+        "textPl": "Tak, ale trzeba uiścić opłatę ewidencyjną.",
+        "textUz": "Ha, ammo ro'yxatga olish to'lovini to'lash kerak."
+      },
+      {
+        "id": "cmr6blm04007nubcw84kau9qp",
+        "textPl": "Tak w każdym przypadku.",
+        "textUz": "Ha, har qanday holatda."
+      }
+    ]
+  },
+  {
+    "id": "cmr6blm0e007oubcw1jap5ziq",
+    "textPl": "Gdzie można znaleźć informację o dozwolonej liczbie przewożonych w samochodzie osobowym osób?",
+    "textUz": "Yengil avtomobilda tashiladigan odamlarning ruxsat etilgan soni haqidagi ma'lumotni qayerdan topish mumkin?",
+    "category": "Umumiy qoidalar",
+    "options": [
+      {
+        "id": "cmr6blm0e007pubcwcw7ur1ic",
+        "textPl": "W dowodzie rejestracyjnym.",
+        "textUz": "Ro'yxatga olish guvohnomasida."
+      },
+      {
+        "id": "cmr6blm0e007qubcwjnhk3r1u",
+        "textPl": "W prawie jazdy.",
+        "textUz": "Haydovchilik guvohnomasida."
+      },
+      {
+        "id": "cmr6blm0e007rubcwl8f39ssj",
+        "textPl": "W umowie OC.",
+        "textUz": "OSAGO shartnomasida."
+      }
+    ]
+  },
+  {
+    "id": "cmr6blm0n007subcw7qwdmqcb",
+    "textPl": "Jaką awarię sygnalizuje szybko migający kierunkowskaz?",
+    "textUz": "Tez miltillayotgan burilish chirog'i qanday nosozlikni bildiradi?",
+    "category": "Umumiy qoidalar",
+    "options": [
+      {
+        "id": "cmr6blm0n007tubcw5uj2ekbf",
+        "textPl": "Słaby akumulator.",
+        "textUz": "Zaif akkumulyator."
+      },
+      {
+        "id": "cmr6blm0n007uubcwi5qa33ly",
+        "textPl": "Zwarcie w przewodach wysokiego napięcia.",
+        "textUz": "Yuqori kuchlanish simlarida qisqa tutashuv."
+      },
+      {
+        "id": "cmr6blm0n007vubcwxut2beu3",
+        "textPl": "Przepaloną żarówkę kierunkowskazu.",
+        "textUz": "Burilish chirog'i lampochkasining kuyib ketishi."
+      }
+    ]
+  },
+  {
+    "id": "cmr6blm11007wubcwkmp71kkm",
+    "textPl": "Jaki może być objaw pęknięcia przewodu hamulcowego w samochodzie osobowym?",
+    "textUz": "Yengil avtomobilda tormoz naychasining yorilishi qanday alomat bilan bilinishi mumkin?",
+    "category": "Umumiy qoidalar",
+    "options": [
+      {
+        "id": "cmr6blm11007xubcwhoi9cy5g",
+        "textPl": "Wzrost siły hamującej przy jednostajnym naciskaniu na pedał hamulca.",
+        "textUz": "Tormoz pedaliga bir xilda bosganda tormozlash kuchining oshishi."
+      },
+      {
+        "id": "cmr6blm11007yubcwyledsqqh",
+        "textPl": "Niewielki lub brak oporu pedału hamulca przy jego wciskaniu.",
+        "textUz": "Tormoz pedalini bosganda kam yoki umuman qarshilik bo'lmasligi."
+      },
+      {
+        "id": "cmr6blm11007zubcwv0sem8ev",
+        "textPl": "Bardzo duży opór pedału hamulca przy jego wciskaniu.",
+        "textUz": "Tormoz pedalini bosganda juda katta qarshilik."
+      }
+    ]
+  },
+  {
+    "id": "cmr6blm1d0080ubcwwhoww3s4",
+    "textPl": "Która z wymienionych przyczyn spowoduje nieosiągnięcie przez silnik, o zapłonie samoczynnym, obrotów rozruchowych?",
+    "textUz": "Quyidagi sabablardan qaysi biri o'z-o'zidan yonuvchi dvigatelning ishga tushish aylanishlariga yetmasligiga sabab bo'ladi?",
+    "category": "Umumiy qoidalar",
+    "options": [
+      {
+        "id": "cmr6blm1d0081ubcw6snu4ilj",
+        "textPl": "Niesprawny rozrusznik.",
+        "textUz": "Ishlamaydigan starter."
+      },
+      {
+        "id": "cmr6blm1d0082ubcwrkldu8l0",
+        "textPl": "Naładowany akumulator.",
+        "textUz": "Zaryadlangan akkumulyator."
+      },
+      {
+        "id": "cmr6blm1d0083ubcwvximwt9o",
+        "textPl": "Zbyt luźny pasek klinowy alternatora.",
+        "textUz": "Generator qayishining juda bo'sh bo'lishi."
+      }
+    ]
+  },
+  {
+    "id": "cmr6blm1m0084ubcwwsf4hf87",
+    "textPl": "Który z wymienionych czynników, może być przyczyną ściągania samochodu w lewą stronę?",
+    "textUz": "Quyidagi omillardan qaysi biri avtomobilning chapga tortilishiga sabab bo'lishi mumkin?",
+    "category": "Umumiy qoidalar",
+    "options": [
+      {
+        "id": "cmr6blm1m0085ubcwa90r3iqx",
+        "textPl": "Nieprawidłowa zbieżność kół przednich.",
+        "textUz": "Old g'ildiraklarning noto'g'ri yaqinlashuv burchagi."
+      },
+      {
+        "id": "cmr6blm1m0086ubcw09dcfws9",
+        "textPl": "Jednakowe ciśnienie powietrza w kołach pojazdu.",
+        "textUz": "Transport vositasi g'ildiraklaridagi bir xil havo bosimi."
+      },
+      {
+        "id": "cmr6blm1m0087ubcw0d6kooni",
+        "textPl": "Usterka modułu elektronicznego hamulca ręcznego.",
+        "textUz": "Qo'l tormozining elektron modulidagi nosozlik."
+      }
+    ]
+  },
+  {
+    "id": "cmr6blm1x0088ubcwpl70mrub",
+    "textPl": "Który z wymienionych czynników, może spowodować szybsze zużywanie się opon na kołach przednich w samochodzie osobowym?",
+    "textUz": "Quyidagi omillardan qaysi biri yengil avtomobilning old g'ildiraklaridagi shinalarning tezroq yeyilishiga sabab bo'lishi mumkin?",
+    "category": "Umumiy qoidalar",
+    "options": [
+      {
+        "id": "cmr6blm1x0089ubcwv0l1k7li",
+        "textPl": "Niewielkie obciążenie przedniej osi pojazdu.",
+        "textUz": "Transport vositasi old o'qining kichik yuklamasi."
+      },
+      {
+        "id": "cmr6blm1x008aubcw3fngw74c",
+        "textPl": "Nieprawidłowa zbieżność.",
+        "textUz": "Noto'g'ri yaqinlashuv burchagi."
+      },
+      {
+        "id": "cmr6blm1x008bubcwmsto7nf0",
+        "textPl": "Nierówna nawierzchnia jezdni.",
+        "textUz": "Yo'l yuzasining notekisligi."
+      }
+    ]
+  },
+  {
+    "id": "cmr6blm28008cubcwezyg0op1",
+    "textPl": "W jaki sposób oświetlają drogę przed samochodem osobowym światła mijania?",
+    "textUz": "Yaqin nur chiroqlari yengil avtomobil oldidagi yo'lni qanday yoritadi?",
+    "category": "Svetofor va yorug'lik",
+    "options": [
+      {
+        "id": "cmr6blm28008dubcw8pnfsgl7",
+        "textPl": "Prostopadle.",
+        "textUz": "Perpendikulyar."
+      },
+      {
+        "id": "cmr6blm28008eubcw21nl94l0",
+        "textPl": "Symetrycznie.",
+        "textUz": "Simmetrik."
+      },
+      {
+        "id": "cmr6blm28008fubcwg6de5qu6",
+        "textPl": "Asymetrycznie.",
+        "textUz": "Asimmetrik."
+      }
+    ]
+  },
+  {
+    "id": "cmr6blm2i008gubcwjz66lvhd",
+    "textPl": "W którym z wymienionych przypadków, masz obowiązek wymienić oponę na nową w samochodzie osobowym?",
+    "textUz": "Quyidagi holatlardan qaysi birida yengil avtomobilda shinani yangisiga almashtirish majburiyati bor?",
+    "category": "Umumiy qoidalar",
+    "options": [
+      {
+        "id": "cmr6blm2i008hubcw6u7b02xr",
+        "textPl": "Gdy uszkodzony jest zawór powietrza.",
+        "textUz": "Havo klapani shikastlangan bo'lsa."
+      },
+      {
+        "id": "cmr6blm2i008iubcw2c7hab6l",
+        "textPl": "Gdy w czole opony znajduje się cienki gwóźdź.",
+        "textUz": "Shina protektorida ingichka mix bo'lsa."
+      },
+      {
+        "id": "cmr6blm2i008jubcwjn2pmh0u",
+        "textPl": "Gdy na boku opony są widoczne odkształcenia.",
+        "textUz": "Shinaning yon tomonida deformatsiya ko'rinsa."
+      }
+    ]
+  },
+  {
+    "id": "cmr6blm2t008kubcw8garulma",
+    "textPl": "Czy prawo jazdy kat. B uprawnia do kierowania motorowerem lub czterokołowcem lekkim?",
+    "textUz": "B toifali haydovchilik guvohnomasi moped yoki yengil to'rt g'ildirakli transport vositasini boshqarish huquqini beradimi?",
+    "category": "Umumiy qoidalar",
+    "options": [
+      {
+        "id": "cmr6blm2t008lubcwlvbibknp",
+        "textPl": "Tak, ale tylko poza obszarem zabudowanym.",
+        "textUz": "Ha, ammo faqat aholi punktidan tashqarida."
+      },
+      {
+        "id": "cmr6blm2t008mubcw1gbruaew",
+        "textPl": "Tak.",
+        "textUz": "Ha."
+      },
+      {
+        "id": "cmr6blm2t008nubcwzxtbwzzv",
+        "textPl": "Nie.",
+        "textUz": "Yo'q."
+      }
+    ]
+  },
+  {
+    "id": "cmr6blm33008oubcw9so23uf1",
+    "textPl": "Czy dozwolony jest postój na wyznaczonych miejscach dla osób niepełnosprawnych, jeżeli posiadana przez kierującego karta parkingowa straciła ważność?",
+    "textUz": "Agar haydovchining to'xtash kartasi amal qilish muddati tugagan bo'lsa, nogironlar uchun belgilangan joylarda to'xtash ruxsat etiladimi?",
+    "category": "To'xtash va parking",
+    "options": [
+      {
+        "id": "cmr6blm33008pubcwmsex64ov",
+        "textPl": "Tak, jeśli nie mnięło od tego czasu więcej niż 7 dni.",
+        "textUz": "Ha, agar shu vaqtdan beri 7 kundan ko'p o'tmagan bo'lsa."
+      },
+      {
+        "id": "cmr6blm33008qubcwb8a6fcc4",
+        "textPl": "Tak, jeśli nie mnięło od tego czasu więcej niż 14 dni.",
+        "textUz": "Ha, agar shu vaqtdan beri 14 kundan ko'p o'tmagan bo'lsa."
+      },
+      {
+        "id": "cmr6blm33008rubcwb0ba7eqw",
+        "textPl": "Nie.",
+        "textUz": "Yo'q."
+      }
+    ]
+  },
+  {
+    "id": "cmr6blm3f008subcwmzqvwjm2",
+    "textPl": "Jak można zminimalizować zagrożenie kierując pojazdem podczas gęstej mgły?",
+    "textUz": "Qalin tumanda transport vositasini boshqarganda xavfni qanday minimallashtirish mumkin?",
+    "category": "Umumiy qoidalar",
+    "options": [
+      {
+        "id": "cmr6blm3f008tubcwyzvgaq52",
+        "textPl": "Zwiększyć prędkość.",
+        "textUz": "Tezlikni oshirish."
+      },
+      {
+        "id": "cmr6blm3f008uubcwgtvitu18",
+        "textPl": "Zwiększyć odległość od poprzedzającego pojazdu.",
+        "textUz": "Oldingi transport vositasidan masofani oshirish."
+      },
+      {
+        "id": "cmr6blm3f008vubcwwgxkja4k",
+        "textPl": "Zmniejszyć odległość od poprzedzającego pojazdu.",
+        "textUz": "Oldingi transport vositasidan masofani kamaytirish."
+      }
+    ]
+  },
+  {
+    "id": "cmr6bp123008wubcwoyb10y3j",
+    "textPl": "Jakie negatywne skutki dla kierującego pojazdem może powodować zaśnieżenie lub oblodzenie jezdni?",
+    "textUz": "Yo'lning qorlashi yoki muzlashi haydovchi uchun qanday salbiy oqibatlarga olib kelishi mumkin?",
+    "category": "Umumiy qoidalar",
+    "options": [
+      {
+        "id": "cmr6bp123008xubcwhv7saaio",
+        "textPl": "Zwiększenie przyczepności opon do jezdni.",
+        "textUz": "Shinalarning yo'lga ilashishi oshishi."
+      },
+      {
+        "id": "cmr6bp123008yubcwtqr0p645",
+        "textPl": "Zmniejszenie  przyczepności opon do jezdni.",
+        "textUz": "Shinalarning yo'lga ilashishi kamayishi."
+      },
+      {
+        "id": "cmr6bp123008zubcwgjl8imlk",
+        "textPl": "Skrócenie drogi hamowania.",
+        "textUz": "Tormozlash masofasining qisqarishi."
+      }
+    ]
+  },
+  {
+    "id": "cmr6bp12c0090ubcwe4u0ha85",
+    "textPl": "Jakie negatywne skutki dla kierującego pojazdem może powodować zaśnieżenie lub oblodzenie jezdni?",
+    "textUz": "Yo'lning qorlashi yoki muzlashi haydovchi uchun qanday salbiy oqibatlarga olib kelishi mumkin?",
+    "category": "Umumiy qoidalar",
+    "options": [
+      {
+        "id": "cmr6bp12c0091ubcwgcbmksn3",
+        "textPl": "Zwiększone ryzyko poślizgu.",
+        "textUz": "Sirpanish xavfining oshishi."
+      },
+      {
+        "id": "cmr6bp12c0092ubcw8kc0dor7",
+        "textPl": "Zwiększenie przyczepności opon do jezdni.",
+        "textUz": "Shinalarning yo'lga ilashishi oshishi."
+      },
+      {
+        "id": "cmr6bp12c0093ubcwvv6clqjq",
+        "textPl": "Skrócenie drogi hamowania.",
+        "textUz": "Tormozlash masofasining qisqarishi."
+      }
+    ]
+  },
+  {
+    "id": "cmr6bp12i0094ubcw8q0gd0xy",
+    "textPl": "Jakie zachowanie zwiększa ryzyko wpadnięcia w poślizg na oblodzonej nawierzchni jezdni?",
+    "textUz": "Qanday xatti-harakat muzlagan yo'l yuzasida sirpanish xavfini oshiradi?",
+    "category": "Umumiy qoidalar",
+    "options": [
+      {
+        "id": "cmr6bp12j0095ubcw6aktrkgh",
+        "textPl": "Nagłe intensywne hamowanie.",
+        "textUz": "To'satdan kuchli tormozlash."
+      },
+      {
+        "id": "cmr6bp12j0096ubcwb8ia7wcg",
+        "textPl": "Hamowanie silnikiem.",
+        "textUz": "Dvigatel bilan tormozlash."
+      },
+      {
+        "id": "cmr6bp12j0097ubcw28w96ehd",
+        "textPl": "Jazda ze stałą prędkością.",
+        "textUz": "Doimiy tezlikda yurish."
+      }
+    ]
+  },
+  {
+    "id": "cmr6bp12s0098ubcwazma2dw5",
+    "textPl": "Jakie zachowanie zwiększa ryzyko wpadnięcia w poślizg na oblodzonej nawierzchni jezdni?",
+    "textUz": "Qanday xatti-harakat muzlagan yo'l yuzasida sirpanish xavfini oshiradi?",
+    "category": "Umumiy qoidalar",
+    "options": [
+      {
+        "id": "cmr6bp12s0099ubcwur0918yu",
+        "textPl": "Jazda na trzecim biegu.",
+        "textUz": "Uchinchi uzatmada yurish."
+      },
+      {
+        "id": "cmr6bp12s009aubcwwi1msrsi",
+        "textPl": "Nagłe zwiększenie prędkości.",
+        "textUz": "Tezlikni to'satdan oshirish."
+      },
+      {
+        "id": "cmr6bp12s009bubcw75gy4bo7",
+        "textPl": "Zmiana biegu na niższy.",
+        "textUz": "Uzatmani pastroqqa almashtirish."
+      }
+    ]
+  },
+  {
+    "id": "cmr6bp132009cubcwbiz9o3ub",
+    "textPl": "Jakie zachowanie zwiększa ryzyko wpadnięcia w poślizg na oblodzonej nawierzchni jezdni?",
+    "textUz": "Qanday xatti-harakat muzlagan yo'l yuzasida sirpanish xavfini oshiradi?",
+    "category": "Umumiy qoidalar",
+    "options": [
+      {
+        "id": "cmr6bp133009dubcw1htyenfl",
+        "textPl": "Jazda ze stałą prędkością.",
+        "textUz": "Doimiy tezlikda yurish."
+      },
+      {
+        "id": "cmr6bp133009eubcw0lvbp3bl",
+        "textPl": "Hamowanie silnikiem.",
+        "textUz": "Dvigatel bilan tormozlash."
+      },
+      {
+        "id": "cmr6bp133009fubcwd6f5mohh",
+        "textPl": "Gwałtowne skręcenie kierownicy.",
+        "textUz": "Rulni keskin burish."
+      }
+    ]
+  },
+  {
+    "id": "cmr6bp13a009gubcw6uwveppo",
+    "textPl": "Jakie zachowanie zwiększa ryzyko wpadnięcia w poślizg na oblodzonej nawierzchni jezdni?",
+    "textUz": "Qanday xatti-harakat muzlagan yo'l yuzasida sirpanish xavfini oshiradi?",
+    "category": "Umumiy qoidalar",
+    "options": [
+      {
+        "id": "cmr6bp13a009hubcwpd1adtoa",
+        "textPl": "Utrzymanie zbyt wysokiej prędkości, zwłaszcza na zakręcie.",
+        "textUz": "Ayniqsa burilishda haddan tashqari yuqori tezlikni saqlash."
+      },
+      {
+        "id": "cmr6bp13a009iubcwxmfb8gns",
+        "textPl": "Jazda ze stałą prędkością.",
+        "textUz": "Doimiy tezlikda yurish."
+      },
+      {
+        "id": "cmr6bp13a009jubcwc8vgqgjn",
+        "textPl": "Jazda na drugim biegu.",
+        "textUz": "Ikkinchi uzatmada yurish."
+      }
+    ]
+  },
+  {
+    "id": "cmr6bp13j009kubcwtm985f7k",
+    "textPl": "Czy prędkość jazdy i odstęp od innych uczestników ruchu drogowego należy dostosować do stanu nawierzchni?",
+    "textUz": "Harakat tezligi va boshqa yo'l harakati ishtirokchilaridan masofa yo'l yuzasi holatiga moslashtirilishi kerakmi?",
+    "category": "Umumiy qoidalar",
+    "options": [
+      {
+        "id": "cmr6bp13j009lubcwzekca4dm",
+        "textPl": "Tak, ale tylko w obszarze zabudowanym.",
+        "textUz": "Ha, ammo faqat aholi punktida."
+      },
+      {
+        "id": "cmr6bp13j009mubcwclxdafi9",
+        "textPl": "Tak, ponieważ stan nawierzchni ma istotny wpływ na drogę hamowania.",
+        "textUz": "Ha, chunki yo'l yuzasi holati tormozlash masofasiga muhim ta'sir qiladi."
+      },
+      {
+        "id": "cmr6bp13j009nubcwx4vzgj2m",
+        "textPl": "Tak, ale tylko podczas opadów śniegu.",
+        "textUz": "Ha, ammo faqat qor yog'ganda."
+      }
+    ]
+  },
+  {
+    "id": "cmr6bp13q009oubcwmnotqevb",
+    "textPl": "Czy prędkość dopuszczalna 50 km/h obowiązuje na obszarze zabudowanym przez całą dobę?",
+    "textUz": "50 km/soat ruxsat etilgan tezlik aholi punktida kecha-kunduz amal qiladimi?",
+    "category": "Umumiy qoidalar",
+    "options": [
+      {
+        "id": "cmr6bp13q009pubcw3uzhakkb",
+        "textPl": "Tak.",
+        "textUz": "Ha."
+      },
+      {
+        "id": "cmr6bp13q009qubcwhsl8clqy",
+        "textPl": "Nie, tylko od godziny 5:00 do 23:00.",
+        "textUz": "Yo'q, faqat soat 5:00 dan 23:00 gacha."
+      },
+      {
+        "id": "cmr6bp13q009rubcwdvz0t2xh",
+        "textPl": "Nie, tylko od zmierzchu do świtu.",
+        "textUz": "Yo'q, faqat qorong'u tushishidan tonggacha."
+      }
+    ]
+  },
+  {
+    "id": "cmr6bp13x009subcwmlh6mfjv",
+    "textPl": "Czy prowadząc pojazd silnikowy z przyczepą w strefie zamieszkania masz prawo jechać z prędkością 30 km/h?",
+    "textUz": "Turar-joy zonasida tirkamali motorli transport vositasini haydaganingizda 30 km/soat tezlikda yurish huquqingiz bormi?",
+    "category": "Umumiy qoidalar",
+    "options": [
+      {
+        "id": "cmr6bp13x009tubcwsycvngm0",
+        "textPl": "Tak, ale tylko po zmroku.",
+        "textUz": "Ha, ammo faqat qorong'u tushgandan keyin."
+      },
+      {
+        "id": "cmr6bp13x009uubcw8cffaded",
+        "textPl": "Tak.",
+        "textUz": "Ha."
+      },
+      {
+        "id": "cmr6bp13x009vubcw8bl66ccb",
+        "textPl": "Nie.",
+        "textUz": "Yo'q."
+      }
+    ]
+  },
+  {
+    "id": "cmr6bp143009wubcwqo2o99ef",
+    "textPl": "Z jaką prędkością, kierując samochodem osobowym, należy poruszać się za tym pojazdem, jeżeli tunel znajduje się poza obszarem zabudowanym, a jego długość wynosi 600 m?",
+    "textUz": "Agar tunnel aholi punktidan tashqarida joylashgan bo'lsa va uning uzunligi 600 metr bo'lsa, yengil avtomobilni haydaganingizda bu transport vositasi ortidan qanday tezlikda yurish kerak?",
+    "category": "Umumiy qoidalar",
+    "options": [
+      {
+        "id": "cmr6bp143009xubcwzq534wff",
+        "textPl": "Z taką, aby utrzymywać, co najmniej 50 m odstępu.",
+        "textUz": "Kamida 50 metr masofani saqlaydigan tezlikda."
+      },
+      {
+        "id": "cmr6bp143009yubcwo64gi2n2",
+        "textPl": "Z taką, aby utrzymywć, co najmniej 80 m odstępu.",
+        "textUz": "Kamida 80 metr masofani saqlaydigan tezlikda."
+      },
+      {
+        "id": "cmr6bp143009zubcwsgofwppt",
+        "textPl": "Z taką, aby utrzymywć, co najmniej 5 m odstępu.",
+        "textUz": "Kamida 5 metr masofani saqlaydigan tezlikda."
+      }
+    ]
+  },
+  {
+    "id": "cmr6bp14b00a0ubcw34c1f4ed",
+    "textPl": "Jaki minimalny odstęp masz obowiązek zachować od jadącego przed Tobą pojazdu, jeżeli poruszasz się samochodem osobowym tą drogą z maksymalną dozwoloną prędkością?",
+    "textUz": "Agar bu yo'lda yengil avtomobilda maksimal ruxsat etilgan tezlikda harakatlansangiz, oldingizda ketayotgan transport vositasidan qanday minimal masofa saqlash majburiyati bor?",
+    "category": "Umumiy qoidalar",
+    "options": [
+      {
+        "id": "cmr6bp14b00a1ubcw805hd949",
+        "textPl": "60 m.",
+        "textUz": "60 metr."
+      },
+      {
+        "id": "cmr6bp14b00a2ubcwq44hu0jx",
+        "textPl": "70 m.",
+        "textUz": "70 metr."
+      },
+      {
+        "id": "cmr6bp14b00a3ubcw3vpbltky",
+        "textPl": "80 m.",
+        "textUz": "80 metr."
+      }
+    ]
+  },
+  {
+    "id": "cmr6bp14h00a4ubcwoweh6yck",
+    "textPl": "Jaki odstęp od poprzedzającego pojazdu należy zachować kierując samochodem osobowym tą drogą?",
+    "textUz": "Bu yo'lda yengil avtomobilni haydaganingizda oldingi transport vositasidan qanday masofa saqlash kerak?",
+    "category": "Umumiy qoidalar",
+    "options": [
+      {
+        "id": "cmr6bp14h00a5ubcw1lw9sku9",
+        "textPl": "Co najmniej 30 m, jeżeli poruszam się z prędkością 60 km/h.",
+        "textUz": "60 km/soat tezlikda harakatlansam, kamida 30 metr."
+      },
+      {
+        "id": "cmr6bp14h00a6ubcw7s4d0wm9",
+        "textPl": "Niezbędny do uniknięcia zderzenia w razie hamowania lub zatrzymania się poprzedzającego pojazdu.",
+        "textUz": "Oldingi transport vositasi tormozlagan yoki to'xtagan taqdirda to'qnashuvning oldini olish uchun zarur masofa."
+      },
+      {
+        "id": "cmr6bp14h00a7ubcwnsl3r4do",
+        "textPl": "Dowolny, jeżeli pojazd poprzedzający jadący tym samym pasem ruchu porusza się ze stałą prędkością.",
+        "textUz": "Agar bir xil yo'lakdan ketayotgan oldingi transport vositasi doimiy tezlikda harakatlansa, ixtiyoriy."
+      }
+    ]
+  },
+  {
+    "id": "cmr6bp14o00a8ubcwshs1048s",
+    "textPl": "Z jaką prędkością wolno poruszać się tak oznakowaną drogą jednojezdniową kierując samochodem osobowym?",
+    "textUz": "Shunday belgilangan bir yo'lakli yo'lda yengil avtomobilni qanday tezlikda haydash mumkin?",
+    "category": "Yo'l belgilari",
+    "options": [
+      {
+        "id": "cmr6bp14p00a9ubcwnn8c3nvy",
+        "textPl": "140 km/h.",
+        "textUz": "140 km/soat."
+      },
+      {
+        "id": "cmr6bp14p00aaubcwtnkibvps",
+        "textPl": "100 km/h.",
+        "textUz": "100 km/soat."
+      },
+      {
+        "id": "cmr6bp14p00abubcwrxay4pt3",
+        "textPl": "120 km/h.",
+        "textUz": "120 km/soat."
+      }
+    ]
+  },
+  {
+    "id": "cmr6bp14x00acubcw933xh2og",
+    "textPl": "Jaka jest dopuszczalna prędkość samochodu osobowego z przyczepą na tak oznakowanej drodze?",
+    "textUz": "Shunday belgilangan yo'lda tirkamali yengil avtomobilning ruxsat etilgan tezligi qancha?",
+    "category": "Yo'l belgilari",
+    "options": [
+      {
+        "id": "cmr6bp14y00adubcwi4jifq76",
+        "textPl": "70 km/h za znakiem zakazu.",
+        "textUz": "Taqiq belgisidan keyin 70 km/soat."
+      },
+      {
+        "id": "cmr6bp14y00aeubcwm1i9hjh1",
+        "textPl": "50 km/h.",
+        "textUz": "50 km/soat."
+      },
+      {
+        "id": "cmr6bp14y00afubcwk95z7sqm",
+        "textPl": "40 km/h.",
+        "textUz": "40 km/soat."
+      }
+    ]
+  },
+  {
+    "id": "cmr6bp15400agubcwheum0rto",
+    "textPl": "Z jaką maksymalną prędkością kierującemu samochodem osobowym z przyczepą wolno jechać po tej drodze poza obszarem zabudowanym?",
+    "textUz": "Aholi punktidan tashqarida bu yo'lda tirkamali yengil avtomobil haydovchisi qanday maksimal tezlikda yurishi mumkin?",
+    "category": "Umumiy qoidalar",
+    "options": [
+      {
+        "id": "cmr6bp15400ahubcwzhdxy7cf",
+        "textPl": "80 km/h.",
+        "textUz": "80 km/soat."
+      },
+      {
+        "id": "cmr6bp15400aiubcwzspxuvbj",
+        "textPl": "100 km/h.",
+        "textUz": "100 km/soat."
+      },
+      {
+        "id": "cmr6bp15400ajubcwt928msdd",
+        "textPl": "90 km/h.",
+        "textUz": "90 km/soat."
+      }
+    ]
+  },
+  {
+    "id": "cmr6bp15b00akubcwjd60c3y9",
+    "textPl": "Z jaką prędkością wolno kontynuować jazdę samochodem osobowym za tymi znakami?",
+    "textUz": "Bu belgilardan keyin yengil avtomobilda haydashni qanday tezlikda davom ettirish mumkin?",
+    "category": "Yo'l belgilari",
+    "options": [
+      {
+        "id": "cmr6bp15b00alubcwgruwjul3",
+        "textPl": "30 km/h do najbliższego skrzyżowania a następnie 50 km/h.",
+        "textUz": "Eng yaqin chorrahagacha 30 km/soat, so'ngra 50 km/soat."
+      },
+      {
+        "id": "cmr6bp15b00amubcw67kjz7l4",
+        "textPl": "30 km/h do tablicy z nazwą początku miejscowości a następnie 90 km/h.",
+        "textUz": "Aholi punkti boshlanishi nomi yozilgan taxtachagacha 30 km/soat, so'ngra 90 km/soat."
+      },
+      {
+        "id": "cmr6bp15c00anubcwkfxq1b4z",
+        "textPl": "30 km/h na całym odcinku drogi biegnącej na obszarze zabudowanym.",
+        "textUz": "Aholi punkti orqali o'tuvchi yo'lning butun qismida 30 km/soat."
+      }
+    ]
+  },
+  {
+    "id": "cmr6bp15k00aoubcwcjf1ovae",
+    "textPl": "Czy stan i ładunek pojazdu są czynnikami które należy uwzględniać podczas dobierania prędkości jazdy?",
+    "textUz": "Transport vositasining holati va yuki haydash tezligini tanlashda hisobga olinishi kerak bo'lgan omillarmi?",
+    "category": "Umumiy qoidalar",
+    "options": [
+      {
+        "id": "cmr6bp15k00apubcwkqw7j1jn",
+        "textPl": "Tak",
+        "textUz": "Ha."
+      },
+      {
+        "id": "cmr6bp15k00aqubcwpu87ww1b",
+        "textPl": "Tak, ale tylko jeżeli kierujesz samochodem ciężarowym.",
+        "textUz": "Ha, ammo faqat yuk mashinasini haydasangiz."
+      },
+      {
+        "id": "cmr6bp15k00arubcwxndui72h",
+        "textPl": "Tak, ale tylko w przypadku oblodzonej nawierzchni jezdni.",
+        "textUz": "Ha, ammo faqat yo'l yuzasi muzlagan bo'lsa."
+      }
+    ]
+  },
+  {
+    "id": "cmr6bp15r00asubcwnldgcm6q",
+    "textPl": "Czy warunki atmosferyczne to czynnik, który należy uwzględniać podczas dobierania prędkości jazdy?",
+    "textUz": "Ob-havo sharoiti haydash tezligini tanlashda hisobga olinishi kerak bo'lgan omilmi?",
+    "category": "Umumiy qoidalar",
+    "options": [
+      {
+        "id": "cmr6bp15s00atubcwcbadpsh5",
+        "textPl": "Nie",
+        "textUz": "Yo'q."
+      },
+      {
+        "id": "cmr6bp15s00auubcwpt0qb1xx",
+        "textPl": "Tak, ale tylko przy dużym natężeniu ruchu na drodze.",
+        "textUz": "Ha, ammo faqat yo'lda harakat zichligi katta bo'lganda."
+      },
+      {
+        "id": "cmr6bp15s00avubcwkmhi2576",
+        "textPl": "Tak",
+        "textUz": "Ha."
+      }
+    ]
+  },
+  {
+    "id": "cmr6bp15z00awubcwsyuhy4mi",
+    "textPl": "Jaki odstęp należy utrzymać od poprzedzającego pojazdu w tej sytuacji?",
+    "textUz": "Bu vaziyatda oldingi transport vositasidan qanday masofa saqlash kerak?",
+    "category": "Umumiy qoidalar",
+    "options": [
+      {
+        "id": "cmr6bp15z00axubcwoz39ab9v",
+        "textPl": "Odstęp niezbędny do uniknięcia zderzenia w razie hamowania lub zatrzymania się poprzedzającego pojazdu.",
+        "textUz": "Oldingi transport vositasi tormozlagan yoki to'xtagan taqdirda to'qnashuvning oldini olish uchun zarur masofa."
+      },
+      {
+        "id": "cmr6bp15z00ayubcw05btpcmy",
+        "textPl": "Nie mniejszy niż 10 metrów.",
+        "textUz": "Kamida 10 metr."
+      },
+      {
+        "id": "cmr6bp15z00azubcwcb7fup53",
+        "textPl": "Nie większy niż 10 metrów.",
+        "textUz": "Ko'pi bilan 10 metr."
+      }
+    ]
+  },
+  {
+    "id": "cmr6bp16800b0ubcwvi8zw8cx",
+    "textPl": "Kierując samochodem osobowym podczas przewożenia osoby niepełnosprawnej legitymującej się kartą parkingową powinieneś:",
+    "textUz": "To'xtash kartasiga ega nogiron shaxsni tashiyotganingizda yengil avtomobilni haydaganda quyidagilarni bajarishingiz kerak:",
+    "category": "To'xtash va parking",
+    "options": [
+      {
+        "id": "cmr6bp16800b1ubcwi7ckb87f",
+        "textPl": "zawsze używać świateł mijania,",
+        "textUz": "har doim yaqin nur chiroqlaridan foydalanish,"
+      },
+      {
+        "id": "cmr6bp16800b2ubcw7exk99l1",
+        "textPl": "stale zachowywać szczególną ostrożność,",
+        "textUz": "doimiy alohida ehtiyotkorlik ko'rsatish,"
+      },
+      {
+        "id": "cmr6bp16800b3ubcwj5te6vm1",
+        "textPl": "obserwować drogę i jej otoczenie, również w lusterkach pojazdu.",
+        "textUz": "yo'lni va uning atrofini, shu jumladan transport vositasi oynalarida ham kuzatish."
+      }
+    ]
+  },
+  {
+    "id": "cmr6bp16k00b4ubcwnfdvd94n",
+    "textPl": "W jakich warunkach masz prawo włączyć tylne światła przeciwmgłowe?",
+    "textUz": "Qanday sharoitda orqa tumanga qarshi chiroqlarni yoqish huquqingiz bor?",
+    "category": "Svetofor va yorug'lik",
+    "options": [
+      {
+        "id": "cmr6bp16k00b5ubcwuodulapf",
+        "textPl": "Gdy widoczność w obfitym deszczu jest ograniczona do 60 m.",
+        "textUz": "Kuchli yomg'irda ko'rinish 60 metrgacha cheklanganda."
+      },
+      {
+        "id": "cmr6bp16k00b6ubcw5ur0svt2",
+        "textPl": "Gdy widoczność w gęstej mgle jest ograniczona do 100 m.",
+        "textUz": "Qalin tumanda ko'rinish 100 metrgacha cheklanganda."
+      },
+      {
+        "id": "cmr6bp16k00b7ubcw2vlv1ku9",
+        "textPl": "Gdy widoczność podczas opadów śniegu jest mniejsza niż 50 m.",
+        "textUz": "Qor yog'ganda ko'rinish 50 metrdan kam bo'lganda."
+      }
+    ]
+  },
+  {
+    "id": "cmr6bp16s00b8ubcwrwe4376r",
+    "textPl": "Czy za widocznymi znakami wolno zwiększyć prędkość do 90 km/h?",
+    "textUz": "Ko'rinib turgan belgilardan keyin tezlikni 90 km/soatgacha oshirish mumkinmi?",
+    "category": "Yo'l belgilari",
+    "options": [
+      {
+        "id": "cmr6bp16s00b9ubcw8fnesh6y",
+        "textPl": "Tak, ponieważ wjeżdżasz na drogę ekspresową.",
+        "textUz": "Ha, chunki tezyurar yo'lga kiryapsiz."
+      },
+      {
+        "id": "cmr6bp16s00baubcwxx07zhnw",
+        "textPl": "Tak, ponieważ opuszczasz obszar zabudowany.",
+        "textUz": "Ha, chunki aholi punktidan chiqyapsiz."
+      },
+      {
+        "id": "cmr6bp16s00bbubcwa3j1vubj",
+        "textPl": "Nie, ponieważ tabliczka wskazuje, że na drogę ekspresową wjeżdżasz dopiero za 450 metrów.",
+        "textUz": "Yo'q, chunki taxtacha tezyurar yo'lga faqat 450 metrdan keyin kirishingizni ko'rsatadi."
+      }
+    ]
+  }
+]

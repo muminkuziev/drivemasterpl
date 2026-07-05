@@ -1,0 +1,16 @@
+[
+  {"code": "DB-1", "file": "Antilock Braking System.svg", "namePl": "System ABS (przeciwblokujący)", "nameUz": "ABS (bloklanishga qarshi tizim)", "descriptionUz": "Yonib turishi ABS tizimidagi nosozlikni bildiradi."},
+  {"code": "DB-2", "file": "Auxiliary battery charging failure.svg", "namePl": "Awaria ładowania akumulatora", "nameUz": "Akkumulyatorni zaryadlash nosozligi", "descriptionUz": "Akkumulyator zaryadlanish tizimida muammo borligini bildiradi."},
+  {"code": "DB-3", "file": "B01 Brake failure.svg", "namePl": "Awaria hamulców", "nameUz": "Tormoz tizimi nosozligi", "descriptionUz": "Tormoz tizimida jiddiy nosozlik — darhol tekshirish kerak."},
+  {"code": "DB-4", "file": "B02 Parking brake indication.svg", "namePl": "Hamulec ręczny (postojowy) włączony", "nameUz": "Qo'l (statsionar) tormoz yoqilgan", "descriptionUz": "Qo'l tormozi hali qo'yilgan holatda ekanini bildiradi."},
+  {"code": "DB-5", "file": "B13 Brake fluid level low.svg", "namePl": "Niski poziom płynu hamulcowego", "nameUz": "Tormoz suyuqligi darajasi past", "descriptionUz": "Tormoz suyuqligini tekshirish va to'ldirish kerak."},
+  {"code": "DB-6", "file": "A16 Turn signals.svg", "namePl": "Kierunkowskazy", "nameUz": "Burilish chiroqlari", "descriptionUz": "Chapga yoki o'ngga burilish signali yoqilganini bildiradi."},
+  {"code": "DB-7", "file": "A19 Hazard warning.svg", "namePl": "Światła awaryjne", "nameUz": "Avariya chiroqlari", "descriptionUz": "Barcha burilish chiroqlari bir vaqtda miltillayotganini bildiradi."},
+  {"code": "DB-8", "file": "A01 High Beam Indicator.svg", "namePl": "Światła drogowe", "nameUz": "Uzoq nur chiroqlari", "descriptionUz": "Uzoq nur (drogowe) chiroqlari yoqilganini bildiradi."},
+  {"code": "DB-9", "file": "A05 Front fog light.svg", "namePl": "Przednie światła przeciwmgłowe", "nameUz": "Old tumanga qarshi chiroqlar", "descriptionUz": "Old tumanga qarshi chiroqlar yoqilganini bildiradi."},
+  {"code": "DB-10", "file": "A06 Rear fog light.svg", "namePl": "Tylne światła przeciwmgłowe", "nameUz": "Orqa tumanga qarshi chiroqlar", "descriptionUz": "Orqa tumanga qarshi chiroqlar yoqilganini bildiradi."},
+  {"code": "DB-11", "file": "Seatbelt.svg", "namePl": "Pas bezpieczeństwa niezapięty", "nameUz": "Xavfsizlik kamari taqilmagan", "descriptionUz": "Haydovchi yoki yo'lovchi xavfsizlik kamarini taqmaganini bildiradi."},
+  {"code": "DB-12", "file": "Cruise Control.svg", "namePl": "Tempomat (aktywny)", "nameUz": "Kruiz-nazorat faol", "descriptionUz": "Doimiy tezlikni saqlash tizimi (tempomat) yoqilganini bildiradi."},
+  {"code": "DB-13", "file": "Electrical fault.svg", "namePl": "Usterka układu elektrycznego", "nameUz": "Elektr tizimida nosozlik", "descriptionUz": "Transport vositasining elektr tizimida umumiy nosozlik borligini bildiradi."},
+  {"code": "DB-14", "file": "Immobiliser.svg", "namePl": "Immobiliser (blokada rozruchu)", "nameUz": "Immobilayzer (ishga tushirishni bloklovchi tizim)", "descriptionUz": "O'g'irlikdan himoya tizimi faolligini yoki nosozligini bildiradi."}
+]

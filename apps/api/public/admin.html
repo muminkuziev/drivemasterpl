@@ -1,0 +1,136 @@
+<!doctype html>
+<html lang="uz">
+<head>
+<meta charset="UTF-8" />
+<title>DriveMaster Admin</title>
+<style>
+  body { font-family: system-ui, sans-serif; max-width: 900px; margin: 2rem auto; padding: 0 1rem; }
+  h1 { font-size: 1.4rem; }
+  section { border: 1px solid #ccc; border-radius: 8px; padding: 1rem; margin-bottom: 1.5rem; }
+  input, select, textarea { width: 100%; box-sizing: border-box; padding: 0.5rem; margin: 0.3rem 0; }
+  textarea { min-height: 140px; font-family: monospace; }
+  button { padding: 0.5rem 1rem; cursor: pointer; }
+  table { width: 100%; border-collapse: collapse; }
+  th, td { border-bottom: 1px solid #ddd; padding: 0.4rem; text-align: left; font-size: 0.9rem; }
+  .msg { font-size: 0.9rem; margin-top: 0.5rem; }
+  .msg.ok { color: green; }
+  .msg.err { color: crimson; }
+</style>
+</head>
+<body>
+<h1>DriveMaster — Admin</h1>
+
+<section id="login-section">
+  <h2>Kirish</h2>
+  <input id="token-input" type="password" placeholder="Admin token" />
+  <button onclick="saveToken()">Kirish</button>
+</section>
+
+<section id="users-section" style="display:none">
+  <h2>Foydalanuvchilar</h2>
+  <button onclick="loadUsers()">Yangilash</button>
+  <table id="users-table">
+    <thead><tr><th>Telegram ID</th><th>Premium</th><th>Yaratilgan</th><th>Amal</th></tr></thead>
+    <tbody></tbody>
+  </table>
+</section>
+
+<section id="import-section" style="display:none">
+  <h2>Kontent import (JSON)</h2>
+  <select id="import-type">
+    <option value="cities">Shaharlar (cities)</option>
+    <option value="psych-centers">Psixolog markazlar (psychCenters)</option>
+    <option value="instructors">Instruktorlar (instructors)</option>
+    <option value="theory-questions">Teoriya savollari (theoryQuestions)</option>
+    <option value="psych-questions">Psixologik savollar (psychQuestions)</option>
+    <option value="theory-videos">Videolar (theoryVideos)</option>
+  </select>
+  <textarea id="import-json" placeholder='[{"name": "Warszawa", "difficultyScore": 2, "notes": "..."}]'></textarea>
+  <button onclick="submitImport()">Import qilish</button>
+  <div id="import-msg" class="msg"></div>
+</section>
+
+<script>
+  function getToken() { return localStorage.getItem('dm_admin_token') || ''; }
+
+  function saveToken() {
+    const t = document.getElementById('token-input').value.trim();
+    if (!t) return;
+    localStorage.setItem('dm_admin_token', t);
+    afterLogin();
+  }
+
+  function afterLogin() {
+    document.getElementById('users-section').style.display = 'block';
+    document.getElementById('import-section').style.display = 'block';
+    loadUsers();
+  }
+
+  async function api(path, options = {}) {
+    const res = await fetch(path, {
+      ...options,
+      headers: {
+        'x-admin-token': getToken(),
+        'Content-Type': 'application/json',
+        ...(options.headers || {}),
+      },
+    });
+    if (res.status === 401) {
+      localStorage.removeItem('dm_admin_token');
+      alert('Token noto\'g\'ri. Qayta kiriting.');
+      location.reload();
+      throw new Error('Unauthorized');
+    }
+    const data = await res.json().catch(() => ({}));
+    if (!res.ok) throw new Error(data.message || 'Xatolik yuz berdi');
+    return data;
+  }
+
+  async function loadUsers() {
+    const users = await api('/admin/users');
+    const tbody = document.querySelector('#users-table tbody');
+    tbody.innerHTML = '';
+    for (const u of users) {
+      const tr = document.createElement('tr');
+      tr.innerHTML = `
+        <td>${u.telegramId}</td>
+        <td>${u.isPremium ? '✅' : '—'}</td>
+        <td>${new Date(u.createdAt).toLocaleString()}</td>
+        <td><button onclick="togglePremium('${u.id}', ${!u.isPremium})">${u.isPremium ? 'Bekor qilish' : 'Premium berish'}</button></td>
+      `;
+      tbody.appendChild(tr);
+    }
+  }
+
+  async function togglePremium(id, grant) {
+    await api(`/admin/users/${id}/${grant ? 'grant-premium' : 'revoke-premium'}`, { method: 'POST' });
+    loadUsers();
+  }
+
+  async function submitImport() {
+    const type = document.getElementById('import-type').value;
+    const msgEl = document.getElementById('import-msg');
+    msgEl.textContent = '';
+    msgEl.className = 'msg';
+    let body;
+    try {
+      body = JSON.parse(document.getElementById('import-json').value);
+    } catch (e) {
+      msgEl.textContent = 'JSON noto\'g\'ri formatda: ' + e.message;
+      msgEl.className = 'msg err';
+      return;
+    }
+    try {
+      const result = await api(`/admin/import/${type}`, { method: 'POST', body: JSON.stringify(body) });
+      msgEl.textContent = `Muvaffaqiyatli: ${result.imported} ta yozuv import qilindi.`;
+      msgEl.className = 'msg ok';
+    } catch (e) {
+      msgEl.textContent = 'Xatolik: ' + e.message;
+      msgEl.className = 'msg err';
+    }
+  }
+
+  if (getToken()) afterLogin();
+</script>
+</body>
+</html>

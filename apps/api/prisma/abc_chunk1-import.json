@@ -1,0 +1,1002 @@
+[
+  {
+    "textPl": "Jak długo należy prowadzić uciskanie klatki piersiowej i sztuczne oddychanie u osoby z nagłym zatrzymaniem krążenia?",
+    "textUz": "Yurak to'satdan to'xtab qolgan odamda ko'krak qafasini bosish va sun'iy nafas olishni qancha davom ettirish kerak?",
+    "category": "To'xtash va parking",
+    "isPremium": true,
+    "mediaFileName": "R_144org.jpg",
+    "mediaType": "photo",
+    "options": [
+      {
+        "textPl": "Do momentu przyjazdu zespołu ratownictwa medycznego.",
+        "textUz": "Tibbiy yordam brigadasi kelguncha.",
+        "isCorrect": true
+      },
+      {
+        "textPl": "Przez 15 minut.",
+        "textUz": "15 daqiqa davomida.",
+        "isCorrect": false
+      },
+      {
+        "textPl": "Dopóki ciało poszkodowanego zachowuje właściwą ciepłotę.",
+        "textUz": "Jabrlanuvchining tanasi tegishli issiqlikni saqlab turguncha.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "textPl": "Jak długo należy ręcznie stabilizować głowę poszkodowanego z podejrzeniem urazu kręgosłupa szyjnego?",
+    "textUz": "Bo'yin umurtqasi jarohati gumon qilingan jabrlanuvchining boshini qo'lda qancha vaqt mustahkamlab turish kerak?",
+    "category": "Umumiy qoidalar",
+    "isPremium": true,
+    "mediaFileName": "R_030org.jpg",
+    "mediaType": "photo",
+    "options": [
+      {
+        "textPl": "Aż zacznie nią poruszać.",
+        "textUz": "U boshini harakatlantira boshlaguncha.",
+        "isCorrect": false
+      },
+      {
+        "textPl": "Do przejęcia stabilizacji przez członka zespołu ratownictwa medycznego.",
+        "textUz": "Tibbiy yordam brigadasi a'zosi mustahkamlashni o'z zimmasiga olguncha.",
+        "isCorrect": true
+      },
+      {
+        "textPl": "Do czasu stwierdzenia ruchomości jego nóg.",
+        "textUz": "Uning oyoqlarining harakatchanligi aniqlanguncha.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "textPl": "Z jaką dopuszczalną maksymalną prędkością wolno Ci kierować samochodem osobowym z przyczepą po drodze za tym znakiem?",
+    "textUz": "Bu belgidan keyingi yo'lda tirkama bilan yengil avtomobilni qanday maksimal ruxsat etilgan tezlikda boshqarish mumkin?",
+    "category": "Yo'l belgilari",
+    "isPremium": true,
+    "mediaFileName": "IMG_7802d8_a_org.jpg",
+    "mediaType": "photo",
+    "options": [
+      {
+        "textPl": "70 km/h.",
+        "textUz": "70 km/soat.",
+        "isCorrect": false
+      },
+      {
+        "textPl": "80 km/h.",
+        "textUz": "80 km/soat.",
+        "isCorrect": true
+      },
+      {
+        "textPl": "140 km/h.",
+        "textUz": "140 km/soat.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "textPl": "Z jaką maksymalną dopuszczalną prędkością wolno Ci kierować samochodem osobowym po drodze za tym znakiem?",
+    "textUz": "Bu belgidan keyingi yo'lda yengil avtomobilni qanday maksimal ruxsat etilgan tezlikda boshqarish mumkin?",
+    "category": "Yo'l belgilari",
+    "isPremium": true,
+    "mediaFileName": "IMG_7802d8_a_org.jpg",
+    "mediaType": "photo",
+    "options": [
+      {
+        "textPl": "120 km/h.",
+        "textUz": "120 km/soat.",
+        "isCorrect": false
+      },
+      {
+        "textPl": "130 km/h.",
+        "textUz": "130 km/soat.",
+        "isCorrect": false
+      },
+      {
+        "textPl": "140 km/h.",
+        "textUz": "140 km/soat.",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "textPl": "Z jaką maksymalną dopuszczalną prędkością wolno Ci kierować samochodem osobowym po drodze za tym znakiem?",
+    "textUz": "Bu belgidan keyingi yo'lda yengil avtomobilni qanday maksimal ruxsat etilgan tezlikda boshqarish mumkin?",
+    "category": "Yo'l belgilari",
+    "isPremium": true,
+    "mediaFileName": "0978D14MM koniec obszaruorgbm.jpg",
+    "mediaType": "photo",
+    "options": [
+      {
+        "textPl": "70 km/h.",
+        "textUz": "70 km/soat.",
+        "isCorrect": false
+      },
+      {
+        "textPl": "100 km/h.",
+        "textUz": "100 km/soat.",
+        "isCorrect": false
+      },
+      {
+        "textPl": "90 km/h.",
+        "textUz": "90 km/soat.",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "textPl": "Z jaką maksymalną dopuszczalną prędkością wolno Ci kierować samochodem osobowym po drodze za tym znakiem?",
+    "textUz": "Bu belgidan keyingi yo'lda yengil avtomobilni qanday maksimal ruxsat etilgan tezlikda boshqarish mumkin?",
+    "category": "Yo'l belgilari",
+    "isPremium": true,
+    "mediaFileName": "3475D15orgbm.jpg",
+    "mediaType": "photo",
+    "options": [
+      {
+        "textPl": "20 km/h.",
+        "textUz": "20 km/soat.",
+        "isCorrect": true
+      },
+      {
+        "textPl": "30 km/h.",
+        "textUz": "30 km/soat.",
+        "isCorrect": false
+      },
+      {
+        "textPl": "50 km/h.",
+        "textUz": "50 km/soat.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "textPl": "Z jaką maksymalną dopuszczalną prędkością wolno Ci kierować samochodem osobowym po drodze za tym znakiem?",
+    "textUz": "Bu belgidan keyingi yo'lda yengil avtomobilni qanday maksimal ruxsat etilgan tezlikda boshqarish mumkin?",
+    "category": "Yo'l belgilari",
+    "isPremium": true,
+    "mediaFileName": "0229D14MM_a - dr.eksp.dwujezd._org.jpg",
+    "mediaType": "photo",
+    "options": [
+      {
+        "textPl": "110 km/h.",
+        "textUz": "110 km/soat.",
+        "isCorrect": false
+      },
+      {
+        "textPl": "120 km/h.",
+        "textUz": "120 km/soat.",
+        "isCorrect": true
+      },
+      {
+        "textPl": "140 km/h.",
+        "textUz": "140 km/soat.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "textPl": "Na którym zdjęciu zagłówek jest dobrze ustawiony?",
+    "textUz": "Qaysi rasmda bosh suyanchig'i to'g'ri o'rnatilgan?",
+    "category": "Umumiy qoidalar",
+    "isPremium": true,
+    "mediaFileName": "zagłówekorg.jpg",
+    "mediaType": "photo",
+    "options": [
+      {
+        "textPl": "A",
+        "textUz": "A",
+        "isCorrect": true
+      },
+      {
+        "textPl": "B",
+        "textUz": "B",
+        "isCorrect": false
+      },
+      {
+        "textPl": "C",
+        "textUz": "C",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "textPl": "Jedziesz z prędkością 80 km/h. Jaka pozycja początkowa zapewni Ci optymalny tor jazdy po zakręcie?",
+    "textUz": "80 km/soat tezlikda ketayapsiz. Burilishda optimal harakat yo'nalishini qanday boshlang'ich holat ta'minlaydi?",
+    "category": "Umumiy qoidalar",
+    "isPremium": true,
+    "mediaFileName": "IMG_0027orgbm.jpg",
+    "mediaType": "photo",
+    "options": [
+      {
+        "textPl": "Na środku drogi, z częściowym przekroczeniem widocznej linii.",
+        "textUz": "Yo'lning o'rtasida, ko'rinib turgan chiziqni qisman kesib o'tgan holda.",
+        "isCorrect": false
+      },
+      {
+        "textPl": "Przy linii rozdzielającej pasy ruchu - na prawej połowie jezdni.",
+        "textUz": "Yo'laklarni ajratuvchi chiziq yonida — yo'lning o'ng yarmida.",
+        "isCorrect": true
+      },
+      {
+        "textPl": "Przy prawej krawędzi jezdni.",
+        "textUz": "Yo'lning o'ng chetida.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "textPl": "Jedziesz z prędkością 90 km/h. Jaka pozycja początkowa zapewni Ci optymalny tor jazdy po zakręcie?",
+    "textUz": "90 km/soat tezlikda ketayapsiz. Burilishda optimal harakat yo'nalishini qanday boshlang'ich holat ta'minlaydi?",
+    "category": "Umumiy qoidalar",
+    "isPremium": true,
+    "mediaFileName": "IMG_9130d8orgbm.jpg",
+    "mediaType": "photo",
+    "options": [
+      {
+        "textPl": "Na środku jezdni, z częściowym przekroczeniem widocznej linii.",
+        "textUz": "Yo'lning o'rtasida, ko'rinib turgan chiziqni qisman kesib o'tgan holda.",
+        "isCorrect": false
+      },
+      {
+        "textPl": "Przy linii rozdzielającej pasy ruchu - na prawej połowie jezdni.",
+        "textUz": "Yo'laklarni ajratuvchi chiziq yonida — yo'lning o'ng yarmida.",
+        "isCorrect": false
+      },
+      {
+        "textPl": "Przy prawej krawędzi jezdni.",
+        "textUz": "Yo'lning o'ng chetida.",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "textPl": "O czym ostrzega, świecąca się na czerwono w czasie jazdy samochodem osobowym, lampka kontrolna z symbolem akumulatora?",
+    "textUz": "Yengil avtomobilni haydash vaqtida qizil rangda yonayotgan akkumulyator belgili nazorat chirog'i nima haqida ogohlantiradi?",
+    "category": "Umumiy qoidalar",
+    "isPremium": true,
+    "mediaFileName": "B9(42)org.jpg",
+    "mediaType": "photo",
+    "options": [
+      {
+        "textPl": "O uszkodzeniu akumulatora.",
+        "textUz": "Akkumulyatorning shikastlanishi haqida.",
+        "isCorrect": false
+      },
+      {
+        "textPl": "O całkowitym rozładowaniu się akumulatora.",
+        "textUz": "Akkumulyatorning to'liq quvvatsizlanishi haqida.",
+        "isCorrect": false
+      },
+      {
+        "textPl": "O nieprawidłowo działającym ładowaniu akumulatora.",
+        "textUz": "Akkumulyatorni noto'g'ri zaryadlash haqida.",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "textPl": "Który z wymienionych skutków może zostać wywołany przez kontynuowanie jazdy przy świecącej się na czerwono lampce kontrolnej ciśnienia oleju silnikowego?",
+    "textUz": "Dvigatel moyi bosimi qizil rangda yonib turganda haydashni davom ettirish quyidagi oqibatlardan qaysi birini keltirib chiqarishi mumkin?",
+    "category": "Umumiy qoidalar",
+    "isPremium": true,
+    "mediaFileName": "B9(41,43,44)org.jpg",
+    "mediaType": "photo",
+    "options": [
+      {
+        "textPl": "Poważne uszkodzenie silnika.",
+        "textUz": "Dvigatelning jiddiy shikastlanishi.",
+        "isCorrect": true
+      },
+      {
+        "textPl": "Uszkodzenie hamulców.",
+        "textUz": "Tormozlarning shikastlanishi.",
+        "isCorrect": false
+      },
+      {
+        "textPl": "Uszkodzenie mechanizmów przeniesienia napędu.",
+        "textUz": "Uzatma mexanizmlarining shikastlanishi.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "textPl": "Która osoba ma obowiązek korzystania z pasów bezpieczeństwa?",
+    "textUz": "Qaysi shaxs xavfsizlik kamarlaridan foydalanish majburiyatiga ega?",
+    "category": "Umumiy qoidalar",
+    "isPremium": true,
+    "mediaFileName": "B2(27,28,30,31)org.jpg",
+    "mediaType": "photo",
+    "options": [
+      {
+        "textPl": "Osoba przewożona na wózku inwalidzkim.",
+        "textUz": "Nogironlar aravachasida tashilayotgan shaxs.",
+        "isCorrect": false
+      },
+      {
+        "textPl": "Kierujący pojazdem.",
+        "textUz": "Transport vositasi haydovchisi.",
+        "isCorrect": true
+      },
+      {
+        "textPl": "Kobieta w widocznej ciąży.",
+        "textUz": "Ko'rinib turgan homilador ayol.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "textPl": "Jaką funkcję pełni dobrze ustawiony zagłówek w razie wypadku drogowego?",
+    "textUz": "Yo'l-transport hodisasi vaqtida to'g'ri o'rnatilgan bosh suyanchig'i qanday vazifani bajaradi?",
+    "category": "Umumiy qoidalar",
+    "isPremium": true,
+    "mediaFileName": "B2(29)org.jpg",
+    "mediaType": "photo",
+    "options": [
+      {
+        "textPl": "Chroni czubek głowy.",
+        "textUz": "Bosh cho'qqisini himoya qiladi.",
+        "isCorrect": false
+      },
+      {
+        "textPl": "Chroni kręgi szyjne.",
+        "textUz": "Bo'yin umurtqalarini himoya qiladi.",
+        "isCorrect": true
+      },
+      {
+        "textPl": "Chroni plecy.",
+        "textUz": "Orqani himoya qiladi.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "textPl": "Jaki wpływ ma stosowanie pasów bezpieczeństwa na powstanie obrażeń ciężkich przy zderzeniach czołowych?",
+    "textUz": "Xavfsizlik kamarlaridan foydalanish frontal to'qnashuvlarda og'ir jarohatlar paydo bo'lishiga qanday ta'sir qiladi?",
+    "category": "Umumiy qoidalar",
+    "isPremium": true,
+    "mediaFileName": "B2(27,28,30,31)org.jpg",
+    "mediaType": "photo",
+    "options": [
+      {
+        "textPl": "zmniejsza ryzyko powstania obrażeń ciężkich lub śmiertelnych.",
+        "textUz": "og'ir yoki o'lim bilan tugaydigan jarohatlar xavfini kamaytiradi.",
+        "isCorrect": true
+      },
+      {
+        "textPl": "zwiększa ryzyko powstania obrażeń lekkich.",
+        "textUz": "yengil jarohatlar xavfini oshiradi.",
+        "isCorrect": false
+      },
+      {
+        "textPl": "nie ma wpływu na ryzyko powstania obrażeń bez względu na ich rodzaj.",
+        "textUz": "jarohatlarning turi qanday bo'lishidan qat'i nazar xavfga ta'sir qilmaydi.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "textPl": "W której sytuacji zapięty pas bezpieczeństwa nie będzie działał właściwie?",
+    "textUz": "Qanday holatda taqilgan xavfsizlik kamari to'g'ri ishlamaydi?",
+    "category": "Umumiy qoidalar",
+    "isPremium": true,
+    "mediaFileName": "B2(27,28,30,31)org.jpg",
+    "mediaType": "photo",
+    "options": [
+      {
+        "textPl": "Gdy jest on skręcony.",
+        "textUz": "U burama bo'lganda.",
+        "isCorrect": true
+      },
+      {
+        "textPl": "Gdy jego górna część jest umieszczona poniżej szyi.",
+        "textUz": "Uning yuqori qismi bo'yindan pastda joylashganda.",
+        "isCorrect": false
+      },
+      {
+        "textPl": "Gdy jest on napięty.",
+        "textUz": "U tortilgan bo'lganda.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "textPl": "Z jaką prędkością masz obowiązek jechać na autostradzie?",
+    "textUz": "Avtomagistralda qanday tezlikda yurish majburiyatiga egasiz?",
+    "category": "Umumiy qoidalar",
+    "isPremium": true,
+    "mediaFileName": "2A109.jpg",
+    "mediaType": "photo",
+    "options": [
+      {
+        "textPl": "Co najmniej 40 km/h.",
+        "textUz": "Kamida 40 km/soat.",
+        "isCorrect": false
+      },
+      {
+        "textPl": "Co najmniej 60 km/h.",
+        "textUz": "Kamida 60 km/soat.",
+        "isCorrect": false
+      },
+      {
+        "textPl": "Bezpieczną, nieutrudniającą jazdy innym kierującym, jednak nie większą niż dopuszczalna.",
+        "textUz": "Xavfsiz, boshqa haydovchilarga xalaqit bermaydigan, ammo ruxsat etilgandan oshmaydigan tezlikda.",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "textPl": "Z jaką maksymalną dopuszczalną prędkością możesz jechać samochodem osobowym na drodze za tym znakiem?",
+    "textUz": "Bu belgidan keyingi yo'lda yengil avtomobilda qanday maksimal ruxsat etilgan tezlikda yurish mumkin?",
+    "category": "Yo'l belgilari",
+    "isPremium": true,
+    "mediaFileName": "2A101.jpg",
+    "mediaType": "photo",
+    "options": [
+      {
+        "textPl": "90 km/h.",
+        "textUz": "90 km/soat.",
+        "isCorrect": true
+      },
+      {
+        "textPl": "100 km/h.",
+        "textUz": "100 km/soat.",
+        "isCorrect": false
+      },
+      {
+        "textPl": "110 km/h.",
+        "textUz": "110 km/soat.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "textPl": "Z jaką maksymalną dopuszczalną prędkością możesz jechać na drodze za tym znakiem?",
+    "textUz": "Bu belgidan keyingi yo'lda qanday maksimal ruxsat etilgan tezlikda yurish mumkin?",
+    "category": "Yo'l belgilari",
+    "isPremium": true,
+    "mediaFileName": "2A113.jpg",
+    "mediaType": "photo",
+    "options": [
+      {
+        "textPl": "Do 50 km/h.",
+        "textUz": "50 km/soatgacha.",
+        "isCorrect": false
+      },
+      {
+        "textPl": "Do 30 km/h.",
+        "textUz": "30 km/soatgacha.",
+        "isCorrect": false
+      },
+      {
+        "textPl": "Do 20 km/h.",
+        "textUz": "20 km/soatgacha.",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "textPl": "Jak powinien być ustawiony zagłówek?",
+    "textUz": "Bosh suyanchig'i qanday o'rnatilishi kerak?",
+    "category": "Umumiy qoidalar",
+    "isPremium": true,
+    "mediaFileName": "2A205.jpg",
+    "mediaType": "photo",
+    "options": [
+      {
+        "textPl": "Tak, aby jego górna część znajdowała się na wysokości czubka głowy.",
+        "textUz": "Uning yuqori qismi bosh cho'qqisi balandligida bo'ladigan qilib.",
+        "isCorrect": true
+      },
+      {
+        "textPl": "Tak, aby jego górna część znajdowała się powyżej czubka głowy.",
+        "textUz": "Uning yuqori qismi bosh cho'qqisidan yuqorida bo'ladigan qilib.",
+        "isCorrect": false
+      },
+      {
+        "textPl": "Tak, aby jego górna część znajdowała się na wysokości szyi.",
+        "textUz": "Uning yuqori qismi bo'yin balandligida bo'ladigan qilib.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "textPl": "Jaką funkcję spełnia system przeciwblokujący (ABS)?",
+    "textUz": "Bloklanishga qarshi tormoz tizimi (ABS) qanday vazifani bajaradi?",
+    "category": "Umumiy qoidalar",
+    "isPremium": true,
+    "mediaFileName": "2A208.jpg",
+    "mediaType": "photo",
+    "options": [
+      {
+        "textPl": "Skraca drogę hamowania w każdych warunkach.",
+        "textUz": "Har qanday sharoitda tormozlash masofasini qisqartiradi.",
+        "isCorrect": false
+      },
+      {
+        "textPl": "Zapobiega zerwaniu przyczepności opon podczas przyspieszania.",
+        "textUz": "Tezlashish paytida shinalarning ilashishi uzilishining oldini oladi.",
+        "isCorrect": false
+      },
+      {
+        "textPl": "Ułatwia omijanie przeszkód w czasie hamowania.",
+        "textUz": "Tormozlash vaqtida to'siqlarni aylanib o'tishni osonlashtiradi.",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "textPl": "Jak osiągnąć najkrótszą drogę hamowania pojazdem wyposażonym w układ przeciwblokujący (ABS)?",
+    "textUz": "Bloklanishga qarshi tormoz tizimi (ABS) bilan jihozlangan transport vositasida eng qisqa tormozlash masofasiga qanday erishish mumkin?",
+    "category": "Umumiy qoidalar",
+    "isPremium": true,
+    "mediaFileName": "2A209.jpg",
+    "mediaType": "photo",
+    "options": [
+      {
+        "textPl": "Hamując pulsacyjnie.",
+        "textUz": "Impulsli tormozlash orqali.",
+        "isCorrect": false
+      },
+      {
+        "textPl": "Delikatnie wciskając pedał hamulca.",
+        "textUz": "Tormoz pedalini yumshoq bosish orqali.",
+        "isCorrect": false
+      },
+      {
+        "textPl": "Maksymalnie wciskając pedał hamulca.",
+        "textUz": "Tormoz pedalini maksimal darajada bosish orqali.",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "textPl": "Jaką funkcję spełnia układ przeciwblokujący (ABS) stosowany w pojazdach?",
+    "textUz": "Transport vositalarida qo'llaniladigan bloklanishga qarshi tormoz tizimi (ABS) qanday vazifani bajaradi?",
+    "category": "Umumiy qoidalar",
+    "isPremium": true,
+    "mediaFileName": "2A212.jpg",
+    "mediaType": "photo",
+    "options": [
+      {
+        "textPl": "Ułatwia zmianę toru jazdy w czasie hamowania.",
+        "textUz": "Tormozlash vaqtida harakat yo'nalishini o'zgartirishni osonlashtiradi.",
+        "isCorrect": true
+      },
+      {
+        "textPl": "W każdych warunkach skraca drogę hamowania.",
+        "textUz": "Har qanday sharoitda tormozlash masofasini qisqartiradi.",
+        "isCorrect": false
+      },
+      {
+        "textPl": "Zapobiega zerwaniu przyczepności kół napędowych podczas rozpędzania pojazdu.",
+        "textUz": "Transport vositasi tezlashayotganda yetakchi g'ildiraklarning ilashishi uzilishining oldini oladi.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "textPl": "Czy podczas jazdy w takich warunkach drogowych powinieneś korzystać z pasów bezpieczeństwa?",
+    "textUz": "Shunday yo'l sharoitida haydashda xavfsizlik kamaridan foydalanishingiz kerakmi?",
+    "category": "Umumiy qoidalar",
+    "isPremium": true,
+    "mediaFileName": "2A280.jpg",
+    "mediaType": "photo",
+    "options": [
+      {
+        "textPl": "Nie, gdy  poruszam się z niewielką prędkością.",
+        "textUz": "Yo'q, kichik tezlikda harakatlanganimda.",
+        "isCorrect": false
+      },
+      {
+        "textPl": "Tak, w każdym przypadku.",
+        "textUz": "Ha, har qanday holatda.",
+        "isCorrect": true
+      },
+      {
+        "textPl": "Tak, ale tylko w przypadku jazdy z prędkością  większą niż 50 km/h.",
+        "textUz": "Ha, ammo faqat 50 km/soatdan katta tezlikda yurganda.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "textPl": "Jak, w przybliżeniu, wzrasta długość drogi hamowania pojazdu przy dwukrotnie większej prędkości?",
+    "textUz": "Tezlik ikki baravar oshganda transport vositasining tormozlash masofasi taxminan qancha oshadi?",
+    "category": "Umumiy qoidalar",
+    "isPremium": true,
+    "mediaFileName": "2B104.jpg",
+    "mediaType": "photo",
+    "options": [
+      {
+        "textPl": "Czterokrotnie.",
+        "textUz": "To'rt baravar.",
+        "isCorrect": true
+      },
+      {
+        "textPl": "Trzykrotnie.",
+        "textUz": "Uch baravar.",
+        "isCorrect": false
+      },
+      {
+        "textPl": "Dwukrotnie.",
+        "textUz": "Ikki baravar.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "textPl": "Jaki minimalny odstęp od pojazdu poprzedzającego powinieneś zachować, stojąc w tunelu, w zatorze drogowym tzw korku?",
+    "textUz": "Tunnelda, tirbandlikda (probka) turganingizda oldingi transport vositasidan qanday minimal masofa saqlashingiz kerak?",
+    "category": "Umumiy qoidalar",
+    "isPremium": true,
+    "mediaFileName": "2B105.jpg",
+    "mediaType": "photo",
+    "options": [
+      {
+        "textPl": "3 m.",
+        "textUz": "3 metr.",
+        "isCorrect": false
+      },
+      {
+        "textPl": "5 m.",
+        "textUz": "5 metr.",
+        "isCorrect": true
+      },
+      {
+        "textPl": "7 m.",
+        "textUz": "7 metr.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "textPl": "Na co, przede wszystkim, powinieneś zwrócić uwagę podczas wymijania innego pojazdu?",
+    "textUz": "Boshqa transport vositasidan ayrilib o'tayotganda birinchi navbatda nimaga e'tibor berishingiz kerak?",
+    "category": "Umumiy qoidalar",
+    "isPremium": true,
+    "mediaFileName": "2B107.jpg",
+    "mediaType": "photo",
+    "options": [
+      {
+        "textPl": "Na prawidłowe ułożenie rąk na kierownicy.",
+        "textUz": "Qo'llarni rulda to'g'ri joylashtirishga.",
+        "isCorrect": false
+      },
+      {
+        "textPl": "Na pojazdy jadące za tobą.",
+        "textUz": "Orqangizdan kelayotgan transport vositalariga.",
+        "isCorrect": false
+      },
+      {
+        "textPl": "Na zachowanie bezpiecznego odstępu.",
+        "textUz": "Xavfsiz masofani saqlashga.",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "textPl": "Od czego, w szczególności, zależy bezpieczny odstęp, który powinieneś zachować w tej sytuacji?",
+    "textUz": "Bu vaziyatda saqlashingiz kerak bo'lgan xavfsiz masofa xususan nimaga bog'liq?",
+    "category": "Umumiy qoidalar",
+    "isPremium": true,
+    "mediaFileName": "2B109.jpg",
+    "mediaType": "photo",
+    "options": [
+      {
+        "textPl": "Od prędkości, z jaką jedziesz.",
+        "textUz": "Yurayotgan tezligingizga.",
+        "isCorrect": true
+      },
+      {
+        "textPl": "Od mocy silnika w pojeździe.",
+        "textUz": "Transport vositasidagi dvigatel quvvatiga.",
+        "isCorrect": false
+      },
+      {
+        "textPl": "Od szerokości jezdni.",
+        "textUz": "Yo'lning kengligiga.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "textPl": "Czego możesz się spodziewać podczas gwałtownego hamowania w takich warunkach drogowych?",
+    "textUz": "Shunday yo'l sharoitida keskin tormozlash paytida nimani kutish mumkin?",
+    "category": "Umumiy qoidalar",
+    "isPremium": true,
+    "mediaFileName": "2B180.jpg",
+    "mediaType": "photo",
+    "options": [
+      {
+        "textPl": "Zwiększonej przyczepności kół do jezdni.",
+        "textUz": "G'ildiraklarning yo'lga ilashishi oshishini.",
+        "isCorrect": false
+      },
+      {
+        "textPl": "Zwiększonej siły tarcia.",
+        "textUz": "Ishqalanish kuchi oshishini.",
+        "isCorrect": false
+      },
+      {
+        "textPl": "Zmniejszonej przyczepności kół do jezdni.",
+        "textUz": "G'ildiraklarning yo'lga ilashishi kamayishini.",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "textPl": "Czego możesz spodziewać się wjeżdżając na most oznaczony tym znakiem?",
+    "textUz": "Bu belgi bilan belgilangan ko'prikka kirganingizda nimani kutish mumkin?",
+    "category": "Yo'l belgilari",
+    "isPremium": true,
+    "mediaFileName": "2B201.jpg",
+    "mediaType": "photo",
+    "options": [
+      {
+        "textPl": "Zalegającego śniegu i zasp.",
+        "textUz": "Yotib qolgan qor va qor uyumlarini.",
+        "isCorrect": false
+      },
+      {
+        "textPl": "Obfitych opadów śniegu.",
+        "textUz": "Kuchli qor yog'ishini.",
+        "isCorrect": false
+      },
+      {
+        "textPl": "Oszronienia jezdni lub gołoledzi, nawet jeśli nie występują na innych odcinkach drogi.",
+        "textUz": "Yo'lning muzlashi yoki muzlik, hatto yo'lning boshqa qismlarida bo'lmasa ham.",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "textPl": "Czego powinieneś się spodziewać skręcając na oblodzonym skrzyżowaniu?",
+    "textUz": "Muzlagan chorrahada burilayotganda nimani kutishingiz kerak?",
+    "category": "Yo'lak va manevrlar",
+    "isPremium": true,
+    "mediaFileName": "2B202.jpg",
+    "mediaType": "photo",
+    "options": [
+      {
+        "textPl": "Niepogorszonej przyczepności, jeżeli jedziesz z dopuszczalną prędkością.",
+        "textUz": "Agar ruxsat etilgan tezlikda yursangiz, ilashish yomonlashmasligini.",
+        "isCorrect": false
+      },
+      {
+        "textPl": "Zmniejszonej przyczepności kół do nawierzchni, utrudniającej skręcanie.",
+        "textUz": "G'ildiraklarning yo'l sirtiga ilashishi kamayib, burilishni qiyinlashtirishini.",
+        "isCorrect": true
+      },
+      {
+        "textPl": "Niepogorszonej przyczepności, jeśli pojazd wyposażony jest w system przeciwblokujący (ABS).",
+        "textUz": "Agar transport vositasi bloklanishga qarshi tizim (ABS) bilan jihozlangan bo'lsa, ilashish yomonlashmasligini.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "textPl": "Czego możesz spodziewać się na tak oznakowanej drodze?",
+    "textUz": "Shunday belgilangan yo'lda nimani kutish mumkin?",
+    "category": "Yo'l belgilari",
+    "isPremium": true,
+    "mediaFileName": "2B204.jpg",
+    "mediaType": "photo",
+    "options": [
+      {
+        "textPl": "Bezkolizyjnego przepustu pod drogą dla dzikich zwierząt.",
+        "textUz": "Yovvoyi hayvonlar uchun yo'l ostidagi to'qnashuvsiz o'tish joyini.",
+        "isCorrect": false
+      },
+      {
+        "textPl": "Dzikich zwierząt przebiegających przez drogę.",
+        "textUz": "Yo'ldan o'tayotgan yovvoyi hayvonlarni.",
+        "isCorrect": true
+      },
+      {
+        "textPl": "Zwierząt pędzonych przez drogę.",
+        "textUz": "Yo'ldan haydalayotgan hayvonlarni.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "textPl": "Jak utrzymasz właściwy tor jazdy, gdy poruszasz się drogą ekspresową w gęstej mgle?",
+    "textUz": "Qalin tumanda tezyurar yo'lda harakatlanganingizda to'g'ri harakat yo'nalishini qanday saqlaysiz?",
+    "category": "Umumiy qoidalar",
+    "isPremium": true,
+    "mediaFileName": "2B205.jpg",
+    "mediaType": "photo",
+    "options": [
+      {
+        "textPl": "Uwzględniając znaki poziome wyznaczające pasy ruchu.",
+        "textUz": "Yo'laklarni belgilaydigan gorizontal chiziqlarni hisobga olib.",
+        "isCorrect": true
+      },
+      {
+        "textPl": "Obserwując znaki pionowe.",
+        "textUz": "Vertikal belgilarni kuzatib.",
+        "isCorrect": false
+      },
+      {
+        "textPl": "Obserwując wskazania nawigacji satelitarnej.",
+        "textUz": "Sun'iy yo'ldosh navigatsiyasi ko'rsatkichlarini kuzatib.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "textPl": "Jak powinieneś się zachować wjeżdżając na odcinek drogi pokryty kałużami?",
+    "textUz": "Ko'lmaklar bilan qoplangan yo'l qismiga kirganingizda qanday harakat qilishingiz kerak?",
+    "category": "Umumiy qoidalar",
+    "isPremium": true,
+    "mediaFileName": "2B210.jpg",
+    "mediaType": "photo",
+    "options": [
+      {
+        "textPl": "Stopniowo zwiększyć prędkość.",
+        "textUz": "Tezlikni asta-sekin oshirish.",
+        "isCorrect": false
+      },
+      {
+        "textPl": "Ograniczyć prędkość, ponieważ możesz spodziewać się poślizgu kół.",
+        "textUz": "Tezlikni kamaytirish, chunki g'ildiraklarning sirpanishini kutish mumkin.",
+        "isCorrect": true
+      },
+      {
+        "textPl": "Włączyć światła awaryjne.",
+        "textUz": "Avariya chiroqlarini yoqish.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "textPl": "Czy podczas wymijania w nocy innego pojazdu oświetlającego drogę swoimi światłami możesz nie dostrzegać przeszkód na jezdni?",
+    "textUz": "Tunda o'z chiroqlari bilan yo'lni yoritayotgan boshqa transport vositasidan ayrilib o'tayotganda, yo'ldagi to'siqlarni sezmasligingiz mumkinmi?",
+    "category": "Svetofor va yorug'lik",
+    "isPremium": true,
+    "mediaFileName": "2B212.jpg",
+    "mediaType": "photo",
+    "options": [
+      {
+        "textPl": "Tak, ze względu na możliwość chwilowego oślepienia światłami.",
+        "textUz": "Ha, chiroqlar tomonidan vaqtincha ko'zni qamashtirish ehtimoli sababli.",
+        "isCorrect": true
+      },
+      {
+        "textPl": "Nie, światła pojazdu z przeciwka zawsze poprawiają widoczność na jezdni.",
+        "textUz": "Yo'q, qarshi tomondan kelayotgan transport vositasining chiroqlari har doim yo'ldagi ko'rinishni yaxshilaydi.",
+        "isCorrect": false
+      },
+      {
+        "textPl": "Nie, nie wpływa to na widoczność na drodze.",
+        "textUz": "Yo'q, bu yo'ldagi ko'rinishga ta'sir qilmaydi.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "textPl": "Czy w czasie jazdy w nocy masz obowiązek zwiększyć uwagę?",
+    "textUz": "Tunda haydash vaqtida diqqatni oshirish majburiyati bormi?",
+    "category": "Umumiy qoidalar",
+    "isPremium": true,
+    "mediaFileName": "2B222.jpg",
+    "mediaType": "photo",
+    "options": [
+      {
+        "textPl": "Tak, ponieważ widoczność w nocy jest ograniczona.",
+        "textUz": "Ha, chunki tunda ko'rinish cheklangan.",
+        "isCorrect": true
+      },
+      {
+        "textPl": "Nie, ponieważ w nocy ruch na drodze jest mniejszy.",
+        "textUz": "Yo'q, chunki tunda yo'ldagi harakat kamroq.",
+        "isCorrect": false
+      },
+      {
+        "textPl": "Nie, ponieważ w nocy możesz włączyć światła drogowe.",
+        "textUz": "Yo'q, chunki tunda uzoq nur chiroqlarini yoqish mumkin.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "textPl": "Kiedy masz obowiązek wyłączyć tylne światła przeciwmgłowe?",
+    "textUz": "Orqa tumanga qarshi chiroqlarni qachon o'chirish majburiyati bor?",
+    "category": "Svetofor va yorug'lik",
+    "isPremium": true,
+    "mediaFileName": "2B234.jpg",
+    "mediaType": "photo",
+    "options": [
+      {
+        "textPl": "Gdy widoczność wzrośnie do 30 m.",
+        "textUz": "Ko'rinish 30 metrgacha oshganda.",
+        "isCorrect": false
+      },
+      {
+        "textPl": "Gdy widoczność wzrośnie do 40 m.",
+        "textUz": "Ko'rinish 40 metrgacha oshganda.",
+        "isCorrect": false
+      },
+      {
+        "textPl": "Gdy widoczność wzrośnie powyżej 50 m.",
+        "textUz": "Ko'rinish 50 metrdan yuqori oshganda.",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "textPl": "Jakiego zachowania powinieneś unikać podczas jazdy w takich warunkach drogowych?",
+    "textUz": "Shunday yo'l sharoitida haydashda qanday xatti-harakatdan qochish kerak?",
+    "category": "Umumiy qoidalar",
+    "isPremium": true,
+    "mediaFileName": "2B280.jpg",
+    "mediaType": "photo",
+    "options": [
+      {
+        "textPl": "Jazdy z dużą prędkością.",
+        "textUz": "Katta tezlikda yurishdan.",
+        "isCorrect": true
+      },
+      {
+        "textPl": "Utrzymywania stałej, niewielkiej prędkości jazdy.",
+        "textUz": "Doimiy, kichik tezlikni saqlashdan.",
+        "isCorrect": false
+      },
+      {
+        "textPl": "Hamowania z użyciem silnika.",
+        "textUz": "Dvigatel yordamida tormozlashdan.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "textPl": "Na co należy zwracać uwagę podczas cofania pojazdem?",
+    "textUz": "Transport vositasini orqaga yurgizishda nimaga e'tibor berish kerak?",
+    "category": "Umumiy qoidalar",
+    "isPremium": true,
+    "mediaFileName": "2B307.jpg",
+    "mediaType": "photo",
+    "options": [
+      {
+        "textPl": "Na obiekty znajdujące się wokół pojazdu i zbliżające się do niego.",
+        "textUz": "Transport vositasi atrofidagi va unga yaqinlashayotgan narsalarga.",
+        "isCorrect": true
+      },
+      {
+        "textPl": "Na mocne trzymanie dłoni na dźwigni zmiany biegów.",
+        "textUz": "Qo'lni uzatmalar richagida mahkam ushlab turishga.",
+        "isCorrect": false
+      },
+      {
+        "textPl": "Przede wszystkim na położenie kierownicy w celu określenia toru jazdy.",
+        "textUz": "Birinchi navbatda harakat yo'nalishini aniqlash uchun rulning holatiga.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "textPl": "W jaki sposób należy obserwować otoczenie podczas jazdy po autostradzie?",
+    "textUz": "Avtomagistralda haydash vaqtida atrofni qanday kuzatish kerak?",
+    "category": "Umumiy qoidalar",
+    "isPremium": true,
+    "mediaFileName": "2B308.jpg",
+    "mediaType": "photo",
+    "options": [
+      {
+        "textPl": "Patrzeć wyłącznie do przodu.",
+        "textUz": "Faqat oldinga qarash.",
+        "isCorrect": false
+      },
+      {
+        "textPl": "Poświęcać tyle samo uwagi na obserwację drogi przed i za pojazdem.",
+        "textUz": "Transport vositasi oldi va orqasidagi yo'lni kuzatishga bir xil e'tibor berish.",
+        "isCorrect": false
+      },
+      {
+        "textPl": "Patrzeć do przodu i regularnie kontrolować drogę za pojazdem w lusterkach wstecznych.",
+        "textUz": "Oldinga qarash va orqa ko'zgular orqali transport vositasi ortidagi yo'lni muntazam nazorat qilish.",
+        "isCorrect": true
+      }
+    ]
+  }
+]

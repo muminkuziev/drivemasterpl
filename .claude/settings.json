@@ -1,0 +1,7 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(node scripts/build-road-signs.js prohibition scripts/signs-data/B.json)"
+    ]
+  }
+}

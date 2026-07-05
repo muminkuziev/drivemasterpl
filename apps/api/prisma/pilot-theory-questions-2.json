@@ -1,0 +1,1497 @@
+[
+  {
+    "textPl": "W której z wymienionych niebezpiecznych sytuacji na drodze najlepiej sprawdzi się pojazd wyposażony w tzw. ASR, czyli układ zapobiegający poślizgowi kół napędzanych podczas ruszania?",
+    "textUz": "Sanab o'tilgan xavfli yo'l vaziyatlaridan qaysi birida ASR (harakatga tushishda tortuvchi g'ildiraklarning sirpanishini oldini oluvchi tizim) bilan jihozlangan transport vositasi eng yaxshi natija beradi?",
+    "category": "Tormoz va xavfsizlik tizimlari",
+    "isPremium": true,
+    "options": [
+      {
+        "textPl": "W sytuacji zjeżdżania ze wzniesienia.",
+        "textUz": "Ko'tarilishdan tushishda.",
+        "isCorrect": false
+      },
+      {
+        "textPl": "W sytuacji zjeżdżania ze wzniesienia drogą o dużym natężeniu ruchu.",
+        "textUz": "Harakat zich bo'lgan yo'l bo'ylab ko'tarilishdan tushishda.",
+        "isCorrect": false
+      },
+      {
+        "textPl": "W sytuacji nagłego przyspieszenia na mokrej nawierzchni.",
+        "textUz": "Ho'l yo'l qoplamasida keskin tezlashishda.",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "textPl": "W której z wymienionych niebezpiecznych sytuacji na drodze najlepiej sprawdzi się pojazd wyposażony w tzw. ASR, czyli układ zapobiegający poślizgowi kół napędzanych podczas ruszania?",
+    "textUz": "Sanab o'tilgan xavfli yo'l vaziyatlaridan qaysi birida ASR tizimi bilan jihozlangan transport vositasi eng yaxshi natija beradi?",
+    "category": "Tormoz va xavfsizlik tizimlari",
+    "isPremium": true,
+    "options": [
+      {
+        "textPl": "W sytuacji zjeżdżania ze wzniesienia drogą o dużym natężeniu ruchu.",
+        "textUz": "Harakat zich bo'lgan yo'l bo'ylab ko'tarilishdan tushishda.",
+        "isCorrect": false
+      },
+      {
+        "textPl": "W sytuacji konieczności wjeżdżania na wzniesienie.",
+        "textUz": "Ko'tarilishga chiqish zarurati bo'lganda.",
+        "isCorrect": false
+      },
+      {
+        "textPl": "W sytuacji gwałtownego ruszania na śliskiej nawierzchni.",
+        "textUz": "Sirpanchiq yo'l qoplamasida keskin qo'zg'alishda.",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "textPl": "W której z wymienionych niebezpiecznych sytuacji na drodze najlepiej sprawdzi się pojazd wyposażony w tzw. ESP, czyli układ stabilizacji toru jazdy?",
+    "textUz": "Sanab o'tilgan xavfli yo'l vaziyatlaridan qaysi birida ESP (harakat izini barqarorlashtirish tizimi) bilan jihozlangan transport vositasi eng yaxshi natija beradi?",
+    "category": "Tormoz va xavfsizlik tizimlari",
+    "isPremium": true,
+    "options": [
+      {
+        "textPl": "W sytuacji pokonywania ostrego zakrętu i trudności z utrzymaniem oczekiwanego toru jazdy.",
+        "textUz": "Keskin burilishni yengib o'tishda va kutilgan harakat izini saqlashda qiyinchilik tug'ilganda.",
+        "isCorrect": true
+      },
+      {
+        "textPl": "W sytuacji konieczności nagłego przyspieszenie na drodze gruntowej.",
+        "textUz": "Grunt yo'lda keskin tezlashish zarurati bo'lganda.",
+        "isCorrect": false
+      },
+      {
+        "textPl": "W sytuacji konieczności utrzymania stałej prędkości.",
+        "textUz": "Doimiy tezlikni saqlash zarurati bo'lganda.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "textPl": "W której z wymienionych niebezpiecznych sytuacji na drodze najlepiej sprawdzi się pojazd wyposażony w tzw. ESP, czyli układ stabilizacji toru jazdy?",
+    "textUz": "Sanab o'tilgan xavfli yo'l vaziyatlaridan qaysi birida ESP tizimi bilan jihozlangan transport vositasi eng yaxshi natija beradi?",
+    "category": "Tormoz va xavfsizlik tizimlari",
+    "isPremium": true,
+    "options": [
+      {
+        "textPl": "W sytuacji konieczności utrzymania stałej prędkości.",
+        "textUz": "Doimiy tezlikni saqlash zarurati bo'lganda.",
+        "isCorrect": false
+      },
+      {
+        "textPl": "W sytuacji konieczności wjeżdżania na wzniesienie.",
+        "textUz": "Ko'tarilishga chiqish zarurati bo'lganda.",
+        "isCorrect": false
+      },
+      {
+        "textPl": "W sytuacji konieczności pokonywania kilku następujących po sobie zakrętów.",
+        "textUz": "Ketma-ket bir necha burilishni yengib o'tish zarurati bo'lganda.",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "textPl": "Czy dopuszczalne jest holowanie za pomocą połączenia sztywnego pojazdu o niesprawnym układzie kierowniczym?",
+    "textUz": "Rul boshqaruvi ishlamay qolgan transport vositasini qattiq ulanish orqali bukserga olishga ruxsat etiladimi?",
+    "category": "Tirkama va tortish",
+    "isPremium": true,
+    "options": [
+      {
+        "textPl": "Nie.",
+        "textUz": "Yo'q.",
+        "isCorrect": true
+      },
+      {
+        "textPl": "Tak, ale tylko w obszarze niezabudowanym.",
+        "textUz": "Ha, lekin faqat aholi punktidan tashqarida.",
+        "isCorrect": false
+      },
+      {
+        "textPl": "Tak, ale tylko w obszarze zabudowanym.",
+        "textUz": "Ha, lekin faqat aholi punktida.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "textPl": "Czy podczas holowania motocykla powinny być sprawne w nim dwa układy hamulcowe?",
+    "textUz": "Mototsiklni bukserga olishda uning ikkala tormoz tizimi ham ishlab turishi kerakmi?",
+    "category": "Tirkama va tortish",
+    "isPremium": true,
+    "options": [
+      {
+        "textPl": "Tak, ale tylko przy prędkości powyżej 20 km/h.",
+        "textUz": "Ha, lekin faqat tezlik 20 km/soatdan yuqori bo'lsa.",
+        "isCorrect": false
+      },
+      {
+        "textPl": "Tak.",
+        "textUz": "Ha.",
+        "isCorrect": true
+      },
+      {
+        "textPl": "Nie, wystarczy jeden.",
+        "textUz": "Yo'q, bittasi yetarli.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "textPl": "Przewożenie dziecka w foteliku bezpieczeństwa zamontowanym tyłem do kierunku jazdy na przednim siedzeniu pojazdu samochodowego, wyposażonego w poduszkę powietrzną dla pasażera jest:",
+    "textUz": "Yo'lovchi uchun havo yostiqchasi bilan jihozlangan avtomobilning old o'rindig'ida orqaga qaratilgan bolalar xavfsizlik o'rindig'ida bolani tashish:",
+    "category": "Bolalarni tashish",
+    "isPremium": true,
+    "options": [
+      {
+        "textPl": "dozwolone bez ograniczeń.",
+        "textUz": "cheklovsiz ruxsat etiladi.",
+        "isCorrect": false
+      },
+      {
+        "textPl": "zabronione.",
+        "textUz": "taqiqlanadi.",
+        "isCorrect": false
+      },
+      {
+        "textPl": "dozwolone, jeżeli poduszka powietrzna nie jest aktywna podczas przewożenia.",
+        "textUz": "agar tashish paytida havo yostiqchasi faol bo'lmasa, ruxsat etiladi.",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "textPl": "Foteliki bezpieczeństwa dla dzieci oraz inne urządzenia przytrzymujące dla dzieci należy instalować w pojeździe:",
+    "textUz": "Bolalar xavfsizlik o'rindig'i va boshqa bolalarni ushlab turuvchi qurilmalar transport vositasiga qanday o'rnatilishi kerak?",
+    "category": "Bolalarni tashish",
+    "isPremium": true,
+    "options": [
+      {
+        "textPl": "w sposób bezpieczny i estetyczny.",
+        "textUz": "Xavfsiz va estetik tarzda.",
+        "isCorrect": false
+      },
+      {
+        "textPl": "w sposób umożliwiający łatwy dostęp do dziecka.",
+        "textUz": "Bolaga oson kirish imkonini beradigan tarzda.",
+        "isCorrect": false
+      },
+      {
+        "textPl": "zgodnie z zaleceniami producenta urządzenia.",
+        "textUz": "Qurilma ishlab chiqaruvchisining ko'rsatmalariga muvofiq.",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "textPl": "Policjant zatrzyma prawo jazdy za pokwitowaniem w przypadku ujawnienia czynu polegającego na:",
+    "textUz": "Politsiya xodimi haydovchilik guvohnomasini tilxat evaziga qaysi harakat aniqlanganda olib qo'yadi:",
+    "category": "Hujjatlar va huquqiy javobgarlik",
+    "isPremium": true,
+    "options": [
+      {
+        "textPl": "kierowaniu pojazdem z prędkością przekraczającą dopuszczalną o 50 km/h na obszarze zabudowanym.",
+        "textUz": "aholi punktida ruxsat etilgan tezlikdan 50 km/soatga oshirib haydash.",
+        "isCorrect": false
+      },
+      {
+        "textPl": "kierowaniu pojazdem z prędkością przekraczającą dopuszczalną o więcej niż 50 km/h na obszarze zabudowanym.",
+        "textUz": "aholi punktida ruxsat etilgan tezlikdan 50 km/soatdan ko'proqqa oshirib haydash.",
+        "isCorrect": true
+      },
+      {
+        "textPl": "kierowaniu pojazdem z prędkością przekraczającą dopuszczalną o 50 km/h poza obszarem zabudowanym.",
+        "textUz": "aholi punktidan tashqarida ruxsat etilgan tezlikdan 50 km/soatga oshirib haydash.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "textPl": "Starosta wydaje decyzję administracyjną o zatrzymaniu prawa jazdy, gdy kierujący pojazdem przekroczył dopuszczalną prędkość o:",
+    "textUz": "Haydovchi ruxsat etilgan tezlikni qancha oshirsa, starosta (tuman hokimi) haydovchilik guvohnomasini olib qo'yish haqida ma'muriy qaror chiqaradi?",
+    "category": "Hujjatlar va huquqiy javobgarlik",
+    "isPremium": true,
+    "options": [
+      {
+        "textPl": "więcej niż 50 km/h na obszarze zabudowanym.",
+        "textUz": "aholi punktida 50 km/soatdan ko'proqqa.",
+        "isCorrect": true
+      },
+      {
+        "textPl": "50 km/h na obszarze zabudowanym.",
+        "textUz": "aholi punktida 50 km/soatga.",
+        "isCorrect": false
+      },
+      {
+        "textPl": "50 km/h poza obszarem zabudowanym.",
+        "textUz": "aholi punktidan tashqarida 50 km/soatga.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "textPl": "W przypadku gdy kierujący przekroczył dopuszczalną prędkość o więcej niż 50 km/h na obszarze zabudowanym, starosta wydaje decyzję administracyjną o zatrzymaniu prawa jazdy na okres:",
+    "textUz": "Haydovchi aholi punktida ruxsat etilgan tezlikni 50 km/soatdan ko'proqqa oshirgan taqdirda, starosta haydovchilik guvohnomasini qancha muddatga olib qo'yish haqida qaror chiqaradi?",
+    "category": "Hujjatlar va huquqiy javobgarlik",
+    "isPremium": true,
+    "options": [
+      {
+        "textPl": "1 miesiąca.",
+        "textUz": "1 oyga.",
+        "isCorrect": false
+      },
+      {
+        "textPl": "2 miesięcy.",
+        "textUz": "2 oyga.",
+        "isCorrect": false
+      },
+      {
+        "textPl": "3 miesięcy.",
+        "textUz": "3 oyga.",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "textPl": "Dokumentem stwierdzającym dopuszczenie pojazdu samochodowego do ruchu jest:",
+    "textUz": "Avtomobilning yo'l harakatiga ruxsat etilganligini tasdiqlovchi hujjat qaysi?",
+    "category": "Hujjatlar va texnik ko'rik",
+    "isPremium": true,
+    "options": [
+      {
+        "textPl": "dowód rejestracyjny.",
+        "textUz": "Ro'yxatga olish guvohnomasi (dowód rejestracyjny).",
+        "isCorrect": true
+      },
+      {
+        "textPl": "karta pojazdu.",
+        "textUz": "Transport vositasi kartasi.",
+        "isCorrect": false
+      },
+      {
+        "textPl": "nalepka kontrolna na przedniej szybie.",
+        "textUz": "Old oynadagi nazorat nakleykasi.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "textPl": "W jaki sposób przewozisz dziecko o wzroście mniejszym niż 150 cm na przednim siedzeniu samochodu osobowego, który ma pięć miejsc siedzących?",
+    "textUz": "Besh o'rindiqli yengil avtomobilning old o'rindig'ida bo'yi 150 sm dan past bolani qanday tashiysiz?",
+    "category": "Bolalarni tashish",
+    "isPremium": true,
+    "options": [
+      {
+        "textPl": "Na kolanach pasażera.",
+        "textUz": "Yo'lovchining tizzasida.",
+        "isCorrect": false
+      },
+      {
+        "textPl": "W foteliku bezpieczeństwa lub innym urządzeniu przytrzymującym dziecko.",
+        "textUz": "Xavfsizlik o'rindig'ida yoki boshqa ushlab turuvchi qurilmada.",
+        "isCorrect": true
+      },
+      {
+        "textPl": "W foteliku bezpieczeństwa tyłem do kierunku jazdy, jeżeli pojazd ma aktywną poduszkę powietrzną dla pasażera.",
+        "textUz": "Agar yo'lovchi uchun havo yostiqchasi faol bo'lsa, orqaga qaratilgan xavfsizlik o'rindig'ida.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "textPl": "W jaki sposób przewozisz dziecko o wzroście mniejszym niż 150 cm samochodem osobowym, w którym jest pięć miejsc siedzących?",
+    "textUz": "Besh o'rindiqli yengil avtomobilda bo'yi 150 sm dan past bolani qanday tashiysiz?",
+    "category": "Bolalarni tashish",
+    "isPremium": true,
+    "options": [
+      {
+        "textPl": "Na przednim siedzeniu bez fotelika lub innego urządzenia przytrzymującego dziecko.",
+        "textUz": "Old o'rindiqda, o'rindiq yoki boshqa ushlab turuvchi qurilmasiz.",
+        "isCorrect": false
+      },
+      {
+        "textPl": "Na przednim siedzeniu w innym niż fotelik urządzeniu przytrzymującym dziecko.",
+        "textUz": "Old o'rindiqda, xavfsizlik o'rindig'idan boshqa ushlab turuvchi qurilmada.",
+        "isCorrect": true
+      },
+      {
+        "textPl": "Na tylnym siedzeniu bez zapiętych pasów bezpieczeństwa.",
+        "textUz": "Orqa o'rindiqda, xavfsizlik kamari taqilmagan holda.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "textPl": "W jaki sposób zainstalujesz w pojeździe fotelik bezpieczeństwa służący do przewozu dziecka?",
+    "textUz": "Bolani tashish uchun xavfsizlik o'rindig'ini transport vositasiga qanday o'rnatasiz?",
+    "category": "Bolalarni tashish",
+    "isPremium": true,
+    "options": [
+      {
+        "textPl": "W sposób wygodny dla dziecka.",
+        "textUz": "Bola uchun qulay tarzda.",
+        "isCorrect": false
+      },
+      {
+        "textPl": "W sposób wygodny dla siebie.",
+        "textUz": "O'zingiz uchun qulay tarzda.",
+        "isCorrect": false
+      },
+      {
+        "textPl": "Zgodnie z zaleceniami producenta urządzenia.",
+        "textUz": "Qurilma ishlab chiqaruvchisining ko'rsatmalariga muvofiq.",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "textPl": "W jaki sposób w pojeździe zainstalujesz podtrzymujące dziecko urządzenie, które służy do jego przewozu?",
+    "textUz": "Bolani tashish uchun mo'ljallangan ushlab turuvchi qurilmani transport vositasiga qanday o'rnatasiz?",
+    "category": "Bolalarni tashish",
+    "isPremium": true,
+    "options": [
+      {
+        "textPl": "Tak, jak życzy sobie tego dziecko.",
+        "textUz": "Bola xohlagandek.",
+        "isCorrect": false
+      },
+      {
+        "textPl": "W sposób wygodny dla siebie.",
+        "textUz": "O'zingiz uchun qulay tarzda.",
+        "isCorrect": false
+      },
+      {
+        "textPl": "Zalecany przez producenta urządzenia.",
+        "textUz": "Qurilma ishlab chiqaruvchisi tavsiya etganidek.",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "textPl": "Jakie warunki powinien spełniać samochód osobowy, którym chcesz przewieźć dziecko, które ma mniej niż trzy lata?",
+    "textUz": "Uch yoshgacha bo'lgan bolani tashimoqchi bo'lgan yengil avtomobil qanday shartlarga javob berishi kerak?",
+    "category": "Bolalarni tashish",
+    "isPremium": true,
+    "options": [
+      {
+        "textPl": "Powinien być wyposażony w pasy i fotelik bezpieczeństwa.",
+        "textUz": "Xavfsizlik kamarlari va o'rindig'i bilan jihozlangan bo'lishi kerak.",
+        "isCorrect": true
+      },
+      {
+        "textPl": "Może nie mieć pasów bezpieczeństwa.",
+        "textUz": "Xavfsizlik kamarlari bo'lmasligi mumkin.",
+        "isCorrect": false
+      },
+      {
+        "textPl": "Nie musi być wyposażony w pasy i fotelik bezpieczeństwa.",
+        "textUz": "Xavfsizlik kamarlari va o'rindig'i bilan jihozlanishi shart emas.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "textPl": "Czym powinieneś się kierować wybierając fotelik lub urządzenie przytrzymujące służące do przewozu dziecka?",
+    "textUz": "Bolani tashish uchun o'rindiq yoki ushlab turuvchi qurilma tanlashda nimaga e'tibor berish kerak?",
+    "category": "Bolalarni tashish",
+    "isPremium": true,
+    "options": [
+      {
+        "textPl": "Estetyką.",
+        "textUz": "Estetikaga.",
+        "isCorrect": false
+      },
+      {
+        "textPl": "Właściwymi warunkami technicznymi dotyczącymi tych urządzeń.",
+        "textUz": "Bu qurilmalarga oid to'g'ri texnik shartlarga.",
+        "isCorrect": true
+      },
+      {
+        "textPl": "Przede wszystkim wygodą.",
+        "textUz": "Avvalambor qulaylikka.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "textPl": "Jakie muszą być spełnione warunki podczas przewożenia dziecka na tylnym siedzeniu samochodu osobowego?",
+    "textUz": "Yengil avtomobilning orqa o'rindig'ida bolani tashishda qanday shartlar bajarilishi kerak?",
+    "category": "Bolalarni tashish",
+    "isPremium": true,
+    "options": [
+      {
+        "textPl": "Przewożone dziecko ma co najmniej 135 cm wzrostu, jest przypięte tylko pasami bezpieczeństwa, gdyż masa i wzrost uniemożliwia przewóz w foteliku lub innym urządzeniu przytrzymującym  dziecko.",
+        "textUz": "Tashilayotgan bola bo'yi kamida 135 sm, faqat xavfsizlik kamari bilan mahkamlangan, chunki og'irligi va bo'yi uni o'rindiq yoki boshqa ushlab turuvchi qurilmada tashishga imkon bermaydi.",
+        "isCorrect": true
+      },
+      {
+        "textPl": "Przewożone dziecko ma co najmniej 125 cm wzrostu, jest przypięte tylko pasami bezpieczeństwa, gdyż masa i wzrost uniemożliwia przewóz w foteliku.",
+        "textUz": "Tashilayotgan bola bo'yi kamida 125 sm, faqat xavfsizlik kamari bilan mahkamlangan, chunki og'irligi va bo'yi uni o'rindiqda tashishga imkon bermaydi.",
+        "isCorrect": false
+      },
+      {
+        "textPl": "Nie można przekraczać prędkości 50 km/h.",
+        "textUz": "Tezlik 50 km/soatdan oshmasligi kerak.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "textPl": "Jakie musisz spełnić warunki, gdy chcesz przewieźć dziecko na tylnym siedzeniu samochodu osobowego?",
+    "textUz": "Yengil avtomobilning orqa o'rindig'ida bolani tashimoqchi bo'lsangiz, qanday shartlarni bajarishingiz kerak?",
+    "category": "Bolalarni tashish",
+    "isPremium": true,
+    "options": [
+      {
+        "textPl": "Przewożone dziecko ma co najmniej 125 cm wzrostu, jest przypięte tylko pasami bezpieczeństwa, gdyż masa i wzrost uniemożliwia przewóz w urządzeniu przytrzymującym.",
+        "textUz": "Tashilayotgan bola bo'yi kamida 125 sm, faqat xavfsizlik kamari bilan mahkamlangan, chunki og'irligi va bo'yi uni ushlab turuvchi qurilmada tashishga imkon bermaydi.",
+        "isCorrect": false
+      },
+      {
+        "textPl": "Nie można przekraczać prędkości 40 km/h.",
+        "textUz": "Tezlik 40 km/soatdan oshmasligi kerak.",
+        "isCorrect": false
+      },
+      {
+        "textPl": "Przewożone dziecko ma co najmniej 135 cm wzrostu, jest przypięte tylko pasami bezpieczeństwa, gdyż masa i wzrost uniemożliwia przewóz w urządzeniu przytrzymującym.",
+        "textUz": "Tashilayotgan bola bo'yi kamida 135 sm, faqat xavfsizlik kamari bilan mahkamlangan, chunki og'irligi va bo'yi uni ushlab turuvchi qurilmada tashishga imkon bermaydi.",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "textPl": "Co musisz zrobić, żeby przewieźć trzyletnie dziecko na tylnym siedzeniu samochodu osobowego, na którym w fotelikach już siedzi dwoje dzieci i nie ma możliwości zainstalowania trzeciego fotelika?",
+    "textUz": "Yengil avtomobilning orqa o'rindig'ida ikkita bola allaqachon o'z o'rindiqlarida o'tirgan va uchinchi o'rindiqni o'rnatish imkoni bo'lmasa, uch yoshli bolani tashish uchun nima qilishingiz kerak?",
+    "category": "Bolalarni tashish",
+    "isPremium": true,
+    "options": [
+      {
+        "textPl": "Musisz zabezpieczyć dziecko pasami bezpieczeństwa.",
+        "textUz": "Bolani xavfsizlik kamari bilan mahkamlashingiz kerak.",
+        "isCorrect": true
+      },
+      {
+        "textPl": "Powinieneś posadzić dziecko na kolanach osoby dorosłej.",
+        "textUz": "Bolani kattalarning tizzasiga o'tqizishingiz kerak.",
+        "isCorrect": false
+      },
+      {
+        "textPl": "Musisz zablokować tylne drzwi, uniemożliwiając ich otwarcie od zewnątrz.",
+        "textUz": "Orqa eshiklarni tashqaridan ochilmaydigan qilib bloklashingiz kerak.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "textPl": "Co musisz zrobić gdy chcesz przewieźć trzyletnie dziecko na tylnym siedzeniu samochodu osobowego, na którym w urządzeniach przytrzymujących już siedzi dwoje dzieci i nie ma możliwości zainstalowania trzeciego urządzenia?",
+    "textUz": "Yengil avtomobilning orqa o'rindig'ida ikkita bola allaqachon ushlab turuvchi qurilmalarda o'tirgan va uchinchi qurilmani o'rnatish imkoni bo'lmasa, uch yoshli bolani tashimoqchi bo'lsangiz nima qilishingiz kerak?",
+    "category": "Bolalarni tashish",
+    "isPremium": true,
+    "options": [
+      {
+        "textPl": "Powinieneś zapewnić dziecku podstawkę na nogi.",
+        "textUz": "Bolaga oyoq qo'yish uchun taglik ta'minlashingiz kerak.",
+        "isCorrect": false
+      },
+      {
+        "textPl": "Musisz zabezpieczyć dziecko pasami bezpieczeństwa.",
+        "textUz": "Bolani xavfsizlik kamari bilan mahkamlashingiz kerak.",
+        "isCorrect": true
+      },
+      {
+        "textPl": "Powinieneś posadzić dziecko na środku tylnego siedzenia.",
+        "textUz": "Bolani orqa o'rindiqning o'rtasiga o'tqizishingiz kerak.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "textPl": "Jakie dokumenty masz obowiązek mieć przy sobie i okazywać na żądanie uprawnionego organu podczas kontroli drogowej?",
+    "textUz": "Yo'l nazorati paytida vakolatli organ talabiga ko'ra qanday hujjatlarni o'zingiz bilan olib yurishingiz va ko'rsatishingiz shart?",
+    "category": "Hujjatlar va texnik ko'rik",
+    "isPremium": true,
+    "options": [
+      {
+        "textPl": "Potwierdzenie opłaty obowiązkowego ubezpieczenia odpowiedzialności cywilnej.",
+        "textUz": "Majburiy fuqarolik javobgarligi sug'urtasi to'lovi tasdig'i.",
+        "isCorrect": false
+      },
+      {
+        "textPl": "Pokwitowanie zatrzymania dowodu rejestracyjnego w okresie, w którym uprawnia ono do używania pojazdu.",
+        "textUz": "Ro'yxatga olish guvohnomasi ushlab qolinganida, u transport vositasidan foydalanishga huquq beradigan davrdagi tilxat.",
+        "isCorrect": true
+      },
+      {
+        "textPl": "W każdym przypadku zaświadczenie o przeprowadzonym badaniu technicznym.",
+        "textUz": "Har qanday holatda texnik ko'rikdan o'tganlik haqidagi guvohnoma.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "textPl": "Jakie dokumenty masz obowiązek mieć przy sobie i okazywać na żądanie uprawnionego organu podczas kontroli drogowej?",
+    "textUz": "Yo'l nazorati paytida vakolatli organ talabiga ko'ra qanday hujjatlarni o'zingiz bilan olib yurishingiz va ko'rsatishingiz shart?",
+    "category": "Hujjatlar va texnik ko'rik",
+    "isPremium": true,
+    "options": [
+      {
+        "textPl": "Potwierdzenie opłaty ubezpieczenia AC.",
+        "textUz": "AC (avtokasko) sug'urtasi to'lovi tasdig'i.",
+        "isCorrect": false
+      },
+      {
+        "textPl": "Pokwitowanie zatrzymania pozwolenia czasowego w okresie, w którym uprawnia ono do używania pojazdu.",
+        "textUz": "Vaqtinchalik ruxsatnoma ushlab qolinganida, u transport vositasidan foydalanishga huquq beradigan davrdagi tilxat.",
+        "isCorrect": true
+      },
+      {
+        "textPl": "Zaświadczenie o przeprowadzonym badaniu technicznym, w przypadku, gdy pojazd jest zasilany gazem.",
+        "textUz": "Agar transport vositasi gaz bilan ishlasa, texnik ko'rikdan o'tganlik haqidagi guvohnoma.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "textPl": "Jakie dokumenty masz obowiązek mieć przy sobie i okazywać na żądanie uprawnionego organu podczas kontroli drogowej?",
+    "textUz": "Yo'l nazorati paytida vakolatli organ talabiga ko'ra qanday hujjatlarni o'zingiz bilan olib yurishingiz va ko'rsatishingiz shart?",
+    "category": "Hujjatlar va texnik ko'rik",
+    "isPremium": true,
+    "options": [
+      {
+        "textPl": "Dowód rejestracyjny.",
+        "textUz": "Ro'yxatga olish guvohnomasi.",
+        "isCorrect": false
+      },
+      {
+        "textPl": "Pokwitowanie zatrzymania dowodu rejestracyjnego w okresie, w którym uprawnia ono do używania pojazdu.",
+        "textUz": "Ro'yxatga olish guvohnomasi ushlab qolinganida, u transport vositasidan foydalanishga huquq beradigan davrdagi tilxat.",
+        "isCorrect": true
+      },
+      {
+        "textPl": "Świadectwo zgodności z warunkami technicznymi.",
+        "textUz": "Texnik shartlarga muvofiqlik sertifikati.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "textPl": "Jakie dokumenty masz obowiązek mieć przy sobie i okazywać na żądanie uprawnionego organu podczas kontroli drogowej?",
+    "textUz": "Yo'l nazorati paytida vakolatli organ talabiga ko'ra qanday hujjatlarni o'zingiz bilan olib yurishingiz va ko'rsatishingiz shart?",
+    "category": "Hujjatlar va texnik ko'rik",
+    "isPremium": true,
+    "options": [
+      {
+        "textPl": "Pokwitowanie zatrzymania pozwolenia czasowego w okresie, w którym uprawnia ono do używania pojazdu.",
+        "textUz": "Vaqtinchalik ruxsatnoma ushlab qolinganida, u transport vositasidan foydalanishga huquq beradigan davrdagi tilxat.",
+        "isCorrect": true
+      },
+      {
+        "textPl": "Świadectwo zgodności WE.",
+        "textUz": "EI muvofiqlik sertifikati.",
+        "isCorrect": false
+      },
+      {
+        "textPl": "Dowód rejestracyjny.",
+        "textUz": "Ro'yxatga olish guvohnomasi.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "textPl": "Jakie dokumenty masz obowiązek mieć przy sobie i okazywać na żądanie uprawnionego organu, gdy na terytorium Rzeczypospolitej kierujesz pojazdem, który jest zarejestrowany za granicą?",
+    "textUz": "Polsha Respublikasi hududida chet elda ro'yxatdan o'tgan transport vositasini boshqarayotganingizda, vakolatli organ talabiga ko'ra qanday hujjatlarni olib yurishingiz va ko'rsatishingiz shart?",
+    "category": "Hujjatlar va texnik ko'rik",
+    "isPremium": true,
+    "options": [
+      {
+        "textPl": "Dokument dopuszczający pojazd do ruchu.",
+        "textUz": "Transport vositasining yo'l harakatiga ruxsat etilganligini tasdiqlovchi hujjat.",
+        "isCorrect": true
+      },
+      {
+        "textPl": "Dokument potwierdzający zawarcie umowy ubezpieczenia od nieszczęśliwych wypadków.",
+        "textUz": "Baxtsiz hodisalardan sug'urta shartnomasi tuzilganligini tasdiqlovchi hujjat.",
+        "isCorrect": false
+      },
+      {
+        "textPl": "Kopię zaświadczenia o przeprowadzonym badaniu technicznym.",
+        "textUz": "Texnik ko'rikdan o'tganlik haqidagi guvohnomaning nusxasi.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "textPl": "Jakie dokumenty masz obowiązek mieć przy sobie i okazywać na żądanie uprawnionego organu, gdy na terytorium Rzeczypospolitej kierujesz pojazdem, który jest zarejestrowany za granicą?",
+    "textUz": "Polsha Respublikasi hududida chet elda ro'yxatdan o'tgan transport vositasini boshqarayotganingizda, vakolatli organ talabiga ko'ra qanday hujjatlarni olib yurishingiz va ko'rsatishingiz shart?",
+    "category": "Hujjatlar va texnik ko'rik",
+    "isPremium": true,
+    "options": [
+      {
+        "textPl": "Dowód własności pojazdu.",
+        "textUz": "Transport vositasiga egalik huquqini tasdiqlovchi hujjat.",
+        "isCorrect": false
+      },
+      {
+        "textPl": "Dokument potwierdzający zawarcie umowy obowiązkowego ubezpieczenia odpowiedzialności cywilnej posiadacza pojazdu.",
+        "textUz": "Transport vositasi egasining majburiy fuqarolik javobgarligi sug'urtasi shartnomasi tuzilganligini tasdiqlovchi hujjat.",
+        "isCorrect": true
+      },
+      {
+        "textPl": "Dokument potwierdzający opłatę skarbową.",
+        "textUz": "Davlat boji to'langanligini tasdiqlovchi hujjat.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "textPl": "Jakie dokumenty masz obowiązek mieć przy sobie i okazywać na żądanie uprawnionego organu, gdy na terytorium Rzeczypospolitej kierujesz pojazdem, który jest zarejestrowany za granicą?",
+    "textUz": "Polsha Respublikasi hududida chet elda ro'yxatdan o'tgan transport vositasini boshqarayotganingizda, vakolatli organ talabiga ko'ra qanday hujjatlarni olib yurishingiz va ko'rsatishingiz shart?",
+    "category": "Hujjatlar va texnik ko'rik",
+    "isPremium": true,
+    "options": [
+      {
+        "textPl": "Profesjonalny dowód rejestracyjny.",
+        "textUz": "Kasbiy ro'yxatga olish guvohnomasi.",
+        "isCorrect": false
+      },
+      {
+        "textPl": "Dowód opłacenia składki za obowiązkowe ubezpieczenie odpowiedzialności cywilnej.",
+        "textUz": "Majburiy fuqarolik javobgarligi sug'urtasi badali to'langanligi haqidagi hujjat.",
+        "isCorrect": true
+      },
+      {
+        "textPl": "Dokument potwierdzający opłatę za korzystanie z autostrad i dróg ekspresowych.",
+        "textUz": "Avtomagistral va tezyurar yo'llardan foydalanish to'lovi haqidagi hujjat.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "textPl": "Jakie dokumenty masz obowiązek mieć przy sobie i okazywać na żądanie uprawnionego organu podczas kontroli drogowej?",
+    "textUz": "Yo'l nazorati paytida vakolatli organ talabiga ko'ra qanday hujjatlarni o'zingiz bilan olib yurishingiz va ko'rsatishingiz shart?",
+    "category": "Hujjatlar va texnik ko'rik",
+    "isPremium": true,
+    "options": [
+      {
+        "textPl": "Krajowe prawo jazdy.",
+        "textUz": "Milliy haydovchilik guvohnomasi.",
+        "isCorrect": false
+      },
+      {
+        "textPl": "Inny dokument stwierdzający uprawnienie do kierowania pojazdem niż wydane w kraju prawo jazdy.",
+        "textUz": "Mamlakatda berilgan haydovchilik guvohnomasidan boshqa, transport vositasini boshqarish huquqini tasdiqlovchi hujjat.",
+        "isCorrect": true
+      },
+      {
+        "textPl": "Świadectwo kwalifikacji.",
+        "textUz": "Malaka sertifikati.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "textPl": "Jakie dokumenty masz obowiązek mieć przy sobie i okazywać na żądanie uprawnionego organu podczas kontroli drogowej?",
+    "textUz": "Yo'l nazorati paytida vakolatli organ talabiga ko'ra qanday hujjatlarni o'zingiz bilan olib yurishingiz va ko'rsatishingiz shart?",
+    "category": "Hujjatlar va texnik ko'rik",
+    "isPremium": true,
+    "options": [
+      {
+        "textPl": "Orzeczenie lekarskie, jeżeli wykonujesz zarobkowy przewóz osób.",
+        "textUz": "Agar yo'lovchilarni pullik tashisangiz, tibbiy xulosa.",
+        "isCorrect": false
+      },
+      {
+        "textPl": "Pokwitowanie zatrzymania prawa jazdy w okresie, w którym upoważnia ono do kierowania.",
+        "textUz": "Haydovchilik guvohnomasi ushlab qolinganida, u boshqarish huquqini beradigan davrdagi tilxat.",
+        "isCorrect": true
+      },
+      {
+        "textPl": "Orzeczenie psychologiczne.",
+        "textUz": "Psixologik xulosa.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "textPl": "Jakie dokumenty masz obowiązek mieć przy sobie i okazywać na żądanie uprawnionego organu podczas kontroli drogowej?",
+    "textUz": "Yo'l nazorati paytida vakolatli organ talabiga ko'ra qanday hujjatlarni o'zingiz bilan olib yurishingiz va ko'rsatishingiz shart?",
+    "category": "Hujjatlar va texnik ko'rik",
+    "isPremium": true,
+    "options": [
+      {
+        "textPl": "Orzeczenie psychologiczne, jeżeli wykonujesz zarobkowy przewóz osób.",
+        "textUz": "Agar yo'lovchilarni pullik tashisangiz, psixologik xulosa.",
+        "isCorrect": false
+      },
+      {
+        "textPl": "Pokwitowanie zatrzymania prawa jazdy w okresie, w którym upoważnia ono do kierowania.",
+        "textUz": "Haydovchilik guvohnomasi ushlab qolinganida, u boshqarish huquqini beradigan davrdagi tilxat.",
+        "isCorrect": true
+      },
+      {
+        "textPl": "Orzeczenie lekarskie.",
+        "textUz": "Tibbiy xulosa.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "textPl": "Jaki dokument jesteś zobowiązany mieć przy sobie i okazywać na żądanie uprawnionego organu?",
+    "textUz": "Vakolatli organ talabiga ko'ra qanday hujjatni o'zingiz bilan olib yurishingiz va ko'rsatishingiz shart?",
+    "category": "Hujjatlar va texnik ko'rik",
+    "isPremium": true,
+    "options": [
+      {
+        "textPl": "Dokument potwierdzający uczestnictwo w kursie kwalifikacji wstępnej.",
+        "textUz": "Boshlang'ich malaka kursida qatnashganlik haqidagi hujjat.",
+        "isCorrect": false
+      },
+      {
+        "textPl": "Dokument stwierdzający uprawnienie do kierowania pojazdem inny niż wydane w kraju prawo jazdy.",
+        "textUz": "Mamlakatda berilgan haydovchilik guvohnomasidan boshqa, transport vositasini boshqarish huquqini tasdiqlovchi hujjat.",
+        "isCorrect": true
+      },
+      {
+        "textPl": "Dokument stwierdzający ukończenie kursu z pierwszej pomocy przedmedycznej.",
+        "textUz": "Tibbiy birinchi yordam kursini tugatganlik haqidagi hujjat.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "textPl": "Za które naruszenie przepisów ruchu drogowego policjant zatrzyma prawo jazdy?",
+    "textUz": "Qaysi yo'l harakati qoidasini buzganlik uchun politsiya xodimi haydovchilik guvohnomasini olib qo'yadi?",
+    "category": "Hujjatlar va huquqiy javobgarlik",
+    "isPremium": true,
+    "options": [
+      {
+        "textPl": "Za wyprzedzanie z naruszeniem pojedynczej linii ciągłej.",
+        "textUz": "Uzluksiz chiziqni buzib o'zib o'tganlik uchun.",
+        "isCorrect": false
+      },
+      {
+        "textPl": "Za przewożenie osób w liczbie przekraczającej o dwa liczbę miejsc określoną w dowodzie rejestracyjnym samochodu osobowego.",
+        "textUz": "Yengil avtomobil ro'yxatga olish guvohnomasida ko'rsatilgan o'rindiqlar sonidan ikkita ortiq odam tashiganlik uchun.",
+        "isCorrect": true
+      },
+      {
+        "textPl": "Za wymijanie na przejeździe kolejowym.",
+        "textUz": "Temir yo'l kesishmasida ayrilib o'tganlik uchun.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "textPl": "Za które naruszenie przepisów ruchu drogowego policjant zatrzyma prawo jazdy?",
+    "textUz": "Qaysi yo'l harakati qoidasini buzganlik uchun politsiya xodimi haydovchilik guvohnomasini olib qo'yadi?",
+    "category": "Hujjatlar va huquqiy javobgarlik",
+    "isPremium": true,
+    "options": [
+      {
+        "textPl": "Za wyprzedzanie przed przejściem dla pieszych, gdzie ruch jest kierowany.",
+        "textUz": "Harakat boshqariladigan piyodalar o'tish joyi oldida o'zib o'tganlik uchun.",
+        "isCorrect": false
+      },
+      {
+        "textPl": "Za przewożenie osób w liczbie przekraczającej o dwa liczbę miejsc określoną w pozwoleniu czasowym samochodu osobowego.",
+        "textUz": "Yengil avtomobil vaqtinchalik ruxsatnomasida ko'rsatilgan o'rindiqlar sonidan ikkita ortiq odam tashiganlik uchun.",
+        "isCorrect": true
+      },
+      {
+        "textPl": "Za wymijanie na przejeździe dla rowerzystów.",
+        "textUz": "Velosipedchilar o'tish joyida ayrilib o'tganlik uchun.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "textPl": "Ile czasu jest ważne pokwitowanie zatrzymania polskiego prawa jazdy za przekroczenie prędkości o ponad 50 km/h w obszarze zabudowanym, które wydał Ci policjant?",
+    "textUz": "Politsiya xodimi bergan, aholi punktida tezlikni 50 km/soatdan ko'proqqa oshirganlik uchun Polsha haydovchilik guvohnomasini olib qo'yish tilxati qancha vaqt amal qiladi?",
+    "category": "Hujjatlar va huquqiy javobgarlik",
+    "isPremium": true,
+    "options": [
+      {
+        "textPl": "12 godzin.",
+        "textUz": "12 soat.",
+        "isCorrect": false
+      },
+      {
+        "textPl": "24 godziny.",
+        "textUz": "24 soat.",
+        "isCorrect": true
+      },
+      {
+        "textPl": "72 godziny.",
+        "textUz": "72 soat.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "textPl": "Ile czasu jest ważne pokwitowanie zatrzymania przez policjanta prawa jazdy za przewożenie osób w liczbie przekraczającej o dwa liczbę miejsc określoną w dowodzie rejestracyjnym samochodu osobowego?",
+    "textUz": "Yengil avtomobil ro'yxatga olish guvohnomasida ko'rsatilgan o'rindiqlar sonidan ikkita ortiq odam tashiganlik uchun politsiya xodimi bergan haydovchilik guvohnomasini olib qo'yish tilxati qancha vaqt amal qiladi?",
+    "category": "Hujjatlar va huquqiy javobgarlik",
+    "isPremium": true,
+    "options": [
+      {
+        "textPl": "12 godzin.",
+        "textUz": "12 soat.",
+        "isCorrect": false
+      },
+      {
+        "textPl": "24 godziny.",
+        "textUz": "24 soat.",
+        "isCorrect": true
+      },
+      {
+        "textPl": "72 godziny.",
+        "textUz": "72 soat.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "textPl": "Jak postąpi policjant, jeżeli podczas kontroli drogowej ujawni, że przekroczyłeś prędkość o więcej niż 50 km/h w obszarze zabudowanym, ale było to związane z ratowaniem ludzkiego życia?",
+    "textUz": "Yo'l nazorati paytida aholi punktida tezlikni 50 km/soatdan ko'proqqa oshirganingiz, ammo bu odam hayotini qutqarish bilan bog'liq bo'lganini politsiya xodimi aniqlasa, u qanday harakat qiladi?",
+    "category": "Hujjatlar va huquqiy javobgarlik",
+    "isPremium": true,
+    "options": [
+      {
+        "textPl": "Zatrzyma prawo jazdy.",
+        "textUz": "Haydovchilik guvohnomasini olib qo'yadi.",
+        "isCorrect": false
+      },
+      {
+        "textPl": "Pouczy i skieruje na egzamin kontrolny.",
+        "textUz": "Ogohlantiradi va nazorat imtihoniga yo'llaydi.",
+        "isCorrect": false
+      },
+      {
+        "textPl": "Nie zatrzyma prawa jazdy.",
+        "textUz": "Haydovchilik guvohnomasini olib qo'ymaydi.",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "textPl": "Jak postąpi policjant, jeżeli podczas kontroli drogowej ujawni, że przekroczyłeś prędkość o więcej niż 50 km/h w obszarze zabudowanym, ale było to związane z ratowaniem ludzkiego życia?",
+    "textUz": "Yo'l nazorati paytida aholi punktida tezlikni 50 km/soatdan ko'proqqa oshirganingiz, ammo bu odam hayotini qutqarish bilan bog'liq bo'lganini politsiya xodimi aniqlasa, nima bo'ladi?",
+    "category": "Hujjatlar va huquqiy javobgarlik",
+    "isPremium": true,
+    "options": [
+      {
+        "textPl": "Zatrzyma prawo jazdy.",
+        "textUz": "Haydovchilik guvohnomasini olib qo'yadi.",
+        "isCorrect": false
+      },
+      {
+        "textPl": "Skieruje na dodatkowe szkolenie.",
+        "textUz": "Qo'shimcha o'qitishga yo'llaydi.",
+        "isCorrect": false
+      },
+      {
+        "textPl": "Odstąpi od zatrzymania prawa jazdy.",
+        "textUz": "Haydovchilik guvohnomasini olib qo'yishdan voz kechadi.",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "textPl": "W jakim przypadku możesz przewozić trzecie dziecko, o wzroście poniżej 135 cm, na tylnym siedzeniu samochodu osobowego lub ciężarowego, przytrzymywane jedynie pasami bezpieczeństwa?",
+    "textUz": "Yengil avtomobil yoki yuk mashinasining orqa o'rindig'ida bo'yi 135 sm dan past uchinchi bolani faqat xavfsizlik kamari bilan mahkamlab qanday holatda tashish mumkin?",
+    "category": "Bolalarni tashish",
+    "isPremium": true,
+    "options": [
+      {
+        "textPl": "Jeżeli dwoje dzieci przewożonych jest w fotelikach bezpieczeństwa i nie ma możliwości zainstalowania trzeciego fotelika, a trzecie dziecko ma ukończone 3 lata.",
+        "textUz": "Agar ikkita bola xavfsizlik o'rindig'ida tashilsa va uchinchi o'rindiqni o'rnatish imkoni bo'lmasa hamda uchinchi bola 3 yoshni to'ldirgan bo'lsa.",
+        "isCorrect": true
+      },
+      {
+        "textPl": "Tylko, jeżeli trzecie dziecko ma wzrost co najmniej 100 cm wzrostu.",
+        "textUz": "Faqat uchinchi bola bo'yi kamida 100 sm bo'lsa.",
+        "isCorrect": false
+      },
+      {
+        "textPl": "Tylko, jeżeli trzecie dziecko ukończyło 15 lat.",
+        "textUz": "Faqat uchinchi bola 15 yoshni to'ldirgan bo'lsa.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "textPl": "Kiedy wolno przewozić samochodem ciężarowym, na przednim siedzeniu, dziecko mające poniżej 150 cm wzrostu, przytrzymywane jedynie za pomocą pasów bezpieczeństwa?",
+    "textUz": "Yuk mashinasining old o'rindig'ida bo'yi 150 sm dan past bolani faqat xavfsizlik kamari bilan mahkamlab qachon tashish mumkin?",
+    "category": "Bolalarni tashish",
+    "isPremium": true,
+    "options": [
+      {
+        "textPl": "Jeżeli dziecko ma co najmniej 135 cm wzrostu.",
+        "textUz": "Agar bola bo'yi kamida 135 sm bo'lsa.",
+        "isCorrect": false
+      },
+      {
+        "textPl": "Jeżeli w samochodzie tym nie ma możliwości zamontowania fotelika bezpieczeństwa.",
+        "textUz": "Agar bu mashinada xavfsizlik o'rindig'ini o'rnatish imkoni bo'lmasa.",
+        "isCorrect": false
+      },
+      {
+        "textPl": "Jeżeli dziecko ma zaświadczenie lekarskie o przeciwwskazaniu do przewożenia w foteliku bezpieczeństwa.",
+        "textUz": "Agar bolada xavfsizlik o'rindig'ida tashishga tibbiy qarshi ko'rsatma bo'lsa.",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "textPl": "Który z wymienionych dokumentów kierujący pojazdem zarejestrowanym na terytorium RP musi mieć przy sobie i okazywać na żądanie uprawnionego organu?",
+    "textUz": "Polsha Respublikasi hududida ro'yxatdan o'tgan transport vositasini boshqaruvchi qaysi hujjatni o'zi bilan olib yurishi va vakolatli organ talabiga ko'ra ko'rsatishi shart?",
+    "category": "Hujjatlar va texnik ko'rik",
+    "isPremium": true,
+    "options": [
+      {
+        "textPl": "Potwierdzenie opłacenia obowiązkowego ubezpieczenia odpowiedzialności cywilnej właściciela pojazdu.",
+        "textUz": "Transport vositasi egasining majburiy fuqarolik javobgarligi sug'urtasi to'lovi tasdig'i.",
+        "isCorrect": false
+      },
+      {
+        "textPl": "Dowód rejestracyjny.",
+        "textUz": "Ro'yxatga olish guvohnomasi.",
+        "isCorrect": false
+      },
+      {
+        "textPl": "Jeśli kierujący ma uprawnienia do kierowania ograniczone do pojazdu wyposażonego w blokadę alkoholową - zaświadczenie o pozytywnym wyniku badania technicznego w tym zakresie.",
+        "textUz": "Agar haydovchining huquqi spirtli ichimlik blokirovkasi o'rnatilgan transport vositasi bilan cheklangan bo'lsa — shu bo'yicha ijobiy texnik ko'rik natijasi haqidagi guvohnoma.",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "textPl": "Czy inspektor transportu drogowego podczas kontrolowania pojazdu, który wykonuje transport drogowy, ma prawo weryfikować dane o pojeździe w Centralnej Ewidencji Pojazdów?",
+    "textUz": "Yo'l transporti amalga oshirayotgan transport vositasini tekshirayotganda, yo'l transporti inspektori Transport Vositalarining Markaziy Reestrida ma'lumotlarni tekshirish huquqiga egami?",
+    "category": "Hujjatlar va texnik ko'rik",
+    "isPremium": true,
+    "options": [
+      {
+        "textPl": "Tak, w tym zakresie przysługują takie same prawa jak policji.",
+        "textUz": "Ha, bu borada politsiya bilan bir xil huquqlarga ega.",
+        "isCorrect": true
+      },
+      {
+        "textPl": "Nie, takie uprawnienia posiada tylko policja.",
+        "textUz": "Yo'q, bunday huquq faqat politsiyada.",
+        "isCorrect": false
+      },
+      {
+        "textPl": "Nie, do weryfikacji danych o pojeździe w Centralnej Ewidencji Pojazdów uprawnione są tylko: policja, straż graniczna i służby celno-skarbowe.",
+        "textUz": "Yo'q, Transport Vositalarining Markaziy Reestridagi ma'lumotlarni tekshirishga faqat politsiya, chegara xizmati va bojxona-soliq xizmatlari vakolatli.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "textPl": "Kto może zwrócić dowód rejestracyjny, w przypadku jego zatrzymania podczas kontroli ruchu drogowego, w związku ze stwierdzeniem, że pojazd zagraża porządkowi ruchu?",
+    "textUz": "Transport vositasi yo'l harakati tartibiga tahdid solayotgani aniqlanib, yo'l nazorati paytida ro'yxatga olish guvohnomasi olib qo'yilgan bo'lsa, uni kim qaytarib berishi mumkin?",
+    "category": "Hujjatlar va texnik ko'rik",
+    "isPremium": true,
+    "options": [
+      {
+        "textPl": "Jednostka upoważniona do przeprowadzania badań technicznych po przeprowadzeniu badania technicznego odpowiadającego przyczynie zatrzymania dowodu rejestracyjnego.",
+        "textUz": "Ro'yxatga olish guvohnomasi olib qo'yilishiga sabab bo'lgan texnik ko'rikni o'tkazgandan so'ng, texnik ko'rik o'tkazishga vakolatli tashkilot.",
+        "isCorrect": true
+      },
+      {
+        "textPl": "Straż Miejska.",
+        "textUz": "Shahar qo'riqchisi (Straż Miejska).",
+        "isCorrect": false
+      },
+      {
+        "textPl": "Zarządca drogi.",
+        "textUz": "Yo'l boshqarmasi.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "textPl": "Na jak długo zostanie zatrzymane prawo jazdy kierowcy, który przekroczył prędkość o więcej niż 50 km/h na obszarze zabudowanym?",
+    "textUz": "Aholi punktida ruxsat etilgan tezlikni 50 km/soatdan ko'proqqa oshirgan haydovchining haydovchilik guvohnomasi qancha muddatga olib qo'yiladi?",
+    "category": "Hujjatlar va huquqiy javobgarlik",
+    "isPremium": true,
+    "options": [
+      {
+        "textPl": "Na 3 miesięce.",
+        "textUz": "3 oyga.",
+        "isCorrect": true
+      },
+      {
+        "textPl": "Na 6 miesięcy.",
+        "textUz": "6 oyga.",
+        "isCorrect": false
+      },
+      {
+        "textPl": "Na 1 miesiąc.",
+        "textUz": "1 oyga.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "textPl": "Na jak długo pokwitowanie zatrzymania prawa jazdy za przekroczenie dozwolonej prędkości na obszarze zabudowanym o więcej niż 50 km/h uprawnia do kierowania pojazdem?",
+    "textUz": "Aholi punktida ruxsat etilgan tezlikni 50 km/soatdan ko'proqqa oshirganlik uchun haydovchilik guvohnomasini olib qo'yish tilxati qancha muddat transport vositasini boshqarish huquqini beradi?",
+    "category": "Hujjatlar va huquqiy javobgarlik",
+    "isPremium": true,
+    "options": [
+      {
+        "textPl": "Przez okres 24 godzin od chwili zatrzymania prawa jazdy.",
+        "textUz": "Haydovchilik guvohnomasi olib qo'yilgan paytdan 24 soat davomida.",
+        "isCorrect": true
+      },
+      {
+        "textPl": "Przez okres 7 dni od chwili zatrzymania prawa jazdy.",
+        "textUz": "Haydovchilik guvohnomasi olib qo'yilgan paytdan 7 kun davomida.",
+        "isCorrect": false
+      },
+      {
+        "textPl": "Przez okres 72 godzin od chwili zatrzymania prawa jazdy.",
+        "textUz": "Haydovchilik guvohnomasi olib qo'yilgan paytdan 72 soat davomida.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "textPl": "W jakim przypadku nie zostanie zatrzymane prawo jazdy za przekroczenie dozwolonej prędkości o więcej niż 50 km/h na obszarze zabudowanym?",
+    "textUz": "Aholi punktida ruxsat etilgan tezlikni 50 km/soatdan ko'proqqa oshirganlik uchun qanday holatda haydovchilik guvohnomasi olib qo'yilmaydi?",
+    "category": "Hujjatlar va huquqiy javobgarlik",
+    "isPremium": true,
+    "options": [
+      {
+        "textPl": "Jeżeli kierujący pojazdem dopuścił się naruszenia działając w celu uchylenia bezpośredniego niebezpieczeństwa grożącego dobru chronionemu prawem.",
+        "textUz": "Agar haydovchi qonun bilan himoyalangan qadriyatga tug'ilgan bevosita xavfni bartaraf etish maqsadida qoidabuzarlik qilgan bo'lsa.",
+        "isCorrect": true
+      },
+      {
+        "textPl": "Jeżeli jadący z tyłu kierowca drugim pojazdem za pomocą świateł ostrzegawczych i sygnału dźwiękowego dawał znaki do zwiększenia prędkości.",
+        "textUz": "Agar orqadan kelayotgan boshqa haydovchi ogohlantiruvchi chiroqlar va tovush signali bilan tezlikni oshirishga ishora qilgan bo'lsa.",
+        "isCorrect": false
+      },
+      {
+        "textPl": "Jeżeli kierujący zwiększył prędkość w celu szybszego zjechania ze skrzyżowania dróg przy świecącym się sygnale zielonym.",
+        "textUz": "Agar haydovchi yashil signal yonib turganda chorrahadan tezroq chiqib ketish uchun tezlikni oshirgan bo'lsa.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "textPl": "Chcesz przewieźć dziecko na przednim siedzeniu pojazdu samochodowego wyposażonego w przednią poduszkę dla pasażera, która jest aktywna. W jaki sposób możesz to zrobić?",
+    "textUz": "Yo'lovchi uchun faol old havo yostiqchasi bilan jihozlangan avtomobilning old o'rindig'ida bolani tashimoqchisiz. Buni qanday qilishingiz mumkin?",
+    "category": "Bolalarni tashish",
+    "isPremium": true,
+    "options": [
+      {
+        "textPl": "W foteliku bezpieczeństwa tyłem do kierunku jazdy.",
+        "textUz": "Xavfsizlik o'rindig'ida, orqaga qaratilgan holda.",
+        "isCorrect": false
+      },
+      {
+        "textPl": "W foteliku bezpieczeństwa przodem do kierunku jazdy.",
+        "textUz": "Xavfsizlik o'rindig'ida, oldinga qaratilgan holda.",
+        "isCorrect": true
+      },
+      {
+        "textPl": "W innym urządzeniu przytrzymującym dziecko tyłem do kierunku jazdy.",
+        "textUz": "Boshqa ushlab turuvchi qurilmada, orqaga qaratilgan holda.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "textPl": "Co grozi kierowcy, który samochodem ciężarowym przewozi o trzy osoby więcej od liczby miejsc wpisanej w dowodzie rejestracyjnym pojazdu?",
+    "textUz": "Ro'yxatga olish guvohnomasida ko'rsatilgan o'rindiqlar sonidan uchta ortiq odamni yuk mashinasida tashigan haydovchiga nima tahdid qiladi?",
+    "category": "Hujjatlar va huquqiy javobgarlik",
+    "isPremium": true,
+    "options": [
+      {
+        "textPl": "Zatrzymanie prawa jazdy na okres 3 miesięcy.",
+        "textUz": "Haydovchilik guvohnomasi 3 oyga olib qo'yiladi.",
+        "isCorrect": true
+      },
+      {
+        "textPl": "Zatrzymanie prawa jazdy na okres 3 miesięcy i kontrolne sprawdzenie kwalifikacji.",
+        "textUz": "Haydovchilik guvohnomasi 3 oyga olib qo'yiladi va nazorat malaka tekshiruvi o'tkaziladi.",
+        "isCorrect": false
+      },
+      {
+        "textPl": "Zatrzymanie prawa jazdy na okres 6 miesięcy.",
+        "textUz": "Haydovchilik guvohnomasi 6 oyga olib qo'yiladi.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "textPl": "Na jakiej drodze obowiązuje kierującego zachowanie ściśle określonego minimalnego odstępu od pojazdu poprzedzającego?",
+    "textUz": "Qaysi yo'lda haydovchi oldingi transport vositasidan qat'iy belgilangan minimal masofani saqlashi majburiy?",
+    "category": "Xavfsiz masofa va manevrlar",
+    "isPremium": true,
+    "options": [
+      {
+        "textPl": "Na drodze ekspresowej.",
+        "textUz": "Tezyurar yo'lda.",
+        "isCorrect": true
+      },
+      {
+        "textPl": "Na drodze dwujezdniowej co najmniej o dwóch pasach przeznaczonych dla każdego kierunku ruchu.",
+        "textUz": "Har bir harakat yo'nalishi uchun kamida ikkita yo'lakli ikki yo'lakli yo'lda.",
+        "isCorrect": false
+      },
+      {
+        "textPl": "Na drodze jednojezdniowej poza obszarem zabudowanym.",
+        "textUz": "Aholi punktidan tashqaridagi bir yo'lakli yo'lda.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "textPl": "Jaka jest dopuszczalna prędkość pojazdu z urządzeniem wystającym do przodu więcej niż 1,5 m od siedzenia dla kierującego?",
+    "textUz": "Haydovchi o'rindig'idan 1,5 metrdan ortiq oldinga chiqib turgan qurilmasi bo'lgan transport vositasi uchun ruxsat etilgan tezlik qancha?",
+    "category": "Tezlik chegaralari",
+    "isPremium": true,
+    "options": [
+      {
+        "textPl": "40 km/h na obszarze zabudowanym.",
+        "textUz": "Aholi punktida 40 km/soat.",
+        "isCorrect": false
+      },
+      {
+        "textPl": "60 km/h poza obszarem zabudowanym.",
+        "textUz": "Aholi punktidan tashqarida 60 km/soat.",
+        "isCorrect": true
+      },
+      {
+        "textPl": "30 km/h bez względu na obszar w jakim się porusza.",
+        "textUz": "Harakat qilayotgan hududidan qat'i nazar 30 km/soat.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "textPl": "Z jaką prędkością wolno poruszać się po autostradzie kierując samochodem osobowym?",
+    "textUz": "Yengil avtomobil bilan avtomagistralda qanday tezlikda harakatlanish mumkin?",
+    "category": "Tezlik chegaralari",
+    "isPremium": true,
+    "options": [
+      {
+        "textPl": "Zapewniającą panowanie nad pojazdem z uwzględnieniem warunków, w jakich ruch się odbywa, nie wyższą niż 140 km/h.",
+        "textUz": "Harakat sharoitini hisobga olgan holda transport vositasi ustidan nazoratni ta'minlaydigan, lekin 140 km/soatdan oshmaydigan tezlikda.",
+        "isCorrect": true
+      },
+      {
+        "textPl": "Uwzględniającą warunki atmosferyczne, w jakich ruch się odbywa / śnieżyca, ulewa itp./, nie mniejszą niż 40 km/h.",
+        "textUz": "Ob-havo sharoitini (qor bo'roni, jala va h.k.) hisobga olgan holda, 40 km/soatdan kam bo'lmagan tezlikda.",
+        "isCorrect": false
+      },
+      {
+        "textPl": "Dowolną zapewniającą panowanie nad pojazdem.",
+        "textUz": "Transport vositasi ustidan nazoratni ta'minlaydigan istalgan tezlikda.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "textPl": "Jaka jest dopuszczalna prędkość czterokołowca na obszarze zabudowanym?",
+    "textUz": "Aholi punktida to'rt g'ildirakli mototransport (chetyrehkoleslar) uchun ruxsat etilgan tezlik qancha?",
+    "category": "Tezlik chegaralari",
+    "isPremium": true,
+    "options": [
+      {
+        "textPl": "50 km/h bez względu na jego dopuszczalną masę całkowitą.",
+        "textUz": "Umumiy massasidan qat'i nazar 50 km/soat.",
+        "isCorrect": true
+      },
+      {
+        "textPl": "40 km/h, jeżeli jego dopuszczalna masa całkowita przekracza 3,5 t.",
+        "textUz": "Agar umumiy massasi 3,5 tonnadan oshsa, 40 km/soat.",
+        "isCorrect": false
+      },
+      {
+        "textPl": "20 km/h.",
+        "textUz": "20 km/soat.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "textPl": "Z jaką maksymalną dopuszczalną prędkością możesz holować inny pojazd?",
+    "textUz": "Boshqa transport vositasini bukserga olishda ruxsat etilgan maksimal tezlik qancha?",
+    "category": "Tezlik chegaralari",
+    "isPremium": true,
+    "options": [
+      {
+        "textPl": "50 km/h w obszarze zabudowanym.",
+        "textUz": "Aholi punktida 50 km/soat.",
+        "isCorrect": false
+      },
+      {
+        "textPl": "60 km/h poza obszarem zabudowanym.",
+        "textUz": "Aholi punktidan tashqarida 60 km/soat.",
+        "isCorrect": true
+      },
+      {
+        "textPl": "80 km/h na drodze dwujezdniowej o co najmniej dwóch pasach przeznaczonych dla każdego kierunku ruchu.",
+        "textUz": "Har bir harakat yo'nalishi uchun kamida ikkita yo'lakli ikki yo'lakli yo'lda 80 km/soat.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "textPl": "Po spełnieniu, którego z wymienionych warunków można przewozić samochodem osobowym, poza fotelikiem bezpieczeństwa lub innym urządzeniem przytrzymującym, dziecko mające mniej niż 150 cm wzrostu?",
+    "textUz": "Bo'yi 150 sm dan past bolani xavfsizlik o'rindig'i yoki boshqa ushlab turuvchi qurilmasiz yengil avtomobilda tashish uchun qaysi shart bajarilishi kerak?",
+    "category": "Bolalarni tashish",
+    "isPremium": true,
+    "options": [
+      {
+        "textPl": "Prędkość pojazdu nie przekroczy 40 km/h.",
+        "textUz": "Transport vositasi tezligi 40 km/soatdan oshmasligi kerak.",
+        "isCorrect": false
+      },
+      {
+        "textPl": "Dziecko posiada zaświadczenie lekarskie o przeciwwskazaniu do przewożenia w foteliku lub innym urządzeniu.",
+        "textUz": "Bolada o'rindiq yoki boshqa qurilmada tashishga tibbiy qarshi ko'rsatma bo'lgan tibbiy ma'lumotnoma bo'lishi kerak.",
+        "isCorrect": true
+      },
+      {
+        "textPl": "Pojazd posiada dodatkowe oznakowanie, które wskazuje, że jest nim przewożone dziecko.",
+        "textUz": "Transport vositasida bola tashilayotganini bildiruvchi qo'shimcha belgilanish bo'lishi kerak.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "textPl": "Widząc osobę z białą laską przechodzącą przez jezdnię należy:",
+    "textUz": "Yo'ldan oq hassa bilan o'tayotgan odamni ko'rganingizda:",
+    "category": "Umumiy qoidalar",
+    "isPremium": true,
+    "options": [
+      {
+        "textPl": "zatrzymać pojazd w celu umożliwienia jej przejścia",
+        "textUz": "unga o'tishga imkon berish uchun transport vositasini to'xtatish kerak.",
+        "isCorrect": true
+      },
+      {
+        "textPl": "użyć sygnału dźwiękowego, jeśli przechodzi poza wyznaczonym przejściem dla pieszych",
+        "textUz": "agar u belgilangan piyodalar o'tish joyidan tashqarida o'tayotgan bo'lsa, tovush signalidan foydalanish kerak.",
+        "isCorrect": false
+      },
+      {
+        "textPl": "w każdym przypadku zmienić bieg na wyższy",
+        "textUz": "har qanday holatda yuqori uzatishmaga o'tish kerak.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "textPl": "Czy każdy kierujący pojazdem ma obowiązek jechać z prędkością zapewniającą panowanie nad pojazdem ?",
+    "textUz": "Har bir haydovchi transport vositasi ustidan nazoratni ta'minlaydigan tezlikda yurish majburiyatiga egami?",
+    "category": "Tezlik chegaralari",
+    "isPremium": true,
+    "options": [
+      {
+        "textPl": "Tak, zawsze obowiązek dotyczy wszystkich kierujących pojazdami.",
+        "textUz": "Ha, bu majburiyat barcha haydovchilarga doimo tegishli.",
+        "isCorrect": true
+      },
+      {
+        "textPl": "Nie, obowiązek dotyczy jedynie kierowców pojazdów samochodowych.",
+        "textUz": "Yo'q, bu majburiyat faqat avtomobil haydovchilariga tegishli.",
+        "isCorrect": false
+      },
+      {
+        "textPl": "Tak, ale wyłącznie w obszarze zabudowanym.",
+        "textUz": "Ha, lekin faqat aholi punktida.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "textPl": "Prędkość bezpieczna to prędkość :",
+    "textUz": "Xavfsiz tezlik — bu qanday tezlik?",
+    "category": "Tezlik chegaralari",
+    "isPremium": true,
+    "options": [
+      {
+        "textPl": "która zapewnia panowanie nad pojazdem.",
+        "textUz": "Transport vositasi ustidan nazoratni ta'minlaydigan tezlik.",
+        "isCorrect": true
+      },
+      {
+        "textPl": "która jest równa dopuszczalnej prędkości na danym odcinku drogi.",
+        "textUz": "Berilgan yo'l qismidagi ruxsat etilgan tezlikka teng bo'lgan tezlik.",
+        "isCorrect": false
+      },
+      {
+        "textPl": "którą \"podpowiada\" nawigacja w Twoim pojeździe.",
+        "textUz": "Transport vositangizdagi navigator \"maslahat beradigan\" tezlik.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "textPl": "Czy prędkość pojazdu powinna być dostosowana do widoczności drogi ?",
+    "textUz": "Transport vositasining tezligi yo'l ko'rinishiga moslashtirilishi kerakmi?",
+    "category": "Tezlik chegaralari",
+    "isPremium": true,
+    "options": [
+      {
+        "textPl": "Tak, jadę na tyle szybko na ile mam zapewnioną pełną widoczność drogi - niezależnie od limitów prędkości.",
+        "textUz": "Ha, tezlik cheklovlaridan qat'i nazar, yo'lni to'liq ko'ra oladigan darajada tez yuraman.",
+        "isCorrect": true
+      },
+      {
+        "textPl": "Tak, wskaźnikiem jest możliwość obserwacji znaków drogowych.",
+        "textUz": "Ha, ko'rsatkich — yo'l belgilarini kuzatish imkoniyati.",
+        "isCorrect": false
+      },
+      {
+        "textPl": "Tak ,ale wyłącznie po zmroku.",
+        "textUz": "Ha, lekin faqat qorong'i tushgandan keyin.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "textPl": "Jaki jest wpływ prędkości pojazdu na reakcję kierującego?",
+    "textUz": "Transport vositasi tezligi haydovchining reaksiyasiga qanday ta'sir qiladi?",
+    "category": "Tezlik chegaralari",
+    "isPremium": true,
+    "options": [
+      {
+        "textPl": "Żaden.",
+        "textUz": "Hech qanday ta'sir qilmaydi.",
+        "isCorrect": false
+      },
+      {
+        "textPl": "Im większa prędkość, tym szybsza reakcja.",
+        "textUz": "Tezlik qanchalik yuqori bo'lsa, reaksiya shunchalik tez bo'ladi.",
+        "isCorrect": false
+      },
+      {
+        "textPl": "Im większa prędkość, tym mniej czasu na reakcję.",
+        "textUz": "Tezlik qanchalik yuqori bo'lsa, reaksiya uchun vaqt shunchalik kam bo'ladi.",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "textPl": "Czy prędkość przy jakiej doszło do wypadku ma wpływ na jego skutki ?",
+    "textUz": "Baxtsiz hodisa yuz bergan tezlik uning oqibatlariga ta'sir qiladimi?",
+    "category": "Tezlik chegaralari",
+    "isPremium": true,
+    "options": [
+      {
+        "textPl": "Nie.",
+        "textUz": "Yo'q.",
+        "isCorrect": false
+      },
+      {
+        "textPl": "Tak, ale tylko przy czołowym zderzeniu.",
+        "textUz": "Ha, lekin faqat peshma-peshdan to'qnashuvda.",
+        "isCorrect": false
+      },
+      {
+        "textPl": "Tak.",
+        "textUz": "Ha.",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "textPl": "Które z poniższych zachowań świadczy o rozważnym i bezpiecznym prowadzeniu pojazdu?",
+    "textUz": "Quyidagi xatti-harakatlardan qaysi biri ehtiyotkor va xavfsiz haydashdan dalolat beradi?",
+    "category": "Umumiy qoidalar",
+    "isPremium": true,
+    "options": [
+      {
+        "textPl": "Utrzymywanie stałej maksymalnej dopuszczalnej prędkości niezależnie od zmieniających się  warunków drogowych.",
+        "textUz": "O'zgaruvchan yo'l sharoitidan qat'i nazar doimiy maksimal ruxsat etilgan tezlikni saqlash.",
+        "isCorrect": false
+      },
+      {
+        "textPl": "Rozwijanie maksymalnych dopuszczalnych prędkości i maksymalnych możliwych przyspieszeń, wtedy jest większa szansa na uniknięcie zagrożenia bezpieczeństwa.",
+        "textUz": "Maksimal ruxsat etilgan tezlik va maksimal tezlashishlarni rivojlantirish — bunda xavfsizlikka tahdiddan qochish imkoniyati kattaroq bo'ladi.",
+        "isCorrect": false
+      },
+      {
+        "textPl": "Zwiększenie uwagi przy zbliżaniu się do przejścia dla pieszych.",
+        "textUz": "Piyodalar o'tish joyiga yaqinlashganda diqqatni oshirish.",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "textPl": "Jaką decyzję podejmie starosta, jeśli zostałeś zatrzymany do kontroli kierując pojazdem pomimo przedłużeniu okresu zatrzymania prawa jazdy do sześciu miesięcy za przekroczenie prędkości o więcej niż 50 km/h w obszarze  zabudowanym?",
+    "textUz": "Aholi punktida tezlikni 50 km/soatdan ko'proqqa oshirganlik uchun haydovchilik guvohnomasini olib qo'yish muddati oltita oygacha uzaytirilgan bo'lsa-yu, siz shunga qaramay transport vositasini boshqarayotganingizda nazorat uchun to'xtatilsangiz, starosta qanday qaror qabul qiladi?",
+    "category": "Hujjatlar va huquqiy javobgarlik",
+    "isPremium": true,
+    "options": [
+      {
+        "textPl": "Przedłuży okres zatrzymania o kolejne trzy miesiące.",
+        "textUz": "Olib qo'yish muddatini yana uch oyga uzaytiradi.",
+        "isCorrect": false
+      },
+      {
+        "textPl": "Przedłuży okres zatrzymania o kolejne cztery miesiące.",
+        "textUz": "Olib qo'yish muddatini yana to'rt oyga uzaytiradi.",
+        "isCorrect": false
+      },
+      {
+        "textPl": "Cofnie uprawnienie do kierowania pojazdami na okres 5 lat od dnia stwierdzenia tego zdarzenia.",
+        "textUz": "Ushbu holat aniqlangan kundan boshlab 5 yil muddatga transport vositalarini boshqarish huquqini bekor qiladi.",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "textPl": "Jaką decyzję podejmie starosta, jeśli zostałeś zatrzymany do kontroli kierując pojazdem pomimo przedłużenia okresu zatrzymania prawa jazdy do sześciu miesięcy za przewożenie osób w liczbie przekraczającej o dwa liczbę miejsc określoną w dowodzie rejestracyjnym samochodu osobowego?",
+    "textUz": "Yengil avtomobil ro'yxatga olish guvohnomasida ko'rsatilgan o'rindiqlar sonidan ikkita ortiq odam tashiganlik uchun haydovchilik guvohnomasini olib qo'yish muddati oltita oygacha uzaytirilgan bo'lsa-yu, siz shunga qaramay transport vositasini boshqarayotganingizda nazorat uchun to'xtatilsangiz, starosta qanday qaror qabul qiladi?",
+    "category": "Hujjatlar va huquqiy javobgarlik",
+    "isPremium": true,
+    "options": [
+      {
+        "textPl": "Przedłuży okres zatrzymania o kolejne trzy miesiące.",
+        "textUz": "Olib qo'yish muddatini yana uch oyga uzaytiradi.",
+        "isCorrect": false
+      },
+      {
+        "textPl": "Przedłuży okres zatrzymania o kolejne cztery miesiące.",
+        "textUz": "Olib qo'yish muddatini yana to'rt oyga uzaytiradi.",
+        "isCorrect": false
+      },
+      {
+        "textPl": "Cofnie uprawnienie do kierowania pojazdami na okres 5 lat od dnia stwierdzenia tego zdarzenia.",
+        "textUz": "Ushbu holat aniqlangan kundan boshlab 5 yil muddatga transport vositalarini boshqarish huquqini bekor qiladi.",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "textPl": "Policjant zatrzyma wydane w kraju prawo jazdy za pokwitowaniem, w przypadku ujawnienia czynu polegającego na przewożeniu osób samochodem osobowym, w liczbie przekraczającej liczbę miejsc określoną w dowodzie rejestracyjnym o:",
+    "textUz": "Politsiya xodimi yengil avtomobilda ro'yxatga olish guvohnomasida ko'rsatilgan o'rindiqlar sonidan ortiq odam tashiganlik faktini aniqlasa, mamlakatda berilgan haydovchilik guvohnomasini tilxat evaziga qancha kishiga nisbatan olib qo'yadi:",
+    "category": "Hujjatlar va huquqiy javobgarlik",
+    "isPremium": true,
+    "options": [
+      {
+        "textPl": "1 osobę.",
+        "textUz": "1 kishi.",
+        "isCorrect": false
+      },
+      {
+        "textPl": "2 osoby.",
+        "textUz": "2 kishi.",
+        "isCorrect": false
+      },
+      {
+        "textPl": "3 osoby.",
+        "textUz": "3 kishi.",
+        "isCorrect": true
+      }
+    ]
+  }
+]

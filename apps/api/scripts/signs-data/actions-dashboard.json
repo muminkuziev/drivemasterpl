@@ -1,0 +1,16 @@
+[
+  { "code": "DB-1", "actionUz": "ABS (bloklanishga qarshi tizim) indikatori — motor ishga tushganda bir necha soniya yonib o'chishi kerak; doimiy yonsa, servisga murojaat qiling, tormozlash uzoqroq bo'lishi mumkin." },
+  { "code": "DB-2", "actionUz": "Akkumulyator zaryadlanish tizimida nosozlik — iloji boricha tezroq to'xtab, elektr tizimini tekshirtiring, aks holda dvigatel o'chib qolishi mumkin." },
+  { "code": "DB-3", "actionUz": "Tormoz tizimida jiddiy nosozlik — darhol xavfsiz joyda to'xtab, tormoz suyuqligi va tizimni tekshiring, ehtiyotkorlik bilan harakatlaning." },
+  { "code": "DB-4", "actionUz": "Qo'l tormozi yoqilgan (yoki tormoz suyuqligi past) — tormozni tushiring, chiroq o'chmasa harakatlanmang." },
+  { "code": "DB-5", "actionUz": "Tormoz suyuqligi darajasi past — darhol tekshirib, kerak bo'lsa quying, tormozlash samarasi pasayishi mumkin." },
+  { "code": "DB-6", "actionUz": "Burilish (pilikator) chirog'i yoqilgan — signal berayotganingizni bildiradi, burilib bo'lgach o'chishini tekshiring." },
+  { "code": "DB-7", "actionUz": "Avariya signalizatsiyasi yoqilgan — xavf haqida boshqa haydovchilarni ogohlantirmoqdasiz, kerak bo'lmasa o'chiring." },
+  { "code": "DB-8", "actionUz": "Uzoq nur faralari yoqilgan — qarshi tomondan transport kelayotganda yaqin nurga almashtiring." },
+  { "code": "DB-9", "actionUz": "Old tuman faralari yoqilgan — faqat past ko'rinuvchanlikda ishlating, keyin o'chiring." },
+  { "code": "DB-10", "actionUz": "Orqa tuman chirog'i yoqilgan — faqat kuchli tuman yoki yomg'irda ishlating, ortiqcha yonib qolsa orqadagi haydovchining ko'zini oldiradi." },
+  { "code": "DB-11", "actionUz": "Xavfsizlik kamari taqilmagan — harakatlanishdan oldin kamarni taqing." },
+  { "code": "DB-12", "actionUz": "Kruiz-nazorat (doimiy tezlik) tizimi faollashtirilgan — o'rnatilgan tezlikni nazorat qiling." },
+  { "code": "DB-13", "actionUz": "Elektr tizimida umumiy nosozlik — servisga murojaat qiling, boshqa indikatorlar noto'g'ri ishlashi mumkin." },
+  { "code": "DB-14", "actionUz": "Immobilayzer (o'g'irlikdan himoya) tizimi faol yoki nosoz — kalitni tanib olmasa, mos kalit yoki kartani ishlating." }
+]

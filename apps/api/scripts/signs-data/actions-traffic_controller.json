@@ -1,0 +1,6 @@
+[
+  { "code": "TC-1", "actionUz": "Signalning o'zgarishidan ogohlantiradi (sariq chiroqqa o'xshaydi) — barcha tomondan yaqinlashayotgan transport va piyodalar to'xtashi kerak; faqat chorrahaga allaqachon kirib bo'lgan haydovchilar uni bo'shatib chiqishi mumkin." },
+  { "code": "TC-2", "actionUz": "Shaxsning yon tomoni sizga qaragan — sizga (old yoki orqa tomondan yaqinlashuvchilarga) harakat ruxsat etilgan, chorrahadan o'tishingiz mumkin." },
+  { "code": "TC-3", "actionUz": "Shaxsning ko'kragi yoki orqasi sizga qaragan — sizga harakat taqiqlangan, to'xtang; yon tomondan yaqinlashuvchilarga esa ruxsat berilgan." },
+  { "code": "TC-4", "actionUz": "Qo'l sizning tomoningizga qarab gorizontal cho'zilgan bo'lsa — bu qizil svetofor bilan bir xil, to'xtang; qo'l tushirilishidan oldin harakatni albatta to'xtatishga ulguring." }
+]

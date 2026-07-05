@@ -1,0 +1,1582 @@
+[
+  {
+    "textPl": "Czy w tym miejscu wolno Ci wjechać na pas ruchu przeznaczony dla pojazdów jadących w przeciwnym kierunku?",
+    "textUz": "Shu joyda qarama-qarshi yo'nalishda yuruvchi transport vositalari uchun mo'ljallangan yo'lakka chiqish mumkinmi?",
+    "category": "Yo'lak va manevrlar",
+    "isPremium": true,
+    "mediaFileName": "0445D14MM_aorgbm.jpg",
+    "mediaType": "photo",
+    "options": [
+      {
+        "textPl": "Tak",
+        "textUz": "Ha",
+        "isCorrect": false
+      },
+      {
+        "textPl": "Nie",
+        "textUz": "Yo'q",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "textPl": "Czy w tej sytuacji masz prawo wyprzedzać samochód ciężarowy?",
+    "textUz": "Bu vaziyatda yuk mashinasidan o'zib o'tish huquqingiz bormi?",
+    "category": "O'zib o'tish",
+    "isPremium": true,
+    "mediaFileName": "048D15_a_org.jpg",
+    "mediaType": "photo",
+    "options": [
+      {
+        "textPl": "Tak",
+        "textUz": "Ha",
+        "isCorrect": true
+      },
+      {
+        "textPl": "Nie",
+        "textUz": "Yo'q",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "textPl": "Zostałeś właśnie wyprzedzony przez pojazd widoczny przed Tobą. Czy bezpośrednio po wyprzedzeniu wolno Ci zwiększyć prędkość?",
+    "textUz": "Sizni hozirgina oldingizda ko'rinayotgan transport vositasi o'zib o'tdi. O'zib o'tilgandan darhol keyin tezlikni oshirish mumkinmi?",
+    "category": "O'zib o'tish",
+    "isPremium": true,
+    "mediaFileName": "D26_026org.jpg",
+    "mediaType": "photo",
+    "options": [
+      {
+        "textPl": "Tak",
+        "textUz": "Ha",
+        "isCorrect": false
+      },
+      {
+        "textPl": "Nie",
+        "textUz": "Yo'q",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "textPl": "Czy w przedstawionej sytuacji jesteś ostrzegany o zbliżaniu się do jednego niebezpiecznego zakrętu w prawo?",
+    "textUz": "Ko'rsatilgan vaziyatda bitta xavfli o'ngga burilish haqida ogohlantirilyapsizmi?",
+    "category": "Yo'l belgilari",
+    "isPremium": true,
+    "mediaFileName": "IMG_0345d8org.jpg",
+    "mediaType": "photo",
+    "options": [
+      {
+        "textPl": "Tak",
+        "textUz": "Ha",
+        "isCorrect": true
+      },
+      {
+        "textPl": "Nie",
+        "textUz": "Yo'q",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "textPl": "Czy w przedstawionej sytuacji jesteś ostrzegany o kilku niebezpiecznych zakrętach w lewo?",
+    "textUz": "Ko'rsatilgan vaziyatda bir nechta xavfli chapga burilishlar haqida ogohlantirilyapsizmi?",
+    "category": "Yo'l belgilari",
+    "isPremium": true,
+    "mediaFileName": "1814D15org.jpg",
+    "mediaType": "photo",
+    "options": [
+      {
+        "textPl": "Tak",
+        "textUz": "Ha",
+        "isCorrect": false
+      },
+      {
+        "textPl": "Nie",
+        "textUz": "Yo'q",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "textPl": "Czy w przedstawionej sytuacji jesteś ostrzegany o dwóch niebezpiecznych zakrętach?",
+    "textUz": "Ko'rsatilgan vaziyatda ikkita xavfli burilish haqida ogohlantirilyapsizmi?",
+    "category": "Yo'l belgilari",
+    "isPremium": true,
+    "mediaFileName": "A-3 zT-4org.jpg",
+    "mediaType": "photo",
+    "options": [
+      {
+        "textPl": "Tak",
+        "textUz": "Ha",
+        "isCorrect": false
+      },
+      {
+        "textPl": "Nie",
+        "textUz": "Yo'q",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "textPl": "Czy w przedstawionej sytuacji jesteś ostrzegany o dwóch niebezpiecznych zakrętach, z których pierwszy jest w lewo?",
+    "textUz": "Ko'rsatilgan vaziyatda ikkita xavfli burilish haqida ogohlantirilyapsizmi, ulardan birinchisi chapga?",
+    "category": "Yo'l belgilari",
+    "isPremium": true,
+    "mediaFileName": "A-4 (5)org.jpg",
+    "mediaType": "photo",
+    "options": [
+      {
+        "textPl": "Tak",
+        "textUz": "Ha",
+        "isCorrect": true
+      },
+      {
+        "textPl": "Nie",
+        "textUz": "Yo'q",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "textPl": "Czy w tej sytuacji jesteś ostrzegany o zbliżaniu się do skrzyżowania, na którym pierwszeństwo przejazdu nie jest określone przy pomocy znaków drogowych?",
+    "textUz": "Bu vaziyatda ustuvorlik yo'l belgilari bilan aniqlanmagan chorrahaga yaqinlashish haqida ogohlantirilyapsizmi?",
+    "category": "Ustuvorlik qoidalari",
+    "isPremium": true,
+    "mediaFileName": "A-5 (3)org.jpg",
+    "mediaType": "photo",
+    "options": [
+      {
+        "textPl": "Tak",
+        "textUz": "Ha",
+        "isCorrect": true
+      },
+      {
+        "textPl": "Nie",
+        "textUz": "Yo'q",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "textPl": "Czy w trakcie prowadzenia pojazdu, wraz z upływem czasu, poprawia się Twoja zdolność dostrzegania znaków i sygnałów drogowych?",
+    "textUz": "Transport vositasini boshqarish davomida, vaqt o'tishi bilan yo'l belgilari va signallarini payqash qobiliyatingiz yaxshilanadimi?",
+    "category": "Yo'l belgilari",
+    "isPremium": true,
+    "mediaFileName": "IMG_9599org.jpg",
+    "mediaType": "photo",
+    "options": [
+      {
+        "textPl": "Tak",
+        "textUz": "Ha",
+        "isCorrect": false
+      },
+      {
+        "textPl": "Nie",
+        "textUz": "Yo'q",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "textPl": "Czy umieszczony na tablicy znak ostrzega Cię o miejscu na drodze, w którym występuje lub może występować niebezpieczeństwo?",
+    "textUz": "Taxtachadagi belgi yo'lda xavf mavjud yoki mavjud bo'lishi mumkin bo'lgan joy haqida ogohlantiradimi?",
+    "category": "Yo'l belgilari",
+    "isPremium": true,
+    "mediaFileName": "3436D15org.jpg",
+    "mediaType": "photo",
+    "options": [
+      {
+        "textPl": "Tak",
+        "textUz": "Ha",
+        "isCorrect": true
+      },
+      {
+        "textPl": "Nie",
+        "textUz": "Yo'q",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "textPl": "Czy w przedstawionej sytuacji masz obowiązek zachować szczególną ostrożność?",
+    "textUz": "Ko'rsatilgan vaziyatda alohida ehtiyotkorlik ko'rsatish majburiyati bormi?",
+    "category": "Umumiy qoidalar",
+    "isPremium": true,
+    "mediaFileName": "D20_0061org.jpg",
+    "mediaType": "photo",
+    "options": [
+      {
+        "textPl": "Tak",
+        "textUz": "Ha",
+        "isCorrect": true
+      },
+      {
+        "textPl": "Nie",
+        "textUz": "Yo'q",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "textPl": "Czy w przedstawionej sytuacji jesteś ostrzegany o zbliżaniu się do skrzyżowania z jednokierunkową drogą podporządkowaną?",
+    "textUz": "Ko'rsatilgan vaziyatda bir tomonlama tobe yo'l bilan kesishishga yaqinlashish haqida ogohlantirilyapsizmi?",
+    "category": "Yo'l belgilari",
+    "isPremium": true,
+    "mediaFileName": "A-6eorg.jpg",
+    "mediaType": "photo",
+    "options": [
+      {
+        "textPl": "Tak",
+        "textUz": "Ha",
+        "isCorrect": true
+      },
+      {
+        "textPl": "Nie",
+        "textUz": "Yo'q",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "textPl": "Czy tabliczka umieszczona pod znakiem wskazuje rzeczywisty przebieg drogi z pierwszeństwem przejazdu?",
+    "textUz": "Belgi ostidagi taxtacha ustuvor yo'lning haqiqiy yo'nalishini ko'rsatadimi?",
+    "category": "Ustuvorlik qoidalari",
+    "isPremium": true,
+    "mediaFileName": "IMG_4003org.jpg",
+    "mediaType": "photo",
+    "options": [
+      {
+        "textPl": "Tak",
+        "textUz": "Ha",
+        "isCorrect": true
+      },
+      {
+        "textPl": "Nie",
+        "textUz": "Yo'q",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "textPl": "Czy w przedstawionej sytuacji jesteś ostrzegany o zbliżaniu się do przejazdu kolejowego wyposażonego w zapory, lub w półzapory?",
+    "textUz": "Ko'rsatilgan vaziyatda to'siq yoki yarim to'siqli temir yo'l kesishmasiga yaqinlashish haqida ogohlantirilyapsizmi?",
+    "category": "Yo'l belgilari",
+    "isPremium": true,
+    "mediaFileName": "0876D18org.jpg",
+    "mediaType": "photo",
+    "options": [
+      {
+        "textPl": "Tak",
+        "textUz": "Ha",
+        "isCorrect": true
+      },
+      {
+        "textPl": "Nie",
+        "textUz": "Yo'q",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "textPl": "Czy w przedstawionej sytuacji jesteś ostrzegany o przejeździe kolejowym wyposażonym w zapory lub półzapory?",
+    "textUz": "Ko'rsatilgan vaziyatda to'siq yoki yarim to'siqli temir yo'l kesishmasiga yaqinlashish haqida ogohlantirilyapsizmi?",
+    "category": "Yo'l belgilari",
+    "isPremium": true,
+    "mediaFileName": "A-10 (2)org.jpg",
+    "mediaType": "photo",
+    "options": [
+      {
+        "textPl": "Tak",
+        "textUz": "Ha",
+        "isCorrect": false
+      },
+      {
+        "textPl": "Nie",
+        "textUz": "Yo'q",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "textPl": "Czy w przedstawionej sytuacji jesteś ostrzegany o przejeździe kolejowym wyposażonym w półzapory?",
+    "textUz": "Ko'rsatilgan vaziyatda yarim to'siqli temir yo'l kesishmasi haqida ogohlantirilyapsizmi?",
+    "category": "Yo'l belgilari",
+    "isPremium": true,
+    "mediaFileName": "1070D18org.jpg",
+    "mediaType": "photo",
+    "options": [
+      {
+        "textPl": "Tak",
+        "textUz": "Ha",
+        "isCorrect": false
+      },
+      {
+        "textPl": "Nie",
+        "textUz": "Yo'q",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "textPl": "Czy w przedstawionej sytuacji jesteś ostrzegany o poprzecznej nierówności jezdni?",
+    "textUz": "Ko'rsatilgan vaziyatda yo'lning ko'ndalang notekisligi haqida ogohlantirilyapsizmi?",
+    "category": "Yo'l belgilari",
+    "isPremium": true,
+    "mediaFileName": "IMG_9274d8org.jpg",
+    "mediaType": "photo",
+    "options": [
+      {
+        "textPl": "Tak",
+        "textUz": "Ha",
+        "isCorrect": true
+      },
+      {
+        "textPl": "Nie",
+        "textUz": "Yo'q",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "textPl": "Czy w przedstawionej sytuacji jesteś ostrzegany o nierównościach na drodze, występujących na odcinku 1,2 km za znakiem?",
+    "textUz": "Ko'rsatilgan vaziyatda belgidan keyingi 1,2 km masofada yo'l notekisliklari haqida ogohlantirilyapsizmi?",
+    "category": "Yo'l belgilari",
+    "isPremium": true,
+    "mediaFileName": "IMG_9528d8org.jpg",
+    "mediaType": "photo",
+    "options": [
+      {
+        "textPl": "Tak",
+        "textUz": "Ha",
+        "isCorrect": true
+      },
+      {
+        "textPl": "Nie",
+        "textUz": "Yo'q",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "textPl": "Czy w przedstawionej sytuacji jesteś ostrzegany o wypukłości jezdni zastosowanej w celu spowolnienia ruchu?",
+    "textUz": "Ko'rsatilgan vaziyatda harakatni sekinlashtirish uchun qo'yilgan yo'l bo'rtig'i haqida ogohlantirilyapsizmi?",
+    "category": "Yo'l belgilari",
+    "isPremium": true,
+    "mediaFileName": "IMG_9274d8org.jpg",
+    "mediaType": "photo",
+    "options": [
+      {
+        "textPl": "Tak",
+        "textUz": "Ha",
+        "isCorrect": false
+      },
+      {
+        "textPl": "Nie",
+        "textUz": "Yo'q",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "textPl": "Czy w przedstawionej sytuacji jesteś ostrzegany o wypukłości na jezdni zastosowanej w celu spowolnienia ruchu?",
+    "textUz": "Ko'rsatilgan vaziyatda harakatni sekinlashtirish uchun qo'yilgan yo'l bo'rtig'i haqida ogohlantirilyapsizmi?",
+    "category": "Yo'l belgilari",
+    "isPremium": true,
+    "mediaFileName": "IMG_8384org.jpg",
+    "mediaType": "photo",
+    "options": [
+      {
+        "textPl": "Tak",
+        "textUz": "Ha",
+        "isCorrect": true
+      },
+      {
+        "textPl": "Nie",
+        "textUz": "Yo'q",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "textPl": "Czy umieszczona pod znakiem ostrzegawczym widocznym na zdjęciu tabliczka, wskazuje jego odległość od miejsca niebezpiecznego?",
+    "textUz": "Rasmda ko'rinib turgan ogohlantiruvchi belgi ostidagi taxtacha uning xavfli joydan masofasini ko'rsatadimi?",
+    "category": "Yo'l belgilari",
+    "isPremium": true,
+    "mediaFileName": "IMG_8384org.jpg",
+    "mediaType": "photo",
+    "options": [
+      {
+        "textPl": "Tak",
+        "textUz": "Ha",
+        "isCorrect": true
+      },
+      {
+        "textPl": "Nie",
+        "textUz": "Yo'q",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "textPl": "Czy w przedstawionej sytuacji jesteś ostrzegany o zwężeniu jezdni, które może powodować utrudnienia ruchu?",
+    "textUz": "Ko'rsatilgan vaziyatda harakatga xalaqit berishi mumkin bo'lgan yo'l torayishi haqida ogohlantirilyapsizmi?",
+    "category": "Yo'l belgilari",
+    "isPremium": true,
+    "mediaFileName": "IMG_0816d8org.jpg",
+    "mediaType": "photo",
+    "options": [
+      {
+        "textPl": "Tak",
+        "textUz": "Ha",
+        "isCorrect": true
+      },
+      {
+        "textPl": "Nie",
+        "textUz": "Yo'q",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "textPl": "Czy w przedstawionej sytuacji jesteś ostrzegany o wlocie drogi z prawej strony?",
+    "textUz": "Ko'rsatilgan vaziyatda o'ng tomondan yo'l kirishi haqida ogohlantirilyapsizmi?",
+    "category": "Yo'l belgilari",
+    "isPremium": true,
+    "mediaFileName": "IMG_6630d8org.jpg",
+    "mediaType": "photo",
+    "options": [
+      {
+        "textPl": "Tak",
+        "textUz": "Ha",
+        "isCorrect": false
+      },
+      {
+        "textPl": "Nie",
+        "textUz": "Yo'q",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "textPl": "Czy w przedstawionej sytuacji należy spodziewać się utrudnień ruchu?",
+    "textUz": "Ko'rsatilgan vaziyatda harakatda qiyinchiliklarni kutish kerakmi?",
+    "category": "Umumiy qoidalar",
+    "isPremium": true,
+    "mediaFileName": "IMG_7184_1org.jpg",
+    "mediaType": "photo",
+    "options": [
+      {
+        "textPl": "Tak",
+        "textUz": "Ha",
+        "isCorrect": true
+      },
+      {
+        "textPl": "Nie",
+        "textUz": "Yo'q",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "textPl": "Czy w przedstawionej sytuacji jesteś ostrzegany o zbliżaniu się do wyznaczonego na drodze przejścia dla pieszych?",
+    "textUz": "Ko'rsatilgan vaziyatda yo'lda belgilangan piyodalar o'tish joyiga yaqinlashish haqida ogohlantirilyapsizmi?",
+    "category": "Yo'l belgilari",
+    "isPremium": true,
+    "mediaFileName": "843D15org.jpg",
+    "mediaType": "photo",
+    "options": [
+      {
+        "textPl": "Tak",
+        "textUz": "Ha",
+        "isCorrect": true
+      },
+      {
+        "textPl": "Nie",
+        "textUz": "Yo'q",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "textPl": "Czy w przedstawionej sytuacji jesteś ostrzegany o miejscu na drodze szczególnie często uczęszczanym przez dzieci lub o bliskości takiego miejsca?",
+    "textUz": "Ko'rsatilgan vaziyatda bolalar tez-tez yuradigan joy yoki shunday joyga yaqinlik haqida ogohlantirilyapsizmi?",
+    "category": "Yo'l belgilari",
+    "isPremium": true,
+    "mediaFileName": "A-17 (2)org.jpg",
+    "mediaType": "photo",
+    "options": [
+      {
+        "textPl": "Tak",
+        "textUz": "Ha",
+        "isCorrect": true
+      },
+      {
+        "textPl": "Nie",
+        "textUz": "Yo'q",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "textPl": "Czy w przedstawionej sytuacji jesteś ostrzegany o zbliżaniu się do miejsca, w którym rozpoczyna się ruch dwukierunkowy?",
+    "textUz": "Ko'rsatilgan vaziyatda ikki tomonlama harakat boshlanadigan joyga yaqinlashish haqida ogohlantirilyapsizmi?",
+    "category": "Yo'l belgilari",
+    "isPremium": true,
+    "mediaFileName": "1498D15org.jpg",
+    "mediaType": "photo",
+    "options": [
+      {
+        "textPl": "Tak",
+        "textUz": "Ha",
+        "isCorrect": true
+      },
+      {
+        "textPl": "Nie",
+        "textUz": "Yo'q",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "textPl": "Czy w przedstawionej sytuacji jesteś ostrzegany o zbliżaniu się do stromego podjazdu?",
+    "textUz": "Ko'rsatilgan vaziyatda tik ko'tarilishga yaqinlashish haqida ogohlantirilyapsizmi?",
+    "category": "Yo'l belgilari",
+    "isPremium": true,
+    "mediaFileName": "0805D14MMorg.jpg",
+    "mediaType": "photo",
+    "options": [
+      {
+        "textPl": "Tak",
+        "textUz": "Ha",
+        "isCorrect": false
+      },
+      {
+        "textPl": "Nie",
+        "textUz": "Yo'q",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "textPl": "Czy w przedstawionej sytuacji jesteś ostrzegany o miejscu, w którym rowerzyści wjeżdżają na jezdnię lub przez nią przejeżdżają?",
+    "textUz": "Ko'rsatilgan vaziyatda velosipedchilar yo'lga chiqadigan yoki undan o'tadigan joy haqida ogohlantirilyapsizmi?",
+    "category": "Yo'l belgilari",
+    "isPremium": true,
+    "mediaFileName": "0989D18org.jpg",
+    "mediaType": "photo",
+    "options": [
+      {
+        "textPl": "Tak",
+        "textUz": "Ha",
+        "isCorrect": true
+      },
+      {
+        "textPl": "Nie",
+        "textUz": "Yo'q",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "textPl": "Czy w przedstawionej sytuacji jesteś ostrzegany o drodze pokrytej żwirem, który może być wyrzucany spod kół jadących pojazdów?",
+    "textUz": "Ko'rsatilgan vaziyatda g'ildiraklar ostidan sachrashi mumkin bo'lgan shag'al bilan qoplangan yo'l haqida ogohlantirilyapsizmi?",
+    "category": "Yo'l belgilari",
+    "isPremium": true,
+    "mediaFileName": "IMG_9333d8org.jpg",
+    "mediaType": "photo",
+    "options": [
+      {
+        "textPl": "Tak",
+        "textUz": "Ha",
+        "isCorrect": true
+      },
+      {
+        "textPl": "Nie",
+        "textUz": "Yo'q",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "textPl": "Czy w przedstawionej sytuacji jesteś ostrzegany o skrzyżowaniu, na którym ruch jest kierowany za pomocą sygnalizacji świetlnej?",
+    "textUz": "Ko'rsatilgan vaziyatda harakat svetofor yordamida boshqariladigan chorraha haqida ogohlantirilyapsizmi?",
+    "category": "Yo'l belgilari",
+    "isPremium": true,
+    "mediaFileName": "IMG_9157d8org.jpg",
+    "mediaType": "photo",
+    "options": [
+      {
+        "textPl": "Tak",
+        "textUz": "Ha",
+        "isCorrect": true
+      },
+      {
+        "textPl": "Nie",
+        "textUz": "Yo'q",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "textPl": "Czy w przedstawionej sytuacji, wjeżdżając na pobocze, powinieneś zrobić to ostrożnie i znacznie zmniejszyć prędkość?",
+    "textUz": "Ko'rsatilgan vaziyatda yo'l chekkasiga chiqayotganda buni ehtiyotkorlik bilan va tezlikni sezilarli darajada kamaytirib bajarish kerakmi?",
+    "category": "Umumiy qoidalar",
+    "isPremium": true,
+    "mediaFileName": "IMG_1387d8org.jpg",
+    "mediaType": "photo",
+    "options": [
+      {
+        "textPl": "Tak",
+        "textUz": "Ha",
+        "isCorrect": true
+      },
+      {
+        "textPl": "Nie",
+        "textUz": "Yo'q",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "textPl": "Czy na odcinku drogi za widocznym znakiem będziesz ostrzegany o każdym występującym na niej zakręcie?",
+    "textUz": "Ko'rinib turgan belgidan keyingi yo'l qismida har bir burilish haqida ogohlantirilasizmi?",
+    "category": "Yo'l belgilari",
+    "isPremium": true,
+    "mediaFileName": "IMG_7630d8org.jpg",
+    "mediaType": "photo",
+    "options": [
+      {
+        "textPl": "Tak",
+        "textUz": "Ha",
+        "isCorrect": false
+      },
+      {
+        "textPl": "Nie",
+        "textUz": "Yo'q",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "textPl": "Czy w tej sytuacji czerwone punktowe elementy odblaskowe wyznaczają prawą krawędź jezdni?",
+    "textUz": "Bu vaziyatda qizil nuqtali qaytaruvchi elementlar yo'lning o'ng chetini bildiradimi?",
+    "category": "Umumiy qoidalar",
+    "isPremium": true,
+    "mediaFileName": "IMG_9751org.jpg",
+    "mediaType": "photo",
+    "options": [
+      {
+        "textPl": "Tak",
+        "textUz": "Ha",
+        "isCorrect": true
+      },
+      {
+        "textPl": "Nie",
+        "textUz": "Yo'q",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "textPl": "Czy w tej sytuacji, za linią złożoną z punktowych elementów odblaskowych barwy czerwonej znajduje się pas ruchu?",
+    "textUz": "Bu vaziyatda qizil rangli nuqtali qaytaruvchi elementlardan tashkil topgan chiziq ortida yo'lak bormi?",
+    "category": "Yo'lak va manevrlar",
+    "isPremium": true,
+    "mediaFileName": "IMG_9757aorg.jpg",
+    "mediaType": "photo",
+    "options": [
+      {
+        "textPl": "Tak",
+        "textUz": "Ha",
+        "isCorrect": false
+      },
+      {
+        "textPl": "Nie",
+        "textUz": "Yo'q",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "textPl": "Czy w tej sytuacji, bezpośrednio za widoczną po prawej stronie drogi linią złożoną z punktowych elementów odblaskowych barwy białej jest pobocze?",
+    "textUz": "Bu vaziyatda yo'lning o'ng tomonida ko'rinib turgan oq rangli nuqtali qaytaruvchi elementlardan tashkil topgan chiziq ortida bevosita yo'l chekkasi bormi?",
+    "category": "Umumiy qoidalar",
+    "isPremium": true,
+    "mediaFileName": "IMG_9746org.jpg",
+    "mediaType": "photo",
+    "options": [
+      {
+        "textPl": "Tak",
+        "textUz": "Ha",
+        "isCorrect": false
+      },
+      {
+        "textPl": "Nie",
+        "textUz": "Yo'q",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "textPl": "Czy w tej sytuacji, umieszczone po prawej stronie jezdni punktowe elementy odblaskowe barwy białej informują Cię o krawędzi jezdni?",
+    "textUz": "Bu vaziyatda yo'lning o'ng tomoniga joylashtirilgan oq rangli nuqtali qaytaruvchi elementlar sizga yo'l chetini bildiradimi?",
+    "category": "Umumiy qoidalar",
+    "isPremium": true,
+    "mediaFileName": "IMG_9746org.jpg",
+    "mediaType": "photo",
+    "options": [
+      {
+        "textPl": "Tak",
+        "textUz": "Ha",
+        "isCorrect": false
+      },
+      {
+        "textPl": "Nie",
+        "textUz": "Yo'q",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "textPl": "Czy w przedstawionej sytuacji zakaz wyrażony znakiem obowiązuje od miejsca jego ustawienia?",
+    "textUz": "Ko'rsatilgan vaziyatda belgi bilan ifodalangan taqiq uning o'rnatilgan joyidan boshlab amal qiladimi?",
+    "category": "Yo'l belgilari",
+    "isPremium": true,
+    "mediaFileName": "526D21org.jpg",
+    "mediaType": "photo",
+    "options": [
+      {
+        "textPl": "Tak",
+        "textUz": "Ha",
+        "isCorrect": true
+      },
+      {
+        "textPl": "Nie",
+        "textUz": "Yo'q",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "textPl": "Czy umieszczona pod tym znakiem zakazu tabliczka określa długość odcinka jezdni, na którym zakaz ten obowiązuje?",
+    "textUz": "Bu taqiq belgisi ostidagi taxtacha taqiq amal qiladigan yo'l qismining uzunligini ko'rsatadimi?",
+    "category": "Yo'l belgilari",
+    "isPremium": true,
+    "mediaFileName": "1005D15org.jpg",
+    "mediaType": "photo",
+    "options": [
+      {
+        "textPl": "Tak",
+        "textUz": "Ha",
+        "isCorrect": true
+      },
+      {
+        "textPl": "Nie",
+        "textUz": "Yo'q",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "textPl": "Czy w tej sytuacji należy zrezygnować z rozpoczęcia wyprzedzania?",
+    "textUz": "Bu vaziyatda o'zib o'tishni boshlashdan voz kechish kerakmi?",
+    "category": "O'zib o'tish",
+    "isPremium": true,
+    "mediaFileName": "D26_395org.jpg",
+    "mediaType": "photo",
+    "options": [
+      {
+        "textPl": "Tak",
+        "textUz": "Ha",
+        "isCorrect": true
+      },
+      {
+        "textPl": "Nie",
+        "textUz": "Yo'q",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "textPl": "Czy w tej sytuacji, poza obszarem zabudowanym, dozwolone jest wyprzedzenie z prawej strony jadącego przed Tobą pojazdu?",
+    "textUz": "Bu vaziyatda, aholi punktidan tashqarida, oldingizda ketayotgan transport vositasidan o'ng tomondan o'zib o'tish ruxsat etilganmi?",
+    "category": "O'zib o'tish",
+    "isPremium": true,
+    "mediaFileName": "D26_144org.jpg",
+    "mediaType": "photo",
+    "options": [
+      {
+        "textPl": "Tak",
+        "textUz": "Ha",
+        "isCorrect": true
+      },
+      {
+        "textPl": "Nie",
+        "textUz": "Yo'q",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "textPl": "Czy w przedstawionej sytuacji jesteś ostrzegany o opadach śniegu?",
+    "textUz": "Ko'rsatilgan vaziyatda qor yog'ishi haqida ogohlantirilyapsizmi?",
+    "category": "Yo'l belgilari",
+    "isPremium": true,
+    "mediaFileName": "IMG_6220d8org.jpg",
+    "mediaType": "photo",
+    "options": [
+      {
+        "textPl": "Tak",
+        "textUz": "Ha",
+        "isCorrect": false
+      },
+      {
+        "textPl": "Nie",
+        "textUz": "Yo'q",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "textPl": "Czy w przedstawionej sytuacji jesteś ostrzegany o częstym występowaniu zablokowania ruchu pojazdów (korka)?",
+    "textUz": "Ko'rsatilgan vaziyatda tirbandlik tez-tez yuz berishi haqida ogohlantirilyapsizmi?",
+    "category": "Yo'l belgilari",
+    "isPremium": true,
+    "mediaFileName": "A-33 (5)org.jpg",
+    "mediaType": "photo",
+    "options": [
+      {
+        "textPl": "Tak",
+        "textUz": "Ha",
+        "isCorrect": true
+      },
+      {
+        "textPl": "Nie",
+        "textUz": "Yo'q",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "textPl": "Czy w tej sytuacji widoczny sygnał zezwala Ci na wjazd za sygnalizator, jeżeli nie utrudnisz tym ruchu pojazdom nadjeżdżającym z przeciwka?",
+    "textUz": "Bu vaziyatda ko'rinib turgan signal, agar qarshi tomondan kelayotgan transport vositalari harakatiga xalaqit bermasangiz, svetofordan o'tishga ruxsat beradimi?",
+    "category": "Svetofor va yorug'lik",
+    "isPremium": true,
+    "mediaFileName": "0566D18_aorgbm.jpg",
+    "mediaType": "photo",
+    "options": [
+      {
+        "textPl": "Tak",
+        "textUz": "Ha",
+        "isCorrect": false
+      },
+      {
+        "textPl": "Nie",
+        "textUz": "Yo'q",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "textPl": "Czy znak ustawiony na prawej jezdni oznacza zakaz ruchu w obu kierunkach?",
+    "textUz": "O'ng yo'lga o'rnatilgan belgi ikkala yo'nalishda ham harakat taqiqlanganini bildiradimi?",
+    "category": "Yo'l belgilari",
+    "isPremium": true,
+    "mediaFileName": "D20_0079org.jpg",
+    "mediaType": "photo",
+    "options": [
+      {
+        "textPl": "Tak",
+        "textUz": "Ha",
+        "isCorrect": true
+      },
+      {
+        "textPl": "Nie",
+        "textUz": "Yo'q",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "textPl": "Czy możesz skorzystać z tej drogi, chcąc wjechać do myjni?",
+    "textUz": "Avtomobil yuvish shahobchasiga kirish uchun shu yo'ldan foydalanish mumkinmi?",
+    "category": "Umumiy qoidalar",
+    "isPremium": true,
+    "mediaFileName": "IMG_0004borg.jpg",
+    "mediaType": "photo",
+    "options": [
+      {
+        "textPl": "Tak",
+        "textUz": "Ha",
+        "isCorrect": false
+      },
+      {
+        "textPl": "Nie",
+        "textUz": "Yo'q",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "textPl": "Czy w przedstawionej sytuacji wolno Ci skręcić w prawo?",
+    "textUz": "Ko'rsatilgan vaziyatda o'ngga burilish mumkinmi?",
+    "category": "Yo'lak va manevrlar",
+    "isPremium": true,
+    "mediaFileName": "IMG_0486d5org.jpg",
+    "mediaType": "photo",
+    "options": [
+      {
+        "textPl": "Tak",
+        "textUz": "Ha",
+        "isCorrect": false
+      },
+      {
+        "textPl": "Nie",
+        "textUz": "Yo'q",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "textPl": "Czy w przedstawionej sytuacji zbliżasz się do drogi z pierwszeństwem przejazdu?",
+    "textUz": "Ko'rsatilgan vaziyatda ustuvor yo'lga yaqinlashyapsizmi?",
+    "category": "Ustuvorlik qoidalari",
+    "isPremium": true,
+    "mediaFileName": "IMG_1229d6org.jpg",
+    "mediaType": "photo",
+    "options": [
+      {
+        "textPl": "Tak",
+        "textUz": "Ha",
+        "isCorrect": true
+      },
+      {
+        "textPl": "Nie",
+        "textUz": "Yo'q",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "textPl": "Czy w przedstawionej sytuacji jesteś obowiązany do zatrzymania się przed znakiem?",
+    "textUz": "Ko'rsatilgan vaziyatda belgi oldida to'xtash majburiyatingiz bormi?",
+    "category": "To'xtash va parking",
+    "isPremium": true,
+    "mediaFileName": "D20_0181org.jpg",
+    "mediaType": "photo",
+    "options": [
+      {
+        "textPl": "Tak",
+        "textUz": "Ha",
+        "isCorrect": false
+      },
+      {
+        "textPl": "Nie",
+        "textUz": "Yo'q",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "textPl": "Czy w przedstawionej sytuacji wolno Ci skręcić w lewo?",
+    "textUz": "Ko'rsatilgan vaziyatda chapga burilish mumkinmi?",
+    "category": "Yo'lak va manevrlar",
+    "isPremium": true,
+    "mediaFileName": "IMG_1645d6org.jpg",
+    "mediaType": "photo",
+    "options": [
+      {
+        "textPl": "Tak",
+        "textUz": "Ha",
+        "isCorrect": false
+      },
+      {
+        "textPl": "Nie",
+        "textUz": "Yo'q",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "textPl": "Czy na widocznym skrzyżowaniu wolno Ci zawrócić?",
+    "textUz": "Ko'rinib turgan chorrahada orqaga qaytish mumkinmi?",
+    "category": "Yo'lak va manevrlar",
+    "isPremium": true,
+    "mediaFileName": "IMG_1701d6org.jpg",
+    "mediaType": "photo",
+    "options": [
+      {
+        "textPl": "Tak",
+        "textUz": "Ha",
+        "isCorrect": false
+      },
+      {
+        "textPl": "Nie",
+        "textUz": "Yo'q",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "textPl": "Czy ten znak zakazu umieszczony w obrębie skrzyżowania dotyczy tylko jezdni, przy której jest ustawiony?",
+    "textUz": "Chorraha hududiga joylashtirilgan bu taqiq belgisi faqat u o'rnatilgan yo'lga tegishlimi?",
+    "category": "Yo'l belgilari",
+    "isPremium": true,
+    "mediaFileName": "IMG_4362org.jpg",
+    "mediaType": "photo",
+    "options": [
+      {
+        "textPl": "Tak",
+        "textUz": "Ha",
+        "isCorrect": true
+      },
+      {
+        "textPl": "Nie",
+        "textUz": "Yo'q",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "textPl": "Czy w tej sytuacji masz prawo zatrzymać pojazd na poboczu?",
+    "textUz": "Bu vaziyatda transport vositasini yo'l chekkasiga to'xtatish huquqingiz bormi?",
+    "category": "To'xtash va parking",
+    "isPremium": true,
+    "mediaFileName": "IMG_1451orgbm.jpg",
+    "mediaType": "photo",
+    "options": [
+      {
+        "textPl": "Tak",
+        "textUz": "Ha",
+        "isCorrect": false
+      },
+      {
+        "textPl": "Nie",
+        "textUz": "Yo'q",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "textPl": "Czy na najbliższym skrzyżowaniu wolno Ci oczekiwać na możliwość zawrócenia w obrębie pasa dzielącego jezdnie?",
+    "textUz": "Eng yaqin chorrahada yo'llarni ajratuvchi polosa hududida orqaga qaytish imkoniyatini kutish mumkinmi?",
+    "category": "Yo'lak va manevrlar",
+    "isPremium": true,
+    "mediaFileName": "1.5.1.-3 IMG_0720orgbm.jpg",
+    "mediaType": "photo",
+    "options": [
+      {
+        "textPl": "Tak",
+        "textUz": "Ha",
+        "isCorrect": true
+      },
+      {
+        "textPl": "Nie",
+        "textUz": "Yo'q",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "textPl": "Czy w tej sytuacji, zajmując prawy pas ruchu, będziesz mógł poprawnie wykonać skręt w lewo?",
+    "textUz": "Bu vaziyatda o'ng yo'lakni egallagan holda chapga burilishni to'g'ri bajara olasizmi?",
+    "category": "Yo'lak va manevrlar",
+    "isPremium": true,
+    "mediaFileName": "IMG_1707d8orgbm.jpg",
+    "mediaType": "photo",
+    "options": [
+      {
+        "textPl": "Tak",
+        "textUz": "Ha",
+        "isCorrect": false
+      },
+      {
+        "textPl": "Nie",
+        "textUz": "Yo'q",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "textPl": "Czy w tej sytuacji, zamierzając skręcić w prawo, powinieneś jechać dalej zajmowanym pasem ruchu i zmienić go bezpośrednio przed skrzyżowaniem?",
+    "textUz": "Bu vaziyatda o'ngga burilishni mo'ljallab, egallagan yo'lagingizda davom etib, uni chorrahadan bevosita oldin almashtirishingiz kerakmi?",
+    "category": "Yo'lak va manevrlar",
+    "isPremium": true,
+    "mediaFileName": "IMG_6706_1orgbm.jpg",
+    "mediaType": "photo",
+    "options": [
+      {
+        "textPl": "Tak",
+        "textUz": "Ha",
+        "isCorrect": false
+      },
+      {
+        "textPl": "Nie",
+        "textUz": "Yo'q",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "textPl": "Czy w tej sytuacji, gdy zamierzasz jechać do Gdańska, należy zmienić pas ruchu na lewy?",
+    "textUz": "Bu vaziyatda Gdanskka bormoqchi bo'lsangiz, chap yo'lakka o'tish kerakmi?",
+    "category": "Yo'lak va manevrlar",
+    "isPremium": true,
+    "mediaFileName": "IMG_9314orgbm.jpg",
+    "mediaType": "photo",
+    "options": [
+      {
+        "textPl": "Tak",
+        "textUz": "Ha",
+        "isCorrect": false
+      },
+      {
+        "textPl": "Nie",
+        "textUz": "Yo'q",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "textPl": "Czy w tej sytuacji możesz jechać na wprost dowolnym pasem ruchu, gdy w tunelu nie ma innych pojazdów?",
+    "textUz": "Bu vaziyatda, tunnelda boshqa transport vositalari bo'lmasa, istalgan yo'lakdan to'g'riga yurish mumkinmi?",
+    "category": "Umumiy qoidalar",
+    "isPremium": true,
+    "mediaFileName": "IMG_028d9orgbm.jpg",
+    "mediaType": "photo",
+    "options": [
+      {
+        "textPl": "Tak",
+        "textUz": "Ha",
+        "isCorrect": false
+      },
+      {
+        "textPl": "Nie",
+        "textUz": "Yo'q",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "textPl": "Czy masz prawo zatrzymać pojazd w odległości 11m za tym znakiem drogowym?",
+    "textUz": "Bu yo'l belgisidan 11 metr masofada transport vositasini to'xtatish huquqingiz bormi?",
+    "category": "To'xtash va parking",
+    "isPremium": true,
+    "mediaFileName": "IMG_8614orgbm.jpg",
+    "mediaType": "photo",
+    "options": [
+      {
+        "textPl": "Tak",
+        "textUz": "Ha",
+        "isCorrect": false
+      },
+      {
+        "textPl": "Nie",
+        "textUz": "Yo'q",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "textPl": "Czy w tej sytuacji masz prawo zatrzymać pojazd na pasie między jezdniami?",
+    "textUz": "Bu vaziyatda transport vositasini yo'llar orasidagi polosaga to'xtatish huquqingiz bormi?",
+    "category": "To'xtash va parking",
+    "isPremium": true,
+    "mediaFileName": "IMG_9870orgbm.jpg",
+    "mediaType": "photo",
+    "options": [
+      {
+        "textPl": "Tak",
+        "textUz": "Ha",
+        "isCorrect": false
+      },
+      {
+        "textPl": "Nie",
+        "textUz": "Yo'q",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "textPl": "Czy wolno Ci zaparkować pojazd w tej zatoce?",
+    "textUz": "Transport vositasini shu to'xtash joyiga qo'yish mumkinmi?",
+    "category": "To'xtash va parking",
+    "isPremium": true,
+    "mediaFileName": "IMG_3136aorgbm.jpg",
+    "mediaType": "photo",
+    "options": [
+      {
+        "textPl": "Tak",
+        "textUz": "Ha",
+        "isCorrect": false
+      },
+      {
+        "textPl": "Nie",
+        "textUz": "Yo'q",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "textPl": "Czy w tej sytuacji wolno Ci zaparkować pojazd na poboczu?",
+    "textUz": "Bu vaziyatda transport vositasini yo'l chekkasiga qo'yish mumkinmi?",
+    "category": "To'xtash va parking",
+    "isPremium": true,
+    "mediaFileName": "IMG_1451orgbm.jpg",
+    "mediaType": "photo",
+    "options": [
+      {
+        "textPl": "Tak",
+        "textUz": "Ha",
+        "isCorrect": false
+      },
+      {
+        "textPl": "Nie",
+        "textUz": "Yo'q",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "textPl": "Czy bezpośrednio za tym znakiem masz prawo zatrzymać pojazd na poboczu, jeżeli nie utrudni to ruchu innych pojazdów?",
+    "textUz": "Bu belgidan bevosita keyin, agar boshqa transport vositalari harakatiga xalaqit bermasa, transport vositasini yo'l chekkasiga to'xtatish huquqingiz bormi?",
+    "category": "To'xtash va parking",
+    "isPremium": true,
+    "mediaFileName": "IMG_0296d8org.jpg",
+    "mediaType": "photo",
+    "options": [
+      {
+        "textPl": "Tak",
+        "textUz": "Ha",
+        "isCorrect": false
+      },
+      {
+        "textPl": "Nie",
+        "textUz": "Yo'q",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "textPl": "Zamierzasz zmienić pas ruchu na lewy. Czy masz pierwszeństwo przed pojazdami poruszającymi się tym pasem?",
+    "textUz": "Chap yo'lakka o'tmoqchisiz. Shu yo'lakda harakatlanayotgan transport vositalaridan oldin ustuvorligingiz bormi?",
+    "category": "Ustuvorlik qoidalari",
+    "isPremium": true,
+    "mediaFileName": "2845D15orgbm.jpg",
+    "mediaType": "photo",
+    "options": [
+      {
+        "textPl": "Tak",
+        "textUz": "Ha",
+        "isCorrect": false
+      },
+      {
+        "textPl": "Nie",
+        "textUz": "Yo'q",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "textPl": "Czy z zajmowanego pasa ruchu wolno Ci skręcić w lewo?",
+    "textUz": "Egallagan yo'lagingizdan chapga burilish mumkinmi?",
+    "category": "Yo'lak va manevrlar",
+    "isPremium": true,
+    "mediaFileName": "IMG_3170orgbm.jpg",
+    "mediaType": "photo",
+    "options": [
+      {
+        "textPl": "Tak",
+        "textUz": "Ha",
+        "isCorrect": false
+      },
+      {
+        "textPl": "Nie",
+        "textUz": "Yo'q",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "textPl": "Czy z zajmowanego pasa ruchu wolno Ci zawrócić?",
+    "textUz": "Egallagan yo'lagingizdan orqaga qaytish mumkinmi?",
+    "category": "Yo'lak va manevrlar",
+    "isPremium": true,
+    "mediaFileName": "IMG_7233orgbm.jpg",
+    "mediaType": "photo",
+    "options": [
+      {
+        "textPl": "Tak",
+        "textUz": "Ha",
+        "isCorrect": false
+      },
+      {
+        "textPl": "Nie",
+        "textUz": "Yo'q",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "textPl": "Czy z zajmowanego pasa ruchu wolno Ci zawrócić?",
+    "textUz": "Egallagan yo'lagingizdan orqaga qaytish mumkinmi?",
+    "category": "Yo'lak va manevrlar",
+    "isPremium": true,
+    "mediaFileName": "IMG_9975orgbm.jpg",
+    "mediaType": "photo",
+    "options": [
+      {
+        "textPl": "Tak",
+        "textUz": "Ha",
+        "isCorrect": false
+      },
+      {
+        "textPl": "Nie",
+        "textUz": "Yo'q",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "textPl": "Czy w tej sytuacji, na autostradzie, wolno Ci kontynuować wyprzedzanie pojazdu z prawej strony ?",
+    "textUz": "Bu vaziyatda, avtomagistralda, transport vositasidan o'ng tomondan o'zib o'tishni davom ettirish mumkinmi?",
+    "category": "O'zib o'tish",
+    "isPremium": true,
+    "mediaFileName": "D26_286org.jpg",
+    "mediaType": "photo",
+    "options": [
+      {
+        "textPl": "Tak",
+        "textUz": "Ha",
+        "isCorrect": true
+      },
+      {
+        "textPl": "Nie",
+        "textUz": "Yo'q",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "textPl": "Czy w tej sytuacji wyprzedzanie jest zabronione?",
+    "textUz": "Bu vaziyatda o'zib o'tish taqiqlanganmi?",
+    "category": "O'zib o'tish",
+    "isPremium": true,
+    "mediaFileName": "D26_488org.jpg",
+    "mediaType": "photo",
+    "options": [
+      {
+        "textPl": "Tak",
+        "textUz": "Ha",
+        "isCorrect": true
+      },
+      {
+        "textPl": "Nie",
+        "textUz": "Yo'q",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "textPl": "Czy w tej sytuacji, rozpoczynając manewr wyprzedzania, możesz spowodować wypadek?",
+    "textUz": "Bu vaziyatda o'zib o'tish manevrini boshlab, baxtsiz hodisaga sabab bo'lishingiz mumkinmi?",
+    "category": "O'zib o'tish",
+    "isPremium": true,
+    "mediaFileName": "D26_501org.jpg",
+    "mediaType": "photo",
+    "options": [
+      {
+        "textPl": "Tak",
+        "textUz": "Ha",
+        "isCorrect": true
+      },
+      {
+        "textPl": "Nie",
+        "textUz": "Yo'q",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "textPl": "Czy na tak oznakowanej drodze wolno Ci zawrócić?",
+    "textUz": "Shunday belgilangan yo'lda orqaga qaytish mumkinmi?",
+    "category": "Yo'lak va manevrlar",
+    "isPremium": true,
+    "mediaFileName": "IMG_7683d8orgbm.jpg",
+    "mediaType": "photo",
+    "options": [
+      {
+        "textPl": "Tak",
+        "textUz": "Ha",
+        "isCorrect": false
+      },
+      {
+        "textPl": "Nie",
+        "textUz": "Yo'q",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "textPl": "Czy wolno Ci zawrócić na widocznym odcinku drogi?",
+    "textUz": "Ko'rinib turgan yo'l qismida orqaga qaytish mumkinmi?",
+    "category": "Yo'lak va manevrlar",
+    "isPremium": true,
+    "mediaFileName": "0589orgbm.jpg",
+    "mediaType": "photo",
+    "options": [
+      {
+        "textPl": "Tak",
+        "textUz": "Ha",
+        "isCorrect": false
+      },
+      {
+        "textPl": "Nie",
+        "textUz": "Yo'q",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "textPl": "Czy wolno Ci zawrócić na moście?",
+    "textUz": "Ko'prikda orqaga qaytish mumkinmi?",
+    "category": "Yo'lak va manevrlar",
+    "isPremium": true,
+    "mediaFileName": "2934D15orgbm.jpg",
+    "mediaType": "photo",
+    "options": [
+      {
+        "textPl": "Tak",
+        "textUz": "Ha",
+        "isCorrect": false
+      },
+      {
+        "textPl": "Nie",
+        "textUz": "Yo'q",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "textPl": "Czy w tej sytuacji wolno Ci zmienić pas ruchu i skręcić w prawo?",
+    "textUz": "Bu vaziyatda yo'lakni almashtirib, o'ngga burilish mumkinmi?",
+    "category": "Yo'lak va manevrlar",
+    "isPremium": true,
+    "mediaFileName": "IMG_6729_1orgbm.jpg",
+    "mediaType": "photo",
+    "options": [
+      {
+        "textPl": "Tak",
+        "textUz": "Ha",
+        "isCorrect": false
+      },
+      {
+        "textPl": "Nie",
+        "textUz": "Yo'q",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "textPl": "Zamierzasz wjechać na lewy pas ruchu. Czy masz pierwszeństwo przed pojazdami, które się nim poruszają?",
+    "textUz": "Chap yo'lakka o'tmoqchisiz. Unda harakatlanayotgan transport vositalaridan oldin ustuvorligingiz bormi?",
+    "category": "Ustuvorlik qoidalari",
+    "isPremium": true,
+    "mediaFileName": "IMG_6737_1org.jpg",
+    "mediaType": "photo",
+    "options": [
+      {
+        "textPl": "Tak",
+        "textUz": "Ha",
+        "isCorrect": false
+      },
+      {
+        "textPl": "Nie",
+        "textUz": "Yo'q",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "textPl": "Czy masz obowiązek użyć kierunkowskazu, jeśli zamierzasz wjechać na prawy pas?",
+    "textUz": "O'ng yo'lakka o'tmoqchi bo'lsangiz, burilish chirog'idan foydalanish majburiyati bormi?",
+    "category": "Umumiy qoidalar",
+    "isPremium": true,
+    "mediaFileName": "IMG_7431_1orgbm.jpg",
+    "mediaType": "photo",
+    "options": [
+      {
+        "textPl": "Tak",
+        "textUz": "Ha",
+        "isCorrect": true
+      },
+      {
+        "textPl": "Nie",
+        "textUz": "Yo'q",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "textPl": "Czy masz obowiązek sygnalizować zamiar zmiany pasa ruchu, jeśli w tej sytuacji jedziesz przy prawej krawędzi jezdni?",
+    "textUz": "Bu vaziyatda yo'lning o'ng chetida yurayotgan bo'lsangiz, yo'lak almashtirish niyatini signal bilan bildirish majburiyati bormi?",
+    "category": "Umumiy qoidalar",
+    "isPremium": true,
+    "mediaFileName": "IMG_7431aorgbm.jpg",
+    "mediaType": "photo",
+    "options": [
+      {
+        "textPl": "Tak",
+        "textUz": "Ha",
+        "isCorrect": true
+      },
+      {
+        "textPl": "Nie",
+        "textUz": "Yo'q",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "textPl": "Czy w tej sytuacji masz obowiązek użycia kierunkowskazu, jeśli zamierzasz zmienić pas ruchu?",
+    "textUz": "Bu vaziyatda yo'lakni almashtirmoqchi bo'lsangiz, burilish chirog'idan foydalanish majburiyati bormi?",
+    "category": "Yo'lak va manevrlar",
+    "isPremium": true,
+    "mediaFileName": "IMG_8826orgbm.jpg",
+    "mediaType": "photo",
+    "options": [
+      {
+        "textPl": "Tak",
+        "textUz": "Ha",
+        "isCorrect": true
+      },
+      {
+        "textPl": "Nie",
+        "textUz": "Yo'q",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "textPl": "Czy w tej sytuacji, wjeżdżając na sąsiedni pas ruchu, masz pierwszeństwo?",
+    "textUz": "Bu vaziyatda qo'shni yo'lakka o'tayotganingizda ustuvorligingiz bormi?",
+    "category": "Ustuvorlik qoidalari",
+    "isPremium": true,
+    "mediaFileName": "IMG_9335orgbm.jpg",
+    "mediaType": "photo",
+    "options": [
+      {
+        "textPl": "Tak",
+        "textUz": "Ha",
+        "isCorrect": false
+      },
+      {
+        "textPl": "Nie",
+        "textUz": "Yo'q",
+        "isCorrect": true
+      }
+    ]
+  }
+]

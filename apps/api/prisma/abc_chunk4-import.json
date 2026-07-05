@@ -1,0 +1,1002 @@
+[
+  {
+    "textPl": "Którą z wymienionych części ciała ma chronić zagłówek fotela pojazdu?",
+    "textUz": "Transport vositasi o'rindig'ining bosh suyanchig'i tananing qaysi qismini himoya qilishi kerak?",
+    "category": "Umumiy qoidalar",
+    "isPremium": true,
+    "mediaFileName": "8234ztPIC.jpg",
+    "mediaType": "photo",
+    "options": [
+      {
+        "textPl": "Kręgosłup szyjny.",
+        "textUz": "Bo'yin umurtqasi.",
+        "isCorrect": true
+      },
+      {
+        "textPl": "Kość czołową.",
+        "textUz": "Peshona suyagi.",
+        "isCorrect": false
+      },
+      {
+        "textPl": "Kość potyliczną.",
+        "textUz": "Ensa suyagi.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "textPl": "Który z wymienionych czynników ma bezpośredni wpływ na drogę hamowania?",
+    "textUz": "Quyidagi omillardan qaysi biri tormozlash masofasiga bevosita ta'sir qiladi?",
+    "category": "Umumiy qoidalar",
+    "isPremium": true,
+    "mediaFileName": "8303ztPIC.jpg",
+    "mediaType": "photo",
+    "options": [
+      {
+        "textPl": "Prędkość jazdy.",
+        "textUz": "Harakat tezligi.",
+        "isCorrect": true
+      },
+      {
+        "textPl": "Oznakowanie poziome.",
+        "textUz": "Gorizontal belgilash.",
+        "isCorrect": false
+      },
+      {
+        "textPl": "Widoczność na drodze.",
+        "textUz": "Yo'ldagi ko'rinish.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "textPl": "Który z wymienionych czynników ma bezpośredni wpływ na drogę hamowania?",
+    "textUz": "Quyidagi omillardan qaysi biri tormozlash masofasiga bevosita ta'sir qiladi?",
+    "category": "Umumiy qoidalar",
+    "isPremium": true,
+    "mediaFileName": "8307ztPIC.jpg",
+    "mediaType": "photo",
+    "options": [
+      {
+        "textPl": "Oznakowanie poziome.",
+        "textUz": "Gorizontal belgilash.",
+        "isCorrect": false
+      },
+      {
+        "textPl": "Stan hamulców.",
+        "textUz": "Tormozlar holati.",
+        "isCorrect": true
+      },
+      {
+        "textPl": "Oznakowanie pionowe.",
+        "textUz": "Vertikal belgilash.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "textPl": "Jakie czynniki mają wpływ na łączny czas postrzegania i reakcji kierującego pojazdem?",
+    "textUz": "Haydovchining umumiy idrok etish va reaksiya vaqtiga qanday omillar ta'sir qiladi?",
+    "category": "Umumiy qoidalar",
+    "isPremium": true,
+    "mediaFileName": "8319ztPIC.jpg",
+    "mediaType": "photo",
+    "options": [
+      {
+        "textPl": "Stan opon.",
+        "textUz": "Shinalar holati.",
+        "isCorrect": false
+      },
+      {
+        "textPl": "Widoczność na drodze, złożoność sytuacji drogowej.",
+        "textUz": "Yo'ldagi ko'rinish, yo'l vaziyatining murakkabligi.",
+        "isCorrect": true
+      },
+      {
+        "textPl": "Dodatkowa masa pojazdu.",
+        "textUz": "Transport vositasining qo'shimcha massasi.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "textPl": "Jaki odstęp musisz zachować wyprzedzając rower lub motorower?",
+    "textUz": "Velosiped yoki mopeddan o'zib o'tayotganda qanday masofa saqlashingiz kerak?",
+    "category": "O'zib o'tish",
+    "isPremium": true,
+    "mediaFileName": "2247ztPIC.jpg",
+    "mediaType": "photo",
+    "options": [
+      {
+        "textPl": "Nie mniejszy niż 1 metr.",
+        "textUz": "Kamida 1 metr.",
+        "isCorrect": true
+      },
+      {
+        "textPl": "Nie mniejszy niż 0.5 metra.",
+        "textUz": "Kamida 0,5 metr.",
+        "isCorrect": false
+      },
+      {
+        "textPl": "Dowolny, ale bezpieczny.",
+        "textUz": "Ixtiyoriy, ammo xavfsiz.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "textPl": "Jaki odstęp od poprzedzającego pojazdu musisz utrzymać stojąc przed skrzyżowaniem i czekając na sygnał zielony?",
+    "textUz": "Chorraha oldida to'xtab yashil signalni kutayotganda oldingi transport vositasidan qanday masofa saqlashingiz kerak?",
+    "category": "Umumiy qoidalar",
+    "isPremium": true,
+    "mediaFileName": "2255ztPIC.jpg",
+    "mediaType": "photo",
+    "options": [
+      {
+        "textPl": "Minimalnie 0.5 m.",
+        "textUz": "Kamida 0,5 metr.",
+        "isCorrect": false
+      },
+      {
+        "textPl": "Bezpieczny odstęp.",
+        "textUz": "Xavfsiz masofa.",
+        "isCorrect": true
+      },
+      {
+        "textPl": "Maksymalnie 3 m, minimalnie 1m.",
+        "textUz": "Maksimal 3 metr, minimal 1 metr.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "textPl": "Jaki odstęp od poprzedzającego pojazdu musisz utrzymać stojąc przed skrzyżowaniem i czekając na sygnał zielony?",
+    "textUz": "Chorraha oldida to'xtab yashil signalni kutayotganda oldingi transport vositasidan qanday masofa saqlashingiz kerak?",
+    "category": "Umumiy qoidalar",
+    "isPremium": true,
+    "mediaFileName": "8327ztPIC.jpg",
+    "mediaType": "photo",
+    "options": [
+      {
+        "textPl": "Minimalnie 1 m.",
+        "textUz": "Kamida 1 metr.",
+        "isCorrect": false
+      },
+      {
+        "textPl": "Maksymalnie 10 m, minimalnie 1m.",
+        "textUz": "Maksimal 10 metr, minimal 1 metr.",
+        "isCorrect": false
+      },
+      {
+        "textPl": "Bezpieczny odstęp.",
+        "textUz": "Xavfsiz masofa.",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "textPl": "Jaki odstęp musisz zachować od omijanej przeszkody?",
+    "textUz": "Aylanib o'tilayotgan to'siqdan qanday masofa saqlashingiz kerak?",
+    "category": "Umumiy qoidalar",
+    "isPremium": true,
+    "mediaFileName": "8330ztPIC.jpg",
+    "mediaType": "photo",
+    "options": [
+      {
+        "textPl": "1 m.",
+        "textUz": "1 metr.",
+        "isCorrect": false
+      },
+      {
+        "textPl": "Bezpieczny.",
+        "textUz": "Xavfsiz.",
+        "isCorrect": true
+      },
+      {
+        "textPl": "1.5 m.",
+        "textUz": "1,5 metr.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "textPl": "Jaki odstęp należy zachować podczas wymijania?",
+    "textUz": "Ayrilib o'tishda qanday masofa saqlash kerak?",
+    "category": "Umumiy qoidalar",
+    "isPremium": true,
+    "mediaFileName": "8332ztPIC.jpg",
+    "mediaType": "photo",
+    "options": [
+      {
+        "textPl": "Co najmniej 1 metr.",
+        "textUz": "Kamida 1 metr.",
+        "isCorrect": false
+      },
+      {
+        "textPl": "Co najmniej 2 metry.",
+        "textUz": "Kamida 2 metr.",
+        "isCorrect": false
+      },
+      {
+        "textPl": "Bezpieczny.",
+        "textUz": "Xavfsiz.",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "textPl": "Który z wymienionych elementów wyposażenia lub budowy pojazdu ma istotny wpływ na bezpieczeństwo podczas hamowania?",
+    "textUz": "Quyidagi jihozlash yoki qurilma elementlaridan qaysi biri tormozlash xavfsizligiga muhim ta'sir qiladi?",
+    "category": "Umumiy qoidalar",
+    "isPremium": true,
+    "mediaFileName": "8333ztPIC.jpg",
+    "mediaType": "photo",
+    "options": [
+      {
+        "textPl": "System AWS.",
+        "textUz": "AWS tizimi.",
+        "isCorrect": false
+      },
+      {
+        "textPl": "Tempomat.",
+        "textUz": "Kruiz nazorati.",
+        "isCorrect": false
+      },
+      {
+        "textPl": "Układ ABS.",
+        "textUz": "ABS tizimi.",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "textPl": "Jak zmienia się droga hamowania pojazdu zależnie od wzrostu prędkości?",
+    "textUz": "Transport vositasining tormozlash masofasi tezlik oshishiga qarab qanday o'zgaradi?",
+    "category": "Umumiy qoidalar",
+    "isPremium": true,
+    "mediaFileName": "8335ztPIC.jpg",
+    "mediaType": "photo",
+    "options": [
+      {
+        "textPl": "Droga hamowania wydłuża się wraz ze wzrostem prędkości.",
+        "textUz": "Tezlik oshgani sari tormozlash masofasi uzayadi.",
+        "isCorrect": true
+      },
+      {
+        "textPl": "Droga hamowania ulega skróceniu wraz ze wzrostem prędkości.",
+        "textUz": "Tezlik oshgani sari tormozlash masofasi qisqaradi.",
+        "isCorrect": false
+      },
+      {
+        "textPl": "Prędkość jazdy nie ma wpływu na drogę hamowania.",
+        "textUz": "Harakat tezligi tormozlash masofasiga ta'sir qilmaydi.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "textPl": "Na jakie czynniki i okoliczności musisz zwrócić uwagę dobierając bezpieczną prędkość jazdy do panujących warunków drogowych?",
+    "textUz": "Mavjud yo'l sharoitiga mos xavfsiz haydash tezligini tanlashda qanday omillar va holatlarga e'tibor berish kerak?",
+    "category": "Umumiy qoidalar",
+    "isPremium": true,
+    "mediaFileName": "8339ztPIC.jpg",
+    "mediaType": "photo",
+    "options": [
+      {
+        "textPl": "Tylko na znaki zakazu.",
+        "textUz": "Faqat taqiq belgilariga.",
+        "isCorrect": false
+      },
+      {
+        "textPl": "Rodzaj nawierzchni oraz warunki panujące na drodze.",
+        "textUz": "Yo'l qoplamasi turi va yo'ldagi mavjud sharoitlarga.",
+        "isCorrect": true
+      },
+      {
+        "textPl": "Tylko na prędkość jazdy innych uczestników ruchu.",
+        "textUz": "Faqat boshqa yo'l harakati ishtirokchilarining tezligiga.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "textPl": "Co należy zrobić po stwierdzeniu niewłaściwego ciśnienia oleju silnikowego?",
+    "textUz": "Dvigatel moyi bosimi noto'g'ri ekanligi aniqlanganda nima qilish kerak?",
+    "category": "Umumiy qoidalar",
+    "isPremium": true,
+    "mediaFileName": "1803ztPIC.jpg",
+    "mediaType": "photo",
+    "options": [
+      {
+        "textPl": "Uzupełnić braki dowolnym olejem.",
+        "textUz": "Yetishmovchilikni ixtiyoriy moy bilan to'ldirish.",
+        "isCorrect": false
+      },
+      {
+        "textPl": "Sprawdzić poziom oleju i ewentualnie uzupełnić braki.",
+        "textUz": "Moy darajasini tekshirish va zarur bo'lsa to'ldirish.",
+        "isCorrect": true
+      },
+      {
+        "textPl": "Zawsze włączyć światła awaryjne.",
+        "textUz": "Har doim avariya chiroqlarini yoqish.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "textPl": "Która z widocznych na ilustracji lampek kontrolnych informuje o włączonych światłach mijania?",
+    "textUz": "Rasmda ko'rinib turgan nazorat chiroqlaridan qaysi biri yaqin nur chiroqlari yoqilganligi haqida xabar beradi?",
+    "category": "Svetofor va yorug'lik",
+    "isPremium": true,
+    "mediaFileName": "6001.jpg",
+    "mediaType": "photo",
+    "options": [
+      {
+        "textPl": "A.",
+        "textUz": "A.",
+        "isCorrect": false
+      },
+      {
+        "textPl": "B.",
+        "textUz": "B.",
+        "isCorrect": false
+      },
+      {
+        "textPl": "C.",
+        "textUz": "C.",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "textPl": "Która z widocznych na ilustracji lampek kontrolnych informuje o włączonych kierunkowskazach?",
+    "textUz": "Rasmda ko'rinib turgan nazorat chiroqlaridan qaysi biri burilish chiroqlari yoqilganligi haqida xabar beradi?",
+    "category": "Umumiy qoidalar",
+    "isPremium": true,
+    "mediaFileName": "6001.jpg",
+    "mediaType": "photo",
+    "options": [
+      {
+        "textPl": "A.",
+        "textUz": "A.",
+        "isCorrect": true
+      },
+      {
+        "textPl": "B.",
+        "textUz": "B.",
+        "isCorrect": false
+      },
+      {
+        "textPl": "C.",
+        "textUz": "C.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "textPl": "Która z widocznych na ilustracji lampek kontrolnych informuje o włączonych światłach pozycyjnych?",
+    "textUz": "Rasmda ko'rinib turgan nazorat chiroqlaridan qaysi biri gabarit chiroqlari yoqilganligi haqida xabar beradi?",
+    "category": "Svetofor va yorug'lik",
+    "isPremium": true,
+    "mediaFileName": "6002.jpg",
+    "mediaType": "photo",
+    "options": [
+      {
+        "textPl": "A.",
+        "textUz": "A.",
+        "isCorrect": false
+      },
+      {
+        "textPl": "B.",
+        "textUz": "B.",
+        "isCorrect": false
+      },
+      {
+        "textPl": "C.",
+        "textUz": "C.",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "textPl": "Która z widocznych na ilustracji lampek kontrolnych dotyczy przednich świateł przeciwmgłowych?",
+    "textUz": "Rasmda ko'rinib turgan nazorat chiroqlaridan qaysi biri old tumanga qarshi chiroqlarga tegishli?",
+    "category": "Umumiy qoidalar",
+    "isPremium": true,
+    "mediaFileName": "6002.jpg",
+    "mediaType": "photo",
+    "options": [
+      {
+        "textPl": "A.",
+        "textUz": "A.",
+        "isCorrect": false
+      },
+      {
+        "textPl": "B.",
+        "textUz": "B.",
+        "isCorrect": true
+      },
+      {
+        "textPl": "C.",
+        "textUz": "C.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "textPl": "Która z widocznych na ilustracji lampek kontrolnych informuje o włączonych kierunkowskazach?",
+    "textUz": "Rasmda ko'rinib turgan nazorat chiroqlaridan qaysi biri burilish chiroqlari yoqilganligi haqida xabar beradi?",
+    "category": "Umumiy qoidalar",
+    "isPremium": true,
+    "mediaFileName": "6003.jpg",
+    "mediaType": "photo",
+    "options": [
+      {
+        "textPl": "A.",
+        "textUz": "A.",
+        "isCorrect": true
+      },
+      {
+        "textPl": "B.",
+        "textUz": "B.",
+        "isCorrect": false
+      },
+      {
+        "textPl": "C.",
+        "textUz": "C.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "textPl": "Która z widocznych na ilustracji lampek kontrolnych informuje o włączonych tylnych światłach przeciwmgłowych?",
+    "textUz": "Rasmda ko'rinib turgan nazorat chiroqlaridan qaysi biri orqa tumanga qarshi chiroqlari yoqilganligi haqida xabar beradi?",
+    "category": "Svetofor va yorug'lik",
+    "isPremium": true,
+    "mediaFileName": "6004.jpg",
+    "mediaType": "photo",
+    "options": [
+      {
+        "textPl": "A.",
+        "textUz": "A.",
+        "isCorrect": true
+      },
+      {
+        "textPl": "B.",
+        "textUz": "B.",
+        "isCorrect": false
+      },
+      {
+        "textPl": "C.",
+        "textUz": "C.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "textPl": "Która z widocznych na ilustracji lampek kontrolnych informuje o włączonych światłach drogowych?",
+    "textUz": "Rasmda ko'rinib turgan nazorat chiroqlaridan qaysi biri uzoq nur chiroqlari yoqilganligi haqida xabar beradi?",
+    "category": "Svetofor va yorug'lik",
+    "isPremium": true,
+    "mediaFileName": "6005.jpg",
+    "mediaType": "photo",
+    "options": [
+      {
+        "textPl": "A.",
+        "textUz": "A.",
+        "isCorrect": false
+      },
+      {
+        "textPl": "B.",
+        "textUz": "B.",
+        "isCorrect": true
+      },
+      {
+        "textPl": "C.",
+        "textUz": "C.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "textPl": "Która z widocznych na ilustracji lampek kontrolnych sygnalizuje niezapięte pasy bezpieczeństwa?",
+    "textUz": "Rasmda ko'rinib turgan nazorat chiroqlaridan qaysi biri xavfsizlik kamari taqilmaganligini bildiradi?",
+    "category": "Umumiy qoidalar",
+    "isPremium": true,
+    "mediaFileName": "6007.jpg",
+    "mediaType": "photo",
+    "options": [
+      {
+        "textPl": "A.",
+        "textUz": "A.",
+        "isCorrect": false
+      },
+      {
+        "textPl": "B.",
+        "textUz": "B.",
+        "isCorrect": true
+      },
+      {
+        "textPl": "C.",
+        "textUz": "C.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "textPl": "Po zapaleniu się której z widocznych na ilustracji lampek kontrolnych należy się niezwłocznie zatrzymać i usunąć usterkę?",
+    "textUz": "Rasmda ko'rinib turgan nazorat chiroqlaridan qaysi biri yonganda darhol to'xtab, nosozlikni bartaraf etish kerak?",
+    "category": "To'xtash va parking",
+    "isPremium": true,
+    "mediaFileName": "6009.jpg",
+    "mediaType": "photo",
+    "options": [
+      {
+        "textPl": "A.",
+        "textUz": "A.",
+        "isCorrect": false
+      },
+      {
+        "textPl": "B.",
+        "textUz": "B.",
+        "isCorrect": true
+      },
+      {
+        "textPl": "C.",
+        "textUz": "C.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "textPl": "Która z widocznych na ilustracji lampek kontrolnych informuje o włączonym ogrzewaniu tylnej szyby?",
+    "textUz": "Rasmda ko'rinib turgan nazorat chiroqlaridan qaysi biri orqa oyna isitgichi yoqilganligi haqida xabar beradi?",
+    "category": "Umumiy qoidalar",
+    "isPremium": true,
+    "mediaFileName": "6013.jpg",
+    "mediaType": "photo",
+    "options": [
+      {
+        "textPl": "A.",
+        "textUz": "A.",
+        "isCorrect": false
+      },
+      {
+        "textPl": "B.",
+        "textUz": "B.",
+        "isCorrect": true
+      },
+      {
+        "textPl": "C.",
+        "textUz": "C.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "textPl": "Którą z podanych wielkości należy uwzględnić, ustalając odstęp od poprzedzającego pojazdu?",
+    "textUz": "Oldingi transport vositasidan masofani belgilashda quyidagi kattaliklardan qaysi birini hisobga olish kerak?",
+    "category": "Umumiy qoidalar",
+    "isPremium": true,
+    "mediaFileName": "IMG_8664orgbm.jpg",
+    "mediaType": "photo",
+    "options": [
+      {
+        "textPl": "Prędkość pojazdów.",
+        "textUz": "Transport vositalari tezligi.",
+        "isCorrect": true
+      },
+      {
+        "textPl": "Długość pojazdów.",
+        "textUz": "Transport vositalari uzunligi.",
+        "isCorrect": false
+      },
+      {
+        "textPl": "Szerokość pojazdów.",
+        "textUz": "Transport vositalari kengligi.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "textPl": "Czy jako kierujący, możesz oddalić się od pojazdu z pracującym silnikiem?",
+    "textUz": "Haydovchi sifatida dvigateli ishlab turgan transport vositasidan uzoqlashishingiz mumkinmi?",
+    "category": "Umumiy qoidalar",
+    "isPremium": true,
+    "mediaFileName": "Slajd799_cen_1024x576.jpg",
+    "mediaType": "photo",
+    "options": [
+      {
+        "textPl": "Tak.",
+        "textUz": "Ha.",
+        "isCorrect": false
+      },
+      {
+        "textPl": "Tak, tylko do 1 minuty.",
+        "textUz": "Ha, faqat 1 daqiqagacha.",
+        "isCorrect": false
+      },
+      {
+        "textPl": "Nie.",
+        "textUz": "Yo'q.",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "textPl": "Czy na tej drodze jest ustalona maksymalna prędkość, z jaką może jechać samochód osobowy?",
+    "textUz": "Bu yo'lda yengil avtomobil yura oladigan maksimal tezlik belgilanganmi?",
+    "category": "Umumiy qoidalar",
+    "isPremium": true,
+    "mediaFileName": "Slajd_001936_35_1024x576.jpg",
+    "mediaType": "photo",
+    "options": [
+      {
+        "textPl": "Nie.",
+        "textUz": "Yo'q.",
+        "isCorrect": false
+      },
+      {
+        "textPl": "Tak, 130 km/h.",
+        "textUz": "Ha, 130 km/soat.",
+        "isCorrect": false
+      },
+      {
+        "textPl": "Tak, 140 km/h.",
+        "textUz": "Ha, 140 km/soat.",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "textPl": "Czy przepisy ustawy Prawo o ruchu drogowym dopuszczają możliwość oddalenia się od pojazdu, którego silnik jest w ruchu?",
+    "textUz": "Yo'l harakati to'g'risidagi qonun qoidalari dvigateli ishlab turgan transport vositasidan uzoqlashishga ruxsat beradimi?",
+    "category": "Umumiy qoidalar",
+    "isPremium": true,
+    "mediaFileName": "N179.jpg",
+    "mediaType": "photo",
+    "options": [
+      {
+        "textPl": "Tak, ale tylko do 15 metrów od pojazdu.",
+        "textUz": "Ha, ammo faqat transport vositasidan 15 metrgacha.",
+        "isCorrect": false
+      },
+      {
+        "textPl": "Nie.",
+        "textUz": "Yo'q.",
+        "isCorrect": true
+      },
+      {
+        "textPl": "Tak, ale tylko do 5 metrów od pojazdu.",
+        "textUz": "Ha, ammo faqat transport vositasidan 5 metrgacha.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "textPl": "Czy stan techniczny pojazdu jest czynnikiem, który powinieneś uwzględniać podczas dobierania prędkości jazdy na drodze?",
+    "textUz": "Transport vositasining texnik holati yo'lda haydash tezligini tanlashda hisobga olishingiz kerak bo'lgan omilmi?",
+    "category": "Umumiy qoidalar",
+    "isPremium": true,
+    "mediaFileName": "Slajd8122_cen_1024x576.jpg",
+    "mediaType": "photo",
+    "options": [
+      {
+        "textPl": "Tak.",
+        "textUz": "Ha.",
+        "isCorrect": true
+      },
+      {
+        "textPl": "Tak, ale tylko podczas jazdy w terenie zabudowanym.",
+        "textUz": "Ha, ammo faqat aholi punktida yurganda.",
+        "isCorrect": false
+      },
+      {
+        "textPl": "Tak, ale tylko poza terenem zabudowanym.",
+        "textUz": "Ha, ammo faqat aholi punktidan tashqarida.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "textPl": "Czego nie możesz robić uczestnicząc w wypadku, w którym są zabici?",
+    "textUz": "O'lganlar bo'lgan hodisada ishtirok etganingizda nima qila olmaysiz?",
+    "category": "Umumiy qoidalar",
+    "isPremium": true,
+    "mediaFileName": "Slajd6049_cen_1024x576.jpg",
+    "mediaType": "photo",
+    "options": [
+      {
+        "textPl": "Dzwonić po straż pożarną.",
+        "textUz": "O't o'chirish xizmatiga qo'ng'iroq qilish.",
+        "isCorrect": false
+      },
+      {
+        "textPl": "Udzielać pierwszej pomocy.",
+        "textUz": "Birinchi tibbiy yordam ko'rsatish.",
+        "isCorrect": false
+      },
+      {
+        "textPl": "Przestawiać pojazdu na pobocze drogi.",
+        "textUz": "Transport vositasini yo'l chetiga surish.",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "textPl": "Jakie jest przeznaczenie trójkąta, który stanowi obowiązkowe wyposażenie samochodu osobowego?",
+    "textUz": "Yengil avtomobilning majburiy jihozi bo'lgan uchburchakning vazifasi nima?",
+    "category": "Umumiy qoidalar",
+    "isPremium": true,
+    "mediaFileName": "Trojkat_1024x576.jpg",
+    "mediaType": "photo",
+    "options": [
+      {
+        "textPl": "Oznaczanie ładunku na bagażniku dachowym pojazdu.",
+        "textUz": "Transport vositasining tom bagajidagi yukni belgilash.",
+        "isCorrect": false
+      },
+      {
+        "textPl": "Ostrzeganie o unieruchomieniu pojazdu na drodze z powodu awarii.",
+        "textUz": "Avariya sababli transport vositasining yo'lda to'xtab qolganligi haqida ogohlantirish.",
+        "isCorrect": true
+      },
+      {
+        "textPl": "Oznaczanie niesprawnych tylnych świateł pozycyjnych poruszającego się pojazdu.",
+        "textUz": "Harakatlanayotgan transport vositasining ishlamayotgan orqa gabarit chiroqlarini belgilash.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "textPl": "Z jakim układem samochodu osobowego współpracuje system przeciwblokujący \"ABS\"?",
+    "textUz": "Bloklanishga qarshi \"ABS\" tizimi yengil avtomobilning qaysi tizimi bilan hamkorlikda ishlaydi?",
+    "category": "Umumiy qoidalar",
+    "isPremium": true,
+    "mediaFileName": "IMG_4742_cen_1024x576.jpg",
+    "mediaType": "photo",
+    "options": [
+      {
+        "textPl": "Zawieszenia.",
+        "textUz": "Osma tizimi.",
+        "isCorrect": false
+      },
+      {
+        "textPl": "Hamulcowym.",
+        "textUz": "Tormoz tizimi.",
+        "isCorrect": true
+      },
+      {
+        "textPl": "Kierowniczym.",
+        "textUz": "Rul boshqaruvi tizimi.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "textPl": "Jaki odstęp należy zachować wyprzedzając motocyklistę?",
+    "textUz": "Mototsiklchidan o'zib o'tayotganda qanday masofa saqlash kerak?",
+    "category": "O'zib o'tish",
+    "isPremium": true,
+    "mediaFileName": "Slajd_000753_1024x576.jpg",
+    "mediaType": "photo",
+    "options": [
+      {
+        "textPl": "Bezpieczny, mniejszy niż 1 metr.",
+        "textUz": "Xavfsiz, 1 metrdan kam.",
+        "isCorrect": false
+      },
+      {
+        "textPl": "Każdy odstęp, ale bezpieczny.",
+        "textUz": "Har qanday masofa, ammo xavfsiz.",
+        "isCorrect": false
+      },
+      {
+        "textPl": "Nie mniejszy niż 1 metr.",
+        "textUz": "Kamida 1 metr.",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "textPl": "Jakiej metody hamowania użyjesz, w przypadku awarii ABS-u na śliskiej nawierzchni?",
+    "textUz": "Silliq yo'l yuzasida ABS ishdan chiqqan taqdirda qanday tormozlash usulidan foydalanasiz?",
+    "category": "Umumiy qoidalar",
+    "isPremium": true,
+    "mediaFileName": "Slajd_003226_1024x576.jpg",
+    "mediaType": "photo",
+    "options": [
+      {
+        "textPl": "Hamowania pulsacyjnego.",
+        "textUz": "Impulsli tormozlash.",
+        "isCorrect": true
+      },
+      {
+        "textPl": "Wciśnięcia pedału hamulca do oporu.",
+        "textUz": "Tormoz pedalini oxirigacha bosish.",
+        "isCorrect": false
+      },
+      {
+        "textPl": "Zaciągnięcia hamulca ręcznego.",
+        "textUz": "Qo'l tormozini tortish.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "textPl": "Kiedy masz obowiązek zmienić pas na prawy po zakończeniu manewru wyprzedzania?",
+    "textUz": "O'zib o'tish manevrini tugatgandan keyin o'ng yo'lakka o'tish majburiyati qachon bo'ladi?",
+    "category": "O'zib o'tish",
+    "isPremium": true,
+    "mediaFileName": "Slajd_001569_45_1024x576.jpg",
+    "mediaType": "photo",
+    "options": [
+      {
+        "textPl": "Gdy widzę tył pojazdu wyprzedzanego w prawym lusterku wstecznym.",
+        "textUz": "O'zib o'tilgan transport vositasining orqa qismini o'ng orqa ko'rish oynasida ko'rganimda.",
+        "isCorrect": false
+      },
+      {
+        "textPl": "Gdy wyprzedzany pojazd jest 100 metrów za mną.",
+        "textUz": "O'zib o'tilgan transport vositasi mendan 100 metr orqada bo'lganda.",
+        "isCorrect": false
+      },
+      {
+        "textPl": "Gdy upewnię się, że nie ma ryzyka \"zajechania drogi\" wyprzedzanemu pojazdowi.",
+        "textUz": "O'zib o'tilgan transport vositasi yo'lini \"kesib o'tish\" xavfi yo'qligiga ishonch hosil qilganimda.",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "textPl": "Który z wymienionych czynników ma bezpośredni wpływ na długość całkowitej drogi zatrzymania samochodu osobowego?",
+    "textUz": "Quyidagi omillardan qaysi biri yengil avtomobilning umumiy to'xtash masofasi uzunligiga bevosita ta'sir qiladi?",
+    "category": "To'xtash va parking",
+    "isPremium": true,
+    "mediaFileName": "Slajd219_cen_1024x576.jpg",
+    "mediaType": "photo",
+    "options": [
+      {
+        "textPl": "Ilość paliwa w zbiorniku.",
+        "textUz": "Bakdagi yoqilg'i miqdori.",
+        "isCorrect": false
+      },
+      {
+        "textPl": "Stan układu kierowniczego pojazdu.",
+        "textUz": "Transport vositasi rul boshqaruvi tizimining holati.",
+        "isCorrect": false
+      },
+      {
+        "textPl": "Czas reakcji kierującego pojazdem.",
+        "textUz": "Haydovchining reaksiya vaqti.",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "textPl": "Który z wymienionych czynników ma decydujący wpływ na określanie odległości od pojazdu jadącego przed nami?",
+    "textUz": "Quyidagi omillardan qaysi biri oldimizda ketayotgan transport vositasidan masofani belgilashda hal qiluvchi ta'sirga ega?",
+    "category": "Umumiy qoidalar",
+    "isPremium": true,
+    "mediaFileName": "Slajd_002934_cen_1024x576.jpg",
+    "mediaType": "photo",
+    "options": [
+      {
+        "textPl": "Długość pojazdu.",
+        "textUz": "Transport vositasining uzunligi.",
+        "isCorrect": false
+      },
+      {
+        "textPl": "Szerokość pojazdu.",
+        "textUz": "Transport vositasining kengligi.",
+        "isCorrect": false
+      },
+      {
+        "textPl": "Prędkość pojazdu.",
+        "textUz": "Transport vositasining tezligi.",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "textPl": "Na który z wymienionych czynników należy zwrócić uwagę podczas wykonywania manewru wyprzedzania?",
+    "textUz": "O'zib o'tish manevrini bajarishda quyidagi omillardan qaysi biriga e'tibor berish kerak?",
+    "category": "O'zib o'tish",
+    "isPremium": true,
+    "mediaFileName": "Slajd900_cen_1024x576.jpg",
+    "mediaType": "photo",
+    "options": [
+      {
+        "textPl": "Na właściwą temperaturę we wnętrzu pojazdu.",
+        "textUz": "Transport vositasi ichidagi mos haroratga.",
+        "isCorrect": false
+      },
+      {
+        "textPl": "Na zachowanie bezpiecznego odstępu.",
+        "textUz": "Xavfsiz masofani saqlashga.",
+        "isCorrect": true
+      },
+      {
+        "textPl": "Na odstęp od jadących z tyłu pojazdów.",
+        "textUz": "Orqadan kelayotgan transport vositalaridan masofaga.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "textPl": "O ile wzrośnie droga hamowania, jeżeli zwiększysz prędkość 2-krotnie?",
+    "textUz": "Tezlikni 2 baravar oshirsangiz, tormozlash masofasi qancha oshadi?",
+    "category": "Umumiy qoidalar",
+    "isPremium": true,
+    "mediaFileName": "Slajd219_cen_1024x576.jpg",
+    "mediaType": "photo",
+    "options": [
+      {
+        "textPl": "2-krotnie.",
+        "textUz": "2 baravar.",
+        "isCorrect": false
+      },
+      {
+        "textPl": "3-krotnie.",
+        "textUz": "3 baravar.",
+        "isCorrect": false
+      },
+      {
+        "textPl": "4-krotnie.",
+        "textUz": "4 baravar.",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "textPl": "Poruszasz się autostradą i zamierzasz ją opuścić. W którym miejscu rozpoczniesz hamowanie przed zjazdem z autostrady?",
+    "textUz": "Avtomagistralda harakatlanyapsiz va undan chiqmoqchisiz. Avtomagistraldan chiqishdan oldin qaysi joyda tormozlashni boshlaysiz?",
+    "category": "Umumiy qoidalar",
+    "isPremium": true,
+    "mediaFileName": "Slajd_001936_35_1024x576.jpg",
+    "mediaType": "photo",
+    "options": [
+      {
+        "textPl": "Przed wjazdem na pas wyłączenia (zjazdu).",
+        "textUz": "Chiqish (ajratish) yo'lagiga kirishdan oldin.",
+        "isCorrect": false
+      },
+      {
+        "textPl": "Po wjeździe na początek pasa wyłączenia (zjazdu).",
+        "textUz": "Chiqish (ajratish) yo'lagining boshiga kirgandan keyin.",
+        "isCorrect": true
+      },
+      {
+        "textPl": "W dowolnym miejscu na autostradzie.",
+        "textUz": "Avtomagistralning ixtiyoriy joyida.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "textPl": "Czy rzeźba terenu jest czynnikiem, który powinieneś brać pod uwagę dobierając prędkość jazdy na drodze?",
+    "textUz": "Yer relyefi yo'lda haydash tezligini tanlashda hisobga olishingiz kerak bo'lgan omilmi?",
+    "category": "Umumiy qoidalar",
+    "isPremium": true,
+    "mediaFileName": "Slajd8122_cen_1024x576.jpg",
+    "mediaType": "photo",
+    "options": [
+      {
+        "textPl": "Nie, jeśli jedziesz z prędkością do 60 km/h.",
+        "textUz": "Yo'q, agar 60 km/soatgacha tezlikda yursangiz.",
+        "isCorrect": false
+      },
+      {
+        "textPl": "Nie.",
+        "textUz": "Yo'q.",
+        "isCorrect": false
+      },
+      {
+        "textPl": "Tak.",
+        "textUz": "Ha.",
+        "isCorrect": true
+      }
+    ]
+  }
+]

@@ -1,0 +1,282 @@
+[
+  {
+    "textPl": "Czy ten znak informuje o prędkości minimalnej, z jaką masz prawo się poruszać?",
+    "textUz": "Bu belgi harakatlanish huquqingiz bo'lgan minimal tezlik haqida xabar beradimi?",
+    "category": "Yo'l belgilari",
+    "isPremium": true,
+    "mediaFileName": "ZZ-10-14_0006_Censored_1024x576.mp4",
+    "mediaType": "video",
+    "options": [
+      {
+        "textPl": "Tak",
+        "textUz": "Ha",
+        "isCorrect": false
+      },
+      {
+        "textPl": "Nie",
+        "textUz": "Yo'q",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "textPl": "Czy w tej sytuacji masz prawo wjechać na skrzyżowanie bez zatrzymania się?",
+    "textUz": "Bu vaziyatda to'xtamasdan chorrahaga kirish huquqingiz bormi?",
+    "category": "To'xtash va parking",
+    "isPremium": true,
+    "mediaFileName": "ZZ-10-14_0003_Censored_1024x576.mp4",
+    "mediaType": "video",
+    "options": [
+      {
+        "textPl": "Tak",
+        "textUz": "Ha",
+        "isCorrect": false
+      },
+      {
+        "textPl": "Nie",
+        "textUz": "Yo'q",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "textPl": "Czy w tej sytuacji, skręcając w prawo, możesz wjechać na skrzyżowanie bez zatrzymania?",
+    "textUz": "Bu vaziyatda o'ngga burilib, to'xtamasdan chorrahaga kirish mumkinmi?",
+    "category": "To'xtash va parking",
+    "isPremium": true,
+    "mediaFileName": "ZZ-10-14_0003_Censored_1024x576.mp4",
+    "mediaType": "video",
+    "options": [
+      {
+        "textPl": "Tak",
+        "textUz": "Ha",
+        "isCorrect": false
+      },
+      {
+        "textPl": "Nie",
+        "textUz": "Yo'q",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "textPl": "Czy zakaz wyrażony tym znakiem pionowym zabrania skręcania w lewo na najbliższym skrzyżowaniu?",
+    "textUz": "Bu tik belgi bilan ifodalangan taqiq eng yaqin chorrahada chapga burilishni taqiqlaydimi?",
+    "category": "Yo'lak va manevrlar",
+    "isPremium": true,
+    "mediaFileName": "ZZ-10-14_0002_Censored_1024x576.mp4",
+    "mediaType": "video",
+    "options": [
+      {
+        "textPl": "Tak",
+        "textUz": "Ha",
+        "isCorrect": false
+      },
+      {
+        "textPl": "Nie",
+        "textUz": "Yo'q",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "textPl": "Czy w tej sytuacji przed wykonaniem manewru skrętu w prawo, masz obowiązek zatrzymać się przed jezdnią poprzeczną?",
+    "textUz": "Bu vaziyatda o'ngga burilish manevrini bajarishdan oldin, ko'ndalang yo'l oldida to'xtash majburiyati bormi?",
+    "category": "To'xtash va parking",
+    "isPremium": true,
+    "mediaFileName": "ZZ-10-14_0003_Censored_1024x576.mp4",
+    "mediaType": "video",
+    "options": [
+      {
+        "textPl": "Tak",
+        "textUz": "Ha",
+        "isCorrect": true
+      },
+      {
+        "textPl": "Nie",
+        "textUz": "Yo'q",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "textPl": "Czy w tej sytuacji znak pionowy „zakaz zatrzymywania się” dotyczy również pobocza gruntowego?",
+    "textUz": "Bu vaziyatda \"to'xtash taqiqlanadi\" tik belgisi grunt yo'l chekkasiga ham tegishlimi?",
+    "category": "To'xtash va parking",
+    "isPremium": true,
+    "mediaFileName": "ZZ-10-14_0005_Censored_1024x576.mp4",
+    "mediaType": "video",
+    "options": [
+      {
+        "textPl": "Tak",
+        "textUz": "Ha",
+        "isCorrect": true
+      },
+      {
+        "textPl": "Nie",
+        "textUz": "Yo'q",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "textPl": "Czy w miejscu oznaczonym tym znakiem informacyjnym dozwolone jest cofanie pojazdem?",
+    "textUz": "Bu ma'lumot belgisi bilan belgilangan joyda transport vositasi bilan orqaga yurish ruxsat etilganmi?",
+    "category": "Yo'l belgilari",
+    "isPremium": true,
+    "mediaFileName": "ZI-10-14_0001_Censored_1024x576.mp4",
+    "mediaType": "video",
+    "options": [
+      {
+        "textPl": "Tak",
+        "textUz": "Ha",
+        "isCorrect": false
+      },
+      {
+        "textPl": "Nie",
+        "textUz": "Yo'q",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "textPl": "Czy mając zamiar zawrócić na tym skrzyżowaniu jesteś na właściwym pasie ruchu?",
+    "textUz": "Bu chorrahada orqaga qaytish niyatida bo'lsangiz, to'g'ri yo'lakdasizmi?",
+    "category": "Yo'lak va manevrlar",
+    "isPremium": true,
+    "mediaFileName": "ZP-10-14-0004_Censored_1024x576.mp4",
+    "mediaType": "video",
+    "options": [
+      {
+        "textPl": "Tak",
+        "textUz": "Ha",
+        "isCorrect": false
+      },
+      {
+        "textPl": "Nie",
+        "textUz": "Yo'q",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "textPl": "Czy manewr zawracania na tym skrzyżowaniu możesz wykonać ze skrajnego prawego pasa ruchu?",
+    "textUz": "Bu chorrahada orqaga qaytish manevrini eng chetdagi o'ng yo'lakdan bajarish mumkinmi?",
+    "category": "Umumiy qoidalar",
+    "isPremium": true,
+    "mediaFileName": "ZP-10-14-0004_Censored_1024x576.mp4",
+    "mediaType": "video",
+    "options": [
+      {
+        "textPl": "Tak",
+        "textUz": "Ha",
+        "isCorrect": false
+      },
+      {
+        "textPl": "Nie",
+        "textUz": "Yo'q",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "textPl": "Czy z tego pasa ruchu masz prawo jechać prosto przez skrzyżowanie?",
+    "textUz": "Shu yo'lakdan chorrahadan to'g'riga o'tish huquqingiz bormi?",
+    "category": "Umumiy qoidalar",
+    "isPremium": true,
+    "mediaFileName": "ZP-10-14-0001_Censored_1024x576.mp4",
+    "mediaType": "video",
+    "options": [
+      {
+        "textPl": "Tak",
+        "textUz": "Ha",
+        "isCorrect": false
+      },
+      {
+        "textPl": "Nie",
+        "textUz": "Yo'q",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "textPl": "Czy w tej sytuacji znajdujesz się na drodze z pierwszeństwem?",
+    "textUz": "Bu vaziyatda ustuvor yo'ldasizmi?",
+    "category": "Ustuvorlik qoidalari",
+    "isPremium": true,
+    "mediaFileName": "ZI-10-14_0002_Censored_1024x576.mp4",
+    "mediaType": "video",
+    "options": [
+      {
+        "textPl": "Tak",
+        "textUz": "Ha",
+        "isCorrect": true
+      },
+      {
+        "textPl": "Nie",
+        "textUz": "Yo'q",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "textPl": "Czy w tej sytuacji zatrzymanie pojazdu w celu ustąpienia pierwszeństwa powinno nastąpić bezpośrednio przed linią bezwzględnego zatrzymania?",
+    "textUz": "Bu vaziyatda ustuvorlik berish uchun to'xtash bevosita majburiy to'xtash chizig'i oldida bo'lishi kerakmi?",
+    "category": "Ustuvorlik qoidalari",
+    "isPremium": true,
+    "mediaFileName": "ZP-10-14-0011_Censored_1024x576.mp4",
+    "mediaType": "video",
+    "options": [
+      {
+        "textPl": "Tak",
+        "textUz": "Ha",
+        "isCorrect": true
+      },
+      {
+        "textPl": "Nie",
+        "textUz": "Yo'q",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "textPl": "Czy z tego pasa ruchu dozwolona jest jazda tylko prosto przez skrzyżowanie?",
+    "textUz": "Shu yo'lakdan chorrahadan faqat to'g'riga yurish ruxsat etilganmi?",
+    "category": "Umumiy qoidalar",
+    "isPremium": true,
+    "mediaFileName": "ZP-10-14-0008_Censored_1024x576.mp4",
+    "mediaType": "video",
+    "options": [
+      {
+        "textPl": "Tak",
+        "textUz": "Ha",
+        "isCorrect": true
+      },
+      {
+        "textPl": "Nie",
+        "textUz": "Yo'q",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "textPl": "Czy w tej sytuacji, zamierzając skręcić w prawo, masz obowiązek zatrzymać się przed skrzyżowaniem?",
+    "textUz": "Bu vaziyatda o'ngga burilmoqchi bo'lganingizda chorraha oldida to'xtash majburiyati bormi?",
+    "category": "To'xtash va parking",
+    "isPremium": true,
+    "mediaFileName": "ZP-10-14-0017_Censored_1024x576.mp4",
+    "mediaType": "video",
+    "options": [
+      {
+        "textPl": "Tak",
+        "textUz": "Ha",
+        "isCorrect": false
+      },
+      {
+        "textPl": "Nie",
+        "textUz": "Yo'q",
+        "isCorrect": true
+      }
+    ]
+  }
+]

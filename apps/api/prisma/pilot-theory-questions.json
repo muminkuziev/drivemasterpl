@@ -1,0 +1,2302 @@
+[
+  {
+    "textPl": "Jakiej kategorii prawo jazdy jest wymagane, gdy chcesz kierować czterokołowcem innym niż lekki?",
+    "textUz": "Yengil bo'lmagan to'rt g'ildirakli transport vositasini boshqarish uchun qanday toifadagi haydovchilik guvohnomasi talab qilinadi?",
+    "category": "Hujjatlar va texnik ko'rik",
+    "isPremium": false,
+    "options": [
+      {
+        "textPl": "B1.",
+        "textUz": "B1.",
+        "isCorrect": true
+      },
+      {
+        "textPl": "A.",
+        "textUz": "A.",
+        "isCorrect": false
+      },
+      {
+        "textPl": "AM.",
+        "textUz": "AM.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "textPl": "Który z obowiązków dotyczy właściciela samochodu osobowego?",
+    "textUz": "Yengil avtomobil egasining qaysi majburiyati to'g'ri?",
+    "category": "Hujjatlar va texnik ko'rik",
+    "isPremium": false,
+    "options": [
+      {
+        "textPl": "Poddawanie pojazdu okresowym badaniom technicznym.",
+        "textUz": "Transport vositasini muntazam texnik ko'rikdan o'tkazish.",
+        "isCorrect": true
+      },
+      {
+        "textPl": "Zawarcie umowy ubezpieczenia NW.",
+        "textUz": "Baxtsiz hodisalardan sug'urta shartnomasini tuzish.",
+        "isCorrect": false
+      },
+      {
+        "textPl": "Zawarcie umowy ubezpieczenia Autocasco.",
+        "textUz": "Avtokasko sug'urta shartnomasini tuzish.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "textPl": "Kiedy powinieneś sprawdzać ciśnienie w ogumieniu samochodu osobowego?",
+    "textUz": "Yengil avtomobil shinalaridagi bosimni qachon tekshirish kerak?",
+    "category": "Texnik holat va nosozliklar",
+    "isPremium": false,
+    "options": [
+      {
+        "textPl": "Bezpośrednio przed rozpoczęciem podróży.",
+        "textUz": "Safarni boshlashdan bevosita oldin.",
+        "isCorrect": true
+      },
+      {
+        "textPl": "Po zakończeniu jazdy.",
+        "textUz": "Haydashni tugatgandan keyin.",
+        "isCorrect": false
+      },
+      {
+        "textPl": "Co najmniej dobę przed zaplanowaną podróżą.",
+        "textUz": "Rejalashtirilgan safardan kamida bir sutka oldin.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "textPl": "W jaki sposób wolno Ci przewozić ładunek w przyczepie ciągniętej przez samochód osobowy?",
+    "textUz": "Yengil avtomobil tortadigan tirkamada yukni qanday tashish mumkin?",
+    "category": "Yuk va bagaj tashish",
+    "isPremium": false,
+    "options": [
+      {
+        "textPl": "Ładunek może zasłaniać niektóre światła przyczepy.",
+        "textUz": "Yuk tirkamaning ba'zi chiroqlarini to'sishi mumkin.",
+        "isCorrect": false
+      },
+      {
+        "textPl": "Ładunek nie może naruszać stateczności pojazdu.",
+        "textUz": "Yuk transport vositasining barqarorligini buzmasligi kerak.",
+        "isCorrect": true
+      },
+      {
+        "textPl": "Ładunek nie musi być zabezpieczony przed zmianą położenia.",
+        "textUz": "Yuk joyini o'zgartirishdan himoyalanmasligi mumkin.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "textPl": "W jaki sposób przewieziesz ładunek w przyczepie ciągniętej przez samochód osobowy?",
+    "textUz": "Yengil avtomobil tortadigan tirkamada yukni qanday tashiysiz?",
+    "category": "Yuk va bagaj tashish",
+    "isPremium": false,
+    "options": [
+      {
+        "textPl": "Zabezpieczę go przed przemieszczaniem.",
+        "textUz": "Uni siljishdan himoyalayman.",
+        "isCorrect": true
+      },
+      {
+        "textPl": "Umieszczę ładunek luźno na przyczepie.",
+        "textUz": "Yukni tirkamaga erkin (mahkamlamasdan) joylashtiraman.",
+        "isCorrect": false
+      },
+      {
+        "textPl": "Nie zabezpieczę ładunku przed przemieszczaniem, jeżeli będę jechał wolno.",
+        "textUz": "Sekin haydasam, yukni siljishdan himoyalamayman.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "textPl": "Jak przewieziesz ładunek sypki w przyczepie ciągniętej przez samochód osobowy?",
+    "textUz": "Yengil avtomobil tortadigan tirkamada sochiluvchan yukni qanday tashiysiz?",
+    "category": "Yuk va bagaj tashish",
+    "isPremium": false,
+    "options": [
+      {
+        "textPl": "Niezasłonięty - umieszczony poniżej wysokości burt.",
+        "textUz": "Yopilmagan holda, bort balandligidan pastroq joylashtirilgan.",
+        "isCorrect": false
+      },
+      {
+        "textPl": "Nie przekraczajac prędkości 30 km/h.",
+        "textUz": "Tezlik 30 km/soatdan oshmasa.",
+        "isCorrect": false
+      },
+      {
+        "textPl": "Zasłonięty w szczelnej skrzyni ładunkowej.",
+        "textUz": "Germetik yopiq yuk qutisida yopilgan holda.",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "textPl": "Jak powinieneś zabezpieczyć urządzenie, którym zamocowałeś ładunek w przyczepie ciągniętej przez samochód osobowy?",
+    "textUz": "Yengil avtomobil tirkamasidagi yukni mahkamlagan qurilmani qanday himoyalash kerak?",
+    "category": "Yuk va bagaj tashish",
+    "isPremium": false,
+    "options": [
+      {
+        "textPl": "Tak, żeby mocowanie nie rozluźniło się.",
+        "textUz": "Mahkamlash bo'shab ketmaydigan qilib.",
+        "isCorrect": true
+      },
+      {
+        "textPl": "Może swobodnie zwisać z przyczepy.",
+        "textUz": "Tirkamadan erkin osilib turishi mumkin.",
+        "isCorrect": false
+      },
+      {
+        "textPl": "Nie musi być zabezpieczone przed spadnięciem podczas jazdy.",
+        "textUz": "Haydash paytida tushib ketishdan himoyalanishi shart emas.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "textPl": "W jaki sposób powinien być umieszczony ładunek na samochodzie osobowym?",
+    "textUz": "Yengil avtomobilda yuk qanday joylashtirilishi kerak?",
+    "category": "Yuk va bagaj tashish",
+    "isPremium": false,
+    "options": [
+      {
+        "textPl": "Może nieznacznie zasłaniać tablice rejestracyjne.",
+        "textUz": "Davlat raqami belgisini biroz to'sishi mumkin.",
+        "isCorrect": false
+      },
+      {
+        "textPl": "Może zasłaniać tylne światło przeciwmgłowe.",
+        "textUz": "Orqa tuman chirog'ini to'sishi mumkin.",
+        "isCorrect": false
+      },
+      {
+        "textPl": "Nie może ograniczać widoczności drogi.",
+        "textUz": "Yo'l ko'rinishini cheklamasligi kerak.",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "textPl": "Jak umieścisz bagaż w samochodzie osobowym?",
+    "textUz": "Yengil avtomobilda bagajni qanday joylashtirasiz?",
+    "category": "Yuk va bagaj tashish",
+    "isPremium": false,
+    "options": [
+      {
+        "textPl": "Najcięższe bagaże włożę najgłębiej i najniżej, w centralnej części bagażnika.",
+        "textUz": "Eng og'ir yuklarni bagaj bo'limining eng chuqur va past, markaziy qismiga qo'yaman.",
+        "isCorrect": true
+      },
+      {
+        "textPl": "W dowolny sposób.",
+        "textUz": "Xohlagan tartibda.",
+        "isCorrect": false
+      },
+      {
+        "textPl": "Najcięższe bagaże włożę w górnej części bagażnika, nad lżejszymi.",
+        "textUz": "Eng og'ir yuklarni bagaj bo'limining yuqori qismiga, yengil yuklar ustiga qo'yaman.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "textPl": "W jaki sposób umieścisz ładunek na przyczepie samochodu osobowego?",
+    "textUz": "Yengil avtomobil tirkamasida yukni qanday joylashtirasiz?",
+    "category": "Yuk va bagaj tashish",
+    "isPremium": false,
+    "options": [
+      {
+        "textPl": "Tak, aby nie zasłaniał świateł przyczepy.",
+        "textUz": "Tirkama chiroqlarini to'smaydigan qilib.",
+        "isCorrect": true
+      },
+      {
+        "textPl": "Umieszczę go po jednej stronie przyczepy.",
+        "textUz": "Tirkamaning bir tomoniga joylashtiraman.",
+        "isCorrect": false
+      },
+      {
+        "textPl": "Umieszczę go zawsze w tylnej części przyczepy.",
+        "textUz": "Har doim tirkamaning orqa qismiga joylashtiraman.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "textPl": "Czego nie możesz robić kierując samochodem osobowym?",
+    "textUz": "Yengil avtomobilni boshqarayotganda nima qilish taqiqlanadi?",
+    "category": "Umumiy qoidalar",
+    "isPremium": true,
+    "options": [
+      {
+        "textPl": "Ciągnąć za pojazdem osoby na sankach.",
+        "textUz": "Transport vositasi orqasida chana bilan odam tortish.",
+        "isCorrect": true
+      },
+      {
+        "textPl": "Korzystać z radia CB.",
+        "textUz": "CB radiodan foydalanish.",
+        "isCorrect": false
+      },
+      {
+        "textPl": "Przewozić dziecka w foteliku ochronnym na przednim siedzeniu.",
+        "textUz": "Bolani oldindagi o'rindiqda bolalar o'rindig'ida tashish.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "textPl": "Który z wymienionych sposobów przewożenia gaśnicy w samochodzie osobowym jest właściwy?",
+    "textUz": "Yengil avtomobilda o't o'chirgichni tashishning qaysi usuli to'g'ri?",
+    "category": "Texnik holat va nosozliklar",
+    "isPremium": true,
+    "options": [
+      {
+        "textPl": "Gaśnica umieszczona jest na tylnej półce.",
+        "textUz": "O't o'chirgich orqa tokchaga qo'yilgan.",
+        "isCorrect": false
+      },
+      {
+        "textPl": "Gaśnica umieszczona jest luźno między siedzeniami.",
+        "textUz": "O't o'chirgich o'rindiqlar orasiga erkin qo'yilgan.",
+        "isCorrect": false
+      },
+      {
+        "textPl": "Gaśnica zamocowana pod fotelem pasażera.",
+        "textUz": "O't o'chirgich yo'lovchi o'rindig'i ostiga mahkamlangan.",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "textPl": "Jaki jest cel stosowania układu ASR w samochodzie osobowym?",
+    "textUz": "Yengil avtomobilda ASR tizimidan foydalanishning maqsadi nima?",
+    "category": "Tormoz va xavfsizlik tizimlari",
+    "isPremium": true,
+    "options": [
+      {
+        "textPl": "Przeciwdziałanie poślizgowi podczas hamowania silnikiem.",
+        "textUz": "Dvigatel bilan tormozlashda sirpanishning oldini olish.",
+        "isCorrect": false
+      },
+      {
+        "textPl": "Zapobieganie blokowaniu kół hamowanych.",
+        "textUz": "Tormozlanayotgan g'ildiraklarning blokirovka bo'lishining oldini olish.",
+        "isCorrect": false
+      },
+      {
+        "textPl": "Przeciwdziałanie poślizgowi kół podczas ruszania.",
+        "textUz": "Joyidan qo'zg'alishda g'ildiraklarning sirpanishiga qarshi turish.",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "textPl": "Jaki jest cel stosowania układu ESP w samochodzie osobowym?",
+    "textUz": "Yengil avtomobilda ESP tizimidan foydalanishning maqsadi nima?",
+    "category": "Tormoz va xavfsizlik tizimlari",
+    "isPremium": true,
+    "options": [
+      {
+        "textPl": "Przeciwdziałanie poślizgowi kół podczas hamowania silnikiem.",
+        "textUz": "Dvigatel bilan tormozlashda g'ildiraklar sirpanishiga qarshi turish.",
+        "isCorrect": false
+      },
+      {
+        "textPl": "Zapobieganie blokowaniu kół hamowanych.",
+        "textUz": "Tormozlanayotgan g'ildiraklarning blokirovkasini oldini olish.",
+        "isCorrect": false
+      },
+      {
+        "textPl": "Stabilizowanie ruchu pojazdu podczas jazdy po łuku drogi.",
+        "textUz": "Yo'lning egri qismida transport vositasi harakatini barqarorlashtirish.",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "textPl": "Jak zabezpieczysz krwawienie z rany przy braku jałowego opatrunku?",
+    "textUz": "Steril bog'lov mavjud bo'lmaganda yaradan qon ketishini qanday to'xtatasiz?",
+    "category": "Birinchi yordam",
+    "isPremium": true,
+    "options": [
+      {
+        "textPl": "Wstrzymam się z opatrywaniem.",
+        "textUz": "Bog'lashni to'xtatib turaman.",
+        "isCorrect": false
+      },
+      {
+        "textPl": "Użyję do opatrunku odzieży poszkodowanego.",
+        "textUz": "Bog'lash uchun jabrlanuvchining kiyimidan foydalanaman.",
+        "isCorrect": true
+      },
+      {
+        "textPl": "Poczekam, aż ktoś użyczy swojej apteczki.",
+        "textUz": "Kimdir o'z tibbiy sumkasini berguncha kutaman.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "textPl": "Kiedy należy założyć opatrunek uciskowy?",
+    "textUz": "Bosim bog'lovi qachon qo'yiladi?",
+    "category": "Birinchi yordam",
+    "isPremium": true,
+    "options": [
+      {
+        "textPl": "W przypadku zmiażdżenia kończyny.",
+        "textUz": "Oyoq-qo'l ezilganda.",
+        "isCorrect": false
+      },
+      {
+        "textPl": "W przypadku wycieku krwistej wydzieliny z ucha.",
+        "textUz": "Qulog'idan qonli suyuqlik chiqqanda.",
+        "isCorrect": false
+      },
+      {
+        "textPl": "W przypadku krwotoku.",
+        "textUz": "Qattiq qon ketishida.",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "textPl": "Kierujesz pojazdem w czasie deszczu. Którą z wymienionych czynności powinieneś przede wszystkim wykonać, by jechać bezpieczniej?",
+    "textUz": "Yomg'ir paytida transport vositasini boshqarayapsiz. Xavfsizroq haydash uchun avvalo nima qilish kerak?",
+    "category": "Ob-havo sharoitida haydash",
+    "isPremium": true,
+    "options": [
+      {
+        "textPl": "Wyłączyć system kontroli trakcji.",
+        "textUz": "Trakshn nazorati tizimini o'chirish.",
+        "isCorrect": false
+      },
+      {
+        "textPl": "Jechać w koleinach.",
+        "textUz": "G'ildirak izlaridan yurish.",
+        "isCorrect": false
+      },
+      {
+        "textPl": "Zmniejszyć prędkość.",
+        "textUz": "Tezlikni kamaytirish.",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "textPl": "Kierujesz samochodem osobowym podczas ulewnego deszczu. Którą z wymienionych czynności należy wykonać po wjechaniu w koleinę wypełnioną wodą?",
+    "textUz": "Kuchli yomg'ir paytida yengil avtomobilni boshqarayapsiz. Suv to'lgan izga tushib qolgach nima qilish kerak?",
+    "category": "Ob-havo sharoitida haydash",
+    "isPremium": true,
+    "options": [
+      {
+        "textPl": "Płynnie zmniejszyć prędkość.",
+        "textUz": "Tezlikni asta-sekin kamaytirish.",
+        "isCorrect": true
+      },
+      {
+        "textPl": "Zdecydowanie przyhamować.",
+        "textUz": "Keskin tormozlash.",
+        "isCorrect": false
+      },
+      {
+        "textPl": "Zdecydowanie przyspieszyć.",
+        "textUz": "Keskin tezlashtirish.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "textPl": "Która z wymienionych czynności może zwiększyć bezpieczeństwo podczas jazdy po zaśnieżonej drodze?",
+    "textUz": "Qorli yo'lda haydashda xavfsizlikni oshiradigan harakat qaysi?",
+    "category": "Ob-havo sharoitida haydash",
+    "isPremium": true,
+    "options": [
+      {
+        "textPl": "Hamowanie wyłącznie przy użyciu hamulca ręcznego.",
+        "textUz": "Faqat qo'l tormozi bilan tormozlash.",
+        "isCorrect": false
+      },
+      {
+        "textPl": "Stosowanie opon zimowych.",
+        "textUz": "Qish shinalaridan foydalanish.",
+        "isCorrect": true
+      },
+      {
+        "textPl": "Zdecydowane przyspieszanie.",
+        "textUz": "Keskin tezlashtirish.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "textPl": "Którą z wymienionych czynności powinieneś wykonać, aby płynnie ruszyć z miejsca?",
+    "textUz": "Joyidan silliq qo'zg'alish uchun nima qilish kerak?",
+    "category": "Umumiy qoidalar",
+    "isPremium": true,
+    "options": [
+      {
+        "textPl": "Stopniowo zwalniać pedał sprzęgła.",
+        "textUz": "Muftani asta-sekin bo'shatish.",
+        "isCorrect": true
+      },
+      {
+        "textPl": "Gwałtownie zwolnić pedał sprzęgła.",
+        "textUz": "Muftani keskin bo'shatish.",
+        "isCorrect": false
+      },
+      {
+        "textPl": "Najpierw znacznie zwiększyć obroty silnika, następnie szybko zwolnić pedał sprzęgła.",
+        "textUz": "Avval dvigatel aylanishini keskin oshirib, keyin muftani tez bo'shatish.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "textPl": "Czego nie masz prawa robić, gdy kierujesz samochodem osobowym?",
+    "textUz": "Yengil avtomobilni boshqarayotganda nima qilishga huquqingiz yo'q?",
+    "category": "Umumiy qoidalar",
+    "isPremium": true,
+    "options": [
+      {
+        "textPl": "Przewozić osób w stanie nietrzeźwości.",
+        "textUz": "Mast holatdagi odamlarni tashish.",
+        "isCorrect": false
+      },
+      {
+        "textPl": "Korzystać z telefonu wymagającego trzymania mikrofonu w ręku.",
+        "textUz": "Mikrofonni qo'lda ushlab turishni talab qiladigan telefondan foydalanish.",
+        "isCorrect": true
+      },
+      {
+        "textPl": "Używać tempomatu na obszarze zabudowanym.",
+        "textUz": "Aholi punktida kruiz-nazoratdan foydalanish.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "textPl": "Którą z wymienionych czynności należy wykonać, kierując samochodem osobowym w nocy podczas mgły?",
+    "textUz": "Tunda tuman paytida yengil avtomobilni boshqarayotganda nima qilish kerak?",
+    "category": "Ob-havo sharoitida haydash",
+    "isPremium": true,
+    "options": [
+      {
+        "textPl": "Zmniejszyć prędkość.",
+        "textUz": "Tezlikni kamaytirish.",
+        "isCorrect": true
+      },
+      {
+        "textPl": "Włączyć światła drogowe w celu polepszenia widoczności.",
+        "textUz": "Ko'rinishni yaxshilash uchun uzoq nur chiroqlarini yoqish.",
+        "isCorrect": false
+      },
+      {
+        "textPl": "Jechać bardzo blisko poprzedzającego pojazdu, aby widzieć jego światła pozycyjne.",
+        "textUz": "Oldingi avtomobilning gabarit chiroqlarini ko'rish uchun unga juda yaqin yurish.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "textPl": "Kierujesz samochodem osobowym. Jak powinieneś postąpić w czasie przejazdu przez rozległą kałużę?",
+    "textUz": "Yengil avtomobilni boshqarayapsiz. Katta ko'lmakdan o'tayotganda qanday harakat qilish kerak?",
+    "category": "Ob-havo sharoitida haydash",
+    "isPremium": true,
+    "options": [
+      {
+        "textPl": "Zdecydowanie przyśpieszyć.",
+        "textUz": "Keskin tezlashtirish.",
+        "isCorrect": false
+      },
+      {
+        "textPl": "Gwałtownie przyhamować.",
+        "textUz": "Keskin tormozlash.",
+        "isCorrect": false
+      },
+      {
+        "textPl": "Płynnie zmniejszyć prędkość jazdy.",
+        "textUz": "Tezlikni asta-sekin kamaytirish.",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "textPl": "Jesteś świadkiem potrącenia pieszego. Jak powinieneś się zachować?",
+    "textUz": "Piyodaning urib yuborilishiga guvoh bo'ldingiz. Qanday harakat qilish kerak?",
+    "category": "Birinchi yordam",
+    "isPremium": true,
+    "options": [
+      {
+        "textPl": "Nie podejmować działań, gdyż pomocy musi udzielić sprawca wypadku.",
+        "textUz": "Hech narsa qilmaslik, chunki yordamni faqat baxtsiz hodisa aybdori ko'rsatishi kerak.",
+        "isCorrect": false
+      },
+      {
+        "textPl": "Wezwać pomoc drogową.",
+        "textUz": "Yo'l yordami xizmatini chaqirish.",
+        "isCorrect": false
+      },
+      {
+        "textPl": "Zatrzymać się, wezwać pomoć medyczną i udzielić pierwszej pomocy poszkodowanemu.",
+        "textUz": "To'xtash, tez tibbiy yordam chaqirish va jabrlanuvchiga birinchi yordam ko'rsatish.",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "textPl": "Jaki odstęp należy zachować podczas wymijania samochodem osobowym innego pojazdu?",
+    "textUz": "Yengil avtomobil bilan qarama-qarshi kelayotgan boshqa transport vositasidan ayrilib o'tishda qanday masofa saqlanishi kerak?",
+    "category": "Xavfsiz masofa va manevrlar",
+    "isPremium": true,
+    "options": [
+      {
+        "textPl": "Bezpieczny, ale nie mniejszy niż 1,5 metra.",
+        "textUz": "Xavfsiz, lekin 1,5 metrdan kam bo'lmagan.",
+        "isCorrect": false
+      },
+      {
+        "textPl": "Bezpieczny, uzależniony od szerokości jezdni i warunków ruchu.",
+        "textUz": "Xavfsiz, yo'l kengligi va harakat sharoitiga bog'liq.",
+        "isCorrect": true
+      },
+      {
+        "textPl": "Bezpieczny, czyli zawsze taki sam.",
+        "textUz": "Xavfsiz, ya'ni har doim bir xil.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "textPl": "Podczas wykonywania którego z wymienionych manewrów masz obowiązek zachować odstęp nie mniejszy niż 1 metr od pojazdu?",
+    "textUz": "Qaysi manevrni bajarishda transport vositasidan kamida 1 metr masofa saqlash majburiy?",
+    "category": "Xavfsiz masofa va manevrlar",
+    "isPremium": true,
+    "options": [
+      {
+        "textPl": "Wymijania samochodu osobowego.",
+        "textUz": "Yengil avtomobildan ayrilib o'tishda.",
+        "isCorrect": false
+      },
+      {
+        "textPl": "Wyprzedzania roweru.",
+        "textUz": "Velosipeddan o'zib ketishda.",
+        "isCorrect": true
+      },
+      {
+        "textPl": "Omijania dowolnego pojazdu.",
+        "textUz": "Istalgan transport vositasini aylanib o'tishda.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "textPl": "Jaki odstęp należy zachować podczas omijania samochodem osobowym przeszkody na drodze?",
+    "textUz": "Yengil avtomobil bilan yo'ldagi to'siqni aylanib o'tishda qanday masofa saqlanishi kerak?",
+    "category": "Xavfsiz masofa va manevrlar",
+    "isPremium": true,
+    "options": [
+      {
+        "textPl": "Bezpieczny, ale nie mniejszy niż 0,8 metra.",
+        "textUz": "Xavfsiz, lekin 0,8 metrdan kam bo'lmagan.",
+        "isCorrect": false
+      },
+      {
+        "textPl": "Bezpieczny, czyli zawsze jednakowy.",
+        "textUz": "Xavfsiz, ya'ni har doim bir xil.",
+        "isCorrect": false
+      },
+      {
+        "textPl": "Bezpieczny, uzależniony od szerokości jezdni i warunków ruchu.",
+        "textUz": "Xavfsiz, yo'l kengligi va harakat sharoitiga bog'liq.",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "textPl": "Jaki odstęp należy zachować podczas wyprzedzania samochodu osobowego?",
+    "textUz": "Yengil avtomobildan o'zib o'tishda qanday masofa saqlanishi kerak?",
+    "category": "Xavfsiz masofa va manevrlar",
+    "isPremium": true,
+    "options": [
+      {
+        "textPl": "Bezpieczny, uzależniony od szerokości jezdni i warunków ruchu.",
+        "textUz": "Xavfsiz, yo'l kengligi va harakat sharoitiga bog'liq.",
+        "isCorrect": true
+      },
+      {
+        "textPl": "Bezpieczny, ale większy niż 1,5 metra.",
+        "textUz": "Xavfsiz, lekin 1,5 metrdan katta.",
+        "isCorrect": false
+      },
+      {
+        "textPl": "Bezpieczny, ale mniejszy niż 0,5 metra.",
+        "textUz": "Xavfsiz, lekin 0,5 metrdan kichik.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "textPl": "Jaki odstęp należy zachować podczas wyprzedzania motocykla?",
+    "textUz": "Mototsikldan o'zib o'tishda qanday masofa saqlanishi kerak?",
+    "category": "Xavfsiz masofa va manevrlar",
+    "isPremium": true,
+    "options": [
+      {
+        "textPl": "Bezpieczny, ale nie większy niż 0,5 metra.",
+        "textUz": "Xavfsiz, lekin 0,5 metrdan katta bo'lmagan.",
+        "isCorrect": false
+      },
+      {
+        "textPl": "Bezpieczny, ale nie większy niż 1 metr.",
+        "textUz": "Xavfsiz, lekin 1 metrdan katta bo'lmagan.",
+        "isCorrect": false
+      },
+      {
+        "textPl": "Bezpieczny, ale nie mniejszy niż 1 metr.",
+        "textUz": "Xavfsiz, lekin 1 metrdan kam bo'lmagan.",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "textPl": "Jaki odstęp należy zachować podczas wyprzedzania kolumny pieszych?",
+    "textUz": "Piyodalar guruhidan o'zib o'tishda qanday masofa saqlanishi kerak?",
+    "category": "Xavfsiz masofa va manevrlar",
+    "isPremium": true,
+    "options": [
+      {
+        "textPl": "Bezpieczny, ale nie mniejszy niż 0,6 metra.",
+        "textUz": "Xavfsiz, lekin 0,6 metrdan kam bo'lmagan.",
+        "isCorrect": false
+      },
+      {
+        "textPl": "Bezpieczny, ale nie mniejszy niż 0,8 metra.",
+        "textUz": "Xavfsiz, lekin 0,8 metrdan kam bo'lmagan.",
+        "isCorrect": false
+      },
+      {
+        "textPl": "Bezpieczny, ale nie mniejszy niż 1 metr.",
+        "textUz": "Xavfsiz, lekin 1 metrdan kam bo'lmagan.",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "textPl": "Jak dwukrotne zwiększenie prędkości samochodu osobowego wpływa na długość jego drogi hamowania?",
+    "textUz": "Yengil avtomobil tezligining ikki barobar oshishi tormozlash masofasiga qanday ta'sir qiladi?",
+    "category": "Xavfsiz masofa va manevrlar",
+    "isPremium": true,
+    "options": [
+      {
+        "textPl": "Zwiększa dwukrotnie długość drogi hamowania.",
+        "textUz": "Tormozlash masofasini ikki barobar oshiradi.",
+        "isCorrect": false
+      },
+      {
+        "textPl": "Zwiększa czterokrotnie długość drogi hamowania.",
+        "textUz": "Tormozlash masofasini to'rt barobar oshiradi.",
+        "isCorrect": true
+      },
+      {
+        "textPl": "Nie powoduje zmiany długości drogi hamowania.",
+        "textUz": "Tormozlash masofasini o'zgartirmaydi.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "textPl": "Jak duży odstęp od poprzedzającego pojazdu należy utrzymywać, kierując samochodem osobowym poza obszarem zabudowanym w tunelu o długości 600 metrów?",
+    "textUz": "Aholi punktidan tashqarida, 600 metrli tunnelda yengil avtomobil bilan oldingi transport vositasidan qanday masofa saqlash kerak?",
+    "category": "Xavfsiz masofa va manevrlar",
+    "isPremium": true,
+    "options": [
+      {
+        "textPl": "Nie mniejszy niż 50 metrów.",
+        "textUz": "Kamida 50 metr.",
+        "isCorrect": true
+      },
+      {
+        "textPl": "Nie mniejszy niż 40 metrów.",
+        "textUz": "Kamida 40 metr.",
+        "isCorrect": false
+      },
+      {
+        "textPl": "Nie mniejszy niż 30 metrów.",
+        "textUz": "Kamida 30 metr.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "textPl": "Który z czynników ma bezpośredni wpływ na długość drogi zatrzymania samochodu osobowego?",
+    "textUz": "Qaysi omil yengil avtomobilning to'xtash masofasiga bevosita ta'sir qiladi?",
+    "category": "Xavfsiz masofa va manevrlar",
+    "isPremium": true,
+    "options": [
+      {
+        "textPl": "Czas reakcji kierującego pojazdem.",
+        "textUz": "Haydovchining reaksiya vaqti.",
+        "isCorrect": true
+      },
+      {
+        "textPl": "Masa pasażerów.",
+        "textUz": "Yo'lovchilarning og'irligi.",
+        "isCorrect": false
+      },
+      {
+        "textPl": "Masa pojazdu.",
+        "textUz": "Transport vositasining og'irligi.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "textPl": "Który z czynników ma bezpośredni wpływ na długość drogi zatrzymania samochodu osobowego?",
+    "textUz": "Qaysi omil yengil avtomobilning to'xtash masofasiga bevosita ta'sir qiladi?",
+    "category": "Xavfsiz masofa va manevrlar",
+    "isPremium": true,
+    "options": [
+      {
+        "textPl": "Masa pasażera.",
+        "textUz": "Yo'lovchining og'irligi.",
+        "isCorrect": false
+      },
+      {
+        "textPl": "Prędkość i stan nawierzchni.",
+        "textUz": "Tezlik va yo'l qoplamasining holati.",
+        "isCorrect": true
+      },
+      {
+        "textPl": "Masa pojazdu.",
+        "textUz": "Transport vositasining og'irligi.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "textPl": "Który z wymienionych elementów stanowi obowiązkowe wyposażenie każdego samochodu osobowego?",
+    "textUz": "Qaysi jihoz har bir yengil avtomobilning majburiy jihozi hisoblanadi?",
+    "category": "Texnik holat va nosozliklar",
+    "isPremium": true,
+    "options": [
+      {
+        "textPl": "Trójkąt ostrzegawczy.",
+        "textUz": "Ogohlantiruvchi uchburchak.",
+        "isCorrect": true
+      },
+      {
+        "textPl": "Apteczka.",
+        "textUz": "Tibbiy sumka (aptechka).",
+        "isCorrect": false
+      },
+      {
+        "textPl": "Koło zapasowe.",
+        "textUz": "Zapas g'ildirak.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "textPl": "Który z wymienionych elementów stanowi obowiązkowe wyposażenie każdego samochodu osobowego?",
+    "textUz": "Qaysi jihoz har bir yengil avtomobilning majburiy jihozi hisoblanadi?",
+    "category": "Texnik holat va nosozliklar",
+    "isPremium": true,
+    "options": [
+      {
+        "textPl": "Apteczka.",
+        "textUz": "Tibbiy sumka.",
+        "isCorrect": false
+      },
+      {
+        "textPl": "Gaśnica.",
+        "textUz": "O't o'chirgich.",
+        "isCorrect": true
+      },
+      {
+        "textPl": "Koło zapasowe.",
+        "textUz": "Zapas g'ildirak.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "textPl": "Którego z wymienionych świateł wolno Ci używać, gdy kierujesz samochodem osobowym podczas mgły?",
+    "textUz": "Tuman paytida yengil avtomobilni boshqarayotganda qaysi chiroqlardan foydalanish mumkin?",
+    "category": "Yoritish tizimi",
+    "isPremium": true,
+    "options": [
+      {
+        "textPl": "Świateł do jazdy dziennej.",
+        "textUz": "Kunduzgi yurish chiroqlaridan.",
+        "isCorrect": false
+      },
+      {
+        "textPl": "Świateł przeciwmgłowych przednich.",
+        "textUz": "Old tuman chiroqlaridan.",
+        "isCorrect": true
+      },
+      {
+        "textPl": "Wyłącznie świateł drogowych.",
+        "textUz": "Faqat uzoq nur chiroqlaridan.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "textPl": "Którą z tych czynności masz obowiązek wykonać podczas wyprzedzania samochodem osobowym we mgle poza obszarem zabudowanym?",
+    "textUz": "Aholi punktidan tashqarida tuman paytida yengil avtomobil bilan o'zib o'tishda nima qilish majburiy?",
+    "category": "Yoritish tizimi",
+    "isPremium": true,
+    "options": [
+      {
+        "textPl": "Dawać krótkotrwałe sygnały świetlne.",
+        "textUz": "Qisqa yorug'lik signali berish.",
+        "isCorrect": false
+      },
+      {
+        "textPl": "Dawać krótkotrwałe sygnały dźwiękowe.",
+        "textUz": "Qisqa tovush signali berish.",
+        "isCorrect": true
+      },
+      {
+        "textPl": "Włączyć tylne światła przeciwmgłowe, niezależnie od stopnia ograniczenia widoczności.",
+        "textUz": "Ko'rinish darajasidan qat'i nazar orqa tuman chiroqlarini yoqish.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "textPl": "Jak należy zachować się podczas wymijania samochodem osobowym w nocy innego pojazdu?",
+    "textUz": "Tunda yengil avtomobil bilan qarama-qarshi transport vositasidan ayrilib o'tishda qanday harakat qilish kerak?",
+    "category": "Yoritish tizimi",
+    "isPremium": true,
+    "options": [
+      {
+        "textPl": "Patrzeć prosto w światła pojazdu nadjeżdżającego z przeciwka.",
+        "textUz": "Qarshidan kelayotgan transport vositasi chiroqlariga to'g'ridan-to'g'ri qarash.",
+        "isCorrect": false
+      },
+      {
+        "textPl": "Zmienić światła mijania na drogowe.",
+        "textUz": "Yaqin nurni uzoq nurga almashtirish.",
+        "isCorrect": false
+      },
+      {
+        "textPl": "Patrzeć w prawo od źródła światła pojazdu nadjeżdżającego z przeciwka i wypatrywać tam ewentualnej przeszkody. ",
+        "textUz": "Qarshidan kelayotgan transport chirog'idan o'ngga qarab, mumkin bo'lgan to'siqni kuzatish.",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "textPl": "Czy w każdym reflektorze samochodu osobowego wolno Ci zamiast żarówki halogenowej wykorzystywać lampę ksenonową?",
+    "textUz": "Yengil avtomobilning har qanday farasida galogen lampa o'rniga ksenon lampadan foydalanish mumkinmi?",
+    "category": "Yoritish tizimi",
+    "isPremium": true,
+    "options": [
+      {
+        "textPl": "Tak, w sytuacjach awaryjnych.",
+        "textUz": "Ha, favqulodda holatlarda.",
+        "isCorrect": false
+      },
+      {
+        "textPl": "Nie, ponieważ może to doprowadzić do oślepienia innych kierujących.",
+        "textUz": "Yo'q, chunki bu boshqa haydovchilarni ko'zini qamashtirishi mumkin.",
+        "isCorrect": true
+      },
+      {
+        "textPl": "Tak, jeżeli trzonek źródła światła pasuje do oprawki w reflektorze.",
+        "textUz": "Ha, agar lampa asosi fara patroniga mos kelsa.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "textPl": "Która z wymienionych czynności jest dozwolona podczas kierowania samochodem osobowym?",
+    "textUz": "Yengil avtomobilni boshqarayotganda qaysi harakatga ruxsat etilgan?",
+    "category": "Umumiy qoidalar",
+    "isPremium": true,
+    "options": [
+      {
+        "textPl": "Korzystanie z nawigacji.",
+        "textUz": "Navigatordan foydalanish.",
+        "isCorrect": true
+      },
+      {
+        "textPl": "Odpinanie pasa bezpieczeństwa.",
+        "textUz": "Xavfsizlik kamarini yechish.",
+        "isCorrect": false
+      },
+      {
+        "textPl": "Korzystanie z telefonu wymagającego trzymania słuchawki w ręku.",
+        "textUz": "Trubkani qo'lda ushlashni talab qiladigan telefondan foydalanish.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "textPl": "Jaka jest dopuszczalna minimalna głębokość bieżnika w oponie niewyposażonej we wskaźnik granicznego jej zużycia?",
+    "textUz": "Chegaraviy eskirish ko'rsatkichi bo'lmagan shinada protektor chuqurligining ruxsat etilgan minimal qiymati qancha?",
+    "category": "Texnik holat va nosozliklar",
+    "isPremium": true,
+    "options": [
+      {
+        "textPl": "1,6 milimetra.",
+        "textUz": "1,6 millimetr.",
+        "isCorrect": true
+      },
+      {
+        "textPl": "2,6 milimetra.",
+        "textUz": "2,6 millimetr.",
+        "isCorrect": false
+      },
+      {
+        "textPl": "3 milimetry.",
+        "textUz": "3 millimetr.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "textPl": "Która z wymienionych usterek, uniemożliwia bezpieczne używanie samochodu w ruchu drogowym?",
+    "textUz": "Qaysi nosozlik avtomobilni yo'l harakatida xavfsiz foydalanishga imkon bermaydi?",
+    "category": "Texnik holat va nosozliklar",
+    "isPremium": true,
+    "options": [
+      {
+        "textPl": "Zanieczyszczony wkład filtra powietrza.",
+        "textUz": "Havo filtri elementining ifloslanishi.",
+        "isCorrect": false
+      },
+      {
+        "textPl": "Przegrzewające się elektrody świec zapłonowych.",
+        "textUz": "Svecha elektrodlarining qizib ketishi.",
+        "isCorrect": false
+      },
+      {
+        "textPl": "Przepalona żarówka tylnego lewego kierunkowskazu.",
+        "textUz": "Orqa chap burilish chirog'i lampasining kuyib qolishi.",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "textPl": "Jaki może być skutek zbyt słabego nacisku na pedał hamulca w samochodzie osobowym?",
+    "textUz": "Yengil avtomobilda tormoz pedaliga juda kuchsiz bosim natijasi qanday bo'lishi mumkin?",
+    "category": "Tormoz va xavfsizlik tizimlari",
+    "isPremium": true,
+    "options": [
+      {
+        "textPl": "Wydłużenie drogi hamowania.",
+        "textUz": "Tormozlash masofasining uzayishi.",
+        "isCorrect": true
+      },
+      {
+        "textPl": "Zablokowanie kół.",
+        "textUz": "G'ildiraklarning blokirovkasi.",
+        "isCorrect": false
+      },
+      {
+        "textPl": "Utrata sterowności.",
+        "textUz": "Boshqaruvni yo'qotish.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "textPl": "Do czego może doprowadzić zbyt mocne hamowanie samochodu osobowego niewyposażonego w system ABS?",
+    "textUz": "ABS tizimi bo'lmagan yengil avtomobilni juda kuchli tormozlash nimaga olib kelishi mumkin?",
+    "category": "Tormoz va xavfsizlik tizimlari",
+    "isPremium": true,
+    "options": [
+      {
+        "textPl": "Do skrócenia o co najmniej połowę drogi hamowania.",
+        "textUz": "Tormozlash masofasi kamida yarmiga qisqarishiga.",
+        "isCorrect": false
+      },
+      {
+        "textPl": "Do utraty sterowności.",
+        "textUz": "Boshqaruvni yo'qotishga.",
+        "isCorrect": true
+      },
+      {
+        "textPl": "Do zniszczenia hamulców.",
+        "textUz": "Tormozlarning buzilishiga.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "textPl": "Który ze sposobów hamowania samochodu osobowego wyposażonego w system ABS jest najbardziej efektywny?",
+    "textUz": "ABS tizimi bilan jihozlangan yengil avtomobilni tormozlashning qaysi usuli eng samarali?",
+    "category": "Tormoz va xavfsizlik tizimlari",
+    "isPremium": true,
+    "options": [
+      {
+        "textPl": "Pulsacyjne wciskanie pedału hamulca.",
+        "textUz": "Tormoz pedalini pulsli (bir maromda) bosish.",
+        "isCorrect": false
+      },
+      {
+        "textPl": "Szybkie i mocne wciśnięcie pedału hamulca.",
+        "textUz": "Tormoz pedalini tez va kuchli bosish.",
+        "isCorrect": true
+      },
+      {
+        "textPl": "Wciśnięcie pedału sprzęgła, a następnie pedału hamulca.",
+        "textUz": "Avval mufta, keyin tormoz pedalini bosish.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "textPl": "Którą z czynności należy wykonać, gdy działający system ABS wypycha w czasie hamowania pedał hamulca?",
+    "textUz": "Tormozlash paytida ishlayotgan ABS tizimi tormoz pedalini orqaga itarganda nima qilish kerak?",
+    "category": "Tormoz va xavfsizlik tizimlari",
+    "isPremium": true,
+    "options": [
+      {
+        "textPl": "Utrzymać siłę nacisku na pedał hamulca.",
+        "textUz": "Tormoz pedaliga bosim kuchini saqlab qolish.",
+        "isCorrect": true
+      },
+      {
+        "textPl": "Zmniejszyć siłę nacisku na pedał hamulca.",
+        "textUz": "Bosim kuchini kamaytirish.",
+        "isCorrect": false
+      },
+      {
+        "textPl": "Zwolnić pedał hamulca.",
+        "textUz": "Tormoz pedalini bo'shatish.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "textPl": "W którym z przypadków system ABS może pomóc kierującemu pojazdem w utrzymaniu sterowności?",
+    "textUz": "Qaysi holatda ABS tizimi haydovchiga boshqaruvni saqlab qolishda yordam berishi mumkin?",
+    "category": "Tormoz va xavfsizlik tizimlari",
+    "isPremium": true,
+    "options": [
+      {
+        "textPl": "Przy hamowaniu, gdy pojazd wpadł w boczny poślizg.",
+        "textUz": "Transport vositasi yon tomonga sirg'anib ketganda tormozlashda.",
+        "isCorrect": true
+      },
+      {
+        "textPl": "Wyłącznie podczas hamowania na prostym odcinku drogi.",
+        "textUz": "Faqat yo'lning to'g'ri qismida tormozlashda.",
+        "isCorrect": false
+      },
+      {
+        "textPl": "Wyłącznie podczas hamowania na zakręcie.",
+        "textUz": "Faqat burilishda tormozlashda.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "textPl": "Jaki efekt może wystąpić, gdy podczas ruszania na wzniesieniu zbyt wcześnie zwolnisz dźwignię hamulca awaryjnego, w porównaniu ze zwolnieniem pedału sprzęgła?",
+    "textUz": "Ko'tarilishda qo'zg'alishda qo'l tormozini muftaga nisbatan juda erta bo'shatsangiz, qanday holat yuz berishi mumkin?",
+    "category": "Umumiy qoidalar",
+    "isPremium": true,
+    "options": [
+      {
+        "textPl": "Unieruchomienie silnika.",
+        "textUz": "Dvigatelning o'chib qolishi.",
+        "isCorrect": false
+      },
+      {
+        "textPl": "Stoczenie się pojazdu.",
+        "textUz": "Transport vositasining orqaga sirg'alib ketishi.",
+        "isCorrect": true
+      },
+      {
+        "textPl": "Gwałtowne ruszenie.",
+        "textUz": "Keskin qo'zg'alish.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "textPl": "Które z wymienionych działań należy podjąć, gdy w czasie jazdy zaświeci się na czerwono lampka kontrolna układu hamulcowego?",
+    "textUz": "Harakat paytida tormoz tizimining qizil nazorat chirog'i yonganda nima qilish kerak?",
+    "category": "Tormoz va xavfsizlik tizimlari",
+    "isPremium": true,
+    "options": [
+      {
+        "textPl": "Zmniejszyć prędkość i czekać, aż lampka zgaśnie.",
+        "textUz": "Tezlikni kamaytirib, chiroq o'chishini kutish.",
+        "isCorrect": false
+      },
+      {
+        "textPl": "Zatrzymać pojazd i sprawdzić poziom płynu hamulcowego.",
+        "textUz": "To'xtab, tormoz suyuqligi darajasini tekshirish.",
+        "isCorrect": true
+      },
+      {
+        "textPl": "Kontynuować jazdę i zgłosić ten stan przy najbliższych badaniach okresowych pojazdu.",
+        "textUz": "Haydashni davom ettirib, keyingi texnik ko'rikda xabar berish.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "textPl": "O czym ostrzega świecąca się na czerwono w czasie jazdy samochodem osobowym lampka kontrolna układu chłodzenia?",
+    "textUz": "Haydash paytida sovutish tizimining qizil nazorat chirog'i nimadan ogohlantiradi?",
+    "category": "Texnik holat va nosozliklar",
+    "isPremium": true,
+    "options": [
+      {
+        "textPl": "O zbyt wysokiej temperaturze płynu chłodniczego.",
+        "textUz": "Sovutish suyuqligi haroratining haddan tashqari yuqoriligidan.",
+        "isCorrect": true
+      },
+      {
+        "textPl": "O zbyt niskiej temperaturze płynu chłodniczego.",
+        "textUz": "Sovutish suyuqligi haroratining past ekanligidan.",
+        "isCorrect": false
+      },
+      {
+        "textPl": "O zbyt niskim poziomie płynu do spryskiwania szyby.",
+        "textUz": "Shisha yuvish suyuqligi darajasining pastligidan.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "textPl": "Która z wymienionych okoliczności może świadczyć o złym stanie technicznym samochodu osobowego?",
+    "textUz": "Qaysi holat yengil avtomobilning texnik holati yomon ekanligidan dalolat beradi?",
+    "category": "Texnik holat va nosozliklar",
+    "isPremium": true,
+    "options": [
+      {
+        "textPl": "Emisja bezbarwnych spalin.",
+        "textUz": "Rangsiz gazlarning chiqishi.",
+        "isCorrect": false
+      },
+      {
+        "textPl": "Pozostawione na miejscu parkowania ślady wycieków płynów eksploatacyjnych.",
+        "textUz": "To'xtash joyida suyuqlik sizib chiqqan izlarning qolishi.",
+        "isCorrect": true
+      },
+      {
+        "textPl": "Zaświecenie się na czerwono lampki kontrolnej ładowania akumulatora przed uruchomieniem silnika.",
+        "textUz": "Dvigatel ishga tushirilmasdan oldin akkumulyator quvvatlanishi chirog'ining yonishi.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "textPl": "Który z wymienionych przypadków może świadczyć o złym stanie technicznym samochodu osobowego?",
+    "textUz": "Qaysi holat yengil avtomobilning texnik holati yomon ekanligidan dalolat beradi?",
+    "category": "Texnik holat va nosozliklar",
+    "isPremium": true,
+    "options": [
+      {
+        "textPl": "Emisja czarnych lub niebieskich gęstych spalin.",
+        "textUz": "Qora yoki ko'k qalin tutunning chiqishi.",
+        "isCorrect": true
+      },
+      {
+        "textPl": "Emisja bezbarwnych spalin.",
+        "textUz": "Rangsiz gazlarning chiqishi.",
+        "isCorrect": false
+      },
+      {
+        "textPl": "Zaświecenie się na czerwono lampki kontrolnej ciśnienia oleju silnikowego przed uruchomieniem silnika.",
+        "textUz": "Dvigatel ishga tushirilmasdan oldin moy bosimi chirog'ining yonishi.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "textPl": "W którym z wymienionych przypadków, używanie samochodu osobowego nie zagraża bezpieczeństwu ruchu drogowego?",
+    "textUz": "Qaysi holatda yengil avtomobildan foydalanish yo'l harakati xavfsizligiga tahdid solmaydi?",
+    "category": "Texnik holat va nosozliklar",
+    "isPremium": true,
+    "options": [
+      {
+        "textPl": "Nadmiernie zużyte klocki lub tarcze hamulcowe.",
+        "textUz": "Tormoz kolodkalari yoki disklarining ortiqcha eskirishi.",
+        "isCorrect": false
+      },
+      {
+        "textPl": "Uszkodzone przednie amortyzatory.",
+        "textUz": "Old amortizatorlarning shikastlanishi.",
+        "isCorrect": false
+      },
+      {
+        "textPl": "Krótkotrwałe użycie koła dojazdowego, gdy jedna z opon uległa uszkodzeniu.",
+        "textUz": "Shinalardan biri shikastlanganda vaqtinchalik zapas g'ildirakdan qisqa muddat foydalanish.",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "textPl": "Która z tych czynności zwiększy bezpieczeństwo jazdy, gdy kierujesz samochodem osobowym podczas mgły ograniczającej widoczność do 40 metrów?",
+    "textUz": "Ko'rinish 40 metrgacha cheklangan tuman paytida yengil avtomobilni boshqarayotganda qaysi harakat xavfsizlikni oshiradi?",
+    "category": "Ob-havo sharoitida haydash",
+    "isPremium": true,
+    "options": [
+      {
+        "textPl": "Włączenie świateł drogowych.",
+        "textUz": "Uzoq nur chiroqlarini yoqish.",
+        "isCorrect": false
+      },
+      {
+        "textPl": "Zmniejszenie odstępu od poprzedzającego pojazdu.",
+        "textUz": "Oldingi transport vositasidan masofani kamaytirish.",
+        "isCorrect": false
+      },
+      {
+        "textPl": "Włączenie świateł przeciwmgłowych tylnych.",
+        "textUz": "Orqa tuman chiroqlarini yoqish.",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "textPl": "Jakie jest ryzyko poślizgu pojazdu podczas jazdy w czasie deszczu?",
+    "textUz": "Yomg'ir paytida transport vositasining sirpanish xavfi qanday?",
+    "category": "Ob-havo sharoitida haydash",
+    "isPremium": true,
+    "options": [
+      {
+        "textPl": "Największe w początkowej fazie deszczu.",
+        "textUz": "Yomg'irning boshlang'ich bosqichida eng katta.",
+        "isCorrect": true
+      },
+      {
+        "textPl": "Najmniejsze w początkowej fazie deszczu.",
+        "textUz": "Yomg'irning boshlang'ich bosqichida eng kichik.",
+        "isCorrect": false
+      },
+      {
+        "textPl": "Największe w końcowej fazie deszczu.",
+        "textUz": "Yomg'irning oxirgi bosqichida eng katta.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "textPl": "Jaki wpływ ma prędkość jazdy na kąt widzenia kierującego samochodem osobowym?",
+    "textUz": "Haydash tezligi yengil avtomobil haydovchisining ko'rish burchagiga qanday ta'sir qiladi?",
+    "category": "Umumiy qoidalar",
+    "isPremium": true,
+    "options": [
+      {
+        "textPl": "Wraz ze wzrostem prędkości kąt widzenia zawęża się.",
+        "textUz": "Tezlik oshgani sari ko'rish burchagi torayadi.",
+        "isCorrect": true
+      },
+      {
+        "textPl": "Wraz ze wzrostem prędkości kąt widzenia rozszerza się.",
+        "textUz": "Tezlik oshgani sari ko'rish burchagi kengayadi.",
+        "isCorrect": false
+      },
+      {
+        "textPl": "Nie ma żadnego wpływu.",
+        "textUz": "Hech qanday ta'sir qilmaydi.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "textPl": "Który z wymienionych czynników może ograniczyć pole widzenia kierującego samochodem osobowym?",
+    "textUz": "Qaysi omil yengil avtomobil haydovchisining ko'rish maydonini cheklashi mumkin?",
+    "category": "Umumiy qoidalar",
+    "isPremium": true,
+    "options": [
+      {
+        "textPl": "Używanie klimatyzacji podczas opadów deszczu.",
+        "textUz": "Yomg'ir paytida konditsionerdan foydalanish.",
+        "isCorrect": false
+      },
+      {
+        "textPl": "Lusterko wewnętrzne.",
+        "textUz": "Ichki oyna.",
+        "isCorrect": false
+      },
+      {
+        "textPl": "Oślepiające światła innych pojazdów jadących z przeciwka.",
+        "textUz": "Qarshidan kelayotgan boshqa transport vositalarining ko'zni qamashtiruvchi chiroqlari.",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "textPl": "Który z wymienionych czynników może ograniczyć pole widzenia kierującego samochodem osobowym podczas jazdy nocą?",
+    "textUz": "Tunda haydashda qaysi omil haydovchining ko'rish maydonini cheklashi mumkin?",
+    "category": "Yoritish tizimi",
+    "isPremium": true,
+    "options": [
+      {
+        "textPl": "Zmniejszona prędkość.",
+        "textUz": "Kamaytirilgan tezlik.",
+        "isCorrect": false
+      },
+      {
+        "textPl": "Uszkodzony system ABS.",
+        "textUz": "Buzilgan ABS tizimi.",
+        "isCorrect": false
+      },
+      {
+        "textPl": "Niewłaściwie ustawione światła.",
+        "textUz": "Noto'g'ri sozlangan chiroqlar.",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "textPl": "Który z wymienionych czynników ma wpływ na ograniczenie pola widzenia kierującego samochodem osobowym?",
+    "textUz": "Qaysi omil yengil avtomobil haydovchisining ko'rish maydonini cheklashiga ta'sir qiladi?",
+    "category": "Umumiy qoidalar",
+    "isPremium": true,
+    "options": [
+      {
+        "textPl": "Mruganie oczami w czasie przerwy w jeździe.",
+        "textUz": "Haydash tanaffusida ko'z qisish.",
+        "isCorrect": false
+      },
+      {
+        "textPl": "15 minut odpoczynku po dwugodzinnej jeździe.",
+        "textUz": "Ikki soatlik haydashdan keyin 15 daqiqa dam olish.",
+        "isCorrect": false
+      },
+      {
+        "textPl": "Kierowanie pojazdem w stanie nietrzeźwości.",
+        "textUz": "Mast holda transport vositasini boshqarish.",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "textPl": "Który z wymienionych czynników może powodować ograniczenie pola widzenia kierującego samochodem osobowym?",
+    "textUz": "Qaysi omil yengil avtomobil haydovchisining ko'rish maydonini cheklashiga sabab bo'lishi mumkin?",
+    "category": "Umumiy qoidalar",
+    "isPremium": true,
+    "options": [
+      {
+        "textPl": "Zbyt nisko lub zbyt wysoko ustawiony fotel kierującego.",
+        "textUz": "Haydovchi o'rindig'ining juda past yoki juda baland sozlanishi.",
+        "isCorrect": true
+      },
+      {
+        "textPl": "15 minut odpoczynku po dwugodzinnej jeździe.",
+        "textUz": "Ikki soatlik haydashdan keyin 15 daqiqa dam olish.",
+        "isCorrect": false
+      },
+      {
+        "textPl": "Okulary przeciwsłoneczne używane w słoneczny dzień.",
+        "textUz": "Quyoshli kunda quyosh ko'zoynagidan foydalanish.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "textPl": "Jaki wpływ ma prędkość jazdy na kąt widzenia kierującego samochodem osobowym?",
+    "textUz": "Haydash tezligi yengil avtomobil haydovchisining ko'rish burchagiga qanday ta'sir qiladi?",
+    "category": "Umumiy qoidalar",
+    "isPremium": true,
+    "options": [
+      {
+        "textPl": "Wraz ze wzrostem prędkości kąt widzenia jest większy.",
+        "textUz": "Tezlik oshgani sari ko'rish burchagi kattalashadi.",
+        "isCorrect": false
+      },
+      {
+        "textPl": "Wraz ze wzrostem prędkości kąt widzenia jest mniejszy.",
+        "textUz": "Tezlik oshgani sari ko'rish burchagi kichiklashadi.",
+        "isCorrect": true
+      },
+      {
+        "textPl": "Nie ma żadnego wpływu.",
+        "textUz": "Hech qanday ta'sir qilmaydi.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "textPl": "Jak powinieneś postąpić, aby rozpędzić samochód osobowy na płaskim odcinku drogi?",
+    "textUz": "Yo'lning tekis qismida yengil avtomobilni tezlashtirish uchun qanday harakat qilish kerak?",
+    "category": "Umumiy qoidalar",
+    "isPremium": true,
+    "options": [
+      {
+        "textPl": "Wykorzystać maksymalne obroty silnika na każdym biegu.",
+        "textUz": "Har bir uzatishmada dvigatelning maksimal aylanishidan foydalanish.",
+        "isCorrect": false
+      },
+      {
+        "textPl": "Przyspieszyć do takiej prędkości na niższym biegu, by po włączeniu następnego biegu pojazd nie szarpał i nie dusił się.",
+        "textUz": "Keyingi uzatishmaga o'tganda avtomobil silkinmasligi va \"bo'g'ilib qolmasligi\" uchun quyi uzatishmada shunday tezlikkacha tezlashtirish.",
+        "isCorrect": true
+      },
+      {
+        "textPl": "W każdym przypadku zwiększyć biegi o dwa.",
+        "textUz": "Har doim ikkita uzatishmaga o'tish.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "textPl": "W jaki sposób wolno Ci przewozić rowery samochodem osobowym?",
+    "textUz": "Yengil avtomobilda velosipedlarni qanday tashish mumkin?",
+    "category": "Yuk va bagaj tashish",
+    "isPremium": true,
+    "options": [
+      {
+        "textPl": "Umieszczone w uchwytach z tyłu pojazdu ograniczającym czytelność tablicy rejestracyjnej.",
+        "textUz": "Davlat raqamining o'qilishini cheklaydigan orqa ushlagichlarga joylashtirilgan holda.",
+        "isCorrect": false
+      },
+      {
+        "textPl": "Umieszczone w uchwytach z tyłu pojazdu zasłaniającym jedno światło pojazdu.",
+        "textUz": "Transport vositasining bitta chirog'ini to'sadigan orqa ushlagichlarga joylashtirilgan holda.",
+        "isCorrect": false
+      },
+      {
+        "textPl": "Umieszczone w uchwytach zamontowanych na bagażniku dachowym.",
+        "textUz": "Tom bagajiga o'rnatilgan ushlagichlarga joylashtirilgan holda.",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "textPl": "W którym z wymienionych przypadków regularne wykonywanie badania technicznego pojazdu ma wpływ na jego bezpieczne używanie w ruchu drogowym?",
+    "textUz": "Qaysi holatda transport vositasining muntazam texnik ko'rigi uning yo'l harakatida xavfsiz foydalanilishiga ta'sir qiladi?",
+    "category": "Texnik holat va nosozliklar",
+    "isPremium": true,
+    "options": [
+      {
+        "textPl": "Wyłącznie po upływie okresu gwarancji pojazdu.",
+        "textUz": "Faqat kafolat muddati tugagandan keyin.",
+        "isCorrect": false
+      },
+      {
+        "textPl": "Tylko w okresie gwarancji pojazdu.",
+        "textUz": "Faqat kafolat muddatida.",
+        "isCorrect": false
+      },
+      {
+        "textPl": "W całym okresie używania pojazdu.",
+        "textUz": "Transport vositasidan foydalanishning butun davomida.",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "textPl": "Jaki jest cel stosowania systemu ABS w samochodzie osobowym?",
+    "textUz": "Yengil avtomobilda ABS tizimidan foydalanishning maqsadi nima?",
+    "category": "Tormoz va xavfsizlik tizimlari",
+    "isPremium": true,
+    "options": [
+      {
+        "textPl": "Zapobieganie utracie stabilności i zapewnienie kierowalności pojazdu podczas jego hamowania.",
+        "textUz": "Tormozlash paytida barqarorlikni yo'qotmaslik va boshqaruvchanlikni ta'minlash.",
+        "isCorrect": true
+      },
+      {
+        "textPl": "Zapobieganie przed wpadnięciem pojazdu w poślizg - niezależnie od jego prędkości i warunków na drodze.",
+        "textUz": "Tezlik va yo'l sharoitidan qat'i nazar transport vositasining sirpanishining oldini olish.",
+        "isCorrect": false
+      },
+      {
+        "textPl": "Ułatwianie pokonywania zakrętów.",
+        "textUz": "Burilishlarni yengib o'tishni osonlashtirish.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "textPl": "Jak należy postąpić, podczas jazdy samochodem osobowym po drodze pokrytej śniegiem?",
+    "textUz": "Qor bosgan yo'lda yengil avtomobilni boshqarayotganda qanday harakat qilish kerak?",
+    "category": "Ob-havo sharoitida haydash",
+    "isPremium": true,
+    "options": [
+      {
+        "textPl": "Unikać gwałtownych ruchów kierownicą.",
+        "textUz": "Ruldan keskin harakatlar qilishdan saqlanish.",
+        "isCorrect": true
+      },
+      {
+        "textPl": "Odłączyć system kontroli trakcji.",
+        "textUz": "Trakshn nazorati tizimini o'chirish.",
+        "isCorrect": false
+      },
+      {
+        "textPl": "Na podjazdach zwiększyć prędkość.",
+        "textUz": "Ko'tarilishlarda tezlikni oshirish.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "textPl": "Kto podlega odpowiedzialności karnej w przypadku nieudzielenia pomocy poszkodowanemu w wypadku drogowym z bezpośrednim zagrożeniu utraty zdrowia i życia?",
+    "textUz": "Yo'l-transport hodisasida hayoti va sog'lig'iga bevosita xavf tug'ilgan jabrlanuvchiga yordam ko'rsatmaslik uchun kim jinoiy javobgarlikka tortiladi?",
+    "category": "Birinchi yordam",
+    "isPremium": true,
+    "options": [
+      {
+        "textPl": "Każda osoba, która mogła udzielić pomocy bez narażenia siebie lub innej osoby na niebezpieczeństwo utraty życia lub ciężkiego uszczerbku zdrowia.",
+        "textUz": "O'zini yoki boshqa odamni hayotdan mahrum bo'lish yoki og'ir shikast xavfiga qo'ymasdan yordam ko'rsata oladigan har qanday shaxs.",
+        "isCorrect": true
+      },
+      {
+        "textPl": "Tylko lekarz.",
+        "textUz": "Faqat shifokor.",
+        "isCorrect": false
+      },
+      {
+        "textPl": "Tylko uczestnik wypadku drogowego.",
+        "textUz": "Faqat yo'l-transport hodisasi ishtirokchisi.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "textPl": "Jak należy postąpić z poszkodowanym w wypadku drogowym, znajdującym się w pojeździe?",
+    "textUz": "Transport vositasida qolgan yo'l-transport hodisasi jabrlanuvchisi bilan qanday harakat qilish kerak?",
+    "category": "Birinchi yordam",
+    "isPremium": true,
+    "options": [
+      {
+        "textPl": "Należy go ewakuować z pojazdu - w każdym przypadku.",
+        "textUz": "Har qanday holatda transport vositasidan chiqarish kerak.",
+        "isCorrect": false
+      },
+      {
+        "textPl": "Należy go ewakuować z pojazdu - w przypadku stwierdzenia u niego zatrzymania akcji serca.",
+        "textUz": "Yurak to'xtaganligi aniqlangan holatdagina transport vositasidan chiqarish kerak.",
+        "isCorrect": true
+      },
+      {
+        "textPl": "Należy go zawsze pozostawić w pojeździe - do czasu przybycia lekarza.",
+        "textUz": "Shifokor kelguncha har doim transport vositasida qoldirish kerak.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "textPl": "Jesteś uczestnikiem lub świadkiem wypadku drogowego. Które z wymienionych informacji należy podać dzwoniąc pod numer alarmowy?",
+    "textUz": "Siz yo'l-transport hodisasi ishtirokchisi yoki guvohisiz. Favqulodda raqamga qo'ng'iroq qilganda qanday ma'lumot berish kerak?",
+    "category": "Birinchi yordam",
+    "isPremium": true,
+    "options": [
+      {
+        "textPl": "Miejsce zdarzenia oraz liczbę i stan ofiar wypadku.",
+        "textUz": "Voqea joyi hamda jabrlanganlar soni va holati.",
+        "isCorrect": true
+      },
+      {
+        "textPl": "Tylko liczbę pojazdów biorących udział w wypadku.",
+        "textUz": "Faqat hodisada ishtirok etgan transport vositalari soni.",
+        "isCorrect": false
+      },
+      {
+        "textPl": "Tylko liczbę ofiar wypadku.",
+        "textUz": "Faqat jabrlanganlar soni.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "textPl": "Jesteś uczestnikiem lub świadkiem wypadku drogowego. Jak należy postąpić, gdy na poszkodowanym pali się ubranie?",
+    "textUz": "Siz yo'l-transport hodisasi ishtirokchisi yoki guvohisiz. Jabrlanuvchining kiyimi yonayotgan bo'lsa, nima qilish kerak?",
+    "category": "Birinchi yordam",
+    "isPremium": true,
+    "options": [
+      {
+        "textPl": "Przewrócić osobę na ziemię i ugasić ogień poprzez przykrycie np. kurtką, kocem, płaszczem.",
+        "textUz": "Odamni yerga yotqizib, kurtka, adyol yoki plash bilan yopib olovni o'chirish.",
+        "isCorrect": true
+      },
+      {
+        "textPl": "Poczekać na przyjazd Straży Pożarnej.",
+        "textUz": "Yong'in xizmati kelishini kutish.",
+        "isCorrect": false
+      },
+      {
+        "textPl": "Ugasić ogień gaśnicą.",
+        "textUz": "Olovni o't o'chirgich bilan o'chirish.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "textPl": "Która z wymienionych awarii, uniemożliwia używanie samochodu osobowego w ruchu drogowym?",
+    "textUz": "Qaysi nosozlik yengil avtomobildan yo'l harakatida foydalanishga imkon bermaydi?",
+    "category": "Texnik holat va nosozliklar",
+    "isPremium": true,
+    "options": [
+      {
+        "textPl": "Niedziałające czujniki parkowania.",
+        "textUz": "Ishlamayotgan parking sensorlari.",
+        "isCorrect": false
+      },
+      {
+        "textPl": "Niedziałająca klimatyzacja.",
+        "textUz": "Ishlamayotgan konditsioner.",
+        "isCorrect": false
+      },
+      {
+        "textPl": "Niedziałające światła hamowania \"stop\".",
+        "textUz": "Ishlamayotgan \"stop\" tormoz chiroqlari.",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "textPl": "Które z wymienionych działań należy podjąć w pierwszej kolejności, gdy w czasie jazdy zaświeci się na czerwono lampka kontrolna ciśnienia oleju silnikowego?",
+    "textUz": "Harakat paytida dvigatel moyi bosimining qizil nazorat chirog'i yonganda, birinchi navbatda nima qilish kerak?",
+    "category": "Texnik holat va nosozliklar",
+    "isPremium": true,
+    "options": [
+      {
+        "textPl": "Kontynuować jazdę ze zmniejszoną prędkością.",
+        "textUz": "Tezlikni kamaytirib, haydashni davom ettirish.",
+        "isCorrect": false
+      },
+      {
+        "textPl": "Zwiększyć obroty silnika.",
+        "textUz": "Dvigatel aylanishini oshirish.",
+        "isCorrect": false
+      },
+      {
+        "textPl": "Zatrzymać pojazd i wyłączyć silnik.",
+        "textUz": "To'xtab, dvigatelni o'chirish.",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "textPl": "Jaką funkcję spełniają poduszki powietrzne?",
+    "textUz": "Havo yostiqchalari qanday vazifani bajaradi?",
+    "category": "Tormoz va xavfsizlik tizimlari",
+    "isPremium": true,
+    "options": [
+      {
+        "textPl": "Zmniejszają uszkodzenia pojazdu podczas zderzenia.",
+        "textUz": "To'qnashuv paytida transport vositasining shikastlanishini kamaytiradi.",
+        "isCorrect": false
+      },
+      {
+        "textPl": "Zapewniają pełną ochronę kierującego i pasażerów podczas zderzenia.",
+        "textUz": "To'qnashuv paytida haydovchi va yo'lovchilarni to'liq himoya qiladi.",
+        "isCorrect": false
+      },
+      {
+        "textPl": "Zmniejszają obrażenia ciała, jakim może ulec kierujący i pasażerowie w wyniku zderzenia.",
+        "textUz": "To'qnashuv natijasida haydovchi va yo'lovchilar oladigan tan jarohatlarini kamaytiradi.",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "textPl": "Kiedy masz obowiązek przełączyć światła drogowe na światła mijania?",
+    "textUz": "Uzoq nur chiroqlarini yaqin nurga qachon almashtirish majburiy?",
+    "category": "Yoritish tizimi",
+    "isPremium": true,
+    "options": [
+      {
+        "textPl": "Gdy z przeciwka nadjeżdża inny pojazd.",
+        "textUz": "Qarshidan boshqa transport vositasi kelayotganda.",
+        "isCorrect": true
+      },
+      {
+        "textPl": "Gdy zaczyna padać deszcz.",
+        "textUz": "Yomg'ir yog'a boshlaganda.",
+        "isCorrect": false
+      },
+      {
+        "textPl": "Gdy wjeżdżasz na obszar zabudowany.",
+        "textUz": "Aholi punktiga kirganda.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "textPl": "Kiedy masz obowiązek przełączyć światła drogowe na światła mijania?",
+    "textUz": "Uzoq nur chiroqlarini yaqin nurga qachon almashtirish majburiy?",
+    "category": "Yoritish tizimi",
+    "isPremium": true,
+    "options": [
+      {
+        "textPl": "Zawsze, gdy widzisz pojazd poprzedzający.",
+        "textUz": "Har doim oldingi transport vositasini ko'rganda.",
+        "isCorrect": false
+      },
+      {
+        "textPl": "Zawsze, gdy istnieje możliwość oślepienia kierującego pojazdem poprzedzającym.",
+        "textUz": "Oldingi transport vositasi haydovchisining ko'zini qamashtirish ehtimoli bo'lsa, har doim.",
+        "isCorrect": true
+      },
+      {
+        "textPl": "Zawsze, gdy widzisz pojedynczego pieszego na jezdni.",
+        "textUz": "Yo'lda yolg'iz piyodani ko'rganda, har doim.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "textPl": "Co powinieneś widzieć w dobrze ustawionych lusterkach zewnętrznych, gdy kierujesz samochodem osobowym?",
+    "textUz": "Yengil avtomobilni boshqarayotganda to'g'ri sozlangan tashqi oynalarda nimani ko'rish kerak?",
+    "category": "Yoritish tizimi",
+    "isPremium": true,
+    "options": [
+      {
+        "textPl": "Tylko boki pojazdu.",
+        "textUz": "Faqat transport vositasining yon tomonlarini.",
+        "isCorrect": false
+      },
+      {
+        "textPl": "Obszar za pojazdem i boki pojazdu.",
+        "textUz": "Transport vositasi ortidagi hudud va yon tomonlarni.",
+        "isCorrect": true
+      },
+      {
+        "textPl": "Tylko sąsiedni pas ruchu.",
+        "textUz": "Faqat qo'shni harakat yo'lagini.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "textPl": "Do czego służą światła pozycyjne pojazdu?",
+    "textUz": "Transport vositasining gabarit chiroqlari nima uchun xizmat qiladi?",
+    "category": "Yoritish tizimi",
+    "isPremium": true,
+    "options": [
+      {
+        "textPl": "Do oświetlania drogi.",
+        "textUz": "Yo'lni yoritish uchun.",
+        "isCorrect": false
+      },
+      {
+        "textPl": "Do określania pozycji pojazdu.",
+        "textUz": "Transport vositasining pozitsiyasini bildirish uchun.",
+        "isCorrect": true
+      },
+      {
+        "textPl": "Do sygnalizowania zmiany pasa ruchu.",
+        "textUz": "Yo'lakni almashtirishni bildirish uchun.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "textPl": "Jaki może być skutek nieprawidłowo ustawionych reflektorów świateł mijania?",
+    "textUz": "Yaqin nur faralarining noto'g'ri sozlanishi qanday oqibatga olib kelishi mumkin?",
+    "category": "Yoritish tizimi",
+    "isPremium": true,
+    "options": [
+      {
+        "textPl": "Zwiększone zużycie paliwa.",
+        "textUz": "Yoqilg'i sarfining oshishi.",
+        "isCorrect": false
+      },
+      {
+        "textPl": "Zwiększone zużycie żarówek.",
+        "textUz": "Lampalar sarfining oshishi.",
+        "isCorrect": false
+      },
+      {
+        "textPl": "Oślepianie kierujących nadjeżdżających z przeciwka.",
+        "textUz": "Qarshidan kelayotgan haydovchilarning ko'zini qamashtirish.",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "textPl": "Jaki może być skutek nieprawidłowo ustawionych reflektorów świateł mijania?",
+    "textUz": "Yaqin nur faralarining noto'g'ri sozlanishi qanday oqibatga olib kelishi mumkin?",
+    "category": "Yoritish tizimi",
+    "isPremium": true,
+    "options": [
+      {
+        "textPl": "Zwiększone zużycie paliwa.",
+        "textUz": "Yoqilg'i sarfining oshishi.",
+        "isCorrect": false
+      },
+      {
+        "textPl": "Pogorszenie widoczności drogi w nocy.",
+        "textUz": "Tunda yo'l ko'rinishining yomonlashishi.",
+        "isCorrect": true
+      },
+      {
+        "textPl": "Zwiększone zużycie żarówek.",
+        "textUz": "Lampalar sarfining oshishi.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "textPl": "Jadąc zimą spotykasz na poboczu sinego, półprzytomnego, wyziębionego człowieka. Jak należy mu pomóc?",
+    "textUz": "Qishda yo'l chekkasida ko'kargan, yarim hushsiz, qotib qolgan odamni uchratdingiz. Unga qanday yordam berish kerak?",
+    "category": "Birinchi yordam",
+    "isPremium": true,
+    "options": [
+      {
+        "textPl": "Podać mu gorący napój.",
+        "textUz": "Unga issiq ichimlik berish.",
+        "isCorrect": false
+      },
+      {
+        "textPl": "Podać mu alkohol.",
+        "textUz": "Unga spirtli ichimlik berish.",
+        "isCorrect": false
+      },
+      {
+        "textPl": "Wezwać zespół ratownictwa medycznego, zabrać go do samochodu, okryć i powoli ogrzewać.",
+        "textUz": "Tez tibbiy yordam chaqirish, uni avtomobilga olib kirish, o'rab, asta-sekin isitish.",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "textPl": "Której z tych czynności nie masz prawa wykonywać samochodem osobowym?",
+    "textUz": "Yengil avtomobil bilan qaysi harakatni bajarishga huquqingiz yo'q?",
+    "category": "Umumiy qoidalar",
+    "isPremium": true,
+    "options": [
+      {
+        "textPl": "Ciągnąć przyczepy lekkiej.",
+        "textUz": "Yengil tirkamani tortish.",
+        "isCorrect": false
+      },
+      {
+        "textPl": "Holować innego samochodu osobowego na obszarze zabudowanym.",
+        "textUz": "Aholi punktida boshqa yengil avtomobilni bukserga olish.",
+        "isCorrect": false
+      },
+      {
+        "textPl": "Ciągnąć dzieci na sankach.",
+        "textUz": "Bolalarni chanada tortish.",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "textPl": "Jaki odstęp od poprzedzającego pojazdu masz obowiązek zachować podczas zatrzymania w zatorze drogowym w tunelu?",
+    "textUz": "Tunnelda tirbandlikda to'xtaganda oldingi transport vositasidan qanday masofa saqlash majburiy?",
+    "category": "Xavfsiz masofa va manevrlar",
+    "isPremium": true,
+    "options": [
+      {
+        "textPl": "Nie mniejszy niż 3 metry.",
+        "textUz": "Kamida 3 metr.",
+        "isCorrect": false
+      },
+      {
+        "textPl": "Nie mniejszy niż 5 metrów.",
+        "textUz": "Kamida 5 metr.",
+        "isCorrect": true
+      },
+      {
+        "textPl": "Nie mniejszy niż 10 metrów.",
+        "textUz": "Kamida 10 metr.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "textPl": "Która z wymienionych czynności jest zabroniona podczas kierowania pojazdem?",
+    "textUz": "Transport vositasini boshqarayotganda qaysi harakat taqiqlangan?",
+    "category": "Umumiy qoidalar",
+    "isPremium": true,
+    "options": [
+      {
+        "textPl": "Obsługiwanie radia.",
+        "textUz": "Radioni boshqarish.",
+        "isCorrect": false
+      },
+      {
+        "textPl": "Używanie nawigacji GPS.",
+        "textUz": "GPS navigatordan foydalanish.",
+        "isCorrect": false
+      },
+      {
+        "textPl": "Rozmawianie przez telefon, który wymaga trzymania słuchawki lub mikrofonu w ręku.",
+        "textUz": "Trubka yoki mikrofonni qo'lda ushlashni talab qiladigan telefon orqali gaplashish.",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "textPl": "Jakiej barwy chorągiewką wolno Ci oznaczyć ładunek wystający z tyłu samochodu osobowego?",
+    "textUz": "Yengil avtomobil orqasidan chiqib turgan yukni qaysi rangdagi bayroqcha bilan belgilash mumkin?",
+    "category": "Yuk va bagaj tashish",
+    "isPremium": true,
+    "options": [
+      {
+        "textPl": "Zieloną.",
+        "textUz": "Yashil.",
+        "isCorrect": false
+      },
+      {
+        "textPl": "Żółtą.",
+        "textUz": "Sariq.",
+        "isCorrect": false
+      },
+      {
+        "textPl": "Czerwoną.",
+        "textUz": "Qizil.",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "textPl": "Jakiej wielkości nie ma prawa przekroczyć rzeczywista masa całkowita przyczepy ciągniętej przez samochód osobowy?",
+    "textUz": "Yengil avtomobil tortadigan tirkamaning haqiqiy umumiy og'irligi qaysi qiymatdan oshib ketmasligi kerak?",
+    "category": "Tirkama va tortish",
+    "isPremium": true,
+    "options": [
+      {
+        "textPl": "Masy własnej samochodu.",
+        "textUz": "Avtomobilning o'z og'irligi.",
+        "isCorrect": false
+      },
+      {
+        "textPl": "Rzeczywistej masy całkowitej samochodu.",
+        "textUz": "Avtomobilning haqiqiy umumiy og'irligi.",
+        "isCorrect": true
+      },
+      {
+        "textPl": "Rzeczywistej masy całkowitej samochodu pomniejszonej o 40%.",
+        "textUz": "Avtomobilning haqiqiy umumiy og'irligidan 40% kam.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "textPl": "Na której z tych dróg nie masz prawa holować samochodem osobowym innego pojazdu?",
+    "textUz": "Qaysi yo'lda yengil avtomobil bilan boshqa transport vositasini bukserga olishga huquqingiz yo'q?",
+    "category": "Tirkama va tortish",
+    "isPremium": true,
+    "options": [
+      {
+        "textPl": "Na autostradzie.",
+        "textUz": "Avtomagistralda.",
+        "isCorrect": true
+      },
+      {
+        "textPl": "Na drodze ekspresowej.",
+        "textUz": "Tezyurar yo'lda.",
+        "isCorrect": false
+      },
+      {
+        "textPl": "W strefie zamieszkania.",
+        "textUz": "Turar-joy zonasida.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "textPl": "W jakich warunkach drogowych dozwolone jest używanie łańcuchów przeciwślizgowych?",
+    "textUz": "Qanday yo'l sharoitida sirpanishga qarshi zanjirlardan foydalanishga ruxsat etiladi?",
+    "category": "Ob-havo sharoitida haydash",
+    "isPremium": true,
+    "options": [
+      {
+        "textPl": "Gdy kierujesz pojazdem w okresie od początku grudnia do końca lutego, niezależnie od tego, czy droga jest pokryta śniegiem.",
+        "textUz": "Dekabr boshidan fevral oxirigacha, yo'l qor bosganmi yoki yo'qligidan qat'i nazar.",
+        "isCorrect": false
+      },
+      {
+        "textPl": "Gdy temperatura powietrza jest mniejsza niż 0 stopni Celsjusza, niezależnie od tego, czy droga jest pokryta śniegiem.",
+        "textUz": "Havo harorati 0 darajadan past bo'lganda, yo'l qor bosganmi yoki yo'qligidan qat'i nazar.",
+        "isCorrect": false
+      },
+      {
+        "textPl": "Gdy droga jest pokryta śniegiem.",
+        "textUz": "Yo'l qor bilan qoplangan bo'lsa.",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "textPl": "W jakich warunkach droga hamowania jest najdłuższa?",
+    "textUz": "Qanday sharoitda tormozlash masofasi eng uzun bo'ladi?",
+    "category": "Ob-havo sharoitida haydash",
+    "isPremium": true,
+    "options": [
+      {
+        "textPl": "Na drodze suchej.",
+        "textUz": "Quruq yo'lda.",
+        "isCorrect": false
+      },
+      {
+        "textPl": "Na drodze mokrej.",
+        "textUz": "Ho'l yo'lda.",
+        "isCorrect": false
+      },
+      {
+        "textPl": "Na drodze oblodzonej.",
+        "textUz": "Muzlagan yo'lda.",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "textPl": "Jaką funkcję w pojeździe spełnia system przeciwblokujący ABS?",
+    "textUz": "Transport vositasidagi ABS blokirovkaga qarshi tizimi qanday vazifani bajaradi?",
+    "category": "Tormoz va xavfsizlik tizimlari",
+    "isPremium": true,
+    "options": [
+      {
+        "textPl": "Zapobiega poślizgowi kół podczas ruszania.",
+        "textUz": "Qo'zg'alishda g'ildiraklar sirpanishining oldini oladi.",
+        "isCorrect": false
+      },
+      {
+        "textPl": "Umożliwia zachowanie kontroli nad pojazdem podczas gwałtownego hamowania.",
+        "textUz": "Keskin tormozlashda transport vositasi ustidan nazoratni saqlab qolish imkonini beradi.",
+        "isCorrect": true
+      },
+      {
+        "textPl": "Zawsze skraca drogę hamowania.",
+        "textUz": "Har doim tormozlash masofasini qisqartiradi.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "textPl": "Jak masz obowiązek oznakować holowany samochód osobowy?",
+    "textUz": "Bukserga olingan yengil avtomobilni qanday belgilash majburiy?",
+    "category": "Tirkama va tortish",
+    "isPremium": true,
+    "options": [
+      {
+        "textPl": "Włączyć światła awaryjne.",
+        "textUz": "Avariya chiroqlarini yoqish.",
+        "isCorrect": false
+      },
+      {
+        "textPl": "Umieścić z tyłu po lewej stronie ostrzegawczy trójkąt odblaskowy.",
+        "textUz": "Orqa chap tomonga ogohlantiruvchi qaytaruvchi uchburchak o'rnatish.",
+        "isCorrect": true
+      },
+      {
+        "textPl": "Włączyć tylne światło przeciwmgłowe.",
+        "textUz": "Orqa tuman chirog'ini yoqish.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "textPl": "Czy jako właściciel pojazdu masz obowiązek wskazać na żądanie uprawnionego organu, komu powierzyłeś pojazd do kierowania lub używania w określonym czasie?",
+    "textUz": "Transport vositasi egasi sifatida vakolatli organ talabiga ko'ra, muayyan vaqtda transport vositasini kimga boshqarish yoki foydalanish uchun topshirganingizni ko'rsatish majburiyatingiz bormi?",
+    "category": "Hujjatlar va texnik ko'rik",
+    "isPremium": true,
+    "options": [
+      {
+        "textPl": "Tak, chyba że jest to pojazd wykorzystywany do prowadzenia działalności gospodarczej.",
+        "textUz": "Ha, bundan mustasno, agar bu transport vositasi tadbirkorlik faoliyati uchun ishlatilsa.",
+        "isCorrect": false
+      },
+      {
+        "textPl": "Tak, chyba że pojazd został użyty wbrew Twojej woli i wiedzy przez nieznaną osobę, czemu nie mogłeś zapobiec.",
+        "textUz": "Ha, bundan mustasno, agar transport vositasidan sizning xohishingiz va bilimingizga zid ravishda noma'lum shaxs tomonidan foydalanilgan bo'lsa va buni oldini ololmagan bo'lsangiz.",
+        "isCorrect": true
+      },
+      {
+        "textPl": "Nie mam takiego obowiązku.",
+        "textUz": "Bunday majburiyatim yo'q.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "textPl": "Czy wolno Ci kierować pojazdem, którego tablica rejestracyjna jest niewidoczna?",
+    "textUz": "Davlat raqami ko'rinmaydigan transport vositasini boshqarish mumkinmi?",
+    "category": "Hujjatlar va texnik ko'rik",
+    "isPremium": true,
+    "options": [
+      {
+        "textPl": "Tak, bez żadnych ograniczeń.",
+        "textUz": "Ha, hech qanday cheklovsiz.",
+        "isCorrect": false
+      },
+      {
+        "textPl": "Tak, gdy tablica jest przesłonięta przez wystający ładunek.",
+        "textUz": "Ha, agar raqamni chiqib turgan yuk to'sgan bo'lsa.",
+        "isCorrect": false
+      },
+      {
+        "textPl": "Nie, jest to zabronione.",
+        "textUz": "Yo'q, bu taqiqlangan.",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "textPl": "Czy wolno Ci nakleić na pojeździe znak określający inne państwo niż to, w którym pojazd został zarejestrowany?",
+    "textUz": "Transport vositasiga u ro'yxatdan o'tgan davlatdan boshqa davlatni bildiruvchi belgini yopishtirish mumkinmi?",
+    "category": "Hujjatlar va texnik ko'rik",
+    "isPremium": true,
+    "options": [
+      {
+        "textPl": "Tak, bez żadnych ograniczeń.",
+        "textUz": "Ha, hech qanday cheklovsiz.",
+        "isCorrect": false
+      },
+      {
+        "textPl": "Tak, ale pod warunkiem, że pojazd posiada tablicę rejestracyjną z oznaczeniem „PL”.",
+        "textUz": "Ha, lekin transport vositasida \"PL\" belgili davlat raqami bo'lishi sharti bilan.",
+        "isCorrect": false
+      },
+      {
+        "textPl": "Nie, jest to zabronione.",
+        "textUz": "Yo'q, bu taqiqlangan.",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "textPl": "Co należy sprawdzić, gdy lampka kontrolna kierunkowskazów zaczęła migać dużo szybciej?",
+    "textUz": "Burilish chiroqlari nazorat lampasi ancha tezroq miltillay boshlasa, nimani tekshirish kerak?",
+    "category": "Texnik holat va nosozliklar",
+    "isPremium": true,
+    "options": [
+      {
+        "textPl": "Napięcie akumulatora.",
+        "textUz": "Akkumulyator kuchlanishini.",
+        "isCorrect": false
+      },
+      {
+        "textPl": "Sprawność bezpieczników.",
+        "textUz": "Saqlagichlarning ishlash holatini.",
+        "isCorrect": false
+      },
+      {
+        "textPl": "Sprawność żarówek kierunkowskazów.",
+        "textUz": "Burilish chiroqlari lampalarining ishlash holatini.",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "textPl": "Kiedy należy sprawdzać poziom oleju w silniku?",
+    "textUz": "Dvigateldagi moy darajasini qachon tekshirish kerak?",
+    "category": "Texnik holat va nosozliklar",
+    "isPremium": true,
+    "options": [
+      {
+        "textPl": "Przy uruchomionym silniku.",
+        "textUz": "Dvigatel ishlab turganda.",
+        "isCorrect": false
+      },
+      {
+        "textPl": "Natychmiast po unieruchomieniu silnika.",
+        "textUz": "Dvigatel o'chirilgandan darhol keyin.",
+        "isCorrect": false
+      },
+      {
+        "textPl": "Przed uruchomieniem zimnego silnika albo co najmniej po kilku minutach po jego wyłączeniu.",
+        "textUz": "Sovuq dvigatelni ishga tushirishdan oldin yoki uni o'chirgandan kamida bir necha daqiqa keyin.",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "textPl": "Który bieg jest właściwy do rozpoczęcia jazdy samochodem osobowym na suchej nawierzchni?",
+    "textUz": "Quruq yo'l qoplamasida yengil avtomobil bilan harakatni boshlash uchun qaysi uzatishma to'g'ri?",
+    "category": "Umumiy qoidalar",
+    "isPremium": true,
+    "options": [
+      {
+        "textPl": "Drugi.",
+        "textUz": "Ikkinchi.",
+        "isCorrect": false
+      },
+      {
+        "textPl": "Pierwszy.",
+        "textUz": "Birinchi.",
+        "isCorrect": true
+      },
+      {
+        "textPl": "Ten, na którym jazda została zakończona.",
+        "textUz": "Haydash tugagan uzatishma.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "textPl": "Które wymienione czynniki zależne od kierującego pojazdem mają istotny wpływ na jego ostrość widzenia?",
+    "textUz": "Haydovchiga bog'liq bo'lgan qaysi omillar uning ko'rish o'tkirligiga sezilarli ta'sir qiladi?",
+    "category": "Umumiy qoidalar",
+    "isPremium": true,
+    "options": [
+      {
+        "textPl": "Temperatura i wilgotność powietrza.",
+        "textUz": "Havo harorati va namligi.",
+        "isCorrect": false
+      },
+      {
+        "textPl": "Stan nawierzchni jezdni, pora dnia lub nocy.",
+        "textUz": "Yo'l qoplamasi holati, kun yoki tun vaqti.",
+        "isCorrect": false
+      },
+      {
+        "textPl": "Koncentracja uwagi, aktualne samopoczucie i stan zdrowia.",
+        "textUz": "Diqqat konsentratsiyasi, hozirgi o'zini his qilishi va sog'ligi holati.",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "textPl": "Jaki wpływ na pole widzenia kierującego pojazdem ma prędkość jazdy?",
+    "textUz": "Haydash tezligi haydovchining ko'rish maydoniga qanday ta'sir qiladi?",
+    "category": "Umumiy qoidalar",
+    "isPremium": true,
+    "options": [
+      {
+        "textPl": "Wraz ze wzrostem prędkości zawęża się pole widzenia.",
+        "textUz": "Tezlik oshgani sari ko'rish maydoni torayadi.",
+        "isCorrect": true
+      },
+      {
+        "textPl": "Wraz ze wzrostem prędkości rozszerza się pole widzenia.",
+        "textUz": "Tezlik oshgani sari ko'rish maydoni kengayadi.",
+        "isCorrect": false
+      },
+      {
+        "textPl": "Prędkość jazdy nie ma wpływu na pole widzenia kierującego.",
+        "textUz": "Haydash tezligi ko'rish maydoniga ta'sir qilmaydi.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "textPl": "Używanie pojazdu w sposób powodujący uciążliwości związane z nadmierną emisją spalin do środowiska lub nadmiernym hałasem jest:",
+    "textUz": "Transport vositasidan atrof-muhitga ortiqcha zararli gaz chiqarish yoki ortiqcha shovqin bilan bog'liq noqulaylik tug'diradigan tarzda foydalanish:",
+    "category": "Ekologik qoidalar",
+    "isPremium": true,
+    "options": [
+      {
+        "textPl": "zabronione w obszarze zabudowanym.",
+        "textUz": "aholi punktida taqiqlangan.",
+        "isCorrect": false
+      },
+      {
+        "textPl": "zabronione.",
+        "textUz": "taqiqlangan.",
+        "isCorrect": true
+      },
+      {
+        "textPl": "zabronione tylko w strefie zamieszkania.",
+        "textUz": "faqat turar-joy zonasida taqiqlangan.",
+        "isCorrect": false
+      }
+    ]
+  }
+]

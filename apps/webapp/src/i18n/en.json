@@ -1,0 +1,252 @@
+{
+  "common": {
+    "loading": "Loading...",
+    "start": "Start",
+    "tryAgain": "Try again",
+    "retry": "Retry",
+    "prev": "Previous",
+    "next": "Next",
+    "waiting": "Waiting...",
+    "points": "points",
+    "pointsShort": "pt"
+  },
+  "splash": {
+    "tagline": "Intelligence in Motion",
+    "chooseLanguage": "Choose your language"
+  },
+  "mainMenu": {
+    "tagline": "Prawo jazdy — in English",
+    "item": {
+      "theory": { "title": "Theory", "subtitle": "Text, photo and video lessons" },
+      "psych": { "title": "Psychology", "subtitle": "Exam prep and practice tests" },
+      "signs": { "title": "Road Signs", "subtitle": "323 official signs" },
+      "roadmap": { "title": "Roadmap", "subtitle": "Roadmap" },
+      "driver": { "title": "Driver Section", "subtitle": "First aid, mandatory equipment" },
+      "violations": { "title": "Violations & Fines", "subtitle": "Official fine tariff" }
+    }
+  },
+  "signs": {
+    "title": "Road Signs",
+    "empty": "No signs in this category yet. Coming soon.",
+    "category": {
+      "warning": "Warning signs",
+      "prohibition": "Prohibition signs",
+      "mandatory": "Mandatory signs",
+      "information": "Information signs",
+      "additional": "Additional plates",
+      "direction": "Direction signs",
+      "traffic_light": "Traffic light signals",
+      "road_markings": "Road markings",
+      "traffic_controller": "Traffic controller",
+      "dashboard": "Dashboard indicators"
+    }
+  },
+  "signDetail": {
+    "title": "Sign Details",
+    "notFound": "Sign not found.",
+    "whatToDo": "What should you do?"
+  },
+  "theoryMenu": {
+    "title": "Theory",
+    "type": {
+      "text": "Text lesson",
+      "photo": "Photo lesson",
+      "video": "Video lesson"
+    }
+  },
+  "categoryPicker": {
+    "mixed": "Mixed (all categories)"
+  },
+  "theoryQuiz": {
+    "empty": "No questions of this type yet."
+  },
+  "theoryCategory": {
+    "Umumiy qoidalar": "General rules",
+    "Ustuvorlik qoidalari": "Priority rules",
+    "Yo'l belgilari": "Road signs",
+    "Yo'lak va manevrlar": "Lanes and manoeuvres",
+    "To'xtash va parking": "Stopping and parking",
+    "O'zib o'tish": "Overtaking",
+    "Svetofor va yorug'lik": "Traffic lights and lighting",
+    "Svetofor": "Traffic light",
+    "Yo'l harakati holatlari": "Traffic situations",
+    "To'xtash joylari": "Stopping places",
+    "Tirkama va tortish": "Trailer and towing",
+    "Yoritish tizimi": "Lighting system",
+    "Ekologik qoidalar": "Environmental rules",
+    "Bolalarni tashish": "Transporting children",
+    "Texnik holat va nosozliklar": "Technical condition and faults",
+    "Yuk va bagaj tashish": "Carrying cargo and luggage",
+    "Hujjatlar va huquqiy javobgarlik": "Documents and legal liability",
+    "Hujjatlar va texnik ko'rik": "Documents and technical inspection",
+    "Ob-havo sharoitida haydash": "Driving in weather conditions",
+    "Birinchi yordam": "First aid",
+    "Tormoz va xavfsizlik tizimlari": "Braking and safety systems",
+    "Tezlik chegaralari": "Speed limits",
+    "Xavfsiz masofa va manevrlar": "Safe distance and manoeuvres"
+  },
+  "psychMenu": {
+    "title": "Psychology",
+    "disclaimer": "⚠️ For a standard <b>category B</b> license, the psychological examination is usually NOT required — it's mandatory only for professional drivers (C/D), taxi drivers, emergency vehicle drivers, and those reinstating a revoked license. The exercises below are not real exam questions — they are original psychomotor practice exercises.",
+    "exercise": {
+      "attention": "Attention Exercise",
+      "reaction": "Reaction Speed",
+      "coordination": "Coordination Exercise",
+      "piorkowski": "Piórkowski Test",
+      "krzyzowy": "Krzyżowy Test",
+      "signal": "Signal Test"
+    }
+  },
+  "reaction": {
+    "title": "Reaction Speed",
+    "instructions": "Press as fast as you can when the signal appears. If you press too early, you'll have to start over.",
+    "pressNow": "PRESS NOW!",
+    "tooEarly": "⏳ You pressed too early! Wait for the signal.",
+    "resultLabel": "points (reaction: {{ms}} ms)"
+  },
+  "attention": {
+    "title": "Attention Exercise",
+    "instructions": "Tap only the {{color}} circles ({{remaining}} left)",
+    "resultLabel": "accuracy ({{mistakes}} mistakes)",
+    "color": {
+      "red": "red",
+      "green": "green",
+      "blue": "blue",
+      "yellow": "yellow",
+      "purple": "purple"
+    }
+  },
+  "coordination": {
+    "title": "Coordination Exercise",
+    "instructions": "Drag the dot along the line, try not to go off it.",
+    "dragging": "Dragging...",
+    "dragHint": "Press and drag the dot to begin",
+    "resultLabel": "points ({{seconds}}s off the line)"
+  },
+  "piorkowski": {
+    "title": "Piórkowski Test",
+    "instructions": "Tap the zone that lights up as fast as you can. There are {{rounds}} rounds.",
+    "round": "Round: {{round}}/{{total}}",
+    "avg": "Average: {{ms}} ms",
+    "errors": "Errors: {{count}}",
+    "resultLabel": "points · average {{ms}} ms · {{errors}} errors"
+  },
+  "krzyzowy": {
+    "title": "Krzyżowy Test",
+    "instructions": "Find the shape on the right matching the color on the left. Focus on the color, not the shape!",
+    "round": "Round: {{round}}/{{total}}",
+    "correct": "Correct: {{count}}",
+    "findColor": "Find this color:",
+    "resultLabel": "points · {{correct}}/{{total}} correct"
+  },
+  "signal": {
+    "title": "Signal Test",
+    "instructions": "Press the button matching the color or sound signal. The time gets shorter each round — this is a stress test.",
+    "round": "Round: {{round}}/{{total}}",
+    "time": "Time: {{ms}} ms",
+    "errors": "Errors: {{count}}",
+    "color": {
+      "red": "Red",
+      "yellow": "Yellow",
+      "green": "Green",
+      "sound": "🔊 Sound"
+    },
+    "resultLabel": "points · {{errors}} errors"
+  },
+  "roadmap": {
+    "title": "Roadmap",
+    "step1": { "title": "Psychological examination", "note": "Usually NOT REQUIRED for category B", "desc": "Mandatory only for professional drivers (C/D), taxi, emergency vehicle drivers, or those reinstating a license. Check out the original practice tests." },
+    "step2": { "title": "Theory course", "desc": "Theoretical knowledge for the WORD exam. The app has 2000+ questions — text, photo, and video lessons, plus practice by category." },
+    "step3": { "title": "Theory exam", "desc": "Taken on a computer at an official WORD center. Continue your preparation in the app's Theory section." },
+    "step4": { "title": "Practical driving course", "desc": "The stage of learning to drive with an instructor — this app doesn't cover this part yet, arrange it with your instructor." },
+    "step5": { "title": "Practical exam", "desc": "Taken on real roads at a WORD center. Review road signs and traffic rules in the app." }
+  },
+  "profile": {
+    "title": "Profile",
+    "guest": "Guest",
+    "premium": "⭐ Premium",
+    "free": "Free user",
+    "buyPremiumTitle": "Buy Premium",
+    "buyPremiumSubtitle": "77 zł via BLIK",
+    "buyPremiumPhonePlaceholder": "Your phone number",
+    "buyPremiumInstructions": "Transfer {{amount}} zł via BLIK to {{phone}}, then enter your phone number here. The admin will review and activate premium.",
+    "buyPremiumSubmit": "I've sent it",
+    "buyPremiumPending": "Under review",
+    "buyPremiumPendingSubtitle": "Premium will activate automatically once your payment is confirmed. Usually reviewed quickly.",
+    "registeredOn": "Registered on: {{date}}",
+    "feedback": "Feedback & Suggestions",
+    "language": "Language",
+    "terms": "Terms of Service",
+    "privacy": "Privacy Policy"
+  },
+  "driverMenu": {
+    "title": "Driver Section",
+    "item": {
+      "firstAid": "First Aid in an Accident",
+      "equipment": "Mandatory Equipment"
+    }
+  },
+  "firstAid": {
+    "title": "First Aid in an Accident",
+    "numbersTitle": "Emergency Numbers",
+    "number112": "Single emergency number (all of Europe)",
+    "number999": "Ambulance (Pogotowie ratunkowe)",
+    "number998": "Fire service (Straż pożarna)",
+    "number997": "Police (Policja)",
+    "step1": { "title": "1. Make yourself and others safe", "text": "Turn on your hazard lights. Move the car to the roadside if possible. Place the warning triangle — at least 50 meters within a built-up area, at least 100 meters outside it. If you get out of the car after dark, wear a reflective vest." },
+    "step2": { "title": "2. Call the emergency service", "text": "Call 112 (free, works nationwide). If injuries are serious, you can also call 999 (ambulance)." },
+    "step3": { "title": "3. What to say on the call", "text": "Give the exact address or road number/kilometer, how many people are injured, their condition (conscious/unconscious, breathing or not), and your phone number. Don't hang up until the operator allows it." },
+    "step4": { "title": "4. First aid for the injured", "text": "Place an unconscious but breathing person in the stable side (recovery) position, unless a back/neck injury is suspected. Stop heavy bleeding by pressing a clean cloth on it. Only remove someone from the car if there's a fire or explosion risk." },
+    "step5": { "title": "5. When you must always call the police", "text": "The police must be called in cases of injury or death, significant property damage, if the parties can't agree between themselves, or if alcohol/drug use is suspected in one of the participants." }
+  },
+  "equipment": {
+    "title": "Mandatory Equipment",
+    "status": { "mandatory": "MANDATORY", "conditional": "CONDITIONALLY MANDATORY", "recommended": "RECOMMENDED ONLY" },
+    "item1": { "title": "Fire extinguisher (gaśnica)", "text": "Must always be in the car. Must be functional, have valid certification, and be stored within quick reach.", "law": "Regulation of the Minister of Infrastructure on technical conditions for vehicles" },
+    "item2": { "title": "Warning triangle (trójkąt ostrzegawczy)", "text": "Must always be in the car. Must be certified and complete (all parts) — used to mark an accident scene on the road.", "law": "Regulation of the Minister of Infrastructure on technical conditions for vehicles" },
+    "item3": { "title": "Reflective vest (kamizelka odblaskowa)", "text": "Not required to be kept in the car. But if you get out of the car after dark outside a built-up area, you're legally considered a \"pedestrian\", and wearing a reflective element becomes MANDATORY.", "law": "Road Traffic Law — rule on reflective elements for pedestrians" },
+    "item4": { "title": "First aid kit (apteczka)", "text": "Currently (as of 2026) not legally mandatory for passenger cars — only recommended. The Ministry of Infrastructure is discussing making this mandatory in the future, so the rule may change.", "law": "Current status — not yet mandatory (change pending)" },
+    "fineNote": "⚠️ Missing mandatory equipment during a road check can result in a fine of 20 to 500 zł."
+  },
+  "violations": {
+    "title": "Violations & Fines",
+    "intro": "The most common violations and the official fine tariff (as of 2026).",
+    "redLight": { "title": "Running a red light", "note": "If this causes an accident, the fine starts at 1500 zł (500 + 1000 zł)." },
+    "phone": { "title": "Holding a phone while driving", "note": "Even if you're briefly stopped at a light or in traffic, you're still considered the driver — the fine applies." },
+    "speed": { "title": "Speeding", "fine": "See table", "note": "See the full table below. From March 3, 2026, exceeding the limit by 50 km/h or more on a two-way road outside a built-up area results in automatic 3-month license suspension." },
+    "pedestrian": { "title": "Failing to yield to a pedestrian (at a crossing)", "note": "The highest point value in the tariff — 15. If repeated within 2 years, the fine rises to 3000 zł." },
+    "speedTableTitle": "Speeding — full table",
+    "speedRow0": "up to 10 km/h",
+    "speedRow1": "11–15 km/h",
+    "speedRow2": "16–20 km/h",
+    "speedRow3": "21–25 km/h",
+    "speedRow4": "26–30 km/h",
+    "speedRow5": "31–40 km/h",
+    "speedRow6": "41–50 km/h",
+    "speedRow7": "51–60 km/h",
+    "speedRow8": "61–70 km/h",
+    "speedRow9": "71 km/h and above",
+    "drunkDriving": {
+      "title": "🍺 Drunk driving — this is not a simple fine",
+      "intro": "For driving under the influence of alcohol, police don't issue a simple on-the-spot fine — the case always goes to court, and there are two tiers:",
+      "tier1Title": "0.2‰ – 0.5‰ (\"after alcohol use\") — misdemeanor",
+      "tier1Text": "Fine of 2500–30,000 zł, driving ban of 6 months to 3 years, 15 points.",
+      "tier2Title": "above 0.5‰ (\"intoxication\") — criminal offense",
+      "tier2Text": "Up to 3 years imprisonment, driving ban of at least 3 years, monetary penalty of 5000–60,000 zł. If above 1.5‰ or if it causes an accident — vehicle confiscation is mandatory.",
+      "note": "From March 3, 2026, zero tolerance for alcohol applies to drivers on a probationary license (held less than 1 year)."
+    },
+    "pointsSystem": {
+      "title": "📊 How the points system works",
+      "text": "The limit for drivers with a license under 1 year is <b>20 points</b>, for experienced drivers — <b>24 points</b>. Exceeding the limit can result in license revocation. Each point automatically expires <b>1 year</b> after the fine is paid. From June 2026, points for serious violations like running a red light or phone use can no longer be reduced through a paid course."
+    },
+    "courtRights": {
+      "title": "⚖️ If you don't agree with the fine — your rights",
+      "text": "You're not obligated to accept the fine offered by the police — if you disagree, you have the right to take the case to court. But in court the fine may be higher (there's no legal upper limit, up to 30,000 zł in serious cases), and court costs will also fall on you. So think this decision through carefully."
+    }
+  },
+  "feedback": {
+    "title": "Feedback & Suggestions",
+    "text": "If you found a bug, have a suggestion, or a complaint — you can message the founder directly. Every message is reviewed personally.",
+    "contactFounder": "Contact the founder"
+  }
+}

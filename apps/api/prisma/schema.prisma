@@ -1,0 +1,244 @@
+// DriveMaster — asosiy ma'lumotlar bazasi sxemasi (Phase 0)
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+model User {
+  id            String    @id @default(cuid())
+  telegramId    String    @unique
+  username      String? // Telegram @username (bo'lishi shart emas)
+  firstName     String? // Telegram ismi
+  languageCode  String?
+  isPremium     Boolean   @default(false)
+  premiumSince  DateTime?
+  boundDeviceId String? // premium yoqilgach birinchi himoyalangan media so'rovida bog'lanadi
+  boundDeviceAt DateTime?
+  createdAt     DateTime  @default(now())
+
+  payments Payment[]
+
+  @@map("users")
+}
+
+model City {
+  id             String   @id @default(cuid())
+  name           String   @unique
+  difficultyScore Int     @default(3) // 1 (qiyin) - 5 (oson)
+  notes          String?
+
+  psychCenters PsychCenter[]
+  instructors  Instructor[]
+
+  @@map("cities")
+}
+
+model PsychCenter {
+  id        String  @id @default(cuid())
+  name      String
+  cityId    String
+  rating    Int     @default(3) // 1-5
+  notes     String?
+  isWarning Boolean @default(false) // ehtiyot bo'lish kerak bo'lgan markaz
+
+  city City @relation(fields: [cityId], references: [id])
+
+  @@map("psych_centers")
+}
+
+model Instructor {
+  id        String  @id @default(cuid())
+  name      String
+  cityId    String
+  isWarning Boolean @default(false)
+  notes     String?
+
+  city City @relation(fields: [cityId], references: [id])
+
+  @@map("instructors")
+}
+
+model PsychQuestion {
+  id       String @id @default(cuid())
+  textPl   String
+  textUz   String
+  order    Int    @default(0)
+
+  options PsychOption[]
+
+  @@map("psych_questions")
+}
+
+model PsychOption {
+  id         String  @id @default(cuid())
+  questionId String
+  textPl     String
+  textUz     String
+  isCorrect  Boolean @default(false)
+
+  question PsychQuestion @relation(fields: [questionId], references: [id])
+
+  @@map("psych_options")
+}
+
+model TheoryQuestion {
+  id        String  @id @default(cuid())
+  textPl    String
+  textUz    String
+  textRu    String?
+  textEn    String?
+  category  String
+  isPremium Boolean @default(true) // bepul namunada false qilinadi
+
+  mediaFileName   String? // media/theory/ papkasidagi fayl nomi
+  mediaType       String? // "photo" | "video"
+  telegramFileId  String? // birinchi yuborishdan keyin Telegram qaytargan file_id (qayta yuklamaslik uchun keshlanadi)
+
+  options TheoryOption[]
+
+  @@map("theory_questions")
+}
+
+model TheoryOption {
+  id         String  @id @default(cuid())
+  questionId String
+  textPl     String
+  textUz     String
+  textRu     String?
+  textEn     String?
+  isCorrect  Boolean @default(false)
+
+  question TheoryQuestion @relation(fields: [questionId], references: [id])
+
+  @@map("theory_options")
+}
+
+model TheoryVideo {
+  id       String @id @default(cuid())
+  titleUz  String
+  videoUrl String
+  category String
+  order    Int    @default(0)
+
+  @@map("theory_videos")
+}
+
+model RoadSign {
+  id            String  @id @default(cuid())
+  code          String? // rasmiy kod, masalan "A-7", "B-1" (borsa)
+  category      String // warning | prohibition | mandatory | information | additional | direction | traffic_light | road_markings | traffic_controller | dashboard
+  namePl        String?
+  nameUz        String
+  nameRu        String?
+  nameEn        String?
+  descriptionUz String?
+  descriptionRu String?
+  descriptionEn String?
+  actionUz      String? // "bu belgini ko'rganda nima qilish kerak" — bo'sh bo'lsa toifa bo'yicha avtomatik generatsiya qilinadi
+  actionRu      String?
+  actionEn      String?
+  imageFileName String? // media/signs/ papkasidagi fayl nomi (yo'q bo'lsa, faqat matn sifatida yuboriladi)
+  telegramFileId String?
+  order         Int     @default(0)
+
+  @@map("road_signs")
+}
+
+model WordCenter {
+  id          String  @id @default(cuid())
+  voivodeship String // masalan "Województwo mazowieckie"
+  name        String // masalan "WORD Warszawa"
+  city        String
+  address     String
+  website     String?
+  order       Int     @default(0)
+
+  @@map("word_centers")
+}
+
+model CoordinationTest {
+  id                String    @id @default(cuid())
+  telegramId        String
+  deviceId          String?
+  pathId            Int
+  moves             Int       @default(0)
+  outOfLineTime     Float     @default(0)
+  coordinationScore Float?
+  status            String    @default("running") // running | completed
+  createdAt         DateTime  @default(now())
+  finishedAt        DateTime?
+
+  @@index([telegramId])
+  @@map("coordination_tests")
+}
+
+model AttentionTest {
+  id              String    @id @default(cuid())
+  telegramId      String
+  deviceId        String?
+  dotPatternId    Int
+  correctClicks   Int       @default(0)
+  totalClicks     Int       @default(0)
+  accuracyPercent Float?
+  mistakes        Int?
+  status          String    @default("running") // running | completed
+  createdAt       DateTime  @default(now())
+  finishedAt      DateTime?
+
+  @@index([telegramId])
+  @@map("attention_tests")
+}
+
+model ReactionTest {
+  id             String    @id @default(cuid())
+  telegramId     String
+  deviceId       String?
+  randomDelayMs  Int
+  reactionTimeMs Int?
+  score          Float?
+  status         String    @default("waiting") // waiting | completed
+  createdAt      DateTime  @default(now())
+  finishedAt     DateTime?
+
+  @@index([telegramId])
+  @@map("reaction_tests")
+}
+
+model MultiRoundTest {
+  id         String    @id @default(cuid())
+  telegramId String
+  deviceId   String?
+  testType   String // piorkowski | krzyzowy | signal
+  rounds     Json      @default("[]")
+  score      Float?
+  status     String    @default("running") // running | completed
+  createdAt  DateTime  @default(now())
+  finishedAt DateTime?
+
+  @@index([telegramId, testType])
+  @@map("multi_round_tests")
+}
+
+model Payment {
+  id                   String    @id @default(cuid())
+  userId               String
+  provider             String // "stripe" | "przelewy24" | "manual-blik" ...
+  amount               Int // eng kichik pul birligida (grosz)
+  currency             String    @default("PLN")
+  status               String // "pending" | "succeeded" | "failed"
+  providerRef          String?   @unique
+  senderPhone          String? // qo'lda BLIK: yuboruvchi telefon raqami
+  reviewedByTelegramId String? // qo'lda tasdiqlagan/rad etgan admin
+  reviewedAt           DateTime?
+  note                 String? // masalan rad etish sababi
+  createdAt            DateTime  @default(now())
+
+  user User @relation(fields: [userId], references: [id])
+
+  @@map("payments")
+}

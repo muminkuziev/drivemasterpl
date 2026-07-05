@@ -1,0 +1,58 @@
+[
+  {
+    "code": "S-1",
+    "category": "traffic_light",
+    "namePl": "Sygnalizator z sygnałami dla kierujących w kształcie trzech świateł",
+    "nameUz": "Asosiy uch ranglik svetofor",
+    "descriptionUz": "Chorrahada harakatni tartibga soladi: yashil — o'tish mumkin, sariq va qizil — o'tish taqiqlanadi.",
+    "imageFileName": "traffic_light-S-1.png"
+  },
+  {
+    "code": "S-2",
+    "category": "traffic_light",
+    "namePl": "Sygnalizator z sygnałem w kształcie strzałki (skręt warunkowy)",
+    "nameUz": "Qizil fonda yashil strelkali svetofor",
+    "descriptionUz": "Qizil signal va yashil strelka birga yonganda, svetofor oldida to'xtagandan keyin strelka ko'rsatgan tomonga burilishga ruxsat beriladi.",
+    "imageFileName": "traffic_light-S-2.png"
+  },
+  {
+    "code": "S-3",
+    "category": "traffic_light",
+    "namePl": "Sygnalizator kierunkowy (bezkolizyjny)",
+    "nameUz": "To'qnashuvsiz (strelkali) svetofor",
+    "descriptionUz": "Faqat strelka ko'rsatgan yo'nalishga yurayotgan haydovchilarga tegishli.",
+    "imageFileName": "traffic_light-S-3.png"
+  },
+  {
+    "code": "S-4",
+    "category": "traffic_light",
+    "namePl": "Sygnalizator nad pasem ruchu",
+    "nameUz": "Yo'lak ustidagi svetofor",
+    "descriptionUz": "Yashil signal — svetofor joylashgan yo'lakka kirish mumkin, qizil — kirish taqiqlanadi.",
+    "imageFileName": "traffic_light-S-4.png"
+  },
+  {
+    "code": "S-5",
+    "category": "traffic_light",
+    "namePl": "Sygnalizator dla pieszych",
+    "nameUz": "Piyodalar svetofori",
+    "descriptionUz": "Yashil signal — piyodalar o'tish joyiga kirish mumkin. Miltillovchi yashil — tez orada qizil signal yonishini bildiradi.",
+    "imageFileName": "traffic_light-S-5.png"
+  },
+  {
+    "code": "S-6",
+    "category": "traffic_light",
+    "namePl": "Sygnalizator dla rowerzystów",
+    "nameUz": "Velosipedchilar svetofori",
+    "descriptionUz": "Yashil signal — velosipedchilar o'tish joyiga kirish mumkin. Miltillovchi yashil — tez orada qizil signal yonishini bildiradi.",
+    "imageFileName": "traffic_light-S-6.png"
+  },
+  {
+    "code": "S-7",
+    "category": "traffic_light",
+    "namePl": "Sygnalizator nakazujący opuszczenie pasa ruchu",
+    "nameUz": "Yo'lakni tark etish svetofori",
+    "descriptionUz": "Doimiy yoki miltillovchi signal — svetofor joylashgan yo'lakni tark etib, strelka ko'rsatgan tomondagi yo'l qismiga o'tish buyrug'ini bildiradi.",
+    "imageFileName": "traffic_light-S-7.png"
+  }
+]

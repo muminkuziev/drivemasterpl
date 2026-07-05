@@ -1,0 +1,302 @@
+[
+  {
+    "textPl": "Czy na jezdni oznaczonej tym znakiem wolno Ci zawrócić?",
+    "textUz": "Shu belgi bilan belgilangan yo'lda orqaga qaytish (U-burilish) mumkinmi?",
+    "category": "Yo'l belgilari",
+    "isPremium": true,
+    "mediaFileName": "IMG_4251orgbm.jpg",
+    "mediaType": "photo",
+    "options": [
+      {
+        "textPl": "Tak",
+        "textUz": "Ha",
+        "isCorrect": false
+      },
+      {
+        "textPl": "Nie",
+        "textUz": "Yo'q",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "textPl": "Czy w tej sytuacji powinieneś oczekiwać, że następnym sygnałem będzie światło zielone?",
+    "textUz": "Bu vaziyatda keyingi signal yashil chiroq bo'lishini kutishingiz kerakmi?",
+    "category": "Svetofor",
+    "isPremium": true,
+    "mediaFileName": "3106D15_a_org.jpg",
+    "mediaType": "photo",
+    "options": [
+      {
+        "textPl": "Tak",
+        "textUz": "Ha",
+        "isCorrect": true
+      },
+      {
+        "textPl": "Nie",
+        "textUz": "Yo'q",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "textPl": "Czy w tej sytuacji wolno Ci skręcić w prawo bez zatrzymania się przed sygnalizatorem?",
+    "textUz": "Bu vaziyatda svetofor oldida to'xtamasdan o'ngga burilish mumkinmi?",
+    "category": "Svetofor",
+    "isPremium": true,
+    "mediaFileName": "0118D14MM_a_org.jpg",
+    "mediaType": "photo",
+    "options": [
+      {
+        "textPl": "Tak",
+        "textUz": "Ha",
+        "isCorrect": false
+      },
+      {
+        "textPl": "Nie",
+        "textUz": "Yo'q",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "textPl": "Czy w tej sytuacji sygnał świetlny nadawany dla Twojego pasa ruchu zezwala Ci na zawracanie?",
+    "textUz": "Bu vaziyatda sizning yo'lagingiz uchun berilayotgan svetofor signali orqaga qaytishga (U-burilish) ruxsat beradimi?",
+    "category": "Svetofor",
+    "isPremium": true,
+    "mediaFileName": "2064D14MM_a_org.jpg",
+    "mediaType": "photo",
+    "options": [
+      {
+        "textPl": "Tak",
+        "textUz": "Ha",
+        "isCorrect": false
+      },
+      {
+        "textPl": "Nie",
+        "textUz": "Yo'q",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "textPl": "Czy w tej sytuacji nadawany sygnał świetlny oznacza, że podczas jazdy w prawo nie występuje kolizja z innymi uczestnikami ruchu?",
+    "textUz": "Bu vaziyatda berilayotgan svetofor signali o'ngga burilishda boshqa yo'l harakati ishtirokchilari bilan to'qnashuv bo'lmasligini bildiradimi?",
+    "category": "Svetofor",
+    "isPremium": true,
+    "mediaFileName": "066D16_a_org.jpg",
+    "mediaType": "photo",
+    "options": [
+      {
+        "textPl": "Tak",
+        "textUz": "Ha",
+        "isCorrect": true
+      },
+      {
+        "textPl": "Nie",
+        "textUz": "Yo'q",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "textPl": "Czy w tej sytuacji nadawany sygnał świetlny zezwala Ci na wjazd za sygnalizator?",
+    "textUz": "Bu vaziyatda berilayotgan svetofor signali svetofordan o'tishga ruxsat beradimi?",
+    "category": "Svetofor",
+    "isPremium": true,
+    "mediaFileName": "IMG_0325_9550d5_a_org.jpg",
+    "mediaType": "photo",
+    "options": [
+      {
+        "textPl": "Tak",
+        "textUz": "Ha",
+        "isCorrect": false
+      },
+      {
+        "textPl": "Nie",
+        "textUz": "Yo'q",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "textPl": "Czy w tej sytuacji wolno Ci skręcić w prawo, jeśli nie spowodujesz tym utrudnienia ruchu?",
+    "textUz": "Bu vaziyatda, agar bu bilan harakatga xalaqit bermasangiz, o'ngga burilish mumkinmi?",
+    "category": "Yo'l harakati holatlari",
+    "isPremium": true,
+    "mediaFileName": "0084D18_a_org.jpg",
+    "mediaType": "photo",
+    "options": [
+      {
+        "textPl": "Tak",
+        "textUz": "Ha",
+        "isCorrect": false
+      },
+      {
+        "textPl": "Nie",
+        "textUz": "Yo'q",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "textPl": "Czy w tej sytuacji wolno Ci zmienić zajmowany pas ruchu, gdy zamierzasz jechać na wprost?",
+    "textUz": "Bu vaziyatda, to'g'riga yurishni mo'ljallagan bo'lsangiz, egallagan yo'lakni almashtirish mumkinmi?",
+    "category": "Yo'l harakati holatlari",
+    "isPremium": true,
+    "mediaFileName": "IMG_9324_org.jpg",
+    "mediaType": "photo",
+    "options": [
+      {
+        "textPl": "Tak",
+        "textUz": "Ha",
+        "isCorrect": true
+      },
+      {
+        "textPl": "Nie",
+        "textUz": "Yo'q",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "textPl": "Czy na tej drodze możesz spodziewać się rowerzystów nadjeżdżających z przeciwka?",
+    "textUz": "Bu yo'lda qarshi tomondan velosipedchilar kelishini kutish mumkinmi?",
+    "category": "Yo'l harakati holatlari",
+    "isPremium": true,
+    "mediaFileName": "4152D15Xorg.jpg",
+    "mediaType": "photo",
+    "options": [
+      {
+        "textPl": "Tak",
+        "textUz": "Ha",
+        "isCorrect": true
+      },
+      {
+        "textPl": "Nie",
+        "textUz": "Yo'q",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "textPl": "Czy w tej sytuacji wolno Ci wjechać na pas ruchu po lewej stronie?",
+    "textUz": "Bu vaziyatda chap tomondagi yo'lakka o'tish mumkinmi?",
+    "category": "Yo'l harakati holatlari",
+    "isPremium": true,
+    "mediaFileName": "4170D15_a_org.jpg",
+    "mediaType": "photo",
+    "options": [
+      {
+        "textPl": "Tak",
+        "textUz": "Ha",
+        "isCorrect": false
+      },
+      {
+        "textPl": "Nie",
+        "textUz": "Yo'q",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "textPl": "Czy w tej sytuacji masz obowiązek zatrzymać pojazd?",
+    "textUz": "Bu vaziyatda transport vositasini to'xtatish majburiymi?",
+    "category": "To'xtash joylari",
+    "isPremium": true,
+    "mediaFileName": "AK_D05_06_org.wmv",
+    "mediaType": "video",
+    "options": [
+      {
+        "textPl": "Tak",
+        "textUz": "Ha",
+        "isCorrect": true
+      },
+      {
+        "textPl": "Nie",
+        "textUz": "Yo'q",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "textPl": "Czy w tej sytuacji masz obowiązek zatrzymać pojazd?",
+    "textUz": "Bu vaziyatda transport vositasini to'xtatish majburiymi?",
+    "category": "To'xtash joylari",
+    "isPremium": true,
+    "mediaFileName": "AK_D10_30_org.wmv",
+    "mediaType": "video",
+    "options": [
+      {
+        "textPl": "Tak",
+        "textUz": "Ha",
+        "isCorrect": true
+      },
+      {
+        "textPl": "Nie",
+        "textUz": "Yo'q",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "textPl": "Czy w przedstawionej sytuacji masz prawo kontynuować jazdę?",
+    "textUz": "Ko'rsatilgan vaziyatda harakatni davom ettirish huquqingiz bormi?",
+    "category": "Svetofor",
+    "isPremium": true,
+    "mediaFileName": "AK_D11_43org.wmv",
+    "mediaType": "video",
+    "options": [
+      {
+        "textPl": "Tak",
+        "textUz": "Ha",
+        "isCorrect": false
+      },
+      {
+        "textPl": "Nie",
+        "textUz": "Yo'q",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "textPl": "Czy w przedstawionej sytuacji masz prawo - mimo podawanego sygnału - skręcić w prawo?",
+    "textUz": "Ko'rsatilgan vaziyatda, berilayotgan signalga qaramay, o'ngga burilish huquqingiz bormi?",
+    "category": "Svetofor",
+    "isPremium": true,
+    "mediaFileName": "AK_D11_45org.wmv",
+    "mediaType": "video",
+    "options": [
+      {
+        "textPl": "Tak",
+        "textUz": "Ha",
+        "isCorrect": false
+      },
+      {
+        "textPl": "Nie",
+        "textUz": "Yo'q",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "textPl": "Czy ten znak poziomy wyznacza miejsce bezwzględnego zatrzymania się, nawet w sytuacji, gdy z żadnej ze stron nie nadjeżdża pojazd?",
+    "textUz": "Bu gorizontal (yo'l usti) belgi, hech qaysi tomondan transport vositasi kelmayotgan bo'lsa ham, majburiy to'xtash joyini bildiradimi?",
+    "category": "Yo'l belgilari",
+    "isPremium": true,
+    "mediaFileName": "D16_01_org.wmv",
+    "mediaType": "video",
+    "options": [
+      {
+        "textPl": "Tak",
+        "textUz": "Ha",
+        "isCorrect": true
+      },
+      {
+        "textPl": "Nie",
+        "textUz": "Yo'q",
+        "isCorrect": false
+      }
+    ]
+  }
+]

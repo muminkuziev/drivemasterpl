@@ -1,0 +1,42 @@
+[
+  {
+    "textPl": "Czy w tej sytuacji, zanim włączysz się do ruchu, masz obowiązek obserwacji drogi w lusterku zewnętrznym?",
+    "textUz": "Bu vaziyatda harakatga qo'shilishdan oldin, tashqi oynada yo'lni kuzatish majburiyati bormi?",
+    "category": "Umumiy qoidalar",
+    "isPremium": true,
+    "mediaFileName": "D36_44org.mp4",
+    "mediaType": "video",
+    "options": [
+      {
+        "textPl": "Tak",
+        "textUz": "Ha",
+        "isCorrect": true
+      },
+      {
+        "textPl": "Nie",
+        "textUz": "Yo'q",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "textPl": "Czy wjeżdżając z pola na drogę twardą masz obowiązek zachować szczególną ostrożność?",
+    "textUz": "Daladan qattiq qoplamali yo'lga chiqayotganda alohida ehtiyotkorlik ko'rsatish majburiyati bormi?",
+    "category": "Umumiy qoidalar",
+    "isPremium": true,
+    "mediaFileName": "D36_35org.mp4",
+    "mediaType": "video",
+    "options": [
+      {
+        "textPl": "Tak",
+        "textUz": "Ha",
+        "isCorrect": true
+      },
+      {
+        "textPl": "Nie",
+        "textUz": "Yo'q",
+        "isCorrect": false
+      }
+    ]
+  }
+]

@@ -1,0 +1,762 @@
+[
+  {
+    "textPl": "Czy w tej sytuacji wolno Ci pozostać na lewym pasie ruchu, gdy prawy jest wolny?",
+    "textUz": "Bu vaziyatda, o'ng yo'lak bo'sh bo'lsa, chap yo'lakda qolish mumkinmi?",
+    "category": "Umumiy qoidalar",
+    "isPremium": true,
+    "mediaFileName": "MD_D5_10_ff_loorg_2.mp4",
+    "mediaType": "video",
+    "options": [
+      {
+        "textPl": "Tak",
+        "textUz": "Ha",
+        "isCorrect": false
+      },
+      {
+        "textPl": "Nie",
+        "textUz": "Yo'q",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "textPl": "Czy w przedstawionej sytuacji należy zmienić pas ruchu na lewy, pozostawiając pas prawy wolniej jadącym pojazdom?",
+    "textUz": "Ko'rsatilgan vaziyatda o'ng yo'lakni sekinroq yurayotgan transport vositalariga qoldirib, chap yo'lakka o'tish kerakmi?",
+    "category": "Yo'lak va manevrlar",
+    "isPremium": true,
+    "mediaFileName": "MD_D15a_11_org.mp4",
+    "mediaType": "video",
+    "options": [
+      {
+        "textPl": "Tak",
+        "textUz": "Ha",
+        "isCorrect": false
+      },
+      {
+        "textPl": "Nie",
+        "textUz": "Yo'q",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "textPl": "Czy w tej sytuacji postąpiłeś właściwie, zmieniając pas ruchu?",
+    "textUz": "Bu vaziyatda yo'lakni almashtirib, to'g'ri harakat qildingizmi?",
+    "category": "Yo'lak va manevrlar",
+    "isPremium": true,
+    "mediaFileName": "MD_D5_07_ff_lo_org.mp4",
+    "mediaType": "video",
+    "options": [
+      {
+        "textPl": "Tak",
+        "textUz": "Ha",
+        "isCorrect": true
+      },
+      {
+        "textPl": "Nie",
+        "textUz": "Yo'q",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "textPl": "Czy w tej sytuacji, powstrzymanie się od wyprzedzenia rowerzysty jest prawidłowe?",
+    "textUz": "Bu vaziyatda velosipedchidan o'zib o'tishdan tiyilish to'g'rimi?",
+    "category": "O'zib o'tish",
+    "isPremium": true,
+    "mediaFileName": "MD_D15b_10org.mp4",
+    "mediaType": "video",
+    "options": [
+      {
+        "textPl": "Tak",
+        "textUz": "Ha",
+        "isCorrect": true
+      },
+      {
+        "textPl": "Nie",
+        "textUz": "Yo'q",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "textPl": "Czy w tej sytuacji wolno Ci zrezygnować z użycia kierunkowskazu zanim zmienisz pas ruchu?",
+    "textUz": "Bu vaziyatda yo'lakni almashtirishdan oldin burilish chirog'idan foydalanishdan voz kechish mumkinmi?",
+    "category": "Yo'lak va manevrlar",
+    "isPremium": true,
+    "mediaFileName": "MD_D3_03_loorg.mp4",
+    "mediaType": "video",
+    "options": [
+      {
+        "textPl": "Tak",
+        "textUz": "Ha",
+        "isCorrect": false
+      },
+      {
+        "textPl": "Nie",
+        "textUz": "Yo'q",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "textPl": "Czy w tej sytuacji masz prawo zmienić pas ruchu na prawy, jeśli kierujesz pojazdem, który nie wykonuje odpłatnego przewozu osób na regularnych liniach?",
+    "textUz": "Bu vaziyatda, agar muntazam yo'nalishlarda pullik yo'lovchi tashimaydigan transport vositasini boshqarsangiz, o'ng yo'lakka o'tish huquqingiz bormi?",
+    "category": "Yo'lak va manevrlar",
+    "isPremium": true,
+    "mediaFileName": "MD_D4_01_ff_loorg.mp4",
+    "mediaType": "video",
+    "options": [
+      {
+        "textPl": "Tak",
+        "textUz": "Ha",
+        "isCorrect": false
+      },
+      {
+        "textPl": "Nie",
+        "textUz": "Yo'q",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "textPl": "Czy skręcając na tym skrzyżowaniu w lewo, zachowałeś właściwy tor jazdy?",
+    "textUz": "Bu chorrahada chapga burilganingizda to'g'ri harakat yo'lini saqladingizmi?",
+    "category": "Yo'lak va manevrlar",
+    "isPremium": true,
+    "mediaFileName": "W11(40)org.mp4",
+    "mediaType": "video",
+    "options": [
+      {
+        "textPl": "Tak",
+        "textUz": "Ha",
+        "isCorrect": true
+      },
+      {
+        "textPl": "Nie",
+        "textUz": "Yo'q",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "textPl": "Czy z pasa ruchu, który zajmujesz, masz prawo zawrócić?",
+    "textUz": "Egallagan yo'lagingizdan orqaga qaytish huquqingiz bormi?",
+    "category": "Yo'lak va manevrlar",
+    "isPremium": true,
+    "mediaFileName": "MD_D3_06_ff_loorg.mp4",
+    "mediaType": "video",
+    "options": [
+      {
+        "textPl": "Tak",
+        "textUz": "Ha",
+        "isCorrect": false
+      },
+      {
+        "textPl": "Nie",
+        "textUz": "Yo'q",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "textPl": "Czy z pasa ruchu, który zajmujesz, będziesz miał prawo skręcić wyłącznie w lewo?",
+    "textUz": "Egallagan yo'lagingizdan faqat chapga burilish huquqingiz bo'ladimi?",
+    "category": "Yo'lak va manevrlar",
+    "isPremium": true,
+    "mediaFileName": "MD_D3_07_ff_loorg.mp4",
+    "mediaType": "video",
+    "options": [
+      {
+        "textPl": "Tak",
+        "textUz": "Ha",
+        "isCorrect": true
+      },
+      {
+        "textPl": "Nie",
+        "textUz": "Yo'q",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "textPl": "Czy masz obowiązek włączyć lewy kierunkowskaz, jeśli zamierzasz jechać przez to skrzyżowanie na wprost?",
+    "textUz": "Bu chorrahadan to'g'riga o'tmoqchi bo'lsangiz, chap burilish chirog'ini yoqish majburiyati bormi?",
+    "category": "Umumiy qoidalar",
+    "isPremium": true,
+    "mediaFileName": "MD_D5_03_ff_loorg.mp4",
+    "mediaType": "video",
+    "options": [
+      {
+        "textPl": "Tak",
+        "textUz": "Ha",
+        "isCorrect": false
+      },
+      {
+        "textPl": "Nie",
+        "textUz": "Yo'q",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "textPl": "Czy po wykonaniu manewru skrętu w prawo na tym skrzyżowaniu, masz obowiązek wyłączyć kierunkowskaz?",
+    "textUz": "Bu chorrahada o'ngga burilish manevrini bajargandan keyin, burilish chirog'ini o'chirish majburiyati bormi?",
+    "category": "Umumiy qoidalar",
+    "isPremium": true,
+    "mediaFileName": "MD_D5_04b_ff_loorg.mp4",
+    "mediaType": "video",
+    "options": [
+      {
+        "textPl": "Tak",
+        "textUz": "Ha",
+        "isCorrect": true
+      },
+      {
+        "textPl": "Nie",
+        "textUz": "Yo'q",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "textPl": "Czy tym pasem ruchu wolno Ci jechać na wprost?",
+    "textUz": "Shu yo'lakdan to'g'riga yurish mumkinmi?",
+    "category": "Umumiy qoidalar",
+    "isPremium": true,
+    "mediaFileName": "MD_D5_11_ff_loorg.mp4",
+    "mediaType": "video",
+    "options": [
+      {
+        "textPl": "Tak",
+        "textUz": "Ha",
+        "isCorrect": false
+      },
+      {
+        "textPl": "Nie",
+        "textUz": "Yo'q",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "textPl": "Czy skręcając w lewo, wybrałeś właściwy tor jazdy?",
+    "textUz": "Chapga burilganingizda to'g'ri harakat yo'lini tanladingizmi?",
+    "category": "Yo'lak va manevrlar",
+    "isPremium": true,
+    "mediaFileName": "MD_D15c_10org.mp4",
+    "mediaType": "video",
+    "options": [
+      {
+        "textPl": "Tak",
+        "textUz": "Ha",
+        "isCorrect": true
+      },
+      {
+        "textPl": "Nie",
+        "textUz": "Yo'q",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "textPl": "Czy skręcając w lewo na tym skrzyżowaniu wybrałeś właściwy tor jazdy?",
+    "textUz": "Bu chorrahada chapga burilganingizda to'g'ri harakat yo'lini tanladingizmi?",
+    "category": "Yo'lak va manevrlar",
+    "isPremium": true,
+    "mediaFileName": "W11(49,50)org.mp4",
+    "mediaType": "video",
+    "options": [
+      {
+        "textPl": "Tak",
+        "textUz": "Ha",
+        "isCorrect": true
+      },
+      {
+        "textPl": "Nie",
+        "textUz": "Yo'q",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "textPl": "Czy w tej sytuacji zabronione jest opuszczenie skrzyżowania prawym pasem ruchu?",
+    "textUz": "Bu vaziyatda chorrahani o'ng yo'lak orqali tark etish taqiqlanganmi?",
+    "category": "Umumiy qoidalar",
+    "isPremium": true,
+    "mediaFileName": "W11(49,50)org.mp4",
+    "mediaType": "video",
+    "options": [
+      {
+        "textPl": "Tak",
+        "textUz": "Ha",
+        "isCorrect": false
+      },
+      {
+        "textPl": "Nie",
+        "textUz": "Yo'q",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "textPl": "Czy w tej sytuacji powinieneś był upewnić się, że możesz bezpiecznie zmienić pas ruchu?",
+    "textUz": "Bu vaziyatda yo'lakni xavfsiz almashtira olishingizga ishonch hosil qilishingiz kerak edimi?",
+    "category": "Yo'lak va manevrlar",
+    "isPremium": true,
+    "mediaFileName": "W11(52)org.mp4",
+    "mediaType": "video",
+    "options": [
+      {
+        "textPl": "Tak",
+        "textUz": "Ha",
+        "isCorrect": true
+      },
+      {
+        "textPl": "Nie",
+        "textUz": "Yo'q",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "textPl": "Czy na tym skrzyżowaniu masz obowiązek włączyć kierunkowskaz, zanim skręcisz w prawo?",
+    "textUz": "Bu chorrahada o'ngga burilishdan oldin burilish chirog'ini yoqish majburiyati bormi?",
+    "category": "Yo'lak va manevrlar",
+    "isPremium": true,
+    "mediaFileName": "MD_D15c_20org.mp4",
+    "mediaType": "video",
+    "options": [
+      {
+        "textPl": "Tak",
+        "textUz": "Ha",
+        "isCorrect": true
+      },
+      {
+        "textPl": "Nie",
+        "textUz": "Yo'q",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "textPl": "Czy w tej sytuacji masz prawo kontynuować jazdę bez żadnej reakcji na zachowanie pieszego?",
+    "textUz": "Bu vaziyatda piyodaning xatti-harakatiga hech qanday reaksiyasiz haydashni davom ettirish huquqingiz bormi?",
+    "category": "Umumiy qoidalar",
+    "isPremium": true,
+    "mediaFileName": "GND30_1aorg.mp4",
+    "mediaType": "video",
+    "options": [
+      {
+        "textPl": "Tak",
+        "textUz": "Ha",
+        "isCorrect": false
+      },
+      {
+        "textPl": "Nie",
+        "textUz": "Yo'q",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "textPl": "Czy zbliżając się do miejsca postoju tak oznakowanego pojazdu, masz obowiązek zachować szczególną ostrożność?",
+    "textUz": "Shunday belgilangan transport vositasining to'xtash joyiga yaqinlashganda alohida ehtiyotkorlik ko'rsatish majburiyati bormi?",
+    "category": "Yo'l belgilari",
+    "isPremium": true,
+    "mediaFileName": "Gimbus_4org.mp4",
+    "mediaType": "video",
+    "options": [
+      {
+        "textPl": "Tak",
+        "textUz": "Ha",
+        "isCorrect": true
+      },
+      {
+        "textPl": "Nie",
+        "textUz": "Yo'q",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "textPl": "Czy w tej sytuacji masz obowiązek zatrzymać pojazd?",
+    "textUz": "Bu vaziyatda transport vositasini to'xtatish majburiyati bormi?",
+    "category": "To'xtash va parking",
+    "isPremium": true,
+    "mediaFileName": "W15(21)org.mp4",
+    "mediaType": "video",
+    "options": [
+      {
+        "textPl": "Tak",
+        "textUz": "Ha",
+        "isCorrect": true
+      },
+      {
+        "textPl": "Nie",
+        "textUz": "Yo'q",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "textPl": "Czy omijając tak oznakowany pojazd masz obowiązek zachować szczególną ostrożność?",
+    "textUz": "Shunday belgilangan transport vositasini aylanib o'tayotganda alohida ehtiyotkorlik ko'rsatish majburiyati bormi?",
+    "category": "Yo'l belgilari",
+    "isPremium": true,
+    "mediaFileName": "W15(22)org.mp4",
+    "mediaType": "video",
+    "options": [
+      {
+        "textPl": "Tak",
+        "textUz": "Ha",
+        "isCorrect": true
+      },
+      {
+        "textPl": "Nie",
+        "textUz": "Yo'q",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "textPl": "Czy w tej sytuacji masz prawo powoli kontynuować jazdę, uważając na pieszych?",
+    "textUz": "Bu vaziyatda piyodalarga ehtiyot bo'lib, sekin haydashni davom ettirish huquqingiz bormi?",
+    "category": "Umumiy qoidalar",
+    "isPremium": true,
+    "mediaFileName": "W16(20)org.mp4",
+    "mediaType": "video",
+    "options": [
+      {
+        "textPl": "Tak",
+        "textUz": "Ha",
+        "isCorrect": false
+      },
+      {
+        "textPl": "Nie",
+        "textUz": "Yo'q",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "textPl": "Czy wolno Ci wysiąść z pojazdu bez upewnienia się, że nie spowodujesz tym zagrożenia ruchu?",
+    "textUz": "Harakatga xavf tug'dirmasligingizga ishonch hosil qilmasdan transport vositasidan tushish mumkinmi?",
+    "category": "Umumiy qoidalar",
+    "isPremium": true,
+    "mediaFileName": "Sequence01_4org.mp4",
+    "mediaType": "video",
+    "options": [
+      {
+        "textPl": "Tak",
+        "textUz": "Ha",
+        "isCorrect": false
+      },
+      {
+        "textPl": "Nie",
+        "textUz": "Yo'q",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "textPl": "Czy wolno Ci otworzyć drzwi pojazdu bez upewnienia się, że nie spowodujesz tym zagrożenia ruchu?",
+    "textUz": "Harakatga xavf tug'dirmasligingizga ishonch hosil qilmasdan eshikni ochish mumkinmi?",
+    "category": "Umumiy qoidalar",
+    "isPremium": true,
+    "mediaFileName": "Sequence01_4org.mp4",
+    "mediaType": "video",
+    "options": [
+      {
+        "textPl": "Tak",
+        "textUz": "Ha",
+        "isCorrect": false
+      },
+      {
+        "textPl": "Nie",
+        "textUz": "Yo'q",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "textPl": "Czy w tej sytuacji wolno Ci opuścić miejsce zdarzenia, bo uznałeś, że sprawca wypadku udzieli pomocy poszkodowanemu?",
+    "textUz": "Bu vaziyatda, baxtsiz hodisa aybdori jabrlanuvchiga yordam berishiga ishonganingiz uchun, voqea joyini tark etish mumkinmi?",
+    "category": "Umumiy qoidalar",
+    "isPremium": true,
+    "mediaFileName": "R_1org.mp4",
+    "mediaType": "video",
+    "options": [
+      {
+        "textPl": "Tak",
+        "textUz": "Ha",
+        "isCorrect": false
+      },
+      {
+        "textPl": "Nie",
+        "textUz": "Yo'q",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "textPl": "Wiesz, że wkrótce na miejsce zdarzenia przybędą służby ratunkowe. Czy powinieneś nakłaniać sprawcę, aby zawiózł poszkodowanego do szpitala?",
+    "textUz": "Tez orada qutqaruv xizmatlari voqea joyiga yetib kelishini bilasiz. Aybdorni jabrlanuvchini kasalxonaga olib borishga undashingiz kerakmi?",
+    "category": "Umumiy qoidalar",
+    "isPremium": true,
+    "mediaFileName": "R_1org.mp4",
+    "mediaType": "video",
+    "options": [
+      {
+        "textPl": "Tak",
+        "textUz": "Ha",
+        "isCorrect": false
+      },
+      {
+        "textPl": "Nie",
+        "textUz": "Yo'q",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "textPl": "Czy w tej sytuacji, dzwoniąc pod numer alarmowy, w pierwszej kolejności powinieneś określić miejsce zdarzenia?",
+    "textUz": "Bu vaziyatda favqulodda raqamga qo'ng'iroq qilganda, birinchi navbatda voqea joyini aniqlashingiz kerakmi?",
+    "category": "Umumiy qoidalar",
+    "isPremium": true,
+    "mediaFileName": "R_1org.mp4",
+    "mediaType": "video",
+    "options": [
+      {
+        "textPl": "Tak",
+        "textUz": "Ha",
+        "isCorrect": true
+      },
+      {
+        "textPl": "Nie",
+        "textUz": "Yo'q",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "textPl": "Czy widząc ludzi w płonącym samochodzie, masz obowiązek, jeśli jest to możliwe, udzielić im pierwszej pomocy  i wezwać straż pożarną?",
+    "textUz": "Yonayotgan avtomobilda odamlarni ko'rganingizda, imkon bo'lsa ularga birinchi yordam ko'rsatish va o't o'chirish xizmatini chaqirish majburiyati bormi?",
+    "category": "Umumiy qoidalar",
+    "isPremium": true,
+    "mediaFileName": "R_2org.mp4",
+    "mediaType": "video",
+    "options": [
+      {
+        "textPl": "Tak",
+        "textUz": "Ha",
+        "isCorrect": true
+      },
+      {
+        "textPl": "Nie",
+        "textUz": "Yo'q",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "textPl": "Czy wolno Ci wjechać na przejazd kolejowy, jeżeli półzapory zostały całkowicie podniesione, a sygnał czerwony jeszcze nie został wyłączony?",
+    "textUz": "Yarim to'siqlar to'liq ko'tarilgan, lekin qizil signal hali o'chmagan bo'lsa, temir yo'l o'tishiga kirish mumkinmi?",
+    "category": "Umumiy qoidalar",
+    "isPremium": true,
+    "mediaFileName": "d19_2org.mp4",
+    "mediaType": "video",
+    "options": [
+      {
+        "textPl": "Tak",
+        "textUz": "Ha",
+        "isCorrect": false
+      },
+      {
+        "textPl": "Nie",
+        "textUz": "Yo'q",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "textPl": "Czy w tej sytuacji, pamiętając o własnym bezpieczeństwie, powinieneś ewakuować poszkodowanego z dymiącego samochodu?",
+    "textUz": "Bu vaziyatda, o'z xavfsizligingizni yodda tutgan holda, tutayotgan avtomobildan jabrlanuvchini evakuatsiya qilishingiz kerakmi?",
+    "category": "Umumiy qoidalar",
+    "isPremium": true,
+    "mediaFileName": "R_2org.mp4",
+    "mediaType": "video",
+    "options": [
+      {
+        "textPl": "Tak",
+        "textUz": "Ha",
+        "isCorrect": true
+      },
+      {
+        "textPl": "Nie",
+        "textUz": "Yo'q",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "textPl": "Czy w tej sytuacji, mając zamiar jechać w lewo za przejazdem kolejowym, możesz kontynuować jazdę?",
+    "textUz": "Bu vaziyatda temir yo'l o'tishidan keyin chapga burilish niyatida bo'lsangiz, haydashni davom ettirish mumkinmi?",
+    "category": "Umumiy qoidalar",
+    "isPremium": true,
+    "mediaFileName": "tram614,5_1JSorg.mp4",
+    "mediaType": "video",
+    "options": [
+      {
+        "textPl": "Tak",
+        "textUz": "Ha",
+        "isCorrect": false
+      },
+      {
+        "textPl": "Nie",
+        "textUz": "Yo'q",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "textPl": "Czy w tej sytuacji masz prawo odjechać i pozostawić leżącą osobę bez pomocy?",
+    "textUz": "Bu vaziyatda yotgan odamni yordamsiz qoldirib ketish huquqingiz bormi?",
+    "category": "Umumiy qoidalar",
+    "isPremium": true,
+    "mediaFileName": "R_3org.mp4",
+    "mediaType": "video",
+    "options": [
+      {
+        "textPl": "Tak",
+        "textUz": "Ha",
+        "isCorrect": false
+      },
+      {
+        "textPl": "Nie",
+        "textUz": "Yo'q",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "textPl": "Czy w tej sytuacji masz obowiązek zatrzymać się, udzielić niezbędnej pomocy i powiadomić służby ratunkowe?",
+    "textUz": "Bu vaziyatda to'xtash, zarur yordam ko'rsatish va qutqaruv xizmatlariga xabar berish majburiyati bormi?",
+    "category": "To'xtash va parking",
+    "isPremium": true,
+    "mediaFileName": "R_3org.mp4",
+    "mediaType": "video",
+    "options": [
+      {
+        "textPl": "Tak",
+        "textUz": "Ha",
+        "isCorrect": true
+      },
+      {
+        "textPl": "Nie",
+        "textUz": "Yo'q",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "textPl": "Czy w przedstawionej sytuacji wolno Ci wjechać na widoczny przejazd kolejowy, jeżeli czerwone światło już zgasło, ale półzapory nie zostały jeszcze całkowicie podniesione?",
+    "textUz": "Ko'rsatilgan vaziyatda, qizil chiroq o'chgan, lekin yarim to'siqlar hali to'liq ko'tarilmagan bo'lsa, ko'rinib turgan temir yo'l o'tishiga kirish mumkinmi?",
+    "category": "Svetofor va yorug'lik",
+    "isPremium": true,
+    "mediaFileName": "d19_1org.mp4",
+    "mediaType": "video",
+    "options": [
+      {
+        "textPl": "Tak",
+        "textUz": "Ha",
+        "isCorrect": false
+      },
+      {
+        "textPl": "Nie",
+        "textUz": "Yo'q",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "textPl": "Czy w tej sytuacji, gdy jadą za Tobą inne pojazdy, masz prawo ostrożnie ominąć leżącego i oddalić się?",
+    "textUz": "Bu vaziyatda, orqangizdan boshqa transport vositalari kelayotgan bo'lsa, yotgan odamni ehtiyotkorlik bilan aylanib o'tib, uzoqlashish huquqingiz bormi?",
+    "category": "Umumiy qoidalar",
+    "isPremium": true,
+    "mediaFileName": "R_3org.mp4",
+    "mediaType": "video",
+    "options": [
+      {
+        "textPl": "Tak",
+        "textUz": "Ha",
+        "isCorrect": false
+      },
+      {
+        "textPl": "Nie",
+        "textUz": "Yo'q",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "textPl": "W tej sytuacji silnik nie daje się uruchomić i nie masz możliwości usunięcia pojazdu z torowiska. Czy jesteś zobowiązany ostrzec kierującego pojazdem szynowym o niebezpieczeństwie?",
+    "textUz": "Bu vaziyatda dvigatel ishga tushmayapti va transport vositasini relsdan olib chiqish imkoningiz yo'q. Relsli transport vositasi haydovchisini xavf haqida ogohlantirishga majbursizmi?",
+    "category": "Umumiy qoidalar",
+    "isPremium": true,
+    "mediaFileName": "Sequence01_1org.mp4",
+    "mediaType": "video",
+    "options": [
+      {
+        "textPl": "Tak",
+        "textUz": "Ha",
+        "isCorrect": true
+      },
+      {
+        "textPl": "Nie",
+        "textUz": "Yo'q",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "textPl": "W tej sytuacji silnik nie daje się uruchomić. Czy masz obowiązek podjąć próbę usunięcia pojazdu z torowiska?",
+    "textUz": "Bu vaziyatda dvigatel ishga tushmayapti. Transport vositasini relsdan olib chiqishga urinish majburiyati bormi?",
+    "category": "Umumiy qoidalar",
+    "isPremium": true,
+    "mediaFileName": "Sequence01_1org.mp4",
+    "mediaType": "video",
+    "options": [
+      {
+        "textPl": "Tak",
+        "textUz": "Ha",
+        "isCorrect": true
+      },
+      {
+        "textPl": "Nie",
+        "textUz": "Yo'q",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "textPl": "Czy opuszczając ten pas ruchu, masz obowiązek zachować szczególną ostrożność?",
+    "textUz": "Bu yo'lakni tark etayotganda alohida ehtiyotkorlik ko'rsatish majburiyati bormi?",
+    "category": "Yo'lak va manevrlar",
+    "isPremium": true,
+    "mediaFileName": "powolny pas_2aorg.mp4",
+    "mediaType": "video",
+    "options": [
+      {
+        "textPl": "Tak",
+        "textUz": "Ha",
+        "isCorrect": true
+      },
+      {
+        "textPl": "Nie",
+        "textUz": "Yo'q",
+        "isCorrect": false
+      }
+    ]
+  }
+]

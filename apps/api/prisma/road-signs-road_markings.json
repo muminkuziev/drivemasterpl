@@ -1,0 +1,238 @@
+[
+  {
+    "code": "P-1",
+    "category": "road_markings",
+    "namePl": "Linia pojedyncza przerywana",
+    "nameUz": "Uzuq bitta chiziq",
+    "descriptionUz": "Yo'laklarni belgilaydi; sekin harakat, tugayotgan yoki boshqa yo'lga chiqish uchun mo'ljallangan yo'laklarni ham bildirishi mumkin.",
+    "imageFileName": "road_markings-P-1.png"
+  },
+  {
+    "code": "P-2",
+    "category": "road_markings",
+    "namePl": "Linia pojedyncza ciągła",
+    "nameUz": "Uzluksiz bitta chiziq",
+    "descriptionUz": "Bir yo'nalishdagi yo'laklarni ajratadi; uni kesib o'tish yoki ustidan yurish taqiqlanadi.",
+    "imageFileName": "road_markings-P-2.png"
+  },
+  {
+    "code": "P-3",
+    "category": "road_markings",
+    "namePl": "Linia jednostronnie przekraczalna",
+    "nameUz": "Bir tomondan kesib o'tish mumkin bo'lgan chiziq",
+    "descriptionUz": "Bir tomondan kesib o'tish taqiqlangan, ikkinchi tomondan ruxsat etilgan.",
+    "imageFileName": "road_markings-P-3.png"
+  },
+  {
+    "code": "P-4",
+    "category": "road_markings",
+    "namePl": "Linia podwójna ciągła",
+    "nameUz": "Qo'sh uzluksiz chiziq",
+    "descriptionUz": "Qarama-qarshi yo'nalishdagi yo'laklarni ajratadi; kesib o'tish taqiqlanadi.",
+    "imageFileName": "road_markings-P-4.png"
+  },
+  {
+    "code": "P-5",
+    "category": "road_markings",
+    "namePl": "Linia podwójna przerywana",
+    "nameUz": "Qo'sh uzuq chiziq",
+    "descriptionUz": "Svetofor yoki belgi bilan boshqariladigan o'zgaruvchan yo'nalishli yo'laklarni belgilaydi.",
+    "imageFileName": "road_markings-P-5.png"
+  },
+  {
+    "code": "P-6",
+    "category": "road_markings",
+    "namePl": "Linia ostrzegawcza",
+    "nameUz": "Ogohlantiruvchi chiziq",
+    "descriptionUz": "Yo'laklarni ajratadi va yaqinlashayotgan taqiqlangan kesib o'tish zonasi haqida ogohlantiradi.",
+    "imageFileName": "road_markings-P-6.png"
+  },
+  {
+    "code": "P-7a",
+    "category": "road_markings",
+    "namePl": "Linia krawędziowa przerywana",
+    "nameUz": "Uzuq chekka chizig'i",
+    "descriptionUz": "Yo'l chetini bildiradi.",
+    "imageFileName": "road_markings-P-7a.png"
+  },
+  {
+    "code": "P-7b",
+    "category": "road_markings",
+    "namePl": "Linia krawędziowa ciągła",
+    "nameUz": "Uzluksiz chekka chizig'i",
+    "descriptionUz": "Yo'l chetini belgilaydi; yo'l yoqasiga chiqishni taqiqlaydi.",
+    "imageFileName": "road_markings-P-7b.png"
+  },
+  {
+    "code": "P-8a",
+    "category": "road_markings",
+    "namePl": "Strzałka kierunkowa (na wprost)",
+    "nameUz": "Yo'nalish strelkasi (to'g'riga)",
+    "descriptionUz": "Yo'lakdan faqat to'g'riga yurish kerakligini bildiradi.",
+    "imageFileName": "road_markings-P-8a.png"
+  },
+  {
+    "code": "P-8b",
+    "category": "road_markings",
+    "namePl": "Strzałka kierunkowa (skręt)",
+    "nameUz": "Yo'nalish strelkasi (burilish)",
+    "descriptionUz": "Yo'lakdan faqat burilish kerakligini bildiradi.",
+    "imageFileName": "road_markings-P-8b.png"
+  },
+  {
+    "code": "P-8c",
+    "category": "road_markings",
+    "namePl": "Strzałka kierunkowa (zawracanie)",
+    "nameUz": "Yo'nalish strelkasi (orqaga qaytish)",
+    "descriptionUz": "Yo'lakdan faqat orqaga qaytish (U-burilish) kerakligini bildiradi.",
+    "imageFileName": "road_markings-P-8c.png"
+  },
+  {
+    "code": "P-9",
+    "category": "road_markings",
+    "namePl": "Strzałka naprowadzająca",
+    "nameUz": "Yo'naltiruvchi strelka",
+    "descriptionUz": "Ko'rsatilgan qo'shni yo'lakka o'tishni talab qiladi (yo'lak tugayotganda).",
+    "imageFileName": "road_markings-P-9.png"
+  },
+  {
+    "code": "P-10",
+    "category": "road_markings",
+    "namePl": "Przejście dla pieszych",
+    "nameUz": "Piyodalar o'tish joyi",
+    "descriptionUz": "\"Zebra\" — piyodalar yo'ldan o'tadigan joy.",
+    "imageFileName": "road_markings-P-10.png"
+  },
+  {
+    "code": "P-11",
+    "category": "road_markings",
+    "namePl": "Przejazd dla rowerzystów",
+    "nameUz": "Velosipedchilar o'tish joyi",
+    "imageFileName": "road_markings-P-11.png"
+  },
+  {
+    "code": "P-12",
+    "category": "road_markings",
+    "namePl": "Linia bezwzględnego zatrzymania",
+    "nameUz": "Majburiy to'xtash chizig'i",
+    "descriptionUz": "\"STOP\" belgisiga mos to'xtash chizig'i.",
+    "imageFileName": "road_markings-P-12.png"
+  },
+  {
+    "code": "P-13",
+    "category": "road_markings",
+    "namePl": "Linia warunkowego zatrzymania (trójkąty)",
+    "nameUz": "Shartli to'xtash chizig'i (uchburchaklar)",
+    "descriptionUz": "\"Yo'l bering\" (A-7) belgisiga mos chiziq.",
+    "imageFileName": "road_markings-P-13.png"
+  },
+  {
+    "code": "P-14",
+    "category": "road_markings",
+    "namePl": "Linia warunkowego zatrzymania (prostokąty)",
+    "nameUz": "Shartli to'xtash chizig'i (to'rtburchaklar)",
+    "descriptionUz": "Chorraha, o'tish joyi yoki tramvay bekati oldida shartli to'xtash chizig'i.",
+    "imageFileName": "road_markings-P-14.png"
+  },
+  {
+    "code": "P-15",
+    "category": "road_markings",
+    "namePl": "Trójkąt podporządkowania",
+    "nameUz": "Bo'ysunish uchburchagi",
+    "descriptionUz": "\"Yo'l bering\" (A-7) vertikal belgisini tasdiqlovchi yo'l belgisi.",
+    "imageFileName": "road_markings-P-15.png"
+  },
+  {
+    "code": "P-16",
+    "category": "road_markings",
+    "namePl": "Napis STOP",
+    "nameUz": "\"STOP\" yozuvi",
+    "descriptionUz": "B-20 \"STOP\" belgisini tasdiqlaydi.",
+    "imageFileName": "road_markings-P-16.png"
+  },
+  {
+    "code": "P-17",
+    "category": "road_markings",
+    "namePl": "Linia przystankowa",
+    "nameUz": "Bekat chizig'i",
+    "descriptionUz": "Jamoat transporti to'xtash joyini belgilaydi; u yerda to'xtab turish taqiqlanadi.",
+    "imageFileName": "road_markings-P-17.png"
+  },
+  {
+    "code": "P-18",
+    "category": "road_markings",
+    "namePl": "Stanowisko postojowe",
+    "nameUz": "To'xtash joyi",
+    "descriptionUz": "Belgilangan to'xtash o'rnini bildiradi.",
+    "imageFileName": "road_markings-P-18.png"
+  },
+  {
+    "code": "P-19",
+    "category": "road_markings",
+    "namePl": "Linia wyznaczająca pas postojowy",
+    "nameUz": "To'xtash yo'lagini belgilovchi chiziq",
+    "imageFileName": "road_markings-P-19.png"
+  },
+  {
+    "code": "P-20",
+    "category": "road_markings",
+    "namePl": "Koperta",
+    "nameUz": "\"Konvert\" belgisi",
+    "descriptionUz": "Muayyan transport turlari uchun bron qilingan to'xtash joyi.",
+    "imageFileName": "road_markings-P-20.png"
+  },
+  {
+    "code": "P-21",
+    "category": "road_markings",
+    "namePl": "Powierzchnia wyłączona",
+    "nameUz": "Chiqarib tashlangan maydon",
+    "descriptionUz": "Kirish va to'xtash taqiqlangan maydon.",
+    "imageFileName": "road_markings-P-21.png"
+  },
+  {
+    "code": "P-22",
+    "category": "road_markings",
+    "namePl": "BUS",
+    "nameUz": "\"BUS\" yozuvi",
+    "descriptionUz": "Jamoat transporti uchun mo'ljallangan yo'lak belgisi.",
+    "imageFileName": "road_markings-P-22.png"
+  },
+  {
+    "code": "P-23",
+    "category": "road_markings",
+    "namePl": "Rower",
+    "nameUz": "\"Velosiped\" yozuvi",
+    "descriptionUz": "Velosiped yo'li yoki yo'lagi.",
+    "imageFileName": "road_markings-P-23.png"
+  },
+  {
+    "code": "P-24",
+    "category": "road_markings",
+    "namePl": "Miejsce dla osoby niepełnosprawnej",
+    "nameUz": "Nogironlar uchun joy",
+    "imageFileName": "road_markings-P-24.png"
+  },
+  {
+    "code": "P-25",
+    "category": "road_markings",
+    "namePl": "Próg zwalniający",
+    "nameUz": "Sun'iy do'mboq belgisi",
+    "descriptionUz": "Yo'lda sun'iy do'mboq (sekinlatuvchi to'siq) borligini bildiradi.",
+    "imageFileName": "road_markings-P-25.png"
+  },
+  {
+    "code": "P-26",
+    "category": "road_markings",
+    "namePl": "Piesi",
+    "nameUz": "\"Piyodalar\" yozuvi",
+    "descriptionUz": "Piyodalar uchun belgilangan yo'lak.",
+    "imageFileName": "road_markings-P-26.png"
+  },
+  {
+    "code": "P-27",
+    "category": "road_markings",
+    "namePl": "Kierunek i tor ruchu roweru",
+    "nameUz": "Velosiped harakat yo'nalishi va yo'li",
+    "imageFileName": "road_markings-P-27.png"
+  }
+]

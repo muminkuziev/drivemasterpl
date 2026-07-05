@@ -1,0 +1,1002 @@
+[
+  {
+    "textPl": "Kiedy, w tej sytuacji, wolno Ci powrócić na prawy pas ruchu, po wykonaniu manewru wyprzedzania?",
+    "textUz": "Bu vaziyatda o'zib o'tish manevrini bajarganingizdan keyin qachon o'ng yo'lakka qaytish mumkin?",
+    "category": "O'zib o'tish",
+    "isPremium": true,
+    "mediaFileName": "2B310.jpg",
+    "mediaType": "photo",
+    "options": [
+      {
+        "textPl": "Niezwłocznie po zauważeniu krawędzi wyprzedzanego pojazdu w lusterku zewnętrznym.",
+        "textUz": "O'zib o'tilgan transport vositasining chetini tashqi oynada ko'rgach darhol.",
+        "isCorrect": false
+      },
+      {
+        "textPl": "Niezwłocznie po zauważeniu światła wyprzedzanego pojazdu w lusterku zewnętrznym.",
+        "textUz": "O'zib o'tilgan transport vositasining chirog'ini tashqi oynada ko'rgach darhol.",
+        "isCorrect": false
+      },
+      {
+        "textPl": "Po upewnieniu się, że nie zmusi to kierującego pojazdem wyprzedzanym do hamowania lub zmiany toru jazdy.",
+        "textUz": "Bu o'zib o'tilgan transport vositasi haydovchisini tormozlashga yoki yo'nalishni o'zgartirishga majbur qilmasligiga ishonch hosil qilgach.",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "textPl": "Jaka pozycja za kierownicą umożliwi zmniejszenie efektu tzw. martwego pola w lusterkach, występującego w czasie obserwacji drogi?",
+    "textUz": "Yo'lni kuzatishda oynalarda paydo bo'ladigan \"ko'r nuqta\" effektini kamaytirish uchun rul ortida qanday holat yordam beradi?",
+    "category": "Umumiy qoidalar",
+    "isPremium": true,
+    "mediaFileName": "2B312.jpg",
+    "mediaType": "photo",
+    "options": [
+      {
+        "textPl": "Statyczna - sztywne siedzenie na fotelu, bez ruchów tułowia i głowy.",
+        "textUz": "Statik — tanani va boshni harakatlantirmasdan o'rindiqda qattiq o'tirish.",
+        "isCorrect": false
+      },
+      {
+        "textPl": "Dynamiczna - w zależności od sytuacji odchylanie tułowia i głowy od fotela.",
+        "textUz": "Dinamik — vaziyatga qarab tana va boshni o'rindiqdan egish.",
+        "isCorrect": true
+      },
+      {
+        "textPl": "Dowolna - przede wszystkim dająca wygodę kierowania.",
+        "textUz": "Ixtiyoriy — birinchi navbatda haydash uchun qulaylik beradigan.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "textPl": "Jak powinieneś się zachować przed rozpoczęciem wyprzedzania przy dobrej przejrzystości powietrza, aby zapewnić sobie optymalną widoczność drogi?",
+    "textUz": "Havo tiniq bo'lgan sharoitda yo'lni optimal ko'rish uchun o'zib o'tishni boshlashdan oldin qanday harakat qilishingiz kerak?",
+    "category": "O'zib o'tish",
+    "isPremium": true,
+    "mediaFileName": "2B314.jpg",
+    "mediaType": "photo",
+    "options": [
+      {
+        "textPl": "Zbliżę się maksymalnie do pojazdu jadącego przede mną.",
+        "textUz": "Oldimda ketayotgan transport vositasiga imkon qadar yaqinlashaman.",
+        "isCorrect": false
+      },
+      {
+        "textPl": "Będę utrzymywać odstęp od pojazdu poprzedzającego, wystarczający do obserwacji drogi przed tym pojazdem.",
+        "textUz": "Oldingi transport vositasidan uning oldidagi yo'lni kuzatish uchun yetarli masofani saqlayman.",
+        "isCorrect": true
+      },
+      {
+        "textPl": "Użyję sygnału dźwiękowego, żeby zmusić kierującego poprzedzającym pojazdem do zjechania na pobocze lub pas awaryjny.",
+        "textUz": "Oldingi transport vositasi haydovchisini yo'l chetiga yoki avariya yo'lagiga chiqishga majbur qilish uchun tovush signalidan foydalanaman.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "textPl": "W jaki sposób powinieneś obserwować drogę podczas jazdy w ruchu miejskim?",
+    "textUz": "Shahar harakatida haydashda yo'lni qanday kuzatish kerak?",
+    "category": "Umumiy qoidalar",
+    "isPremium": true,
+    "mediaFileName": "2B315.jpg",
+    "mediaType": "photo",
+    "options": [
+      {
+        "textPl": "Tak, aby uzyskać szerokie pole widzenia.",
+        "textUz": "Keng ko'rish maydonini olish uchun.",
+        "isCorrect": true
+      },
+      {
+        "textPl": "Skupiając się na wąskiej przestrzeni bezpośrednio przed pojazdem.",
+        "textUz": "Transport vositasi oldidagi tor maydonga e'tibor qaratib.",
+        "isCorrect": false
+      },
+      {
+        "textPl": "Nie zwracając uwagi na sytuację za pojazdem.",
+        "textUz": "Transport vositasi ortidagi vaziyatga e'tibor bermasdan.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "textPl": "Co powinieneś widzieć w prawidłowo ustawionym lusterku wstecznym (wewnętrznym)?",
+    "textUz": "To'g'ri o'rnatilgan orqa ko'rish oynasida (ichki) nimani ko'rishingiz kerak?",
+    "category": "Umumiy qoidalar",
+    "isPremium": true,
+    "mediaFileName": "2B316.jpg",
+    "mediaType": "photo",
+    "options": [
+      {
+        "textPl": "Dziecko siedzące w foteliku za siedzeniem pasażera.",
+        "textUz": "Yo'lovchi o'rindig'i ortidagi bolalar o'rindig'ida o'tirgan bolani.",
+        "isCorrect": false
+      },
+      {
+        "textPl": "Odbicie własnej twarzy.",
+        "textUz": "O'z yuzingizning aksini.",
+        "isCorrect": false
+      },
+      {
+        "textPl": "Tylną szybę i drogę za pojazdem.",
+        "textUz": "Orqa oynani va transport vositasi ortidagi yo'lni.",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "textPl": "Jak prawidłowo powinieneś ustawić lusterko wsteczne (wewnętrzne)?",
+    "textUz": "Orqa ko'rish oynasini (ichki) qanday to'g'ri o'rnatish kerak?",
+    "category": "Umumiy qoidalar",
+    "isPremium": true,
+    "mediaFileName": "2B317.jpg",
+    "mediaType": "photo",
+    "options": [
+      {
+        "textPl": "Dowolnie, w zależności od tego co chcesz obserwować.",
+        "textUz": "Nimani kuzatmoqchi bo'lishingizga qarab, ixtiyoriy ravishda.",
+        "isCorrect": false
+      },
+      {
+        "textPl": "Tak, aby widzieć tylną szybę i drogę za pojazdem.",
+        "textUz": "Orqa oynani va transport vositasi ortidagi yo'lni ko'rish uchun.",
+        "isCorrect": true
+      },
+      {
+        "textPl": "Tak, aby widzieć siedzącego z tyłu pasażera.",
+        "textUz": "Orqada o'tirgan yo'lovchini ko'rish uchun.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "textPl": "W jaki sposób ustawisz fotel kierowcy przed jazdą?",
+    "textUz": "Haydashdan oldin haydovchi o'rindig'ini qanday sozlaysiz?",
+    "category": "Umumiy qoidalar",
+    "isPremium": true,
+    "mediaFileName": "2B403.jpg",
+    "mediaType": "photo",
+    "options": [
+      {
+        "textPl": "Tak, aby umożliwiał swobodny dostęp do urządzeń pojazdu służących do kierowania i sterowania nim.",
+        "textUz": "Transport vositasini boshqarish uchun mo'ljallangan qurilmalarga erkin kirish imkonini beradigan qilib.",
+        "isCorrect": true
+      },
+      {
+        "textPl": "Tak, aby plecy nie przylegały do oparcia.",
+        "textUz": "Orqa suyanchiqqa tegib turmaydigan qilib.",
+        "isCorrect": false
+      },
+      {
+        "textPl": "Tak, aby ręce trzymające kierownicę były całkowicie wyprostowane w łokciach.",
+        "textUz": "Rulni ushlab turgan qo'llar tirsaklarda to'liq tekis bo'ladigan qilib.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "textPl": "W jakiej kolejności masz obowiązek wykonać poszczególne czynności, gdy przygotowujesz się do jazdy samochodem?",
+    "textUz": "Avtomobilda haydashga tayyorlanayotganda alohida amallarni qanday tartibda bajarish majburiyati bor?",
+    "category": "Umumiy qoidalar",
+    "isPremium": true,
+    "mediaFileName": "2B406.jpg",
+    "mediaType": "photo",
+    "options": [
+      {
+        "textPl": "Zapiąć pasy bezpieczeństwa, ustawić lusterka i fotel kierowcy.",
+        "textUz": "Xavfsizlik kamarini taqish, oynalarni va haydovchi o'rindig'ini sozlash.",
+        "isCorrect": false
+      },
+      {
+        "textPl": "Ustawić lusterka, fotel kierowcy i zapiąć pasy bezpieczeństwa.",
+        "textUz": "Oynalarni, haydovchi o'rindig'ini sozlash va xavfsizlik kamarini taqish.",
+        "isCorrect": false
+      },
+      {
+        "textPl": "Ustawić fotel kierowcy, lusterka i zapiąć pasy bezpieczeństwa.",
+        "textUz": "Haydovchi o'rindig'ini, oynalarni sozlash va xavfsizlik kamarini taqish.",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "textPl": "Na jakim biegu powinieneś rozpocząć jazdę na suchej nawierzchni?",
+    "textUz": "Quruq yo'l yuzasida qaysi uzatmada haydashni boshlash kerak?",
+    "category": "Umumiy qoidalar",
+    "isPremium": true,
+    "mediaFileName": "2B408.jpg",
+    "mediaType": "photo",
+    "options": [
+      {
+        "textPl": "Drugim.",
+        "textUz": "Ikkinchi.",
+        "isCorrect": false
+      },
+      {
+        "textPl": "Najniższym.",
+        "textUz": "Eng past.",
+        "isCorrect": true
+      },
+      {
+        "textPl": "Dowolnym.",
+        "textUz": "Ixtiyoriy.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "textPl": "W jaki sposób powinieneś hamować awaryjnie samochodem osobowym wyposażonym w układ przeciwblokujący (ABS)?",
+    "textUz": "Bloklanishga qarshi tizim (ABS) bilan jihozlangan yengil avtomobilda favqulodda tormozlashni qanday amalga oshirish kerak?",
+    "category": "Umumiy qoidalar",
+    "isPremium": true,
+    "mediaFileName": "2B410.jpg",
+    "mediaType": "photo",
+    "options": [
+      {
+        "textPl": "Mocno wcisnąć pedał hamulca i nie zwalniać go w chwili zadziałania układu ABS.",
+        "textUz": "Tormoz pedalini kuchli bosish va ABS tizimi ishga tushganda uni bo'shatmaslik.",
+        "isCorrect": true
+      },
+      {
+        "textPl": "Mocno wcisnąć pedał hamulca i zmniejszyć nacisk w chwili zadziałania układu ABS.",
+        "textUz": "Tormoz pedalini kuchli bosish va ABS tizimi ishga tushganda bosimni kamaytirish.",
+        "isCorrect": false
+      },
+      {
+        "textPl": "Hamować pulsacyjnie aż do zadziałania układu ABS.",
+        "textUz": "ABS tizimi ishga tushguncha impulsli tormozlash.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "textPl": "W którym momencie wciśniesz pedał sprzęgła, gdy jadąc z dużą prędkością samochodem osobowym, planujesz wykonać manewr hamowania?",
+    "textUz": "Yengil avtomobilda katta tezlikda ketayotganda tormozlash manevrini bajarishni rejalashtirsangiz, murvat pedalini qaysi paytda bosasiz?",
+    "category": "Umumiy qoidalar",
+    "isPremium": true,
+    "mediaFileName": "2B411.jpg",
+    "mediaType": "photo",
+    "options": [
+      {
+        "textPl": "Przed naciśnięciem pedału hamulca.",
+        "textUz": "Tormoz pedalini bosishdan oldin.",
+        "isCorrect": false
+      },
+      {
+        "textPl": "Równocześnie z pedałem hamulca.",
+        "textUz": "Tormoz pedali bilan bir vaqtda.",
+        "isCorrect": false
+      },
+      {
+        "textPl": "Gdy prędkość poruszania się samochodu spadnie do minimalnej dla aktualnego przełożenia.",
+        "textUz": "Avtomobil tezligi joriy uzatma uchun minimal darajaga tushganda.",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "textPl": "Ile maksymalnie osób, wliczając siebie, możesz przewozić kierując prywatnym samochodem osobowym?",
+    "textUz": "Shaxsiy yengil avtomobilni haydaganingizda, o'zingizni ham qo'shib, maksimal nechta odam tashish mumkin?",
+    "category": "Umumiy qoidalar",
+    "isPremium": true,
+    "mediaFileName": "2C101.jpg",
+    "mediaType": "photo",
+    "options": [
+      {
+        "textPl": "Tyle, ile wynosi liczba miejsc określona w dowodzie rejestracyjnym plus jedno dziecko w wieku do 3 lat",
+        "textUz": "Ro'yxatga olish guvohnomasida ko'rsatilgan o'rinlar soni qancha bo'lsa, shuncha, qo'shimcha 3 yoshgacha bo'lgan bitta bola bilan.",
+        "isCorrect": false
+      },
+      {
+        "textPl": "Tyle, ile wynosi liczba miejsc określona w dowodzie rejestracyjnym plus jedno dziecko w wieku do 7 lat.",
+        "textUz": "Ro'yxatga olish guvohnomasida ko'rsatilgan o'rinlar soni qancha bo'lsa, shuncha, qo'shimcha 7 yoshgacha bo'lgan bitta bola bilan.",
+        "isCorrect": false
+      },
+      {
+        "textPl": "Tyle, ile wynosi liczba miejsc określona w dowodzie rejestracyjnym.",
+        "textUz": "Ro'yxatga olish guvohnomasida ko'rsatilgan o'rinlar soni qancha bo'lsa, shuncha.",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "textPl": "Który z wymienionych dokumentów określa dopuszczalną liczbę osób przewożonych pojazdem samochodowym?",
+    "textUz": "Quyidagi hujjatlardan qaysi biri avtomobilda tashiladigan odamlarning ruxsat etilgan sonini belgilaydi?",
+    "category": "Umumiy qoidalar",
+    "isPremium": true,
+    "mediaFileName": "2C102.jpg",
+    "mediaType": "photo",
+    "options": [
+      {
+        "textPl": "Dowód rejestracyjny.",
+        "textUz": "Ro'yxatga olish guvohnomasi.",
+        "isCorrect": true
+      },
+      {
+        "textPl": "Prawo jazdy.",
+        "textUz": "Haydovchilik guvohnomasi.",
+        "isCorrect": false
+      },
+      {
+        "textPl": "Dokument stwierdzający zawarcie umowy obowiązkowego ubezpieczenia odpowiedzialności cywilnej.",
+        "textUz": "Majburiy fuqarolik javobgarligi sug'urtasi shartnomasi tuzilganligini tasdiqlovchi hujjat.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "textPl": "Kto ma obowiązek korzystania z pasów bezpieczeństwa?",
+    "textUz": "Kim xavfsizlik kamaridan foydalanish majburiyatiga ega?",
+    "category": "Umumiy qoidalar",
+    "isPremium": true,
+    "mediaFileName": "2C103.jpg",
+    "mediaType": "photo",
+    "options": [
+      {
+        "textPl": "Tylko kierujący i pasażer siedzący na przednim siedzeniu.",
+        "textUz": "Faqat haydovchi va oldingi o'rindiqda o'tirgan yo'lovchi.",
+        "isCorrect": false
+      },
+      {
+        "textPl": "Kierujący i pasażer - na przednim siedzeniu zawsze, a na tylnym tylko wówczas, gdy pojazd porusza się poza obszarem zabudowanym.",
+        "textUz": "Haydovchi va yo'lovchi — oldingi o'rindiqda har doim, orqa o'rindiqda esa faqat transport vositasi aholi punktidan tashqarida harakatlanganda.",
+        "isCorrect": false
+      },
+      {
+        "textPl": "Kierujący i wszyscy pasażerowie.",
+        "textUz": "Haydovchi va barcha yo'lovchilar.",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "textPl": "Czy dorosły pasażer samochodu osobowego przewożony na tylnym siedzeniu ma obowiązek używania pasów bezpieczeństwa?",
+    "textUz": "Orqa o'rindiqda tashilayotgan yengil avtomobilning kattalar yo'lovchisi xavfsizlik kamaridan foydalanish majburiyatiga egami?",
+    "category": "Umumiy qoidalar",
+    "isPremium": true,
+    "mediaFileName": "2C104.jpg",
+    "mediaType": "photo",
+    "options": [
+      {
+        "textPl": "Nie.",
+        "textUz": "Yo'q.",
+        "isCorrect": false
+      },
+      {
+        "textPl": "Tak, ale tylko wówczas, gdy pojazd porusza się poza obszarem zabudowanym.",
+        "textUz": "Ha, ammo faqat transport vositasi aholi punktidan tashqarida harakatlanganda.",
+        "isCorrect": false
+      },
+      {
+        "textPl": "Tak.",
+        "textUz": "Ha.",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "textPl": "Czy naruszasz przepisy ruchu drogowego, jeżeli kierując pojazdem rozmawiasz przez telefon trzymając go w ręku?",
+    "textUz": "Transport vositasini boshqarayotganda telefonni qo'lda ushlab gaplashsangiz, yo'l harakati qoidalarini buzasizmi?",
+    "category": "Umumiy qoidalar",
+    "isPremium": true,
+    "mediaFileName": "2C105.jpg",
+    "mediaType": "photo",
+    "options": [
+      {
+        "textPl": "Nie, pod warunkiem panowania nad pojazdem.",
+        "textUz": "Yo'q, transport vositasini nazorat qilish sharti bilan.",
+        "isCorrect": false
+      },
+      {
+        "textPl": "Nie, pod warunkiem, że telefon trzymam oddalony od ucha z włączonym trybem głośnomówiącym.",
+        "textUz": "Yo'q, telefonni qulog'imdan uzoqda tutgan holda karnay rejimini yoqqan bo'lsam.",
+        "isCorrect": false
+      },
+      {
+        "textPl": "Tak, nawet wówczas gdy telefon trzymam oddalony od ucha z włączonym trybem głośnomówiącym.",
+        "textUz": "Ha, hatto telefonni qulog'imdan uzoqda tutgan holda karnay rejimini yoqqan bo'lsam ham.",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "textPl": "Ile maksymalnie osób, wliczając siebie, możesz przewozić, gdy masz prawo jazdy kategorii B?",
+    "textUz": "B toifali haydovchilik guvohnomasiga ega bo'lganingizda, o'zingizni ham qo'shib, maksimal nechta odam tashish mumkin?",
+    "category": "Umumiy qoidalar",
+    "isPremium": true,
+    "mediaFileName": "2C108.jpg",
+    "mediaType": "photo",
+    "options": [
+      {
+        "textPl": "5",
+        "textUz": "5",
+        "isCorrect": false
+      },
+      {
+        "textPl": "9",
+        "textUz": "9",
+        "isCorrect": true
+      },
+      {
+        "textPl": "10",
+        "textUz": "10",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "textPl": "Na których drogach publicznych masz obowiązek zapinać pasy bezpieczeństwa?",
+    "textUz": "Qaysi umumiy foydalanish yo'llarida xavfsizlik kamarini taqish majburiyati bor?",
+    "category": "Umumiy qoidalar",
+    "isPremium": true,
+    "mediaFileName": "2C130.jpg",
+    "mediaType": "photo",
+    "options": [
+      {
+        "textPl": "Na wszystkich drogach.",
+        "textUz": "Barcha yo'llarda.",
+        "isCorrect": true
+      },
+      {
+        "textPl": "Tylko na drogach twardych.",
+        "textUz": "Faqat qattiq qoplamali yo'llarda.",
+        "isCorrect": false
+      },
+      {
+        "textPl": "Tylko na drogach poza obszarem zabudowanym.",
+        "textUz": "Faqat aholi punktidan tashqaridagi yo'llarda.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "textPl": "Czy wolno Ci przewozić przedszkolaka na kolanach osoby dorosłej?",
+    "textUz": "Maktabgacha yoshdagi bolani kattalar tizzasida tashish mumkinmi?",
+    "category": "Umumiy qoidalar",
+    "isPremium": true,
+    "mediaFileName": "2C137.jpg",
+    "mediaType": "photo",
+    "options": [
+      {
+        "textPl": "Tak, tylko na tylnym siedzeniu.",
+        "textUz": "Ha, faqat orqa o'rindiqda.",
+        "isCorrect": false
+      },
+      {
+        "textPl": "Nie.",
+        "textUz": "Yo'q.",
+        "isCorrect": true
+      },
+      {
+        "textPl": "Tak, jeżeli korzysta się z pasów bezpieczeństwa.",
+        "textUz": "Ha, agar xavfsizlik kamaridan foydalanilsa.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "textPl": "Czy masz prawo przewozić niemowlaka na kolanach osoby dorosłej?",
+    "textUz": "Chaqaloqni kattalar tizzasida tashish huquqingiz bormi?",
+    "category": "Umumiy qoidalar",
+    "isPremium": true,
+    "mediaFileName": "2C138.jpg",
+    "mediaType": "photo",
+    "options": [
+      {
+        "textPl": "Nie.",
+        "textUz": "Yo'q.",
+        "isCorrect": true
+      },
+      {
+        "textPl": "Tak, ale tylko na tylnym siedzeniu.",
+        "textUz": "Ha, ammo faqat orqa o'rindiqda.",
+        "isCorrect": false
+      },
+      {
+        "textPl": "Tak, ale pod warunkiem, że osoba ta korzysta z pasów bezpieczeństwa.",
+        "textUz": "Ha, ammo shu shaxs xavfsizlik kamaridan foydalanishi sharti bilan.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "textPl": "Jaki jest właściwy sposób przewożenia noworodka samochodem osobowym?",
+    "textUz": "Yengil avtomobilda chaqaloqni tashishning to'g'ri usuli qanday?",
+    "category": "Umumiy qoidalar",
+    "isPremium": true,
+    "mediaFileName": "2C139.jpg",
+    "mediaType": "photo",
+    "options": [
+      {
+        "textPl": "W dowolnym nosidełku, jeśli jest przypięte pasami bezpieczeństwa.",
+        "textUz": "Xavfsizlik kamari bilan mahkamlangan bo'lsa, ixtiyoriy ko'tarma o'rindiqda.",
+        "isCorrect": false
+      },
+      {
+        "textPl": "W odpowiednim dla noworodka foteliku ochronnym.",
+        "textUz": "Chaqaloq uchun mos himoya o'rindig'ida.",
+        "isCorrect": true
+      },
+      {
+        "textPl": "Na kolanach osoby dorosłej z zapiętymi pasami bezpieczeństwa.",
+        "textUz": "Xavfsizlik kamari taqilgan kattalar tizzasida.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "textPl": "Którym z wymienionych zespołów pojazdów możesz kierować mając prawo jazdy kategorii B?",
+    "textUz": "B toifali haydovchilik guvohnomasi bilan quyidagi transport vositalari majmuidan qaysi birini boshqarish mumkin?",
+    "category": "Umumiy qoidalar",
+    "isPremium": true,
+    "mediaFileName": "2C107.jpg",
+    "mediaType": "photo",
+    "options": [
+      {
+        "textPl": "Samochodem ciężarowym o dopuszczalnej masie całkowitej 2,5 t z przyczepą lekką.",
+        "textUz": "Ruxsat etilgan umumiy massasi 2,5 tonna bo'lgan yuk mashinasi yengil tirkama bilan.",
+        "isCorrect": true
+      },
+      {
+        "textPl": "Ciągnikiem rolniczym z dwiema przyczepami.",
+        "textUz": "Ikkita tirkama bilan qishloq xo'jaligi traktori.",
+        "isCorrect": false
+      },
+      {
+        "textPl": "Samochodem osobowym z przyczepą, których łączna dopuszczalna masa całkowita wynosi 4,5 t.",
+        "textUz": "Umumiy ruxsat etilgan massasi 4,5 tonna bo'lgan tirkamali yengil avtomobil.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "textPl": "Jaka jest maksymalna dopuszczalna odległość, licząc od tylnej płaszczyzny obrysu pojazdu, na którą może wystawać ładunek przewożony pojazdem samochodowym?",
+    "textUz": "Transport vositasida tashilayotgan yuk transport vositasining orqa qismidan qancha masofagacha chiqib turishi mumkin?",
+    "category": "Umumiy qoidalar",
+    "isPremium": true,
+    "mediaFileName": "2C117.jpg",
+    "mediaType": "photo",
+    "options": [
+      {
+        "textPl": "2 m.",
+        "textUz": "2 metr.",
+        "isCorrect": true
+      },
+      {
+        "textPl": "1 m.",
+        "textUz": "1 metr.",
+        "isCorrect": false
+      },
+      {
+        "textPl": "0,5 m.",
+        "textUz": "0,5 metr.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "textPl": "Jaka jest maksymalna dopuszczalna długość zespołu pojazdów składającego się z samochodu osobowego i przyczepy kempingowej?",
+    "textUz": "Yengil avtomobil va kemping-tirkamadan iborat transport vositalari majmuining maksimal ruxsat etilgan uzunligi qancha?",
+    "category": "Umumiy qoidalar",
+    "isPremium": true,
+    "mediaFileName": "2C118.jpg",
+    "mediaType": "photo",
+    "options": [
+      {
+        "textPl": "18,75 m.",
+        "textUz": "18,75 metr.",
+        "isCorrect": true
+      },
+      {
+        "textPl": "17,75 m.",
+        "textUz": "17,75 metr.",
+        "isCorrect": false
+      },
+      {
+        "textPl": "15 m.",
+        "textUz": "15 metr.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "textPl": "Którą z tych czynności ma obowiązek wykonać uczestnik wypadku drogowego, w którym są ranni?",
+    "textUz": "Jarohatlangan odamlar bo'lgan yo'l-transport hodisasi ishtirokchisi quyidagi amallardan qaysi birini bajarish majburiyatiga ega?",
+    "category": "Umumiy qoidalar",
+    "isPremium": true,
+    "mediaFileName": "2C120.jpg",
+    "mediaType": "photo",
+    "options": [
+      {
+        "textPl": "Niezwłocznie usunąć pojazd z drogi, aby nie utrudniał ruchu.",
+        "textUz": "Harakatga xalaqit bermasligi uchun transport vositasini darhol yo'ldan olib chiqish.",
+        "isCorrect": false
+      },
+      {
+        "textPl": "Niezwłocznie pozbierać uszkodzone części pojazdu z jezdni, aby nie utrudniały ruchu.",
+        "textUz": "Harakatga xalaqit bermasligi uchun transport vositasining shikastlangan qismlarini darhol yo'ldan yig'ib olish.",
+        "isCorrect": false
+      },
+      {
+        "textPl": "Udzielić niezbędnej pomocy ofiarom wypadku oraz wezwać zespół ratownictwa medycznego i Policję.",
+        "textUz": "Hodisa qurbonlariga zarur yordam ko'rsatish hamda tibbiy yordam brigadasi va politsiyani chaqirish.",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "textPl": "W jakiej odległości za stojącym na autostradzie, uszkodzonym samochodem osobowym, masz obowiązek umieścić ostrzegawczy trójkąt odblaskowy?",
+    "textUz": "Avtomagistralda to'xtab qolgan shikastlangan yengil avtomobil ortidan qancha masofada ogohlantiruvchi aks ettiruvchi uchburchakni qo'yish majburiyati bor?",
+    "category": "Umumiy qoidalar",
+    "isPremium": true,
+    "mediaFileName": "2C121.jpg",
+    "mediaType": "photo",
+    "options": [
+      {
+        "textPl": "30-50 m.",
+        "textUz": "30-50 metr.",
+        "isCorrect": false
+      },
+      {
+        "textPl": "100 m.",
+        "textUz": "100 metr.",
+        "isCorrect": true
+      },
+      {
+        "textPl": "150 m.",
+        "textUz": "150 metr.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "textPl": "Co nazywamy zespołem pojazdów?",
+    "textUz": "Transport vositalari majmuasi deb nimaga aytiladi?",
+    "category": "Umumiy qoidalar",
+    "isPremium": true,
+    "mediaFileName": "2C123.jpg",
+    "mediaType": "photo",
+    "options": [
+      {
+        "textPl": "Samochód osobowy z przyczepą.",
+        "textUz": "Tirkamali yengil avtomobil.",
+        "isCorrect": true
+      },
+      {
+        "textPl": "Motocykl z bocznym wózkiem.",
+        "textUz": "Yon aravachali mototsikl.",
+        "isCorrect": false
+      },
+      {
+        "textPl": "Pojazdy silnikowe złączone w celu holowania.",
+        "textUz": "Bir-biriga tortish maqsadida ulangan motorli transport vositalari.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "textPl": "Który z wymienionych przedmiotów należy do obowiązkowego wyposażenia każdego samochodu osobowego?",
+    "textUz": "Quyidagi buyumlardan qaysi biri har bir yengil avtomobilning majburiy jihoziga kiradi?",
+    "category": "Umumiy qoidalar",
+    "isPremium": true,
+    "mediaFileName": "2C125.jpg",
+    "mediaType": "photo",
+    "options": [
+      {
+        "textPl": "Koło zapasowe.",
+        "textUz": "Zapas g'ildirak.",
+        "isCorrect": false
+      },
+      {
+        "textPl": "Apteczka doraźnej pomocy.",
+        "textUz": "Tez tibbiy yordam qutisi.",
+        "isCorrect": false
+      },
+      {
+        "textPl": "Gaśnica.",
+        "textUz": "O't o'chirgich.",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "textPl": "Czy dozwolone jest oddalanie się od pojazdu, gdy jego silnik jest w ruchu?",
+    "textUz": "Transport vositasining dvigateli ishlab turganda undan uzoqlashish ruxsat etilganmi?",
+    "category": "Umumiy qoidalar",
+    "isPremium": true,
+    "mediaFileName": "2C126.jpg",
+    "mediaType": "photo",
+    "options": [
+      {
+        "textPl": "Nie.",
+        "textUz": "Yo'q.",
+        "isCorrect": true
+      },
+      {
+        "textPl": "Tak, pod warunkiem, że pojazd pozostaje w polu widzenia.",
+        "textUz": "Ha, transport vositasi ko'rish maydonida qolishi sharti bilan.",
+        "isCorrect": false
+      },
+      {
+        "textPl": "Tak, na czas nie dłuższy niż 1 minutę.",
+        "textUz": "Ha, 1 daqiqadan oshmagan vaqtga.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "textPl": "Której z tych czynności nie masz prawa wykonać, gdy uczestniczysz w wypadku, w którym są zabici?",
+    "textUz": "O'lganlar bo'lgan hodisada ishtirok etganingizda quyidagi amallardan qaysi birini bajarish huquqingiz yo'q?",
+    "category": "Umumiy qoidalar",
+    "isPremium": true,
+    "mediaFileName": "2C128.jpg",
+    "mediaType": "photo",
+    "options": [
+      {
+        "textPl": "Usunąć pojazdu z drogi, aby nie utrudniał ruchu.",
+        "textUz": "Harakatga xalaqit bermasligi uchun transport vositasini yo'ldan olib chiqish.",
+        "isCorrect": true
+      },
+      {
+        "textPl": "Udzielić niezbędnej pomocy ofiarom wypadku.",
+        "textUz": "Hodisa qurbonlariga zarur yordam ko'rsatish.",
+        "isCorrect": false
+      },
+      {
+        "textPl": "Wezwać zespołu ratownictwa medycznego.",
+        "textUz": "Tibbiy yordam brigadasini chaqirish.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "textPl": "Który z tych przedmiotów stanowi obowiązkowe wyposażenie każdego samochodu osobowego?",
+    "textUz": "Quyidagi buyumlardan qaysi biri har bir yengil avtomobilning majburiy jihozi hisoblanadi?",
+    "category": "Umumiy qoidalar",
+    "isPremium": true,
+    "mediaFileName": "2C131.jpg",
+    "mediaType": "photo",
+    "options": [
+      {
+        "textPl": "Podnośnik.",
+        "textUz": "Domkrat.",
+        "isCorrect": false
+      },
+      {
+        "textPl": "Ostrzegawczy trójkąt odblaskowy.",
+        "textUz": "Ogohlantiruvchi aks ettiruvchi uchburchak.",
+        "isCorrect": true
+      },
+      {
+        "textPl": "Kamizelka odblaskowa.",
+        "textUz": "Aks ettiruvchi jilet.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "textPl": "Który z tych przedmiotów stanowi obowiązkowe wyposażenie każdego samochodu osobowego?",
+    "textUz": "Quyidagi buyumlardan qaysi biri har bir yengil avtomobilning majburiy jihozi hisoblanadi?",
+    "category": "Umumiy qoidalar",
+    "isPremium": true,
+    "mediaFileName": "2C132.jpg",
+    "mediaType": "photo",
+    "options": [
+      {
+        "textPl": "Ostrzegawczy trójkąt odblaskowy.",
+        "textUz": "Ogohlantiruvchi aks ettiruvchi uchburchak.",
+        "isCorrect": true
+      },
+      {
+        "textPl": "Komplet zapasowych żarówek.",
+        "textUz": "Zapas lampochkalar to'plami.",
+        "isCorrect": false
+      },
+      {
+        "textPl": "Urządzenie głośnomówiące do telefonu.",
+        "textUz": "Telefon uchun karnay qurilmasi.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "textPl": "Który z tych przedmiotów stanowi obowiązkowe wyposażenie każdego samochodu osobowego?",
+    "textUz": "Quyidagi buyumlardan qaysi biri har bir yengil avtomobilning majburiy jihozi hisoblanadi?",
+    "category": "Umumiy qoidalar",
+    "isPremium": true,
+    "mediaFileName": "2C133.jpg",
+    "mediaType": "photo",
+    "options": [
+      {
+        "textPl": "Gaśnica.",
+        "textUz": "O't o'chirgich.",
+        "isCorrect": true
+      },
+      {
+        "textPl": "Nawigacja satelitarna.",
+        "textUz": "Sun'iy yo'ldosh navigatsiyasi.",
+        "isCorrect": false
+      },
+      {
+        "textPl": "Urządzenie do przecinania pasów.",
+        "textUz": "Kamarlarni kesish uchun qurilma.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "textPl": "W jakim terminie masz obowiązek przeprowadzać okresowe badanie techniczne samochodu osobowego?",
+    "textUz": "Yengil avtomobilning davriy texnik ko'rigini qanday muddatda o'tkazish majburiyati bor?",
+    "category": "Umumiy qoidalar",
+    "isPremium": true,
+    "mediaFileName": "2C204.jpg",
+    "mediaType": "photo",
+    "options": [
+      {
+        "textPl": "Zawsze co 3 lata.",
+        "textUz": "Har doim 3 yilda bir marta.",
+        "isCorrect": false
+      },
+      {
+        "textPl": "Zawsze co 2 lata.",
+        "textUz": "Har doim 2 yilda bir marta.",
+        "isCorrect": false
+      },
+      {
+        "textPl": "Przed upływem terminu podanego w dowodzie rejestracyjnym pojazdu.",
+        "textUz": "Transport vositasining ro'yxatga olish guvohnomasida ko'rsatilgan muddat tugashidan oldin.",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "textPl": "Czy masz prawo kierować samochodem osobowym, posiadając prawo jazdy, którego termin ważności upłynął?",
+    "textUz": "Amal qilish muddati tugagan haydovchilik guvohnomasi bilan yengil avtomobilni boshqarish huquqingiz bormi?",
+    "category": "Umumiy qoidalar",
+    "isPremium": true,
+    "mediaFileName": "2C207.jpg",
+    "mediaType": "photo",
+    "options": [
+      {
+        "textPl": "Tak, przez 7 dni po upływie terminu ważności.",
+        "textUz": "Ha, muddat tugaganidan keyin 7 kun davomida.",
+        "isCorrect": false
+      },
+      {
+        "textPl": "Tak, przez 14 dni po upływie terminu ważności.",
+        "textUz": "Ha, muddat tugaganidan keyin 14 kun davomida.",
+        "isCorrect": false
+      },
+      {
+        "textPl": "Nie.",
+        "textUz": "Yo'q.",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "textPl": "W jakim przypadku masz obowiązek przeprowadzić dodatkowe badanie techniczne samochodu osobowego?",
+    "textUz": "Qanday holatda yengil avtomobilning qo'shimcha texnik ko'rigini o'tkazish majburiyati bor?",
+    "category": "Umumiy qoidalar",
+    "isPremium": true,
+    "mediaFileName": "2C211.jpg",
+    "mediaType": "photo",
+    "options": [
+      {
+        "textPl": "Po zmianie właściciela pojazdu.",
+        "textUz": "Transport vositasi egasi o'zgargandan keyin.",
+        "isCorrect": false
+      },
+      {
+        "textPl": "Po skierowaniu przez organ kontroli ruchu drogowego.",
+        "textUz": "Yo'l harakatini nazorat qiluvchi organ yo'llanma bergandan keyin.",
+        "isCorrect": true
+      },
+      {
+        "textPl": "Po wygaśnięciu umowy ubezpieczenia OC.",
+        "textUz": "OSAGO sug'urta shartnomasi muddati tugagandan keyin.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "textPl": "Co powinien zrobić właściciel samochodu osobowego w przypadku utraty tablicy rejestracyjnej?",
+    "textUz": "Yengil avtomobil egasi ro'yxatga olish belgisini yo'qotgan taqdirda nima qilishi kerak?",
+    "category": "Umumiy qoidalar",
+    "isPremium": true,
+    "mediaFileName": "2C212.jpg",
+    "mediaType": "photo",
+    "options": [
+      {
+        "textPl": "Jeździć z jedną tablicą.",
+        "textUz": "Bitta belgi bilan yurish.",
+        "isCorrect": false
+      },
+      {
+        "textPl": "Niezwłocznie zastąpić tablicę rejestracyjną inną, bez znaku legalizacji.",
+        "textUz": "Ro'yxatga olish belgisini legalizatsiya belgisisiz boshqasi bilan darhol almashtirish.",
+        "isCorrect": false
+      },
+      {
+        "textPl": "Wystąpić z wnioskiem o wydanie zalegalizowanego wtórnika tablicy rejestracyjnej.",
+        "textUz": "Ro'yxatga olish belgisining legallashtirilgan dublikatini berish uchun ariza berish.",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "textPl": "Gdzie należy przeprowadzać okresowe badania techniczne pojazdu?",
+    "textUz": "Transport vositasining davriy texnik ko'rigini qayerda o'tkazish kerak?",
+    "category": "Umumiy qoidalar",
+    "isPremium": true,
+    "mediaFileName": "2C217.jpg",
+    "mediaType": "photo",
+    "options": [
+      {
+        "textPl": "W każdym dobrze wyposażonym warsztacie samochodowym.",
+        "textUz": "Har qanday yaxshi jihozlangan avtomobil ustaxonasida.",
+        "isCorrect": false
+      },
+      {
+        "textPl": "W autoryzowanej stacji napraw, która serwisuje pojazd.",
+        "textUz": "Transport vositasiga xizmat ko'rsatadigan avtorizatsiyalangan ta'mirlash stansiyasida.",
+        "isCorrect": false
+      },
+      {
+        "textPl": "W podstawowej lub okręgowej stacji kontroli pojazdów.",
+        "textUz": "Asosiy yoki hududiy transport vositalarini tekshirish stansiyasida.",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "textPl": "Jakie mogą być skutki niezapięcia pasów bezpieczeństwa przez kierowcę?",
+    "textUz": "Haydovchi xavfsizlik kamarini taqmasligining oqibatlari qanday bo'lishi mumkin?",
+    "category": "Umumiy qoidalar",
+    "isPremium": true,
+    "mediaFileName": "2C301.jpg",
+    "mediaType": "photo",
+    "options": [
+      {
+        "textPl": "Większe uszkodzenia pojazdu podczas kolizji.",
+        "textUz": "To'qnashuv paytida transport vositasining kattaroq shikastlanishi.",
+        "isCorrect": false
+      },
+      {
+        "textPl": "Większe obrażenia ciała kierowcy podczas wypadku.",
+        "textUz": "Hodisa paytida haydovchining og'irroq tan jarohatlari.",
+        "isCorrect": true
+      },
+      {
+        "textPl": "Uszkodzenie poduszki powietrznej.",
+        "textUz": "Havo yostig'ining shikastlanishi.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "textPl": "O czym świadczy skok pedału hamulca do dołu, gdy po jego wciśnięciu uruchomisz silnik pojazdu?",
+    "textUz": "Tormoz pedalini bosgan holda dvigatelni ishga tushirganingizda pedalning pastga tushib ketishi nimadan dalolat beradi?",
+    "category": "Umumiy qoidalar",
+    "isPremium": true,
+    "mediaFileName": "2C303.jpg",
+    "mediaType": "photo",
+    "options": [
+      {
+        "textPl": "O działaniu wspomagania układu hamulcowego.",
+        "textUz": "Tormoz tizimi kuchaytirgichining ishlashidan.",
+        "isCorrect": true
+      },
+      {
+        "textPl": "O wysokim poziomie płynu hamulcowego w zbiorniku wyrównawczym.",
+        "textUz": "Kengaytirish bakidagi tormoz suyuqligining yuqori darajasidan.",
+        "isCorrect": false
+      },
+      {
+        "textPl": "O działaniu układu przeciwblokującego (ABS).",
+        "textUz": "Bloklanishga qarshi tizim (ABS) ishlashidan.",
+        "isCorrect": false
+      }
+    ]
+  }
+]

@@ -1,0 +1,534 @@
+[
+  {
+    "code": "D-1",
+    "category": "information",
+    "namePl": "Droga z pierwszeństwem",
+    "nameUz": "Ustuvor yo'l",
+    "imageFileName": "information-D-1.png"
+  },
+  {
+    "code": "D-2",
+    "category": "information",
+    "namePl": "Koniec drogi z pierwszeństwem",
+    "nameUz": "Ustuvor yo'lning tugashi",
+    "imageFileName": "information-D-2.png"
+  },
+  {
+    "code": "D-3",
+    "category": "information",
+    "namePl": "Droga jednokierunkowa",
+    "nameUz": "Bir tomonlama yo'l",
+    "imageFileName": "information-D-3.png"
+  },
+  {
+    "code": "D-4a",
+    "category": "information",
+    "namePl": "Droga bez przejazdu",
+    "nameUz": "O'tib bo'lmaydigan yo'l",
+    "imageFileName": "information-D-4a.png"
+  },
+  {
+    "code": "D-4b",
+    "category": "information",
+    "namePl": "Wjazd na drogę bez przejazdu (prawa strona)",
+    "nameUz": "O'tib bo'lmaydigan yo'lga kirish (o'ng tomon)",
+    "imageFileName": "information-D-4b.png"
+  },
+  {
+    "code": "D-4c",
+    "category": "information",
+    "namePl": "Wjazd na drogę bez przejazdu (lewa strona)",
+    "nameUz": "O'tib bo'lmaydigan yo'lga kirish (chap tomon)",
+    "imageFileName": "information-D-4c.png"
+  },
+  {
+    "code": "D-5",
+    "category": "information",
+    "namePl": "Pierwszeństwo przed nadjeżdżającymi z przeciwka",
+    "nameUz": "Qarshi tomondan keluvchilardan oldin ustuvorlik",
+    "imageFileName": "information-D-5.png"
+  },
+  {
+    "code": "D-6",
+    "category": "information",
+    "namePl": "Przejście dla pieszych",
+    "nameUz": "Piyodalar o'tish joyi",
+    "imageFileName": "information-D-6.png"
+  },
+  {
+    "code": "D-6a",
+    "category": "information",
+    "namePl": "Przejazd dla rowerzystów",
+    "nameUz": "Velosipedchilar o'tish joyi",
+    "imageFileName": "information-D-6a.png"
+  },
+  {
+    "code": "D-6b",
+    "category": "information",
+    "namePl": "Przejście dla pieszych i przejazd dla rowerzystów",
+    "nameUz": "Piyodalar va velosipedchilar o'tish joyi",
+    "imageFileName": "information-D-6b.png"
+  },
+  {
+    "code": "D-7",
+    "category": "information",
+    "namePl": "Droga ekspresowa",
+    "nameUz": "Tezyurar yo'l",
+    "imageFileName": "information-D-7.png"
+  },
+  {
+    "code": "D-8",
+    "category": "information",
+    "namePl": "Koniec drogi ekspresowej",
+    "nameUz": "Tezyurar yo'lning tugashi",
+    "imageFileName": "information-D-8.png"
+  },
+  {
+    "code": "D-9",
+    "category": "information",
+    "namePl": "Autostrada",
+    "nameUz": "Avtomagistral",
+    "imageFileName": "information-D-9.png"
+  },
+  {
+    "code": "D-10",
+    "category": "information",
+    "namePl": "Koniec autostrady",
+    "nameUz": "Avtomagistralning tugashi",
+    "imageFileName": "information-D-10.png"
+  },
+  {
+    "code": "D-11",
+    "category": "information",
+    "namePl": "Początek pasa ruchu dla autobusów",
+    "nameUz": "Avtobus yo'lagining boshlanishi",
+    "imageFileName": "information-D-11.png"
+  },
+  {
+    "code": "D-12",
+    "category": "information",
+    "namePl": "Pas ruchu dla autobusów",
+    "nameUz": "Avtobus yo'lagi",
+    "imageFileName": "information-D-12.png"
+  },
+  {
+    "code": "D-13",
+    "category": "information",
+    "namePl": "Początek pasa wolno jadących",
+    "nameUz": "Sekin yuruvchilar yo'lagining boshlanishi",
+    "imageFileName": "information-D-13.png"
+  },
+  {
+    "code": "D-13a",
+    "category": "information",
+    "namePl": "Początek pasa ruchu",
+    "nameUz": "Qo'shimcha yo'lakning boshlanishi",
+    "imageFileName": "information-D-13a.png"
+  },
+  {
+    "code": "D-14",
+    "category": "information",
+    "namePl": "Koniec pasa ruchu",
+    "nameUz": "Yo'lakning tugashi",
+    "imageFileName": "information-D-14.png"
+  },
+  {
+    "code": "D-15",
+    "category": "information",
+    "namePl": "Przystanek autobusowy",
+    "nameUz": "Avtobus bekati",
+    "imageFileName": "information-D-15.png"
+  },
+  {
+    "code": "D-16",
+    "category": "information",
+    "namePl": "Przystanek trolejbusowy",
+    "nameUz": "Trolleybus bekati",
+    "imageFileName": "information-D-16.png"
+  },
+  {
+    "code": "D-17",
+    "category": "information",
+    "namePl": "Przystanek tramwajowy",
+    "nameUz": "Tramvay bekati",
+    "imageFileName": "information-D-17.png"
+  },
+  {
+    "code": "D-18",
+    "category": "information",
+    "namePl": "Parking",
+    "nameUz": "To'xtash joyi (parking)",
+    "imageFileName": "information-D-18.png"
+  },
+  {
+    "code": "D-18a",
+    "category": "information",
+    "namePl": "Parking — miejsce zastrzeżone",
+    "nameUz": "Bron qilingan to'xtash joyi",
+    "imageFileName": "information-D-18a.png"
+  },
+  {
+    "code": "D-18b",
+    "category": "information",
+    "namePl": "Parking zadaszony",
+    "nameUz": "Yopiq to'xtash joyi",
+    "imageFileName": "information-D-18b.png"
+  },
+  {
+    "code": "D-19",
+    "category": "information",
+    "namePl": "Postój taksówek",
+    "nameUz": "Taksi to'xtash joyi",
+    "imageFileName": "information-D-19.png"
+  },
+  {
+    "code": "D-20",
+    "category": "information",
+    "namePl": "Koniec postoju taksówek",
+    "nameUz": "Taksi to'xtash joyining tugashi",
+    "imageFileName": "information-D-20.png"
+  },
+  {
+    "code": "D-21",
+    "category": "information",
+    "namePl": "Szpital",
+    "nameUz": "Kasalxona",
+    "imageFileName": "information-D-21.png"
+  },
+  {
+    "code": "D-21a",
+    "category": "information",
+    "namePl": "Posterunek policji",
+    "nameUz": "Politsiya bo'limi",
+    "imageFileName": "information-D-21a.png"
+  },
+  {
+    "code": "D-22",
+    "category": "information",
+    "namePl": "Punkt pierwszej pomocy",
+    "nameUz": "Tez tibbiy yordam punkti",
+    "imageFileName": "information-D-22.png"
+  },
+  {
+    "code": "D-23",
+    "category": "information",
+    "namePl": "Stacja paliwowa",
+    "nameUz": "Yoqilg'i quyish shoxobchasi",
+    "imageFileName": "information-D-23.png"
+  },
+  {
+    "code": "D-23a",
+    "category": "information",
+    "namePl": "Stacja paliwowa z gazem",
+    "nameUz": "Gaz bilan yoqilg'i quyish shoxobchasi",
+    "imageFileName": "information-D-23a.png"
+  },
+  {
+    "code": "D-23b",
+    "category": "information",
+    "namePl": "Stacja paliwowa z ładowaniem pojazdów elektrycznych",
+    "nameUz": "Elektromobil zaryadlash shoxobchali yoqilg'i quyish shoxobchasi",
+    "imageFileName": "information-D-23b.png"
+  },
+  {
+    "code": "D-23c",
+    "category": "information",
+    "namePl": "Stacja ładowania pojazdów elektrycznych",
+    "nameUz": "Elektromobillar uchun zaryadlash shoxobchasi",
+    "imageFileName": "information-D-23c.png"
+  },
+  {
+    "code": "D-24",
+    "category": "information",
+    "namePl": "Telefon",
+    "nameUz": "Telefon",
+    "imageFileName": "information-D-24.png"
+  },
+  {
+    "code": "D-25",
+    "category": "information",
+    "namePl": "Poczta",
+    "nameUz": "Pochta bo'limi",
+    "imageFileName": "information-D-25.png"
+  },
+  {
+    "code": "D-26a",
+    "category": "information",
+    "namePl": "Wulkanizacja / serwis opon",
+    "nameUz": "Shina ta'mirlash xizmati",
+    "imageFileName": "information-D-26a.png"
+  },
+  {
+    "code": "D-26b",
+    "category": "information",
+    "namePl": "Myjnia",
+    "nameUz": "Avtomobil yuvish shoxobchasi",
+    "imageFileName": "information-D-26b.png"
+  },
+  {
+    "code": "D-26c",
+    "category": "information",
+    "namePl": "Toaleta publiczna",
+    "nameUz": "Umumiy hojatxona",
+    "imageFileName": "information-D-26c.png"
+  },
+  {
+    "code": "D-26d",
+    "category": "information",
+    "namePl": "Prysznic",
+    "nameUz": "Dush",
+    "imageFileName": "information-D-26d.png"
+  },
+  {
+    "code": "D-27",
+    "category": "information",
+    "namePl": "Bufet lub kawiarnia",
+    "nameUz": "Bufet yoki kafe",
+    "imageFileName": "information-D-27.png"
+  },
+  {
+    "code": "D-28",
+    "category": "information",
+    "namePl": "Restauracja",
+    "nameUz": "Restoran",
+    "imageFileName": "information-D-28.png"
+  },
+  {
+    "code": "D-29",
+    "category": "information",
+    "namePl": "Hotel lub motel",
+    "nameUz": "Mehmonxona yoki motel",
+    "imageFileName": "information-D-29.png"
+  },
+  {
+    "code": "D-30",
+    "category": "information",
+    "namePl": "Kemping",
+    "nameUz": "Kemping",
+    "imageFileName": "information-D-30.png"
+  },
+  {
+    "code": "D-31",
+    "category": "information",
+    "namePl": "Kemping z gniazdkami elektrycznymi",
+    "nameUz": "Elektr rozetkali kemping",
+    "imageFileName": "information-D-31.png"
+  },
+  {
+    "code": "D-32",
+    "category": "information",
+    "namePl": "Pole biwakowe",
+    "nameUz": "Bivuak (chodir qurish) joyi",
+    "imageFileName": "information-D-32.png"
+  },
+  {
+    "code": "D-33",
+    "category": "information",
+    "namePl": "Schronisko młodzieżowe",
+    "nameUz": "Yoshlar turargohi (xostel)",
+    "imageFileName": "information-D-33.png"
+  },
+  {
+    "code": "D-34",
+    "category": "information",
+    "namePl": "Informacja turystyczna",
+    "nameUz": "Turistik ma'lumot punkti",
+    "imageFileName": "information-D-34.png"
+  },
+  {
+    "code": "D-34a",
+    "category": "information",
+    "namePl": "Radiowa informacja drogowa",
+    "nameUz": "Yo'l harakati haqida radio ma'lumot",
+    "imageFileName": "information-D-34a.png"
+  },
+  {
+    "code": "D-34b",
+    "category": "information",
+    "namePl": "Tablica zbiorczej informacji",
+    "nameUz": "Umumiy ma'lumot taxtasi",
+    "imageFileName": "information-D-34b.png"
+  },
+  {
+    "code": "D-35",
+    "category": "information",
+    "namePl": "Przejście podziemne",
+    "nameUz": "Yerosti o'tish joyi",
+    "imageFileName": "information-D-35.png"
+  },
+  {
+    "code": "D-35a",
+    "category": "information",
+    "namePl": "Ruchome schody w dół",
+    "nameUz": "Pastga eskalator",
+    "imageFileName": "information-D-35a.png"
+  },
+  {
+    "code": "D-36",
+    "category": "information",
+    "namePl": "Przejście nadziemne (kładka)",
+    "nameUz": "Piyodalar ko'prigi (yer usti o'tish joyi)",
+    "imageFileName": "information-D-36.png"
+  },
+  {
+    "code": "D-36a",
+    "category": "information",
+    "namePl": "Ruchome schody w górę",
+    "nameUz": "Yuqoriga eskalator",
+    "imageFileName": "information-D-36a.png"
+  },
+  {
+    "code": "D-37",
+    "category": "information",
+    "namePl": "Tunel",
+    "nameUz": "Tunnel",
+    "imageFileName": "information-D-37.png"
+  },
+  {
+    "code": "D-38",
+    "category": "information",
+    "namePl": "Koniec tunelu",
+    "nameUz": "Tunnelning tugashi",
+    "imageFileName": "information-D-38.png"
+  },
+  {
+    "code": "D-39a",
+    "category": "information",
+    "namePl": "Informacja o opłatach drogowych",
+    "nameUz": "Yo'l haqi haqida ma'lumot",
+    "imageFileName": "information-D-39a.png"
+  },
+  {
+    "code": "D-40",
+    "category": "information",
+    "namePl": "Strefa zamieszkania",
+    "nameUz": "Turar-joy zonasi",
+    "imageFileName": "information-D-40.png"
+  },
+  {
+    "code": "D-41",
+    "category": "information",
+    "namePl": "Koniec strefy zamieszkania",
+    "nameUz": "Turar-joy zonasining tugashi",
+    "imageFileName": "information-D-41.png"
+  },
+  {
+    "code": "D-42",
+    "category": "information",
+    "namePl": "Obszar zabudowany",
+    "nameUz": "Aholi punkti",
+    "imageFileName": "information-D-42.png"
+  },
+  {
+    "code": "D-43",
+    "category": "information",
+    "namePl": "Koniec obszaru zabudowanego",
+    "nameUz": "Aholi punktining tugashi",
+    "imageFileName": "information-D-43.png"
+  },
+  {
+    "code": "D-44",
+    "category": "information",
+    "namePl": "Strefa płatnego parkowania",
+    "nameUz": "Pullik to'xtash zonasi",
+    "imageFileName": "information-D-44.png"
+  },
+  {
+    "code": "D-45",
+    "category": "information",
+    "namePl": "Koniec strefy płatnego parkowania",
+    "nameUz": "Pullik to'xtash zonasining tugashi",
+    "imageFileName": "information-D-45.png"
+  },
+  {
+    "code": "D-46",
+    "category": "information",
+    "namePl": "Droga wewnętrzna",
+    "nameUz": "Nodavlat (xususiy) yo'l",
+    "imageFileName": "information-D-46.png"
+  },
+  {
+    "code": "D-47",
+    "category": "information",
+    "namePl": "Koniec drogi wewnętrznej",
+    "nameUz": "Xususiy yo'lning tugashi",
+    "imageFileName": "information-D-47.png"
+  },
+  {
+    "code": "D-48",
+    "category": "information",
+    "namePl": "Zmiana pierwszeństwa",
+    "nameUz": "Ustuvorlikning o'zgarishi",
+    "imageFileName": "information-D-48.png"
+  },
+  {
+    "code": "D-48a",
+    "category": "information",
+    "namePl": "Zmiana pierwszeństwa — ustąpienie",
+    "nameUz": "Ustuvorlikning yo'l berishga o'zgarishi",
+    "imageFileName": "information-D-48a.png"
+  },
+  {
+    "code": "D-49",
+    "category": "information",
+    "namePl": "Pobór opłat",
+    "nameUz": "Yo'l haqi yig'ish",
+    "imageFileName": "information-D-49.png"
+  },
+  {
+    "code": "D-50",
+    "category": "information",
+    "namePl": "Zatoka",
+    "nameUz": "To'xtash uchun cho'ntak (zatoka)",
+    "imageFileName": "information-D-50.png"
+  },
+  {
+    "code": "D-51",
+    "category": "information",
+    "namePl": "Automatyczna kontrola prędkości",
+    "nameUz": "Avtomatik tezlik nazorati",
+    "imageFileName": "information-D-51.png"
+  },
+  {
+    "code": "D-51a",
+    "category": "information",
+    "namePl": "Automatyczna kontrola średniej prędkości",
+    "nameUz": "O'rtacha tezlikni avtomatik nazorat qilish",
+    "imageFileName": "information-D-51a.png"
+  },
+  {
+    "code": "D-51b",
+    "category": "information",
+    "namePl": "Koniec automatycznej kontroli średniej prędkości",
+    "nameUz": "O'rtacha tezlik nazoratining tugashi",
+    "imageFileName": "information-D-51b.png"
+  },
+  {
+    "code": "D-52",
+    "category": "information",
+    "namePl": "Strefa ruchu",
+    "nameUz": "Harakat zonasi",
+    "imageFileName": "information-D-52.png"
+  },
+  {
+    "code": "D-53",
+    "category": "information",
+    "namePl": "Koniec strefy ruchu",
+    "nameUz": "Harakat zonasining tugashi",
+    "imageFileName": "information-D-53.png"
+  },
+  {
+    "code": "D-54",
+    "category": "information",
+    "namePl": "Strefa czystego transportu",
+    "nameUz": "Toza transport zonasi",
+    "imageFileName": "information-D-54.png"
+  },
+  {
+    "code": "D-55",
+    "category": "information",
+    "namePl": "Koniec strefy czystego transportu",
+    "nameUz": "Toza transport zonasining tugashi",
+    "imageFileName": "information-D-55.png"
+  }
+]

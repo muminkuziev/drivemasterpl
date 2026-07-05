@@ -1,0 +1,1002 @@
+[
+  {
+    "textPl": "Jaki może być skutek używania zużytych piór wycieraczek w samochodzie osobowym?",
+    "textUz": "Yengil avtomobilda yeyilgan tozalagich patlaridan foydalanish qanday oqibatga olib kelishi mumkin?",
+    "category": "Umumiy qoidalar",
+    "isPremium": true,
+    "mediaFileName": "Slajd127_cen_1024x576.jpg",
+    "mediaType": "photo",
+    "options": [
+      {
+        "textPl": "Większe zużycie akumulatora.",
+        "textUz": "Akkumulyator sarfining ko'proq bo'lishi.",
+        "isCorrect": false
+      },
+      {
+        "textPl": "Mniejsza widoczność drogi w czasie deszczu.",
+        "textUz": "Yomg'ir paytida yo'l ko'rinishining kamayishi.",
+        "isCorrect": true
+      },
+      {
+        "textPl": "Mniejsze zużycie płynu do spryskiwaczy.",
+        "textUz": "Purkagich suyuqligi sarfining kamroq bo'lishi.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "textPl": "O jakim niebezpieczeństwie ostrzega przedstawiony znak pionowy?",
+    "textUz": "Ko'rsatilgan vertikal belgi qanday xavf haqida ogohlantiradi?",
+    "category": "Yo'l belgilari",
+    "isPremium": true,
+    "mediaFileName": "A-19_1024x576.jpg",
+    "mediaType": "photo",
+    "options": [
+      {
+        "textPl": "O silnych bocznych podmuchach wiatru.",
+        "textUz": "Kuchli yon shamol zarbalari haqida.",
+        "isCorrect": true
+      },
+      {
+        "textPl": "O silnych podmuchach wiatru występujących tylko z prawej strony.",
+        "textUz": "Faqat o'ng tomondan bo'ladigan kuchli shamol zarbalari haqida.",
+        "isCorrect": false
+      },
+      {
+        "textPl": "O silnych czołowych podmuchach wiatru.",
+        "textUz": "Kuchli frontal shamol zarbalari haqida.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "textPl": "W której fazie intensywnego deszczu jezdnia asfaltowa jest najbardziej śliska?",
+    "textUz": "Kuchli yomg'irning qaysi bosqichida asfalt yo'l eng sirpanchiq bo'ladi?",
+    "category": "Umumiy qoidalar",
+    "isPremium": true,
+    "mediaFileName": "Slajd_002013_cen_1024x576.jpg",
+    "mediaType": "photo",
+    "options": [
+      {
+        "textPl": "Początkowej.",
+        "textUz": "Boshlang'ich bosqichida.",
+        "isCorrect": true
+      },
+      {
+        "textPl": "Środkowej.",
+        "textUz": "O'rta bosqichida.",
+        "isCorrect": false
+      },
+      {
+        "textPl": "Końcowej.",
+        "textUz": "Yakuniy bosqichida.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "textPl": "W którym z wymienionych przypadków masz obowiązek zmienić światła drogowe na mijania?",
+    "textUz": "Quyidagi holatlardan qaysi birida uzoq nur chiroqlarini yaqin nurga o'zgartirish majburiyati bor?",
+    "category": "Svetofor va yorug'lik",
+    "isPremium": true,
+    "mediaFileName": "Slajd426_cen_1024x576.jpg",
+    "mediaType": "photo",
+    "options": [
+      {
+        "textPl": "Gdy zbliżasz się do pieszego idącego w tym samym kierunku.",
+        "textUz": "Bir xil yo'nalishda ketayotgan piyodaga yaqinlashganda.",
+        "isCorrect": false
+      },
+      {
+        "textPl": "Gdy zbliżasz się do nadjeżdżającego poprzeczną drogą pojazdu.",
+        "textUz": "Ko'ndalang yo'ldan kelayotgan transport vositasiga yaqinlashganda.",
+        "isCorrect": false
+      },
+      {
+        "textPl": "Gdy zbliżasz się do jadącego przed tobą pojazdu i istnieje możliwość oślepienia kierującego.",
+        "textUz": "Oldingizda ketayotgan transport vositasiga yaqinlashganingizda va haydovchini ko'zini qamashtirish ehtimoli bo'lganda.",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "textPl": "Co powinieneś zrobić w tej sytuacji?",
+    "textUz": "Bu vaziyatda nima qilishingiz kerak?",
+    "category": "Umumiy qoidalar",
+    "isPremium": true,
+    "mediaFileName": "Slajd_001954_1024x576.jpg",
+    "mediaType": "photo",
+    "options": [
+      {
+        "textPl": "Masz prawo zmienić pas ruchu na lewy.",
+        "textUz": "Chap yo'lakka o'tish huquqingiz bor.",
+        "isCorrect": false
+      },
+      {
+        "textPl": "Powinieneś pozostać na zajmowanym pasie.",
+        "textUz": "Egallagan yo'lakda qolishingiz kerak.",
+        "isCorrect": true
+      },
+      {
+        "textPl": "Podczas zmiany pasa ruchu nie musisz zachować szczególnej ostrożności.",
+        "textUz": "Yo'lakni almashtirishda alohida ehtiyotkorlik ko'rsatishingiz shart emas.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "textPl": "Czy holowany pojazd ma wpływ na pole widzenia kierowcy?",
+    "textUz": "Tortilayotgan transport vositasi haydovchining ko'rish maydoniga ta'sir qiladimi?",
+    "category": "Umumiy qoidalar",
+    "isPremium": true,
+    "mediaFileName": "Slajd_001573_cen_1024x576.jpg",
+    "mediaType": "photo",
+    "options": [
+      {
+        "textPl": "Nie ma żadnego wpływu na ograniczenie pola widzenia.",
+        "textUz": "Ko'rish maydonini cheklashga hech qanday ta'sir qilmaydi.",
+        "isCorrect": false
+      },
+      {
+        "textPl": "Tylko podczas wykonywania manewru zawracania na skrzyżowaniu.",
+        "textUz": "Faqat chorrahada orqaga qaytish manevrini bajarishda.",
+        "isCorrect": false
+      },
+      {
+        "textPl": "Ma wpływ na ograniczenie pola widzenia.",
+        "textUz": "Ko'rish maydonini cheklashga ta'sir qiladi.",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "textPl": "Czy przejrzystość szyb ma wpływ na pole widzenia kierowcy?",
+    "textUz": "Oynalarning tiniqligi haydovchining ko'rish maydoniga ta'sir qiladimi?",
+    "category": "Umumiy qoidalar",
+    "isPremium": true,
+    "mediaFileName": "Slajd_003515_1024x576.jpg",
+    "mediaType": "photo",
+    "options": [
+      {
+        "textPl": "Ma wpływ na ograniczenie pola widzenia.",
+        "textUz": "Ko'rish maydonini cheklashga ta'sir qiladi.",
+        "isCorrect": true
+      },
+      {
+        "textPl": "Tylko w warunkach zmniejszonej przejrzystości powietrza.",
+        "textUz": "Faqat havo tiniqligi kamaygan sharoitda.",
+        "isCorrect": false
+      },
+      {
+        "textPl": "Nie ma żadnego wpływu na ograniczenie pola widzenia.",
+        "textUz": "Ko'rish maydonini cheklashga hech qanday ta'sir qilmaydi.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "textPl": "Jaki czynnik powoduje zmniejszenie pola widzenia kierującego pojazdem?",
+    "textUz": "Qanday omil transport vositasi haydovchisining ko'rish maydonini kamaytiradi?",
+    "category": "Umumiy qoidalar",
+    "isPremium": true,
+    "mediaFileName": "Slajd277_cen_1024x576.jpg",
+    "mediaType": "photo",
+    "options": [
+      {
+        "textPl": "Duża prędkość jazdy.",
+        "textUz": "Katta harakat tezligi.",
+        "isCorrect": true
+      },
+      {
+        "textPl": "Dobra przejrzystość powietrza.",
+        "textUz": "Havoning yaxshi tiniqligi.",
+        "isCorrect": false
+      },
+      {
+        "textPl": "Zbyt mała prędkość.",
+        "textUz": "Juda kichik tezlik.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "textPl": "Jakie czynniki wpływają na poprawę pola widzenia?",
+    "textUz": "Qanday omillar ko'rish maydonini yaxshilashga ta'sir qiladi?",
+    "category": "Umumiy qoidalar",
+    "isPremium": true,
+    "mediaFileName": "Slajd_001946_1_1024x576.jpg",
+    "mediaType": "photo",
+    "options": [
+      {
+        "textPl": "Zwiększanie prędkości pojazdu.",
+        "textUz": "Transport vositasi tezligini oshirish.",
+        "isCorrect": false
+      },
+      {
+        "textPl": "Zmniejszanie prędkości pojazdu.",
+        "textUz": "Transport vositasi tezligini kamaytirish.",
+        "isCorrect": true
+      },
+      {
+        "textPl": "Stres kierowcy.",
+        "textUz": "Haydovchining stressi.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "textPl": "Które w wymienionych elementów drogi powinieneś obserwować podczas jazdy autostradą?",
+    "textUz": "Avtomagistralda haydashda yo'lning quyidagi elementlaridan qaysi birini kuzatishingiz kerak?",
+    "category": "Umumiy qoidalar",
+    "isPremium": true,
+    "mediaFileName": "Slajd_001936_35_1024x576.jpg",
+    "mediaType": "photo",
+    "options": [
+      {
+        "textPl": "Tylko swój pas ruchu przed pojazdem.",
+        "textUz": "Faqat transport vositasi oldidagi o'z yo'lagini.",
+        "isCorrect": false
+      },
+      {
+        "textPl": "Całą jezdnię i pobocze przed i za pojazdem.",
+        "textUz": "Transport vositasi oldi va ortidagi butun yo'l va yo'l chekkasini.",
+        "isCorrect": true
+      },
+      {
+        "textPl": "Tylko swój pas ruchu i prawe pobocze przed pojazdem.",
+        "textUz": "Faqat o'z yo'lagi va transport vositasi oldidagi o'ng yo'l chekkasini.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "textPl": "W jaki sposób powinno być ustawione lusterko zewnętrzne w samochodzie osobowym?",
+    "textUz": "Yengil avtomobilda tashqi oyna qanday sozlanishi kerak?",
+    "category": "Umumiy qoidalar",
+    "isPremium": true,
+    "mediaFileName": "Slajd_001950_1024x576.jpg",
+    "mediaType": "photo",
+    "options": [
+      {
+        "textPl": "Tak, aby w połowie lusterka była widoczna boczna szyba przednich drzwi.",
+        "textUz": "Oynaning yarmida old eshiklarning yon oynasi ko'rinadigan qilib.",
+        "isCorrect": false
+      },
+      {
+        "textPl": "Tak, aby w lusterku nie był widoczny bok pojazdu.",
+        "textUz": "Oynada transport vositasining yon qismi ko'rinmaydigan qilib.",
+        "isCorrect": false
+      },
+      {
+        "textPl": "Tak, aby w lusterku był widoczny fragment boku pojazdu oraz droga za pojazdem.",
+        "textUz": "Oynada transport vositasining yon qismi va uning ortidagi yo'l ko'rinadigan qilib.",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "textPl": "W jaki sposób prędkość pojazdu wpływa na pole widzenia kierowcy?",
+    "textUz": "Transport vositasining tezligi haydovchining ko'rish maydoniga qanday ta'sir qiladi?",
+    "category": "Umumiy qoidalar",
+    "isPremium": true,
+    "mediaFileName": "Slajd_004037_1024x576.jpg",
+    "mediaType": "photo",
+    "options": [
+      {
+        "textPl": "Wraz ze wzrostem prędkości pole widzenia zmniejsza się.",
+        "textUz": "Tezlik oshgani sari ko'rish maydoni kamayadi.",
+        "isCorrect": true
+      },
+      {
+        "textPl": "Wraz ze wzrostem prędkości pole widzenia zwiększa się.",
+        "textUz": "Tezlik oshgani sari ko'rish maydoni kengayadi.",
+        "isCorrect": false
+      },
+      {
+        "textPl": "Nie ma wpływu.",
+        "textUz": "Ta'sir qilmaydi.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "textPl": "Jak powinieneś zachować się wjeżdżając na odcinek drogi pokryty kałużami?",
+    "textUz": "Ko'lmaklar bilan qoplangan yo'l qismiga kirganingizda qanday harakat qilishingiz kerak?",
+    "category": "Umumiy qoidalar",
+    "isPremium": true,
+    "mediaFileName": "Slajd_002013_cen_1024x576.jpg",
+    "mediaType": "photo",
+    "options": [
+      {
+        "textPl": "Ograniczyć prędkość jazdy.",
+        "textUz": "Harakat tezligini kamaytirish.",
+        "isCorrect": true
+      },
+      {
+        "textPl": "Zwiększać prędkość jazdy.",
+        "textUz": "Harakat tezligini oshirish.",
+        "isCorrect": false
+      },
+      {
+        "textPl": "Zjechać na pas ruchu dla kierunku przeciwnego.",
+        "textUz": "Qarshi yo'nalish uchun yo'lakka chiqib olish.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "textPl": "Jaki tor jazdy powinieneś obrać w początkowej fazie pokonywania pokazanego zakrętu w lewo?",
+    "textUz": "Ko'rsatilgan chapga burilishni bosib o'tishning boshlang'ich bosqichida qanday harakat yo'nalishini tanlashingiz kerak?",
+    "category": "Umumiy qoidalar",
+    "isPremium": true,
+    "mediaFileName": "Slajd_002786_5_1024x576.jpg",
+    "mediaType": "photo",
+    "options": [
+      {
+        "textPl": "Maksymalnie zjeżdżając do środka jezdni, najeżdżając na podwójną ciągłą linię.",
+        "textUz": "Yo'lning o'rtasiga imkon qadar yaqinlashib, qo'sh uzluksiz chiziqqa chiqib.",
+        "isCorrect": false
+      },
+      {
+        "textPl": "Zjeżdżając do środka jezdni, ale nie przekraczając podwójnej ciągłej linii.",
+        "textUz": "Yo'lning o'rtasiga yaqinlashib, ammo qo'sh uzluksiz chiziqni kesib o'tmasdan.",
+        "isCorrect": false
+      },
+      {
+        "textPl": "Zbliżyć się do prawej krawędzi jezdni.",
+        "textUz": "Yo'lning o'ng chetiga yaqinlashish.",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "textPl": "Która z wymienionych technik jazdy pasuje do określenia „ekonomiczna jazda samochodem”?",
+    "textUz": "Quyidagi haydash usullaridan qaysi biri \"iqtisodiy haydash\" tushunchasiga mos keladi?",
+    "category": "Umumiy qoidalar",
+    "isPremium": true,
+    "mediaFileName": "Slajd5081_cen_1024x576.jpg",
+    "mediaType": "photo",
+    "options": [
+      {
+        "textPl": "Używanie tylko hamulca roboczego do zmniejszania prędkości jazdy.",
+        "textUz": "Tezlikni kamaytirish uchun faqat ishchi tormozdan foydalanish.",
+        "isCorrect": false
+      },
+      {
+        "textPl": "Używanie silnika do zmniejszania prędkości jazdy.",
+        "textUz": "Tezlikni kamaytirish uchun dvigateldan foydalanish.",
+        "isCorrect": true
+      },
+      {
+        "textPl": "Częsta zmiana biegów, w celu utrzymania wysokich obrotów silnika.",
+        "textUz": "Dvigatelning yuqori aylanishlarini saqlash uchun tez-tez uzatmalarni almashtirish.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "textPl": "Która z wymienionych technik jazdy pasuje do określenia „ekonomiczna jazda samochodem”?",
+    "textUz": "Quyidagi haydash usullaridan qaysi biri \"iqtisodiy haydash\" tushunchasiga mos keladi?",
+    "category": "Umumiy qoidalar",
+    "isPremium": true,
+    "mediaFileName": "Slajd5081_cen_1024x576.jpg",
+    "mediaType": "photo",
+    "options": [
+      {
+        "textPl": "Częste używanie hamulca roboczego.",
+        "textUz": "Ishchi tormozdan tez-tez foydalanish.",
+        "isCorrect": false
+      },
+      {
+        "textPl": "Unikanie gwałtownych hamowań i przyspieszeń.",
+        "textUz": "Keskin tormozlash va tezlashishdan qochish.",
+        "isCorrect": true
+      },
+      {
+        "textPl": "Częsta zmiana biegów.",
+        "textUz": "Tez-tez uzatmalarni almashtirish.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "textPl": "Na czym powinna polegać prawidłowa technika jazdy w tej sytuacji drogowej?",
+    "textUz": "Bu yo'l vaziyatida to'g'ri haydash texnikasi nimadan iborat bo'lishi kerak?",
+    "category": "Umumiy qoidalar",
+    "isPremium": true,
+    "mediaFileName": "Slajd_003893_67_1024x576.jpg",
+    "mediaType": "photo",
+    "options": [
+      {
+        "textPl": "Na dobraniu odpowiedniej prędkości jazdy.",
+        "textUz": "Mos harakat tezligini tanlashdan.",
+        "isCorrect": true
+      },
+      {
+        "textPl": "Na zajmowaniu środka jezdni.",
+        "textUz": "Yo'lning o'rtasini egallashdan.",
+        "isCorrect": false
+      },
+      {
+        "textPl": "Na jeździe z możliwie najniższym biegiem.",
+        "textUz": "Iloji boricha eng past uzatmada yurishdan.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "textPl": "W jaki sposób można ułatwić sobie wyjazd samochodem osobowym z grząskiego śniegu?",
+    "textUz": "Yumshoq qordan yengil avtomobil bilan chiqishni qanday osonlashtirish mumkin?",
+    "category": "Umumiy qoidalar",
+    "isPremium": true,
+    "mediaFileName": "Slajd693_cen_1024x576.jpg",
+    "mediaType": "photo",
+    "options": [
+      {
+        "textPl": "Kilkakrotne cofając i ruszając do przodu.",
+        "textUz": "Bir necha marta orqaga va oldinga yurish orqali.",
+        "isCorrect": true
+      },
+      {
+        "textPl": "Ruszając na dużych obrotach silnika.",
+        "textUz": "Dvigatelning yuqori aylanishlarida qo'zg'alish orqali.",
+        "isCorrect": false
+      },
+      {
+        "textPl": "Puszczając gwałtownie pedał sprzęgła.",
+        "textUz": "Murvat pedalini keskin qo'yib yuborish orqali.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "textPl": "Czy dopuszczalne jest holowanie samochodem osobowym na autostradzie do najbliższego wyjazdu lub miejsca obsługi podróżnych?",
+    "textUz": "Avtomagistralda eng yaqin chiqish yoki dam olish maskaniga qadar yengil avtomobilni tortish mumkinmi?",
+    "category": "Umumiy qoidalar",
+    "isPremium": true,
+    "mediaFileName": "790_1024x576.jpg",
+    "mediaType": "photo",
+    "options": [
+      {
+        "textPl": "Nie.",
+        "textUz": "Yo'q.",
+        "isCorrect": true
+      },
+      {
+        "textPl": "Tak.",
+        "textUz": "Ha.",
+        "isCorrect": false
+      },
+      {
+        "textPl": "Tak, ale jadąc z maksymalną prędkością 20 km/h.",
+        "textUz": "Ha, ammo maksimal 20 km/soat tezlikda yurib.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "textPl": "Czy przewożąc pasażera w wieku 6 lat motorowerem masz prawo poruszać się z prędkością 50 km/h?",
+    "textUz": "6 yoshli yo'lovchini mopedda tashiyotganingizda 50 km/soat tezlikda harakatlanish huquqingiz bormi?",
+    "category": "Umumiy qoidalar",
+    "isPremium": true,
+    "mediaFileName": "N181.jpg",
+    "mediaType": "photo",
+    "options": [
+      {
+        "textPl": "Tak, ale tylko w godz. 5.00-23.00.",
+        "textUz": "Ha, ammo faqat soat 5:00-23:00 oralig'ida.",
+        "isCorrect": false
+      },
+      {
+        "textPl": "Tak.",
+        "textUz": "Ha.",
+        "isCorrect": false
+      },
+      {
+        "textPl": "Nie.",
+        "textUz": "Yo'q.",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "textPl": "Ile wynosi maksymalnie dopuszczalna długość zespołu pojazdów składającego się z samochodu ciężarowego o dopuszczalnej masie całkowitej do 3,5 tony i przyczepy kempingowej?",
+    "textUz": "Ruxsat etilgan umumiy massasi 3,5 tonnagacha bo'lgan yuk mashinasi va kemping-tirkamadan iborat transport vositalari majmuining maksimal ruxsat etilgan uzunligi qancha?",
+    "category": "Umumiy qoidalar",
+    "isPremium": true,
+    "mediaFileName": "Slajd802_cen_1024x576.jpg",
+    "mediaType": "photo",
+    "options": [
+      {
+        "textPl": "19,85 metra.",
+        "textUz": "19,85 metr.",
+        "isCorrect": false
+      },
+      {
+        "textPl": "18,75 metra.",
+        "textUz": "18,75 metr.",
+        "isCorrect": true
+      },
+      {
+        "textPl": "14,95 metra.",
+        "textUz": "14,95 metr.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "textPl": "Który z wymienionych przypadków jest prawidłowym sposobem przewożenia ładunku na przyczepie ciągniętej przez samochód osobowy?",
+    "textUz": "Quyidagi holatlardan qaysi biri yengil avtomobil tortadigan tirkamada yukni to'g'ri tashish usuli hisoblanadi?",
+    "category": "Umumiy qoidalar",
+    "isPremium": true,
+    "mediaFileName": "Slajd802_cen_1024x576.jpg",
+    "mediaType": "photo",
+    "options": [
+      {
+        "textPl": "Ładunek jest zabezpieczony przed przesuwaniem się.",
+        "textUz": "Yuk siljishdan himoyalangan.",
+        "isCorrect": true
+      },
+      {
+        "textPl": "Ładunek nie jest zabezpieczony przed zmianą położenia.",
+        "textUz": "Yuk holatining o'zgarishidan himoyalanmagan.",
+        "isCorrect": false
+      },
+      {
+        "textPl": "Ładunek nie jest zabezpieczony przed zmianą położenia, jeżeli prędkość jazdy nie będzie większa niż 30 km/h.",
+        "textUz": "Agar harakat tezligi 30 km/soatdan oshmasa, yuk holatining o'zgarishidan himoyalanmagan.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "textPl": "W jaki sposób powinieneś przewozić ładunek w przyczepie ciągniętej przez samochód osobowy?",
+    "textUz": "Yengil avtomobil tortadigan tirkamada yukni qanday tashishingiz kerak?",
+    "category": "Umumiy qoidalar",
+    "isPremium": true,
+    "mediaFileName": "Slajd_001360_142_cen_1024x576.jpg",
+    "mediaType": "photo",
+    "options": [
+      {
+        "textPl": "Ładunek nie powinien być zabezpieczony przed zmianą położenia.",
+        "textUz": "Yuk holatining o'zgarishidan himoyalanmasligi kerak.",
+        "isCorrect": false
+      },
+      {
+        "textPl": "Ładunek może zasłaniać niektóre światła przyczepy.",
+        "textUz": "Yuk tirkamaning ba'zi chiroqlarini yopishi mumkin.",
+        "isCorrect": false
+      },
+      {
+        "textPl": "Ładunek nie może naruszać stateczności pojazdu.",
+        "textUz": "Yuk transport vositasining barqarorligini buzmasligi kerak.",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "textPl": "Czy międzynarodowe prawo jazdy może być wydane na okres dłuższy niż 3 lata?",
+    "textUz": "Xalqaro haydovchilik guvohnomasi 3 yildan uzoq muddatga berilishi mumkinmi?",
+    "category": "Umumiy qoidalar",
+    "isPremium": true,
+    "mediaFileName": "Slajd6222_cen_1024x576.jpg",
+    "mediaType": "photo",
+    "options": [
+      {
+        "textPl": "Tak, jeżeli wynika to z orzeczenia lekarskiego.",
+        "textUz": "Ha, agar bu tibbiy xulosadan kelib chiqsa.",
+        "isCorrect": false
+      },
+      {
+        "textPl": "Tak, w każdym przypadku.",
+        "textUz": "Ha, har qanday holatda.",
+        "isCorrect": false
+      },
+      {
+        "textPl": "Nie.",
+        "textUz": "Yo'q.",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "textPl": "Czy masz prawo kierować pojazdem, jeśli Twoje prawo jazdy jest nieważne?",
+    "textUz": "Agar haydovchilik guvohnomangiz amal qilmasa, transport vositasini boshqarish huquqingiz bormi?",
+    "category": "Umumiy qoidalar",
+    "isPremium": true,
+    "mediaFileName": "Slajd799_cen_1024x576.jpg",
+    "mediaType": "photo",
+    "options": [
+      {
+        "textPl": "Tak, jeśli minął dopiero tydzień.",
+        "textUz": "Ha, agar faqat bir hafta o'tgan bo'lsa.",
+        "isCorrect": false
+      },
+      {
+        "textPl": "Tak, ponieważ masz 30 dni na aktualizację danych.",
+        "textUz": "Ha, chunki ma'lumotlarni yangilash uchun 30 kun vaqtingiz bor.",
+        "isCorrect": false
+      },
+      {
+        "textPl": "Nie.",
+        "textUz": "Yo'q.",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "textPl": "Czy posiadając prawo jazdy kat. B jesteś uprawniony do kierowania ciągnikiem rolniczym za granicami Państwa?",
+    "textUz": "B toifali haydovchilik guvohnomasiga ega bo'lsangiz, davlat chegarasidan tashqarida qishloq xo'jaligi traktorini boshqarish huquqingiz bormi?",
+    "category": "Umumiy qoidalar",
+    "isPremium": true,
+    "mediaFileName": "Slajd6223_cen_1024x576.jpg",
+    "mediaType": "photo",
+    "options": [
+      {
+        "textPl": "Tak.",
+        "textUz": "Ha.",
+        "isCorrect": false
+      },
+      {
+        "textPl": "Tak, ale tylko w terenie zabudowanym.",
+        "textUz": "Ha, ammo faqat aholi punktida.",
+        "isCorrect": false
+      },
+      {
+        "textPl": "Nie.",
+        "textUz": "Yo'q.",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "textPl": "Czy posiadając prawo jazdy kat. B od co najmniej 3 lat, masz prawo kierować motocyklem o pojemności skokowej silnika nie większej niż 125 cm3?",
+    "textUz": "Kamida 3 yildan beri B toifali haydovchilik guvohnomasiga ega bo'lsangiz, dvigatel hajmi 125 sm3 dan oshmagan mototsiklni boshqarish huquqingiz bormi?",
+    "category": "Umumiy qoidalar",
+    "isPremium": true,
+    "mediaFileName": "Slajd9024_cen_1024x576.jpg",
+    "mediaType": "photo",
+    "options": [
+      {
+        "textPl": "Tak.",
+        "textUz": "Ha.",
+        "isCorrect": true
+      },
+      {
+        "textPl": "Nie.",
+        "textUz": "Yo'q.",
+        "isCorrect": false
+      },
+      {
+        "textPl": "Tak, pod warunkiem jazdy z maksymalną prędkością 30 km/h.",
+        "textUz": "Ha, maksimal 30 km/soat tezlikda yurish sharti bilan.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "textPl": "Czy prawo jazdy kat. B uprawnia do kierowania zespołem pojazdów składającym się z samochodu osobowego i przyczepy, których łączna dopuszczalna masa całkowita nie przekracza 3,5 tony?",
+    "textUz": "B toifali haydovchilik guvohnomasi umumiy ruxsat etilgan massasi 3,5 tonnadan oshmaydigan yengil avtomobil va tirkamadan iborat transport vositalari majmuini boshqarish huquqini beradimi?",
+    "category": "Umumiy qoidalar",
+    "isPremium": true,
+    "mediaFileName": "Slajd6223_cen_1024x576.jpg",
+    "mediaType": "photo",
+    "options": [
+      {
+        "textPl": "Nie.",
+        "textUz": "Yo'q.",
+        "isCorrect": false
+      },
+      {
+        "textPl": "Tylko pod warunkiem nie przekraczania prędkości 30 km/h.",
+        "textUz": "Faqat 30 km/soat tezlikdan oshmaslik sharti bilan.",
+        "isCorrect": false
+      },
+      {
+        "textPl": "Tak.",
+        "textUz": "Ha.",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "textPl": "Czy w celu wydania międzynarodowego prawa jazdy powinieneś zgłosić się do wojewody?",
+    "textUz": "Xalqaro haydovchilik guvohnomasini olish uchun voyevodaga murojaat qilishingiz kerakmi?",
+    "category": "Umumiy qoidalar",
+    "isPremium": true,
+    "mediaFileName": "Slajd6222_cen_1024x576.jpg",
+    "mediaType": "photo",
+    "options": [
+      {
+        "textPl": "Nie, takie prawo jazdy wydaje starosta.",
+        "textUz": "Yo'q, bunday haydovchilik guvohnomasini starosta beradi.",
+        "isCorrect": true
+      },
+      {
+        "textPl": "Tak, ale trzeba uiścić opłatę ewidencyjną.",
+        "textUz": "Ha, ammo ro'yxatga olish to'lovini to'lash kerak.",
+        "isCorrect": false
+      },
+      {
+        "textPl": "Tak w każdym przypadku.",
+        "textUz": "Ha, har qanday holatda.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "textPl": "Gdzie można znaleźć informację o dozwolonej liczbie przewożonych w samochodzie osobowym osób?",
+    "textUz": "Yengil avtomobilda tashiladigan odamlarning ruxsat etilgan soni haqidagi ma'lumotni qayerdan topish mumkin?",
+    "category": "Umumiy qoidalar",
+    "isPremium": true,
+    "mediaFileName": "dokum_cen_1024x576.jpg",
+    "mediaType": "photo",
+    "options": [
+      {
+        "textPl": "W dowodzie rejestracyjnym.",
+        "textUz": "Ro'yxatga olish guvohnomasida.",
+        "isCorrect": true
+      },
+      {
+        "textPl": "W prawie jazdy.",
+        "textUz": "Haydovchilik guvohnomasida.",
+        "isCorrect": false
+      },
+      {
+        "textPl": "W umowie OC.",
+        "textUz": "OSAGO shartnomasida.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "textPl": "Jaką awarię sygnalizuje szybko migający kierunkowskaz?",
+    "textUz": "Tez miltillayotgan burilish chirog'i qanday nosozlikni bildiradi?",
+    "category": "Umumiy qoidalar",
+    "isPremium": true,
+    "mediaFileName": "Slajd221_cen_1024x576.jpg",
+    "mediaType": "photo",
+    "options": [
+      {
+        "textPl": "Słaby akumulator.",
+        "textUz": "Zaif akkumulyator.",
+        "isCorrect": false
+      },
+      {
+        "textPl": "Zwarcie w przewodach wysokiego napięcia.",
+        "textUz": "Yuqori kuchlanish simlarida qisqa tutashuv.",
+        "isCorrect": false
+      },
+      {
+        "textPl": "Przepaloną żarówkę kierunkowskazu.",
+        "textUz": "Burilish chirog'i lampochkasining kuyib ketishi.",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "textPl": "Jaki może być objaw pęknięcia przewodu hamulcowego w samochodzie osobowym?",
+    "textUz": "Yengil avtomobilda tormoz naychasining yorilishi qanday alomat bilan bilinishi mumkin?",
+    "category": "Umumiy qoidalar",
+    "isPremium": true,
+    "mediaFileName": "brak_zdjecia_1024x576.jpg",
+    "mediaType": "photo",
+    "options": [
+      {
+        "textPl": "Wzrost siły hamującej przy jednostajnym naciskaniu na pedał hamulca.",
+        "textUz": "Tormoz pedaliga bir xilda bosganda tormozlash kuchining oshishi.",
+        "isCorrect": false
+      },
+      {
+        "textPl": "Niewielki lub brak oporu pedału hamulca przy jego wciskaniu.",
+        "textUz": "Tormoz pedalini bosganda kam yoki umuman qarshilik bo'lmasligi.",
+        "isCorrect": true
+      },
+      {
+        "textPl": "Bardzo duży opór pedału hamulca przy jego wciskaniu.",
+        "textUz": "Tormoz pedalini bosganda juda katta qarshilik.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "textPl": "Która z wymienionych przyczyn spowoduje nieosiągnięcie przez silnik, o zapłonie samoczynnym, obrotów rozruchowych?",
+    "textUz": "Quyidagi sabablardan qaysi biri o'z-o'zidan yonuvchi dvigatelning ishga tushish aylanishlariga yetmasligiga sabab bo'ladi?",
+    "category": "Umumiy qoidalar",
+    "isPremium": true,
+    "mediaFileName": "Slajd799_cen_1024x576.jpg",
+    "mediaType": "photo",
+    "options": [
+      {
+        "textPl": "Niesprawny rozrusznik.",
+        "textUz": "Ishlamaydigan starter.",
+        "isCorrect": true
+      },
+      {
+        "textPl": "Naładowany akumulator.",
+        "textUz": "Zaryadlangan akkumulyator.",
+        "isCorrect": false
+      },
+      {
+        "textPl": "Zbyt luźny pasek klinowy alternatora.",
+        "textUz": "Generator qayishining juda bo'sh bo'lishi.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "textPl": "Który z wymienionych czynników, może być przyczyną ściągania samochodu w lewą stronę?",
+    "textUz": "Quyidagi omillardan qaysi biri avtomobilning chapga tortilishiga sabab bo'lishi mumkin?",
+    "category": "Umumiy qoidalar",
+    "isPremium": true,
+    "mediaFileName": "Slajd659_cen_1024x576.jpg",
+    "mediaType": "photo",
+    "options": [
+      {
+        "textPl": "Nieprawidłowa zbieżność kół przednich.",
+        "textUz": "Old g'ildiraklarning noto'g'ri yaqinlashuv burchagi.",
+        "isCorrect": true
+      },
+      {
+        "textPl": "Jednakowe ciśnienie powietrza w kołach pojazdu.",
+        "textUz": "Transport vositasi g'ildiraklaridagi bir xil havo bosimi.",
+        "isCorrect": false
+      },
+      {
+        "textPl": "Usterka modułu elektronicznego hamulca ręcznego.",
+        "textUz": "Qo'l tormozining elektron modulidagi nosozlik.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "textPl": "Który z wymienionych czynników, może spowodować szybsze zużywanie się opon na kołach przednich w samochodzie osobowym?",
+    "textUz": "Quyidagi omillardan qaysi biri yengil avtomobilning old g'ildiraklaridagi shinalarning tezroq yeyilishiga sabab bo'lishi mumkin?",
+    "category": "Umumiy qoidalar",
+    "isPremium": true,
+    "mediaFileName": "Slajd324_cen_1024x576.jpg",
+    "mediaType": "photo",
+    "options": [
+      {
+        "textPl": "Niewielkie obciążenie przedniej osi pojazdu.",
+        "textUz": "Transport vositasi old o'qining kichik yuklamasi.",
+        "isCorrect": false
+      },
+      {
+        "textPl": "Nieprawidłowa zbieżność.",
+        "textUz": "Noto'g'ri yaqinlashuv burchagi.",
+        "isCorrect": true
+      },
+      {
+        "textPl": "Nierówna nawierzchnia jezdni.",
+        "textUz": "Yo'l yuzasining notekisligi.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "textPl": "W jaki sposób oświetlają drogę przed samochodem osobowym światła mijania?",
+    "textUz": "Yaqin nur chiroqlari yengil avtomobil oldidagi yo'lni qanday yoritadi?",
+    "category": "Svetofor va yorug'lik",
+    "isPremium": true,
+    "mediaFileName": "Slajd426_cen_1024x576.jpg",
+    "mediaType": "photo",
+    "options": [
+      {
+        "textPl": "Prostopadle.",
+        "textUz": "Perpendikulyar.",
+        "isCorrect": false
+      },
+      {
+        "textPl": "Symetrycznie.",
+        "textUz": "Simmetrik.",
+        "isCorrect": false
+      },
+      {
+        "textPl": "Asymetrycznie.",
+        "textUz": "Asimmetrik.",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "textPl": "W którym z wymienionych przypadków, masz obowiązek wymienić oponę na nową w samochodzie osobowym?",
+    "textUz": "Quyidagi holatlardan qaysi birida yengil avtomobilda shinani yangisiga almashtirish majburiyati bor?",
+    "category": "Umumiy qoidalar",
+    "isPremium": true,
+    "mediaFileName": "wymiana_kola_1024x576.jpg",
+    "mediaType": "photo",
+    "options": [
+      {
+        "textPl": "Gdy uszkodzony jest zawór powietrza.",
+        "textUz": "Havo klapani shikastlangan bo'lsa.",
+        "isCorrect": false
+      },
+      {
+        "textPl": "Gdy w czole opony znajduje się cienki gwóźdź.",
+        "textUz": "Shina protektorida ingichka mix bo'lsa.",
+        "isCorrect": false
+      },
+      {
+        "textPl": "Gdy na boku opony są widoczne odkształcenia.",
+        "textUz": "Shinaning yon tomonida deformatsiya ko'rinsa.",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "textPl": "Czy prawo jazdy kat. B uprawnia do kierowania motorowerem lub czterokołowcem lekkim?",
+    "textUz": "B toifali haydovchilik guvohnomasi moped yoki yengil to'rt g'ildirakli transport vositasini boshqarish huquqini beradimi?",
+    "category": "Umumiy qoidalar",
+    "isPremium": true,
+    "mediaFileName": "Slajd6223_cen_1024x576.jpg",
+    "mediaType": "photo",
+    "options": [
+      {
+        "textPl": "Tak, ale tylko poza obszarem zabudowanym.",
+        "textUz": "Ha, ammo faqat aholi punktidan tashqarida.",
+        "isCorrect": false
+      },
+      {
+        "textPl": "Tak.",
+        "textUz": "Ha.",
+        "isCorrect": true
+      },
+      {
+        "textPl": "Nie.",
+        "textUz": "Yo'q.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "textPl": "Czy dozwolony jest postój na wyznaczonych miejscach dla osób niepełnosprawnych, jeżeli posiadana przez kierującego karta parkingowa straciła ważność?",
+    "textUz": "Agar haydovchining to'xtash kartasi amal qilish muddati tugagan bo'lsa, nogironlar uchun belgilangan joylarda to'xtash ruxsat etiladimi?",
+    "category": "To'xtash va parking",
+    "isPremium": true,
+    "mediaFileName": "AKADEMIA_2.jpg",
+    "mediaType": "photo",
+    "options": [
+      {
+        "textPl": "Tak, jeśli nie mnięło od tego czasu więcej niż 7 dni.",
+        "textUz": "Ha, agar shu vaqtdan beri 7 kundan ko'p o'tmagan bo'lsa.",
+        "isCorrect": false
+      },
+      {
+        "textPl": "Tak, jeśli nie mnięło od tego czasu więcej niż 14 dni.",
+        "textUz": "Ha, agar shu vaqtdan beri 14 kundan ko'p o'tmagan bo'lsa.",
+        "isCorrect": false
+      },
+      {
+        "textPl": "Nie.",
+        "textUz": "Yo'q.",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "textPl": "Jak można zminimalizować zagrożenie kierując pojazdem podczas gęstej mgły?",
+    "textUz": "Qalin tumanda transport vositasini boshqarganda xavfni qanday minimallashtirish mumkin?",
+    "category": "Umumiy qoidalar",
+    "isPremium": true,
+    "mediaFileName": "mgla3-ztPIC.jpg",
+    "mediaType": "photo",
+    "options": [
+      {
+        "textPl": "Zwiększyć prędkość.",
+        "textUz": "Tezlikni oshirish.",
+        "isCorrect": false
+      },
+      {
+        "textPl": "Zwiększyć odległość od poprzedzającego pojazdu.",
+        "textUz": "Oldingi transport vositasidan masofani oshirish.",
+        "isCorrect": true
+      },
+      {
+        "textPl": "Zmniejszyć odległość od poprzedzającego pojazdu.",
+        "textUz": "Oldingi transport vositasidan masofani kamaytirish.",
+        "isCorrect": false
+      }
+    ]
+  }
+]

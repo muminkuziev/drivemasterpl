@@ -1,0 +1,114 @@
+[
+  {
+    "code": "DB-1",
+    "category": "dashboard",
+    "namePl": "System ABS (przeciwblokujący)",
+    "nameUz": "ABS (bloklanishga qarshi tizim)",
+    "descriptionUz": "Yonib turishi ABS tizimidagi nosozlikni bildiradi.",
+    "imageFileName": "dashboard-DB-1.png"
+  },
+  {
+    "code": "DB-2",
+    "category": "dashboard",
+    "namePl": "Awaria ładowania akumulatora",
+    "nameUz": "Akkumulyatorni zaryadlash nosozligi",
+    "descriptionUz": "Akkumulyator zaryadlanish tizimida muammo borligini bildiradi.",
+    "imageFileName": "dashboard-DB-2.png"
+  },
+  {
+    "code": "DB-3",
+    "category": "dashboard",
+    "namePl": "Awaria hamulców",
+    "nameUz": "Tormoz tizimi nosozligi",
+    "descriptionUz": "Tormoz tizimida jiddiy nosozlik — darhol tekshirish kerak.",
+    "imageFileName": "dashboard-DB-3.png"
+  },
+  {
+    "code": "DB-4",
+    "category": "dashboard",
+    "namePl": "Hamulec ręczny (postojowy) włączony",
+    "nameUz": "Qo'l (statsionar) tormoz yoqilgan",
+    "descriptionUz": "Qo'l tormozi hali qo'yilgan holatda ekanini bildiradi.",
+    "imageFileName": "dashboard-DB-4.png"
+  },
+  {
+    "code": "DB-5",
+    "category": "dashboard",
+    "namePl": "Niski poziom płynu hamulcowego",
+    "nameUz": "Tormoz suyuqligi darajasi past",
+    "descriptionUz": "Tormoz suyuqligini tekshirish va to'ldirish kerak.",
+    "imageFileName": "dashboard-DB-5.png"
+  },
+  {
+    "code": "DB-6",
+    "category": "dashboard",
+    "namePl": "Kierunkowskazy",
+    "nameUz": "Burilish chiroqlari",
+    "descriptionUz": "Chapga yoki o'ngga burilish signali yoqilganini bildiradi.",
+    "imageFileName": "dashboard-DB-6.png"
+  },
+  {
+    "code": "DB-7",
+    "category": "dashboard",
+    "namePl": "Światła awaryjne",
+    "nameUz": "Avariya chiroqlari",
+    "descriptionUz": "Barcha burilish chiroqlari bir vaqtda miltillayotganini bildiradi.",
+    "imageFileName": "dashboard-DB-7.png"
+  },
+  {
+    "code": "DB-8",
+    "category": "dashboard",
+    "namePl": "Światła drogowe",
+    "nameUz": "Uzoq nur chiroqlari",
+    "descriptionUz": "Uzoq nur (drogowe) chiroqlari yoqilganini bildiradi.",
+    "imageFileName": "dashboard-DB-8.png"
+  },
+  {
+    "code": "DB-9",
+    "category": "dashboard",
+    "namePl": "Przednie światła przeciwmgłowe",
+    "nameUz": "Old tumanga qarshi chiroqlar",
+    "descriptionUz": "Old tumanga qarshi chiroqlar yoqilganini bildiradi.",
+    "imageFileName": "dashboard-DB-9.png"
+  },
+  {
+    "code": "DB-10",
+    "category": "dashboard",
+    "namePl": "Tylne światła przeciwmgłowe",
+    "nameUz": "Orqa tumanga qarshi chiroqlar",
+    "descriptionUz": "Orqa tumanga qarshi chiroqlar yoqilganini bildiradi.",
+    "imageFileName": "dashboard-DB-10.png"
+  },
+  {
+    "code": "DB-11",
+    "category": "dashboard",
+    "namePl": "Pas bezpieczeństwa niezapięty",
+    "nameUz": "Xavfsizlik kamari taqilmagan",
+    "descriptionUz": "Haydovchi yoki yo'lovchi xavfsizlik kamarini taqmaganini bildiradi.",
+    "imageFileName": "dashboard-DB-11.png"
+  },
+  {
+    "code": "DB-12",
+    "category": "dashboard",
+    "namePl": "Tempomat (aktywny)",
+    "nameUz": "Kruiz-nazorat faol",
+    "descriptionUz": "Doimiy tezlikni saqlash tizimi (tempomat) yoqilganini bildiradi.",
+    "imageFileName": "dashboard-DB-12.png"
+  },
+  {
+    "code": "DB-13",
+    "category": "dashboard",
+    "namePl": "Usterka układu elektrycznego",
+    "nameUz": "Elektr tizimida nosozlik",
+    "descriptionUz": "Transport vositasining elektr tizimida umumiy nosozlik borligini bildiradi.",
+    "imageFileName": "dashboard-DB-13.png"
+  },
+  {
+    "code": "DB-14",
+    "category": "dashboard",
+    "namePl": "Immobiliser (blokada rozruchu)",
+    "nameUz": "Immobilayzer (ishga tushirishni bloklovchi tizim)",
+    "descriptionUz": "O'g'irlikdan himoya tizimi faolligini yoki nosozligini bildiradi.",
+    "imageFileName": "dashboard-DB-14.png"
+  }
+]

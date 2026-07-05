@@ -1,0 +1,296 @@
+[
+  {
+    "code": "A-1",
+    "category": "warning",
+    "namePl": "Niebezpieczny zakręt w prawo",
+    "nameUz": "Xavfli o'ng burilish",
+    "imageFileName": "warning-A-1.png"
+  },
+  {
+    "code": "A-2",
+    "category": "warning",
+    "namePl": "Niebezpieczny zakręt w lewo",
+    "nameUz": "Xavfli chap burilish",
+    "imageFileName": "warning-A-2.png"
+  },
+  {
+    "code": "A-3",
+    "category": "warning",
+    "namePl": "Niebezpieczne zakręty — pierwszy w prawo",
+    "nameUz": "Xavfli burilishlar — birinchisi o'ngga",
+    "imageFileName": "warning-A-3.png"
+  },
+  {
+    "code": "A-4",
+    "category": "warning",
+    "namePl": "Niebezpieczne zakręty — pierwszy w lewo",
+    "nameUz": "Xavfli burilishlar — birinchisi chapga",
+    "imageFileName": "warning-A-4.png"
+  },
+  {
+    "code": "A-5",
+    "category": "warning",
+    "namePl": "Skrzyżowanie dróg równorzędnych",
+    "nameUz": "Boshqarilmaydigan (teng huquqli) chorraha",
+    "imageFileName": "warning-A-5.png"
+  },
+  {
+    "code": "A-6a",
+    "category": "warning",
+    "namePl": "Skrzyżowanie z drogą podporządkowaną występującą po obu stronach",
+    "nameUz": "Ikki tomondan tobe yo'llari bo'lgan chorraha",
+    "imageFileName": "warning-A-6a.png"
+  },
+  {
+    "code": "A-6b",
+    "category": "warning",
+    "namePl": "Skrzyżowanie z drogą podporządkowaną występującą po prawej stronie",
+    "nameUz": "O'ng tomondan tobe yo'li bo'lgan chorraha",
+    "imageFileName": "warning-A-6b.png"
+  },
+  {
+    "code": "A-6c",
+    "category": "warning",
+    "namePl": "Skrzyżowanie z drogą podporządkowaną występującą po lewej stronie",
+    "nameUz": "Chap tomondan tobe yo'li bo'lgan chorraha",
+    "imageFileName": "warning-A-6c.png"
+  },
+  {
+    "code": "A-6d",
+    "category": "warning",
+    "namePl": "Wlot drogi jednokierunkowej z prawej strony",
+    "nameUz": "O'ng tomondan bir tomonlama yo'l kirishi",
+    "imageFileName": "warning-A-6d.png"
+  },
+  {
+    "code": "A-6e",
+    "category": "warning",
+    "namePl": "Wlot drogi jednokierunkowej z lewej strony",
+    "nameUz": "Chap tomondan bir tomonlama yo'l kirishi",
+    "imageFileName": "warning-A-6e.png"
+  },
+  {
+    "code": "A-7",
+    "category": "warning",
+    "namePl": "Ustąp pierwszeństwa",
+    "nameUz": "Yo'l bering",
+    "imageFileName": "warning-A-7.png"
+  },
+  {
+    "code": "A-8",
+    "category": "warning",
+    "namePl": "Skrzyżowanie o ruchu okrężnym",
+    "nameUz": "Aylanma harakat",
+    "imageFileName": "warning-A-8.png"
+  },
+  {
+    "code": "A-9",
+    "category": "warning",
+    "namePl": "Przejazd kolejowy z zaporami",
+    "nameUz": "Oldinda shlagbaumli temir yo'l o'tishi",
+    "imageFileName": "warning-A-9.png"
+  },
+  {
+    "code": "A-10",
+    "category": "warning",
+    "namePl": "Przejazd kolejowy bez zapór",
+    "nameUz": "Oldinda shlagbaumsiz temir yo'l o'tishi",
+    "imageFileName": "warning-A-10.png"
+  },
+  {
+    "code": "A-11",
+    "category": "warning",
+    "namePl": "Nierówna droga",
+    "nameUz": "Notekis yo'l",
+    "imageFileName": "warning-A-11.png"
+  },
+  {
+    "code": "A-11a",
+    "category": "warning",
+    "namePl": "Próg zwalniający",
+    "nameUz": "Sun'iy do'mboq (sekinlatuvchi to'siq)",
+    "imageFileName": "warning-A-11a.png"
+  },
+  {
+    "code": "A-12a",
+    "category": "warning",
+    "namePl": "Zwężenie jezdni — dwustronne",
+    "nameUz": "Yo'l ikki tomondan torayadi",
+    "imageFileName": "warning-A-12a.png"
+  },
+  {
+    "code": "A-12b",
+    "category": "warning",
+    "namePl": "Zwężenie jezdni — prawostronne",
+    "nameUz": "Yo'l o'ng tomondan torayadi",
+    "imageFileName": "warning-A-12b.png"
+  },
+  {
+    "code": "A-12c",
+    "category": "warning",
+    "namePl": "Zwężenie jezdni — lewostronne",
+    "nameUz": "Yo'l chap tomondan torayadi",
+    "imageFileName": "warning-A-12c.png"
+  },
+  {
+    "code": "A-13",
+    "category": "warning",
+    "namePl": "Ruchomy most",
+    "nameUz": "Ko'chma (ochiladigan) ko'prik",
+    "imageFileName": "warning-A-13.png"
+  },
+  {
+    "code": "A-14",
+    "category": "warning",
+    "namePl": "Roboty na drodze",
+    "nameUz": "Yo'l ta'mirlash ishlari",
+    "imageFileName": "warning-A-14.png"
+  },
+  {
+    "code": "A-15",
+    "category": "warning",
+    "namePl": "Śliska jezdnia",
+    "nameUz": "Sirpanchiq yo'l yuzasi",
+    "imageFileName": "warning-A-15.png"
+  },
+  {
+    "code": "A-16",
+    "category": "warning",
+    "namePl": "Przejście dla pieszych",
+    "nameUz": "Oldinda piyodalar o'tish joyi",
+    "imageFileName": "warning-A-16.png"
+  },
+  {
+    "code": "A-17",
+    "category": "warning",
+    "namePl": "Dzieci",
+    "nameUz": "Bolalar",
+    "imageFileName": "warning-A-17.png"
+  },
+  {
+    "code": "A-18a",
+    "category": "warning",
+    "namePl": "Zwierzęta gospodarskie",
+    "nameUz": "Uy hayvonlari",
+    "imageFileName": "warning-A-18a.png"
+  },
+  {
+    "code": "A-18b",
+    "category": "warning",
+    "namePl": "Zwierzęta dzikie",
+    "nameUz": "Yovvoyi hayvonlar",
+    "imageFileName": "warning-A-18b.png"
+  },
+  {
+    "code": "A-19",
+    "category": "warning",
+    "namePl": "Boczny wiatr",
+    "nameUz": "Yon shamol",
+    "imageFileName": "warning-A-19.png"
+  },
+  {
+    "code": "A-20",
+    "category": "warning",
+    "namePl": "Odcinek jezdni o ruchu dwukierunkowym",
+    "nameUz": "Ikki tomonlama harakat qismi",
+    "imageFileName": "warning-A-20.png"
+  },
+  {
+    "code": "A-21",
+    "category": "warning",
+    "namePl": "Tramwaj",
+    "nameUz": "Tramvay yo'li",
+    "imageFileName": "warning-A-21.png"
+  },
+  {
+    "code": "A-22",
+    "category": "warning",
+    "namePl": "Niebezpieczny zjazd",
+    "nameUz": "Xavfli pastga tushish",
+    "imageFileName": "warning-A-22.png"
+  },
+  {
+    "code": "A-23",
+    "category": "warning",
+    "namePl": "Stromy podjazd",
+    "nameUz": "Tik yuqoriga ko'tarilish",
+    "imageFileName": "warning-A-23.png"
+  },
+  {
+    "code": "A-24",
+    "category": "warning",
+    "namePl": "Rowerzyści",
+    "nameUz": "Velosipedchilar",
+    "imageFileName": "warning-A-24.png"
+  },
+  {
+    "code": "A-25",
+    "category": "warning",
+    "namePl": "Spadające odłamki skalne",
+    "nameUz": "Tosh yumalashi xavfi",
+    "imageFileName": "warning-A-25.png"
+  },
+  {
+    "code": "A-26",
+    "category": "warning",
+    "namePl": "Lotnisko",
+    "nameUz": "Aeroport",
+    "imageFileName": "warning-A-26.png"
+  },
+  {
+    "code": "A-27",
+    "category": "warning",
+    "namePl": "Nabrzeże lub brzeg rzeki",
+    "nameUz": "Iskala yoki daryo qirg'og'i",
+    "imageFileName": "warning-A-27.png"
+  },
+  {
+    "code": "A-28",
+    "category": "warning",
+    "namePl": "Odskakujące kamienie/żwir",
+    "nameUz": "Mayda shag'al (sochiluvchi tosh)",
+    "imageFileName": "warning-A-28.png"
+  },
+  {
+    "code": "A-29",
+    "category": "warning",
+    "namePl": "Sygnały świetlne",
+    "nameUz": "Oldinda svetofor",
+    "imageFileName": "warning-A-29.png"
+  },
+  {
+    "code": "A-30",
+    "category": "warning",
+    "namePl": "Inne niebezpieczeństwo",
+    "nameUz": "Boshqa xavf",
+    "imageFileName": "warning-A-30.png"
+  },
+  {
+    "code": "A-31",
+    "category": "warning",
+    "namePl": "Niebezpieczne pobocze",
+    "nameUz": "Xavfli yo'l chekkasi",
+    "imageFileName": "warning-A-31.png"
+  },
+  {
+    "code": "A-32",
+    "category": "warning",
+    "namePl": "Oszronienie jezdni",
+    "nameUz": "Muzlagan yo'l yuzasi",
+    "imageFileName": "warning-A-32.png"
+  },
+  {
+    "code": "A-33",
+    "category": "warning",
+    "namePl": "Zator drogowy",
+    "nameUz": "Tirbandlik (probka)",
+    "imageFileName": "warning-A-33.png"
+  },
+  {
+    "code": "A-34",
+    "category": "warning",
+    "namePl": "Wypadek drogowy",
+    "nameUz": "Yo'l-transport hodisasi",
+    "imageFileName": "warning-A-34.png"
+  }
+]
