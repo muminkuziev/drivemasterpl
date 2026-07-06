@@ -1,9 +1,11 @@
-import { useEffect, useState } from 'react';
+import { useEffect, useRef, useState } from 'react';
 import { useNavigate, useSearchParams } from 'react-router-dom';
 import { fetchRoadSignCategories, fetchRoadSignsByCategory } from '../api';
 import type { RoadSign, RoadSignCategory } from '../api';
 import { haptic } from '../telegram';
 import { pickText, useTranslation } from '../i18n/LocaleContext';
+
+const SCROLL_KEY_PREFIX = 'dm_signs_scroll_';
 
 export function RoadSigns() {
   const navigate = useNavigate();
@@ -13,6 +15,7 @@ export function RoadSigns() {
   const [categories, setCategories] = useState<RoadSignCategory[]>([]);
   const [signs, setSigns] = useState<RoadSign[]>([]);
   const [loadingSigns, setLoadingSigns] = useState(false);
+  const listRef = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
     fetchRoadSignCategories().then((cats) => {
@@ -37,6 +40,20 @@ export function RoadSigns() {
       .then(setSigns)
       .finally(() => setLoadingSigns(false));
   }, [selected]);
+
+  useEffect(() => {
+    if (loadingSigns || signs.length === 0 || !selected || !listRef.current) return;
+    const saved = sessionStorage.getItem(SCROLL_KEY_PREFIX + selected);
+    if (saved) listRef.current.scrollTop = Number(saved);
+  }, [loadingSigns, signs, selected]);
+
+  function goToSign(id: string) {
+    haptic('light');
+    if (selected && listRef.current) {
+      sessionStorage.setItem(SCROLL_KEY_PREFIX + selected, String(listRef.current.scrollTop));
+    }
+    navigate(`/signs/${id}`);
+  }
 
   return (
     <div className="flex-1 flex flex-col">
@@ -103,7 +120,7 @@ export function RoadSigns() {
         })}
       </div>
 
-      <div className="flex-1 overflow-y-auto px-4 pb-6">
+      <div ref={listRef} className="flex-1 overflow-y-auto px-4 pb-6">
         {loadingSigns && (
           <p className="text-center mt-8" style={{ color: '#9aa4bf' }}>
             {t('common.loading')}
@@ -126,10 +143,7 @@ export function RoadSigns() {
               <button
                 key={sign.id}
                 type="button"
-                onClick={() => {
-                  haptic('light');
-                  navigate(`/signs/${sign.id}`);
-                }}
+                onClick={() => goToSign(sign.id)}
                 className="flex gap-3 rounded-2xl p-3 text-left"
                 style={{ background: '#1a2338', border: '1px solid #2a3350' }}
               >
