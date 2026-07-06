@@ -1,6 +1,7 @@
 {
   "common": {
     "loading": "Yuklanmoqda...",
+    "back": "Orqaga",
     "start": "Boshlash",
     "tryAgain": "Yana urinish",
     "retry": "Qayta urinish",

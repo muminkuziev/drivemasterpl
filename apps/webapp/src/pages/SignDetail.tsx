@@ -126,6 +126,15 @@ export function SignDetail() {
               {action}
             </p>
           </div>
+
+          <button
+            type="button"
+            onClick={() => navigate(-1)}
+            className="rounded-2xl px-5 py-4 font-bold text-center"
+            style={{ background: '#1a2338', border: '1px solid #2a3350', color: '#f5f7fa' }}
+          >
+            ‹ {t('common.back')}
+          </button>
         </div>
       )}
     </div>

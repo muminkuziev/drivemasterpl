@@ -81,7 +81,12 @@ export function RoadSigns() {
               </span>
               <span
                 className="text-[11px] leading-tight text-center"
-                style={{ color: isSelected ? '#f5f7fa' : '#9aa4bf' }}
+                style={{
+                  color: isSelected ? '#f5f7fa' : '#9aa4bf',
+                  width: '100%',
+                  wordBreak: 'break-word',
+                  overflowWrap: 'break-word',
+                }}
               >
                 {t(`signs.category.${cat.key}`)}
               </span>

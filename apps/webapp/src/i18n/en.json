@@ -1,6 +1,7 @@
 {
   "common": {
     "loading": "Loading...",
+    "back": "Back",
     "start": "Start",
     "tryAgain": "Try again",
     "retry": "Retry",
