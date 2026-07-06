@@ -3,7 +3,7 @@ set -e
 
 echo "==> Building webapp..."
 cd apps/webapp
-npm install
+npm install --include=dev
 npm run build
 
 echo "==> Copying webapp build into apps/api/public..."
@@ -12,7 +12,7 @@ mkdir -p public
 cp -r ../webapp/dist/. public/
 
 echo "==> Installing & building api..."
-npm install
+npm install --include=dev
 npx prisma generate
 npm run build
 
