@@ -37,12 +37,6 @@ function buildMainMenu(isAdmin: boolean, webAppUrl: string | undefined, locale: 
       { text: t.openWebapp, web_app: { url: `${webAppUrl}${sep}lang=${locale}` } },
     ]);
   }
-  inline_keyboard.push(
-    [{ text: t.menuTheory, callback_data: 'THEORY_MENU' }],
-    [{ text: t.menuPsych, callback_data: 'PSYCH_MENU' }],
-    [{ text: t.menuSigns, callback_data: 'SIGNS_MENU' }],
-    [{ text: t.menuRoadmap, callback_data: 'ROADMAP' }],
-  );
   if (isAdmin) {
     inline_keyboard.push([{ text: '🛠 Admin panel', callback_data: 'ADMIN_MENU' }]);
   }
