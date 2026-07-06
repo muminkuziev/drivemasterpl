@@ -24,7 +24,6 @@ import { Roadmap } from './pages/Roadmap';
 import { Legal } from './pages/Legal';
 import { initTelegramWebApp } from './telegram';
 import { LocaleProvider } from './i18n/LocaleContext';
-import { GlobalWatermark } from './components/GlobalWatermark';
 
 function App() {
   useEffect(() => {
@@ -57,7 +56,6 @@ function App() {
         <Route path="/roadmap" element={<Roadmap />} />
         <Route path="/legal/:doc" element={<Legal />} />
       </Routes>
-      <GlobalWatermark />
     </LocaleProvider>
   );
 }

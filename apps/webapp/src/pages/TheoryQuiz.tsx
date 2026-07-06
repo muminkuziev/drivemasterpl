@@ -2,18 +2,12 @@ import { useEffect, useState } from 'react';
 import { useNavigate, useParams, useSearchParams } from 'react-router-dom';
 import { fetchRandomTheoryQuestion, submitTheoryAnswer } from '../api';
 import type { TheoryOption, TheoryQuestion } from '../api';
-import { getTelegramDisplayName, getTelegramId, haptic } from '../telegram';
+import { haptic } from '../telegram';
 import { pickText, useTranslation } from '../i18n/LocaleContext';
 import { useProtectedMedia } from '../useProtectedMedia';
-import { WatermarkOverlay } from '../components/WatermarkOverlay';
 
 const TYPE_ICONS: Record<string, string> = { text: '📝', photo: '🖼', video: '🎥' };
 const LOCALE_FLAG: Record<string, string> = { uz: '🇺🇿', ru: '🇷🇺', en: '🇬🇧' };
-const WATERMARK_WARNING: Record<string, string> = {
-  uz: 'OGOHLANTIRISH: kontentni yozib olish taqiqlangan. Yana takrorlansa akkauntingiz bloklanadi.',
-  ru: 'ПРЕДУПРЕЖДЕНИЕ: запись контента запрещена. При повторении аккаунт будет заблокирован.',
-  en: 'WARNING: recording this content is forbidden. Repeated abuse will block your account.',
-};
 
 interface HistoryEntry {
   question: TheoryQuestion;
@@ -59,11 +53,6 @@ export function TheoryQuiz() {
 
   const current = index >= 0 ? history[index] : null;
   const mediaBlobUrl = useProtectedMedia(current?.question.imageUrl ?? null);
-  const telegramId = getTelegramId();
-  const displayName = getTelegramDisplayName();
-  const watermarkLabel = displayName ? `${displayName} | ID: ${telegramId}` : `ID: ${telegramId}`;
-  const watermarkDate = new Date().toLocaleString(locale === 'uz' ? 'uz-UZ' : locale);
-  const watermarkWarning = WATERMARK_WARNING[locale] ?? WATERMARK_WARNING.uz;
 
   async function onSelect(option: TheoryOption) {
     if (!current || current.selected) return;
@@ -157,15 +146,6 @@ export function TheoryQuiz() {
                 />
               )}
             </div>
-          )}
-
-          {current.question.imageUrl && mediaBlobUrl && (
-            <WatermarkOverlay
-              label={watermarkLabel}
-              dateLabel={watermarkDate}
-              warning={watermarkWarning}
-              fullScreen
-            />
           )}
 
           <div
