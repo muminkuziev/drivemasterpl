@@ -56,7 +56,8 @@
     }
   },
   "categoryPicker": {
-    "mixed": "Mixed (all categories)"
+    "mixed": "Mixed (all categories)",
+    "freeLimitNotice": "Only 15 free questions are available per type (text, photo, video). Upgrade to Premium to unlock all questions."
   },
   "theoryQuiz": {
     "empty": "No questions of this type yet."

@@ -56,7 +56,8 @@
     }
   },
   "categoryPicker": {
-    "mixed": "Aralash (barcha toifalar)"
+    "mixed": "Aralash (barcha toifalar)",
+    "freeLimitNotice": "Bepul rejimda har bir turdan (matnli, rasmli, video) faqat 15 tadan savol mavjud. Barcha savollarni ko'rish uchun Premium'ga o'ting."
   },
   "theoryQuiz": {
     "empty": "Bu turdagi savollar hozircha yo'q."

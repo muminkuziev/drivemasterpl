@@ -1,8 +1,8 @@
 import { useEffect, useState } from 'react';
 import { useNavigate, useParams } from 'react-router-dom';
-import { fetchTheoryCategories } from '../api';
+import { fetchProfile, fetchTheoryCategories } from '../api';
 import type { TheoryCategory } from '../api';
-import { haptic } from '../telegram';
+import { getTelegramId, haptic } from '../telegram';
 import { useTranslation } from '../i18n/LocaleContext';
 
 const TYPE_ICONS: Record<string, string> = { text: '📝', photo: '🖼', video: '🎥' };
@@ -13,6 +13,7 @@ export function TheoryCategoryPicker() {
   const { type } = useParams<{ type: string }>();
   const [categories, setCategories] = useState<TheoryCategory[]>([]);
   const [loading, setLoading] = useState(true);
+  const [isPremium, setIsPremium] = useState(true);
 
   useEffect(() => {
     if (!type) return;
@@ -21,6 +22,10 @@ export function TheoryCategoryPicker() {
       .then(setCategories)
       .finally(() => setLoading(false));
   }, [type]);
+
+  useEffect(() => {
+    fetchProfile(getTelegramId()).then((p) => setIsPremium(p.isPremium));
+  }, []);
 
   const total = categories.reduce((sum, c) => sum + c.count, 0);
 
@@ -50,6 +55,19 @@ export function TheoryCategoryPicker() {
         <p className="text-center mt-8" style={{ color: '#9aa4bf' }}>
           {t('common.loading')}
         </p>
+      )}
+
+      {!loading && !isPremium && (
+        <div className="px-4 pb-2">
+          <div
+            className="rounded-2xl px-4 py-3"
+            style={{ background: '#1a2338', border: '1.5px solid #d4af37' }}
+          >
+            <p className="text-sm" style={{ color: '#f5f7fa' }}>
+              ⭐ {t('categoryPicker.freeLimitNotice')}
+            </p>
+          </div>
+        </div>
       )}
 
       {!loading && (
