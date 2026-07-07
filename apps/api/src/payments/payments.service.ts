@@ -2,7 +2,7 @@ import { Injectable } from '@nestjs/common';
 import { PrismaService } from '../prisma/prisma.service';
 import { UsersService } from '../users/users.service';
 
-const PREMIUM_PRICE_GROSZ = 7700; // 77 PLN
+const PREMIUM_PRICE_GROSZ = 6600; // 66 PLN
 
 @Injectable()
 export class PaymentsService {

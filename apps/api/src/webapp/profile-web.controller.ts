@@ -20,7 +20,7 @@ export class ProfileWebController {
       isPremium: user.isPremium,
       premiumSince: user.premiumSince,
       createdAt: user.createdAt,
-      premiumPriceGrosz: 7700,
+      premiumPriceGrosz: 6600,
       blikPhone: this.config.get<string>('ADMIN_BLIK_PHONE') || null,
     };
   }

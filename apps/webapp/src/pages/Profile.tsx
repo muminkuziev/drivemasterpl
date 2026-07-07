@@ -150,6 +150,9 @@ export function Profile() {
             className="rounded-2xl px-4 py-4 flex flex-col gap-3"
             style={{ background: '#1a2338', border: '1.5px solid #d4af37' }}
           >
+            <p className="text-sm whitespace-pre-line" style={{ color: '#f5f7fa' }}>
+              {t('profile.buyPremiumFeatures')}
+            </p>
             <p className="text-sm" style={{ color: '#f5f7fa' }}>
               {t('profile.buyPremiumInstructions', {
                 amount: (profile.premiumPriceGrosz / 100).toFixed(0),
