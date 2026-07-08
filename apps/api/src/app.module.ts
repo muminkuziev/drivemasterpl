@@ -14,6 +14,7 @@ import { MEDIA_ROOT_DIR } from './content/media-root.util';
     ConfigModule.forRoot({ isGlobal: true }),
     ServeStaticModule.forRoot(
       { rootPath: MEDIA_ROOT_DIR, serveRoot: '/media' },
+      { rootPath: join(__dirname, '..', '..', 'public-app'), serveRoot: '/app' },
       { rootPath: join(__dirname, '..', '..', 'public') },
     ),
     PrismaModule,

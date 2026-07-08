@@ -13,10 +13,8 @@ dist/
 # Media (9GB+, uploaded separately to production disk, not committed)
 apps/api/media/
 
-# Webapp build copied into api/public during deploy — keep admin.html tracked
-apps/api/public/assets/
-apps/api/public/index.html
-apps/api/public/favicon.svg
+# Mini App build copied into api/public-app during deploy (built artifact)
+apps/api/public-app/
 
 # Logs / OS junk
 *.log

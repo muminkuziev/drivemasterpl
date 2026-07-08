@@ -6,10 +6,10 @@ cd apps/webapp
 npm install --include=dev
 npm run build
 
-echo "==> Copying webapp build into apps/api/public..."
+echo "==> Copying webapp build into apps/api/public-app..."
 cd ../api
-mkdir -p public
-cp -r ../webapp/dist/. public/
+mkdir -p public-app
+cp -r ../webapp/dist/. public-app/
 
 echo "==> Installing & building api..."
 npm install --include=dev
