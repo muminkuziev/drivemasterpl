@@ -11,6 +11,14 @@
   --dm-orange: #f5a623;
   --dm-success: #22c55e;
   --dm-error: #ef4444;
+
+  --dm-shadow: 0 1px 2px rgba(0, 0, 0, 0.4), 0 16px 40px -16px rgba(0, 0, 0, 0.6);
+  --dm-shadow-lg: 0 2px 4px rgba(0, 0, 0, 0.5), 0 32px 64px -20px rgba(0, 0, 0, 0.7);
+  --dm-border-hairline: rgba(255, 255, 255, 0.06);
+  --dm-radius-sm: 10px;
+  --dm-radius-md: 16px;
+  --dm-radius-lg: 22px;
+  --dm-ease: cubic-bezier(0.16, 1, 0.3, 1);
 }
 
 * {
@@ -52,4 +60,29 @@ body {
 ::-webkit-scrollbar-thumb {
   background: var(--dm-border);
   border-radius: 3px;
+}
+
+/* Yengil sof-CSS mikroanimatsiya (GSAP emas — faqat marketing/landing
+   sahifada ishlatiladi). .dm-enter: sahifa mount bo'lganda bir martalik
+   fade-in-up. .dm-press: bosiladigan elementlarda teginish fikr-mulohazasi. */
+@media (prefers-reduced-motion: no-preference) {
+  .dm-enter {
+    animation: dm-rise 0.45s var(--dm-ease) both;
+  }
+  @keyframes dm-rise {
+    from {
+      opacity: 0;
+      transform: translateY(10px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+}
+.dm-press {
+  transition: transform 0.15s var(--dm-ease);
+}
+.dm-press:active {
+  transform: scale(0.96);
 }
