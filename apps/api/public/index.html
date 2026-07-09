@@ -1074,6 +1074,22 @@ footer a:hover { color: var(--route); }
 
     gsap.registerPlugin(ScrollTrigger);
 
+    var REVEAL_SELECTOR = '.stat, .route-step, .plate-strip, .price-card, .final .wrap > *';
+
+    // Safety net: some environments (search-engine renderers, link-preview
+    // screenshotters, embedded webviews) resize the viewport to full page
+    // height without ever dispatching real scroll events, so ScrollTrigger's
+    // 'top 85%' condition can end up never firing. Content must never stay
+    // permanently invisible because of that — force-reveal anything still
+    // hidden after a short grace period.
+    setTimeout(function () {
+      document.querySelectorAll(REVEAL_SELECTOR).forEach(function (el) {
+        if (getComputedStyle(el).opacity === '0') {
+          gsap.to(el, { opacity: 1, y: 0, duration: 0.4 });
+        }
+      });
+    }, 2500);
+
     // Below-the-fold scroll-reveals. Hero content is intentionally excluded
     // (no opacity animation on first paint) so LCP is never delayed.
     gsap.utils.toArray('.stat, .route-step, .plate-strip, .price-card').forEach(function (el) {
