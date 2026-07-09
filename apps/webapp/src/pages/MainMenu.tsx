@@ -10,8 +10,11 @@ interface MenuItem {
   disabled?: boolean;
 }
 
+// AI Tarjimon: OPENAI_API_KEY hali sozlanmaganligi sababli asosiy menyudan
+// vaqtincha yashirilgan. Kalit qo'shilgach, quyidagi qatorni qaytarish kifoya
+// — sahifa (/translator) va backend allaqachon tayyor.
+// { icon: '🗣', titleKey: 'mainMenu.item.translator.title', subtitleKey: 'mainMenu.item.translator.subtitle', to: '/translator' },
 const ITEMS: MenuItem[] = [
-  { icon: '🗣', titleKey: 'mainMenu.item.translator.title', subtitleKey: 'mainMenu.item.translator.subtitle', to: '/translator' },
   { icon: '📘', titleKey: 'mainMenu.item.theory.title', subtitleKey: 'mainMenu.item.theory.subtitle', to: '/theory' },
   { icon: '🧠', titleKey: 'mainMenu.item.psych.title', subtitleKey: 'mainMenu.item.psych.subtitle', to: '/psych' },
   { icon: '🚦', titleKey: 'mainMenu.item.signs.title', subtitleKey: 'mainMenu.item.signs.subtitle', to: '/signs' },
