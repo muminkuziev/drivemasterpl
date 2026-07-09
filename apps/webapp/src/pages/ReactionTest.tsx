@@ -45,17 +45,17 @@ export function ReactionTest() {
   }
 
   return (
-    <div className="flex-1 flex flex-col">
+    <div className="flex-1 flex flex-col dm-enter">
       <header className="flex items-center gap-3 px-4 pt-6 pb-3">
         <button
           type="button"
           onClick={() => navigate(-1)}
           className="text-xl px-1"
-          style={{ color: '#f5f7fa' }}
+          style={{ color: 'var(--dm-text)' }}
         >
           ‹
         </button>
-        <h1 className="text-lg font-bold" style={{ color: '#f5f7fa' }}>
+        <h1 className="text-lg font-bold" style={{ color: 'var(--dm-text)' }}>
           ⚡ {t('reaction.title')}
         </h1>
       </header>
@@ -63,14 +63,14 @@ export function ReactionTest() {
       <div className="flex-1 flex flex-col items-center justify-center px-8 gap-6">
         {phase === 'idle' && (
           <>
-            <p className="text-center" style={{ color: '#9aa4bf' }}>
+            <p className="text-center" style={{ color: 'var(--dm-text-muted)' }}>
               {t('reaction.instructions')}
             </p>
             <button
               type="button"
               onClick={start}
-              className="rounded-2xl px-8 py-4 font-bold"
-              style={{ background: '#d4af37', color: '#0b1220' }}
+              className="dm-press rounded-2xl px-8 py-4 font-bold"
+              style={{ background: 'var(--dm-gold)', color: 'var(--dm-bg)' }}
             >
               {t('common.start')}
             </button>
@@ -83,9 +83,9 @@ export function ReactionTest() {
             onClick={onTap}
             className="w-48 h-48 rounded-full flex items-center justify-center font-bold text-lg transition-colors"
             style={{
-              background: phase === 'ready' ? '#22c55e' : '#1a2338',
-              border: phase === 'ready' ? 'none' : '2px solid #2a3350',
-              color: phase === 'ready' ? '#0b1220' : '#9aa4bf',
+              background: phase === 'ready' ? 'var(--dm-success)' : 'var(--dm-card)',
+              border: phase === 'ready' ? 'none' : '2px solid var(--dm-border)',
+              color: phase === 'ready' ? 'var(--dm-bg)' : 'var(--dm-text-muted)',
             }}
           >
             {phase === 'ready' ? t('reaction.pressNow') : t('common.waiting')}
@@ -94,14 +94,14 @@ export function ReactionTest() {
 
         {phase === 'too-early' && (
           <>
-            <p className="text-center" style={{ color: '#ef4444' }}>
+            <p className="text-center" style={{ color: 'var(--dm-error)' }}>
               {t('reaction.tooEarly')}
             </p>
             <button
               type="button"
               onClick={start}
-              className="rounded-2xl px-8 py-4 font-bold"
-              style={{ background: '#d4af37', color: '#0b1220' }}
+              className="dm-press rounded-2xl px-8 py-4 font-bold"
+              style={{ background: 'var(--dm-gold)', color: 'var(--dm-bg)' }}
             >
               {t('common.retry')}
             </button>
@@ -111,18 +111,18 @@ export function ReactionTest() {
         {phase === 'result' && score !== null && (
           <>
             <div className="text-center">
-              <p className="text-4xl font-bold" style={{ color: '#d4af37' }}>
+              <p className="text-4xl font-bold" style={{ color: 'var(--dm-gold)' }}>
                 {Math.round(score)}
               </p>
-              <p className="text-sm" style={{ color: '#9aa4bf' }}>
+              <p className="text-sm" style={{ color: 'var(--dm-text-muted)' }}>
                 {t('reaction.resultLabel', { ms: reactionMs ?? 0 })}
               </p>
             </div>
             <button
               type="button"
               onClick={start}
-              className="rounded-2xl px-8 py-4 font-bold"
-              style={{ background: '#d4af37', color: '#0b1220' }}
+              className="dm-press rounded-2xl px-8 py-4 font-bold"
+              style={{ background: 'var(--dm-gold)', color: 'var(--dm-bg)' }}
             >
               {t('common.tryAgain')}
             </button>

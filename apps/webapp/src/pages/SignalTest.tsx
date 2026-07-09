@@ -101,26 +101,26 @@ export function SignalTest() {
   }
 
   return (
-    <div className="flex-1 flex flex-col">
+    <div className="flex-1 flex flex-col dm-enter">
       <header className="flex items-center gap-3 px-4 pt-6 pb-3">
-        <button type="button" onClick={() => navigate(-1)} className="text-xl px-1" style={{ color: '#f5f7fa' }}>
+        <button type="button" onClick={() => navigate(-1)} className="text-xl px-1" style={{ color: 'var(--dm-text)' }}>
           ‹
         </button>
-        <h1 className="text-lg font-bold" style={{ color: '#f5f7fa' }}>
+        <h1 className="text-lg font-bold" style={{ color: 'var(--dm-text)' }}>
           🚨 {t('signal.title')}
         </h1>
       </header>
 
       {phase === 'idle' && (
         <div className="flex-1 flex flex-col items-center justify-center gap-6 px-8">
-          <p className="text-center" style={{ color: '#9aa4bf' }}>
+          <p className="text-center" style={{ color: 'var(--dm-text-muted)' }}>
             {t('signal.instructions')}
           </p>
           <button
             type="button"
             onClick={begin}
-            className="rounded-2xl px-8 py-4 font-bold"
-            style={{ background: '#d4af37', color: '#0b1220' }}
+            className="dm-press rounded-2xl px-8 py-4 font-bold"
+            style={{ background: 'var(--dm-gold)', color: 'var(--dm-bg)' }}
           >
             {t('common.start')}
           </button>
@@ -129,17 +129,17 @@ export function SignalTest() {
 
       {(phase === 'waiting' || phase === 'active') && (
         <div className="flex-1 flex flex-col px-6">
-          <div className="flex justify-between text-sm mb-6" style={{ color: '#9aa4bf' }}>
+          <div className="flex justify-between text-sm mb-6" style={{ color: 'var(--dm-text-muted)' }}>
             <span>{t('signal.round', { round, total: TOTAL_ROUNDS })}</span>
             <span>{t('signal.time', { ms: timeLimitFor(round) })}</span>
-            <span style={{ color: errors > 0 ? '#ef4444' : '#9aa4bf' }}>{t('signal.errors', { count: errors })}</span>
+            <span style={{ color: errors > 0 ? 'var(--dm-error)' : 'var(--dm-text-muted)' }}>{t('signal.errors', { count: errors })}</span>
           </div>
 
           <div
             className="flex-1 flex items-center justify-center rounded-2xl mb-6"
             style={{
-              background: '#1a2338',
-              border: '2px solid #2a3350',
+              background: 'var(--dm-card)',
+              border: '2px solid var(--dm-border)',
               minHeight: 140,
             }}
           >
@@ -158,7 +158,7 @@ export function SignalTest() {
                 />
               )
             ) : (
-              <span style={{ color: '#9aa4bf' }}>{t('common.waiting')}</span>
+              <span style={{ color: 'var(--dm-text-muted)' }}>{t('common.waiting')}</span>
             )}
           </div>
 
@@ -169,7 +169,7 @@ export function SignalTest() {
                 type="button"
                 onClick={() => onPress(s.key)}
                 className="rounded-xl px-4 py-3 font-semibold"
-                style={{ background: '#1a2338', border: `2px solid ${s.hex}`, color: s.hex }}
+                style={{ background: 'var(--dm-card)', border: `2px solid ${s.hex}`, color: s.hex }}
               >
                 {t(`signal.color.${s.key}`)}
               </button>
@@ -181,18 +181,18 @@ export function SignalTest() {
       {phase === 'result' && finalScore !== null && (
         <div className="flex-1 flex flex-col items-center justify-center gap-6 px-8">
           <div className="text-center">
-            <p className="text-4xl font-bold" style={{ color: '#d4af37' }}>
+            <p className="text-4xl font-bold" style={{ color: 'var(--dm-gold)' }}>
               {Math.round(finalScore)}
             </p>
-            <p className="text-sm" style={{ color: '#9aa4bf' }}>
+            <p className="text-sm" style={{ color: 'var(--dm-text-muted)' }}>
               {t('signal.resultLabel', { errors })}
             </p>
           </div>
           <button
             type="button"
             onClick={begin}
-            className="rounded-2xl px-8 py-4 font-bold"
-            style={{ background: '#d4af37', color: '#0b1220' }}
+            className="dm-press rounded-2xl px-8 py-4 font-bold"
+            style={{ background: 'var(--dm-gold)', color: 'var(--dm-bg)' }}
           >
             {t('common.tryAgain')}
           </button>

@@ -83,24 +83,24 @@ export function AttentionTest() {
   }
 
   return (
-    <div className="flex-1 flex flex-col">
+    <div className="flex-1 flex flex-col dm-enter">
       <header className="flex items-center gap-3 px-4 pt-6 pb-3">
         <button
           type="button"
           onClick={() => navigate(-1)}
           className="text-xl px-1"
-          style={{ color: '#f5f7fa' }}
+          style={{ color: 'var(--dm-text)' }}
         >
           ‹
         </button>
-        <h1 className="text-lg font-bold" style={{ color: '#f5f7fa' }}>
+        <h1 className="text-lg font-bold" style={{ color: 'var(--dm-text)' }}>
           🔎 {t('attention.title')}
         </h1>
       </header>
 
       {!result && target && (
         <>
-          <p className="text-center px-4 pb-3" style={{ color: '#9aa4bf' }}>
+          <p className="text-center px-4 pb-3" style={{ color: 'var(--dm-text-muted)' }}>
             {t('attention.instructions', {
               color: t(`attention.color.${target.key}`),
               remaining: remainingTargets,
@@ -130,18 +130,18 @@ export function AttentionTest() {
       {result && (
         <div className="flex-1 flex flex-col items-center justify-center gap-6 px-8">
           <div className="text-center">
-            <p className="text-4xl font-bold" style={{ color: '#d4af37' }}>
+            <p className="text-4xl font-bold" style={{ color: 'var(--dm-gold)' }}>
               {Math.round(result.accuracyPercent)}%
             </p>
-            <p className="text-sm" style={{ color: '#9aa4bf' }}>
+            <p className="text-sm" style={{ color: 'var(--dm-text-muted)' }}>
               {t('attention.resultLabel', { mistakes: result.mistakes })}
             </p>
           </div>
           <button
             type="button"
             onClick={begin}
-            className="rounded-2xl px-8 py-4 font-bold"
-            style={{ background: '#d4af37', color: '#0b1220' }}
+            className="dm-press rounded-2xl px-8 py-4 font-bold"
+            style={{ background: 'var(--dm-gold)', color: 'var(--dm-bg)' }}
           >
             {t('common.tryAgain')}
           </button>

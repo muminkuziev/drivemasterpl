@@ -81,34 +81,34 @@ export function TheoryQuiz() {
   const flag = LOCALE_FLAG[locale] ?? '🇺🇿';
 
   return (
-    <div className="flex-1 flex flex-col">
+    <div className="flex-1 flex flex-col dm-enter">
       <header className="flex items-center gap-3 px-4 pt-6 pb-3">
         <button
           type="button"
           onClick={() => navigate(-1)}
           className="text-xl px-1"
-          style={{ color: '#f5f7fa' }}
+          style={{ color: 'var(--dm-text)' }}
         >
           ‹
         </button>
-        <h1 className="text-lg font-bold flex-1" style={{ color: '#f5f7fa' }}>
+        <h1 className="text-lg font-bold flex-1" style={{ color: 'var(--dm-text)' }}>
           {TYPE_ICONS[type ?? 'text']} {t(`theoryMenu.type.${type ?? 'text'}`)}
         </h1>
         {history.length > 0 && (
-          <span className="text-xs font-bold" style={{ color: '#9aa4bf' }}>
+          <span className="text-xs font-bold" style={{ color: 'var(--dm-text-muted)' }}>
             {index + 1}
           </span>
         )}
       </header>
 
       {loading && (
-        <p className="text-center mt-8" style={{ color: '#9aa4bf' }}>
+        <p className="text-center mt-8" style={{ color: 'var(--dm-text-muted)' }}>
           {t('common.loading')}
         </p>
       )}
 
       {empty && !loading && (
-        <p className="text-center mt-8 px-8" style={{ color: '#9aa4bf' }}>
+        <p className="text-center mt-8 px-8" style={{ color: 'var(--dm-text-muted)' }}>
           {t('theoryQuiz.empty')}
         </p>
       )}
@@ -116,7 +116,7 @@ export function TheoryQuiz() {
       {current && !loading && (
         <div className="flex-1 flex flex-col px-4 pb-6 overflow-y-auto">
           {current.question.category && (
-            <p className="text-xs mb-2" style={{ color: '#d4af37' }}>
+            <p className="text-xs mb-2" style={{ color: 'var(--dm-gold)' }}>
               🏷 {t(`theoryCategory.${current.question.category}`)}
             </p>
           )}
@@ -142,7 +142,7 @@ export function TheoryQuiz() {
                   onContextMenu={(event) => event.preventDefault()}
                   onDragStart={(event) => event.preventDefault()}
                   className="w-full rounded-2xl object-contain"
-                  style={{ maxHeight: 220, background: '#f5f7fa', userSelect: 'none' }}
+                  style={{ maxHeight: 220, background: 'var(--dm-text)', userSelect: 'none' }}
                 />
               )}
             </div>
@@ -150,10 +150,10 @@ export function TheoryQuiz() {
 
           <div
             className="rounded-2xl p-4 mb-3"
-            style={{ background: '#1a2338', border: '1px solid #2a3350' }}
+            style={{ background: 'var(--dm-card)', border: '1px solid var(--dm-border)', boxShadow: 'var(--dm-shadow)' }}
           >
-            <p style={{ color: '#f5f7fa' }}>❓ {current.question.textPl}</p>
-            <p className="mt-1" style={{ color: '#9aa4bf' }}>
+            <p style={{ color: 'var(--dm-text)' }}>❓ {current.question.textPl}</p>
+            <p className="mt-1" style={{ color: 'var(--dm-text-muted)' }}>
               {flag}{' '}
               {pickText(locale, {
                 uz: current.question.textUz,
@@ -167,14 +167,14 @@ export function TheoryQuiz() {
             {current.question.options.map((opt, i) => {
               const isSelected = current.selected?.id === opt.id;
               const isCorrectOpt = current.feedback?.correctOption?.id === opt.id;
-              let bg = '#1a2338';
-              let border = '#2a3350';
+              let bg = 'var(--dm-card)';
+              let border = 'var(--dm-border)';
               if (current.feedback && isCorrectOpt) {
                 bg = 'rgba(34,197,94,0.15)';
-                border = '#22c55e';
+                border = 'var(--dm-success)';
               } else if (current.feedback && isSelected && !current.feedback.isCorrect) {
                 bg = 'rgba(239,68,68,0.15)';
-                border = '#ef4444';
+                border = 'var(--dm-error)';
               }
               return (
                 <button
@@ -182,15 +182,15 @@ export function TheoryQuiz() {
                   type="button"
                   disabled={!!current.selected}
                   onClick={() => onSelect(opt)}
-                  className="text-left rounded-xl px-4 py-3"
+                  className="dm-press text-left rounded-xl px-4 py-3"
                   style={{ background: bg, border: `1px solid ${border}` }}
                 >
-                  <span className="font-semibold" style={{ color: '#d4af37' }}>
+                  <span className="font-semibold" style={{ color: 'var(--dm-gold)' }}>
                     {String.fromCharCode(65 + i)})
                   </span>{' '}
-                  <span style={{ color: '#f5f7fa' }}>{opt.textPl}</span>
+                  <span style={{ color: 'var(--dm-text)' }}>{opt.textPl}</span>
                   <br />
-                  <span className="text-sm" style={{ color: '#9aa4bf' }}>
+                  <span className="text-sm" style={{ color: 'var(--dm-text-muted)' }}>
                     {flag} {pickText(locale, { uz: opt.textUz, ru: opt.textRu, en: opt.textEn })}
                   </span>
                 </button>
@@ -203,11 +203,11 @@ export function TheoryQuiz() {
               type="button"
               onClick={goPrev}
               disabled={index <= 0}
-              className="rounded-2xl px-5 py-4 font-bold"
+              className="dm-press rounded-2xl px-5 py-4 font-bold"
               style={{
-                background: '#1a2338',
-                border: '1px solid #2a3350',
-                color: index <= 0 ? '#4a5372' : '#f5f7fa',
+                background: 'var(--dm-card)',
+                border: '1px solid var(--dm-border)',
+                color: index <= 0 ? '#4a5372' : 'var(--dm-text)',
                 opacity: index <= 0 ? 0.5 : 1,
               }}
             >
@@ -217,11 +217,11 @@ export function TheoryQuiz() {
               type="button"
               onClick={goNext}
               disabled={!current.selected}
-              className="flex-1 rounded-2xl px-5 py-4 font-bold"
+              className="dm-press flex-1 rounded-2xl px-5 py-4 font-bold"
               style={{
-                background: current.selected ? '#d4af37' : '#1a2338',
-                color: current.selected ? '#0b1220' : '#4a5372',
-                border: current.selected ? 'none' : '1px solid #2a3350',
+                background: current.selected ? 'var(--dm-gold)' : 'var(--dm-card)',
+                color: current.selected ? 'var(--dm-bg)' : '#4a5372',
+                border: current.selected ? 'none' : '1px solid var(--dm-border)',
               }}
             >
               {t('common.next')} ➡️

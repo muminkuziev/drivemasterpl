@@ -126,26 +126,26 @@ export function KrzyzowyTest() {
   }
 
   return (
-    <div className="flex-1 flex flex-col">
+    <div className="flex-1 flex flex-col dm-enter">
       <header className="flex items-center gap-3 px-4 pt-6 pb-3">
-        <button type="button" onClick={() => navigate(-1)} className="text-xl px-1" style={{ color: '#f5f7fa' }}>
+        <button type="button" onClick={() => navigate(-1)} className="text-xl px-1" style={{ color: 'var(--dm-text)' }}>
           ‹
         </button>
-        <h1 className="text-lg font-bold" style={{ color: '#f5f7fa' }}>
+        <h1 className="text-lg font-bold" style={{ color: 'var(--dm-text)' }}>
           🧠 {t('krzyzowy.title')}
         </h1>
       </header>
 
       {phase === 'idle' && (
         <div className="flex-1 flex flex-col items-center justify-center gap-6 px-8">
-          <p className="text-center" style={{ color: '#9aa4bf' }}>
+          <p className="text-center" style={{ color: 'var(--dm-text-muted)' }}>
             {t('krzyzowy.instructions')}
           </p>
           <button
             type="button"
             onClick={begin}
-            className="rounded-2xl px-8 py-4 font-bold"
-            style={{ background: '#d4af37', color: '#0b1220' }}
+            className="dm-press rounded-2xl px-8 py-4 font-bold"
+            style={{ background: 'var(--dm-gold)', color: 'var(--dm-bg)' }}
           >
             {t('common.start')}
           </button>
@@ -154,19 +154,19 @@ export function KrzyzowyTest() {
 
       {phase === 'active' && (
         <div className="flex-1 flex flex-col px-6">
-          <div className="flex justify-between text-sm mb-2" style={{ color: '#9aa4bf' }}>
+          <div className="flex justify-between text-sm mb-2" style={{ color: 'var(--dm-text-muted)' }}>
             <span>{t('krzyzowy.round', { round, total: TOTAL_ROUNDS })}</span>
             <span>{t('krzyzowy.correct', { count: correctCount })}</span>
           </div>
-          <div className="h-1.5 rounded-full mb-6" style={{ background: '#2a3350' }}>
+          <div className="h-1.5 rounded-full mb-6" style={{ background: 'var(--dm-border)' }}>
             <div
               className="h-full rounded-full"
-              style={{ width: `${progress}%`, background: '#d4af37', transition: 'width 50ms linear' }}
+              style={{ width: `${progress}%`, background: 'var(--dm-gold)', transition: 'width 50ms linear' }}
             />
           </div>
 
           <div className="flex items-center justify-center gap-4 mb-8">
-            <span className="text-sm" style={{ color: '#9aa4bf' }}>
+            <span className="text-sm" style={{ color: 'var(--dm-text-muted)' }}>
               {t('krzyzowy.findColor')}
             </span>
             <div style={{ width: 48, height: 48, borderRadius: '50%', background: target }} />
@@ -185,18 +185,18 @@ export function KrzyzowyTest() {
       {phase === 'result' && finalScore !== null && (
         <div className="flex-1 flex flex-col items-center justify-center gap-6 px-8">
           <div className="text-center">
-            <p className="text-4xl font-bold" style={{ color: '#d4af37' }}>
+            <p className="text-4xl font-bold" style={{ color: 'var(--dm-gold)' }}>
               {Math.round(finalScore)}
             </p>
-            <p className="text-sm" style={{ color: '#9aa4bf' }}>
+            <p className="text-sm" style={{ color: 'var(--dm-text-muted)' }}>
               {t('krzyzowy.resultLabel', { correct: correctCount, total: TOTAL_ROUNDS })}
             </p>
           </div>
           <button
             type="button"
             onClick={begin}
-            className="rounded-2xl px-8 py-4 font-bold"
-            style={{ background: '#d4af37', color: '#0b1220' }}
+            className="dm-press rounded-2xl px-8 py-4 font-bold"
+            style={{ background: 'var(--dm-gold)', color: 'var(--dm-bg)' }}
           >
             {t('common.tryAgain')}
           </button>

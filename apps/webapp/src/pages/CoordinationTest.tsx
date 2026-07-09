@@ -102,24 +102,24 @@ export function CoordinationTest() {
   }
 
   return (
-    <div className="flex-1 flex flex-col">
+    <div className="flex-1 flex flex-col dm-enter">
       <header className="flex items-center gap-3 px-4 pt-6 pb-3">
         <button
           type="button"
           onClick={() => navigate(-1)}
           className="text-xl px-1"
-          style={{ color: '#f5f7fa' }}
+          style={{ color: 'var(--dm-text)' }}
         >
           ‹
         </button>
-        <h1 className="text-lg font-bold" style={{ color: '#f5f7fa' }}>
+        <h1 className="text-lg font-bold" style={{ color: 'var(--dm-text)' }}>
           🧩 {t('coordination.title')}
         </h1>
       </header>
 
       {!result && (
         <>
-          <p className="text-center px-4 pb-2" style={{ color: '#9aa4bf' }}>
+          <p className="text-center px-4 pb-2" style={{ color: 'var(--dm-text-muted)' }}>
             {t('coordination.instructions')}
           </p>
           <div className="flex-1 flex items-center justify-center px-4">
@@ -127,7 +127,7 @@ export function CoordinationTest() {
               ref={svgRef}
               viewBox="0 0 300 300"
               className="w-full max-w-sm rounded-2xl"
-              style={{ background: '#141b2e', touchAction: 'none' }}
+              style={{ background: 'var(--dm-bg-elevated)', touchAction: 'none' }}
               onPointerMove={(e) => handlePointerMove(e.clientX, e.clientY)}
               onPointerUp={handlePointerUp}
               onPointerLeave={handlePointerUp}
@@ -136,21 +136,21 @@ export function CoordinationTest() {
                 <path
                   ref={pathRef}
                   d={pathD}
-                  stroke="#2a3350"
+                  stroke="var(--dm-border)"
                   strokeWidth={TOLERANCE * 2}
                   strokeLinecap="round"
                   fill="none"
                 />
               )}
               {pathD && (
-                <path d={pathD} stroke="#d4af37" strokeWidth={2} fill="none" opacity={0.6} />
+                <path d={pathD} stroke="var(--dm-gold)" strokeWidth={2} fill="none" opacity={0.6} />
               )}
               <circle
                 cx={dot.x}
                 cy={dot.y}
                 r={14}
-                fill={onTrack ? '#22c55e' : '#ef4444'}
-                stroke="#0b1220"
+                fill={onTrack ? 'var(--dm-success)' : 'var(--dm-error)'}
+                stroke="var(--dm-bg)"
                 strokeWidth={2}
                 onPointerDown={() => {
                   draggingRef.current = true;
@@ -160,7 +160,7 @@ export function CoordinationTest() {
               />
             </svg>
           </div>
-          <p className="text-center pb-6 text-sm" style={{ color: '#9aa4bf' }}>
+          <p className="text-center pb-6 text-sm" style={{ color: 'var(--dm-text-muted)' }}>
             {dragging ? t('coordination.dragging') : t('coordination.dragHint')}
           </p>
         </>
@@ -169,18 +169,18 @@ export function CoordinationTest() {
       {result && (
         <div className="flex-1 flex flex-col items-center justify-center gap-6 px-8">
           <div className="text-center">
-            <p className="text-4xl font-bold" style={{ color: '#d4af37' }}>
+            <p className="text-4xl font-bold" style={{ color: 'var(--dm-gold)' }}>
               {Math.round(result.coordinationScore)}
             </p>
-            <p className="text-sm" style={{ color: '#9aa4bf' }}>
+            <p className="text-sm" style={{ color: 'var(--dm-text-muted)' }}>
               {t('coordination.resultLabel', { seconds: result.outOfLineTime.toFixed(1) })}
             </p>
           </div>
           <button
             type="button"
             onClick={begin}
-            className="rounded-2xl px-8 py-4 font-bold"
-            style={{ background: '#d4af37', color: '#0b1220' }}
+            className="dm-press rounded-2xl px-8 py-4 font-bold"
+            style={{ background: 'var(--dm-gold)', color: 'var(--dm-bg)' }}
           >
             {t('common.tryAgain')}
           </button>
