@@ -229,3 +229,54 @@ export function requestPremium(telegramId: string, phone: string) {
 export function fetchPaymentStatus(telegramId: string) {
   return getJson<PaymentStatus | null>(`/api/payments/my-status?telegramId=${encodeURIComponent(telegramId)}`);
 }
+
+// ---------- AI Tarjimon ----------
+
+export interface TranslatorUsage {
+  isPremium: boolean;
+  used: number;
+  limit: number;
+  remaining: number;
+}
+
+export interface TranslateResult {
+  originalText: string;
+  detectedLang: string;
+  translatedText: string;
+  targetLang: string;
+  audioBase64: string;
+}
+
+export function fetchTranslatorUsage(telegramId: string) {
+  return getJson<TranslatorUsage>(`/api/translator/usage?telegramId=${encodeURIComponent(telegramId)}`);
+}
+
+/** Limit tugagan yoki funksiya o'chirilgan holatlarni backend `code`si bilan aniqlash uchun. */
+export class TranslatorLimitError extends Error {
+  code: string;
+  limit?: number;
+  constructor(code: string, limit?: number) {
+    super(code);
+    this.code = code;
+    this.limit = limit;
+  }
+}
+
+export async function translateVoice(
+  telegramId: string,
+  audioBase64: string,
+  mimeType: string,
+  passengerLanguage: string,
+): Promise<TranslateResult> {
+  const res = await fetch('/api/translator/translate', {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json', ...authHeaders() },
+    body: JSON.stringify({ telegramId, audioBase64, mimeType, passengerLanguage }),
+  });
+  if (!res.ok) {
+    const data = (await res.json().catch(() => null)) as { code?: string; limit?: number } | null;
+    if (data?.code) throw new TranslatorLimitError(data.code, data.limit);
+    throw new Error(`API xatosi: ${res.status}`);
+  }
+  return res.json() as Promise<TranslateResult>;
+}

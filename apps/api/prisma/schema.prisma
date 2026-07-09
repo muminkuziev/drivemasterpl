@@ -21,6 +21,10 @@ model User {
   boundDeviceAt DateTime?
   createdAt     DateTime  @default(now())
 
+  translatorFreeUsed   Int     @default(0) // bepul foydalanuvchi uchun umumiy hisoblagich (kunlik emas)
+  translatorDailyCount Int     @default(0) // premium foydalanuvchi uchun kunlik hisoblagich
+  translatorDailyDate  String? // "YYYY-MM-DD" bucket — mos kelmasa translatorDailyCount 0'ga qaytariladi
+
   payments Payment[]
 
   @@map("users")

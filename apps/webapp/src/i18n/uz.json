@@ -18,6 +18,7 @@
   "mainMenu": {
     "tagline": "Prawo jazdy — o'zbek tilida",
     "item": {
+      "translator": { "title": "AI Tarjimon", "subtitle": "Yo'lovchi bilan ovozli tarjima" },
       "theory": { "title": "Teoriya", "subtitle": "Matnli, rasmli, video darslik" },
       "psych": { "title": "Psixologiya", "subtitle": "Ko'rik va mashq-testlar" },
       "signs": { "title": "Yo'l belgilari", "subtitle": "323 ta rasmiy belgi" },
@@ -251,5 +252,21 @@
     "title": "Fikr va takliflar",
     "text": "Ilovada xato topsangiz, taklif yoki shikoyatingiz bo'lsa — to'g'ridan-to'g'ri asoschiga yozishingiz mumkin. Har bir xabar shaxsan ko'rib chiqiladi.",
     "contactFounder": "Asoschi bilan bog'lanish"
+  },
+  "translator": {
+    "title": "AI Tarjimon",
+    "passengerLanguage": "Yo'lovchi tili",
+    "tapToSpeak": "Gapirish uchun mikrofonni bosing",
+    "recording": "Yozib olinmoqda... to'xtatish uchun bosing",
+    "processing": "Tarjima qilinmoqda...",
+    "replay": "Qayta eshitish",
+    "usageFree": "Bepul: {{remaining}}/{{limit}} ta tarjima qoldi",
+    "usagePremium": "Bugun: {{remaining}}/{{limit}} ta tarjima qoldi",
+    "freeLimitReached": "Bepul tarjimalar tugadi. Cheksiz foydalanish uchun Premium'ga o'ting.",
+    "dailyLimitReached": "Bugungi limit tugadi. Ertaga qayta urinib ko'ring.",
+    "disabled": "AI Tarjimon hozircha vaqtincha ishlamayapti.",
+    "goPremium": "Premium'ga o'tish",
+    "micDenied": "Mikrofonga ruxsat berilmadi. Telegram/brauzer sozlamalaridan ruxsat bering.",
+    "error": "Xatolik yuz berdi. Qayta urinib ko'ring."
   }
 }

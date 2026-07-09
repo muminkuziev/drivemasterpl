@@ -18,6 +18,7 @@
   "mainMenu": {
     "tagline": "Prawo jazdy — in English",
     "item": {
+      "translator": { "title": "AI Translator", "subtitle": "Voice translation with passengers" },
       "theory": { "title": "Theory", "subtitle": "Text, photo and video lessons" },
       "psych": { "title": "Psychology", "subtitle": "Exam prep and practice tests" },
       "signs": { "title": "Road Signs", "subtitle": "323 official signs" },
@@ -251,5 +252,21 @@
     "title": "Feedback & Suggestions",
     "text": "If you found a bug, have a suggestion, or a complaint — you can message the founder directly. Every message is reviewed personally.",
     "contactFounder": "Contact the founder"
+  },
+  "translator": {
+    "title": "AI Translator",
+    "passengerLanguage": "Passenger language",
+    "tapToSpeak": "Tap the microphone and speak",
+    "recording": "Recording... tap to stop",
+    "processing": "Translating...",
+    "replay": "Play again",
+    "usageFree": "Free: {{remaining}}/{{limit}} translations left",
+    "usagePremium": "Today: {{remaining}}/{{limit}} translations left",
+    "freeLimitReached": "Free translations used up. Upgrade to Premium for unlimited use.",
+    "dailyLimitReached": "Daily limit reached. Try again tomorrow.",
+    "disabled": "AI Translator is temporarily unavailable.",
+    "goPremium": "Upgrade to Premium",
+    "micDenied": "Microphone access denied. Please allow it in Telegram/browser settings.",
+    "error": "Something went wrong. Please try again."
   }
 }

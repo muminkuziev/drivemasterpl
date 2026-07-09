@@ -36,3 +36,11 @@ services:
         sync: false
       - key: WEBAPP_URL
         sync: false
+      - key: OPENAI_API_KEY
+        sync: false
+      - key: TRANSLATOR_ENABLED
+        value: "true"
+      - key: TRANSLATOR_FREE_TOTAL_LIMIT
+        value: "3"
+      - key: TRANSLATOR_PREMIUM_DAILY_LIMIT
+        value: "20"
