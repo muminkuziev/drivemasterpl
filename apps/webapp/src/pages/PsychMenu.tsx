@@ -14,24 +14,24 @@ export function PsychMenu() {
   const navigate = useNavigate();
   const { t } = useTranslation();
   return (
-    <div className="flex-1 flex flex-col">
+    <div className="flex-1 flex flex-col dm-enter">
       <header className="flex items-center gap-3 px-4 pt-6 pb-3">
         <button
           type="button"
           onClick={() => navigate(-1)}
           className="text-xl px-1"
-          style={{ color: '#f5f7fa' }}
+          style={{ color: 'var(--dm-text)' }}
         >
           ‹
         </button>
-        <h1 className="text-lg font-bold" style={{ color: '#f5f7fa' }}>
+        <h1 className="text-lg font-bold" style={{ color: 'var(--dm-text)' }}>
           🧠 {t('psychMenu.title')}
         </h1>
       </header>
 
       <div
         className="px-4 pb-4"
-        style={{ color: '#9aa4bf', fontSize: 13, lineHeight: 1.5 }}
+        style={{ color: 'var(--dm-text-muted)', fontSize: 13, lineHeight: 1.5 }}
         dangerouslySetInnerHTML={{ __html: t('psychMenu.disclaimer') }}
       />
 
@@ -41,19 +41,23 @@ export function PsychMenu() {
             key={ex.to}
             type="button"
             onClick={() => navigate(ex.to)}
-            className="flex items-center gap-4 rounded-2xl px-4 py-4 text-left"
-            style={{ background: '#1a2338', border: '1px solid #2a3350' }}
+            className="dm-press flex items-center gap-4 rounded-2xl px-4 py-4 text-left"
+            style={{
+              background: 'var(--dm-card)',
+              border: '1px solid var(--dm-border-hairline)',
+              boxShadow: 'var(--dm-shadow)',
+            }}
           >
             <span
               className="flex items-center justify-center rounded-xl shrink-0"
-              style={{ width: 48, height: 48, background: '#141b2e', fontSize: 24 }}
+              style={{ width: 48, height: 48, background: 'var(--dm-bg-elevated)', fontSize: 24 }}
             >
               {ex.icon}
             </span>
-            <span className="flex-1 font-semibold" style={{ color: '#f5f7fa' }}>
+            <span className="flex-1 font-semibold" style={{ color: 'var(--dm-text)' }}>
               {t(`psychMenu.exercise.${ex.key}`)}
             </span>
-            <span style={{ color: '#d4af37' }}>›</span>
+            <span style={{ color: 'var(--dm-gold)' }}>›</span>
           </button>
         ))}
       </div>

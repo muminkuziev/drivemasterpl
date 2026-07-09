@@ -28,22 +28,28 @@ export function MainMenu() {
   const { t } = useTranslation();
 
   return (
-    <div className="flex-1 flex flex-col">
+    <div className="flex-1 flex flex-col dm-enter">
       <header className="flex items-center gap-3 px-5 pt-6 pb-4">
         <Logo size={44} />
         <div className="flex-1">
-          <h1 className="text-lg font-bold" style={{ color: '#f5f7fa' }}>
-            DriveMaster <span style={{ color: '#f5a623' }}>AI</span>
+          <h1 className="text-lg font-bold" style={{ color: 'var(--dm-text)' }}>
+            DriveMaster <span style={{ color: 'var(--dm-orange)' }}>AI</span>
           </h1>
-          <p className="text-xs" style={{ color: '#9aa4bf' }}>
+          <p className="text-xs" style={{ color: 'var(--dm-text-muted)' }}>
             {t('mainMenu.tagline')}
           </p>
         </div>
         <button
           type="button"
           onClick={() => navigate('/profile')}
-          className="flex items-center justify-center rounded-full shrink-0"
-          style={{ width: 40, height: 40, background: '#1a2338', border: '1px solid #2a3350', fontSize: 18 }}
+          className="dm-press flex items-center justify-center rounded-full shrink-0"
+          style={{
+            width: 40,
+            height: 40,
+            background: 'var(--dm-card)',
+            border: '1px solid var(--dm-border)',
+            fontSize: 18,
+          }}
         >
           👤
         </button>
@@ -56,28 +62,29 @@ export function MainMenu() {
             type="button"
             disabled={item.disabled}
             onClick={() => navigate(item.to)}
-            className="flex items-center gap-4 rounded-2xl px-4 py-4 text-left transition-transform active:scale-[0.98]"
+            className="dm-press flex items-center gap-4 rounded-2xl px-4 py-4 text-left"
             style={{
-              background: '#1a2338',
-              border: '1px solid #2a3350',
+              background: 'var(--dm-card)',
+              border: '1px solid var(--dm-border-hairline)',
+              boxShadow: 'var(--dm-shadow)',
               opacity: item.disabled ? 0.5 : 1,
             }}
           >
             <span
               className="flex items-center justify-center rounded-xl shrink-0"
-              style={{ width: 48, height: 48, background: '#141b2e', fontSize: 24 }}
+              style={{ width: 48, height: 48, background: 'var(--dm-bg-elevated)', fontSize: 24 }}
             >
               {item.icon}
             </span>
             <span className="flex-1">
-              <span className="block font-semibold" style={{ color: '#f5f7fa' }}>
+              <span className="block font-semibold" style={{ color: 'var(--dm-text)' }}>
                 {t(item.titleKey)}
               </span>
-              <span className="block text-sm" style={{ color: '#9aa4bf' }}>
+              <span className="block text-sm" style={{ color: 'var(--dm-text-muted)' }}>
                 {t(item.subtitleKey)}
               </span>
             </span>
-            <span style={{ color: '#d4af37' }}>›</span>
+            <span style={{ color: 'var(--dm-gold)' }}>›</span>
           </button>
         ))}
       </div>
