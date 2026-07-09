@@ -25,16 +25,32 @@ const LESSON_TYPE_LABELS: Record<TheoryLessonType, string> = {
   video: '🎥 Video darslik',
 };
 
+// Mini App har doim /app ostida joylashadi (apps/api/src/app.module.ts).
+// WEBAPP_URL noto'g'ri (masalan domen ildiziga) sozlangan bo'lsa ham,
+// tugma doim /app ni ochishi uchun yo'lni shu yerda majburlaymiz.
+function ensureWebAppPath(url: string): string {
+  try {
+    const parsed = new URL(url);
+    if (parsed.pathname === '' || parsed.pathname === '/') {
+      parsed.pathname = '/app';
+    }
+    return parsed.toString();
+  } catch {
+    return url;
+  }
+}
+
 function buildMainMenu(isAdmin: boolean, webAppUrl: string | undefined, locale: BotLocale) {
   const t = BOT_TEXT[locale];
   const inline_keyboard: (
     | { text: string; callback_data: string }
     | { text: string; web_app: { url: string } }
   )[][] = [];
-  if (webAppUrl) {
-    const sep = webAppUrl.includes('?') ? '&' : '?';
+  const resolvedWebAppUrl = webAppUrl ? ensureWebAppPath(webAppUrl) : undefined;
+  if (resolvedWebAppUrl) {
+    const sep = resolvedWebAppUrl.includes('?') ? '&' : '?';
     inline_keyboard.push([
-      { text: t.openWebapp, web_app: { url: `${webAppUrl}${sep}lang=${locale}` } },
+      { text: t.openWebapp, web_app: { url: `${resolvedWebAppUrl}${sep}lang=${locale}` } },
     ]);
   }
   if (isAdmin) {
