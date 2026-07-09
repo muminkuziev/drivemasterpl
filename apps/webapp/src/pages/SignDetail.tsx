@@ -34,29 +34,29 @@ export function SignDetail() {
     : '';
 
   return (
-    <div className="flex-1 flex flex-col">
+    <div className="flex-1 flex flex-col dm-enter">
       <header className="flex items-center gap-3 px-4 pt-6 pb-3">
         <button
           type="button"
           onClick={() => navigate(-1)}
           className="text-xl px-1"
-          style={{ color: '#f5f7fa' }}
+          style={{ color: 'var(--dm-text)' }}
         >
           ‹
         </button>
-        <h1 className="text-lg font-bold" style={{ color: '#f5f7fa' }}>
+        <h1 className="text-lg font-bold" style={{ color: 'var(--dm-text)' }}>
           {t('signDetail.title')}
         </h1>
       </header>
 
       {loading && (
-        <p className="text-center mt-8" style={{ color: '#9aa4bf' }}>
+        <p className="text-center mt-8" style={{ color: 'var(--dm-text-muted)' }}>
           {t('common.loading')}
         </p>
       )}
 
       {error && !loading && (
-        <p className="text-center mt-8" style={{ color: '#ef4444' }}>
+        <p className="text-center mt-8" style={{ color: 'var(--dm-error)' }}>
           {t('signDetail.notFound')}
         </p>
       )}
@@ -85,18 +85,18 @@ export function SignDetail() {
             {sign.code && (
               <span
                 className="text-sm font-bold rounded-lg px-2.5 py-1 shrink-0"
-                style={{ background: '#2a3350', color: '#d4af37' }}
+                style={{ background: 'var(--dm-border)', color: 'var(--dm-gold)' }}
               >
                 {sign.code}
               </span>
             )}
-            <h2 className="text-xl font-bold" style={{ color: '#f5f7fa' }}>
+            <h2 className="text-xl font-bold" style={{ color: 'var(--dm-text)' }}>
               {name}
             </h2>
           </div>
 
           {sign.namePl && (
-            <p className="text-sm -mt-2" style={{ color: '#9aa4bf' }}>
+            <p className="text-sm -mt-2" style={{ color: 'var(--dm-text-muted)' }}>
               🇵🇱 {sign.namePl}
             </p>
           )}
@@ -104,9 +104,9 @@ export function SignDetail() {
           {description && (
             <div
               className="rounded-2xl px-4 py-3"
-              style={{ background: '#1a2338', border: '1px solid #2a3350' }}
+              style={{ background: 'var(--dm-card)', border: '1px solid var(--dm-border)', boxShadow: 'var(--dm-shadow)' }}
             >
-              <p className="text-sm" style={{ color: '#9aa4bf', lineHeight: 1.6 }}>
+              <p className="text-sm" style={{ color: 'var(--dm-text-muted)', lineHeight: 1.6 }}>
                 {description}
               </p>
             </div>
@@ -114,15 +114,15 @@ export function SignDetail() {
 
           <div
             className="rounded-2xl px-4 py-4"
-            style={{ background: '#1a2338', border: '1.5px solid #d4af37' }}
+            style={{ background: 'var(--dm-card)', border: '1.5px solid var(--dm-gold)', boxShadow: 'var(--dm-shadow)' }}
           >
             <p
               className="text-xs font-bold uppercase tracking-wide mb-2"
-              style={{ color: '#d4af37' }}
+              style={{ color: 'var(--dm-gold)' }}
             >
               {t('signDetail.whatToDo')}
             </p>
-            <p className="text-sm font-medium" style={{ color: '#f5f7fa', lineHeight: 1.6 }}>
+            <p className="text-sm font-medium" style={{ color: 'var(--dm-text)', lineHeight: 1.6 }}>
               {action}
             </p>
           </div>
@@ -130,8 +130,8 @@ export function SignDetail() {
           <button
             type="button"
             onClick={() => navigate(-1)}
-            className="rounded-2xl px-5 py-4 font-bold text-center"
-            style={{ background: '#1a2338', border: '1px solid #2a3350', color: '#f5f7fa' }}
+            className="dm-press rounded-2xl px-5 py-4 font-bold text-center"
+            style={{ background: 'var(--dm-card)', border: '1px solid var(--dm-border)', color: 'var(--dm-text)', boxShadow: 'var(--dm-shadow)' }}
           >
             ‹ {t('common.back')}
           </button>

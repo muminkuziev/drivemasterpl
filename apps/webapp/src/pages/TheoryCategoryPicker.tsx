@@ -36,23 +36,23 @@ export function TheoryCategoryPicker() {
   }
 
   return (
-    <div className="flex-1 flex flex-col">
+    <div className="flex-1 flex flex-col dm-enter">
       <header className="flex items-center gap-3 px-4 pt-6 pb-3">
         <button
           type="button"
           onClick={() => navigate(-1)}
           className="text-xl px-1"
-          style={{ color: '#f5f7fa' }}
+          style={{ color: 'var(--dm-text)' }}
         >
           ‹
         </button>
-        <h1 className="text-lg font-bold" style={{ color: '#f5f7fa' }}>
+        <h1 className="text-lg font-bold" style={{ color: 'var(--dm-text)' }}>
           {TYPE_ICONS[type ?? 'text']} {t(`theoryMenu.type.${type ?? 'text'}`)}
         </h1>
       </header>
 
       {loading && (
-        <p className="text-center mt-8" style={{ color: '#9aa4bf' }}>
+        <p className="text-center mt-8" style={{ color: 'var(--dm-text-muted)' }}>
           {t('common.loading')}
         </p>
       )}
@@ -61,9 +61,9 @@ export function TheoryCategoryPicker() {
         <div className="px-4 pb-2">
           <div
             className="rounded-2xl px-4 py-3"
-            style={{ background: '#1a2338', border: '1.5px solid #d4af37' }}
+            style={{ background: 'var(--dm-card)', border: '1.5px solid var(--dm-gold)', boxShadow: 'var(--dm-shadow)' }}
           >
-            <p className="text-sm" style={{ color: '#f5f7fa' }}>
+            <p className="text-sm" style={{ color: 'var(--dm-text)' }}>
               ⭐ {t('categoryPicker.freeLimitNotice')}
             </p>
           </div>
@@ -75,16 +75,16 @@ export function TheoryCategoryPicker() {
           <button
             type="button"
             onClick={() => go()}
-            className="flex items-center gap-3 rounded-2xl px-4 py-3.5 text-left"
-            style={{ background: '#1a2338', border: '1.5px solid #d4af37' }}
+            className="dm-press flex items-center gap-3 rounded-2xl px-4 py-3.5 text-left"
+            style={{ background: 'var(--dm-card)', border: '1.5px solid var(--dm-gold)', boxShadow: 'var(--dm-shadow)' }}
           >
             <span style={{ fontSize: 20 }}>🔀</span>
-            <span className="flex-1 font-semibold" style={{ color: '#f5f7fa' }}>
+            <span className="flex-1 font-semibold" style={{ color: 'var(--dm-text)' }}>
               {t('categoryPicker.mixed')}
             </span>
             <span
               className="text-xs font-bold rounded-full px-2 py-1"
-              style={{ background: '#2a3350', color: '#d4af37' }}
+              style={{ background: 'var(--dm-border)', color: 'var(--dm-gold)' }}
             >
               {total}
             </span>
@@ -95,15 +95,15 @@ export function TheoryCategoryPicker() {
               key={c.category}
               type="button"
               onClick={() => go(c.category)}
-              className="flex items-center gap-3 rounded-2xl px-4 py-3.5 text-left"
-              style={{ background: '#1a2338', border: '1px solid #2a3350' }}
+              className="dm-press flex items-center gap-3 rounded-2xl px-4 py-3.5 text-left"
+              style={{ background: 'var(--dm-card)', border: '1px solid var(--dm-border)', boxShadow: 'var(--dm-shadow)' }}
             >
-              <span className="flex-1 text-sm font-medium" style={{ color: '#f5f7fa' }}>
+              <span className="flex-1 text-sm font-medium" style={{ color: 'var(--dm-text)' }}>
                 {t(`theoryCategory.${c.category}`)}
               </span>
               <span
                 className="text-xs font-bold rounded-full px-2 py-1"
-                style={{ background: '#2a3350', color: '#9aa4bf' }}
+                style={{ background: 'var(--dm-border)', color: 'var(--dm-text-muted)' }}
               >
                 {c.count}
               </span>

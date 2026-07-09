@@ -15,26 +15,26 @@ const ITEMS: EquipmentItem[] = [
 ];
 
 const STATUS_STYLE: Record<EquipmentItem['status'], { bg: string; color: string }> = {
-  mandatory: { bg: '#ef4444', color: '#f5f7fa' },
-  conditional: { bg: '#f5a623', color: '#0b1220' },
-  recommended: { bg: '#2a3350', color: '#9aa4bf' },
+  mandatory: { bg: 'var(--dm-error)', color: 'var(--dm-text)' },
+  conditional: { bg: 'var(--dm-orange)', color: 'var(--dm-bg)' },
+  recommended: { bg: 'var(--dm-border)', color: 'var(--dm-text-muted)' },
 };
 
 export function Equipment() {
   const navigate = useNavigate();
   const { t } = useTranslation();
   return (
-    <div className="flex-1 flex flex-col">
+    <div className="flex-1 flex flex-col dm-enter">
       <header className="flex items-center gap-3 px-4 pt-6 pb-3">
         <button
           type="button"
           onClick={() => navigate(-1)}
           className="text-xl px-1"
-          style={{ color: '#f5f7fa' }}
+          style={{ color: 'var(--dm-text)' }}
         >
           ‹
         </button>
-        <h1 className="text-lg font-bold" style={{ color: '#f5f7fa' }}>
+        <h1 className="text-lg font-bold" style={{ color: 'var(--dm-text)' }}>
           🧯 {t('equipment.title')}
         </h1>
       </header>
@@ -46,11 +46,11 @@ export function Equipment() {
             <div
               key={item.key}
               className="rounded-2xl px-4 py-3"
-              style={{ background: '#1a2338', border: '1px solid #2a3350' }}
+              style={{ background: 'var(--dm-card)', border: '1px solid var(--dm-border)', boxShadow: 'var(--dm-shadow)' }}
             >
               <div className="flex items-center gap-2 mb-1.5">
                 <span style={{ fontSize: 20 }}>{item.icon}</span>
-                <span className="font-semibold text-sm flex-1" style={{ color: '#f5f7fa' }}>
+                <span className="font-semibold text-sm flex-1" style={{ color: 'var(--dm-text)' }}>
                   {t(`equipment.${item.key}.title`)}
                 </span>
                 <span
@@ -60,7 +60,7 @@ export function Equipment() {
                   {t(`equipment.status.${item.status}`)}
                 </span>
               </div>
-              <p className="text-sm mb-2" style={{ color: '#9aa4bf', lineHeight: 1.6 }}>
+              <p className="text-sm mb-2" style={{ color: 'var(--dm-text-muted)', lineHeight: 1.6 }}>
                 {t(`equipment.${item.key}.text`)}
               </p>
               <p className="text-xs italic" style={{ color: '#6b7690' }}>
@@ -72,9 +72,9 @@ export function Equipment() {
 
         <div
           className="rounded-2xl px-4 py-3"
-          style={{ background: '#1a2338', border: '1px solid #2a3350' }}
+          style={{ background: 'var(--dm-card)', border: '1px solid var(--dm-border)', boxShadow: 'var(--dm-shadow)' }}
         >
-          <p className="text-xs" style={{ color: '#9aa4bf', lineHeight: 1.6 }}>
+          <p className="text-xs" style={{ color: 'var(--dm-text-muted)', lineHeight: 1.6 }}>
             {t('equipment.fineNote')}
           </p>
         </div>

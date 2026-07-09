@@ -8,17 +8,17 @@ export function Feedback() {
   const navigate = useNavigate();
   const { t } = useTranslation();
   return (
-    <div className="flex-1 flex flex-col">
+    <div className="flex-1 flex flex-col dm-enter">
       <header className="flex items-center gap-3 px-4 pt-6 pb-3">
         <button
           type="button"
           onClick={() => navigate(-1)}
           className="text-xl px-1"
-          style={{ color: '#f5f7fa' }}
+          style={{ color: 'var(--dm-text)' }}
         >
           ‹
         </button>
-        <h1 className="text-lg font-bold" style={{ color: '#f5f7fa' }}>
+        <h1 className="text-lg font-bold" style={{ color: 'var(--dm-text)' }}>
           💬 {t('feedback.title')}
         </h1>
       </header>
@@ -26,9 +26,9 @@ export function Feedback() {
       <div className="flex-1 px-4 pb-6 flex flex-col gap-4">
         <div
           className="rounded-2xl px-4 py-4"
-          style={{ background: '#1a2338', border: '1px solid #2a3350' }}
+          style={{ background: 'var(--dm-card)', border: '1px solid var(--dm-border)', boxShadow: 'var(--dm-shadow)' }}
         >
-          <p className="text-sm" style={{ color: '#9aa4bf', lineHeight: 1.6 }}>
+          <p className="text-sm" style={{ color: 'var(--dm-text-muted)', lineHeight: 1.6 }}>
             {t('feedback.text')}
           </p>
         </div>
@@ -39,24 +39,24 @@ export function Feedback() {
             haptic('light');
             openTelegramUser(FOUNDER_USERNAME);
           }}
-          className="flex items-center gap-4 rounded-2xl px-4 py-4 text-left"
-          style={{ background: '#1a2338', border: '1.5px solid #d4af37' }}
+          className="dm-press flex items-center gap-4 rounded-2xl px-4 py-4 text-left"
+          style={{ background: 'var(--dm-card)', border: '1.5px solid var(--dm-gold)', boxShadow: 'var(--dm-shadow)' }}
         >
           <span
             className="flex items-center justify-center rounded-full shrink-0"
-            style={{ width: 48, height: 48, background: '#141b2e', fontSize: 24 }}
+            style={{ width: 48, height: 48, background: 'var(--dm-bg-elevated)', fontSize: 24 }}
           >
             🧑‍💼
           </span>
           <span className="flex-1">
-            <span className="block font-semibold" style={{ color: '#f5f7fa' }}>
+            <span className="block font-semibold" style={{ color: 'var(--dm-text)' }}>
               {t('feedback.contactFounder')}
             </span>
-            <span className="block text-sm" style={{ color: '#9aa4bf' }}>
+            <span className="block text-sm" style={{ color: 'var(--dm-text-muted)' }}>
               @{FOUNDER_USERNAME}
             </span>
           </span>
-          <span style={{ color: '#d4af37' }}>›</span>
+          <span style={{ color: 'var(--dm-gold)' }}>›</span>
         </button>
       </div>
     </div>

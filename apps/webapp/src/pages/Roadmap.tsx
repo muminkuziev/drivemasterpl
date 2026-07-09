@@ -21,17 +21,17 @@ export function Roadmap() {
   }
 
   return (
-    <div className="flex-1 flex flex-col">
+    <div className="flex-1 flex flex-col dm-enter">
       <header className="flex items-center gap-3 px-4 pt-6 pb-3">
         <button
           type="button"
           onClick={() => navigate(-1)}
           className="text-xl px-1"
-          style={{ color: '#f5f7fa' }}
+          style={{ color: 'var(--dm-text)' }}
         >
           ‹
         </button>
-        <h1 className="text-lg font-bold" style={{ color: '#f5f7fa' }}>
+        <h1 className="text-lg font-bold" style={{ color: 'var(--dm-text)' }}>
           🗺 {t('roadmap.title')}
         </h1>
       </header>
@@ -45,29 +45,30 @@ export function Roadmap() {
               type="button"
               disabled={!clickable}
               onClick={() => onStepClick(step.to)}
-              className="flex items-start gap-3 rounded-2xl px-4 py-3 text-left"
+              className="dm-press flex items-start gap-3 rounded-2xl px-4 py-3 text-left"
               style={{
-                background: '#1a2338',
-                border: clickable ? '1px solid #2a3350' : '1px dashed #2a3350',
+                background: 'var(--dm-card)',
+                border: clickable ? '1px solid var(--dm-border)' : '1px dashed var(--dm-border)',
+                boxShadow: 'var(--dm-shadow)',
                 opacity: clickable ? 1 : 0.8,
               }}
             >
               <span style={{ fontSize: 20 }}>{step.icon}</span>
               <div className="flex-1">
-                <p className="font-semibold" style={{ color: '#f5f7fa' }}>
+                <p className="font-semibold" style={{ color: 'var(--dm-text)' }}>
                   {t(`roadmap.${step.key}.title`)}
                 </p>
                 {step.hasNote && (
-                  <p className="text-xs mt-0.5" style={{ color: '#f5a623' }}>
+                  <p className="text-xs mt-0.5" style={{ color: 'var(--dm-orange)' }}>
                     ⚠️ {t(`roadmap.${step.key}.note`)}
                   </p>
                 )}
-                <p className="text-xs mt-1" style={{ color: '#9aa4bf', lineHeight: 1.5 }}>
+                <p className="text-xs mt-1" style={{ color: 'var(--dm-text-muted)', lineHeight: 1.5 }}>
                   {t(`roadmap.${step.key}.desc`)}
                 </p>
               </div>
               {clickable && (
-                <span className="shrink-0" style={{ color: '#d4af37' }}>
+                <span className="shrink-0" style={{ color: 'var(--dm-gold)' }}>
                   ›
                 </span>
               )}
