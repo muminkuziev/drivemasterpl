@@ -56,17 +56,17 @@ export function RoadSigns() {
   }
 
   return (
-    <div className="flex-1 flex flex-col">
+    <div className="flex-1 flex flex-col dm-enter">
       <header className="flex items-center gap-3 px-4 pt-6 pb-3">
         <button
           type="button"
           onClick={() => navigate(-1)}
           className="text-xl px-1"
-          style={{ color: '#f5f7fa' }}
+          style={{ color: 'var(--dm-text)' }}
         >
           ‹
         </button>
-        <h1 className="text-lg font-bold" style={{ color: '#f5f7fa' }}>
+        <h1 className="text-lg font-bold" style={{ color: 'var(--dm-text)' }}>
           🚦 {t('signs.title')}
         </h1>
       </header>
@@ -82,24 +82,24 @@ export function RoadSigns() {
               key={cat.key}
               type="button"
               onClick={() => selectCategory(cat.key)}
-              className="flex flex-col items-center gap-1.5 shrink-0 rounded-2xl px-3 py-2.5 transition-colors"
+              className="dm-press flex flex-col items-center gap-1.5 shrink-0 rounded-2xl px-3 py-2.5 transition-colors"
               style={{
                 width: 84,
                 scrollSnapAlign: 'start',
-                background: isSelected ? '#1a2338' : 'transparent',
-                border: isSelected ? '1.5px solid #d4af37' : '1.5px solid #2a3350',
+                background: isSelected ? 'var(--dm-card)' : 'transparent',
+                border: isSelected ? '1.5px solid var(--dm-gold)' : '1.5px solid var(--dm-border)',
               }}
             >
               <span
                 className="flex items-center justify-center rounded-full"
-                style={{ width: 40, height: 40, background: '#141b2e', fontSize: 20 }}
+                style={{ width: 40, height: 40, background: 'var(--dm-bg-elevated)', fontSize: 20 }}
               >
                 {cat.icon}
               </span>
               <span
                 className="text-[11px] leading-tight text-center"
                 style={{
-                  color: isSelected ? '#f5f7fa' : '#9aa4bf',
+                  color: isSelected ? 'var(--dm-text)' : 'var(--dm-text-muted)',
                   width: '100%',
                   wordBreak: 'break-word',
                   overflowWrap: 'break-word',
@@ -110,7 +110,7 @@ export function RoadSigns() {
               {cat.count > 0 && (
                 <span
                   className="text-[10px] rounded-full px-1.5"
-                  style={{ background: '#2a3350', color: '#d4af37' }}
+                  style={{ background: 'var(--dm-border)', color: 'var(--dm-gold)' }}
                 >
                   {cat.count}
                 </span>
@@ -122,12 +122,12 @@ export function RoadSigns() {
 
       <div ref={listRef} className="flex-1 overflow-y-auto px-4 pb-6">
         {loadingSigns && (
-          <p className="text-center mt-8" style={{ color: '#9aa4bf' }}>
+          <p className="text-center mt-8" style={{ color: 'var(--dm-text-muted)' }}>
             {t('common.loading')}
           </p>
         )}
         {!loadingSigns && signs.length === 0 && (
-          <p className="text-center mt-8" style={{ color: '#9aa4bf' }}>
+          <p className="text-center mt-8" style={{ color: 'var(--dm-text-muted)' }}>
             {t('signs.empty')}
           </p>
         )}
@@ -144,20 +144,20 @@ export function RoadSigns() {
                 key={sign.id}
                 type="button"
                 onClick={() => goToSign(sign.id)}
-                className="flex gap-3 rounded-2xl p-3 text-left"
-                style={{ background: '#1a2338', border: '1px solid #2a3350' }}
+                className="dm-press flex gap-3 rounded-2xl p-3 text-left"
+                style={{ background: 'var(--dm-card)', border: '1px solid var(--dm-border)', boxShadow: 'var(--dm-shadow)' }}
               >
                 {sign.imageUrl ? (
                   <img
                     src={sign.imageUrl}
                     alt={name}
                     className="rounded-xl object-contain shrink-0"
-                    style={{ width: 64, height: 64, background: '#f5f7fa' }}
+                    style={{ width: 64, height: 64, background: 'var(--dm-text)' }}
                   />
                 ) : (
                   <span
                     className="flex items-center justify-center rounded-xl shrink-0"
-                    style={{ width: 64, height: 64, background: '#141b2e', fontSize: 24 }}
+                    style={{ width: 64, height: 64, background: 'var(--dm-bg-elevated)', fontSize: 24 }}
                   >
                     👮
                   </span>
@@ -167,27 +167,27 @@ export function RoadSigns() {
                     {sign.code && (
                       <span
                         className="text-xs font-bold rounded px-1.5 py-0.5 shrink-0"
-                        style={{ background: '#2a3350', color: '#d4af37' }}
+                        style={{ background: 'var(--dm-border)', color: 'var(--dm-gold)' }}
                       >
                         {sign.code}
                       </span>
                     )}
-                    <span className="font-semibold text-sm" style={{ color: '#f5f7fa' }}>
+                    <span className="font-semibold text-sm" style={{ color: 'var(--dm-text)' }}>
                       {name}
                     </span>
                   </div>
                   {sign.namePl && (
-                    <p className="text-xs mt-1" style={{ color: '#9aa4bf' }}>
+                    <p className="text-xs mt-1" style={{ color: 'var(--dm-text-muted)' }}>
                       🇵🇱 {sign.namePl}
                     </p>
                   )}
                   {description && (
-                    <p className="text-xs mt-1" style={{ color: '#9aa4bf' }}>
+                    <p className="text-xs mt-1" style={{ color: 'var(--dm-text-muted)' }}>
                       {description}
                     </p>
                   )}
                 </div>
-                <span className="self-center" style={{ color: '#d4af37' }}>
+                <span className="self-center" style={{ color: 'var(--dm-gold)' }}>
                   ›
                 </span>
               </button>

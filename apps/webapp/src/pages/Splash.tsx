@@ -28,20 +28,20 @@ export function Splash() {
   }
 
   return (
-    <div className="flex-1 flex flex-col items-center justify-center gap-5 px-8">
+    <div className="flex-1 flex flex-col items-center justify-center gap-5 px-8 dm-enter">
       <Logo size={112} />
       <div className="text-center">
-        <h1 className="text-2xl font-bold" style={{ color: '#f5f7fa' }}>
-          DriveMaster <span style={{ color: '#f5a623' }}>AI</span>
+        <h1 className="text-2xl font-bold" style={{ color: 'var(--dm-text)' }}>
+          DriveMaster <span style={{ color: 'var(--dm-orange)' }}>AI</span>
         </h1>
-        <p className="text-sm mt-1" style={{ color: '#9aa4bf' }}>
+        <p className="text-sm mt-1" style={{ color: 'var(--dm-text-muted)' }}>
           {t('splash.tagline')}
         </p>
       </div>
 
       {needsLanguage ? (
         <div className="w-full max-w-xs flex flex-col gap-3 mt-4">
-          <p className="text-center text-sm mb-1" style={{ color: '#9aa4bf' }}>
+          <p className="text-center text-sm mb-1" style={{ color: 'var(--dm-text-muted)' }}>
             Tilni tanlang · Выберите язык · Choose your language
           </p>
           {LANGUAGES.map((lang) => (
@@ -49,11 +49,11 @@ export function Splash() {
               key={lang.key}
               type="button"
               onClick={() => choose(lang.key)}
-              className="rounded-2xl px-6 py-3.5 font-semibold"
+              className="dm-press rounded-2xl px-6 py-3.5 font-semibold"
               style={{
-                background: locale === lang.key ? '#d4af37' : '#1a2338',
-                color: locale === lang.key ? '#0b1220' : '#f5f7fa',
-                border: '1px solid #2a3350',
+                background: locale === lang.key ? 'var(--dm-gold)' : 'var(--dm-card)',
+                color: locale === lang.key ? 'var(--dm-bg)' : 'var(--dm-text)',
+                border: '1px solid var(--dm-border)',
               }}
             >
               {lang.label}
@@ -64,8 +64,8 @@ export function Splash() {
         <div
           className="w-8 h-8 rounded-full animate-spin mt-4"
           style={{
-            border: '3px solid #2a3350',
-            borderTopColor: '#d4af37',
+            border: '3px solid var(--dm-border)',
+            borderTopColor: 'var(--dm-gold)',
           }}
         />
       )}

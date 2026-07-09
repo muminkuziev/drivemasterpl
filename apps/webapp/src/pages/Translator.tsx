@@ -154,24 +154,24 @@ export function Translator() {
   }
 
   return (
-    <div className="flex-1 flex flex-col">
+    <div className="flex-1 flex flex-col dm-enter">
       <header className="flex items-center gap-3 px-4 pt-6 pb-3">
         <button
           type="button"
           onClick={() => navigate(-1)}
           className="text-xl px-1"
-          style={{ color: '#f5f7fa' }}
+          style={{ color: 'var(--dm-text)' }}
         >
           ‹
         </button>
-        <h1 className="text-lg font-bold" style={{ color: '#f5f7fa' }}>
+        <h1 className="text-lg font-bold" style={{ color: 'var(--dm-text)' }}>
           🗣 {t('translator.title')}
         </h1>
       </header>
 
       <div className="flex-1 px-4 pb-6 flex flex-col gap-4">
         <div>
-          <label className="block text-xs mb-1" style={{ color: '#9aa4bf' }}>
+          <label className="block text-xs mb-1" style={{ color: 'var(--dm-text-muted)' }}>
             {t('translator.passengerLanguage')}
           </label>
           <select
@@ -179,7 +179,7 @@ export function Translator() {
             onChange={(e) => setPassengerLanguage(e.target.value)}
             disabled={status === 'recording' || status === 'processing'}
             className="w-full rounded-xl px-3 py-3"
-            style={{ background: '#1a2338', border: '1px solid #2a3350', color: '#f5f7fa' }}
+            style={{ background: 'var(--dm-card)', border: '1px solid var(--dm-border)', color: 'var(--dm-text)' , boxShadow: 'var(--dm-shadow)' }}
           >
             {PASSENGER_LANGUAGES.map((lang) => (
               <option key={lang.code} value={lang.code}>
@@ -190,7 +190,7 @@ export function Translator() {
         </div>
 
         {usage && (
-          <p className="text-xs text-center" style={{ color: '#9aa4bf' }}>
+          <p className="text-xs text-center" style={{ color: 'var(--dm-text-muted)' }}>
             {usage.isPremium
               ? t('translator.usagePremium', { remaining: usage.remaining, limit: usage.limit })
               : t('translator.usageFree', { remaining: usage.remaining, limit: usage.limit })}
@@ -202,27 +202,27 @@ export function Translator() {
             <div className="w-full flex flex-col gap-3">
               <div
                 className="rounded-2xl px-4 py-3"
-                style={{ background: '#1a2338', border: '1px solid #2a3350' }}
+                style={{ background: 'var(--dm-card)', border: '1px solid var(--dm-border)' , boxShadow: 'var(--dm-shadow)' }}
               >
-                <p className="text-xs mb-1" style={{ color: '#9aa4bf' }}>
+                <p className="text-xs mb-1" style={{ color: 'var(--dm-text-muted)' }}>
                   {result.detectedLang.toUpperCase()}
                 </p>
-                <p style={{ color: '#f5f7fa' }}>{result.originalText}</p>
+                <p style={{ color: 'var(--dm-text)' }}>{result.originalText}</p>
               </div>
               <div
                 className="rounded-2xl px-4 py-3"
-                style={{ background: '#1a2338', border: '1.5px solid #d4af37' }}
+                style={{ background: 'var(--dm-card)', border: '1.5px solid var(--dm-gold)' , boxShadow: 'var(--dm-shadow)' }}
               >
-                <p className="text-xs mb-1" style={{ color: '#d4af37' }}>
+                <p className="text-xs mb-1" style={{ color: 'var(--dm-gold)' }}>
                   {result.targetLang.toUpperCase()}
                 </p>
-                <p style={{ color: '#f5f7fa' }}>{result.translatedText}</p>
+                <p style={{ color: 'var(--dm-text)' }}>{result.translatedText}</p>
               </div>
               <button
                 type="button"
                 onClick={() => playAudio(result.audioBase64)}
                 className="text-sm underline text-center"
-                style={{ color: '#9aa4bf' }}
+                style={{ color: 'var(--dm-text-muted)' }}
               >
                 🔊 {t('translator.replay')}
               </button>
@@ -231,7 +231,7 @@ export function Translator() {
 
           {status === 'limit' && (
             <div className="text-center flex flex-col gap-3">
-              <p style={{ color: '#f5a623' }}>
+              <p style={{ color: 'var(--dm-orange)' }}>
                 {limitCode === 'FREE_LIMIT_EXCEEDED'
                   ? t('translator.freeLimitReached')
                   : limitCode === 'DAILY_LIMIT_EXCEEDED'
@@ -243,7 +243,7 @@ export function Translator() {
                   type="button"
                   onClick={() => navigate('/profile')}
                   className="rounded-xl px-4 py-2"
-                  style={{ background: '#d4af37', color: '#0b1220' }}
+                  style={{ background: 'var(--dm-gold)', color: 'var(--dm-bg)' }}
                 >
                   {t('translator.goPremium')}
                 </button>
@@ -252,7 +252,7 @@ export function Translator() {
           )}
 
           {status === 'error' && errorMessage && (
-            <p className="text-center" style={{ color: '#ef4444' }}>
+            <p className="text-center" style={{ color: 'var(--dm-error)' }}>
               {errorMessage}
             </p>
           )}
@@ -261,11 +261,11 @@ export function Translator() {
             type="button"
             disabled={status === 'processing'}
             onClick={handleMicPress}
-            className="flex items-center justify-center rounded-full shrink-0"
+            className="dm-press flex items-center justify-center rounded-full shrink-0"
             style={{
               width: 88,
               height: 88,
-              background: status === 'recording' ? '#ef4444' : '#d4af37',
+              background: status === 'recording' ? 'var(--dm-error)' : 'var(--dm-gold)',
               fontSize: 36,
               opacity: status === 'processing' ? 0.6 : 1,
             }}
@@ -273,7 +273,7 @@ export function Translator() {
             {status === 'processing' ? '⏳' : status === 'recording' ? '⏹' : '🎙'}
           </button>
 
-          <p className="text-sm text-center" style={{ color: '#9aa4bf' }}>
+          <p className="text-sm text-center" style={{ color: 'var(--dm-text-muted)' }}>
             {status === 'recording'
               ? t('translator.recording')
               : status === 'processing'

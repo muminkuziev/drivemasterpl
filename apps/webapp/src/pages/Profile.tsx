@@ -55,17 +55,17 @@ export function Profile() {
   const currentLangLabel = LANGUAGES.find((l) => l.key === locale)?.label ?? '';
 
   return (
-    <div className="flex-1 flex flex-col">
+    <div className="flex-1 flex flex-col dm-enter">
       <header className="flex items-center gap-3 px-4 pt-6 pb-3">
         <button
           type="button"
           onClick={() => navigate(-1)}
           className="text-xl px-1"
-          style={{ color: '#f5f7fa' }}
+          style={{ color: 'var(--dm-text)' }}
         >
           ‹
         </button>
-        <h1 className="text-lg font-bold" style={{ color: '#f5f7fa' }}>
+        <h1 className="text-lg font-bold" style={{ color: 'var(--dm-text)' }}>
           👤 {t('profile.title')}
         </h1>
       </header>
@@ -73,7 +73,7 @@ export function Profile() {
       <div className="flex-1 px-4 pb-6 flex flex-col gap-4">
         <div
           className="flex flex-col items-center gap-3 rounded-2xl px-4 py-6"
-          style={{ background: '#1a2338', border: '1px solid #2a3350' }}
+          style={{ background: 'var(--dm-card)', border: '1px solid var(--dm-border)', boxShadow: 'var(--dm-shadow)' }}
         >
           <div
             className="flex items-center justify-center rounded-full font-bold"
@@ -81,22 +81,22 @@ export function Profile() {
               width: 64,
               height: 64,
               fontSize: 26,
-              background: 'linear-gradient(145deg, #141b2e, #0b1220)',
-              border: '2px solid #d4af37',
-              color: '#d4af37',
+              background: 'linear-gradient(145deg, var(--dm-bg-elevated), var(--dm-bg))',
+              border: '2px solid var(--dm-gold)',
+              color: 'var(--dm-gold)',
             }}
           >
             {initial}
           </div>
-          <p className="font-semibold text-lg" style={{ color: '#f5f7fa' }}>
+          <p className="font-semibold text-lg" style={{ color: 'var(--dm-text)' }}>
             {name}
           </p>
           {profile && (
             <span
               className="text-xs font-bold rounded-full px-3 py-1"
               style={{
-                background: profile.isPremium ? '#d4af37' : '#2a3350',
-                color: profile.isPremium ? '#0b1220' : '#9aa4bf',
+                background: profile.isPremium ? 'var(--dm-gold)' : 'var(--dm-border)',
+                color: profile.isPremium ? 'var(--dm-bg)' : 'var(--dm-text-muted)',
               }}
             >
               {profile.isPremium ? t('profile.premium') : t('profile.free')}
@@ -107,12 +107,12 @@ export function Profile() {
         {profile && !profile.isPremium && paymentStatus?.status === 'pending' && (
           <div
             className="rounded-2xl px-4 py-4"
-            style={{ background: '#1a2338', border: '1.5px solid #d4af37' }}
+            style={{ background: 'var(--dm-card)', border: '1.5px solid var(--dm-gold)' , boxShadow: 'var(--dm-shadow)' }}
           >
-            <p className="font-semibold" style={{ color: '#d4af37' }}>
+            <p className="font-semibold" style={{ color: 'var(--dm-gold)' }}>
               ⏳ {t('profile.buyPremiumPending')}
             </p>
-            <p className="text-sm mt-1" style={{ color: '#9aa4bf' }}>
+            <p className="text-sm mt-1" style={{ color: 'var(--dm-text-muted)' }}>
               {t('profile.buyPremiumPendingSubtitle')}
             </p>
           </div>
@@ -125,20 +125,20 @@ export function Profile() {
               haptic('light');
               setShowBuyForm(true);
             }}
-            className="flex items-center gap-4 rounded-2xl px-4 py-4 text-left"
-            style={{ background: '#1a2338', border: '1px solid #2a3350' }}
+            className="dm-press flex items-center gap-4 rounded-2xl px-4 py-4 text-left"
+            style={{ background: 'var(--dm-card)', border: '1px solid var(--dm-border)' , boxShadow: 'var(--dm-shadow)' }}
           >
             <span
               className="flex items-center justify-center rounded-xl shrink-0"
-              style={{ width: 48, height: 48, background: '#141b2e', fontSize: 24 }}
+              style={{ width: 48, height: 48, background: 'var(--dm-bg-elevated)', fontSize: 24 }}
             >
               💳
             </span>
             <span className="flex-1">
-              <span className="block font-semibold" style={{ color: '#f5f7fa' }}>
+              <span className="block font-semibold" style={{ color: 'var(--dm-text)' }}>
                 {t('profile.buyPremiumTitle')}
               </span>
-              <span className="block text-sm" style={{ color: '#9aa4bf' }}>
+              <span className="block text-sm" style={{ color: 'var(--dm-text-muted)' }}>
                 {t('profile.buyPremiumSubtitle')}
               </span>
             </span>
@@ -148,12 +148,12 @@ export function Profile() {
         {profile && !profile.isPremium && showBuyForm && (
           <div
             className="rounded-2xl px-4 py-4 flex flex-col gap-3"
-            style={{ background: '#1a2338', border: '1.5px solid #d4af37' }}
+            style={{ background: 'var(--dm-card)', border: '1.5px solid var(--dm-gold)' , boxShadow: 'var(--dm-shadow)' }}
           >
-            <p className="text-sm whitespace-pre-line" style={{ color: '#f5f7fa' }}>
+            <p className="text-sm whitespace-pre-line" style={{ color: 'var(--dm-text)' }}>
               {t('profile.buyPremiumFeatures')}
             </p>
-            <p className="text-sm" style={{ color: '#f5f7fa' }}>
+            <p className="text-sm" style={{ color: 'var(--dm-text)' }}>
               {t('profile.buyPremiumInstructions', {
                 amount: (profile.premiumPriceGrosz / 100).toFixed(0),
                 phone: profile.blikPhone ?? '—',
@@ -165,7 +165,7 @@ export function Profile() {
               onChange={(e) => setPhone(e.target.value)}
               placeholder={t('profile.buyPremiumPhonePlaceholder')}
               className="rounded-xl px-3 py-2.5"
-              style={{ background: '#141b2e', border: '1px solid #2a3350', color: '#f5f7fa' }}
+              style={{ background: 'var(--dm-bg-elevated)', border: '1px solid var(--dm-border)', color: 'var(--dm-text)' }}
             />
             <button
               type="button"
@@ -173,8 +173,8 @@ export function Profile() {
               onClick={submitPremiumRequest}
               className="rounded-xl px-4 py-3 font-bold"
               style={{
-                background: phone.trim() ? '#d4af37' : '#2a3350',
-                color: phone.trim() ? '#0b1220' : '#4a5372',
+                background: phone.trim() ? 'var(--dm-gold)' : 'var(--dm-border)',
+                color: phone.trim() ? 'var(--dm-bg)' : '#4a5372',
               }}
             >
               {t('profile.buyPremiumSubmit')}
@@ -185,9 +185,9 @@ export function Profile() {
         {profile && (
           <div
             className="rounded-2xl px-4 py-3"
-            style={{ background: '#1a2338', border: '1px solid #2a3350' }}
+            style={{ background: 'var(--dm-card)', border: '1px solid var(--dm-border)' , boxShadow: 'var(--dm-shadow)' }}
           >
-            <p className="text-xs" style={{ color: '#9aa4bf' }}>
+            <p className="text-xs" style={{ color: 'var(--dm-text-muted)' }}>
               {t('profile.registeredOn', { date: formatDate(profile.createdAt, locale) })}
             </p>
           </div>
@@ -199,24 +199,24 @@ export function Profile() {
             haptic('light');
             setShowLangPicker((v) => !v);
           }}
-          className="flex items-center gap-4 rounded-2xl px-4 py-4 text-left"
-          style={{ background: '#1a2338', border: '1px solid #2a3350' }}
+          className="dm-press flex items-center gap-4 rounded-2xl px-4 py-4 text-left"
+          style={{ background: 'var(--dm-card)', border: '1px solid var(--dm-border)' , boxShadow: 'var(--dm-shadow)' }}
         >
           <span
             className="flex items-center justify-center rounded-xl shrink-0"
-            style={{ width: 48, height: 48, background: '#141b2e', fontSize: 24 }}
+            style={{ width: 48, height: 48, background: 'var(--dm-bg-elevated)', fontSize: 24 }}
           >
             🌐
           </span>
           <span className="flex-1">
-            <span className="block font-semibold" style={{ color: '#f5f7fa' }}>
+            <span className="block font-semibold" style={{ color: 'var(--dm-text)' }}>
               {t('profile.language')}
             </span>
-            <span className="block text-sm" style={{ color: '#9aa4bf' }}>
+            <span className="block text-sm" style={{ color: 'var(--dm-text-muted)' }}>
               {currentLangLabel}
             </span>
           </span>
-          <span style={{ color: '#d4af37' }}>{showLangPicker ? '⌄' : '›'}</span>
+          <span style={{ color: 'var(--dm-gold)' }}>{showLangPicker ? '⌄' : '›'}</span>
         </button>
 
         {showLangPicker && (
@@ -232,8 +232,8 @@ export function Profile() {
                 }}
                 className="rounded-xl px-4 py-3 text-left font-medium"
                 style={{
-                  background: locale === lang.key ? '#d4af37' : '#141b2e',
-                  color: locale === lang.key ? '#0b1220' : '#f5f7fa',
+                  background: locale === lang.key ? 'var(--dm-gold)' : 'var(--dm-bg-elevated)',
+                  color: locale === lang.key ? 'var(--dm-bg)' : 'var(--dm-text)',
                 }}
               >
                 {lang.label}
@@ -245,19 +245,19 @@ export function Profile() {
         <button
           type="button"
           onClick={() => navigate('/feedback')}
-          className="flex items-center gap-4 rounded-2xl px-4 py-4 text-left"
-          style={{ background: '#1a2338', border: '1px solid #2a3350' }}
+          className="dm-press flex items-center gap-4 rounded-2xl px-4 py-4 text-left"
+          style={{ background: 'var(--dm-card)', border: '1px solid var(--dm-border)' , boxShadow: 'var(--dm-shadow)' }}
         >
           <span
             className="flex items-center justify-center rounded-xl shrink-0"
-            style={{ width: 48, height: 48, background: '#141b2e', fontSize: 24 }}
+            style={{ width: 48, height: 48, background: 'var(--dm-bg-elevated)', fontSize: 24 }}
           >
             💬
           </span>
-          <span className="flex-1 font-semibold" style={{ color: '#f5f7fa' }}>
+          <span className="flex-1 font-semibold" style={{ color: 'var(--dm-text)' }}>
             {t('profile.feedback')}
           </span>
-          <span style={{ color: '#d4af37' }}>›</span>
+          <span style={{ color: 'var(--dm-gold)' }}>›</span>
         </button>
 
         <div className="flex justify-center gap-4 mt-2">
@@ -265,7 +265,7 @@ export function Profile() {
             type="button"
             onClick={() => navigate('/legal/terms')}
             className="text-xs underline"
-            style={{ color: '#9aa4bf' }}
+            style={{ color: 'var(--dm-text-muted)' }}
           >
             {t('profile.terms')}
           </button>
@@ -273,7 +273,7 @@ export function Profile() {
             type="button"
             onClick={() => navigate('/legal/privacy')}
             className="text-xs underline"
-            style={{ color: '#9aa4bf' }}
+            style={{ color: 'var(--dm-text-muted)' }}
           >
             {t('profile.privacy')}
           </button>
