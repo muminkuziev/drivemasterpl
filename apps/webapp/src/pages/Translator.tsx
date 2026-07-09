@@ -252,7 +252,7 @@ export function Translator() {
           )}
 
           {status === 'error' && errorMessage && (
-            <p className="text-center" style={{ color: '#e2574c' }}>
+            <p className="text-center" style={{ color: '#ef4444' }}>
               {errorMessage}
             </p>
           )}
@@ -265,7 +265,7 @@ export function Translator() {
             style={{
               width: 88,
               height: 88,
-              background: status === 'recording' ? '#e2574c' : '#d4af37',
+              background: status === 'recording' ? '#ef4444' : '#d4af37',
               fontSize: 36,
               opacity: status === 'processing' ? 0.6 : 1,
             }}
