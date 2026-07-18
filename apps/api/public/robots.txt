@@ -1,0 +1,7 @@
+User-agent: *
+Allow: /
+Disallow: /admin/
+Disallow: /api/
+Disallow: /app/
+
+Sitemap: https://www.drivemasterai.pl/sitemap.xml
