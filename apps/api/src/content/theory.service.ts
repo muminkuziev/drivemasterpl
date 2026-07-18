@@ -1,6 +1,7 @@
 import { Injectable } from '@nestjs/common';
 import { Prisma } from '@prisma/client';
 import { PrismaService } from '../prisma/prisma.service';
+import { isTheoryFreeForAll } from './theory-free-for-all.util';
 
 export type TheoryLessonType = 'text' | 'photo' | 'video';
 
@@ -15,10 +16,11 @@ export class TheoryService {
   constructor(private readonly prisma: PrismaService) {}
 
   async getRandomQuestionByType(type: TheoryLessonType, category: string | undefined, isPremiumUser: boolean) {
+    const unlocked = isPremiumUser || isTheoryFreeForAll();
     const where: Prisma.TheoryQuestionWhereInput = {
       ...LESSON_TYPE_WHERE[type],
       ...(category ? { category } : {}),
-      ...(isPremiumUser ? {} : { isPremium: false }),
+      ...(unlocked ? {} : { isPremium: false }),
     };
     const count = await this.prisma.theoryQuestion.count({ where });
     if (count === 0) return null;

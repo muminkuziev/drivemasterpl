@@ -44,3 +44,5 @@ services:
         value: "3"
       - key: TRANSLATOR_PREMIUM_DAILY_LIMIT
         value: "20"
+      - key: THEORY_FREE_FOR_ALL
+        value: "true"

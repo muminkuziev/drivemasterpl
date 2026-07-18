@@ -17,6 +17,7 @@ import { lookup as lookupMimeType } from 'mime-types';
 import { PrismaService } from '../prisma/prisma.service';
 import { UsersService } from '../users/users.service';
 import { THEORY_MEDIA_DIR } from '../content/theory-media-dir.util';
+import { isTheoryFreeForAll } from '../content/theory-free-for-all.util';
 import { TelegramAuthGuard } from './telegram-auth.guard';
 
 @Controller('api/media')
@@ -38,7 +39,7 @@ export class MediaWebController {
     const question = await this.prisma.theoryQuestion.findUnique({ where: { id: questionId } });
     if (!question || !question.mediaFileName) throw new NotFoundException('Media topilmadi');
 
-    if (question.isPremium) {
+    if (question.isPremium && !isTheoryFreeForAll()) {
       if (!telegramId) throw new ForbiddenException('telegramId talab qilinadi');
       const user = await this.usersService.findOrCreateByTelegramId(telegramId);
       if (!user.isPremium) throw new ForbiddenException('Bu premium kontent');

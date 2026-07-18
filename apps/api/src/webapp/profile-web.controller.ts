@@ -1,6 +1,7 @@
 import { BadRequestException, Controller, Get, Query, UseGuards } from '@nestjs/common';
 import { ConfigService } from '@nestjs/config';
 import { UsersService } from '../users/users.service';
+import { isTheoryFreeForAll } from '../content/theory-free-for-all.util';
 import { TelegramAuthGuard } from './telegram-auth.guard';
 
 @Controller('api/profile')
@@ -17,7 +18,7 @@ export class ProfileWebController {
     const user = await this.usersService.findOrCreateByTelegramId(telegramId);
     return {
       telegramId: user.telegramId,
-      isPremium: user.isPremium,
+      isPremium: user.isPremium || isTheoryFreeForAll(),
       premiumSince: user.premiumSince,
       createdAt: user.createdAt,
       premiumPriceGrosz: 6600,
