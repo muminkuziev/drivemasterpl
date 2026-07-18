@@ -9,6 +9,7 @@ import { ProfileWebController } from './profile-web.controller';
 import { PaymentsWebController } from './payments-web.controller';
 import { MediaWebController } from './media-web.controller';
 import { TranslatorWebController } from './translator-web.controller';
+import { WordCentersWebController } from './word-centers-web.controller';
 
 @Module({
   imports: [ContentModule, UsersModule, PaymentsModule, TranslatorModule],
@@ -19,6 +20,7 @@ import { TranslatorWebController } from './translator-web.controller';
     PaymentsWebController,
     MediaWebController,
     TranslatorWebController,
+    WordCentersWebController,
   ],
 })
 export class WebappModule {}

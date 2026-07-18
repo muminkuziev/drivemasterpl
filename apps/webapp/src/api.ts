@@ -60,6 +60,30 @@ export function fetchRoadSign(id: string) {
   return getJson<RoadSignDetail>(`/api/road-signs/sign/${id}`);
 }
 
+// ---------- WORD markazlari ----------
+
+export interface WordCenterVoivodeship {
+  voivodeship: string;
+  label: string;
+  count: number;
+}
+
+export interface WordCenter {
+  id: string;
+  name: string;
+  city: string;
+  address: string;
+  website: string | null;
+}
+
+export function fetchWordCenterVoivodeships() {
+  return getJson<WordCenterVoivodeship[]>('/api/word-centers/voivodeships');
+}
+
+export function fetchWordCentersByVoivodeship(voivodeship: string) {
+  return getJson<WordCenter[]>(`/api/word-centers/${encodeURIComponent(voivodeship)}`);
+}
+
 // ---------- Teoriya ----------
 
 export interface TheoryOption {

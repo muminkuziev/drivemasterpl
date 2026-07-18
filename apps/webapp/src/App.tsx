@@ -23,6 +23,7 @@ import { TheoryQuiz } from './pages/TheoryQuiz';
 import { Roadmap } from './pages/Roadmap';
 import { Legal } from './pages/Legal';
 import { Translator } from './pages/Translator';
+import { WordCenters } from './pages/WordCenters';
 import { initTelegramWebApp } from './telegram';
 import { LocaleProvider } from './i18n/LocaleContext';
 
@@ -55,6 +56,7 @@ function App() {
         <Route path="/psych/krzyzowy" element={<KrzyzowyTest />} />
         <Route path="/psych/signal" element={<SignalTest />} />
         <Route path="/roadmap" element={<Roadmap />} />
+        <Route path="/word-centers" element={<WordCenters />} />
         <Route path="/translator" element={<Translator />} />
         <Route path="/legal/:doc" element={<Legal />} />
       </Routes>

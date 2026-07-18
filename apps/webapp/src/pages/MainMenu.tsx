@@ -19,6 +19,7 @@ const ITEMS: MenuItem[] = [
   { icon: '🧠', titleKey: 'mainMenu.item.psych.title', subtitleKey: 'mainMenu.item.psych.subtitle', to: '/psych' },
   { icon: '🚦', titleKey: 'mainMenu.item.signs.title', subtitleKey: 'mainMenu.item.signs.subtitle', to: '/signs' },
   { icon: '🗺', titleKey: 'mainMenu.item.roadmap.title', subtitleKey: 'mainMenu.item.roadmap.subtitle', to: '/roadmap' },
+  { icon: '🏢', titleKey: 'mainMenu.item.wordCenters.title', subtitleKey: 'mainMenu.item.wordCenters.subtitle', to: '/word-centers' },
   { icon: '🚗', titleKey: 'mainMenu.item.driver.title', subtitleKey: 'mainMenu.item.driver.subtitle', to: '/driver' },
   { icon: '🚨', titleKey: 'mainMenu.item.violations.title', subtitleKey: 'mainMenu.item.violations.subtitle', to: '/violations' },
 ];

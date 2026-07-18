@@ -23,6 +23,7 @@
       "psych": { "title": "Psychology", "subtitle": "Exam prep and practice tests" },
       "signs": { "title": "Road Signs", "subtitle": "323 official signs" },
       "roadmap": { "title": "Roadmap", "subtitle": "Roadmap" },
+      "wordCenters": { "title": "WORD Locations", "subtitle": "List of exam centers" },
       "driver": { "title": "Driver Section", "subtitle": "First aid, mandatory equipment" },
       "violations": { "title": "Violations & Fines", "subtitle": "Official fine tariff" }
     }
@@ -268,5 +269,11 @@
     "goPremium": "Upgrade to Premium",
     "micDenied": "Microphone access denied. Please allow it in Telegram/browser settings.",
     "error": "Something went wrong. Please try again."
+  },
+  "wordCenters": {
+    "title": "WORD Locations",
+    "subtitle": "The practical and theory exams take place at these centers. Pick a voivodeship.",
+    "empty": "No centers found in this voivodeship.",
+    "website": "Official website"
   }
 }

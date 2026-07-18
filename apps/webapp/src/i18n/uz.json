@@ -23,6 +23,7 @@
       "psych": { "title": "Psixologiya", "subtitle": "Ko'rik va mashq-testlar" },
       "signs": { "title": "Yo'l belgilari", "subtitle": "323 ta rasmiy belgi" },
       "roadmap": { "title": "Yo'l xaritasi", "subtitle": "Roadmap" },
+      "wordCenters": { "title": "WORD manzillari", "subtitle": "Imtihon markazlari ro'yxati" },
       "driver": { "title": "Haydovchi bo'limi", "subtitle": "Birinchi yordam, majburiy jihozlar" },
       "violations": { "title": "Xatolar va jarimalar", "subtitle": "Rasmiy taryfikator" }
     }
@@ -268,5 +269,11 @@
     "goPremium": "Premium'ga o'tish",
     "micDenied": "Mikrofonga ruxsat berilmadi. Telegram/brauzer sozlamalaridan ruxsat bering.",
     "error": "Xatolik yuz berdi. Qayta urinib ko'ring."
+  },
+  "wordCenters": {
+    "title": "WORD manzillari",
+    "subtitle": "Amaliy va nazariy imtihon shu markazlarda topshiriladi. Viloyat (voivodeship) tanlang.",
+    "empty": "Bu voivodeshipda markaz topilmadi.",
+    "website": "Rasmiy sayt"
   }
 }
