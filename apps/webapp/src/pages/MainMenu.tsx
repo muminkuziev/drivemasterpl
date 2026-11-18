@@ -30,7 +30,7 @@ export function MainMenu() {
 
   return (
     <div className="flex-1 flex flex-col dm-enter">
-      <header className="flex items-center gap-3 px-5 pt-6 pb-4">
+      <header className="flex items-center gap-3 px-5 md:px-9 pt-8 pb-5">
         <Logo size={44} />
         <div className="flex-1">
           <h1 className="text-lg font-bold" style={{ color: 'var(--dm-text)' }}>
@@ -56,17 +56,17 @@ export function MainMenu() {
         </button>
       </header>
 
-      <div className="flex-1 px-5 pb-6 flex flex-col gap-3">
+      <section className="dm-premium-glow rounded-3xl mx-5 md:mx-9 mb-6 px-6 py-7"><p className="text-xs font-bold tracking-widest" style={{color:"var(--dm-gold)"}}>DRIVEMASTER · PREMIUM</p><h2 className="text-3xl md:text-5xl font-extrabold leading-tight mt-3 mb-3">WORD imtihoniga <span style={{color:"var(--dm-gold)"}}>ishonch bilan</span> tayyorlaning</h2><p className="text-sm md:text-base" style={{color:"var(--dm-text-muted)"}}>{t("mainMenu.tagline")}</p></section><div className="flex-1 px-5 md:px-9 pb-9 dm-menu-grid">
         {ITEMS.map((item) => (
           <button
             key={item.to}
             type="button"
             disabled={item.disabled}
             onClick={() => navigate(item.to)}
-            className="dm-press flex items-center gap-4 rounded-2xl px-4 py-4 text-left"
+            className="dm-press dm-premium-card flex items-center gap-4 rounded-2xl px-4 py-5 text-left"
             style={{
-              background: 'var(--dm-card)',
-              border: '1px solid var(--dm-border-hairline)',
+              background: 'linear-gradient(145deg, #1c2b46, #101a2e)',
+              border: '1px solid rgba(180,200,240,.16)',
               boxShadow: 'var(--dm-shadow)',
               opacity: item.disabled ? 0.5 : 1,
             }}
