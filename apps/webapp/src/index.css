@@ -86,3 +86,15 @@ body {
 .dm-press:active {
   transform: scale(0.96);
 }
+
+/* Premium Dark responsive experience */
+:root{--dm-bg:#070b16;--dm-bg-elevated:#111b31;--dm-card:#17233a;--dm-border:#35425d;--dm-text:#f7f9ff;--dm-text-muted:#afbdd4;--dm-gold:#f2c66d;--dm-orange:#f5ae65;--dm-shadow:0 18px 48px rgba(0,0,0,.34)}
+body{background:radial-gradient(ellipse 85% 50% at 50% -12%,#213e65 0%,transparent 70%),#070b16}
+#root{width:100%;max-width:1100px;background:transparent}
+.dm-premium-card{background:linear-gradient(145deg,#1c2b46,#101a2e);border:1px solid rgba(180,200,240,.16);box-shadow:0 14px 38px rgba(0,0,0,.22);transition:transform .2s,border-color .2s}
+.dm-premium-card:hover{transform:translateY(-3px);border-color:rgba(242,198,109,.42)}
+.dm-premium-glow{background:linear-gradient(120deg,rgba(242,198,109,.16),rgba(40,73,121,.25));border:1px solid rgba(242,198,109,.24)}
+.dm-menu-grid{display:grid;grid-template-columns:1fr;gap:14px}
+@media(min-width:680px){.dm-menu-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:18px}}
+@media(min-width:1000px){.dm-menu-grid{grid-template-columns:repeat(3,minmax(0,1fr))}}
+@media(prefers-reduced-motion:reduce){.dm-premium-card{transition:none}.dm-premium-card:hover{transform:none}}
