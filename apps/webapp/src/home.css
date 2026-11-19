@@ -69,6 +69,7 @@
   background: rgba(255, 255, 255, 0.16);
   border: 1px solid rgba(255, 255, 255, 0.35);
 }
+.dmh-hero.is-lang-open { min-height: 310px; }
 .dmh-lang {
   position: relative;
 }
@@ -90,7 +91,7 @@
   right: 0;
   top: calc(100% + 8px);
   min-width: 150px;
-  padding: 6px;
+  padding: 4px;
   border-radius: 16px;
   background: #fff;
   box-shadow: 0 18px 40px rgba(10, 30, 90, 0.25);
@@ -101,7 +102,7 @@
   align-items: center;
   gap: 10px;
   width: 100%;
-  padding: 10px 12px;
+  padding: 7px 10px;
   border: 0;
   border-radius: 12px;
   background: transparent;

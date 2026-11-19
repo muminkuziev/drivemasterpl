@@ -1,8 +1,9 @@
 import { ConfigService } from '@nestjs/config';
 import { createReadStream } from 'fs';
 import { join } from 'path';
-import { Action, Command, Ctx, Start, Update } from 'nestjs-telegraf';
-import { Context } from 'telegraf';
+import { Logger, OnModuleInit } from '@nestjs/common';
+import { Action, Command, Ctx, InjectBot, Start, Update } from 'nestjs-telegraf';
+import { Context, Telegraf } from 'telegraf';
 import { TheoryService, TheoryLessonType } from '../content/theory.service';
 import { THEORY_MEDIA_DIR } from '../content/theory-media-dir.util';
 import { RoadSignService } from '../content/road-sign.service';
@@ -13,7 +14,16 @@ import {
 } from '../content/road-sign-categories';
 import { UsersService } from '../users/users.service';
 import { isAdmin } from './is-admin.util';
-import { BOT_TEXT, BotLocale, CHOOSE_LANGUAGE_TEXT, LANGUAGE_BUTTONS, isBotLocale } from './bot-i18n';
+import {
+  BOT_LOCALES,
+  BOT_PROFILE,
+  BOT_PROFILE_DEFAULT,
+  BOT_TEXT,
+  BotLocale,
+  CHOOSE_LANGUAGE_TEXT,
+  LANGUAGE_BUTTONS,
+  isBotLocale,
+} from './bot-i18n';
 
 type QuestionWithOptions = NonNullable<
   Awaited<ReturnType<TheoryService['getRandomQuestionByType']>>
@@ -102,13 +112,33 @@ Agar shu toifalarga kirmasangiz — bu bosqichni butunlay o'tkazib yuborishingiz
 *Amal qilish muddati:* professional haydovchilar uchun odatda 5 yil (60 yoshdan keyin — 30 oy).`;
 
 @Update()
-export class BotUpdate {
+export class BotUpdate implements OnModuleInit {
+  private readonly logger = new Logger(BotUpdate.name);
+
   constructor(
+    @InjectBot() private readonly bot: Telegraf<Context>,
     private readonly usersService: UsersService,
     private readonly config: ConfigService,
     private readonly theoryService: TheoryService,
     private readonly roadSignService: RoadSignService,
   ) {}
+
+  /** Bot tavsifi ("Что умеет этот бот?") va qisqa tavsif — 5 tilda + default. Xato bo'lsa ishga tushishni to'xtatmaydi. */
+  async onModuleInit() {
+    const apply = async (code: string | undefined, p: { description: string; shortDescription: string }) => {
+      const extra = code ? { language_code: code } : undefined;
+      try {
+        await this.bot.telegram.callApi('setMyDescription', { description: p.description, ...extra });
+        await this.bot.telegram.callApi('setMyShortDescription', { short_description: p.shortDescription, ...extra });
+      } catch (err) {
+        this.logger.warn(`Bot profile (${code ?? 'default'}) o'rnatilmadi: ${(err as Error).message}`);
+      }
+    };
+    void (async () => {
+      await apply(undefined, BOT_PROFILE_DEFAULT);
+      for (const code of BOT_LOCALES) await apply(code, BOT_PROFILE[code]);
+    })();
+  }
 
   private profileFromCtx(ctx: Context) {
     return { username: ctx.from?.username, firstName: ctx.from?.first_name };
@@ -117,7 +147,7 @@ export class BotUpdate {
   private async configureTelegramMenu(ctx: Context) {
     if (!ctx.chat || ctx.chat.type !== 'private') return;
     await ctx.telegram.setMyCommands([
-      { command: 'language', description: '🌐 Til / Язык / Language' },
+      { command: 'language', description: '🌐 Til / Язык / Language / Język / Мова' },
       { command: 'restart', description: '🔄 Restart / Перезапуск' },
     ], { scope: { type: 'chat', chat_id: ctx.chat.id } });
     await ctx.telegram.setChatMenuButton({
@@ -151,7 +181,7 @@ export class BotUpdate {
     });
   }
 
-  @Action(/^SET_LANG:(uz|ru|en)$/)
+  @Action(/^SET_LANG:(uz|ru|en|pl|uk)$/)
   async onSetLanguage(@Ctx() ctx: Context & { match: RegExpExecArray }) {
     await ctx.answerCbQuery().catch(() => {});
     const locale = ctx.match[1] as BotLocale;

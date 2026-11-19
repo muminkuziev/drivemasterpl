@@ -53,7 +53,7 @@ export function MainMenu() {
 
   return (
     <div className="dmh dm-enter">
-      <section className="dmh-hero">
+      <section className={`dmh-hero${langOpen ? ' is-lang-open' : ''}`}>
         <HeroArt />
         <div className="dmh-top">
           <div className="dmh-brand">
@@ -88,12 +88,7 @@ export function MainMenu() {
                 ))}
               </div>
             )}
-          </div>
-          <span className="dmh-bell" aria-hidden="true">
-            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M6 9a6 6 0 1 1 12 0c0 6 2.5 7.5 2.5 7.5h-17S6 15 6 9Z" /><path d="M10 20a2 2 0 0 0 4 0" /></svg>
-            <i />
-          </span>
-        </div>
+          </div>        </div>
         <h1 className="dmh-greet">
           {t('home.hello')}
           <span className="dmh-wave" aria-hidden="true"> 👋</span>
