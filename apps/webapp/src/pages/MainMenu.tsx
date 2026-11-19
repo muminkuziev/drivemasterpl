@@ -26,7 +26,7 @@ const ITEMS: MenuItem[] = [
 
 export function MainMenu() {
   const navigate = useNavigate();
-  const { t } = useTranslation();
+  const { t, locale } = useTranslation();
 
   return (
     <div className="flex-1 flex flex-col dm-enter">
@@ -56,7 +56,16 @@ export function MainMenu() {
         </button>
       </header>
 
-      <section className="dm-premium-glow rounded-3xl mx-5 md:mx-9 mb-6 px-6 py-7"><p className="text-xs font-bold tracking-widest" style={{color:"var(--dm-gold)"}}>DRIVEMASTER · PREMIUM</p><h2 className="text-3xl md:text-5xl font-extrabold leading-tight mt-3 mb-3">WORD imtihoniga <span style={{color:"var(--dm-gold)"}}>ishonch bilan</span> tayyorlaning</h2><p className="text-sm md:text-base" style={{color:"var(--dm-text-muted)"}}>{t("mainMenu.tagline")}</p></section><div className="flex-1 px-5 md:px-9 pb-9 dm-menu-grid">
+      <section className="dm-premium-glow rounded-3xl mx-5 md:mx-9 mb-6 px-6 py-7">
+        <p className="text-xs font-bold tracking-widest" style={{ color: 'var(--dm-gold)' }}>DRIVEMASTER · PREMIUM</p>
+        <h2 className="text-3xl md:text-5xl font-extrabold leading-tight mt-3 mb-3">
+          {locale === 'ru' ? <>Готовьтесь к экзамену WORD <span style={{ color: 'var(--dm-gold)' }}>с уверенностью</span></> :
+           locale === 'en' ? <>Prepare for your WORD exam <span style={{ color: 'var(--dm-gold)' }}>with confidence</span></> :
+           <>WORD imtihoniga <span style={{ color: 'var(--dm-gold)' }}>ishonch bilan</span> tayyorlaning</>}
+        </h2>
+        <p className="text-sm md:text-base" style={{ color: 'var(--dm-text-muted)' }}>{t('mainMenu.tagline')}</p>
+      </section>
+      <div className="flex-1 px-5 md:px-9 pb-9 dm-menu-grid">
         {ITEMS.map((item) => (
           <button
             key={item.to}
