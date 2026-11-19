@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="uz">
 <head>
-<meta charset="UTF-8" />
+<meta charset="UTF-8" /><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="robots" content="noindex,nofollow">
 <title>DriveMaster Admin</title>
 <style>
   body { font-family: system-ui, sans-serif; max-width: 900px; margin: 2rem auto; padding: 0 1rem; }
@@ -15,7 +15,7 @@
   .msg { font-size: 0.9rem; margin-top: 0.5rem; }
   .msg.ok { color: green; }
   .msg.err { color: crimson; }
-</style>
+body{background:#090f1c;color:#eaf0fc;max-width:1120px;margin:0 auto;padding:26px 18px;font-family:Inter,system-ui,sans-serif}h1{font-size:29px;color:#f1ca87}h2{font-size:18px;color:#f2d49d}section{background:#141f32;border:1px solid #30415e;border-radius:18px;padding:22px;box-shadow:0 12px 40px #0002}input,select,textarea{background:#0a1426;color:#eaf0fc;border:1px solid #40506a;border-radius:9px}button{background:#edc47d;color:#172033;border:0;border-radius:9px;padding:10px 14px;font-weight:700;margin:4px;cursor:pointer}th,td{border-color:#30415e}.msg.ok{color:#8cdbb1}.msg.err{color:#ff9b9b}.metrics{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:12px;margin-bottom:16px}.metric{background:#0c1729;border:1px solid #33425e;padding:16px;border-radius:13px}.metric strong{display:block;color:#f2d49d;font-size:32px;margin-top:9px}.metric span{color:#aab7cb;font-size:13px}.chart{display:flex;align-items:end;gap:10px;height:125px;margin:20px 0 0}.chart div{flex:1;background:linear-gradient(#f4d69a,#997246);border-radius:5px 5px 0 0}.labels{display:flex;gap:10px}.labels span{flex:1;text-align:center;color:#aab7cb;font-size:11px}@media(max-width:650px){.metrics{grid-template-columns:repeat(2,1fr)}section{padding:14px}#users-section{overflow:auto}} </style>
 </head>
 <body>
 <h1>DriveMaster — Admin</h1>
@@ -27,7 +27,7 @@
 </section>
 
 <section id="users-section" style="display:none">
-  <h2>Foydalanuvchilar</h2>
+  <h2>Foydalanuvchilar statistikasi</h2><div class="metrics"><div class="metric"><span>Jami foydalanuvchilar</span><strong id="stat-total">—</strong></div><div class="metric"><span>Oxirgi 24 soat</span><strong id="stat-today">—</strong></div><div class="metric"><span>Oxirgi 7 kun</span><strong id="stat-week">—</strong></div><div class="metric"><span>Premium</span><strong id="stat-premium">—</strong></div></div><h2>7 kunlik o‘sish</h2><div class="chart" id="chart"></div><div class="labels" id="chart-labels"></div><p><input id="user-search" placeholder="Ism, username yoki ID bo‘yicha qidirish" oninput="filterUsers()" /></p>
   <button onclick="loadUsers()">Yangilash</button>
   <table id="users-table">
     <thead><tr><th>Telegram ID</th><th>Premium</th><th>Yaratilgan</th><th>Amal</th></tr></thead>
@@ -51,12 +51,13 @@
 </section>
 
 <script>
-  function getToken() { return localStorage.getItem('dm_admin_token') || ''; }
+  let sessionToken = ''; let cachedUsers = [];
+  function getToken() { return sessionToken; }
 
   function saveToken() {
     const t = document.getElementById('token-input').value.trim();
     if (!t) return;
-    localStorage.setItem('dm_admin_token', t);
+    sessionToken = t; document.getElementById('token-input').value = '';
     afterLogin();
   }
 
@@ -76,7 +77,7 @@
       },
     });
     if (res.status === 401) {
-      localStorage.removeItem('dm_admin_token');
+      sessionToken = '';
       alert('Token noto\'g\'ri. Qayta kiriting.');
       location.reload();
       throw new Error('Unauthorized');
@@ -88,19 +89,30 @@
 
   async function loadUsers() {
     const users = await api('/admin/users');
+    cachedUsers = users;
+    const day=86400000, now=Date.now();
+    document.getElementById('stat-total').textContent=users.length;
+    document.getElementById('stat-today').textContent=users.filter(u=>now-new Date(u.createdAt)<day).length;
+    document.getElementById('stat-week').textContent=users.filter(u=>now-new Date(u.createdAt)<7*day).length;
+    document.getElementById('stat-premium').textContent=users.filter(u=>u.isPremium).length;
+    const ds=Array.from({length:7},(_,i)=>{let d=new Date();d.setHours(0,0,0,0);d.setDate(d.getDate()-6+i);return {d,n:users.filter(u=>new Date(u.createdAt)>=d&&new Date(u.createdAt)<new Date(d.getTime()+day)).length}}),max=Math.max(1,...ds.map(x=>x.n));
+    document.getElementById('chart').innerHTML=ds.map(x=>'<div title="'+x.n+' ta" style="height:'+Math.max(3,x.n/max*100)+'%"></div>').join('');
+    document.getElementById('chart-labels').innerHTML=ds.map(x=>'<span>'+x.d.toLocaleDateString('uz-UZ',{day:'numeric',month:'short'})+'</span>').join('');
     const tbody = document.querySelector('#users-table tbody');
     tbody.innerHTML = '';
     for (const u of users) {
       const tr = document.createElement('tr');
       tr.innerHTML = `
-        <td>${u.telegramId}</td>
+        <td>${String(u.telegramId).replace(/[^0-9]/g,'')}</td>
         <td>${u.isPremium ? '✅' : '—'}</td>
         <td>${new Date(u.createdAt).toLocaleString()}</td>
         <td><button onclick="togglePremium('${u.id}', ${!u.isPremium})">${u.isPremium ? 'Bekor qilish' : 'Premium berish'}</button></td>
       `;
       tbody.appendChild(tr);
     }
+    filterUsers();
   }
+  function filterUsers(){const q=document.getElementById('user-search').value.toLowerCase();const rows=document.querySelectorAll('#users-table tbody tr');rows.forEach((row,i)=>{const u=cachedUsers[i];row.style.display=[u.telegramId,u.username,u.firstName].join(' ').toLowerCase().includes(q)?'':'none'})}
 
   async function togglePremium(id, grant) {
     await api(`/admin/users/${id}/${grant ? 'grant-premium' : 'revoke-premium'}`, { method: 'POST' });
@@ -130,7 +142,7 @@
     }
   }
 
-  if (getToken()) afterLogin();
+
 </script>
 </body>
 </html>
