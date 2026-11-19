@@ -10,10 +10,13 @@ import { PaymentsWebController } from './payments-web.controller';
 import { MediaWebController } from './media-web.controller';
 import { TranslatorWebController } from './translator-web.controller';
 import { WordCentersWebController } from './word-centers-web.controller';
+import { ExamModule } from '../exam/exam.module';
+import { ExamWebController } from './exam-web.controller';
 
 @Module({
-  imports: [ContentModule, UsersModule, PaymentsModule, TranslatorModule],
+  imports: [ContentModule, UsersModule, PaymentsModule, TranslatorModule, ExamModule],
   controllers: [
+    ExamWebController,
     WebappController,
     TheoryWebController,
     ProfileWebController,

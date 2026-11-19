@@ -131,6 +131,77 @@ export function submitTheoryAnswer(questionId: string, optionId: string) {
   );
 }
 
+// ---------- Imtihon simulyatsiyasi ----------
+
+export interface ExamOption extends TheoryOption {
+  isCorrect?: boolean;
+}
+
+export interface ExamQuestion {
+  id: string;
+  position: number;
+  scope: 'basic' | 'specialist';
+  points: number;
+  selectedOptionId: string | null;
+  isCorrect?: boolean | null;
+  textPl: string;
+  textUz: string;
+  textRu: string | null;
+  textEn: string | null;
+  textUk?: string | null;
+  mediaType: string | null;
+  imageUrl: string | null;
+  options: ExamOption[];
+}
+
+export interface ExamState {
+  id: string;
+  finished: boolean;
+  expiresAt: string;
+  remainingMs: number;
+  maxScore: number;
+  passScore: number;
+  result: { score: number; passed: boolean; maxScore: number } | null;
+  questions: ExamQuestion[];
+}
+
+export class ExamError extends Error {
+  code: string;
+  constructor(code: string) {
+    super(code);
+    this.code = code;
+  }
+}
+
+async function examPost<T>(path: string, body: Record<string, unknown>): Promise<T> {
+  const res = await fetch(path, {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json', ...authHeaders() },
+    body: JSON.stringify({ telegramId: getTelegramId(), ...body }),
+  });
+  if (!res.ok) {
+    const data = (await res.json().catch(() => null)) as { code?: string } | null;
+    throw new ExamError(data?.code ?? `http_${res.status}`);
+  }
+  return res.json() as Promise<T>;
+}
+
+export function startExam() {
+  return examPost<ExamState>('/api/exam/start', {});
+}
+
+export function fetchExam(id: string) {
+  return getJson<ExamState>(`/api/exam/${id}?telegramId=${encodeURIComponent(getTelegramId())}`);
+}
+
+export function answerExam(id: string, questionId: string, optionId: string) {
+  return examPost<{ ok: boolean }>(`/api/exam/${id}/answer`, { questionId, optionId });
+}
+
+export function finishExam(id: string) {
+  return examPost<ExamState>(`/api/exam/${id}/finish`, {});
+}
+
 // ---------- Reaksiya testi ----------
 
 export function reactionStart(telegramId: string, deviceId: string) {

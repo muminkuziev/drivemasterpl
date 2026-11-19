@@ -130,7 +130,7 @@ export function MainMenu() {
           <span className="dmh-exam-title" style={{ display: 'block' }}>{t('home.exam.title')}</span>
           <span className="dmh-exam-sub" style={{ display: 'block' }}>{t('home.exam.text')}</span>
         </span>
-        <button type="button" className="dmh-btn dm-press" onClick={() => navigate('/theory')}>
+        <button type="button" className="dmh-btn dm-press" onClick={() => navigate('/exam')}>
           {t('home.exam.cta')}
           <Icon name="chevron" size={16} strokeWidth={2.6} />
         </button>

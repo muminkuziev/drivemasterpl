@@ -20,6 +20,7 @@ import { SignalTest } from './pages/SignalTest';
 import { TheoryMenu } from './pages/TheoryMenu';
 import { TheoryCategoryPicker } from './pages/TheoryCategoryPicker';
 import { TheoryQuiz } from './pages/TheoryQuiz';
+import { Exam } from './pages/Exam';
 import { Roadmap } from './pages/Roadmap';
 import { Legal } from './pages/Legal';
 import { Translator } from './pages/Translator';
@@ -48,6 +49,7 @@ function App() {
         <Route path="/theory" element={<TheoryMenu />} />
         <Route path="/theory/:type" element={<TheoryCategoryPicker />} />
         <Route path="/theory/:type/play" element={<TheoryQuiz />} />
+        <Route path="/exam" element={<Exam />} />
         <Route path="/psych" element={<PsychMenu />} />
         <Route path="/psych/reaction" element={<ReactionTest />} />
         <Route path="/psych/attention" element={<AttentionTest />} />

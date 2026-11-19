@@ -20,6 +20,7 @@ model User {
   boundDeviceId String? // premium yoqilgach birinchi himoyalangan media so'rovida bog'lanadi
   boundDeviceAt DateTime?
   createdAt     DateTime  @default(now())
+  examAttempts  ExamAttempt[]
 
   translatorFreeUsed   Int     @default(0) // bepul foydalanuvchi uchun umumiy hisoblagich (kunlik emas)
   translatorDailyCount Int     @default(0) // premium foydalanuvchi uchun kunlik hisoblagich
@@ -110,10 +111,46 @@ model TheoryQuestion {
   mediaType       String? // "photo" | "video"
   telegramFileId  String? // birinchi yuborishdan keyin Telegram qaytargan file_id (qayta yuklamaslik uchun keshlanadi)
 
-  options TheoryOption[]
+  options   TheoryOption[]
+  examItems ExamAttemptQuestion[]
 
   @@index([officialNumber])
   @@map("theory_questions")
+}
+
+// Imtihon simulyatsiyasi: bitta urinish (32 savol, 25 daqiqa, maks 74 ball, 68 dan o'tadi)
+model ExamAttempt {
+  id         String    @id @default(cuid())
+  userId     String
+  user       User      @relation(fields: [userId], references: [id], onDelete: Cascade)
+  startedAt  DateTime  @default(now())
+  expiresAt  DateTime
+  finishedAt DateTime?
+  score      Int?
+  maxScore   Int       @default(74)
+  passed     Boolean?
+
+  questions ExamAttemptQuestion[]
+
+  @@index([userId, startedAt])
+  @@map("exam_attempts")
+}
+
+model ExamAttemptQuestion {
+  id               String         @id @default(cuid())
+  attemptId        String
+  attempt          ExamAttempt    @relation(fields: [attemptId], references: [id], onDelete: Cascade)
+  questionId       String
+  question         TheoryQuestion @relation(fields: [questionId], references: [id])
+  position         Int // 1..32
+  scope            String // "basic" | "specialist"
+  points           Int // 1 | 2 | 3
+  selectedOptionId String?
+  isCorrect        Boolean?
+  answeredAt       DateTime?
+
+  @@unique([attemptId, position])
+  @@map("exam_attempt_questions")
 }
 
 model TheoryOption {
