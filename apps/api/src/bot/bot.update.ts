@@ -1,7 +1,7 @@
 import { ConfigService } from '@nestjs/config';
 import { createReadStream } from 'fs';
 import { join } from 'path';
-import { Action, Ctx, Hears, Start, Update } from 'nestjs-telegraf';
+import { Action, Command, Ctx, Start, Update } from 'nestjs-telegraf';
 import { Context } from 'telegraf';
 import { TheoryService, TheoryLessonType } from '../content/theory.service';
 import { THEORY_MEDIA_DIR } from '../content/theory-media-dir.util';
@@ -114,32 +114,31 @@ export class BotUpdate {
     return { username: ctx.from?.username, firstName: ctx.from?.first_name };
   }
 
-  private keyboard(locale: BotLocale) {
-    const labels = {
-      uz: ['🌐 Til', '🔄 Restart'],
-      ru: ['🌐 Язык', '🔄 Перезапуск'],
-      en: ['🌐 Language', '🔄 Restart'],
-    }[locale];
-    return { reply_markup: { keyboard: [[{ text: labels[0] }, { text: labels[1] }]], resize_keyboard: true, is_persistent: true } };
+  private async configureTelegramMenu(ctx: Context) {
+    if (!ctx.chat || ctx.chat.type !== 'private') return;
+    await ctx.telegram.setMyCommands([
+      { command: 'language', description: '🌐 Til / Язык / Language' },
+      { command: 'restart', description: '🔄 Restart / Перезапуск' },
+    ], { scope: { type: 'chat', chat_id: ctx.chat.id } });
+    await ctx.telegram.setChatMenuButton({
+      chatId: ctx.chat.id,
+      menuButton: { type: 'commands' },
+    });
   }
 
-  @Hears(['🌐 Til', '🌐 Язык', '🌐 Language'])
+  @Command('language')
   async onLanguageMenu(@Ctx() ctx: Context) {
     await ctx.reply(CHOOSE_LANGUAGE_TEXT, { reply_markup: { inline_keyboard: LANGUAGE_BUTTONS } });
   }
 
-  @Hears(['🔄 Restart', '🔄 Перезапуск'])
+  @Command('restart')
   async onRestartMenu(@Ctx() ctx: Context) {
-    const user = await this.usersService.findOrCreateByTelegramId(String(ctx.from?.id), this.profileFromCtx(ctx));
-    if (user.languageCode && isBotLocale(user.languageCode)) {
-      await this.sendWelcome(ctx, user.languageCode);
-    } else {
-      await ctx.reply(CHOOSE_LANGUAGE_TEXT, { reply_markup: { inline_keyboard: LANGUAGE_BUTTONS } });
-    }
+    await this.onStart(ctx);
   }
 
   @Start()
   async onStart(@Ctx() ctx: Context) {
+    await this.configureTelegramMenu(ctx);
     const telegramId = String(ctx.from?.id);
     const user = await this.usersService.findOrCreateByTelegramId(telegramId, this.profileFromCtx(ctx));
 
@@ -163,7 +162,7 @@ export class BotUpdate {
   }
 
   private async sendWelcome(ctx: Context, locale: BotLocale) {
-    await ctx.reply(BOT_TEXT[locale].welcome, this.keyboard(locale));
+    await ctx.reply(BOT_TEXT[locale].welcome, { reply_markup: { remove_keyboard: true } });
     await ctx.reply(BOT_TEXT[locale].openWebapp, buildMainMenu(isAdmin(ctx, this.config), this.config.get<string>('WEBAPP_URL'), locale));
   }
 
