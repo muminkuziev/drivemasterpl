@@ -96,6 +96,7 @@ model TheoryQuestion {
   textUz    String
   textRu    String?
   textEn    String?
+  textUk    String?
   category  String
   isPremium Boolean @default(true) // bepul namunada false qilinadi
 
@@ -115,6 +116,7 @@ model TheoryOption {
   textUz     String
   textRu     String?
   textEn     String?
+  textUk     String?
   isCorrect  Boolean @default(false)
 
   question TheoryQuestion @relation(fields: [questionId], references: [id])

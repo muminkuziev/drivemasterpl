@@ -64,10 +64,10 @@ export function useTranslation() {
  */
 export function pickText(
   locale: Locale,
-  fields: { pl?: string | null; uz?: string | null; ru?: string | null; en?: string | null },
+  fields: { pl?: string | null; uz?: string | null; ru?: string | null; en?: string | null; uk?: string | null },
 ): string {
   if (locale === 'pl') return fields.pl || fields.en || fields.uz || '';
-  if (locale === 'uk') return fields.ru || fields.en || fields.uz || fields.pl || '';
+  if (locale === 'uk') return fields.uk || fields.ru || fields.en || fields.uz || fields.pl || '';
   const byLocale = locale === 'uz' ? fields.uz : locale === 'ru' ? fields.ru : fields.en;
   return byLocale || fields.uz || fields.pl || '';
 }

@@ -46,6 +46,7 @@ export class TheoryWebController {
       textUz: question.textUz,
       textRu: question.textRu,
       textEn: question.textEn,
+      textUk: question.textUk,
       category: question.category,
       mediaType: question.mediaType,
       imageUrl: question.mediaFileName ? `/api/media/theory/${question.id}` : null,
@@ -55,6 +56,7 @@ export class TheoryWebController {
         textUz: o.textUz,
         textRu: o.textRu,
         textEn: o.textEn,
+        textUk: o.textUk,
       })),
     };
   }
@@ -77,6 +79,7 @@ export class TheoryWebController {
             textUz: correct.textUz,
             textRu: correct.textRu,
             textEn: correct.textEn,
+            textUk: correct.textUk,
           }
         : null,
     };

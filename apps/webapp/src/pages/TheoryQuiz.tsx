@@ -7,7 +7,7 @@ import { pickText, useTranslation } from '../i18n/LocaleContext';
 import { useProtectedMedia } from '../useProtectedMedia';
 
 const TYPE_ICONS: Record<string, string> = { text: '📝', photo: '🖼', video: '🎥' };
-const LOCALE_FLAG: Record<string, string> = { uz: '🇺🇿', ru: '🇷🇺', en: '🇬🇧', pl: '🇵🇱', uk: '🇷🇺' };
+const LOCALE_FLAG: Record<string, string> = { uz: '🇺🇿', ru: '🇷🇺', en: '🇬🇧', pl: '🇵🇱', uk: '\u{1F1FA}\u{1F1E6}' };
 
 interface HistoryEntry {
   question: TheoryQuestion;
@@ -154,11 +154,12 @@ export function TheoryQuiz() {
           >
             <p style={{ color: 'var(--dm-text)' }}>❓ {current.question.textPl}</p>
             {locale !== 'pl' && (<p className="mt-1" style={{ color: 'var(--dm-text-muted)' }}>
-              {flag}{' '}
+              {locale === 'uk' && !current.question.textUk ? '\u{1F1F7}\u{1F1FA}' : flag}{' '}
               {pickText(locale, {
                 uz: current.question.textUz,
                 ru: current.question.textRu,
                 en: current.question.textEn,
+                uk: current.question.textUk,
               })}
             </p>)}
           </div>
@@ -191,7 +192,7 @@ export function TheoryQuiz() {
                   <span style={{ color: 'var(--dm-text)' }}>{opt.textPl}</span>
                   {locale !== 'pl' && (<><br />
                   <span className="text-sm" style={{ color: 'var(--dm-text-muted)' }}>
-                    {flag} {pickText(locale, { uz: opt.textUz, ru: opt.textRu, en: opt.textEn })}
+                    {locale === 'uk' && !opt.textUk ? '\u{1F1F7}\u{1F1FA}' : flag} {pickText(locale, { uz: opt.textUz, ru: opt.textRu, en: opt.textEn, uk: opt.textUk })}
                   </span></>)}
                 </button>
               );

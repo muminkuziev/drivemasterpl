@@ -92,6 +92,7 @@ export interface TheoryOption {
   textUz: string;
   textRu: string | null;
   textEn: string | null;
+  textUk?: string | null;
 }
 
 export interface TheoryQuestion {
@@ -100,6 +101,7 @@ export interface TheoryQuestion {
   textUz: string;
   textRu: string | null;
   textEn: string | null;
+  textUk?: string | null;
   category: string;
   mediaType: string | null;
   imageUrl: string | null;
