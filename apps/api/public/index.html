@@ -106,6 +106,8 @@ h1, h2, h3 { margin: 0; line-height: 1.12; letter-spacing: -.01em; }
   padding: 9px 12px; border: 0; border-radius: 12px; background: transparent;
   font: inherit; font-size: 15px; font-weight: 600; color: var(--ink); cursor: pointer; text-align: left;
 }
+.flag { display: block; flex: none; width: 22px; height: 15px; border-radius: 3px; box-shadow: 0 0 0 1px rgba(11,27,61,.18); }
+.flag-wrap { display: inline-flex; }
 .lang-opt:hover { background: #f1f5ff; }
 .lang-opt.on { background: #e6eeff; color: var(--blue); }
 .tg {
@@ -212,7 +214,7 @@ footer .wrap { display: flex; flex-wrap: wrap; justify-content: space-between; g
       <a href="#" class="brand"><span class="mark">DM</span><span>DriveMaster AI<small>POLAND · DRIVING ACADEMY</small></span></a>
       <div class="nav-r">
         <div class="lang" id="lang">
-          <button type="button" class="lang-btn" id="lang-btn" aria-haspopup="true" aria-expanded="false"><span id="lang-flag">🇺🇿</span><span id="lang-code">UZ</span> ▾</button>
+          <button type="button" class="lang-btn" id="lang-btn" aria-haspopup="true" aria-expanded="false"><span id="lang-flag" class="flag-wrap"></span><span id="lang-code">UZ</span> ▾</button>
           <div class="lang-menu" id="lang-menu" role="menu"></div>
         </div>
         <a class="tg" data-i18n="nav_cta" href="#" data-bot>Telegram'da ochish</a>
@@ -327,11 +329,11 @@ footer .wrap { display: flex; flex-wrap: wrap; justify-content: space-between; g
   document.querySelectorAll("[data-bot]").forEach(function (el) { el.href = BOT_URL; });
 
   var LANGS = [
-    { code: "uz", flag: "🇺🇿", label: "O'zbekcha" },
-    { code: "ru", flag: "🇷🇺", label: "Русский" },
-    { code: "en", flag: "🇬🇧", label: "English" },
-    { code: "pl", flag: "🇵🇱", label: "Polski" },
-    { code: "uk", flag: "🇺🇦", label: "Українська" }
+    { code: "uz", flag: "<svg class=\"flag\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 30 20\" width=\"22\" height=\"15\" aria-hidden=\"true\"><rect width=\"30\" height=\"20\" fill=\"#fff\"/><rect width=\"30\" height=\"6.2\" fill=\"#0099B5\"/><rect y=\"13.8\" width=\"30\" height=\"6.2\" fill=\"#1EB53A\"/><rect y=\"6.2\" width=\"30\" height=\"7.6\" fill=\"#fff\"/><rect y=\"6.2\" width=\"30\" height=\"1\" fill=\"#CE1126\"/><rect y=\"12.8\" width=\"30\" height=\"1\" fill=\"#CE1126\"/><circle cx=\"6\" cy=\"3.1\" r=\"1.9\" fill=\"#fff\"/><circle cx=\"6.8\" cy=\"3.1\" r=\"1.6\" fill=\"#0099B5\"/></svg>", label: "O'zbekcha" },
+    { code: "ru", flag: "<svg class=\"flag\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 30 20\" width=\"22\" height=\"15\" aria-hidden=\"true\"><rect width=\"30\" height=\"20\" fill=\"#fff\"/><rect y=\"6.67\" width=\"30\" height=\"6.67\" fill=\"#0039A6\"/><rect y=\"13.33\" width=\"30\" height=\"6.67\" fill=\"#D52B1E\"/></svg>", label: "Русский" },
+    { code: "en", flag: "<svg class=\"flag\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 30 20\" width=\"22\" height=\"15\" aria-hidden=\"true\"><rect width=\"30\" height=\"20\" fill=\"#012169\"/><path d=\"M0 0L30 20M30 0L0 20\" stroke=\"#fff\" stroke-width=\"4\"/><path d=\"M0 0L30 20M30 0L0 20\" stroke=\"#C8102E\" stroke-width=\"1.6\"/><path d=\"M15 0V20M0 10H30\" stroke=\"#fff\" stroke-width=\"6\"/><path d=\"M15 0V20M0 10H30\" stroke=\"#C8102E\" stroke-width=\"3.4\"/></svg>", label: "English" },
+    { code: "pl", flag: "<svg class=\"flag\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 30 20\" width=\"22\" height=\"15\" aria-hidden=\"true\"><rect width=\"30\" height=\"10\" fill=\"#fff\"/><rect y=\"10\" width=\"30\" height=\"10\" fill=\"#DC143C\"/></svg>", label: "Polski" },
+    { code: "uk", flag: "<svg class=\"flag\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 30 20\" width=\"22\" height=\"15\" aria-hidden=\"true\"><rect width=\"30\" height=\"10\" fill=\"#0057B7\"/><rect y=\"10\" width=\"30\" height=\"10\" fill=\"#FFD700\"/></svg>", label: "Українська" }
   ];
 
   var T = {
@@ -569,7 +571,7 @@ footer .wrap { display: flex; flex-wrap: wrap; justify-content: space-between; g
       if (d[k] !== undefined) el.innerHTML = d[k];
     });
     var cur = LANGS.filter(function (l) { return l.code === lang; })[0] || LANGS[0];
-    document.getElementById("lang-flag").textContent = cur.flag;
+    document.getElementById("lang-flag").innerHTML = cur.flag;
     document.getElementById("lang-code").textContent = cur.code.toUpperCase();
     menu.querySelectorAll(".lang-opt").forEach(function (o) {
       o.classList.toggle("on", o.getAttribute("data-lang") === lang);
@@ -583,7 +585,7 @@ footer .wrap { display: flex; flex-wrap: wrap; justify-content: space-between; g
     b.className = "lang-opt";
     b.setAttribute("role", "menuitem");
     b.setAttribute("data-lang", l.code);
-    b.innerHTML = "<span>" + l.flag + "</span>" + l.label;
+    b.innerHTML = l.flag + "<span>" + l.label + "</span>";
     b.addEventListener("click", function () {
       apply(l.code);
       root.classList.remove("open");
