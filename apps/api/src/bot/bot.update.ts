@@ -163,7 +163,7 @@ export class BotUpdate {
 
   private async sendWelcome(ctx: Context, locale: BotLocale) {
     await ctx.reply(BOT_TEXT[locale].welcome, { reply_markup: { remove_keyboard: true } });
-    await ctx.reply(BOT_TEXT[locale].openWebapp, buildMainMenu(isAdmin(ctx, this.config), this.config.get<string>('WEBAPP_URL'), locale));
+    await ctx.reply(BOT_TEXT[locale].mainMenuTitle, buildMainMenu(isAdmin(ctx, this.config), this.config.get<string>('WEBAPP_URL'), locale));
   }
 
   @Action('MAIN_MENU')
