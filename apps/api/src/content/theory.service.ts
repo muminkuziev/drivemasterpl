@@ -6,9 +6,9 @@ import { isTheoryFreeForAll } from './theory-free-for-all.util';
 export type TheoryLessonType = 'text' | 'photo' | 'video';
 
 const LESSON_TYPE_WHERE: Record<TheoryLessonType, Prisma.TheoryQuestionWhereInput> = {
-  text: { mediaFileName: null },
-  photo: { mediaType: 'photo' },
-  video: { mediaType: 'video' },
+  text: { mediaFileName: null, isActive: true },
+  photo: { mediaType: 'photo', isActive: true },
+  video: { mediaType: 'video', isActive: true },
 };
 
 @Injectable()

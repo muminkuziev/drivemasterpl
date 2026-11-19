@@ -100,12 +100,19 @@ model TheoryQuestion {
   category  String
   isPremium Boolean @default(true) // bepul namunada false qilinadi
 
+  // Rasmiy vazirlik katalogidan (scripts/import-official-catalog.ts) to'ldiriladi
+  officialNumber Int? // rasmiy "Numer pytania"
+  scope          String? // "basic" | "specialist" (imtihonning asosiy / ixtisoslashgan qismi)
+  points         Int? // 1 | 2 | 3
+  isActive       Boolean @default(true) // false: rasmiy katalogda yo'q yoki dublikat — mashq/imtihonda ishlatilmaydi
+
   mediaFileName   String? // media/theory/ papkasidagi fayl nomi
   mediaType       String? // "photo" | "video"
   telegramFileId  String? // birinchi yuborishdan keyin Telegram qaytargan file_id (qayta yuklamaslik uchun keshlanadi)
 
   options TheoryOption[]
 
+  @@index([officialNumber])
   @@map("theory_questions")
 }
 
