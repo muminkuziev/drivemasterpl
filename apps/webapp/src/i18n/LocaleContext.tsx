@@ -2,12 +2,14 @@ import { createContext, useContext, useState, type ReactNode } from 'react';
 import uz from './uz.json';
 import ru from './ru.json';
 import en from './en.json';
+import pl from './pl.json';
+import uk from './uk.json';
 import { getLocale as getStoredLocale, setLocale as storeLocale, type Locale } from '../telegram';
 
 export type { Locale };
 
 type Dict = Record<string, unknown>;
-const DICTS: Record<Locale, Dict> = { uz, ru, en };
+const DICTS: Record<Locale, Dict> = { uz, ru, en, pl, uk };
 
 function lookup(dict: Dict, key: string): string | undefined {
   const value = key.split('.').reduce<unknown>((acc, part) => {
@@ -64,6 +66,8 @@ export function pickText(
   locale: Locale,
   fields: { pl?: string | null; uz?: string | null; ru?: string | null; en?: string | null },
 ): string {
+  if (locale === 'pl') return fields.pl || fields.en || fields.uz || '';
+  if (locale === 'uk') return fields.ru || fields.en || fields.uz || fields.pl || '';
   const byLocale = locale === 'uz' ? fields.uz : locale === 'ru' ? fields.ru : fields.en;
   return byLocale || fields.uz || fields.pl || '';
 }

@@ -229,6 +229,148 @@ export const TERMS_CONTENT: Record<Locale, LegalDoc> = {
       },
     ],
   },
+  pl: {
+    title: 'Regulamin',
+    updated: 'Ostatnia aktualizacja: lipiec 2026',
+    sections: [
+      {
+        heading: '1. Postanowienia ogólne',
+        body: [
+          'DriveMaster to bot w Telegramie i aplikacja internetowa („Usługa”), które pomagają w procesie uzyskania polskiego prawa jazdy. Korzystając z Usługi, akceptujesz niniejszy regulamin. Jeśli się z nim nie zgadzasz, nie korzystaj z Usługi.',
+        ],
+      },
+      {
+        heading: '2. Usługodawca',
+        body: [
+          `Usługę świadczy osoba fizyczna, ${OWNER_NAME}. Kontakt: ${CONTACT_EMAIL} lub Telegram ${CONTACT_TELEGRAM}. Usługa nie jest obecnie zarejestrowana jako działalność gospodarcza (JDG) — może się to zmienić, a każda zmiana zostanie ogłoszona na tej stronie.`,
+        ],
+      },
+      {
+        heading: '3. Opis Usługi',
+        body: [
+          'Usługa obejmuje: pytania egzaminacyjne z teorii (tekstowe, ze zdjęciami i wideo), objaśnienia znaków drogowych, ćwiczenia do badania psychologicznego oraz informacje o ośrodkach WORD. Usługa nie jest powiązana z żadnym organem państwowym (WORD, właściwe ministerstwo) i go nie zastępuje.',
+        ],
+      },
+      {
+        heading: '4. Ograniczenia dotyczące korzystania z treści',
+        body: [
+          'Nagrywanie ekranu, kopiowanie, zapisywanie, przekazywanie osobom trzecim ani publiczne rozpowszechnianie materiałów wideo i zdjęć udostępnianych użytkownikom Premium jest surowo zabronione.',
+          'Każda treść Premium jest dostarczana ze znakiem wodnym zawierającym identyfikator użytkownika. Naruszenie tej zasady może skutkować odebraniem dostępu Premium bez wcześniejszego ostrzeżenia i bez zwrotu dokonanej płatności.',
+        ],
+      },
+      {
+        heading: '5. Subskrypcja Premium i płatność',
+        body: [
+          'Dostęp Premium jest obecnie przyznawany po ręcznie weryfikowanym przelewie (BLIK): użytkownik przesyła wskazaną kwotę na wskazany numer telefonu i składa w aplikacji wniosek o potwierdzenie, podając swój numer telefonu.',
+          'Po zweryfikowaniu płatności przez administratora dostęp Premium jest aktywowany ręcznie. Czas sprawdzenia nie jest gwarantowany. Zwroty za omyłkowe lub błędne płatności są rozpatrywane indywidualnie za pośrednictwem danych kontaktowych poniżej.',
+          'Dostęp Premium jest przypisany do jednego urządzenia — to ograniczenie techniczne mające zapobiegać nieograniczonemu udostępnianiu.',
+        ],
+      },
+      {
+        heading: '6. Rzetelność treści',
+        body: [
+          'Pytania teoretyczne i ich tłumaczenia służą wsparciu nauki. Usługa nie gwarantuje zdania oficjalnego egzaminu. Aktualne i wiążące przepisy zawsze sprawdzaj w oficjalnych źródłach państwowych.',
+        ],
+      },
+      {
+        heading: '7. Ograniczenie konta',
+        body: [
+          'Użytkownik, który narusza niniejszy regulamin, może zostać pozbawiony dostępu do Usługi (w tym dostępu Premium) lub może on zostać ograniczony bez wcześniejszego ostrzeżenia.',
+        ],
+      },
+      {
+        heading: '8. Ograniczenie odpowiedzialności',
+        body: [
+          'Usługa jest świadczona „w stanie, w jakim jest”, bez jakichkolwiek gwarancji. Usługodawca nie ponosi odpowiedzialności za szkody pośrednie wynikające z korzystania z Usługi.',
+        ],
+      },
+      {
+        heading: '9. Zmiany',
+        body: [
+          'Niniejszy regulamin może być co pewien czas aktualizowany. O istotnych zmianach poinformujemy w ramach Usługi.',
+        ],
+      },
+      {
+        heading: '10. Prawo właściwe',
+        body: ['Niniejszy regulamin podlega prawu Rzeczypospolitej Polskiej.'],
+      },
+      {
+        heading: '11. Kontakt',
+        body: [`Pytania: ${CONTACT_EMAIL} lub Telegram ${CONTACT_TELEGRAM}.`],
+      },
+    ],
+  },
+  uk: {
+    title: 'Умови користування',
+    updated: 'Останнє оновлення: липень 2026',
+    sections: [
+      {
+        heading: '1. Загальні положення',
+        body: [
+          'DriveMaster — це бот у Telegram і вебзастосунок («Сервіс»), що допомагає в процесі отримання польського водійського посвідчення (prawo jazdy). Користуючись Сервісом, ви погоджуєтеся з цими умовами. Якщо ви не згодні, не користуйтеся Сервісом.',
+        ],
+      },
+      {
+        heading: '2. Надавач Сервісу',
+        body: [
+          `Сервіс надає фізична особа, ${OWNER_NAME}. Контакти: ${CONTACT_EMAIL} або Telegram ${CONTACT_TELEGRAM}. Наразі Сервіс не зареєстровано як суб'єкт господарювання (JDG) — це може змінитися, і про будь-які зміни буде повідомлено на цій сторінці.`,
+        ],
+      },
+      {
+        heading: '3. Опис Сервісу',
+        body: [
+          'Сервіс містить: запитання теоретичного іспиту (текстові, з фото та відео), пояснення дорожніх знаків, вправи до психологічного огляду та інформацію про центри WORD. Сервіс не пов\'язаний з жодним державним органом (WORD, відповідне міністерство) і не замінює його.',
+        ],
+      },
+      {
+        heading: '4. Обмеження щодо використання контенту',
+        body: [
+          'Запис екрана, копіювання, збереження, передавання третім особам або публічне поширення відео- та фотоматеріалів, наданих користувачам Premium, суворо заборонені.',
+          'Кожен елемент преміум-контенту постачається з водяним знаком, що містить ідентифікатор користувача. Порушення цього правила може призвести до скасування преміум-доступу без попередження та без повернення сплачених коштів.',
+        ],
+      },
+      {
+        heading: '5. Підписка Premium і оплата',
+        body: [
+          'Преміум-доступ наразі надається після переказу (BLIK), що перевіряється вручну: користувач переказує вказану суму на вказаний номер телефону та подає в застосунку запит на підтвердження, вказавши свій номер телефону.',
+          'Після перевірки платежу адміністратором преміум-доступ активується вручну. Час перевірки не гарантується. Повернення коштів за помилкові або неправильні платежі розглядається індивідуально за наведеними нижче контактами.',
+          'Преміум-доступ прив\'язаний до одного пристрою — це технічне обмеження, покликане запобігти необмеженому поширенню.',
+        ],
+      },
+      {
+        heading: '6. Достовірність контенту',
+        body: [
+          'Теоретичні запитання та їхні переклади надаються для допомоги в навчанні. Сервіс не гарантує успішного складання офіційного іспиту. Актуальні та остаточні правила завжди перевіряйте в офіційних державних джерелах.',
+        ],
+      },
+      {
+        heading: '7. Обмеження облікового запису',
+        body: [
+          'Користувач, який порушує ці умови, може бути позбавлений доступу до Сервісу (зокрема преміум-доступу) або обмежений у ньому без попередження.',
+        ],
+      },
+      {
+        heading: '8. Обмеження відповідальності',
+        body: [
+          'Сервіс надається «як є», без жодних гарантій. Надавач Сервісу не несе відповідальності за будь-яку непряму шкоду, що виникла внаслідок користування Сервісом.',
+        ],
+      },
+      {
+        heading: '9. Зміни',
+        body: [
+          'Ці умови можуть час від часу оновлюватися. Про суттєві зміни буде повідомлено в Сервісі.',
+        ],
+      },
+      {
+        heading: '10. Застосовне право',
+        body: ['Ці умови регулюються законодавством Республіки Польща.'],
+      },
+      {
+        heading: '11. Контакти',
+        body: [`Питання: ${CONTACT_EMAIL} або Telegram ${CONTACT_TELEGRAM}.`],
+      },
+    ],
+  },
 };
 
 export const PRIVACY_CONTENT: Record<Locale, LegalDoc> = {
@@ -436,6 +578,144 @@ export const PRIVACY_CONTENT: Record<Locale, LegalDoc> = {
       {
         heading: '10. Contact',
         body: [`Questions: ${CONTACT_EMAIL} or Telegram ${CONTACT_TELEGRAM}.`],
+      },
+    ],
+  },
+  pl: {
+    title: 'Polityka prywatności',
+    updated: 'Ostatnia aktualizacja: lipiec 2026',
+    sections: [
+      {
+        heading: '1. Administrator danych',
+        body: [
+          `Osobą przetwarzającą Twoje dane osobowe w ramach tej Usługi jest ${OWNER_NAME}. Kontakt: ${CONTACT_EMAIL} lub Telegram ${CONTACT_TELEGRAM}.`,
+        ],
+      },
+      {
+        heading: '2. Jakie dane są zbierane',
+        body: [
+          '— Identyfikator Telegram, imię i nazwa użytkownika (zbierane automatycznie przez bota)',
+          '— Preferowany język',
+          '— Identyfikator urządzenia (przechowywany w localStorage, służy do powiązania treści Premium z jednym urządzeniem)',
+          '— Numer telefonu (tylko przy składaniu wniosku o Premium, w celu potwierdzenia płatności)',
+          '— Wyniki i statystyki testów teoretycznych i psychologicznych',
+        ],
+      },
+      {
+        heading: '3. W jakim celu dane są wykorzystywane',
+        body: [
+          '— Aby świadczyć i personalizować Usługę (język, postępy)',
+          '— Aby potwierdzać i zarządzać dostępem Premium',
+          '— Aby zapobiegać nieuprawnionemu rozpowszechnianiu treści (powiązanie z urządzeniem, znak wodny)',
+          '— Aby ulepszać Usługę (statystyki zbiorcze)',
+        ],
+      },
+      {
+        heading: '4. Komu udostępniamy dane',
+        body: [
+          'Twoje dane nie są sprzedawane osobom trzecim ani udostępniane w celach reklamowych. Dane są przetwarzane za pośrednictwem platformy Telegram (do komunikacji) oraz dostawcy naszej bazy danych.',
+        ],
+      },
+      {
+        heading: '5. Okres przechowywania',
+        body: [
+          'Dane są przechowywane tak długo, jak istnieje Twoje konto. Jeśli poprosisz o usunięcie, Twoje dane zostaną usunięte (z wyjątkiem sytuacji, gdy przepisy prawa wymagają ich zachowania).',
+        ],
+      },
+      {
+        heading: '6. Twoje prawa',
+        body: [
+          'Na podstawie RODO (UE 2016/679) masz prawo dostępu do swoich danych, ich sprostowania i żądania usunięcia oraz prawo sprzeciwu wobec ich przetwarzania. Aby złożyć wniosek, skorzystaj z danych kontaktowych poniżej.',
+        ],
+      },
+      {
+        heading: '7. Pliki cookie i localStorage',
+        body: [
+          'Aplikacja zapisuje w localStorage przeglądarki Twój preferowany język i identyfikator urządzenia — służą one wyłącznie do działania Usługi, a nie do śledzenia ani reklam.',
+        ],
+      },
+      {
+        heading: '8. Prywatność dzieci',
+        body: ['Usługa nie jest przeznaczona dla dzieci poniżej 13. roku życia.'],
+      },
+      {
+        heading: '9. Zmiany w polityce',
+        body: [
+          'Niniejsza polityka może być co pewien czas aktualizowana. O istotnych zmianach poinformujemy w ramach Usługi.',
+        ],
+      },
+      {
+        heading: '10. Kontakt',
+        body: [`Pytania: ${CONTACT_EMAIL} lub Telegram ${CONTACT_TELEGRAM}.`],
+      },
+    ],
+  },
+  uk: {
+    title: 'Політика конфіденційності',
+    updated: 'Останнє оновлення: липень 2026',
+    sections: [
+      {
+        heading: '1. Контролер даних',
+        body: [
+          `Особа, яка обробляє ваші персональні дані в межах цього Сервісу, — ${OWNER_NAME}. Контакти: ${CONTACT_EMAIL} або Telegram ${CONTACT_TELEGRAM}.`,
+        ],
+      },
+      {
+        heading: '2. Які дані збираються',
+        body: [
+          '— Telegram ID, ім\'я та нікнейм (збираються автоматично через бота)',
+          '— Обрана мова',
+          '— Ідентифікатор пристрою (зберігається в localStorage, використовується для прив\'язки преміум-контенту до одного пристрою)',
+          '— Номер телефону (лише під час подання запиту на Premium, для підтвердження платежу)',
+          '— Результати та статистика теоретичних і психологічних тестів',
+        ],
+      },
+      {
+        heading: '3. Для чого використовуються дані',
+        body: [
+          '— Щоб надавати та персоналізувати Сервіс (мова, прогрес)',
+          '— Щоб підтверджувати й керувати преміум-доступом',
+          '— Щоб запобігати несанкціонованому поширенню контенту (прив\'язка до пристрою, водяний знак)',
+          '— Щоб покращувати Сервіс (зведена статистика)',
+        ],
+      },
+      {
+        heading: '4. З ким ми ділимося даними',
+        body: [
+          'Ваші дані не продаються третім особам і не передаються для рекламних цілей. Дані обробляються через платформу Telegram (для обміну повідомленнями) та постачальника нашої бази даних.',
+        ],
+      },
+      {
+        heading: '5. Строк зберігання',
+        body: [
+          'Дані зберігаються, доки існує ваш обліковий запис. Якщо ви попросите видалити їх, ваші дані буде видалено (крім випадків, коли їх зберігання вимагає закон).',
+        ],
+      },
+      {
+        heading: '6. Ваші права',
+        body: [
+          'Відповідно до GDPR (ЄС 2016/679) ви маєте право на доступ до своїх даних, їх виправлення, вимагати їх видалення та заперечувати проти їх обробки. Для подання запиту скористайтеся контактами нижче.',
+        ],
+      },
+      {
+        heading: '7. Cookie та localStorage',
+        body: [
+          'Застосунок зберігає вашу обрану мову та ідентифікатор пристрою в localStorage браузера — вони використовуються виключно для роботи Сервісу, а не для відстеження чи реклами.',
+        ],
+      },
+      {
+        heading: '8. Конфіденційність дітей',
+        body: ['Сервіс не призначений для дітей віком до 13 років.'],
+      },
+      {
+        heading: '9. Зміни в політиці',
+        body: [
+          'Ця політика може час від часу оновлюватися. Про суттєві зміни буде повідомлено в Сервісі.',
+        ],
+      },
+      {
+        heading: '10. Контакти',
+        body: [`Питання: ${CONTACT_EMAIL} або Telegram ${CONTACT_TELEGRAM}.`],
       },
     ],
   },

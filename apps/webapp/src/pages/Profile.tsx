@@ -1,4 +1,5 @@
 import { useEffect, useState } from 'react';
+import { BottomNav } from '../components/BottomNav';
 import { useNavigate } from 'react-router-dom';
 import { fetchPaymentStatus, fetchProfile, requestPremium } from '../api';
 import type { PaymentStatus, UserProfile } from '../api';
@@ -9,12 +10,16 @@ const MONTHS: Record<Locale, string[]> = {
   uz: ['yanvar', 'fevral', 'mart', 'aprel', 'may', 'iyun', 'iyul', 'avgust', 'sentabr', 'oktabr', 'noyabr', 'dekabr'],
   ru: ['января', 'февраля', 'марта', 'апреля', 'мая', 'июня', 'июля', 'августа', 'сентября', 'октября', 'ноября', 'декабря'],
   en: ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'],
+  uk: ['січня', 'лютого', 'березня', 'квітня', 'травня', 'червня', 'липня', 'серпня', 'вересня', 'жовтня', 'листопада', 'грудня'],
+  pl: ['stycznia', 'lutego', 'marca', 'kwietnia', 'maja', 'czerwca', 'lipca', 'sierpnia', 'września', 'października', 'listopada', 'grudnia'],
 };
 
 const LANGUAGES: { key: Locale; label: string }[] = [
   { key: 'uz', label: "O'zbekcha" },
   { key: 'ru', label: 'Русский' },
   { key: 'en', label: 'English' },
+  { key: 'pl', label: 'Polski' },
+  { key: 'uk', label: 'Українська' },
 ];
 
 function formatDate(iso: string, locale: Locale) {
@@ -56,7 +61,7 @@ export function Profile() {
 
   return (
     <div className="flex-1 flex flex-col dm-enter">
-      <header className="flex items-center gap-3 px-4 pt-6 pb-3">
+      <header className="dmp-head flex items-center gap-3 px-4 pt-6 pb-3">
         <button
           type="button"
           onClick={() => navigate(-1)}
@@ -70,7 +75,7 @@ export function Profile() {
         </h1>
       </header>
 
-      <div className="flex-1 px-4 pb-6 flex flex-col gap-4">
+      <div className="dmp-body flex-1 px-4 pb-6 flex flex-col gap-4">
         <div
           className="flex flex-col items-center gap-3 rounded-2xl px-4 py-6"
           style={{ background: 'var(--dm-card)', border: '1px solid var(--dm-border)', boxShadow: 'var(--dm-shadow)' }}
@@ -279,6 +284,7 @@ export function Profile() {
           </button>
         </div>
       </div>
+      <BottomNav />
     </div>
   );
 }

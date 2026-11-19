@@ -15,6 +15,31 @@
     "tagline": "Intelligence in Motion",
     "chooseLanguage": "Choose your language"
   },
+  "home": {
+    "hello": "Hello!",
+    "welcome": "Welcome!",
+    "subtitle": "A modern platform to prepare for the exam and get your driving licence in Poland.",
+    "shortcuts": "Quick sections",
+    "quick": {
+      "tests": "Theory tests",
+      "signs": "Road signs",
+      "lessons": "Rules & lessons",
+      "videos": "Video lessons"
+    },
+    "exam": {
+      "title": "Ready for the exam?",
+      "text": "Take a final check and test your knowledge.",
+      "cta": "Take the check"
+    },
+    "more": "More sections",
+    "nav": {
+      "home": "Home",
+      "theory": "Tests",
+      "signs": "Signs",
+      "driver": "Driver",
+      "profile": "Profile"
+    }
+  },
   "mainMenu": {
     "tagline": "Prawo jazdy — in English",
     "item": {

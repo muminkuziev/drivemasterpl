@@ -16,7 +16,7 @@ export function FirstAid() {
   const { t } = useTranslation();
   return (
     <div className="flex-1 flex flex-col dm-enter">
-      <header className="flex items-center gap-3 px-4 pt-6 pb-3">
+      <header className="dmp-head flex items-center gap-3 px-4 pt-6 pb-3">
         <button
           type="button"
           onClick={() => navigate(-1)}
@@ -30,7 +30,7 @@ export function FirstAid() {
         </h1>
       </header>
 
-      <div className="flex-1 px-4 pb-6 flex flex-col gap-4 overflow-y-auto">
+      <div className="dmp-body flex-1 px-4 pb-6 flex flex-col gap-4 overflow-y-auto">
         <div
           className="rounded-2xl px-4 py-3"
           style={{ background: 'var(--dm-card)', border: '1.5px solid var(--dm-gold)', boxShadow: 'var(--dm-shadow)' }}

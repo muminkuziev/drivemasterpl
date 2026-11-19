@@ -1,0 +1,304 @@
+{
+  "common": {
+    "loading": "Ładowanie...",
+    "back": "Wstecz",
+    "start": "Start",
+    "tryAgain": "Spróbuj ponownie",
+    "retry": "Ponów",
+    "prev": "Poprzednie",
+    "next": "Następne",
+    "waiting": "Czekaj...",
+    "points": "punktów",
+    "pointsShort": "pkt"
+  },
+  "splash": {
+    "tagline": "Intelligence in Motion",
+    "chooseLanguage": "Wybierz język"
+  },
+  "home": {
+    "hello": "Cześć!",
+    "welcome": "Witamy!",
+    "subtitle": "Nowoczesna platforma do przygotowania się do egzaminu i zdobycia prawa jazdy w Polsce.",
+    "shortcuts": "Szybkie działy",
+    "quick": {
+      "tests": "Testy teoretyczne",
+      "signs": "Znaki drogowe",
+      "lessons": "Zasady i lekcje",
+      "videos": "Lekcje wideo"
+    },
+    "exam": {
+      "title": "Gotowy na egzamin?",
+      "text": "Przejdź końcowy sprawdzian i przetestuj swoją wiedzę.",
+      "cta": "Rozpocznij sprawdzian"
+    },
+    "more": "Pozostałe działy",
+    "nav": {
+      "home": "Główna",
+      "theory": "Testy",
+      "signs": "Znaki",
+      "driver": "Kierowca",
+      "profile": "Profil"
+    }
+  },
+  "mainMenu": {
+    "tagline": "Prawo jazdy — po polsku",
+    "item": {
+      "translator": { "title": "Tłumacz AI", "subtitle": "Tłumaczenie głosowe z pasażerem" },
+      "theory": { "title": "Teoria", "subtitle": "Lekcje tekstowe, ze zdjęciami i wideo" },
+      "psych": { "title": "Psychologia", "subtitle": "Badanie i testy ćwiczeniowe" },
+      "signs": { "title": "Znaki drogowe", "subtitle": "323 oficjalne znaki" },
+      "roadmap": { "title": "Mapa drogowa", "subtitle": "Roadmap" },
+      "wordCenters": { "title": "Adresy WORD", "subtitle": "Lista ośrodków egzaminacyjnych" },
+      "driver": { "title": "Dział kierowcy", "subtitle": "Pierwsza pomoc, obowiązkowe wyposażenie" },
+      "violations": { "title": "Wykroczenia i mandaty", "subtitle": "Oficjalny taryfikator" }
+    }
+  },
+  "signs": {
+    "title": "Znaki drogowe",
+    "empty": "W tej kategorii nie ma jeszcze znaków. Wkrótce zostaną dodane.",
+    "category": {
+      "warning": "Znaki ostrzegawcze",
+      "prohibition": "Znaki zakazu",
+      "mandatory": "Znaki nakazu",
+      "information": "Znaki informacyjne",
+      "additional": "Tabliczki dodatkowe",
+      "direction": "Znaki kierunku i miejscowości",
+      "traffic_light": "Sygnały świetlne",
+      "road_markings": "Znaki poziome",
+      "traffic_controller": "Osoba kierująca ruchem",
+      "dashboard": "Kontrolki na desce rozdzielczej"
+    }
+  },
+  "signDetail": {
+    "title": "Szczegóły znaku",
+    "notFound": "Nie znaleziono znaku.",
+    "whatToDo": "Co należy zrobić?"
+  },
+  "theoryMenu": {
+    "title": "Teoria",
+    "type": {
+      "text": "Lekcja tekstowa",
+      "photo": "Lekcja ze zdjęciami",
+      "video": "Lekcja wideo"
+    }
+  },
+  "categoryPicker": {
+    "mixed": "Mieszane (wszystkie kategorie)",
+    "freeLimitNotice": "W trybie bezpłatnym dostępnych jest tylko 15 pytań z każdego rodzaju (tekst, zdjęcia, wideo). Przejdź na Premium, aby odblokować wszystkie pytania."
+  },
+  "theoryQuiz": {
+    "empty": "Nie ma jeszcze pytań tego rodzaju."
+  },
+  "theoryCategory": {
+    "Umumiy qoidalar": "Zasady ogólne",
+    "Ustuvorlik qoidalari": "Zasady pierwszeństwa",
+    "Yo'l belgilari": "Znaki drogowe",
+    "Yo'lak va manevrlar": "Pasy ruchu i manewry",
+    "To'xtash va parking": "Zatrzymanie i postój",
+    "O'zib o'tish": "Wyprzedzanie",
+    "Svetofor va yorug'lik": "Sygnalizacja i oświetlenie",
+    "Svetofor": "Sygnalizacja świetlna",
+    "Yo'l harakati holatlari": "Sytuacje drogowe",
+    "To'xtash joylari": "Miejsca zatrzymania",
+    "Tirkama va tortish": "Przyczepa i holowanie",
+    "Yoritish tizimi": "Układ oświetlenia",
+    "Ekologik qoidalar": "Zasady ekologiczne",
+    "Bolalarni tashish": "Przewóz dzieci",
+    "Texnik holat va nosozliklar": "Stan techniczny i usterki",
+    "Yuk va bagaj tashish": "Przewóz ładunku i bagażu",
+    "Hujjatlar va huquqiy javobgarlik": "Dokumenty i odpowiedzialność prawna",
+    "Hujjatlar va texnik ko'rik": "Dokumenty i badanie techniczne",
+    "Ob-havo sharoitida haydash": "Jazda w warunkach pogodowych",
+    "Birinchi yordam": "Pierwsza pomoc",
+    "Tormoz va xavfsizlik tizimlari": "Układy hamulcowe i bezpieczeństwa",
+    "Tezlik chegaralari": "Ograniczenia prędkości",
+    "Xavfsiz masofa va manevrlar": "Bezpieczna odległość i manewry"
+  },
+  "psychMenu": {
+    "title": "Psychologia",
+    "disclaimer": "⚠️ Przy zwykłym prawie jazdy <b>kategorii B</b> badanie psychologiczne zazwyczaj NIE jest wymagane — obowiązuje tylko kierowców zawodowych (C/D), taksówkarzy, kierowców pojazdów uprzywilejowanych oraz osoby odzyskujące cofnięte uprawnienia. Poniższe ćwiczenia nie są prawdziwymi pytaniami egzaminacyjnymi — to oryginalne ćwiczenia psychomotoryczne.",
+    "exercise": {
+      "attention": "Ćwiczenie uwagi",
+      "reaction": "Szybkość reakcji",
+      "coordination": "Ćwiczenie koordynacji",
+      "piorkowski": "Test Piórkowskiego",
+      "krzyzowy": "Test Krzyżowego",
+      "signal": "Test sygnałów"
+    }
+  },
+  "reaction": {
+    "title": "Szybkość reakcji",
+    "instructions": "Naciśnij jak najszybciej, gdy pojawi się sygnał. Jeśli naciśniesz za wcześnie, musisz zacząć od nowa.",
+    "pressNow": "NACIŚNIJ TERAZ!",
+    "tooEarly": "⏳ Za wcześnie! Poczekaj na sygnał.",
+    "resultLabel": "punktów (reakcja: {{ms}} ms)"
+  },
+  "attention": {
+    "title": "Ćwiczenie uwagi",
+    "instructions": "Dotykaj tylko kółek w kolorze: {{color}} (pozostało: {{remaining}})",
+    "resultLabel": "dokładność (błędy: {{mistakes}})",
+    "color": {
+      "red": "czerwonym",
+      "green": "zielonym",
+      "blue": "niebieskim",
+      "yellow": "żółtym",
+      "purple": "fioletowym"
+    }
+  },
+  "coordination": {
+    "title": "Ćwiczenie koordynacji",
+    "instructions": "Przeciągnij kropkę wzdłuż linii, staraj się z niej nie zjeżdżać.",
+    "dragging": "Przeciąganie...",
+    "dragHint": "Dotknij i przeciągnij kropkę, aby zacząć",
+    "resultLabel": "punktów ({{seconds}} s poza linią)"
+  },
+  "piorkowski": {
+    "title": "Test Piórkowskiego",
+    "instructions": "Dotykaj podświetlonej strefy tak szybko, jak potrafisz. Liczba rund: {{rounds}}.",
+    "round": "Runda: {{round}}/{{total}}",
+    "avg": "Średnio: {{ms}} ms",
+    "errors": "Błędy: {{count}}",
+    "resultLabel": "punktów · średnio {{ms}} ms · błędów: {{errors}}"
+  },
+  "krzyzowy": {
+    "title": "Test Krzyżowego",
+    "instructions": "Znajdź po prawej stronie kształt pasujący do koloru po lewej. Patrz na kolor, nie na kształt!",
+    "round": "Runda: {{round}}/{{total}}",
+    "correct": "Poprawnie: {{count}}",
+    "findColor": "Znajdź ten kolor:",
+    "resultLabel": "punktów · {{correct}}/{{total}} poprawnie"
+  },
+  "signal": {
+    "title": "Test sygnałów",
+    "instructions": "Naciśnij przycisk pasujący do sygnału kolorowego lub dźwiękowego. Z każdą rundą czasu jest mniej — to test na stres.",
+    "round": "Runda: {{round}}/{{total}}",
+    "time": "Czas: {{ms}} ms",
+    "errors": "Błędy: {{count}}",
+    "color": {
+      "red": "Czerwony",
+      "yellow": "Żółty",
+      "green": "Zielony",
+      "sound": "🔊 Dźwięk"
+    },
+    "resultLabel": "punktów · błędów: {{errors}}"
+  },
+  "roadmap": {
+    "title": "Mapa drogowa",
+    "step1": { "title": "Badanie psychologiczne", "note": "Zazwyczaj NIE jest wymagane dla kategorii B", "desc": "Obowiązkowe tylko dla kierowców zawodowych (C/D), taksówkarzy, kierowców pojazdów uprzywilejowanych oraz osób odzyskujących uprawnienia. Wypróbuj oryginalne testy ćwiczeniowe." },
+    "step2": { "title": "Kurs teoretyczny", "desc": "Wiedza teoretyczna do egzaminu w WORD. W aplikacji jest ponad 2000 pytań — lekcje tekstowe, ze zdjęciami i wideo oraz ćwiczenia według kategorii." },
+    "step3": { "title": "Egzamin teoretyczny", "desc": "Zdawany na komputerze w oficjalnym ośrodku WORD. Kontynuuj przygotowania w dziale Teoria w aplikacji." },
+    "step4": { "title": "Kurs praktyczny jazdy", "desc": "Etap nauki jazdy z instruktorem — ta aplikacja nie obejmuje jeszcze tej części, ustal ją ze swoim instruktorem." },
+    "step5": { "title": "Egzamin praktyczny", "desc": "Zdawany na prawdziwych drogach w ośrodku WORD. Powtórz w aplikacji znaki drogowe i przepisy ruchu." }
+  },
+  "profile": {
+    "title": "Profil",
+    "guest": "Gość",
+    "premium": "⭐ Premium",
+    "free": "Użytkownik bezpłatny",
+    "buyPremiumTitle": "Kup Premium",
+    "buyPremiumSubtitle": "66 zł przez BLIK",
+    "buyPremiumFeatures": "✅ 2105 pytań teoretycznych (tekst, zdjęcia, wideo)\n✅ 323 oficjalne znaki drogowe\n✅ Ćwiczenia do badania psychologicznego\n✅ Jednorazowa płatność — dostęp na zawsze",
+    "buyPremiumPhonePlaceholder": "Twój numer telefonu",
+    "buyPremiumInstructions": "Prześlij {{amount}} zł przez BLIK na numer {{phone}}, a następnie wpisz tutaj swój numer telefonu. Administrator sprawdzi płatność i aktywuje Premium.",
+    "buyPremiumSubmit": "Wysłałem",
+    "buyPremiumPending": "W trakcie sprawdzania",
+    "buyPremiumPendingSubtitle": "Premium aktywuje się automatycznie po potwierdzeniu płatności. Zwykle sprawdzamy szybko.",
+    "registeredOn": "Data rejestracji: {{date}}",
+    "feedback": "Opinie i sugestie",
+    "language": "Język",
+    "terms": "Regulamin",
+    "privacy": "Polityka prywatności"
+  },
+  "driverMenu": {
+    "title": "Dział kierowcy",
+    "item": {
+      "firstAid": "Pierwsza pomoc przy wypadku",
+      "equipment": "Obowiązkowe wyposażenie"
+    }
+  },
+  "firstAid": {
+    "title": "Pierwsza pomoc przy wypadku",
+    "numbersTitle": "Numery alarmowe",
+    "number112": "Jednolity numer alarmowy (cała Europa)",
+    "number999": "Pogotowie ratunkowe",
+    "number998": "Straż pożarna",
+    "number997": "Policja",
+    "step1": { "title": "1. Zabezpiecz siebie i innych", "text": "Włącz światła awaryjne. Jeśli to możliwe, zjedź samochodem na pobocze. Ustaw trójkąt ostrzegawczy — co najmniej 50 metrów za pojazdem w obszarze zabudowanym, co najmniej 100 metrów poza nim. Jeśli po zmroku wysiadasz z samochodu, załóż kamizelkę odblaskową." },
+    "step2": { "title": "2. Wezwij służby ratunkowe", "text": "Zadzwoń pod numer 112 (bezpłatny, działa w całym kraju). Przy poważnych obrażeniach możesz też zadzwonić pod 999 (pogotowie)." },
+    "step3": { "title": "3. Co powiedzieć w rozmowie", "text": "Podaj dokładny adres lub numer drogi/kilometr, liczbę poszkodowanych, ich stan (przytomni/nieprzytomni, oddychają czy nie) oraz swój numer telefonu. Nie rozłączaj się, dopóki dyspozytor na to nie pozwoli." },
+    "step4": { "title": "4. Pierwsza pomoc poszkodowanym", "text": "Osobę nieprzytomną, ale oddychającą, ułóż w pozycji bocznej ustalonej, chyba że podejrzewasz uraz kręgosłupa lub szyi. Silne krwawienie zatamuj, uciskając je czystą szmatką. Wyciągaj kogoś z samochodu tylko wtedy, gdy grozi pożar lub wybuch." },
+    "step5": { "title": "5. Kiedy zawsze trzeba wezwać policję", "text": "Policję należy wezwać w przypadku obrażeń ciała lub śmierci, znacznych szkód materialnych, gdy strony nie mogą się porozumieć lub gdy istnieje podejrzenie, że któryś z uczestników był pod wpływem alkoholu lub narkotyków." }
+  },
+  "equipment": {
+    "title": "Obowiązkowe wyposażenie",
+    "status": { "mandatory": "OBOWIĄZKOWE", "conditional": "OBOWIĄZKOWE WARUNKOWO", "recommended": "TYLKO ZALECANE" },
+    "item1": { "title": "Gaśnica", "text": "Zawsze musi być w samochodzie. Musi być sprawna, mieć ważną homologację i znajdować się w łatwo dostępnym miejscu.", "law": "Rozporządzenie Ministra Infrastruktury w sprawie warunków technicznych pojazdów" },
+    "item2": { "title": "Trójkąt ostrzegawczy", "text": "Zawsze musi być w samochodzie. Musi mieć homologację i być kompletny (wszystkie części) — służy do oznaczenia miejsca wypadku na drodze.", "law": "Rozporządzenie Ministra Infrastruktury w sprawie warunków technicznych pojazdów" },
+    "item3": { "title": "Kamizelka odblaskowa", "text": "Nie trzeba jej wozić w samochodzie. Jeśli jednak po zmroku wysiadasz z auta poza obszarem zabudowanym, według prawa jesteś „pieszym”, a noszenie elementu odblaskowego jest OBOWIĄZKOWE.", "law": "Prawo o ruchu drogowym — przepis o elementach odblaskowych dla pieszych" },
+    "item4": { "title": "Apteczka", "text": "Obecnie (stan na 2026 r.) nie jest prawnie obowiązkowa w samochodach osobowych — jest tylko zalecana. Ministerstwo Infrastruktury rozważa wprowadzenie tego obowiązku w przyszłości, więc przepis może się zmienić.", "law": "Stan obecny — jeszcze nieobowiązkowa (zmiana w toku)" },
+    "fineNote": "⚠️ Brak obowiązkowego wyposażenia podczas kontroli drogowej może skutkować mandatem od 20 do 500 zł."
+  },
+  "violations": {
+    "title": "Wykroczenia i mandaty",
+    "intro": "Najczęstsze wykroczenia i oficjalny taryfikator mandatów (stan na 2026 r.).",
+    "redLight": { "title": "Przejazd na czerwonym świetle", "note": "Jeśli spowoduje to wypadek, mandat zaczyna się od 1500 zł (500 + 1000 zł)." },
+    "phone": { "title": "Trzymanie telefonu podczas jazdy", "note": "Nawet jeśli na chwilę stoisz na światłach lub w korku, nadal jesteś kierowcą — mandat obowiązuje." },
+    "speed": { "title": "Przekroczenie prędkości", "fine": "Zobacz tabelę", "note": "Zobacz pełną tabelę poniżej. Od 3 marca 2026 r. przekroczenie limitu o 50 km/h lub więcej na drodze dwukierunkowej poza obszarem zabudowanym oznacza automatyczne zatrzymanie prawa jazdy na 3 miesiące." },
+    "pedestrian": { "title": "Nieustąpienie pierwszeństwa pieszemu (na przejściu)", "note": "Najwyższa liczba punktów w taryfikatorze — 15. W przypadku powtórzenia w ciągu 2 lat mandat wzrasta do 3000 zł." },
+    "speedTableTitle": "Przekroczenie prędkości — pełna tabela",
+    "speedRow0": "do 10 km/h",
+    "speedRow1": "11–15 km/h",
+    "speedRow2": "16–20 km/h",
+    "speedRow3": "21–25 km/h",
+    "speedRow4": "26–30 km/h",
+    "speedRow5": "31–40 km/h",
+    "speedRow6": "41–50 km/h",
+    "speedRow7": "51–60 km/h",
+    "speedRow8": "61–70 km/h",
+    "speedRow9": "71 km/h i więcej",
+    "drunkDriving": {
+      "title": "🍺 Jazda po alkoholu — to nie jest zwykły mandat",
+      "intro": "Za jazdę pod wpływem alkoholu policja nie wystawia zwykłego mandatu na miejscu — sprawa zawsze trafia do sądu, a kary dzielą się na dwa progi:",
+      "tier1Title": "0,2‰ – 0,5‰ („stan po użyciu alkoholu”) — wykroczenie",
+      "tier1Text": "Grzywna 2500–30 000 zł, zakaz prowadzenia pojazdów od 6 miesięcy do 3 lat, 15 punktów.",
+      "tier2Title": "powyżej 0,5‰ („stan nietrzeźwości”) — przestępstwo",
+      "tier2Text": "Do 3 lat pozbawienia wolności, zakaz prowadzenia pojazdów co najmniej na 3 lata, świadczenie pieniężne 5000–60 000 zł. Przy stężeniu powyżej 1,5‰ lub spowodowaniu wypadku — przepadek pojazdu jest obowiązkowy.",
+      "note": "Od 3 marca 2026 r. dla kierowców z prawem jazdy na okres próbny (do 1 roku) obowiązuje zerowa tolerancja alkoholu."
+    },
+    "pointsSystem": {
+      "title": "📊 Jak działa system punktów",
+      "text": "Limit dla kierowców z prawem jazdy krócej niż rok to <b>20 punktów</b>, dla doświadczonych kierowców — <b>24 punkty</b>. Przekroczenie limitu może skutkować utratą uprawnień. Każdy punkt wygasa automatycznie po <b>1 roku</b> od zapłaty mandatu. Od czerwca 2026 r. punktów za poważne wykroczenia, takie jak przejazd na czerwonym świetle czy używanie telefonu, nie można już zmniejszyć przez płatny kurs."
+    },
+    "courtRights": {
+      "title": "⚖️ Jeśli nie zgadzasz się z mandatem — Twoje prawa",
+      "text": "Nie musisz przyjąć mandatu zaproponowanego przez policję — jeśli się nie zgadzasz, masz prawo skierować sprawę do sądu. W sądzie kara może jednak być wyższa (nie ma ustawowej górnej granicy, w poważnych przypadkach do 30 000 zł), a koszty postępowania również spadną na Ciebie. Dlatego dobrze przemyśl tę decyzję."
+    }
+  },
+  "feedback": {
+    "title": "Opinie i sugestie",
+    "text": "Jeśli znalazłeś błąd, masz sugestię lub skargę — możesz napisać bezpośrednio do założyciela. Każda wiadomość jest czytana osobiście.",
+    "contactFounder": "Napisz do założyciela"
+  },
+  "translator": {
+    "title": "Tłumacz AI",
+    "passengerLanguage": "Język pasażera",
+    "tapToSpeak": "Dotknij mikrofonu i mów",
+    "recording": "Nagrywanie... dotknij, aby zatrzymać",
+    "processing": "Tłumaczenie...",
+    "replay": "Odtwórz ponownie",
+    "usageFree": "Bezpłatnie: pozostało {{remaining}}/{{limit}} tłumaczeń",
+    "usagePremium": "Dzisiaj: pozostało {{remaining}}/{{limit}} tłumaczeń",
+    "freeLimitReached": "Bezpłatne tłumaczenia wykorzystane. Przejdź na Premium, aby korzystać bez ograniczeń.",
+    "dailyLimitReached": "Osiągnięto dzienny limit. Spróbuj ponownie jutro.",
+    "disabled": "Tłumacz AI jest chwilowo niedostępny.",
+    "goPremium": "Przejdź na Premium",
+    "micDenied": "Brak dostępu do mikrofonu. Zezwól na niego w ustawieniach Telegrama/przeglądarki.",
+    "error": "Coś poszło nie tak. Spróbuj ponownie."
+  },
+  "wordCenters": {
+    "title": "Adresy WORD",
+    "subtitle": "Egzamin praktyczny i teoretyczny odbywa się w tych ośrodkach. Wybierz województwo.",
+    "empty": "W tym województwie nie znaleziono ośrodków.",
+    "website": "Oficjalna strona"
+  }
+}

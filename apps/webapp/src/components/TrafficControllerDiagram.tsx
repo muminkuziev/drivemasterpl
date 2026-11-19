@@ -1,13 +1,13 @@
 import type { ReactElement, ReactNode } from 'react';
 
-const STROKE = '#f5f7fa';
-const ACCENT = '#d4af37';
+const STROKE = '#0b1f4d';
+const ACCENT = '#1d5cf0';
 
 function Figure({ children }: { children: ReactNode }) {
   return (
     <svg viewBox="0 0 160 200" width="100%" height="100%" style={{ maxWidth: 220 }}>
       {/* yer chizig'i */}
-      <line x1="20" y1="185" x2="140" y2="185" stroke="#2a3350" strokeWidth="2" />
+      <line x1="20" y1="185" x2="140" y2="185" stroke="#c4d4f2" strokeWidth="2" />
       {children}
     </svg>
   );
@@ -88,7 +88,7 @@ export function TrafficControllerDiagram({ code }: { code: string | null }) {
   return (
     <div
       className="flex items-center justify-center rounded-xl"
-      style={{ background: '#141b2e', padding: 12 }}
+      style={{ background: '#ffffff', padding: 12 }}
     >
       <Diagram />
     </div>

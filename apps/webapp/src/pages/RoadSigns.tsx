@@ -1,4 +1,5 @@
 import { useEffect, useRef, useState } from 'react';
+import { BottomNav } from '../components/BottomNav';
 import { useNavigate, useSearchParams } from 'react-router-dom';
 import { fetchRoadSignCategories, fetchRoadSignsByCategory } from '../api';
 import type { RoadSign, RoadSignCategory } from '../api';
@@ -57,7 +58,7 @@ export function RoadSigns() {
 
   return (
     <div className="flex-1 flex flex-col dm-enter">
-      <header className="flex items-center gap-3 px-4 pt-6 pb-3">
+      <header className="dmp-head flex items-center gap-3 px-4 pt-6 pb-3">
         <button
           type="button"
           onClick={() => navigate(-1)}
@@ -195,6 +196,7 @@ export function RoadSigns() {
           })}
         </div>
       </div>
+      <BottomNav />
     </div>
   );
 }

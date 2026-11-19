@@ -1,4 +1,5 @@
 import { useNavigate } from 'react-router-dom';
+import { BottomNav } from '../components/BottomNav';
 import { useTranslation } from '../i18n/LocaleContext';
 
 const TYPES = [
@@ -12,7 +13,7 @@ export function TheoryMenu() {
   const { t } = useTranslation();
   return (
     <div className="flex-1 flex flex-col dm-enter">
-      <header className="flex items-center gap-3 px-4 pt-6 pb-3">
+      <header className="dmp-head flex items-center gap-3 px-4 pt-6 pb-3">
         <button
           type="button"
           onClick={() => navigate(-1)}
@@ -26,7 +27,7 @@ export function TheoryMenu() {
         </h1>
       </header>
 
-      <div className="flex-1 px-4 pb-6 flex flex-col gap-3">
+      <div className="dmp-body flex-1 px-4 pb-6 flex flex-col gap-3">
         {TYPES.map((type) => (
           <button
             key={type.key}
@@ -52,6 +53,7 @@ export function TheoryMenu() {
           </button>
         ))}
       </div>
+      <BottomNav />
     </div>
   );
 }

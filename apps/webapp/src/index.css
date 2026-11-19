@@ -1,4 +1,5 @@
 @import 'tailwindcss';
+@import './pages.css';
 
 :root {
   --dm-bg: #0b1220;
@@ -98,3 +99,11 @@ body{background:radial-gradient(ellipse 85% 50% at 50% -12%,#213e65 0%,transpare
 @media(min-width:680px){.dm-menu-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:18px}}
 @media(min-width:1000px){.dm-menu-grid{grid-template-columns:repeat(3,minmax(0,1fr))}}
 @media(prefers-reduced-motion:reduce){.dm-premium-card{transition:none}.dm-premium-card:hover{transform:none}}
+
+/* ===== Yorqin ko'k/oq dizayn (faqat ranglar; barcha ichki sahifalar uchun) ===== */
+:root{--dm-bg:#eef4ff;--dm-bg-elevated:#ffffff;--dm-card:#ffffff;--dm-border:#d3e0f8;--dm-text:#0b1f4d;--dm-text-muted:#5a6b8f;--dm-gold:#1d5cf0;--dm-orange:#e8700a;--dm-success:#16a34a;--dm-error:#e5383b;--dm-shadow:0 10px 28px rgba(20,60,160,.12);--dm-shadow-lg:0 24px 56px rgba(20,60,160,.18);--dm-border-hairline:rgba(20,60,160,.08)}
+body{background:linear-gradient(180deg,#d9e7ff 0,#eef4ff 280px) no-repeat,#eef4ff;color:var(--dm-text)}
+::-webkit-scrollbar-thumb{background:#bcd0f5}
+.dm-premium-card{background:#fff;border:1px solid rgba(29,92,240,.14);box-shadow:0 10px 28px rgba(20,60,160,.1)}
+.dm-premium-card:hover{border-color:rgba(29,92,240,.45)}
+.dm-premium-glow{background:linear-gradient(120deg,rgba(29,92,240,.1),rgba(80,150,255,.14));border:1px solid rgba(29,92,240,.22)}

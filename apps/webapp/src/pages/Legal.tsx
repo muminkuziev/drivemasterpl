@@ -10,7 +10,7 @@ export function Legal() {
 
   return (
     <div className="flex-1 flex flex-col dm-enter">
-      <header className="flex items-center gap-3 px-4 pt-6 pb-3">
+      <header className="dmp-head flex items-center gap-3 px-4 pt-6 pb-3">
         <button
           type="button"
           onClick={() => navigate(-1)}
@@ -24,7 +24,7 @@ export function Legal() {
         </h1>
       </header>
 
-      <div className="flex-1 px-4 pb-6 flex flex-col gap-4 overflow-y-auto">
+      <div className="dmp-body flex-1 px-4 pb-6 flex flex-col gap-4 overflow-y-auto">
         <p className="text-xs" style={{ color: 'var(--dm-text-muted)' }}>
           {content.updated}
         </p>

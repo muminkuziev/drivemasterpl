@@ -80,7 +80,7 @@ export function getTelegramDisplayName(): string | null {
 
 // ---------- Til (locale) ----------
 
-export type Locale = 'uz' | 'ru' | 'en';
+export type Locale = 'uz' | 'ru' | 'en' | 'pl' | 'uk';
 const LOCALE_KEY = 'dm_locale';
 
 export function hasStoredLocale(): boolean {
@@ -89,7 +89,7 @@ export function hasStoredLocale(): boolean {
 
 export function getLocale(): Locale {
   const stored = localStorage.getItem(LOCALE_KEY);
-  if (stored === 'uz' || stored === 'ru' || stored === 'en') return stored;
+  if (stored === 'uz' || stored === 'ru' || stored === 'en' || stored === 'pl' || stored === 'uk') return stored;
   return 'uz';
 }
 
@@ -102,7 +102,7 @@ export function setLocale(locale: Locale) {
  * qo'yamiz, shunda Splash ekrani tilni qayta so'ramaydi. */
 export function applyLocaleFromUrl() {
   const lang = new URLSearchParams(window.location.search).get('lang');
-  if (lang === 'uz' || lang === 'ru' || lang === 'en') {
+  if (lang === 'uz' || lang === 'ru' || lang === 'en' || lang === 'pl' || lang === 'uk') {
     setLocale(lang);
   }
 }

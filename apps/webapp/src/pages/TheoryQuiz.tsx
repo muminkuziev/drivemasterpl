@@ -7,7 +7,7 @@ import { pickText, useTranslation } from '../i18n/LocaleContext';
 import { useProtectedMedia } from '../useProtectedMedia';
 
 const TYPE_ICONS: Record<string, string> = { text: '📝', photo: '🖼', video: '🎥' };
-const LOCALE_FLAG: Record<string, string> = { uz: '🇺🇿', ru: '🇷🇺', en: '🇬🇧' };
+const LOCALE_FLAG: Record<string, string> = { uz: '🇺🇿', ru: '🇷🇺', en: '🇬🇧', pl: '🇵🇱', uk: '🇷🇺' };
 
 interface HistoryEntry {
   question: TheoryQuestion;
@@ -82,7 +82,7 @@ export function TheoryQuiz() {
 
   return (
     <div className="flex-1 flex flex-col dm-enter">
-      <header className="flex items-center gap-3 px-4 pt-6 pb-3">
+      <header className="dmp-head flex items-center gap-3 px-4 pt-6 pb-3">
         <button
           type="button"
           onClick={() => navigate(-1)}
@@ -153,14 +153,14 @@ export function TheoryQuiz() {
             style={{ background: 'var(--dm-card)', border: '1px solid var(--dm-border)', boxShadow: 'var(--dm-shadow)' }}
           >
             <p style={{ color: 'var(--dm-text)' }}>❓ {current.question.textPl}</p>
-            <p className="mt-1" style={{ color: 'var(--dm-text-muted)' }}>
+            {locale !== 'pl' && (<p className="mt-1" style={{ color: 'var(--dm-text-muted)' }}>
               {flag}{' '}
               {pickText(locale, {
                 uz: current.question.textUz,
                 ru: current.question.textRu,
                 en: current.question.textEn,
               })}
-            </p>
+            </p>)}
           </div>
 
           <div className="flex flex-col gap-2">
@@ -189,10 +189,10 @@ export function TheoryQuiz() {
                     {String.fromCharCode(65 + i)})
                   </span>{' '}
                   <span style={{ color: 'var(--dm-text)' }}>{opt.textPl}</span>
-                  <br />
+                  {locale !== 'pl' && (<><br />
                   <span className="text-sm" style={{ color: 'var(--dm-text-muted)' }}>
                     {flag} {pickText(locale, { uz: opt.textUz, ru: opt.textRu, en: opt.textEn })}
-                  </span>
+                  </span></>)}
                 </button>
               );
             })}

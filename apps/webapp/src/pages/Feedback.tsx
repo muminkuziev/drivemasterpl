@@ -9,7 +9,7 @@ export function Feedback() {
   const { t } = useTranslation();
   return (
     <div className="flex-1 flex flex-col dm-enter">
-      <header className="flex items-center gap-3 px-4 pt-6 pb-3">
+      <header className="dmp-head flex items-center gap-3 px-4 pt-6 pb-3">
         <button
           type="button"
           onClick={() => navigate(-1)}
@@ -23,7 +23,7 @@ export function Feedback() {
         </h1>
       </header>
 
-      <div className="flex-1 px-4 pb-6 flex flex-col gap-4">
+      <div className="dmp-body flex-1 px-4 pb-6 flex flex-col gap-4">
         <div
           className="rounded-2xl px-4 py-4"
           style={{ background: 'var(--dm-card)', border: '1px solid var(--dm-border)', boxShadow: 'var(--dm-shadow)' }}

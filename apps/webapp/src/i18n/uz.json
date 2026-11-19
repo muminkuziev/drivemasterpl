@@ -15,6 +15,31 @@
     "tagline": "Intelligence in Motion",
     "chooseLanguage": "Tilni tanlang"
   },
+  "home": {
+    "hello": "Assalomu alaykum!",
+    "welcome": "Xush kelibsiz!",
+    "subtitle": "Polshada haydovchilik guvohnomasini olish va qayta imtihonga tayyorlanish uchun zamonaviy platforma.",
+    "shortcuts": "Tezkor bo'limlar",
+    "quick": {
+      "tests": "Nazariy testlar",
+      "signs": "Yo'l belgilari",
+      "lessons": "Qoidalar va darslar",
+      "videos": "Video darslar"
+    },
+    "exam": {
+      "title": "Imtihonga tayyormisiz?",
+      "text": "Yakuniy sinovdan o'tib, bilimingizni tekshirib ko'ring.",
+      "cta": "Sinovdan o'tish"
+    },
+    "more": "Boshqa bo'limlar",
+    "nav": {
+      "home": "Asosiy",
+      "theory": "Testlar",
+      "signs": "Belgilar",
+      "driver": "Haydovchi",
+      "profile": "Profil"
+    }
+  },
   "mainMenu": {
     "tagline": "Prawo jazdy — o'zbek tilida",
     "item": {
