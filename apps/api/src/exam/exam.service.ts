@@ -1,7 +1,10 @@
 import { BadRequestException, ForbiddenException, Injectable, NotFoundException } from '@nestjs/common';
 import { PrismaService } from '../prisma/prisma.service';
 import { UsersService } from '../users/users.service';
+import { join } from 'path';
 import { isTheoryFreeForAll } from '../content/theory-free-for-all.util';
+import { THEORY_MEDIA_DIR } from '../content/theory-media-dir.util';
+import { readMp4DurationMs } from '../content/mp4-duration';
 import {
   EXAM_DURATION_MS,
   EXAM_MAX_SCORE,
@@ -58,7 +61,7 @@ export class ExamService {
       return (await this.loadAttempt(attemptId))!;
     }
     const startedMs = (attempt.questionStartedAt ?? attempt.startedAt).getTime();
-    const windows = attempt.questions.map((q) => questionTiming(q.scope, q.question.mediaType).totalMs);
+    const windows = attempt.questions.map((q) => questionTiming(q.scope, q.question.mediaType, q.question.mediaDurationMs).totalMs);
     const plan = planAdvance(now, attempt.currentPosition, startedMs, windows);
     if (plan.locks.length === 0) return attempt;
 
@@ -107,6 +110,8 @@ export class ExamService {
       throw new BadRequestException({ code: 'not_enough_questions', message: (e as Error).message });
     }
 
+    await this.ensureDurations(selected.map((s) => s.questionId));
+
     const now = new Date();
     const attempt = await this.prisma.examAttempt.create({
       data: {
@@ -118,6 +123,18 @@ export class ExamService {
       },
     });
     return this.state((await this.loadAttempt(attempt.id))!);
+  }
+
+  /** Tanlangan video savollarning o'lchanmagan davomiyligini fayldan o'qib DB'ga keshlaydi (xato bo'lsa — standart 10 s). */
+  private async ensureDurations(questionIds: string[]) {
+    const missing = await this.prisma.theoryQuestion.findMany({
+      where: { id: { in: questionIds }, mediaType: 'video', mediaDurationMs: null, mediaFileName: { not: null } },
+      select: { id: true, mediaFileName: true },
+    });
+    for (const q of missing) {
+      const ms = readMp4DurationMs(join(THEORY_MEDIA_DIR, q.mediaFileName!));
+      if (ms) await this.prisma.theoryQuestion.update({ where: { id: q.id }, data: { mediaDurationMs: ms } });
+    }
   }
 
   private mapOptions(options: LoadedAttempt['questions'][number]['question']['options'], withCorrect: boolean) {
@@ -179,7 +196,7 @@ export class ExamService {
       ...common,
       current: {
         ...this.mapQuestion(cur, false),
-        timing: questionTiming(cur.scope, cur.question.mediaType),
+        timing: questionTiming(cur.scope, cur.question.mediaType, cur.question.mediaDurationMs),
         elapsedMs: Math.max(0, Date.now() - startedMs),
       },
       questions: null,
@@ -202,7 +219,7 @@ export class ExamService {
     }
     const option = aq.question.options.find((o) => o.id === optionId);
     if (!option) throw new BadRequestException('Variant bu savolga tegishli emas');
-    const timing = questionTiming(aq.scope, aq.question.mediaType);
+    const timing = questionTiming(aq.scope, aq.question.mediaType, aq.question.mediaDurationMs);
     const elapsed = Date.now() - (attempt.questionStartedAt ?? attempt.startedAt).getTime();
     if (elapsed < timing.readMs + timing.videoMs - 1000) {
       throw new BadRequestException({ code: 'too_early', message: "Hali o'qish vaqti" });

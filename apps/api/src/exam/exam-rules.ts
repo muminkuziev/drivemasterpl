@@ -43,11 +43,22 @@ export interface QuestionTiming {
   totalMs: number;
 }
 
-export function questionTiming(scope: string, mediaType: string | null): QuestionTiming {
+/** Video oynasi: real davomiylik + yuklash/dekodlash zaxirasi; noma'lum bo'lsa standart 10 s. Chegaralangan. */
+export function videoWindowMs(durationMs: number | null | undefined): number {
+  if (!durationMs || durationMs <= 0) return VIDEO_MS;
+  const withBuffer = Math.ceil((durationMs + 500) / 100) * 100;
+  return Math.min(60_000, Math.max(2_000, withBuffer));
+}
+
+export function questionTiming(
+  scope: string,
+  mediaType: string | null,
+  mediaDurationMs?: number | null,
+): QuestionTiming {
   if (scope === 'specialist') {
     return { readMs: 0, videoMs: 0, answerMs: SPECIALIST_MS, totalMs: SPECIALIST_MS };
   }
-  const videoMs = mediaType === 'video' ? VIDEO_MS : 0;
+  const videoMs = mediaType === 'video' ? videoWindowMs(mediaDurationMs) : 0;
   return {
     readMs: BASIC_READ_MS,
     videoMs,

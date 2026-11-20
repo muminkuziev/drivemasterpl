@@ -109,6 +109,7 @@ model TheoryQuestion {
 
   mediaFileName   String? // media/theory/ papkasidagi fayl nomi
   mediaType       String? // "photo" | "video"
+  mediaDurationMs Int? // video davomiyligi (ms) — imtihondagi ko'rsatish vaqti uchun; o'lchanmagan bo'lsa null
   telegramFileId  String? // birinchi yuborishdan keyin Telegram qaytargan file_id (qayta yuklamaslik uchun keshlanadi)
 
   options   TheoryOption[]
