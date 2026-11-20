@@ -306,8 +306,8 @@
     "rulesTitle": "Haqiqiy imtihondagidek",
     "rule1": "32 ta savol: 20 ta asosiy (Tak/Nie) va 12 ta ixtisoslashgan (A/B/C).",
     "rule2": "Har bir savol 1, 2 yoki 3 ball. Maksimal 74 ball, o'tish uchun 68 ball kerak.",
-    "rule3": "25 daqiqa vaqt. Vaqt tugasa, natija avtomatik hisoblanadi.",
-    "rule4": "Javoblar oxirigacha ko'rsatilmaydi. Javobsiz savol 0 ball.",
+    "rule3": "25 daqiqa umumiy vaqt. Tugasa, natija avtomatik hisoblanadi.",
+    "rule4": "Asosiy savol: 20 soniya o'qish (video bo'lsa bir marta ko'rsatiladi), keyin 15 soniya javob. Ixtisoslashgan savol: jami 50 soniya.",
     "langNote": "Rasmiy imtihon faqat polyak, ingliz, nemis va ukrain tillarida topshiriladi. O'zbek va rus tarjimalari yordamchi.",
     "start": "Imtihonni boshlash",
     "premiumRequired": "Imtihon rejimi Premium foydalanuvchilar uchun.",
@@ -317,7 +317,7 @@
     "finish": "Yakunlash",
     "finishEarly": "Imtihonni yakunlash",
     "confirmTitle": "Imtihonni yakunlaymizmi?",
-    "confirmText": "Javob berilgan: {answered}/{total}. Javobsiz savollar 0 ball bo'ladi.",
+    "confirmText": "Qolgan savollar javobsiz hisoblanadi (0 ball).",
     "continue": "Davom etish",
     "answerFailed": "Javob saqlanmadi. Internetni tekshirib, qayta tanlang.",
     "result": "Natija",
@@ -328,6 +328,14 @@
     "correct": "to'g'ri",
     "wrong": "xato",
     "unanswered": "javobsiz",
-    "again": "Qayta topshirish"
+    "again": "Qayta topshirish",
+    "rule5": "Orqaga qaytib bo'lmaydi: tasdiqlangan yoki vaqti tugagan savolga qayta kirilmaydi. To'g'ri javoblar oxirida ko'rsatiladi, javobsiz savol 0 ball.",
+    "phaseRead": "O'qing",
+    "phaseVideo": "Video",
+    "phaseAnswer": "Javob bering",
+    "secShort": "s",
+    "videoLater": "Video o'qish vaqti tugagach bir marta ko'rsatiladi",
+    "videoShown": "Video ko'rsatildi",
+    "confirm": "Tasdiqlash"
   }
 }

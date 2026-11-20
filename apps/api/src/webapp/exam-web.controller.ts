@@ -36,6 +36,12 @@ export class ExamWebController {
     return this.exam.answer(requireTelegramId(body.telegramId), id, body.questionId, body.optionId);
   }
 
+  @Post(':id/confirm')
+  confirm(@Param('id') id: string, @Body() body: { telegramId?: string; questionId?: string }) {
+    if (!body.questionId) throw new BadRequestException('questionId majburiy');
+    return this.exam.confirm(requireTelegramId(body.telegramId), id, body.questionId);
+  }
+
   @Post(':id/finish')
   finish(@Param('id') id: string, @Body() body: { telegramId?: string }) {
     return this.exam.finish(requireTelegramId(body.telegramId), id);

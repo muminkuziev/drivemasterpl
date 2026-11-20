@@ -27,6 +27,35 @@ export interface SelectedItem {
   position: number;
 }
 
+/**
+ * Savol boshiga vaqt (rasmiy): asosiy qism — 20 s o'qish, (video bo'lsa ~10 s, bir marta), keyin 15 s javob;
+ * ixtisoslashgan qism — o'qish va javob uchun jami 50 s.
+ */
+export const BASIC_READ_MS = 20_000;
+export const BASIC_ANSWER_MS = 15_000;
+export const VIDEO_MS = 10_000;
+export const SPECIALIST_MS = 50_000;
+
+export interface QuestionTiming {
+  readMs: number; // shu vaqtgacha variant tanlab bo'lmaydi (asosiy qism)
+  videoMs: number; // video bir marta ko'rsatiladigan oyna
+  answerMs: number; // javob oynasi
+  totalMs: number;
+}
+
+export function questionTiming(scope: string, mediaType: string | null): QuestionTiming {
+  if (scope === 'specialist') {
+    return { readMs: 0, videoMs: 0, answerMs: SPECIALIST_MS, totalMs: SPECIALIST_MS };
+  }
+  const videoMs = mediaType === 'video' ? VIDEO_MS : 0;
+  return {
+    readMs: BASIC_READ_MS,
+    videoMs,
+    answerMs: BASIC_ANSWER_MS,
+    totalMs: BASIC_READ_MS + videoMs + BASIC_ANSWER_MS,
+  };
+}
+
 export function shuffle<T>(arr: T[], rng: () => number = Math.random): T[] {
   const a = arr.slice();
   for (let i = a.length - 1; i > 0; i--) {
@@ -56,6 +85,37 @@ export function selectExamQuestions(pool: PoolItem[], rng: () => number = Math.r
     for (const p of shuffle(picked, rng)) out.push({ ...p, position: position++ });
   }
   return out;
+}
+
+export interface AdvancePlan {
+  locks: { position: number; lockedAtMs: number }[];
+  position: number; // yangi joriy savol (total+1 bo'lsa — hammasi tugagan)
+  startedAtMs: number;
+  done: boolean;
+}
+
+/**
+ * Vaqti o'tib ketgan savollarni ketma-ket yopadi (foydalanuvchi ilovani tark etgan bo'lsa ham).
+ * Har bir savolning oynasi tugagach (+grace) u qulflanadi va keyingisi shu paytdan boshlanadi.
+ */
+export function planAdvance(
+  nowMs: number,
+  position: number,
+  startedAtMs: number,
+  windowsMs: number[],
+  graceMs: number = EXAM_GRACE_MS,
+): AdvancePlan {
+  const locks: AdvancePlan['locks'] = [];
+  let pos = position;
+  let start = startedAtMs;
+  while (pos <= windowsMs.length) {
+    const end = start + windowsMs[pos - 1];
+    if (nowMs <= end + graceMs) break;
+    locks.push({ position: pos, lockedAtMs: end });
+    pos++;
+    start = end;
+  }
+  return { locks, position: pos, startedAtMs: start, done: pos > windowsMs.length };
 }
 
 export function computeResult(items: { points: number; isCorrect: boolean | null }[]) {

@@ -306,8 +306,8 @@
     "rulesTitle": "Jak na prawdziwym egzaminie",
     "rule1": "32 pytania: 20 podstawowych (Tak/Nie) i 12 specjalistycznych (A/B/C).",
     "rule2": "Każde pytanie to 1, 2 lub 3 punkty. Maksymalnie 74 punkty, do zdania potrzeba 68.",
-    "rule3": "Masz 25 minut. Po upływie czasu wynik jest liczony automatycznie.",
-    "rule4": "Poprawne odpowiedzi widać dopiero na końcu. Pytanie bez odpowiedzi to 0 punktów.",
+    "rule3": "W sumie 25 minut. Po upływie czasu wynik jest liczony automatycznie.",
+    "rule4": "Pytanie podstawowe: 20 sekund na przeczytanie (film jest odtwarzany raz), potem 15 sekund na odpowiedź. Pytanie specjalistyczne: łącznie 50 sekund.",
     "langNote": "Oficjalny egzamin zdaje się tylko po polsku, angielsku, niemiecku lub ukraińsku. Tłumaczenia na uzbecki i rosyjski są pomocnicze.",
     "start": "Rozpocznij egzamin",
     "premiumRequired": "Tryb egzaminu jest dla użytkowników Premium.",
@@ -317,7 +317,7 @@
     "finish": "Zakończ",
     "finishEarly": "Zakończ egzamin",
     "confirmTitle": "Zakończyć egzamin?",
-    "confirmText": "Odpowiedzi: {answered}/{total}. Pytania bez odpowiedzi dają 0 punktów.",
+    "confirmText": "Pozostałe pytania zostaną policzone jako bez odpowiedzi (0 punktów).",
     "continue": "Kontynuuj",
     "answerFailed": "Odpowiedź nie została zapisana. Sprawdź połączenie i wybierz ponownie.",
     "result": "Wynik",
@@ -328,6 +328,14 @@
     "correct": "dobrze",
     "wrong": "błąd",
     "unanswered": "bez odpowiedzi",
-    "again": "Spróbuj ponownie"
+    "again": "Spróbuj ponownie",
+    "rule5": "Nie można wracać: zatwierdzone lub przeterminowane pytanie jest zamknięte. Poprawne odpowiedzi widać na końcu, brak odpowiedzi to 0 punktów.",
+    "phaseRead": "Czytaj",
+    "phaseVideo": "Film",
+    "phaseAnswer": "Odpowiedz",
+    "secShort": "s",
+    "videoLater": "Film zostanie odtworzony raz po czasie na przeczytanie",
+    "videoShown": "Film został wyświetlony",
+    "confirm": "Zatwierdź"
   }
 }

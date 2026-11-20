@@ -154,15 +154,31 @@ export interface ExamQuestion {
   options: ExamOption[];
 }
 
+export interface ExamTiming {
+  readMs: number;
+  videoMs: number;
+  answerMs: number;
+  totalMs: number;
+}
+
+export interface ExamCurrent extends ExamQuestion {
+  timing: ExamTiming;
+  elapsedMs: number;
+}
+
 export interface ExamState {
   id: string;
   finished: boolean;
+  total: number;
   expiresAt: string;
   remainingMs: number;
   maxScore: number;
   passScore: number;
   result: { score: number; passed: boolean; maxScore: number } | null;
-  questions: ExamQuestion[];
+  /** Imtihon davomida faqat joriy savol (orqaga qaytish yo'q). */
+  current: ExamCurrent | null;
+  /** Faqat imtihon tugagach — hamma savollar tahlil bilan. */
+  questions: ExamQuestion[] | null;
 }
 
 export class ExamError extends Error {
@@ -196,6 +212,10 @@ export function fetchExam(id: string) {
 
 export function answerExam(id: string, questionId: string, optionId: string) {
   return examPost<{ ok: boolean }>(`/api/exam/${id}/answer`, { questionId, optionId });
+}
+
+export function confirmExam(id: string, questionId: string) {
+  return examPost<ExamState>(`/api/exam/${id}/confirm`, { questionId });
 }
 
 export function finishExam(id: string) {

@@ -1,4 +1,4 @@
-﻿-- CreateTable
+-- CreateTable
 CREATE TABLE "exam_attempts" (
     "id" TEXT NOT NULL,
     "userId" TEXT NOT NULL,
@@ -8,6 +8,8 @@ CREATE TABLE "exam_attempts" (
     "score" INTEGER,
     "maxScore" INTEGER NOT NULL DEFAULT 74,
     "passed" BOOLEAN,
+    "currentPosition" INTEGER NOT NULL DEFAULT 1,
+    "questionStartedAt" TIMESTAMP(3),
 
     CONSTRAINT "exam_attempts_pkey" PRIMARY KEY ("id")
 );
@@ -23,6 +25,7 @@ CREATE TABLE "exam_attempt_questions" (
     "selectedOptionId" TEXT,
     "isCorrect" BOOLEAN,
     "answeredAt" TIMESTAMP(3),
+    "lockedAt" TIMESTAMP(3),
 
     CONSTRAINT "exam_attempt_questions_pkey" PRIMARY KEY ("id")
 );

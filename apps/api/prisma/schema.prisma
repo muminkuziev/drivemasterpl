@@ -130,6 +130,10 @@ model ExamAttempt {
   maxScore   Int       @default(74)
   passed     Boolean?
 
+  // Savol-ma'-savol vaqt: hozirgi savol raqami va u ko'rsatilgan vaqt (orqaga qaytish yo'q)
+  currentPosition   Int       @default(1)
+  questionStartedAt DateTime?
+
   questions ExamAttemptQuestion[]
 
   @@index([userId, startedAt])
@@ -148,6 +152,7 @@ model ExamAttemptQuestion {
   selectedOptionId String?
   isCorrect        Boolean?
   answeredAt       DateTime?
+  lockedAt         DateTime? // tasdiqlangan yoki vaqti tugagan — o'zgartirib bo'lmaydi
 
   @@unique([attemptId, position])
   @@map("exam_attempt_questions")

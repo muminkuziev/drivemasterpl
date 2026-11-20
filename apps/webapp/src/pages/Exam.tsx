@@ -1,7 +1,7 @@
-import { useEffect, useMemo, useRef, useState } from 'react';
+import { useEffect, useRef, useState } from 'react';
 import { useNavigate } from 'react-router-dom';
-import { answerExam, ExamError, finishExam, startExam } from '../api';
-import type { ExamOption, ExamQuestion, ExamState } from '../api';
+import { answerExam, confirmExam, ExamError, finishExam, startExam } from '../api';
+import type { ExamCurrent, ExamOption, ExamQuestion, ExamState } from '../api';
 import { haptic } from '../telegram';
 import { pickText, useTranslation } from '../i18n/LocaleContext';
 import { useProtectedMedia } from '../useProtectedMedia';
@@ -15,46 +15,82 @@ function fmt(ms: number) {
 
 const card = { background: 'var(--dm-card)', border: '1px solid var(--dm-border)', boxShadow: 'var(--dm-shadow)' } as const;
 
+type Phase = 'read' | 'video' | 'answer';
+
+function Media({ q, phase }: { q: ExamQuestion; phase: Phase | 'review' }) {
+  const blob = useProtectedMedia(q.imageUrl);
+  const { t } = useTranslation();
+  if (!q.imageUrl) return null;
+  const isVideo = q.mediaType === 'video';
+  // Asosiy qism videosi: o'qish tugagach bir marta ko'rsatiladi (boshqaruvsiz). Boshqa hollarda oddiy.
+  const onceOnly = isVideo && phase !== 'review' && (phase === 'read' || phase === 'video' || phase === 'answer') && q.scope === 'basic';
+  if (isVideo && onceOnly) {
+    if (phase === 'read') {
+      return (
+        <div className="mb-3 rounded-2xl flex items-center justify-center text-sm" style={{ ...card, height: 120, color: 'var(--dm-text-muted)' }}>
+          🎥 {t('exam.videoLater')}
+        </div>
+      );
+    }
+    if (phase === 'answer') {
+      return (
+        <div className="mb-3 rounded-2xl flex items-center justify-center text-sm" style={{ ...card, height: 60, color: 'var(--dm-text-muted)' }}>
+          🎥 {t('exam.videoShown')}
+        </div>
+      );
+    }
+  }
+  if (!blob) return null;
+  return (
+    <div className="mb-3" style={{ borderRadius: 16, overflow: 'hidden' }}>
+      {isVideo ? (
+        <video
+          key={q.id + phase}
+          src={blob}
+          autoPlay={onceOnly}
+          muted={onceOnly}
+          playsInline
+          controls={!onceOnly}
+          controlsList="nodownload noplaybackrate noremoteplayback"
+          disablePictureInPicture
+          onContextMenu={(e) => e.preventDefault()}
+          className="w-full rounded-2xl"
+          style={{ maxHeight: 220, background: '#000', userSelect: 'none', pointerEvents: onceOnly ? 'none' : 'auto' }}
+        />
+      ) : (
+        <img
+          src={blob}
+          alt=""
+          draggable={false}
+          onContextMenu={(e) => e.preventDefault()}
+          className="w-full rounded-2xl object-contain"
+          style={{ maxHeight: 220, background: 'var(--dm-text)', userSelect: 'none' }}
+        />
+      )}
+    </div>
+  );
+}
+
 function QuestionView({
   q,
-  review,
+  phase,
+  selectedId,
+  locked,
   onSelect,
 }: {
   q: ExamQuestion;
-  review: boolean;
+  phase: Phase | 'review';
+  selectedId: string | null;
+  locked: boolean;
   onSelect?: (o: ExamOption) => void;
 }) {
   const { locale } = useTranslation();
   const flag = LOCALE_FLAG[locale] ?? '🇺🇿';
-  const media = useProtectedMedia(q.imageUrl);
+  const review = phase === 'review';
   const abc = q.options.length > 2;
   return (
     <>
-      {q.imageUrl && media && (
-        <div className="mb-3" style={{ borderRadius: 16, overflow: 'hidden' }}>
-          {q.mediaType === 'video' ? (
-            <video
-              key={q.id}
-              src={media}
-              controls
-              controlsList="nodownload noplaybackrate noremoteplayback"
-              disablePictureInPicture
-              onContextMenu={(e) => e.preventDefault()}
-              className="w-full rounded-2xl"
-              style={{ maxHeight: 220, background: '#000', userSelect: 'none' }}
-            />
-          ) : (
-            <img
-              src={media}
-              alt=""
-              draggable={false}
-              onContextMenu={(e) => e.preventDefault()}
-              className="w-full rounded-2xl object-contain"
-              style={{ maxHeight: 220, background: 'var(--dm-text)', userSelect: 'none' }}
-            />
-          )}
-        </div>
-      )}
+      <Media q={q} phase={phase} />
       <div className="rounded-2xl p-4 mb-3" style={card}>
         <p style={{ color: 'var(--dm-text)' }}>❓ {q.textPl}</p>
         {locale !== 'pl' && (
@@ -66,7 +102,7 @@ function QuestionView({
       </div>
       <div className="flex flex-col gap-2">
         {q.options.map((opt, i) => {
-          const selected = q.selectedOptionId === opt.id;
+          const selected = selectedId === opt.id;
           let bg = selected ? 'rgba(212,175,55,0.15)' : 'var(--dm-card)';
           let border = selected ? 'var(--dm-gold)' : 'var(--dm-border)';
           if (review) {
@@ -85,10 +121,10 @@ function QuestionView({
             <button
               key={opt.id}
               type="button"
-              disabled={review}
+              disabled={review || locked}
               onClick={() => onSelect?.(opt)}
               className="dm-press text-left rounded-xl px-4 py-3"
-              style={{ background: bg, border: `1px solid ${border}` }}
+              style={{ background: bg, border: `1px solid ${border}`, opacity: !review && locked ? 0.6 : 1 }}
             >
               {abc && (
                 <span className="font-semibold" style={{ color: 'var(--dm-gold)' }}>
@@ -119,19 +155,20 @@ export function Exam() {
   const [phase, setPhase] = useState<'intro' | 'loading' | 'run' | 'result'>('intro');
   const [error, setError] = useState<string | null>(null);
   const [exam, setExam] = useState<ExamState | null>(null);
-  const [index, setIndex] = useState(0);
-  const [remaining, setRemaining] = useState(0);
+  const [selectedId, setSelectedId] = useState<string | null>(null);
+  const [now, setNow] = useState(Date.now());
   const [confirming, setConfirming] = useState(false);
   const [reviewIdx, setReviewIdx] = useState<number | null>(null);
-  const deadline = useRef(0);
-  const finishing = useRef(false);
+  const [busy, setBusy] = useState(false);
+  // Serverdan kelgan vaqt: joriy savolning o'tgan vaqti va shu paytdagi lokal soat
+  const base = useRef({ elapsed: 0, at: Date.now(), remaining: 0 });
+  const autoFor = useRef<string | null>(null);
 
   async function begin() {
     setPhase('loading');
     setError(null);
     try {
-      const s = await startExam();
-      open(s);
+      open(await startExam());
     } catch (e) {
       setError(e instanceof ExamError ? e.code : 'error');
       setPhase('intro');
@@ -140,78 +177,115 @@ export function Exam() {
 
   function open(s: ExamState) {
     setExam(s);
-    finishing.current = false;
-    if (s.finished) {
+    setBusy(false);
+    if (s.finished || !s.current) {
       setPhase('result');
       return;
     }
-    deadline.current = Date.now() + s.remainingMs;
-    setRemaining(s.remainingMs);
-    const firstOpen = s.questions.findIndex((q) => !q.selectedOptionId);
-    setIndex(firstOpen < 0 ? 0 : firstOpen);
+    base.current = { elapsed: s.current.elapsedMs, at: Date.now(), remaining: s.remainingMs };
+    setSelectedId(s.current.selectedOptionId);
+    setNow(Date.now());
     setPhase('run');
   }
 
   useEffect(() => {
     if (phase !== 'run') return;
-    const id = window.setInterval(() => {
-      const left = deadline.current - Date.now();
-      setRemaining(left);
-      if (left <= 0) void finish();
-    }, 500);
+    const id = window.setInterval(() => setNow(Date.now()), 250);
     return () => window.clearInterval(id);
-    // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [phase, exam?.id]);
+  }, [phase]);
 
-  async function finish() {
-    if (!exam || finishing.current) return;
-    finishing.current = true;
+  const cur: ExamCurrent | null = exam?.current ?? null;
+  const elapsed = base.current.elapsed + (now - base.current.at);
+  const timing = cur?.timing;
+  const curPhase: Phase | null = timing
+    ? elapsed < timing.readMs
+      ? 'read'
+      : elapsed < timing.readMs + timing.videoMs
+        ? 'video'
+        : 'answer'
+    : null;
+  const phaseEnd = timing
+    ? curPhase === 'read'
+      ? timing.readMs
+      : curPhase === 'video'
+        ? timing.readMs + timing.videoMs
+        : timing.totalMs
+    : 0;
+  const phaseStart = timing
+    ? curPhase === 'read'
+      ? 0
+      : curPhase === 'video'
+        ? timing.readMs
+        : timing.readMs + timing.videoMs
+    : 0;
+  const phaseLeft = Math.max(0, phaseEnd - elapsed);
+  const totalLeft = Math.max(0, base.current.remaining - (now - base.current.at));
+
+  async function goConfirm() {
+    if (!exam || !cur || busy) return;
+    setBusy(true);
+    setConfirming(false);
+    try {
+      open(await confirmExam(exam.id, cur.id));
+    } catch {
+      setBusy(false);
+      autoFor.current = null;
+      setError('answer');
+    }
+  }
+
+  // Savol vaqti tugasa — avtomatik tasdiqlash (tanlangan javob bilan yoki javobsiz)
+  useEffect(() => {
+    if (phase !== 'run' || !cur || !timing) return;
+    if (elapsed >= timing.totalMs && autoFor.current !== cur.id) {
+      autoFor.current = cur.id;
+      void goConfirm();
+    }
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [now, phase, cur?.id]);
+
+  async function finishNow() {
+    if (!exam) return;
     setConfirming(false);
     setPhase('loading');
     try {
-      setExam(await finishExam(exam.id));
-      setPhase('result');
+      open(await finishExam(exam.id));
     } catch {
-      finishing.current = false;
-      setError('error');
+      setError('answer');
       setPhase('run');
     }
   }
 
   async function select(opt: ExamOption) {
-    if (!exam) return;
-    const q = exam.questions[index];
-    if (q.selectedOptionId === opt.id) return;
-    const prev = q.selectedOptionId;
+    if (!exam || !cur || curPhase !== 'answer' || busy || selectedId === opt.id) return;
+    const prev = selectedId;
     haptic('light');
-    setExam({
-      ...exam,
-      questions: exam.questions.map((x, i) => (i === index ? { ...x, selectedOptionId: opt.id } : x)),
-    });
+    setSelectedId(opt.id);
     try {
-      await answerExam(exam.id, q.id, opt.id);
+      await answerExam(exam.id, cur.id, opt.id);
       setError(null);
     } catch (e) {
-      setExam((cur) =>
-        cur ? { ...cur, questions: cur.questions.map((x, i) => (i === index ? { ...x, selectedOptionId: prev } : x)) } : cur,
-      );
-      if (e instanceof ExamError && (e.code === 'expired' || e.code === 'finished')) void finish();
+      setSelectedId(prev);
+      if (e instanceof ExamError && (e.code === 'expired' || e.code === 'finished')) void goConfirm();
       else setError('answer');
     }
   }
 
-  const answered = useMemo(() => exam?.questions.filter((q) => q.selectedOptionId).length ?? 0, [exam]);
-
-  const header = (title: string, right?: string) => (
+  const header = (title: string, right?: string, rightColor?: string) => (
     <header className="dmp-head flex items-center gap-3 px-4 pt-6 pb-3">
-      <button type="button" onClick={() => navigate(-1)} className="text-xl px-1" style={{ color: 'var(--dm-text)' }}>
+      <button
+        type="button"
+        onClick={() => (phase === 'run' ? navigate('/menu') : navigate(-1))}
+        className="text-xl px-1"
+        style={{ color: 'var(--dm-text)' }}
+      >
         ‹
       </button>
       <h1 className="text-lg font-bold flex-1" style={{ color: 'var(--dm-text)' }}>
         {title}
       </h1>
       {right && (
-        <span className="text-sm font-bold" style={{ color: 'var(--dm-gold)' }}>
+        <span className="text-sm font-bold" style={{ color: rightColor ?? 'var(--dm-gold)' }}>
           {right}
         </span>
       )}
@@ -243,6 +317,7 @@ export function Exam() {
               <li>{t('exam.rule2')}</li>
               <li>{t('exam.rule3')}</li>
               <li>{t('exam.rule4')}</li>
+              <li>{t('exam.rule5')}</li>
             </ul>
           </div>
           <p className="text-xs mb-3" style={{ color: 'var(--dm-text-muted)' }}>
@@ -270,6 +345,7 @@ export function Exam() {
 
   if (phase === 'result') {
     const r = exam.result!;
+    const qs = exam.questions ?? [];
     return (
       <div className="flex-1 flex flex-col dm-enter">
         {header(t('exam.result'))}
@@ -290,7 +366,7 @@ export function Exam() {
             {t('exam.review')}
           </p>
           <div className="grid gap-2 mb-4" style={{ gridTemplateColumns: 'repeat(8, 1fr)' }}>
-            {exam.questions.map((q, i) => {
+            {qs.map((q, i) => {
               const mark = q.isCorrect ? 'var(--dm-success)' : q.selectedOptionId ? 'var(--dm-error)' : 'var(--dm-text-muted)';
               return (
                 <button
@@ -309,12 +385,12 @@ export function Exam() {
             🟢 {t('exam.correct')} · 🔴 {t('exam.wrong')} · ⚪ {t('exam.unanswered')}
           </p>
 
-          {reviewIdx !== null && (
+          {reviewIdx !== null && qs[reviewIdx] && (
             <div className="mb-4">
               <p className="text-xs mb-2" style={{ color: 'var(--dm-gold)' }}>
-                #{reviewIdx + 1} · {exam.questions[reviewIdx].points} {t('common.pointsShort')}
+                #{reviewIdx + 1} · {qs[reviewIdx].points} {t('common.pointsShort')}
               </p>
-              <QuestionView q={exam.questions[reviewIdx]} review />
+              <QuestionView q={qs[reviewIdx]} phase="review" selectedId={qs[reviewIdx].selectedOptionId} locked />
             </div>
           )}
 
@@ -334,59 +410,62 @@ export function Exam() {
     );
   }
 
-  const q = exam.questions[index];
-  const last = index === exam.questions.length - 1;
-  const low = remaining < 60_000;
+  if (!cur || !timing || !curPhase) return null;
+
+  const canAnswer = curPhase === 'answer' && !busy;
+  const phaseLabel =
+    curPhase === 'read' ? t('exam.phaseRead') : curPhase === 'video' ? t('exam.phaseVideo') : t('exam.phaseAnswer');
+  const span = Math.max(1, phaseEnd - phaseStart);
+  const pct = Math.min(100, Math.max(0, ((elapsed - phaseStart) / span) * 100));
+  const urgent = curPhase === 'answer' && phaseLeft < 6000;
+  const last = cur.position >= exam.total;
+
   return (
     <div className="flex-1 flex flex-col dm-enter">
-      {header(`${t('exam.title')} ${index + 1}/${exam.questions.length}`, fmt(remaining))}
+      {header(`${t('exam.title')} ${cur.position}/${exam.total}`, fmt(totalLeft))}
       <div className="px-4 pb-6 overflow-y-auto flex-1 flex flex-col">
-        <div className="flex items-center gap-2 mb-2 text-xs" style={{ color: 'var(--dm-text-muted)' }}>
-          <span>{q.scope === 'basic' ? t('exam.basic') : t('exam.specialist')}</span>
+        <div className="flex items-center gap-2 mb-1 text-xs" style={{ color: 'var(--dm-text-muted)' }}>
+          <span>{cur.scope === 'basic' ? t('exam.basic') : t('exam.specialist')}</span>
           <span>·</span>
           <span style={{ color: 'var(--dm-gold)' }}>
-            {q.points} {t('common.pointsShort')}
+            {cur.points} {t('common.pointsShort')}
           </span>
-          <span style={{ marginLeft: 'auto', color: low ? 'var(--dm-error)' : undefined }}>
-            {answered}/{exam.questions.length}
+          <span style={{ marginLeft: 'auto', color: urgent ? 'var(--dm-error)' : 'var(--dm-text)', fontWeight: 700 }}>
+            {phaseLabel} · {Math.ceil(phaseLeft / 1000)} {t('exam.secShort')}
           </span>
         </div>
-        <QuestionView q={q} review={false} onSelect={select} />
+        <div className="mb-3" style={{ height: 4, borderRadius: 4, background: 'var(--dm-border)', overflow: 'hidden' }}>
+          <div
+            style={{
+              width: `${100 - pct}%`,
+              height: '100%',
+              background: urgent ? 'var(--dm-error)' : 'var(--dm-gold)',
+              transition: 'width 0.25s linear',
+            }}
+          />
+        </div>
+
+        <QuestionView q={cur} phase={curPhase} selectedId={selectedId} locked={!canAnswer} onSelect={select} />
+
         {error === 'answer' && (
           <p className="text-sm mt-2" style={{ color: 'var(--dm-error)' }}>
             {t('exam.answerFailed')}
           </p>
         )}
-        <div className="flex items-center gap-3 mt-4">
-          <button
-            type="button"
-            disabled={index === 0}
-            onClick={() => setIndex(index - 1)}
-            className="dm-press rounded-2xl px-5 py-4 font-bold"
-            style={{ ...card, color: 'var(--dm-text)', opacity: index === 0 ? 0.5 : 1 }}
-          >
-            ⬅️
-          </button>
-          {!last ? (
-            <button
-              type="button"
-              onClick={() => setIndex(index + 1)}
-              className="dm-press flex-1 rounded-2xl px-5 py-4 font-bold"
-              style={{ background: 'var(--dm-gold)', color: 'var(--dm-bg)' }}
-            >
-              {t('common.next')} ➡️
-            </button>
-          ) : (
-            <button
-              type="button"
-              onClick={() => setConfirming(true)}
-              className="dm-press flex-1 rounded-2xl px-5 py-4 font-bold"
-              style={{ background: 'var(--dm-gold)', color: 'var(--dm-bg)' }}
-            >
-              {t('exam.finish')}
-            </button>
-          )}
-        </div>
+
+        <button
+          type="button"
+          disabled={!canAnswer || !selectedId}
+          onClick={() => void goConfirm()}
+          className="dm-press w-full rounded-2xl px-5 py-4 font-bold mt-4"
+          style={{
+            background: canAnswer && selectedId ? 'var(--dm-gold)' : 'var(--dm-card)',
+            color: canAnswer && selectedId ? 'var(--dm-bg)' : 'var(--dm-text-muted)',
+            border: canAnswer && selectedId ? 'none' : '1px solid var(--dm-border)',
+          }}
+        >
+          {last ? t('exam.finish') : t('exam.confirm')} ➡️
+        </button>
         <button
           type="button"
           onClick={() => setConfirming(true)}
@@ -398,16 +477,13 @@ export function Exam() {
       </div>
 
       {confirming && (
-        <div
-          className="fixed inset-0 flex items-center justify-center px-6"
-          style={{ background: 'rgba(0,0,0,0.6)', zIndex: 50 }}
-        >
+        <div className="fixed inset-0 flex items-center justify-center px-6" style={{ background: 'rgba(0,0,0,0.6)', zIndex: 50 }}>
           <div className="rounded-2xl p-5 w-full" style={{ ...card, maxWidth: 360 }}>
             <p className="font-bold mb-1" style={{ color: 'var(--dm-text)' }}>
               {t('exam.confirmTitle')}
             </p>
             <p className="text-sm mb-4" style={{ color: 'var(--dm-text-muted)' }}>
-              {t('exam.confirmText').replace('{answered}', String(answered)).replace('{total}', String(exam.questions.length))}
+              {t('exam.confirmText')}
             </p>
             <div className="flex gap-3">
               <button
@@ -420,7 +496,7 @@ export function Exam() {
               </button>
               <button
                 type="button"
-                onClick={() => void finish()}
+                onClick={() => void finishNow()}
                 className="dm-press flex-1 rounded-xl py-3 font-bold"
                 style={{ background: 'var(--dm-gold)', color: 'var(--dm-bg)' }}
               >

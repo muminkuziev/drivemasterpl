@@ -4,7 +4,14 @@
  */
 import * as fs from 'fs';
 import * as path from 'path';
-import { computeResult, EXAM_MAX_SCORE, EXAM_PASS_SCORE, selectExamQuestions } from '../src/exam/exam-rules';
+import {
+  computeResult,
+  EXAM_MAX_SCORE,
+  EXAM_PASS_SCORE,
+  planAdvance,
+  questionTiming,
+  selectExamQuestions,
+} from '../src/exam/exam-rules';
 
 const catalog = JSON.parse(
   fs.readFileSync(path.join(__dirname, '..', 'prisma', 'official-catalog-b.json'), 'utf8'),
@@ -59,6 +66,26 @@ try {
   threw = true;
 }
 check('insufficient pool throws', threw);
+
+// ---- savol-ma'-savol vaqt ----
+const tb = questionTiming('basic', null);
+const tv = questionTiming('basic', 'video');
+const ts = questionTiming('specialist', null);
+check('basic text: 20s read + 15s answer', tb.readMs === 20000 && tb.answerMs === 15000 && tb.totalMs === 35000);
+check('basic video: +10s film once', tv.videoMs === 10000 && tv.totalMs === 45000);
+check('specialist: 50s total, no read lock', ts.readMs === 0 && ts.totalMs === 50000);
+
+const W = [35000, 35000, 50000];
+const T0 = 1_000_000;
+let p = planAdvance(T0 + 10_000, 1, T0, W);
+check('mid-window: nothing locked', p.locks.length === 0 && p.position === 1 && !p.done);
+p = planAdvance(T0 + 35_000 + 4_000, 1, T0, W);
+check('within grace: still current', p.locks.length === 0 && p.position === 1);
+p = planAdvance(T0 + 35_000 + 6_000, 1, T0, W);
+check('past grace: q1 locked, q2 starts at q1 end', p.locks.length === 1 && p.position === 2 && p.startedAtMs === T0 + 35_000);
+p = planAdvance(T0 + 200_000, 1, T0, W);
+check('away long: all locked, done', p.locks.length === 3 && p.done && p.position === 4);
+check('total of max windows fits 25 min', 20 * 45_000 + 12 * 50_000 <= 25 * 60_000 + 60_000);
 
 console.log(failures === 0 ? 'ALL OK' : `${failures} FAILED`);
 process.exit(failures === 0 ? 0 : 1);
