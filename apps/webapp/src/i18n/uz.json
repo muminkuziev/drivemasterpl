@@ -302,6 +302,14 @@
     "website": "Rasmiy sayt"
   },
   "exam": {
+    "modePractice": "Mashq rejimi",
+    "modePracticeDesc": "Javob darhol ko'rsatiladi, vaqt bosimisiz, videoni qayta ko'rish mumkin",
+    "modeExam": "Haqiqiy imtihon",
+    "modeExamDesc": "Real qoidalar: vaqt, video bir marta, natija oxirida",
+    "practiceResult": "Mashq natijasi (o'tdi/o'tmadi baholanmaydi)",
+    "next": "Keyingi",
+    "feedbackCorrect": "To'g'ri!",
+    "feedbackWrong": "Noto'g'ri. To'g'ri javob yashil bilan belgilangan",
     "title": "Imtihon",
     "rulesTitle": "Haqiqiy imtihondagidek",
     "rule1": "32 ta savol: 20 ta asosiy (Tak/Nie) va 12 ta ixtisoslashgan (A/B/C).",

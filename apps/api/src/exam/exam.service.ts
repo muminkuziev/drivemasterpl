@@ -20,6 +20,8 @@ const OPTION_ORDER = (a: { textPl: string }, b: { textPl: string }) => {
   return rank(a.textPl) - rank(b.textPl);
 };
 
+const PRACTICE_SESSION_MS = 12 * 60 * 60 * 1000;
+
 type LoadedAttempt = NonNullable<Awaited<ReturnType<ExamService['loadAttempt']>>>;
 
 @Injectable()
@@ -55,6 +57,7 @@ export class ExamService {
   private async advance(attemptId: string): Promise<LoadedAttempt> {
     let attempt = (await this.loadAttempt(attemptId))!;
     if (attempt.finishedAt) return attempt;
+    if (attempt.mode === 'practice') return attempt; // mashq rejimida vaqt bo'yicha qulflash yo'q
     const now = Date.now();
     if (now > attempt.expiresAt.getTime()) {
       await this.finalize(attemptId);
@@ -84,14 +87,14 @@ export class ExamService {
     return attempt;
   }
 
-  async start(telegramId: string) {
+  async start(telegramId: string, mode: 'exam' | 'practice' = 'exam') {
     const user = await this.users.findOrCreateByTelegramId(telegramId);
     if (!user.isPremium && !isTheoryFreeForAll()) {
       throw new ForbiddenException({ code: 'premium_required', message: 'Imtihon rejimi Premium uchun' });
     }
 
     const open = await this.prisma.examAttempt.findFirst({
-      where: { userId: user.id, finishedAt: null },
+      where: { userId: user.id, finishedAt: null, mode },
       orderBy: { startedAt: 'desc' },
     });
     if (open) {
@@ -116,7 +119,8 @@ export class ExamService {
     const attempt = await this.prisma.examAttempt.create({
       data: {
         userId: user.id,
-        expiresAt: new Date(now.getTime() + EXAM_DURATION_MS),
+        mode,
+        expiresAt: new Date(now.getTime() + (mode === 'practice' ? PRACTICE_SESSION_MS : EXAM_DURATION_MS)),
         currentPosition: 1,
         questionStartedAt: now,
         questions: { create: selected },
@@ -177,12 +181,14 @@ export class ExamService {
    */
   state(attempt: LoadedAttempt) {
     const finished = !!attempt.finishedAt;
+    const practice = attempt.mode === 'practice';
     const common = {
       id: attempt.id,
+      mode: attempt.mode,
       finished,
       total: attempt.questions.length,
       expiresAt: attempt.expiresAt.toISOString(),
-      remainingMs: finished ? 0 : Math.max(0, attempt.expiresAt.getTime() - Date.now()),
+      remainingMs: finished || practice ? 0 : Math.max(0, attempt.expiresAt.getTime() - Date.now()),
       maxScore: EXAM_MAX_SCORE,
       passScore: EXAM_PASS_SCORE,
       result: finished ? { score: attempt.score, passed: attempt.passed, maxScore: EXAM_MAX_SCORE } : null,
@@ -196,6 +202,13 @@ export class ExamService {
       ...common,
       current: {
         ...this.mapQuestion(cur, false),
+        // Mashq rejimi: javob berilgach to'g'ri variant va natija ko'rsatiladi
+        ...(practice && cur.selectedOptionId
+          ? {
+              correctOptionId: cur.question.options.find((o) => o.isCorrect)?.id ?? null,
+              isCorrect: cur.isCorrect,
+            }
+          : {}),
         timing: questionTiming(cur.scope, cur.question.mediaType, cur.question.mediaDurationMs),
         elapsedMs: Math.max(0, Date.now() - startedMs),
       },
@@ -219,6 +232,18 @@ export class ExamService {
     }
     const option = aq.question.options.find((o) => o.id === optionId);
     if (!option) throw new BadRequestException('Variant bu savolga tegishli emas');
+    if (attempt.mode === 'practice') {
+      // Birinchi javob qulflanadi, natija darhol qaytariladi
+      const correctOptionId = aq.question.options.find((o) => o.isCorrect)?.id ?? null;
+      if (aq.selectedOptionId) {
+        return { ok: true, isCorrect: aq.isCorrect, correctOptionId, selectedOptionId: aq.selectedOptionId };
+      }
+      await this.prisma.examAttemptQuestion.update({
+        where: { id: aq.id },
+        data: { selectedOptionId: optionId, isCorrect: option.isCorrect, answeredAt: new Date() },
+      });
+      return { ok: true, isCorrect: option.isCorrect, correctOptionId, selectedOptionId: optionId };
+    }
     const timing = questionTiming(aq.scope, aq.question.mediaType, aq.question.mediaDurationMs);
     const elapsed = Date.now() - (attempt.questionStartedAt ?? attempt.startedAt).getTime();
     if (elapsed < timing.readMs + timing.videoMs - 1000) {
@@ -273,7 +298,7 @@ export class ExamService {
       where: { userId: user.id, finishedAt: { not: null } },
       orderBy: { startedAt: 'desc' },
       take: 10,
-      select: { id: true, startedAt: true, score: true, passed: true, maxScore: true },
+      select: { id: true, startedAt: true, score: true, passed: true, maxScore: true, mode: true },
     });
     return rows.map((r) => ({ ...r, startedAt: r.startedAt.toISOString() }));
   }

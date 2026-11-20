@@ -164,10 +164,15 @@ export interface ExamTiming {
 export interface ExamCurrent extends ExamQuestion {
   timing: ExamTiming;
   elapsedMs: number;
+  /** Faqat mashq rejimida va javob berilgach. */
+  correctOptionId?: string | null;
 }
+
+export type ExamMode = 'exam' | 'practice';
 
 export interface ExamState {
   id: string;
+  mode: ExamMode;
   finished: boolean;
   total: number;
   expiresAt: string;
@@ -202,8 +207,8 @@ async function examPost<T>(path: string, body: Record<string, unknown>): Promise
   return res.json() as Promise<T>;
 }
 
-export function startExam() {
-  return examPost<ExamState>('/api/exam/start', {});
+export function startExam(mode: ExamMode = 'exam') {
+  return examPost<ExamState>('/api/exam/start', { mode });
 }
 
 export function fetchExam(id: string) {
@@ -211,7 +216,10 @@ export function fetchExam(id: string) {
 }
 
 export function answerExam(id: string, questionId: string, optionId: string) {
-  return examPost<{ ok: boolean }>(`/api/exam/${id}/answer`, { questionId, optionId });
+  return examPost<{ ok: boolean; isCorrect?: boolean | null; correctOptionId?: string | null; selectedOptionId?: string }>(
+    `/api/exam/${id}/answer`,
+    { questionId, optionId },
+  );
 }
 
 export function confirmExam(id: string, questionId: string) {

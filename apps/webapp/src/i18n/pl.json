@@ -302,6 +302,14 @@
     "website": "Oficjalna strona"
   },
   "exam": {
+    "modePractice": "Tryb ćwiczeń",
+    "modePracticeDesc": "Odpowiedź od razu, bez presji czasu, filmy można oglądać ponownie",
+    "modeExam": "Prawdziwy egzamin",
+    "modeExamDesc": "Prawdziwe zasady: czas, film raz, wynik na końcu",
+    "practiceResult": "Wynik ćwiczenia (zaliczenie nie jest oceniane)",
+    "next": "Dalej",
+    "feedbackCorrect": "Dobrze!",
+    "feedbackWrong": "Źle. Poprawna odpowiedź jest zaznaczona na zielono",
     "title": "Egzamin",
     "rulesTitle": "Jak na prawdziwym egzaminie",
     "rule1": "32 pytania: 20 podstawowych (Tak/Nie) i 12 specjalistycznych (A/B/C).",

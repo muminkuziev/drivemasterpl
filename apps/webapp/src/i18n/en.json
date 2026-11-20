@@ -302,6 +302,14 @@
     "website": "Official website"
   },
   "exam": {
+    "modePractice": "Practice mode",
+    "modePracticeDesc": "See the answer right away, no time pressure, replay videos",
+    "modeExam": "Real exam",
+    "modeExamDesc": "Real rules: timing, video once, result at the end",
+    "practiceResult": "Practice result (pass/fail is not graded)",
+    "next": "Next",
+    "feedbackCorrect": "Correct!",
+    "feedbackWrong": "Wrong. The correct answer is highlighted in green",
     "title": "Exam",
     "rulesTitle": "Just like the real exam",
     "rule1": "32 questions: 20 basic (Tak/Nie) and 12 specialist (A/B/C).",

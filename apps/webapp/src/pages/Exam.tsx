@@ -1,7 +1,7 @@
 import { useEffect, useRef, useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { answerExam, confirmExam, ExamError, finishExam, startExam } from '../api';
-import type { ExamCurrent, ExamOption, ExamQuestion, ExamState } from '../api';
+import type { ExamCurrent, ExamMode, ExamOption, ExamQuestion, ExamState } from '../api';
 import { haptic } from '../telegram';
 import { pickText, useTranslation } from '../i18n/LocaleContext';
 import { useProtectedMedia } from '../useProtectedMedia';
@@ -77,12 +77,18 @@ function QuestionView({
   selectedId,
   locked,
   onSelect,
+  practiceCorrectId,
+  mediaFree,
 }: {
   q: ExamQuestion;
   phase: Phase | 'review';
   selectedId: string | null;
   locked: boolean;
   onSelect?: (o: ExamOption) => void;
+  /** Mashq rejimi: javob berilgach to'g'ri variant id'si (yashil/qizil ko'rsatish uchun). */
+  practiceCorrectId?: string | null;
+  /** Mashq rejimi: video boshqaruv bilan, qayta-qayta ko'riladi. */
+  mediaFree?: boolean;
 }) {
   const { locale } = useTranslation();
   const flag = LOCALE_FLAG[locale] ?? '🇺🇿';
@@ -90,7 +96,7 @@ function QuestionView({
   const abc = q.options.length > 2;
   return (
     <>
-      <Media q={q} phase={phase} />
+      <Media q={q} phase={mediaFree ? 'review' : phase} />
       <div className="rounded-2xl p-4 mb-3" style={card}>
         <p style={{ color: 'var(--dm-text)' }}>❓ {q.textPl}</p>
         {locale !== 'pl' && (
@@ -117,6 +123,15 @@ function QuestionView({
               border = 'var(--dm-border)';
             }
           }
+          if (!review && practiceCorrectId) {
+            if (opt.id === practiceCorrectId) {
+              bg = 'rgba(34,197,94,0.15)';
+              border = 'var(--dm-success)';
+            } else if (selected) {
+              bg = 'rgba(239,68,68,0.15)';
+              border = 'var(--dm-error)';
+            }
+          }
           return (
             <button
               key={opt.id}
@@ -124,7 +139,7 @@ function QuestionView({
               disabled={review || locked}
               onClick={() => onSelect?.(opt)}
               className="dm-press text-left rounded-xl px-4 py-3"
-              style={{ background: bg, border: `1px solid ${border}`, opacity: !review && locked ? 0.6 : 1 }}
+              style={{ background: bg, border: `1px solid ${border}`, opacity: !review && locked && !practiceCorrectId ? 0.6 : 1 }}
             >
               {abc && (
                 <span className="font-semibold" style={{ color: 'var(--dm-gold)' }}>
@@ -160,15 +175,17 @@ export function Exam() {
   const [confirming, setConfirming] = useState(false);
   const [reviewIdx, setReviewIdx] = useState<number | null>(null);
   const [busy, setBusy] = useState(false);
+  // Mashq rejimi: javob berilgach to'g'ri variant id'si
+  const [fb, setFb] = useState<{ correct: string | null } | null>(null);
   // Serverdan kelgan vaqt: joriy savolning o'tgan vaqti va shu paytdagi lokal soat
   const base = useRef({ elapsed: 0, at: Date.now(), remaining: 0 });
   const autoFor = useRef<string | null>(null);
 
-  async function begin() {
+  async function begin(mode: ExamMode = 'exam') {
     setPhase('loading');
     setError(null);
     try {
-      open(await startExam());
+      open(await startExam(mode));
     } catch (e) {
       setError(e instanceof ExamError ? e.code : 'error');
       setPhase('intro');
@@ -184,6 +201,7 @@ export function Exam() {
     }
     base.current = { elapsed: s.current.elapsedMs, at: Date.now(), remaining: s.remainingMs };
     setSelectedId(s.current.selectedOptionId);
+    setFb(s.current.correctOptionId ? { correct: s.current.correctOptionId } : null);
     setNow(Date.now());
     setPhase('run');
   }
@@ -195,14 +213,17 @@ export function Exam() {
   }, [phase]);
 
   const cur: ExamCurrent | null = exam?.current ?? null;
+  const practice = exam?.mode === 'practice';
   const elapsed = base.current.elapsed + (now - base.current.at);
   const timing = cur?.timing;
   const curPhase: Phase | null = timing
-    ? elapsed < timing.readMs
-      ? 'read'
-      : elapsed < timing.readMs + timing.videoMs
-        ? 'video'
-        : 'answer'
+    ? practice
+      ? 'answer'
+      : elapsed < timing.readMs
+        ? 'read'
+        : elapsed < timing.readMs + timing.videoMs
+          ? 'video'
+          : 'answer'
     : null;
   const phaseEnd = timing
     ? curPhase === 'read'
@@ -236,7 +257,7 @@ export function Exam() {
 
   // Savol vaqti tugasa — avtomatik tasdiqlash (tanlangan javob bilan yoki javobsiz)
   useEffect(() => {
-    if (phase !== 'run' || !cur || !timing) return;
+    if (phase !== 'run' || !cur || !timing || practice) return;
     if (elapsed >= timing.totalMs && autoFor.current !== cur.id) {
       autoFor.current = cur.id;
       void goConfirm();
@@ -258,11 +279,16 @@ export function Exam() {
 
   async function select(opt: ExamOption) {
     if (!exam || !cur || curPhase !== 'answer' || busy || selectedId === opt.id) return;
+    if (practice && selectedId) return; // mashqda birinchi javob qulflanadi
     const prev = selectedId;
     haptic('light');
     setSelectedId(opt.id);
     try {
-      await answerExam(exam.id, cur.id, opt.id);
+      const r = await answerExam(exam.id, cur.id, opt.id);
+      if (practice) {
+        if (r.selectedOptionId) setSelectedId(r.selectedOptionId);
+        setFb({ correct: r.correctOptionId ?? null });
+      }
       setError(null);
     } catch (e) {
       setSelectedId(prev);
@@ -330,11 +356,27 @@ export function Exam() {
           )}
           <button
             type="button"
-            onClick={begin}
-            className="dm-press w-full rounded-2xl px-5 py-4 font-bold"
+            onClick={() => void begin('practice')}
+            className="dm-press w-full rounded-2xl px-5 py-4 mb-3 text-left"
+            style={{ ...card, border: '1px solid var(--dm-gold)' }}
+          >
+            <span className="font-bold block" style={{ color: 'var(--dm-gold)' }}>
+              📘 {t('exam.modePractice')}
+            </span>
+            <span className="text-sm block mt-1" style={{ color: 'var(--dm-text-muted)' }}>
+              {t('exam.modePracticeDesc')}
+            </span>
+          </button>
+          <button
+            type="button"
+            onClick={() => void begin('exam')}
+            className="dm-press w-full rounded-2xl px-5 py-4 font-bold text-left"
             style={{ background: 'var(--dm-gold)', color: 'var(--dm-bg)' }}
           >
-            {t('exam.start')}
+            <span className="font-bold block">🎓 {t('exam.modeExam')}</span>
+            <span className="text-sm block mt-1" style={{ opacity: 0.8, fontWeight: 400 }}>
+              {t('exam.modeExamDesc')}
+            </span>
           </button>
         </div>
       </div>
@@ -351,15 +393,28 @@ export function Exam() {
         {header(t('exam.result'))}
         <div className="px-4 pb-8 overflow-y-auto">
           <div className="rounded-2xl p-5 mb-4 text-center" style={card}>
-            <p className="text-4xl font-bold" style={{ color: r.passed ? 'var(--dm-success)' : 'var(--dm-error)' }}>
-              {r.score} / {r.maxScore}
-            </p>
-            <p className="mt-1 font-bold" style={{ color: r.passed ? 'var(--dm-success)' : 'var(--dm-error)' }}>
-              {r.passed ? `✅ ${t('exam.passed')}` : `❌ ${t('exam.failed')}`}
-            </p>
-            <p className="text-xs mt-1" style={{ color: 'var(--dm-text-muted)' }}>
-              {t('exam.passNeeded')}: {exam.passScore}
-            </p>
+            {exam.mode === 'practice' ? (
+              <>
+                <p className="text-4xl font-bold" style={{ color: 'var(--dm-gold)' }}>
+                  {r.score} / {r.maxScore}
+                </p>
+                <p className="text-xs mt-1" style={{ color: 'var(--dm-text-muted)' }}>
+                  {t('exam.practiceResult')}
+                </p>
+              </>
+            ) : (
+              <>
+                <p className="text-4xl font-bold" style={{ color: r.passed ? 'var(--dm-success)' : 'var(--dm-error)' }}>
+                  {r.score} / {r.maxScore}
+                </p>
+                <p className="mt-1 font-bold" style={{ color: r.passed ? 'var(--dm-success)' : 'var(--dm-error)' }}>
+                  {r.passed ? `✅ ${t('exam.passed')}` : `❌ ${t('exam.failed')}`}
+                </p>
+                <p className="text-xs mt-1" style={{ color: 'var(--dm-text-muted)' }}>
+                  {t('exam.passNeeded')}: {exam.passScore}
+                </p>
+              </>
+            )}
           </div>
 
           <p className="font-bold mb-2" style={{ color: 'var(--dm-text)' }}>
@@ -398,7 +453,7 @@ export function Exam() {
             type="button"
             onClick={() => {
               setReviewIdx(null);
-              void begin();
+              void begin(exam.mode === 'practice' ? 'practice' : 'exam');
             }}
             className="dm-press w-full rounded-2xl px-5 py-4 font-bold"
             style={{ background: 'var(--dm-gold)', color: 'var(--dm-bg)' }}
@@ -422,7 +477,7 @@ export function Exam() {
 
   return (
     <div className="flex-1 flex flex-col dm-enter">
-      {header(`${t('exam.title')} ${cur.position}/${exam.total}`, fmt(totalLeft))}
+      {header(`${practice ? t('exam.modePractice') : t('exam.title')} ${cur.position}/${exam.total}`, practice ? undefined : fmt(totalLeft))}
       <div className="px-4 pb-6 overflow-y-auto flex-1 flex flex-col">
         <div className="flex items-center gap-2 mb-1 text-xs" style={{ color: 'var(--dm-text-muted)' }}>
           <span>{cur.scope === 'basic' ? t('exam.basic') : t('exam.specialist')}</span>
@@ -430,22 +485,42 @@ export function Exam() {
           <span style={{ color: 'var(--dm-gold)' }}>
             {cur.points} {t('common.pointsShort')}
           </span>
-          <span style={{ marginLeft: 'auto', color: urgent ? 'var(--dm-error)' : 'var(--dm-text)', fontWeight: 700 }}>
-            {phaseLabel} · {Math.ceil(phaseLeft / 1000)} {t('exam.secShort')}
-          </span>
+          {!practice && (
+            <span style={{ marginLeft: 'auto', color: urgent ? 'var(--dm-error)' : 'var(--dm-text)', fontWeight: 700 }}>
+              {phaseLabel} · {Math.ceil(phaseLeft / 1000)} {t('exam.secShort')}
+            </span>
+          )}
         </div>
-        <div className="mb-3" style={{ height: 4, borderRadius: 4, background: 'var(--dm-border)', overflow: 'hidden' }}>
-          <div
-            style={{
-              width: `${100 - pct}%`,
-              height: '100%',
-              background: urgent ? 'var(--dm-error)' : 'var(--dm-gold)',
-              transition: 'width 0.25s linear',
-            }}
-          />
-        </div>
+        {!practice ? (
+          <div className="mb-3" style={{ height: 4, borderRadius: 4, background: 'var(--dm-border)', overflow: 'hidden' }}>
+            <div
+              style={{
+                width: `${100 - pct}%`,
+                height: '100%',
+                background: urgent ? 'var(--dm-error)' : 'var(--dm-gold)',
+                transition: 'width 0.25s linear',
+              }}
+            />
+          </div>
+        ) : (
+          <div className="mb-3" />
+        )}
 
-        <QuestionView q={cur} phase={curPhase} selectedId={selectedId} locked={!canAnswer} onSelect={select} />
+        <QuestionView
+          q={cur}
+          phase={curPhase}
+          selectedId={selectedId}
+          locked={practice ? busy || !!selectedId : !canAnswer}
+          onSelect={select}
+          practiceCorrectId={practice ? (fb?.correct ?? null) : null}
+          mediaFree={practice}
+        />
+
+        {practice && fb && selectedId && (
+          <p className="text-sm font-bold mt-3" style={{ color: selectedId === fb.correct ? 'var(--dm-success)' : 'var(--dm-error)' }}>
+            {selectedId === fb.correct ? `✅ ${t('exam.feedbackCorrect')}` : `❌ ${t('exam.feedbackWrong')}`}
+          </p>
+        )}
 
         {error === 'answer' && (
           <p className="text-sm mt-2" style={{ color: 'var(--dm-error)' }}>
@@ -464,7 +539,7 @@ export function Exam() {
             border: canAnswer && selectedId ? 'none' : '1px solid var(--dm-border)',
           }}
         >
-          {last ? t('exam.finish') : t('exam.confirm')} ➡️
+          {last ? t('exam.finish') : practice ? t('exam.next') : t('exam.confirm')} ➡️
         </button>
         <button
           type="button"

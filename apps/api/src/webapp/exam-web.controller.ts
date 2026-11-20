@@ -13,8 +13,9 @@ export class ExamWebController {
   constructor(private readonly exam: ExamService) {}
 
   @Post('start')
-  start(@Body() body: { telegramId?: string }) {
-    return this.exam.start(requireTelegramId(body.telegramId));
+  start(@Body() body: { telegramId?: string; mode?: string }) {
+    const mode = body.mode === 'practice' ? 'practice' : 'exam';
+    return this.exam.start(requireTelegramId(body.telegramId), mode);
   }
 
   @Get('history')

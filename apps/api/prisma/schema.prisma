@@ -135,6 +135,9 @@ model ExamAttempt {
   currentPosition   Int       @default(1)
   questionStartedAt DateTime?
 
+  // 'exam' (haqiqiy qoidalar) | 'practice' (javob joyida ko'rsatiladi, vaqt bosimisiz)
+  mode String @default("exam")
+
   questions ExamAttemptQuestion[]
 
   @@index([userId, startedAt])
